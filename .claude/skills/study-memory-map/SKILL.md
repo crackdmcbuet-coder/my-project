@@ -38,8 +38,11 @@ margin). That emphasis is often more predictive of the exam than the printed tex
 has to be read visually.
 
 ```bash
-python .claude/skills/study-memory-map/scripts/pdf_to_pages.py note.pdf pages --check-only
+python3 <repo>/.claude/skills/study-memory-map/scripts/pdf_to_pages.py note.pdf pages --check-only
 ```
+
+Use the script's absolute path — the shell's working directory is not always the repo root,
+and a relative path fails with a confusing "No such file" that looks like the skill is missing.
 
 If it reports a text layer, extract text instead — far cheaper. If not, drop
 `--check-only` to render every page, then read the PNGs **one at a time, in order**.
@@ -67,6 +70,15 @@ which confusions the examiner actually exploits.
 
 Read `references/structure.md` for the full fifteen-part specification. Write the parts
 in order; later ones reuse tables from earlier ones.
+
+The fifteen parts are a frame, not a quota. A chapter may simply not contain what a part
+asks for — a plant-reproduction chapter has no diseases, a taxonomy chapter may have no
+numbers worth collecting. Don't pad the part with thin material and don't silently drop
+it: give that slot to the closest thing the chapter *does* have a dense many-to-many
+mapping for (in the plant-reproduction case, the before-fertilisation → after-fertilisation
+table, which is the single most-examined mapping in the chapter), keep the part number, and
+say in one line at the top what it now holds and why. The point of the part is the
+cross-linking it forces, not its title.
 
 Compose the HTML in chunks — one file per part in a build directory, then concatenate —
 rather than one enormous write. It keeps each part editable and makes tag-balance
@@ -112,6 +124,13 @@ invented here becomes something they confidently write down wrong. So:
   form will hesitate. Note the correct form alongside if it helps, but do not replace.
 - **Where two books in the same deck disagree**, show both with their own references
   rather than merging. The disagreement is itself examinable.
+- **A source also contradicts itself.** The same fact can appear twice in one book with
+  different values — a variety numbered BR-15 on one page and BR-16 on another. Don't
+  quietly pick one, and don't average them. Record both with their page numbers, say
+  plainly that the source is inconsistent, and give the student the discriminator that
+  actually decides it (usually which list or context the question is asking about). An
+  inconsistency you name is a fact they can use; one you resolve for them is a coin flip
+  you made on their behalf.
 
 ---
 
