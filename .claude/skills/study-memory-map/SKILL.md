@@ -10,7 +10,9 @@ description: >
   a cheat sheet, a mind map, a confusion list, or anything they will study from —
   including when they only say "make notes from this PDF" or "সব একসাথে সাজাও" without
   naming a format. Also use it when someone asks to extend, correct, or add a chapter to
-  a memory map that already exists in memory-maps/.
+  a memory map that already exists in memory-maps/. Use it too when they say the
+  examples will not stick and they want tricks, mnemonics, or memory hooks for them —
+  that builds the companion anchor book, not a second map.
 ---
 
 # Study memory map
@@ -175,6 +177,22 @@ something up.
 Weight follows the source's own emphasis. A topic the deck marks `★★★` and lists against
 six exam years gets a full profile card; a topic marked `★` and never examined gets a
 table row. Reproducing the teacher's emphasis is part of reproducing the teacher's note.
+
+---
+
+## The anchor book
+
+A map organises facts; it does not by itself make a list of unfamiliar names stick.
+When the student says the examples will not stay in their head and asks for tricks,
+build the companion document — `memory-maps/<chapter-slug>-anchors.html` — which binds
+each examinable example to something they already know.
+
+Read `references/anchor-book.md` before writing one. The two things that decide whether
+it works: build **one common system** for a group of similar examples rather than a
+mnemonic per item, and give every confusable pair a **contrast block** whose closing
+line names the single discriminator. And never bend a fact to fit an anchor — tag
+anything from outside the source as `PDF-এর বাইরে` so the student can see what they may
+write in the exam.
 
 ---
 

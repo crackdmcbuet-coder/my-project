@@ -1,0 +1,1164 @@
+<title>উদ্ভিদ প্রজনন অ্যাঙ্কর বুক</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Noto+Serif+Bengali:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@1,8..60,400;1,8..60,600&display=swap">
+<style>
+:root{
+  --paper:#F5F6F1; --paper-2:#ECEEE7; --card:#FFFFFF; --ink:#17211C; --ink-2:#41504A;
+  --ink-3:#6B7B74; --rule:#D6DBD3; --rule-2:#C2C9BE;
+  --green:#2A6B52; --green-soft:#E3EFE8;
+  --brown:#8A5A21; --brown-soft:#F4EADC;
+  --red:#A83359; --red-soft:#F9E4EC;
+  --gold:#8A5F04; --gold-soft:#F9EFCE;
+  --fire:#BA4718; --fire-soft:#FAE6DC;
+  --teal:#13606E; --teal-soft:#DCEBEE;
+  --violet:#553796; --violet-soft:#E9E3F7;
+  --shadow:0 1px 2px rgba(23,33,28,.06),0 6px 20px -12px rgba(23,33,28,.28);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --paper:#101613; --paper-2:#161E1A; --card:#18211D; --ink:#E3E9E3; --ink-2:#AFBCB4;
+    --ink-3:#7F8F86; --rule:#28332D; --rule-2:#35423B;
+    --green:#6BC79B; --green-soft:#162A20;
+    --brown:#D3A163; --brown-soft:#2A2018;
+    --red:#EE8AB1; --red-soft:#2E1A24;
+    --gold:#DCC05A; --gold-soft:#282314;
+    --fire:#EE9068; --fire-soft:#2C1B12;
+    --teal:#5FBDBB; --teal-soft:#122726;
+    --violet:#AF9AE8; --violet-soft:#1D1930;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px -14px rgba(0,0,0,.8);
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#101613; --paper-2:#161E1A; --card:#18211D; --ink:#E3E9E3; --ink-2:#AFBCB4;
+  --ink-3:#7F8F86; --rule:#28332D; --rule-2:#35423B;
+  --green:#6BC79B; --green-soft:#162A20;
+  --brown:#D3A163; --brown-soft:#2A2018;
+  --red:#EE8AB1; --red-soft:#2E1A24;
+  --gold:#DCC05A; --gold-soft:#282314;
+  --fire:#EE9068; --fire-soft:#2C1B12;
+  --teal:#5FBDBB; --teal-soft:#122726;
+  --violet:#AF9AE8; --violet-soft:#1D1930;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px -14px rgba(0,0,0,.8);
+}
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--paper); color:var(--ink);
+  font-family:'Hind Siliguri',system-ui,sans-serif; font-size:16.5px; line-height:1.72;
+  -webkit-text-size-adjust:100%;
+}
+.wrap{max-width:1000px;margin:0 auto;padding:0 20px 120px}
+h1,h2,h3,h4{font-family:'Noto Serif Bengali','Hind Siliguri',serif;text-wrap:balance;line-height:1.35;margin:0}
+i,em,.sci{font-family:'Source Serif 4',Georgia,serif;font-style:italic}
+b,strong{font-weight:600}
+.org{font-weight:700;color:var(--green)}
+code,.mono,.num{font-family:'IBM Plex Mono',ui-monospace,monospace;font-variant-numeric:tabular-nums}
+
+/* ---------- masthead ---------- */
+.mast{border-bottom:1px solid var(--rule);background:var(--paper-2)}
+.mast-in{max-width:1000px;margin:0 auto;padding:34px 20px 26px;display:flex;flex-direction:column;gap:12px}
+.eyebrow{font-size:12.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3);font-weight:600;font-family:'IBM Plex Mono',monospace}
+.mast h1{font-size:clamp(28px,5.2vw,42px);font-weight:700;letter-spacing:-.01em}
+.mast p{margin:0;color:var(--ink-2);max-width:64ch;font-size:15.5px}
+.src{display:flex;flex-wrap:wrap;gap:8px;margin-top:4px}
+.src span{font-size:12px;font-family:'IBM Plex Mono',monospace;padding:4px 9px;border:1px solid var(--rule-2);border-radius:99px;color:var(--ink-3)}
+
+/* ---------- nav ---------- */
+nav{position:sticky;top:0;z-index:40;background:color-mix(in srgb,var(--paper) 92%,transparent);
+  backdrop-filter:blur(10px);border-bottom:1px solid var(--rule)}
+.nav-in{max-width:1000px;margin:0 auto;display:flex;gap:6px;overflow-x:auto;padding:9px 14px;scrollbar-width:thin}
+nav a{flex:0 0 auto;font-size:12.5px;font-family:'IBM Plex Mono',monospace;text-decoration:none;color:var(--ink-2);
+  padding:5px 10px;border-radius:6px;border:1px solid transparent;white-space:nowrap}
+nav a:hover,nav a:focus-visible{background:var(--green-soft);color:var(--green);border-color:var(--rule-2)}
+nav a:focus-visible{outline:2px solid var(--green);outline-offset:1px}
+
+/* ---------- part headers ---------- */
+.part{margin:64px 0 0;scroll-margin-top:60px}
+.part-head{display:flex;align-items:baseline;gap:14px;padding-bottom:10px;border-bottom:2px solid var(--ink);margin-bottom:22px}
+.part-no{font-family:'IBM Plex Mono',monospace;font-size:13px;font-weight:600;color:var(--green);letter-spacing:.06em}
+.part-head h2{font-size:clamp(21px,3.4vw,27px);font-weight:700;flex:1}
+.lede{color:var(--ink-2);font-size:15px;margin:-8px 0 22px;max-width:66ch}
+
+h3{font-size:19px;font-weight:600;margin:34px 0 12px;padding-left:12px;border-left:3px solid var(--green)}
+h4{font-size:16px;font-weight:600;margin:22px 0 8px;color:var(--ink-2)}
+
+/* ---------- refs ---------- */
+.ref{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--ink-3);white-space:nowrap;
+  border:1px solid var(--rule);border-radius:4px;padding:1px 5px;margin-left:4px;display:inline-block;
+  vertical-align:1px;background:var(--paper-2)}
+
+/* ---------- tables ---------- */
+.tw{overflow-x:auto;border:1px solid var(--rule);border-radius:10px;margin:16px 0;background:var(--card);box-shadow:var(--shadow)}
+table{border-collapse:collapse;width:100%;min-width:560px;font-size:14.5px}
+th,td{text-align:left;padding:9px 13px;border-bottom:1px solid var(--rule);vertical-align:top;line-height:1.55}
+th{background:var(--paper-2);font-weight:600;font-size:13px;letter-spacing:.02em;color:var(--ink-2);position:sticky;top:0}
+tbody tr:last-child td{border-bottom:0}
+tbody tr:hover{background:var(--paper-2)}
+td.k{font-weight:600;color:var(--ink);white-space:nowrap}
+
+/* ---------- pigment chips ---------- */
+.chip{display:inline-block;font-size:11.5px;font-family:'IBM Plex Mono',monospace;padding:1px 7px;border-radius:99px;font-weight:500;white-space:nowrap}
+.c-green{background:var(--green-soft);color:var(--green)}
+.c-brown{background:var(--brown-soft);color:var(--brown)}
+.c-red{background:var(--red-soft);color:var(--red)}
+.c-gold{background:var(--gold-soft);color:var(--gold)}
+.c-fire{background:var(--fire-soft);color:var(--fire)}
+.c-teal{background:var(--teal-soft);color:var(--teal)}
+.c-violet{background:var(--violet-soft);color:var(--violet)}
+
+/* ---------- boxes ---------- */
+.box{background:var(--card);border:1px solid var(--rule);border-radius:10px;padding:16px 18px;margin:16px 0;box-shadow:var(--shadow)}
+.patch{border-left:4px solid var(--red);background:var(--card);border-radius:0 10px 10px 0;padding:16px 18px;margin:18px 0;
+  border-top:1px solid var(--rule);border-right:1px solid var(--rule);border-bottom:1px solid var(--rule);box-shadow:var(--shadow)}
+.patch>.ttl{font-family:'Noto Serif Bengali',serif;font-weight:700;font-size:16.5px;color:var(--red);margin-bottom:10px;display:block}
+.patch dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:6px 14px;font-size:14.5px}
+.patch dt{font-weight:600;color:var(--ink-2);white-space:nowrap;font-size:13px;padding-top:2px}
+.patch dd{margin:0}
+.hook{border-left:4px solid var(--gold);background:var(--gold-soft);border-radius:0 8px 8px 0;padding:10px 14px;margin:12px 0;font-size:14.5px}
+.hook b{color:var(--gold)}
+.warn{border-left:4px solid var(--fire);background:var(--fire-soft);border-radius:0 8px 8px 0;padding:10px 14px;margin:12px 0;font-size:14.5px}
+.gap{border:1px dashed var(--rule-2);border-radius:8px;padding:10px 14px;margin:12px 0;font-size:13.5px;color:var(--ink-3);background:var(--paper-2)}
+
+/* ---------- trees / maps ---------- */
+.tree{font-size:14.5px;line-height:1.85;margin:14px 0;padding-left:2px}
+.tree ul{list-style:none;margin:0;padding-left:20px;border-left:1px solid var(--rule-2)}
+.tree>ul{padding-left:0;border-left:0}
+.tree li{position:relative;padding-left:16px}
+.tree>ul>li{padding-left:0}
+.tree li::before{content:"";position:absolute;left:0;top:.95em;width:11px;height:1px;background:var(--rule-2)}
+.tree>ul>li::before{display:none}
+.tree .node{font-weight:600;color:var(--ink)}
+.tree .root{font-family:'Noto Serif Bengali',serif;font-weight:700;font-size:17px;color:var(--green);display:block;margin-bottom:4px}
+
+/* ---------- profile cards ---------- */
+.prof{background:var(--card);border:1px solid var(--rule);border-radius:12px;margin:22px 0;overflow:hidden;box-shadow:var(--shadow)}
+.prof-h{background:var(--paper-2);padding:13px 18px;border-bottom:1px solid var(--rule);display:flex;flex-wrap:wrap;gap:10px;align-items:baseline}
+.prof-h .nm{font-family:'Source Serif 4',serif;font-style:italic;font-weight:600;font-size:20px;color:var(--green)}
+.prof-h .bn{color:var(--ink-2);font-size:14px}
+.prof-b{padding:6px 18px 16px}
+.prof-b dl{display:grid;grid-template-columns:minmax(110px,auto) 1fr;gap:0;font-size:14.5px;margin:0}
+.prof-b dt{font-weight:600;color:var(--ink-2);padding:7px 14px 7px 0;border-bottom:1px solid var(--rule);font-size:13.5px}
+.prof-b dd{margin:0;padding:7px 0;border-bottom:1px solid var(--rule)}
+.prof-b dl>*:nth-last-child(-n+2){border-bottom:0}
+.link-chain{font-size:14px;font-family:'IBM Plex Mono',monospace;background:var(--paper-2);border-radius:8px;padding:11px 14px;margin:12px 0;line-height:2;color:var(--ink-2)}
+.link-chain b{color:var(--green);font-family:'Hind Siliguri',sans-serif}
+
+/* ---------- misc ---------- */
+ul.plain{margin:10px 0;padding-left:22px}
+ul.plain li{margin:5px 0}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;margin:16px 0}
+.stat{display:flex;gap:12px;align-items:baseline;padding:7px 0;border-bottom:1px solid var(--rule)}
+.stat:last-child{border-bottom:0}
+.stat .v{font-family:'IBM Plex Mono',monospace;font-weight:600;color:var(--green);font-size:15px;min-width:88px;font-variant-numeric:tabular-nums}
+.star{color:var(--fire);font-weight:700;font-size:12px;letter-spacing:-1px}
+hr.soft{border:0;border-top:1px solid var(--rule);margin:30px 0}
+.toplink{display:inline-block;font-size:12px;font-family:'IBM Plex Mono',monospace;color:var(--ink-3);text-decoration:none;margin-top:26px}
+.toplink:hover{color:var(--green)}
+footer{margin-top:70px;padding-top:22px;border-top:1px solid var(--rule);color:var(--ink-3);font-size:13.5px}
+@media (max-width:560px){
+  body{font-size:16px}
+  .prof-b dl{grid-template-columns:1fr}
+  .prof-b dt{border-bottom:0;padding-bottom:0}
+  .patch dl{grid-template-columns:1fr;gap:2px 0}
+  .patch dt{margin-top:8px}
+}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+
+/* ---------- anchor cards ---------- */
+.anch{background:var(--card);border:1px solid var(--rule);border-left:4px solid var(--violet);
+  border-radius:0 12px 12px 0;margin:20px 0;overflow:hidden;box-shadow:var(--shadow)}
+.anch-h{background:var(--paper-2);padding:12px 18px;border-bottom:1px solid var(--rule);
+  display:flex;flex-wrap:wrap;gap:10px;align-items:baseline}
+.anch-h .nm{font-family:'Noto Serif Bengali',serif;font-weight:700;font-size:17.5px;color:var(--violet);flex:1;min-width:200px}
+.anch-b{padding:4px 18px 14px}
+.anch-b dl{display:grid;grid-template-columns:minmax(120px,auto) 1fr;gap:0;font-size:14.5px;margin:0}
+.anch-b dt{font-weight:600;color:var(--ink-2);padding:8px 14px 8px 0;border-bottom:1px solid var(--rule);font-size:12.5px;
+  letter-spacing:.02em;text-transform:uppercase;font-family:'IBM Plex Mono',monospace}
+.anch-b dd{margin:0;padding:8px 0;border-bottom:1px solid var(--rule);line-height:1.7}
+.anch-b dl>*:nth-last-child(-n+2){border-bottom:0}
+.scene{background:var(--teal-soft);border-radius:8px;padding:10px 14px;margin:2px 0;color:var(--ink);font-size:14.5px;line-height:1.75}
+.bind{font-family:'IBM Plex Mono',monospace;font-size:14px;background:var(--gold-soft);color:var(--ink);
+  border-radius:6px;padding:8px 12px;display:inline-block;line-height:1.9}
+.rev{background:var(--green-soft);border-radius:8px;padding:10px 14px;font-size:14.5px;line-height:1.75}
+.extra{font-size:12.5px;color:var(--ink-3);font-style:normal;background:var(--paper-2);
+  border:1px dashed var(--rule-2);border-radius:4px;padding:1px 6px;white-space:nowrap;display:inline-block}
+.pri{font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--fire);white-space:nowrap;letter-spacing:-1px}
+.sys{background:var(--card);border:1px solid var(--rule-2);border-radius:12px;padding:18px 20px;margin:22px 0;box-shadow:var(--shadow)}
+.sys>h4{margin-top:0;font-size:18px;font-family:'Noto Serif Bengali',serif;font-weight:700;color:var(--teal)}
+.qa{border-left:3px solid var(--rule-2);padding:2px 0 2px 14px;margin:14px 0;font-size:15px}
+.qa .q{font-weight:600}
+.qa .a{color:var(--ink-2);margin-top:4px}
+@media (max-width:560px){.anch-b dl{grid-template-columns:1fr}.anch-b dt{border-bottom:0;padding-bottom:0}}
+.vs{background:var(--card);border:1px solid var(--rule);border-radius:12px;margin:20px 0;overflow:hidden;box-shadow:var(--shadow)}
+.vs-h{background:var(--paper-2);padding:11px 18px;border-bottom:1px solid var(--rule);font-family:'Noto Serif Bengali',serif;
+  font-weight:700;font-size:16.5px;color:var(--red);display:flex;flex-wrap:wrap;gap:10px;align-items:baseline}
+.vs-h .pri{margin-left:auto}
+.vs-g{display:grid;grid-template-columns:1fr 1fr;gap:0}
+.vs-g>div{padding:13px 18px;font-size:14.5px;line-height:1.75}
+.vs-g>div:first-child{border-right:1px solid var(--rule)}
+.vs-g .lbl{display:block;font-family:'IBM Plex Mono',monospace;font-size:12px;text-transform:uppercase;letter-spacing:.04em;
+  color:var(--ink-3);margin-bottom:5px}
+.vs-g .who{font-weight:700;color:var(--teal)}
+.vs-key{border-top:1px solid var(--rule);background:var(--gold-soft);padding:12px 18px;font-size:14.5px;line-height:1.75}
+.vs-key b{color:var(--gold)}
+@media (max-width:560px){.vs-g{grid-template-columns:1fr}.vs-g>div:first-child{border-right:0;border-bottom:1px solid var(--rule)}}
+details.qq{background:var(--card);border:1px solid var(--rule);border-radius:8px;padding:11px 15px;margin:9px 0;box-shadow:var(--shadow)}
+details.qq>summary{cursor:pointer;font-weight:600;font-size:15px;list-style:none;line-height:1.65}
+details.qq>summary::-webkit-details-marker{display:none}
+details.qq>summary::before{content:"\25B8  ";color:var(--violet);font-weight:700}
+details.qq[open]>summary::before{content:"\25BE  "}
+details.qq .ans{margin-top:9px;padding-top:9px;border-top:1px solid var(--rule);color:var(--ink-2);font-size:14.5px;line-height:1.75}
+details.qq .ans b{color:var(--ink)}
+.qnum{font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--ink-3);margin-right:6px}
+</style>
+
+<header class="mast">
+  <div class="mast-in">
+    <div class="eyebrow">অধ্যায় ১০ · উদ্ভিদ প্রজনন · উদাহরণ-বাইন্ডিং</div>
+    <h1>উদ্ভিদ প্রজনন অ্যাঙ্কর বুক</h1>
+    <p>উদাহরণ মুখস্থ হয় না, কারণ নামগুলো সম্পূর্ণ নতুন। এখানে প্রতিটি উদাহরণকে <b>আপনার আগে থেকে চেনা</b> কোনো জিনিসের সাথে বেঁধে দেওয়া হয়েছে — রান্নাঘরের সবজি, বাংলা বাগধারা, ইংরেজি শব্দের মিল, বাড়ির দরজা। এক জিনিস মনে পড়লেই অন্যটা টেনে আসবে।</p>
+    <div class="src">
+      <span>সঙ্গী: <b>উদ্ভিদ প্রজনন মেমোরি ম্যাপ</b></span><span>উৎস: ৫৯ স্লাইড</span><span>আবুল হাসান স্যার পৃ. ৩৫৪–৩৭৩</span>
+    </div>
+  </div>
+</header>
+<nav><div class="nav-in">
+  <a href="#how">ব্যবহারবিধি</a><a href="#sys">১ · কমন সিস্টেম</a><a href="#cards">২ · অ্যাঙ্কর কার্ড</a>
+  <a href="#contrast">৩ · গুলিয়ে যাওয়া জোড়া</a><a href="#top20">৪ · Top 20</a><a href="#map">৫ · ওয়ান-পেজ ম্যাপ</a>
+  <a href="#rapid">৬ · র‍্যাপিড রিকল</a><a href="#reverse">৭ · রিভার্স প্রশ্ন</a>
+</div></nav>
+<div class="wrap">
+
+<section class="part" id="how">
+  <div class="part-head"><span class="part-no">শুরুর আগে</span><h2>এই বইটা কীভাবে কাজ করে</h2></div>
+
+  <div class="two">
+    <div class="box"><h4 style="margin-top:0">প্রতিটি কার্ডে যা থাকে</h4>
+      <ul class="plain">
+        <li><b>মূল তথ্য</b> — বইয়ে ঠিক যা লেখা, স্লাইড রেফারেন্সসহ</li>
+        <li><b>অ্যাঙ্কর</b> — আপনার চেনা কোন জিনিসের সাথে মিল</li>
+        <li><b>বাইন্ডিং</b> — চেনা জিনিস → নতুন তথ্য</li>
+        <li><b>দৃশ্য</b> — ৫–১০ সেকেন্ডে কল্পনা করার মতো ছবি</li>
+        <li><b>শব্দখেলা</b> — যেখানে নামের সাথে স্বাভাবিক মিল আছে (জোর করে বানানো হয়নি)</li>
+        <li><b>কেন কাজ করে</b> — এক লাইনে</li>
+        <li><b>উল্টো দিক</b> — চোখ বন্ধ করে ফিরিয়ে আনার cue</li>
+      </ul>
+    </div>
+    <div class="box"><h4 style="margin-top:0">দুটো নিয়ম, যা ভাঙা হয়নি</h4>
+      <ul class="plain">
+        <li><b>তথ্য বদলানো হয়নি।</b> অ্যাঙ্কর হলো মনে রাখার হাতল — তথ্য নয়। বইয়ের শব্দ ও অর্থ হুবহু রাখা হয়েছে।</li>
+        <li><b>বইয়ের বাইরের কিছু বললে চিহ্নিত করা হয়েছে</b> — <span class="extra">PDF-এর বাইরে</span> ট্যাগ দিয়ে। ওগুলো পরীক্ষায় লেখার জন্য নয়, শুধু মনে রাখার সিঁড়ি।</li>
+      </ul>
+      <div class="warn" style="margin-bottom:0"><b>গুরুত্বপূর্ণ:</b> দৃশ্য যত অদ্ভুত, তত ভালো — কিন্তু খাতায় লিখবেন <b>মূল তথ্য</b>, অ্যাঙ্কর নয়।</div>
+    </div>
+  </div>
+
+  <div class="box">
+    <h4 style="margin-top:0">অগ্রাধিকার চিহ্ন</h4>
+    <div class="tw"><table>
+      <thead><tr><th>চিহ্ন</th><th>মানে</th><th>এ অধ্যায়ে কী পড়ে</th></tr></thead>
+      <tbody>
+        <tr><td class="pri">★★★★★</td><td>অবশ্যই মুখস্থ + শক্ত বাইন্ডিং</td><td>ডিম্বকের ৪ প্রকার · পরাগনালিকার ৩ পথ · পার্থেনোজেনেসিসের উদাহরণ · ভ্রূণথলির টাইপ</td></tr>
+        <tr><td class="pri">★★★★</td><td>গুরুত্বপূর্ণ</td><td>অঙ্গজ প্রজননের তালিকা · কলমের উদাহরণ · এরিল · জাতীয় প্রতীক · ধানের জাত</td></tr>
+        <tr><td class="pri">★★★</td><td>জানা দরকার</td><td>হোমো/হেটেরোস্পোরাস · ফুলের লিঙ্গ · অযৌন স্পোরের উদাহরণ</td></tr>
+        <tr><td class="pri">★★</td><td>সহায়ক</td><td>পলিনিয়ামের গোত্র · নামের সাথে যুক্ত সাল</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+  <a class="toplink" href="#how">↑ উপরে</a>
+</section>
+<section class="part" id="sys">
+  <div class="part-head"><span class="part-no">১</span><h2>পাঁচটি কমন মেমোরি সিস্টেম</h2></div>
+  <p class="lede">অনেকগুলো উদাহরণ একসাথে থাকলে প্রতিটির জন্য আলাদা mnemonic বানালে মাথা ভরে যায়। তাই <b>একটাই দৃশ্য</b>, তার ভেতরে সব উদাহরণ বসানো।</p>
+
+  <div class="sys">
+    <h4>সিস্টেম ১ · আলুর চার ভাই <span class="pri">★★★★★</span></h4>
+    <p>এ অধ্যায়ে <b>চারটি আলাদা "আলু"</b> আছে, আর চারটিই <b>আলাদা অঙ্গ</b> দিয়ে বংশবিস্তার করে। এটাই অধ্যায়ের সবচেয়ে বড় ফাঁদ — এবং সবচেয়ে সহজ বাইন্ডিং।</p>
+    <div class="tw"><table>
+      <thead><tr><th>ভাই</th><th>কোন অঙ্গ</th><th>কোথায় থাকে</th><th>বাঁধার সুতো</th></tr></thead>
+      <tbody>
+        <tr><td class="k">মিষ্টি আলু</td><td><b>মূল</b></td><td>মাটির নিচে</td><td>মিষ্টি জিনিস <b>শিকড়ে</b> জমা হয় — মিষ্টি = মূল</td></tr>
+        <tr><td class="k">গোলআলু</td><td><b>ভূ-নিম্নস্থ কাণ্ড</b></td><td>মাটির নিচে</td><td>গোলআলুতে <b>চোখ</b> থাকে, চোখ থেকে গাছ গজায় — মুকুল মানেই কাণ্ড <span class="extra">PDF-এর বাইরে</span></td></tr>
+        <tr><td class="k">চুপরিআলু</td><td><b>বুলবিল (কক্ষমুকুল)</b></td><td>গাছের <b>উপরে</b></td><td>"চুপ" করে <b>পাতার কোলে</b> বসে থাকে</td></tr>
+        <tr><td class="k">গাছ আলু</td><td><b>সঞ্চয়ী মুকুল</b></td><td>গাছের <b>উপরে</b></td><td>নামেই <b>"গাছ"</b> — তাই মাটির নিচে নয়</td></tr>
+      </tbody>
+    </table></div>
+    <p class="bind">মাটির নিচে দুই ভাই → মিষ্টি (মূল) · গোল (কাণ্ড)<br>গাছের উপরে দুই ভাই → চুপরি (বুলবিল) · গাছ আলু (সঞ্চয়ী মুকুল)</p>
+    <div class="scene"><b>দৃশ্য:</b> চার ভাই আলু ঝগড়া করছে। মিষ্টি আর গোল মাটির নিচে গর্তে বসে; উপরে ডালে চুপরি আর গাছ আলু ঝুলে হাসছে। গোলআলু চোখ পিটপিট করছে — তার <b>চোখ</b> আছে বলেই সে কাণ্ড, মিষ্টি আলুর চোখ নেই বলে সে মূল।</div>
+    <div class="rev"><b>উল্টো দিক:</b> "মিষ্টি আলু" শুনলে → চোখ নেই → <b>মূল</b>। "গোলআলু" শুনলে → চোখ আছে → <b>কাণ্ড</b>। নামে "গাছ" বা "চুপরি" থাকলে → <b>উপরের অঙ্গ</b>।</div>
+  </div>
+
+  <div class="sys">
+    <h4>সিস্টেম ২ · বাড়িতে ঢোকার তিন পথ <span class="pri">★★★★★</span></h4>
+    <p>পরাগনালিকা ডিম্বকে ঢোকে তিনভাবে <span class="ref">স্লা.২৩ · পৃ.৩৬০</span>। ডিম্বককে একটা <b>বাড়ি</b> ভাবুন।</p>
+    <div class="tw"><table>
+      <thead><tr><th>পথ</th><th>কোথা দিয়ে</th><th>উদ্ভিদ</th><th>বাড়ির কোন দরজা</th></tr></thead>
+      <tbody>
+        <tr><td class="k">পোরোগ্যামি</td><td>ডিম্বকরন্ধ্র</td><td><b>আম, জাম</b> — <b>অধিকাংশ উদ্ভিদে এটিই</b></td><td><b>সদর দরজা</b> — সবাই এদিক দিয়েই ঢোকে</td></tr>
+        <tr><td class="k">ক্যালাজোগ্যামি</td><td>ডিম্বকমূল</td><td><b><i>Casuarina</i> (ঝাউ)</b></td><td><b>গোড়ার দিক / পেছনের দরজা</b></td></tr>
+        <tr><td class="k">মেসোগ্যামি</td><td>ডিম্বকত্বক ভেদ করে</td><td><b>লাউ, কুমড়া</b></td><td><b>দেয়াল ফুটো করে</b></td></tr>
+      </tbody>
+    </table></div>
+    <p class="bind">আম-জাম → সদর দরজা (রন্ধ্র) · ঝাউ → গোড়া (মূল) · লাউ-কুমড়া → দেয়াল ভেদ</p>
+    <div class="scene"><b>দৃশ্য:</b> একটা বাড়ি। <b>আম আর জাম</b> ভদ্রভাবে সদর দরজা দিয়ে ঢুকছে। <b>ঝাউ গাছ</b> লম্বা, সে দরজায় মাথা ঠেকে যায় — তাই বাড়ির <b>গোড়ার</b> ফাঁক দিয়ে গলে ঢুকছে। আর <b>লাউ-কুমড়ার লতা</b> দেয়াল বেয়ে উঠে <b>দেয়ালের ফাটল দিয়েই</b> ভেতরে ঢুকে পড়ছে।</div>
+    <div class="hook" style="margin-bottom:0"><b>সবচেয়ে শক্ত সুতোটা এখানেই:</b> লাউ-কুমড়া <b>লতানো গাছ</b> — এরা সত্যিই দেয়াল বেয়ে ওঠে। "দেয়াল বেয়ে ওঠা গাছ দেয়াল ভেদ করেই ঢোকে" — এটা মুখস্থ নয়, যুক্তি।</div>
+    <div class="rev"><b>উল্টো দিক:</b> "ঝাউ" শুনলে → গোড়া → <b>ক্যালাজোগ্যামি</b>। "লতানো গাছ" মনে পড়লে → দেয়াল → <b>মেসোগ্যামি</b>। কিছু মনে না পড়লে → <b>পোরোগ্যামি</b> (কারণ অধিকাংশই তাই)।</div>
+  </div>
+
+  <div class="sys">
+    <h4>সিস্টেম ৩ · রান্নাঘরের ঝুড়ি <span class="pri">★★★★</span></h4>
+    <p>স্বাভাবিক অঙ্গজ প্রজননের প্রায় সব উদাহরণই <b>রান্নাঘরে পাওয়া যায়</b> <span class="ref">স্লা.৩৩,৩৫,৩৯</span>। ঝুড়ি ভাগ করে নিন।</p>
+    <div class="tw"><table>
+      <thead><tr><th>ঝুড়ি</th><th>যা যা আছে</th><th>ঝুড়ি চেনার সুতো</th></tr></thead>
+      <tbody>
+        <tr><td class="k"><b>মূলের ঝুড়ি</b></td><td>মিষ্টি আলু · <b>শতমূলী</b> · ডালিয়া · কাঁকরোল · পটল</td><td><b>শতমূলীর নামেই "মূল"</b> — সে ঝুড়ির নেমপ্লেট</td></tr>
+        <tr><td class="k"><b>মাটির নিচের কাণ্ডের ঝুড়ি</b></td><td>গোলআলু · <b>আদা</b> · <b>পিঁয়াজ</b> · <b>হলুদ</b> · সটি · ওলকচু</td><td><b>আদা-পিঁয়াজ-হলুদ</b> = রান্নার ত্রয়ী, রোজ হাতে নেন</td></tr>
+        <tr><td class="k"><b>সাকারের ঝুড়ি</b></td><td>কলা · পুদিনা · আনারস · চন্দ্রমল্লিকা · বাঁশ</td><td><b>কলাগাছের গোড়ায় বাচ্চা কলাগাছ</b> — এটা সবাই দেখেছে</td></tr>
+        <tr><td class="k"><b>লতিয়ে যাওয়ার ঝুড়ি</b><br>(অর্ধবায়বীয় কাণ্ড / স্টোলন)</td><td>কচু (রানার = <b>লতি</b>) · আমরুল (স্টোলন) · স্ট্রেবেরি · থানকুনি · কচুরিপানা · টোপাপানা</td><td><b>"কচুর লতি"</b> — বাজারে এই নামেই বিক্রি হয়</td></tr>
+        <tr><td class="k"><b>পাতার ঝুড়ি</b></td><td><b>পাথরকুচি</b> · নাইট কুইন</td><td>পাথরকুচির পাতা ফেলে রাখলে কিনারা থেকে চারা — ছোটবেলায় দেখা</td></tr>
+      </tbody>
+    </table></div>
+    <p class="bind">সাকারের ছড়া → <b>"কলা-পুদিনা-আনারস খেয়ে চন্দ্র (চন্দ্রমল্লিকা) বাঁশি (বাঁশ) বাজায়"</b></p>
+    <div class="scene"><b>দৃশ্য:</b> রান্নাঘরে পাঁচটা ঝুড়ি। <b>শতমূলী</b> ঝুড়ির গায়ে হেলান দিয়ে বলছে "আমার নামেই মূল, ভুল কোরো না"। পাশের ঝুড়িতে <b>আদা-পিঁয়াজ-হলুদ</b> গোল হয়ে বসে আছে — সবাই মাটির নিচের কাণ্ড। জানালা দিয়ে দেখা যাচ্ছে <b>কলাগাছের গোড়ায় ছোট্ট বাচ্চা কলাগাছ</b>, আর চাঁদের আলোয় কেউ <b>বাঁশি</b> বাজাচ্ছে।</div>
+    <div class="rev"><b>উল্টো দিক:</b> "শতমূলী" → <b>মূল</b>। "আদা/পিঁয়াজ/হলুদ" → <b>ভূ-নিম্নস্থ কাণ্ড</b>। "কলা/বাঁশ" → <b>সাকার</b>। "লতি" → <b>অর্ধবায়বীয় কাণ্ড</b>। "পাথরকুচি" → <b>পাতা</b>।</div>
+  </div>
+
+  <div class="sys">
+    <h4>সিস্টেম ৪ · চাঁদে মামার বালিশ — ধানের জাত <span class="pri">★★★★</span></h4>
+    <p>PDF-এর হাতে লেখা মার্জিনে শিক্ষক নিজেই একটা ছড়া দিয়েছেন <span class="ref">স্লা.৪৮</span> — <i>"চাঁদে মামা ও … মোহনীয় বালিশে শুয়ে থাকে"</i>। লেখাটি আংশিক অস্পষ্ট <span class="extra">PDF-এ আংশিক অস্পষ্ট</span>, তাই নিচে সেটি পূর্ণ করে দেওয়া হলো — <b>বাক্যের ক্রমই BR নম্বরের ক্রম</b>।</p>
+    <p class="bind">চাঁদে (চান্দিনা-১) · মামা (মালা-২) · মুক্তা (১০) · গাজী (১৪) · মোহিনী (১৫) · বালিশে (শাহী বালাম-১৬) · শ্রাবণে (শ্রাবণী-২৬) শুয়ে থাকে</p>
+    <div class="tw"><table>
+      <thead><tr><th>জাত</th><th>নম্বর</th><th>কোন তালিকায়</th></tr></thead>
+      <tbody>
+        <tr><td class="k">চান্দিনা</td><td class="num">বিআর-১</td><td>উফশী</td></tr>
+        <tr><td class="k">মালা</td><td class="num">বিআর-২</td><td>উফশী</td></tr>
+        <tr><td class="k">মুক্তা</td><td class="num">BR-10</td><td>রোগ প্রতিরোধী</td></tr>
+        <tr><td class="k">গাজী</td><td class="num">BR-14</td><td>রোগ প্রতিরোধী</td></tr>
+        <tr><td class="k">মোহিনী</td><td class="num">BR-15</td><td>রোগ প্রতিরোধী</td></tr>
+        <tr><td class="k">শাহী বালাম</td><td class="num">১৫ <b>বা</b> ১৬</td><td>উফশী তালিকায় <b>১৫</b>, রোগ প্রতিরোধী তালিকায় <b>১৬</b></td></tr>
+        <tr><td class="k">শ্রাবণী</td><td class="num">বিআর-২৬</td><td>উফশী</td></tr>
+      </tbody>
+    </table></div>
+    <div class="scene"><b>দৃশ্য:</b> চাঁদের উপর মামা শুয়ে আছেন। বালিশের নিচে <b>মুক্তা</b>, পাশে দাঁড়িয়ে <b>গাজী</b>, আর <b>মোহিনী</b> নামের কেউ পাখা করছে — সব <b>শ্রাবণ</b> মাসের বৃষ্টির রাতে।</div>
+    <div class="warn"><b>শাহী বালামের ফাঁদ:</b> বইয়ের ভেতরেই দুই নম্বর — পৃ.৩৭১-এ <b>BR-15</b>, পৃ.৩৭৩-এ <b>BR-16</b>। ছড়ায় বালিশ ১৬-এ বসানো হয়েছে (রোগ প্রতিরোধী তালিকা অনুযায়ী)। প্রশ্নে <b>"উফশী" না "রোগ প্রতিরোধী"</b> — সেই শব্দটাই ঠিক করে দেবে।</div>
+    <div class="rev"><b>উল্টো দিক:</b> "উফশী ৪টি" শুনলে → <b>চাঁদে-মামা…বালিশ…শ্রাবণে</b> (চান্দিনা, মালা, শাহী বালাম, শ্রাবণী)। "রোগ প্রতিরোধী" শুনলে → <b>মুক্তা-গাজী-মোহিনী-বালাম</b>।</div>
+  </div>
+
+  <div class="sys">
+    <h4>সিস্টেম ৫ · সংখ্যার সিঁড়ি — ভ্রূণথলির নিউক্লিয়াস <span class="pri">★★★★★</span></h4>
+    <p>তিনটি নাম, তিনটি সংখ্যা <span class="ref">স্লা.১৯ · পৃ.৩৫৮</span>। সংখ্যাগুলো <b>অর্ধেক করে নামে: ১৬ → ৮ → ৪</b>।</p>
+    <div class="tw"><table>
+      <thead><tr><th>নাম</th><th>সংখ্যা</th><th>অ্যাঙ্কর</th><th>কোন ধরন</th></tr></thead>
+      <tbody>
+        <tr><td class="k"><i>Peperomia</i></td><td class="num">১৬</td><td>শোনায় <b>"পেঁপে"</b>-র মতো → পেঁপে কাটলে ভেতরে <b>ঠাসা কালো বীজ</b> = সবচেয়ে বেশি</td><td>টেট্রাস্পোরিক (প্রধান)</td></tr>
+        <tr><td class="k"><i>Fritiliaria</i></td><td class="num">৮</td><td>শোনায় <b>"ফ্রিজ"</b>-এর মতো → ফ্রিজ খুললে <b>অর্ধেক ফাঁকা</b> = মাঝামাঝি</td><td>টেট্রাস্পোরিক</td></tr>
+        <tr><td class="k"><i>Oenothera</i></td><td class="num">৪</td><td>শোনায় <b>"ও-নো!"</b>-র মতো → হতাশা, <b>সবচেয়ে কম</b></td><td>মনোস্পোরিকের <b>ব্যতিক্রম</b></td></tr>
+      </tbody>
+    </table></div>
+    <p class="bind">পেঁপে (ভর্তি) ১৬ → ফ্রিজ (অর্ধেক) ৮ → "ও নো!" (খালি) ৪</p>
+    <div class="scene"><b>দৃশ্য:</b> ফ্রিজ খুলে দেখলেন — উপরের তাকে একটা <b>পেঁপে কাটা</b>, বীজে ঠাসা (১৬)। মাঝের তাক <b>অর্ধেক ফাঁকা</b> (৮)। নিচের তাকে কিছুই নেই — আপনি বলে উঠলেন <b>"ও নো!"</b> (৪)।</div>
+    <div class="warn"><b>এখানেই আসল ফাঁদ:</b> ৮ <b>দুই</b> জায়গায় আছে — সাধারণ মনোস্পোরিকেও ৮, টেট্রাস্পোরিক <i>Fritiliaria</i>-তেও ৮। <b>তাই নিউক্লিয়াস সংখ্যা দিয়ে ধরন চেনা যায় না।</b> নামের "মনো/বাই/টেট্রা" বলে <b>কয়টি স্ত্রীরেণু ঢুকল</b> — কয়টি নিউক্লিয়াস বেরোবে তা নয়।</div>
+    <div class="rev"><b>উল্টো দিক:</b> "১৬" শুনলে → পেঁপে → <b><i>Peperomia</i></b>। "মনোস্পোরিকের ব্যতিক্রম" শুনলে → "ও নো!" → <b><i>Oenothera</i>, ৪</b>।</div>
+  </div>
+  <a class="toplink" href="#how">↑ উপরে</a>
+</section>
+<section class="part" id="cards">
+  <div class="part-head"><span class="part-no">২</span><h2>অ্যাঙ্কর কার্ড</h2></div>
+  <p class="lede">যেসব উদাহরণের নিজস্ব শক্ত সুতো আছে — সেগুলো এক-একটা কার্ডে। কার্ডের ক্রম = পরীক্ষায় আসার সম্ভাবনার ক্রম।</p>
+
+  <h3>ডিম্বকের চার প্রকার</h3>
+
+  <div class="anch">
+    <div class="anch-h"><span class="nm">ঊর্ধ্বমুখী ডিম্বক → পান · গোলমরিচ · বিষকাটালী</span><span class="pri">★★★★★</span></div>
+    <div class="anch-b"><dl>
+      <dt>মূল তথ্য</dt><dd><b>ঊর্ধ্বমুখী (Orthotropous or Atropous):</b> ডিম্বকের মুখ ওপরে; ডিম্বকনাড়ী, ডিম্বমূল ও ডিম্বকরন্ধ্র একই সরল রেখায় খাড়াভাবে; ডিম্বকরন্ধ্র শীর্ষে, ডিম্বকমূল গোড়ায়। উদাহরণ — <b>বিষকাটালী (পানি মরিচ), গোলমরিচ, পান</b>। <span class="ref">স্লা.১৭ · পৃ.৩৫৮ · DAT 17-18</span></dd>
+      <dt>অ্যাঙ্কর</dt><dd>তিনটিই <b>ঝাল বা মশলা</b> — পান, গোলমরিচ, পানি মরিচ। আর ঝাল খেলে মানুষ <b>মুখ উপরে তুলে হা করে</b>।</dd>
+      <dt>বাইন্ডিং</dt><dd><span class="bind">ঝাল লাগলে মুখ উপরে → ঊর্ধ্বমুখী</span></dd>
+      <dt>দৃশ্য</dt><dd><div class="scene">পান খেয়ে ঝাল লেগেছে — আপনি <b>মুখ উপরে তুলে</b> হা করে হাওয়া খাচ্ছেন। পাশে গোলমরিচের কৌটা আর পানি মরিচের গাছ, দুটোই <b>খাড়া উপর দিকে</b> তাকিয়ে আছে।</div></dd>
+      <dt>শব্দখেলা</dt><dd><b>Ortho</b> = সোজা <span class="extra">PDF-এর বাইরে</span> — যেমন orthopedic-এ হাড় সোজা করা। সোজা খাড়া = ঊর্ধ্বমুখী।</dd>
+      <dt>কেন কাজ করে</dt><dd>তিনটি উদাহরণের মধ্যে <b>সত্যিকারের মিল</b> আছে (সবই ঝাল/মশলা) — তাই একটা মনে পড়লে বাকি দুটো টেনে আসে।</dd>
+      <dt>উল্টো দিক</dt><dd><div class="rev">"পান" শুনলে → ঝাল → মুখ উপরে → <b>ঊর্ধ্বমুখী</b>। আর "ঊর্ধ্বমুখীর উদাহরণ?" → মশলার তাক খুলুন → <b>পান, গোলমরিচ, বিষকাটালী</b>।</div></dd>
+    </dl></div>
+  </div>
+
+  <div class="anch">
+    <div class="anch-h"><span class="nm">অধোমুখী ডিম্বক → শিম · ছোলা · রেড়ি</span><span class="pri">★★★★★</span></div>
+    <div class="anch-b"><dl>
+      <dt>মূল তথ্য</dt><dd><b>অধোমুখী বা নিম্নমুখী (Anatropous):</b> ডিম্বকের মুখ নিচে; ডিম্বকরন্ধ্র নিচের দিকে ডিম্বকনাড়ীর কাছাকাছি, ডিম্বকমূল ওপরে। উদাহরণ — <b>শিম, রেড়ি, ছোলা</b>। [PDF-এ হাতে লেখা: <b>লিগুমিনেসী</b>] <span class="ref">স্লা.১৭,১৮ · পৃ.৩৫৮</span></dd>
+      <dt>অ্যাঙ্কর</dt><dd><b>শিমের মাচা</b> — শিম গাছে শিম সবসময় <b>নিচের দিকে ঝুলে থাকে</b>। এটা চোখে দেখা দৃশ্য, কল্পনা করতে হয় না।</dd>
+      <dt>বাইন্ডিং</dt><dd><span class="bind">শিম মাচা থেকে নিচে ঝোলে → অধোমুখী</span></dd>
+      <dt>দৃশ্য</dt><dd><div class="scene">উঠানের <b>শিমের মাচা</b>। শত শত শিম <b>নিচের দিকে মুখ করে</b> ঝুলছে। নিচে ছোলা আর রেড়ির বীজ ছড়ানো — তারাও মাটির দিকে তাকিয়ে।</div></dd>
+      <dt>শব্দখেলা</dt><dd><b>Ana-</b> = উল্টো <span class="extra">PDF-এর বাইরে</span>। আর বইয়ের নিজের বাক্যই সবচেয়ে ভালো হুক — <b>"ঊর্ধ্বমুখী ও অধোমুখী একটি অপরটির উল্টো"</b>। একটা মনে থাকলেই অন্যটা বেরিয়ে আসে।</dd>
+      <dt>কেন কাজ করে</dt><dd>ঝুলন্ত শিম একটা <b>দৈনন্দিন দৃশ্য</b> — নতুন করে কল্পনা করতে হয় না, শুধু মনে করতে হয়।</dd>
+      <dt>উল্টো দিক</dt><dd><div class="rev">"শিম/ছোলা" শুনলে → ঝুলছে → <b>অধোমুখী</b>। DAT 17-18-এ ঊর্ধ্বমুখী জিজ্ঞেস করে <b>শিম ও ছোলা ফাঁদ হিসেবে</b> রাখা হয়েছিল — মনে রাখুন, ওরা উল্টো দলের।</div></dd>
+    </dl></div>
+  </div>
+
+  <div class="anch">
+    <div class="anch-h"><span class="nm">পার্শ্বমুখী → ক্ষুদিপানা · পপি ‖ বক্রমুখী → সরিষা · কালকাসুন্দা</span><span class="pri">★★★★</span></div>
+    <div class="anch-b"><dl>
+      <dt>মূল তথ্য</dt><dd><b>পার্শ্বমুখী (Amphitropous):</b> মুখ ওপরে বা নিচে নয়, <b>এক পাশে</b>; রন্ধ্র ও মূল বিপরীতমুখী দু'পাশে, ডিম্বকনাড়ীর সাথে <b>সমকোণে</b>। উদাহরণ — <b>ক্ষুদিপানা, পপি (আফিম)</b>।<br><b>বক্রমুখী (Campylotropous):</b> পার্শ্বমুখীর চেয়ে <b>কিছুটা বেঁকে</b> নিচের দিকে; মূল সমকোণে, কিন্তু <b>রন্ধ্র অঞ্চল বাঁকা হয়ে নাড়ীর কাছাকাছি</b>। উদাহরণ — <b>সরিষা, কালকাসুন্দা</b>। <span class="ref">স্লা.১৭ · পৃ.৩৫৮</span></dd>
+      <dt>অ্যাঙ্কর</dt><dd><b>ক্ষুদিপানা</b> পুকুরের পানিতে <b>সমতলে পাশে পাশে</b> ছড়ায় — উপরেও যায় না, নিচেও না। <b>সরিষার দানা</b> হাতে নিলে <b>গোল-বাঁকা</b> লাগে।</dd>
+      <dt>বাইন্ডিং</dt><dd><span class="bind">পানিতে পাশে ছড়ানো ক্ষুদিপানা → পার্শ্বমুখী<br>হাতে গড়ানো বাঁকা সরিষা → বক্রমুখী</span></dd>
+      <dt>দৃশ্য</dt><dd><div class="scene">পুকুরভর্তি <b>ক্ষুদিপানা</b> — একদম সমতল, পাশাপাশি ছড়ানো। পাশে এক থালা <b>সরিষা</b> কাত করলে দানাগুলো <b>বেঁকে গড়িয়ে</b> এক কোণে জমা হচ্ছে।</div></dd>
+      <dt>শব্দখেলা</dt><dd><b>Campylo-</b> ≈ "ক্যাম্পাস" নয়, বরং <b>"ক্যাম্বার"/বাঁক</b> <span class="extra">PDF-এর বাইরে</span>। সরিষা নিজেই বাঁকা — নামের সাথে জিনিসের মিল।</dd>
+      <dt>কেন কাজ করে</dt><dd>দুটো <b>গতির ছবি</b> — একটা সমতলে ছড়ানো, একটা বেঁকে গড়ানো। স্থির তালিকার চেয়ে গতি বেশি মনে থাকে।</dd>
+      <dt>উল্টো দিক</dt><dd><div class="rev">"পুকুর/পানি" মনে পড়লে → <b>পার্শ্বমুখী</b>। "বাঁকা দানা" মনে পড়লে → <b>বক্রমুখী</b>।</div></dd>
+    </dl></div>
+  </div>
+
+  <h3>পার্থেনোজেনেসিসের উদাহরণ</h3>
+
+  <div class="anch">
+    <div class="anch-h"><span class="nm"><i>Parthenium</i> ও <i>Taraxacum</i> → ডিপ্লয়েড পার্থেনোজেনেসিস</span><span class="pri">★★★★★</span></div>
+    <div class="anch-b"><dl>
+      <dt>মূল তথ্য</dt><dd><b>ডিপ্লয়েড পার্থেনোজেনেসিস:</b> স্বাভাবিক মায়োসিসের <b>বদলে মাইটোসিস</b> প্রক্রিয়ায় ডিম্বাণু <b>(2n)</b> সৃষ্টি হয় এবং পরে ভ্রূণে পরিণত হয়। উদাহরণ — <b><i>Parthenium argentatum</i> ও <i>Taraxacum albidum</i></b>। <span class="ref">স্লা.৪১ · পৃ.৩৬৭</span></dd>
+      <dt>অ্যাঙ্কর</dt><dd><b><i>Parthenium</i> নামটাই প্রায় পুরো <i>Parthenogenesis</i></b> — শব্দটা <b>সম্পূর্ণ</b>, কাটাছেঁড়া নেই।</dd>
+      <dt>বাইন্ডিং</dt><dd><span class="bind">নাম সম্পূর্ণ (Parthenium) → ক্রোমোসোমও সম্পূর্ণ (2n = ডিপ্লয়েড)</span></dd>
+      <dt>দৃশ্য</dt><dd><div class="scene">দুটো নামের কার্ড পাশাপাশি — একটায় লেখা <b>PARTHEN</b>ium, আরেকটায় <b>Solanum</b>। প্রথমটার নামের ভেতরেই "Parthen" আস্ত বসে আছে, তাই সে <b>আস্ত 2n</b>। দ্বিতীয়টা কাটা বেগুন, <b>অর্ধেক n</b>।</div></dd>
+      <dt>শব্দখেলা</dt><dd><b>"পার্থ ও তারা"</b> — <i><b>পার্থ</b>enium</i> আর <i><b>তারা</b>xacum</i>। দুটোই পরিচিত বাংলা শব্দ, আর দুজনেই <b>ডিপ্লয়েড দলে</b>। "পার্থ-তারা জুটি = 2n"।</dd>
+      <dt>কেন কাজ করে</dt><dd>নামের ভেতরেই উত্তর আছে — মুখস্থ করার কিছু নেই, শুধু <b>লক্ষ করার</b> আছে।</dd>
+      <dt>উল্টো দিক</dt><dd><div class="rev">"ডিপ্লয়েড পার্থেনোজেনেসিস" শুনলে → <b>পার্থ-তারা</b> → <i>Parthenium</i>, <i>Taraxacum</i>। আর "মাইটোসিসে ডিম্বাণু" শুনলে → ডিপ্লয়েড → পার্থ-তারা।</div></dd>
+    </dl></div>
+  </div>
+
+  <div class="anch">
+    <div class="anch-h"><span class="nm"><i>Solanum nigrum</i> (বেগুন) ও <i>Orchis maculata</i> → হ্যাপ্লয়েড</span><span class="pri">★★★★★</span></div>
+    <div class="anch-b"><dl>
+      <dt>মূল তথ্য</dt><dd><b>হ্যাপ্লয়েড পার্থেনোজেনেসিস:</b> স্বাভাবিক <b>মায়োসিসে</b> ডিম্বাণু সৃষ্টি হলেও তা নিষিক্ত না হয়ে সরাসরি ভ্রূণ সৃষ্টি করে; <b>সৃষ্ট উদ্ভিদও হ্যাপ্লয়েড এবং অনুর্বর</b>। <i>Solanum nigrum</i> ও <i>Orchis maculata</i> উদ্ভিদে <b>অনিষিক্ত ডিম্বাণু থেকে হ্যাপ্লয়েড উদ্ভিদ সৃষ্টি হয়</b>। <span class="ref">স্লা.৪১ · পৃ.৩৬৭</span> [PDF-এ হাতে লেখা: <i>Solanum nigrum</i> = <b>বেগুন</b>]</dd>
+      <dt>অ্যাঙ্কর</dt><dd><b>বেগুন লম্বালম্বি অর্ধেক করে কাটা</b> — ভাজার আগে যেভাবে কাটা হয়।</dd>
+      <dt>বাইন্ডিং</dt><dd><span class="bind">অর্ধেক কাটা বেগুন → অর্ধেক ক্রোমোসোম (n = হ্যাপ্লয়েড)</span></dd>
+      <dt>দৃশ্য</dt><dd><div class="scene">রান্নাঘরে <b>বেগুন অর্ধেক করে কাটা</b>। কাটা বেগুন থেকে চারা গজাচ্ছে — কিন্তু চারাটা <b>রোগা, ফল ধরে না</b> (অনুর্বর)। পাশে একটা <b>অর্কিড</b> ফুল একই রকম রোগা চারা নিয়ে দাঁড়িয়ে।</div></dd>
+      <dt>শব্দখেলা</dt><dd><b><i>Orchis</i> ↔ <i>Orchidaceae</i></b> — একই "Orchi-" মূল, আর <i>Orchidaceae</i> এই PDF-এই আছে <b>পলিনিয়াম</b> প্রসঙ্গে <span class="ref">স্লা.৯</span>। একটা নাম, দুই জায়গায় — বইয়ের ভেতরেই সেতু।</dd>
+      <dt>কেন কাজ করে</dt><dd>"অর্ধেক" ধারণাটা <b>দুবার</b> কাজ করে — কাটা বেগুন = অর্ধেক ক্রোমোসোম, আর অর্ধেক দিয়ে গোটা হয় না বলেই <b>অনুর্বর</b>। একটাই ছবি, দুটো তথ্য।</dd>
+      <dt>উল্টো দিক</dt><dd><div class="rev">"অনুর্বর উদ্ভিদ" শুনলে → অর্ধেক → <b>হ্যাপ্লয়েড</b> → বেগুন ও অর্কিড। "বেগুন" শুনলে → <i>Solanum nigrum</i> → <b>হ্যাপ্লয়েড</b>।</div></dd>
+    </dl></div>
+  </div>
+
+  <div class="anch">
+    <div class="anch-h"><span class="nm"><i>Nicotiana tabacum</i> (তামাক) → অ্যান্ড্রোজেনেসিস</span><span class="pri">★★★★★</span></div>
+    <div class="anch-b"><dl>
+      <dt>মূল তথ্য</dt><dd><b><i>Nicotiana tabacum</i> (তামাক)-এ অনিষিক্ত শুক্রাণু হতে ভ্রূণ সৃষ্টি হয়। নিষেকক্রিয়া ছাড়া শুক্রাণু থেকে ভ্রূণ সৃষ্টির প্রক্রিয়াকে অ্যান্ড্রোজেনেসিস (androgenesis) বলে।</b> <span class="ref">স্লা.৪১ · পৃ.৩৬৭</span></dd>
+      <dt>অ্যাঙ্কর</dt><dd><b>তামাক = বিড়ি-সিগারেট</b>, আর <b>andro- = পুরুষ</b> <span class="extra">PDF-এর বাইরে</span>। চায়ের দোকানের ছবিটা সবার চেনা।</dd>
+      <dt>বাইন্ডিং</dt><dd><span class="bind">তামাক → পুরুষদের আড্ডা → পুরুষ গ্যামিট (শুক্রাণু) → অ্যান্ড্রোজেনেসিস</span></dd>
+      <dt>দৃশ্য</dt><dd><div class="scene">চায়ের দোকানে কয়েকজন <b>পুরুষ তামাক টানছে</b>। ধোঁয়ার ভেতর থেকে একটা <b>চারাগাছ</b> বেরিয়ে আসছে — কোনো ফুল, কোনো ডিম্বাণু ছাড়াই। শুধু ধোঁয়া থেকে গাছ।</div></dd>
+      <dt>শব্দখেলা</dt><dd><b>Andro</b> = পুরুষ (যেমন <b>Androecium</b> = পুংস্তবক, যেটি এই PDF-এই আছে <span class="ref">স্লা.৬</span>)। বইয়ের ভেতরেই মিল — জোর করে বানানো নয়।</dd>
+      <dt>কেন কাজ করে</dt><dd>এটিই একমাত্র প্রক্রিয়া যেখানে <b>ডিম্বাণু নয়, শুক্রাণু</b> থেকে ভ্রূণ। "পুরুষ" ধারণাটা একবার বসে গেলে আর গুলাবে না।</dd>
+      <dt>উল্টো দিক</dt><dd><div class="rev">"শুক্রাণু থেকে ভ্রূণ" শুনলে → পুরুষ → <b>অ্যান্ড্রোজেনেসিস</b> → তামাক। MAT 25-26-এ এটি <b>ফাঁদ অপশন</b> ছিল, প্রশ্নে ছিল "ডিম্বাণু থেকে" — তখন উত্তর <b>Parthenogenesis</b>।</div></dd>
+    </dl></div>
+  </div>
+
+  <div class="anch">
+    <div class="anch-h"><span class="nm"><i>Hieracium</i> → অ্যাপোস্পোরি</span><span class="pri">★★★★★</span></div>
+    <div class="anch-b"><dl>
+      <dt>মূল তথ্য</dt><dd><b>অ্যাপোস্পোরি:</b> ডিম্বকের <b>যেকোনো দেহকোষ</b> থেকে (যেমন ডিম্বক ত্বক, নিউসেলাস) <b>ডিপ্লয়েড ভ্রূণথলি</b> সৃষ্টি হয়, তার ডিপ্লয়েড ডিম্বাণু থেকে নিষেক ছাড়াই ভ্রূণ। <b>সৃষ্ট উদ্ভিদ ডিপ্লয়েড হয় এবং মাতৃউদ্ভিদের সমগুণসম্পন্ন হয়। <i>Hieracium</i> উদ্ভিদে এরূপ হতে দেখা যায়।</b> <span class="ref">স্লা.৪২ · পৃ.৩৬৮</span></dd>
+      <dt>অ্যাঙ্কর</dt><dd><b><i>Hier</i>acium</b> শোনায় ইংরেজি <b>"Heir"</b> (হেয়ার) = <b>উত্তরাধিকারী</b>-র মতো <span class="extra">PDF-এর বাইরে</span>।</dd>
+      <dt>বাইন্ডিং</dt><dd><span class="bind">Heir = উত্তরাধিকারী → মায়ের হুবহু প্রতিচ্ছবি → মাতৃউদ্ভিদের সমগুণসম্পন্ন</span></dd>
+      <dt>দৃশ্য</dt><dd><div class="scene">একজন মা আর তার <b>উত্তরাধিকারী</b> সন্তান পাশাপাশি দাঁড়িয়ে — <b>একদম একই চেহারা, একই উচ্চতা</b>, যমজের মতো। কারণ বাবার কোনো অবদানই নেই।</div></dd>
+      <dt>শব্দখেলা</dt><dd><b>Apo<u>spory</u></b> — "spor" আছে মানে <b>থলি (ভ্রূণথলি) তৈরি হয়</b>। ঠিক এখানেই অ্যাডভেনটিটিভ এমব্রায়োনির সাথে পার্থক্য: সেখানে <b>ভ্রূণথলি গঠন ছাড়াই</b> ভ্রূণ।</dd>
+      <dt>কেন কাজ করে</dt><dd>একটা শব্দ (<b>Heir</b>) থেকে দুটো তথ্য বেরোয় — <b>ডিপ্লয়েড</b> এবং <b>মাতৃউদ্ভিদের সমগুণ</b>। আলাদা করে মনে রাখতে হয় না।</dd>
+      <dt>উল্টো দিক</dt><dd><div class="rev">"মাতৃউদ্ভিদের সমগুণসম্পন্ন" শুনলে → উত্তরাধিকারী → <b><i>Hieracium</i></b> → অ্যাপোস্পোরি।</div></dd>
+    </dl></div>
+  </div>
+
+  <div class="anch">
+    <div class="anch-h"><span class="nm"><i>Allium</i> → দুই জায়গায়: বাইস্পোরিক + অ্যাপোগ্যামি</span><span class="pri">★★★★★</span></div>
+    <div class="anch-b"><dl>
+      <dt>মূল তথ্য</dt><dd><b>(১)</b> বাইস্পোরিক — <b>দুটি স্ত্রীরেণু</b> ভ্রূণথলি গঠনে অংশগ্রহণ করে, এটি <b><i>Allium</i> type</b> হিসেবে পরিচিত <span class="ref">স্লা.১৯ · পৃ.৩৫৮</span>।<br><b>(২)</b> অ্যাপোগ্যামি — ডিম্বাণু ছাড়া ভ্রূণথলির <b>অন্য যেকোনো কোষ</b> (সহকারী কোষ, প্রতিপাদকোষ) থেকে ভ্রূণ সৃষ্টি; নিষেক ছাড়াই। <b><i>Allium</i>-এ এরূপ লক্ষ্য করা যায়</b> <span class="ref">স্লা.৪২ · পৃ.৩৬৮ · MAT 24-25</span>।</dd>
+      <dt>অ্যাঙ্কর</dt><dd><i>Allium</i> হলো <b>পিঁয়াজ-রসুনের গণ</b> <span class="extra">PDF-এর বাইরে</span> — আর পিঁয়াজ কাটলে <b>কাঁদতে হয়</b>।</dd>
+      <dt>বাইন্ডিং</dt><dd><span class="bind">পিঁয়াজ দুবার কাঁদায় → Allium দুই জায়গায় আসে</span></dd>
+      <dt>দৃশ্য</dt><dd><div class="scene">আপনি পিঁয়াজ কাটছেন। <b>প্রথমবার</b> চোখে পানি — খাতায় লেখা "বাইস্পোরিক"। খোসা ছাড়িয়ে <b>দ্বিতীয়বার</b> আবার পানি — খাতায় লেখা "অ্যাপোগ্যামি"। পিঁয়াজ হেসে বলছে, "আমি দু'বারই আসব"।</div></dd>
+      <dt>শব্দখেলা</dt><dd><b>পিঁয়াজের খোসা <u>দুই</u> পরত</b> → <b>Bi</b>sporic (bi = দুই)। সংখ্যাটা অ্যাঙ্করের ভেতরেই আছে।</dd>
+      <dt>কেন কাজ করে</dt><dd>এ অধ্যায়ের একমাত্র নাম যেটি <b>দুই সম্পূর্ণ ভিন্ন টপিকে</b> আসে। "দুবার কাঁদায়" — এই একটা লাইনই সেই সতর্কবার্তা বহন করে।</dd>
+      <dt>উল্টো দিক</dt><dd><div class="rev"><i>Allium</i> শুনলে → <b>থামুন, দুটো উত্তর সম্ভব</b> → প্রশ্নে "ভ্রূণথলি" থাকলে <b>বাইস্পোরিক</b>, "নিষেক ছাড়া ভ্রূণ" থাকলে <b>অ্যাপোগ্যামি</b>।</div></dd>
+    </dl></div>
+  </div>
+
+  <h3>যে নামগুলোর ভেতরেই উত্তর লুকানো</h3>
+
+  <div class="anch">
+    <div class="anch-h"><span class="nm"><i>Polygonum</i> → মনোস্পোরিক (নামে poly, কাজে mono)</span><span class="pri">★★★★★</span></div>
+    <div class="anch-b"><dl>
+      <dt>মূল তথ্য</dt><dd><b>মনোস্পোরিক — একটি স্ত্রীরেণু</b> ভ্রূণথলি গঠনে অংশ নেয়; <b>শতকরা প্রায় ৭৫টি উদ্ভিদেই মনোস্পোরিক</b>; <b>মনোস্পোরিক Polygonum ধরন হিসেবেও পরিচিত</b>। <b>সর্বপ্রথম স্ট্রাসবার্গার ১৮৭৯ খ্রিষ্টাব্দে <i>Polygonum divaricatum</i> নামক উদ্ভিদে মনোস্পোরিক প্রক্রিয়ায় ভ্রূণথলি গঠনের বর্ণনা দেন।</b> <span class="ref">স্লা.১৯ · পৃ.৩৫৮</span></dd>
+      <dt>অ্যাঙ্কর</dt><dd><b>Poly</b> মানে "অনেক" — অথচ ধরনটার নাম <b>মনো</b> (এক)। এই <b>বিপরীতটাই</b> হুক।</dd>
+      <dt>বাইন্ডিং</dt><dd><span class="bind">নামে poly (অনেক), কাজে mono (এক) → উল্টোটাই মনে রাখুন</span></dd>
+      <dt>দৃশ্য</dt><dd><div class="scene">একজন লোক <b>"POLY" লেখা টি-শার্ট</b> পরে দাঁড়িয়ে, কিন্তু হাতে <b>মাত্র একটা</b> জিনিস। কেউ জিজ্ঞেস করল "এত নাম, এত কম?" সে বলল — "নাম poly, কাজ mono"।</div></dd>
+      <dt>শব্দখেলা</dt><dd><b>স্ট্রাসবার্গার</b> ≈ <b>"স্ট্র + বার্গার"</b>। ১৮৭৯ সালে ভদ্রলোক বার্গার খেতে খেতে ভ্রূণথলি আঁকছেন — অদ্ভুত, তাই মনে থাকে।</dd>
+      <dt>কেন কাজ করে</dt><dd>মস্তিষ্ক <b>বিরোধ</b> মনে রাখে ভালো। "নামের সাথে মিলছে না" — এই খটকাটাই স্মৃতির হাতল।</dd>
+      <dt>উল্টো দিক</dt><dd><div class="rev">"৭৫%" বা "সবচেয়ে বেশি" শুনলে → <b>মনোস্পোরিক</b> → Polygonum ধরন → স্ট্র-বার্গার ১৮৭৯। Quiz-03-এর উত্তরও এটিই।</div></dd>
+    </dl></div>
+  </div>
+
+  <div class="anch">
+    <div class="anch-h"><span class="nm"><i>Marsilea</i> (ঢেঁকি শাক) → হেটেরোস্পোরাস ‖ <i>Lycopodium</i> → হোমোস্পোরাস</span><span class="pri">★★★★</span></div>
+    <div class="anch-b"><dl>
+      <dt>মূল তথ্য</dt><dd><b>ফার্ন (fern) ও লাইকোপোডিয়াম (<i>Lycopodium</i>)-এর স্পোর সম-আকৃতির অর্থাৎ হোমোস্পোরাস (homoporous), কিন্তু সেলাজিনেলা (<i>Selaginella</i>), ঢেঁকি শাক (<i>Marsilea</i>) ইত্যাদির স্পোর অসম-আকৃতির অর্থাৎ হেটেরোস্পোরাস (heterosporous)।</b> <span class="ref">স্লা.৩২ · পৃ.৩৬৪</span></dd>
+      <dt>অ্যাঙ্কর</dt><dd><b>ঢেঁকি</b> — বাংলা ঢেঁকির <b>দুই মাথা অসমান</b>, একদিকে ভারী মোনা, অন্যদিকে হালকা হাতল। PDF নিজেই <i>Marsilea</i>-কে <b>ঢেঁকি শাক</b> বলেছে।</dd>
+      <dt>বাইন্ডিং</dt><dd><span class="bind">ঢেঁকির দুই মাথা অসমান → ঢেঁকি শাকের স্পোর অসম → হেটেরোস্পোরাস</span></dd>
+      <dt>দৃশ্য</dt><dd><div class="scene">উঠানে একটা <b>ঢেঁকি</b> — একদিক ভারী, একদিক হালকা, তাই দুলছে। ঢেঁকির গায়ে লেখা "আমি অসম, তাই <b>হেটেরো</b>"। পাশে একটা ফার্ন পাতা সমান সমান ছড়ানো, তার গায়ে লেখা "আমি সমান, তাই <b>হোমো</b>"।</div></dd>
+      <dt>শব্দখেলা</dt><dd><b><i>Lyco</i>podium</b> ≈ ইংরেজি <b>"like"</b> (একই রকম) <span class="extra">PDF-এর বাইরে — শুধু শব্দের মিল</span> → একই রকম স্পোর = <b>হোমো</b>স্পোরাস। আর <b><i>Selaginella</i></b>-কে ঢেঁকি শাকের <b>সঙ্গী</b> হিসেবে মনে রাখুন — "ঢেঁকি ও সেলাজিনেলা, দুই অসম ভাই"।</dd>
+      <dt>কেন কাজ করে</dt><dd>ঢেঁকির অসমতা <b>চোখে দেখা</b> জিনিস, আর "হেটেরো = অসম" — দুটো একই ছবিতে বসে যায়।</dd>
+      <dt>উল্টো দিক</dt><dd><div class="rev">"অসম-আকৃতির স্পোর" শুনলে → ঢেঁকি → <b><i>Marsilea</i> ও <i>Selaginella</i></b>। "সম-আকৃতির" শুনলে → like → <b>ফার্ন ও <i>Lycopodium</i></b>।</div></dd>
+    </dl></div>
+  </div>
+
+  <div class="anch">
+    <div class="anch-h"><span class="nm">সাইয়ন ও স্টক → ফলের চরিত্র কার</span><span class="pri">★★★★★</span></div>
+    <div class="anch-b"><dl>
+      <dt>মূল তথ্য</dt><dd><b>বিচ্ছিন্ন অংশটিকে সাইয়ন (scion) বলে এবং সাইয়নকে যে উদ্ভিদের সাথে জোড়া দেয়া হয় তাকে স্টক (stock) বলে। স্টক যেকোনো ধরনের নিম্নমানের উদ্ভিদ হতে পারে। মাটির রস শোষণ করে ওপরে পাঠানোই স্টকের কাজ। সুতরাং ফল ও ফুলের চরিত্র নির্ভর করে সাইয়নের ওপর — স্টকের ওপর নয়।</b> উদাহরণ — <b>আম, কুল, জাম</b>। <span class="ref">স্লা.৩৭,৪০ · পৃ.৩৬৬</span></dd>
+      <dt>অ্যাঙ্কর</dt><dd>ইংরেজিতে <b>stock</b> = ভাণ্ডার/মজুদ, আর <b>scion</b> = বংশধর/উত্তরাধিকারী <span class="extra">PDF-এর বাইরে — শব্দের ইংরেজি অর্থ</span>।</dd>
+      <dt>বাইন্ডিং</dt><dd><span class="bind">stock = গুদাম, নিচে, রস মজুদ করে পাঠায়<br>scion = বংশধর, উপরে, পরিচয় বহন করে → ফলের চরিত্র</span></dd>
+      <dt>দৃশ্য</dt><dd><div class="scene">একটা <b>দোকান</b>: নিচে <b>গুদাম (stock)</b> — সেখান থেকে মাল উপরে আসে। উপরে <b>মালিকের ছেলে (scion)</b> সাইনবোর্ডে <b>নিজের নাম</b> লিখে বসে আছে। গুদামে যাই থাক, <b>সাইনবোর্ডের নামই দোকানের পরিচয়</b>।</div></dd>
+      <dt>শব্দখেলা</dt><dd><b>"সাইয়ন = সাইনবোর্ড"</b> — যার নাম সাইনবোর্ডে, ফলের চরিত্র তারই। <span class="extra">শব্দের মিল, অর্থের নয়</span></dd>
+      <dt>কেন কাজ করে</dt><dd>ভুলটা হয় কারণ স্টক <b>বড় ও নিচে</b> বলে গুরুত্বপূর্ণ মনে হয়। গুদাম-বনাম-সাইনবোর্ডের ছবি ঠিক এই ভুলটাই ঠেকায়।</dd>
+      <dt>উল্টো দিক</dt><dd><div class="rev">"গ্রাফটিং-এ ফলের গুণাগুণ কার?" → সাইনবোর্ড → <b>সাইয়ন</b>। "গ্রাফটিং সফল হয় কীসে?" → দুই <b>ক্যাম্বিয়াম</b> যুক্ত হলে।</div></dd>
+    </dl></div>
+  </div>
+
+  <h3>যেসব উদাহরণ চোখে দেখা</h3>
+
+  <div class="anch">
+    <div class="anch-h"><span class="nm">এরিল → লিচু · কাঁঠলিচু · জায়ফল · শাপলা</span><span class="pri">★★★★</span></div>
+    <div class="anch-b"><dl>
+      <dt>মূল তথ্য</dt><dd><b>এরূপ পরিবর্তনকালে কোনো কোনো ক্ষেত্রে বীজের একটি তৃতীয় স্তর সৃষ্টি হয়, যাকে এরিল (aril) বলে। লিচু, কাঁঠলিচু ও জায়ফলে এরূপ এরিল দেখা যায়। শাপলা বীজেও এরিল আছে। লিচু ও কাঁঠলিচুর এরিল হলো ভোজ্য অংশ।</b> <span class="ref">স্লা.২৮ · পৃ.৩৬২</span></dd>
+      <dt>অ্যাঙ্কর</dt><dd><b>লিচুর খোসা ছাড়ানো</b> — খোসা ছাড়ালে যে <b>সাদা রসালো অংশ</b> মুখে দেন, ওটাই এরিল। এটা কল্পনা নয়, স্মৃতি।</dd>
+      <dt>বাইন্ডিং</dt><dd><span class="bind">লিচু খাওয়া মানেই এরিল খাওয়া</span></dd>
+      <dt>দৃশ্য</dt><dd><div class="scene">গরমকালে এক বাটি <b>লিচু</b>। খোসা ছাড়িয়ে সাদা অংশটা মুখে দিয়ে আপনি বললেন — "আমি এখন <b>তৃতীয় স্তর</b> খাচ্ছি"। পাশের প্লেটে কাঁঠলিচু, জায়ফল আর শাপলার বীজও হাসছে।</div></dd>
+      <dt>শব্দখেলা</dt><dd><b>লি-কাঁ-জা-শা</b> → <b>লিচু, কাঁঠলিচু, জায়ফল, শাপলা</b>। প্রথম দুটিই <b>খাওয়া হয়</b> — ক্রমটাও তাই।</dd>
+      <dt>কেন কাজ করে</dt><dd><b>স্বাদের স্মৃতি</b> সবচেয়ে শক্ত স্মৃতি। লিচু খাওয়ার অভিজ্ঞতা প্রতিবার এরিল ফিরিয়ে আনবে।</dd>
+      <dt>উল্টো দিক</dt><dd><div class="rev">"বীজের তৃতীয় স্তর" শুনলে → লিচুর সাদা অংশ → <b>এরিল</b> → লি-কাঁ-জা-শা।</div></dd>
+    </dl></div>
+  </div>
+
+  <div class="anch">
+    <div class="anch-h"><span class="nm">ফণিমনসা → পর্ণকাণ্ড ‖ পাথরকুচি → পাতা</span><span class="pri">★★★★</span></div>
+    <div class="anch-b"><dl>
+      <dt>মূল তথ্য</dt><dd><b>পর্ণকাণ্ড দ্বারা: ফণিমনসার পর্ণকাণ্ড থেকে নতুন গাছ হয়।</b> [আলীম স্যার: পর্ণকাণ্ড = <b>ফাইলোক্ল্যাড</b>]<br><b>পাতার মাধ্যমে (By leaf): পাথরকুচি পাতা মাটিতে ফেলে রাখলেই একটি পাতার কিনারা থেকে বহু নতুন গাছের জন্ম হয়।</b> <span class="ref">স্লা.৩৫,৩৯ · পৃ.৩৬৫</span></dd>
+      <dt>অ্যাঙ্কর</dt><dd>ফণিমনসার যে চ্যাপ্টা কাঁটাওয়ালা অংশটাকে আপনি <b>"পাতা" ভাবেন</b>, বইয়ের ভাষায় সেটাই <b>পর্ণকাণ্ড</b> — অর্থাৎ <b>পাতার মতো দেখতে কাণ্ড</b>। আর পাথরকুচির পাতা <b>সত্যিই পাতা</b>।</dd>
+      <dt>বাইন্ডিং</dt><dd><span class="bind">ফণিমনসা → পাতা ভেবে ভুল করা কাণ্ড → পর্ণ(পাতা)-কাণ্ড<br>পাথরকুচি → সত্যিকারের পাতা → পাতা</span></dd>
+      <dt>দৃশ্য</dt><dd><div class="scene">দুটো গাছ পাশাপাশি। <b>ফণিমনসা</b> বলছে — "আমাকে পাতা ভেবো না, আমি <b>কাণ্ড</b>, শুধু পাতার ছদ্মবেশে"। পাশে <b>পাথরকুচির পাতা</b> মাটিতে পড়ে আছে, তার <b>কিনারা থেকে</b> সারি সারি ছোট চারা গজাচ্ছে।</div></dd>
+      <dt>শব্দখেলা</dt><dd><b>পর্ণ</b> শব্দের অর্থই <b>পাতা</b> <span class="extra">PDF-এর বাইরে</span> — তাই "পর্ণকাণ্ড" নামের ভেতরেই সংজ্ঞা: <b>পাতা + কাণ্ড</b>।</dd>
+      <dt>কেন কাজ করে</dt><dd>দুটোকে <b>জোড়ায়</b> রাখা হয়েছে কারণ দুটোই "পাতা"-সংক্রান্ত এবং ঠিক এখানেই গুলিয়ে যায়। ছদ্মবেশ বনাম আসল — একটাই বৈপরীত্য।</dd>
+      <dt>উল্টো দিক</dt><dd><div class="rev">"পাতা থেকে গাছ" শুনলে → <b>পাথরকুচি</b> (+ নাইট কুইন)। "পাতার মতো দেখতে কাণ্ড" শুনলে → <b>ফণিমনসা</b>।</div></dd>
+    </dl></div>
+  </div>
+
+  <div class="anch">
+    <div class="anch-h"><span class="nm">জাতীয় প্রতীক → শাপলা অযৌন, কাঁঠাল ও আম যৌন</span><span class="pri">★★★★★</span></div>
+    <div class="anch-b"><dl>
+      <dt>মূল তথ্য</dt><dd><b>বাংলাদেশের জাতীয় ফুল সাদা শাপলার মুখ্য প্রজনন প্রক্রিয়া অযৌন</b> — ভূনিম্নস্থ কাণ্ড থেকে <b>টিউবার (শালুক)</b>। <b>লাল শাপলাতে সাধারণত ফল সৃষ্টি হয় না, এদের প্রজনন সম্পূর্ণ অযৌন।</b><br><b>জাতীয় ফল কাঁঠালের প্রজনন প্রক্রিয়া যৌন</b>, বীজ সৃষ্টির মাধ্যমে; অঙ্কুরোদগম <b>মৃৎগত</b>।<br><b>জাতীয় বৃক্ষ আম-এর স্বাভাবিক প্রজনন যৌন</b>, কিন্তু পরপরাগায়নে স্বাদ নষ্ট হয় বলে <b>গ্রাফটিং</b>। <span class="ref">স্লা.৪৪ · পৃ.৩৬৯</span></dd>
+      <dt>অ্যাঙ্কর</dt><dd><b>শাপলা পানিতে ভাসে</b>, কাঁঠাল-আম <b>ডালে ঝোলে</b>। অবস্থানটাই উত্তরের সুতো।</dd>
+      <dt>বাইন্ডিং</dt><dd><span class="bind">পানিতে ভাসলে → অযৌন (শাপলা)<br>ডালে ঝুললে → যৌন (কাঁঠাল, আম)</span></dd>
+      <dt>দৃশ্য</dt><dd><div class="scene">পুকুরে <b>সাদা শাপলা</b> — নিচে কাদায় শালুক ছড়িয়ে <b>নিজে নিজেই</b> নতুন শাপলা বানাচ্ছে, কারও দরকার নেই। পাড়ে <b>কাঁঠাল গাছ ও আম গাছ</b> — তারা <b>বীজ থেকে</b> জন্মায়। আম গাছটা আবার হাতে <b>কলমের ছুরি</b> নিয়ে দাঁড়িয়ে, কারণ তার স্বাদ ধরে রাখতে গ্রাফটিং লাগে।</div></dd>
+      <dt>শব্দখেলা</dt><dd><b>শালুক</b> শব্দটাই টিউবারের বাংলা নাম — বাজারে "শালুক" নামেই বিক্রি হয় <span class="extra">PDF-এর বাইরে</span>।</dd>
+      <dt>কেন কাজ করে</dt><dd>তিনটি জাতীয় প্রতীক <b>একসাথেই</b> প্রশ্নে আসে, আর তাদের উত্তর <b>একরকম নয়</b>। ভাসা-বনাম-ঝোলা ছবিটা সেই বিভাজনটাই ধরে রাখে।</dd>
+      <dt>উল্টো দিক</dt><dd><div class="rev">"জাতীয় ফুল" শুনলে → পানি → <b>অযৌন, টিউবার/শালুক</b>। "জাতীয় ফল বা বৃক্ষ" শুনলে → ডাল → <b>যৌন, বীজ, মৃৎগত</b>। "স্বাদ ধরে রাখা" শুনলে → <b>আম + গ্রাফটিং</b>।</div></dd>
+    </dl></div>
+  </div>
+
+  <div class="anch">
+    <div class="anch-h"><span class="nm">ভিন্নবাড়ী উদ্ভিদ → খেজুর · পটল · তাল</span><span class="pri">★★★</span></div>
+    <div class="anch-b"><dl>
+      <dt>মূল তথ্য</dt><dd><b>ভিন্নবাড়ী উদ্ভিদ — খেজুর, পটল, তাল।</b> <b>একবাড়ী উদ্ভিদ — লাউ, কুমড়া, জবা, ধুতুরা।</b> উভলিঙ্গ ফুল — <b>জবা, ধুতুরা</b>; একলিঙ্গ ফুল — <b>লাউ, কুমড়া</b>। <span class="ref">স্লা.৭ (হোয়াইটবোর্ড)</span></dd>
+      <dt>অ্যাঙ্কর</dt><dd>তিনটির আদ্যক্ষর — <b>খে · প · তা</b> → পড়লে দাঁড়ায় <b>"খেপাটা"</b>।</dd>
+      <dt>বাইন্ডিং</dt><dd><span class="bind">খেপাটা লোক আলাদা বাড়িতে থাকে → খেজুর-পটল-তাল = ভিন্নবাড়ী</span></dd>
+      <dt>দৃশ্য</dt><dd><div class="scene">পাড়ার <b>খেপাটা</b> লোকটা সবার থেকে আলাদা, নিজের বাড়িতে একা থাকে। তার বাড়ির উঠানে <b>খেজুর গাছ, পটল ক্ষেত আর তাল গাছ</b> — সবাই আলাদা আলাদা।</div></dd>
+      <dt>শব্দখেলা</dt><dd>খে(জুর) + প(টল) + তা(ল) = <b>খেপাটা</b>। আর <b>ভিন্নবাড়ী</b> শব্দের মানেই "আলাদা বাড়ি" — অ্যাঙ্করের সাথে অর্থও মিলে যায়।</dd>
+      <dt>কেন কাজ করে</dt><dd>আদ্যক্ষর মিলে একটা <b>অর্থপূর্ণ বাংলা শব্দ</b> হয়েছে, আর সেই শব্দের অর্থও ("আলাদা") তথ্যের সাথে মিলে যায় — জোর করে বানানো নয়।</dd>
+      <dt>উল্টো দিক</dt><dd><div class="rev">"ভিন্নবাড়ী" শুনলে → খেপাটা → <b>খেজুর, পটল, তাল</b>। মনে রাখুন <b>পটল</b> আবার <b>মূল দিয়ে অঙ্গজ প্রজননও</b> করে <span class="ref">স্লা.৩৩</span> — দুই প্রসঙ্গে একই নাম।</div></dd>
+    </dl></div>
+  </div>
+
+  <div class="anch">
+    <div class="anch-h"><span class="nm">পলিনিয়াম → Orchidaceae · Asclepiadaceae</span><span class="pri">★★★</span></div>
+    <div class="anch-b"><dl>
+      <dt>মূল তথ্য</dt><dd><b>Orchidaceae, Asclepiadaceae গোত্রের উদ্ভিদের পরাগরেণু পৃথক না হয়ে একসাথে থাকে। একসাথে থাকা পরাগরেণুগুলোর এ বিশেষ গঠনকে পলিনিয়াম (pollinium) বলে।</b> <span class="ref">স্লা.৯ · পৃ.৩৫৫</span></dd>
+      <dt>অ্যাঙ্কর</dt><dd><b>অর্কিড ফুল</b> — বিয়ে-অনুষ্ঠানে দেখা যায়, আর অর্কিডের পরাগ <b>আঠালো দলা</b> হয়ে থাকে।</dd>
+      <dt>বাইন্ডিং</dt><dd><span class="bind">অর্কিড = দামি ফুল, পরাগও দলা বেঁধে একসাথে → পলিনিয়াম</span></dd>
+      <dt>দৃশ্য</dt><dd><div class="scene">একটা <b>অর্কিড</b>-এর গায়ে হাত দিলেন, আঙুলে <b>আঠার মতো এক দলা পরাগ</b> লেগে গেল — একটা একটা করে নয়, <b>পুরো গুচ্ছ একসাথে</b>।</div></dd>
+      <dt>শব্দখেলা</dt><dd><b>Poly</b>nium নয়, <b>Polli</b>nium — কিন্তু "poll(en)" + "-ium" = <b>পরাগের দলা</b>। আর <b>পোলেন টেট্রাড</b> হলো এর উল্টো: চারটে একসাথে থাকলেও <b>পরে আলাদা হয়ে যায়</b>।</dd>
+      <dt>কেন কাজ করে</dt><dd>দুটো গোত্রের নামই কঠিন, কিন্তু <b>অর্কিড</b> শব্দটা চেনা — একটাকে ধরলে অন্যটা সঙ্গী হিসেবে আসে।</dd>
+      <dt>উল্টো দিক</dt><dd><div class="rev">"পরাগরেণু একসাথে থাকে" শুনলে → আঠালো দলা → <b>পলিনিয়াম</b> → Orchidaceae, Asclepiadaceae। মনে রাখুন <b><i>Orchis maculata</i></b>ও এই PDF-এ আছে — হ্যাপ্লয়েড পার্থেনোজেনেসিসে।</div></dd>
+    </dl></div>
+  </div>
+
+  <div class="anch">
+    <div class="anch-h"><span class="nm"><i>Ephedra</i> → দ্বিনিষেকের একমাত্র ব্যতিক্রম</span><span class="pri">★★★★★</span></div>
+    <div class="anch-b"><dl>
+      <dt>মূল তথ্য</dt><dd><b>দ্বিনিষেক আবৃতবীজী উদ্ভিদের বিশেষ বৈশিষ্ট্য।</b> (নগ্নবীজী উদ্ভিদের <b><i>Ephedra</i>-তে দ্বিনিষেক আবিষ্কৃত হয় ১৯৯০ সালে</b> — এটি ব্যতিক্রম।) তুলনা টেবিলেও: "কেবলমাত্র আবৃতবীজী উদ্ভিদে সংঘটিত হয় <b>(ব্যক্তবীজী <i>Ephedra</i> ব্যতিক্রম)</b>"। <span class="ref">স্লা.২৪,২৬ · পৃ.৩৬১</span></dd>
+      <dt>অ্যাঙ্কর</dt><dd><b><i>E</i>phedra</b> — নামের প্রথম অক্ষর <b>E</b>, আর <b>E</b>xception (ব্যতিক্রম)-এরও প্রথম অক্ষর <b>E</b>।</dd>
+      <dt>বাইন্ডিং</dt><dd><span class="bind">E = Ephedra = Exception</span></dd>
+      <dt>দৃশ্য</dt><dd><div class="scene">একটা ক্লাসে সব আবৃতবীজী ছাত্র সারিবদ্ধ হয়ে বসে "দ্বিনিষেক" পড়ছে। দরজায় দাঁড়িয়ে একা একজন নগ্নবীজী — বুকে বড় করে লেখা <b>"E"</b>। সে বলছে, "১৯৯০ সালে আমাকেও ভর্তি করা হয়েছে"।</div></dd>
+      <dt>শব্দখেলা</dt><dd><b>১৯৯০</b> এ অধ্যায়ের <b>সবচেয়ে সাম্প্রতিক সাল</b> — আর সবচেয়ে নতুন আবিষ্কারই ব্যতিক্রম হওয়া স্বাভাবিক।</dd>
+      <dt>কেন কাজ করে</dt><dd>এক অক্ষরের মিল — মনে রাখার খরচ প্রায় শূন্য, অথচ এটিই অধ্যায়ের সবচেয়ে ঘন ঘন আসা ব্যতিক্রম।</dd>
+      <dt>উল্টো দিক</dt><dd><div class="rev">"দ্বিনিষেক কোথায় ঘটে?" → <b>আবৃতবীজী</b>। "ব্যতিক্রম কোনটি?" → <b>E</b> → <i>Ephedra</i>, ১৯৯০।</div></dd>
+    </dl></div>
+  </div>
+  <a class="toplink" href="#how">↑ উপরে</a>
+</section>
+<section class="part" id="contrast">
+  <div class="part-head"><span class="part-no">৩</span><h2>গুলিয়ে যাওয়া জোড়া — কনট্রাস্টিভ মেমোরি</h2></div>
+  <p class="lede">পরীক্ষার হলে উদাহরণ হারায় না — উদাহরণ <b>জায়গা বদল করে</b>। পান আর শিম দুটোই মনে আছে, কিন্তু কোনটা ঊর্ধ্বমুখী মনে নেই। তাই প্রতিটি জোড়ার দুই পাশে <b>দুটো আলাদা চেনা জিনিস</b> বসানো হয়েছে, যাতে দুটো কখনো এক তাকে না থাকে। শেষ লাইনটাই আসল — সেটাই সেই সূত্র যা দুটোকে আলাদা করে।</p>
+
+  <div class="vs">
+    <div class="vs-h">০১ · ঊর্ধ্বমুখী ↔ অধোমুখী ডিম্বক <span class="pri">★★★★★</span></div>
+    <div class="vs-g">
+      <div><span class="lbl">A — ঊর্ধ্বমুখী (Orthotropous/Atropous)</span>
+        ডিম্বকের <b>মুখ ওপরে</b>। ডিম্বকনাড়ী, ডিম্বমূল ও ডিম্বকরন্ধ্র <b>একই সরলরেখায় খাড়া</b>; ডিম্বকরন্ধ্র শীর্ষে, ডিম্বকমূল গোড়ায়। উদাহরণ — <b>বিষকাটালী (পানি মরিচ), গোলমরিচ, পান</b>। <span class="ref">স্লা.১৭ · পৃ.৩৫৮</span><br>
+        <span class="who">অ্যাঙ্কর → ঝাল জিনিস।</span> পান-গোলমরিচ-বিষকাটালী তিনটাই <b>ঝাঁঝালো</b>; ঝাল লাগলে মুখ <b>উপরে</b> তুলে "আহ্‌" করেন।</div>
+      <div><span class="lbl">B — অধোমুখী / নিম্নমুখী (Anatropous)</span>
+        ডিম্বকের <b>মুখ নিচে</b>। ডিম্বকরন্ধ্র নিচের দিকে ডিম্বকনাড়ীর কাছাকাছি, ডিম্বকমূল ওপরে। উদাহরণ — <b>শিম, রেড়ি, ছোলা</b>। <span class="ref">স্লা.১৭,১৮ · পৃ.৩৫৮</span><br>
+        <span class="who">অ্যাঙ্কর → মাচার শিম।</span> শিম মাচা থেকে <b>নিচে ঝুলে</b> থাকে — মুখ নিচে।</div>
+    </div>
+    <div class="vs-key"><b>গুলিয়ে না যাওয়ার সূত্র —</b> <b>ঝাল উপরে, শিম নিচে।</b> বইয়ের নিজের লাইনটাই ধরে রাখুন: "ঊর্ধ্বমুখী ও অধোমুখী একটি অপরটির উল্টো" <span class="ref">স্লা.১৭</span> — তাই একটা মনে থাকলেই অন্যটা এমনিতেই বেরোয়। DAT 17-18-এ প্রশ্ন এসেছিল "ঊর্ধ্বমুখীর উদাহরণ কোনটি?" আর ফাঁদ ছিল শিম, ছোলা, সরিষা — তিনটাই অন্য ঘরের <span class="ref">স্লা.৫২</span>।</div>
+  </div>
+
+  <div class="vs">
+    <div class="vs-h">০২ · পার্শ্বমুখী ↔ বক্রমুখী ডিম্বক <span class="pri">★★★★</span></div>
+    <div class="vs-g">
+      <div><span class="lbl">A — পার্শ্বমুখী (Amphitropous)</span>
+        মুখ ওপরে বা নিচে নয়, <b>এক পাশে</b>। ডিম্বকরন্ধ্র ও ডিম্বকমূল <b>বিপরীতমুখী অবস্থানে দু'পাশে</b>, ডিম্বকনাড়ীর সাথে <b>সমকোণে</b>। উদাহরণ — <b>ক্ষুদিপানা, পপি (আফিম)</b>। <span class="ref">স্লা.১৭ · পৃ.৩৫৮</span><br>
+        <span class="who">অ্যাঙ্কর → পুকুরে ভাসা ক্ষুদিপানা।</span> পানির উপর <b>সমতল হয়ে পাশ ফিরে</b> ভাসে।</div>
+      <div><span class="lbl">B — বক্রমুখী (Campylotropous)</span>
+        পার্শ্বমুখীর চেয়ে <b>কিছুটা বেঁকে</b> নিচের দিকে মুখ। ডিম্বকমূল ডিম্বকনাড়ীর সাথে সমকোণে, কিন্তু <b>ডিম্বকরন্ধ্র অঞ্চলটি একটু বাঁকা</b> হয়ে ডিম্বকনাড়ীর কাছে চলে আসে। উদাহরণ — <b>সরিষা, কালকাসুন্দা</b>। <span class="ref">স্লা.১৭ · পৃ.৩৫৮</span><br>
+        <span class="who">অ্যাঙ্কর → সরিষার বাঁকা ডাঁটা।</span> সরিষার শুঁটি <b>বাঁকা</b> — নামেই "বক্র"।</div>
+    </div>
+    <div class="vs-key"><b>গুলিয়ে না যাওয়ার সূত্র —</b> <b>পানিতে ভাসলে সমতল = পার্শ্বমুখী; সরিষা বাঁকা = বক্রমুখী।</b> দুটোতেই "সমকোণ" শব্দটা আছে বলেই ভুল হয় — পার্থক্যটা কোণে নয়, <b>ডিম্বকরন্ধ্র বাঁকা কি না</b> তাতে। পার্শ্বমুখীতে রন্ধ্র সোজা দু'পাশে, বক্রমুখীতে রন্ধ্র <b>বেঁকে নাড়ীর কাছে</b>।</div>
+  </div>
+
+  <div class="vs">
+    <div class="vs-h">০৩ · হ্যাপ্লয়েড ↔ ডিপ্লয়েড পার্থেনোজেনেসিস <span class="pri">★★★★★</span></div>
+    <div class="vs-g">
+      <div><span class="lbl">A — হ্যাপ্লয়েড পার্থেনোজেনেসিস</span>
+        <b>স্বাভাবিক মায়োসিস</b> প্রক্রিয়ায় ডিম্বাণু সৃষ্টি হলেও তা <b>নিষিক্ত না হয়ে সরাসরি ভ্রূণ</b> সৃষ্টি করে। উদাহরণ — <b><i>Solanum nigrum</i></b> [হাতে লেখা: বেগুন] ও <b><i>Orchis maculata</i></b>; অনিষিক্ত ডিম্বাণু থেকে <b>হ্যাপ্লয়েড উদ্ভিদ</b>, যা <b>অনুর্বর</b>। <span class="ref">স্লা.৪১ · পৃ.৩৬৭</span><br>
+        <span class="who">অ্যাঙ্কর → অর্ধেক কাটা বেগুন।</span> অর্ধেক = n।</div>
+      <div><span class="lbl">B — ডিপ্লয়েড পার্থেনোজেনেসিস</span>
+        স্বাভাবিক মায়োসিসের <b>বদলে মাইটোসিস</b> প্রক্রিয়ায় ডিম্বাণু <b>(2n)</b> সৃষ্টি হয়, পরে ভ্রূণে পরিণত হয়। উদাহরণ — <b><i>Parthenium argentatum</i></b> ও <b><i>Taraxacum albidum</i></b>। <span class="ref">স্লা.৪১ · পৃ.৩৬৭</span><br>
+        <span class="who">অ্যাঙ্কর → নাম দুটো সম্পূর্ণ, কাটা নয়।</span> "পার্থ ও তারা" — দুটো নামই <b>আস্ত</b> = 2n।</div>
+    </div>
+    <div class="vs-key"><b>গুলিয়ে না যাওয়ার সূত্র —</b> <b>যে প্রক্রিয়ায় ভাগ কম, সেখানে ক্রোমোসোম বেশি।</b> মায়োসিস <b>অর্ধেক করে</b> → হ্যাপ্লয়েড; মাইটোসিস <b>অর্ধেক করে না</b> → ডিপ্লয়েড। নামের সাথে মিলিয়ে: <b>বেগুন কাটা (n) ↔ পার্থ-তারা আস্ত (2n)</b>। মনে রাখুন <b><i>Parthenium</i>-এর নামের ভেতরেই "Partheno"</b> — উদাহরণটা নিজেই প্রক্রিয়ার নাম বলে দেয়।</div>
+  </div>
+
+  <div class="vs">
+    <div class="vs-h">০৪ · পার্থেনোজেনেসিস ↔ পার্থেনোকার্পি <span class="pri">★★★★★</span></div>
+    <div class="vs-g">
+      <div><span class="lbl">A — পার্থেনোজেনেসিস (অপুংজনি)</span>
+        <b>যে প্রজনন প্রক্রিয়ায় ডিম্বাণুটি নিষেক ছাড়াই ভ্রূণ সৃষ্টি করে এবং ডিম্বক স্বাভাবিক বীজে পরিণত হয়।</b> অর্থাৎ <b>বীজ হয়</b>। <span class="ref">স্লা.৪১ · পৃ.৩৬৭</span><br>
+        <span class="who">অ্যাঙ্কর → "জেনেসিস" = জন্ম।</span> জন্ম মানে <b>নতুন প্রাণ = ভ্রূণ ও বীজ</b>।</div>
+      <div><span class="lbl">B — পার্থেনোকার্পি (Parthenocarpy)</span>
+        <b>হরমোন প্রয়োগে বীজহীন ফল উৎপাদন প্রক্রিয়া।</b> উদাহরণ — <b>লেবু, কমলালেবু</b>; <b>বীজহীন কলাও</b> একটি পার্থেনোকার্পিক ফল। <span class="ref">স্লা.৪১ · পৃ.৩৬৭</span><br>
+        <span class="who">অ্যাঙ্কর → "কার্প" = ফল।</span> কার্পেল/পেরিকার্প — সবেতেই "কার্প" মানে <b>ফল</b>।</div>
+    </div>
+    <div class="vs-key"><b>গুলিয়ে না যাওয়ার সূত্র —</b> শব্দের <b>শেষ অংশটাই</b> উত্তর: <b>-genesis → বীজ/ভ্রূণ জন্মায়; -carpy → শুধু ফল, বীজ নেই।</b> দোকানে "বীজহীন কলা" দেখলেই মনে করুন পার্থেনো<b>কার্পি</b>। MAT 25-26-এ ঠিক এটাই এসেছিল — "হরমোন প্রয়োগ করে বীজহীন ফল" → উত্তর <b>পার্থেনোকার্পি</b>, আর ফাঁদ অপশন ছিল অ্যাপোগ্যামি <span class="ref">স্লা.৪৯</span>।</div>
+  </div>
+
+  <div class="vs">
+    <div class="vs-h">০৫ · অ্যাপোস্পোরি ↔ অ্যাডভেনটিটিভ এমব্রায়োনি <span class="pri">★★★★★</span></div>
+    <div class="vs-g">
+      <div><span class="lbl">A — অ্যাপোস্পোরি (Apospory)</span>
+        ডিম্বকের যেকোনো <b>দেহকোষ</b> (ডিম্বক ত্বক, নিউসেলাস) থেকে <b>ডিপ্লয়েড ভ্রূণথলি সৃষ্টি হয়</b>, তারপর সেই ভ্রূণথলির ডিপ্লয়েড ডিম্বাণু থেকে নিষেক ছাড়া ভ্রূণ। সৃষ্ট উদ্ভিদ <b>ডিপ্লয়েড ও মাতৃউদ্ভিদের সমগুণসম্পন্ন</b>। উদাহরণ — <b><i>Hieracium</i></b>। <span class="ref">স্লা.৪২ · পৃ.৩৬৮</span><br>
+        <span class="who">অ্যাঙ্কর → ঘর আছে।</span> ভ্রূণথলি = ভ্রূণের ঘর — <b>ঘর বানিয়ে</b> তারপর ভ্রূণ।</div>
+      <div><span class="lbl">B — অ্যাডভেনটিটিভ এমব্রায়োনি</span>
+        ডিম্বকের ডিম্বক ত্বক বা নিউসেলাসের যেকোনো কোষ হতে <b>ভ্রূণথলি গঠন ছাড়াই</b> ভ্রূণ সৃষ্টি। <span class="ref">স্লা.৪২ · পৃ.৩৬৮</span><br>
+        <span class="who">অ্যাঙ্কর → ঘর নেই।</span> "অ্যাডভেনটিশাস মূল" যেমন <b>যেখানে সেখানে</b> গজায়, এখানেও ভ্রূণ <b>ঘর ছাড়াই</b> গজায়।</div>
+    </div>
+    <div class="vs-key"><b>গুলিয়ে না যাওয়ার সূত্র —</b> দুটোরই শুরু একই — <b>ডিম্বকের দেহকোষ</b>। পার্থক্য একটাই প্রশ্নে: <b>মাঝখানে ভ্রূণথলি তৈরি হলো কি না?</b> হ্যাঁ → <b>অ্যাপোস্পোরি</b>; না → <b>অ্যাডভেনটিটিভ এমব্রায়োনি</b>। বইও ঠিক এভাবেই আলাদা করেছে — বন্ধনীতে লিখেছে "(অ্যাপোস্পোরিতে ভ্রূণথলি গঠিত হয়)" <span class="ref">স্লা.৪২</span>। <b>ঘর বানিয়ে ঢোকা ↔ ঘর ছাড়াই বসা।</b></div>
+  </div>
+
+  <div class="vs">
+    <div class="vs-h">০৬ · অ্যাপোস্পোরি ↔ অ্যাপোগ্যামি <span class="pri">★★★★★</span></div>
+    <div class="vs-g">
+      <div><span class="lbl">A — অ্যাপোস্পোরি</span>
+        ভ্রূণ আসে <b>ভ্রূণথলির ডিম্বাণু</b> থেকে — কিন্তু সেই ভ্রূণথলিটাই দেহকোষ থেকে তৈরি, তাই <b>ডিপ্লয়েড</b>। <span class="ref">স্লা.৪২ · পৃ.৩৬৮</span><br>
+        <span class="who">অ্যাঙ্কর → <b>স্পোর</b> শব্দটা।</span> স্পোর → স্পোরাঞ্জিয়াম → <b>থলি</b>।</div>
+      <div><span class="lbl">B — অ্যাপোগ্যামি (Apogamy)</span>
+        <b>ডিম্বাণু ছাড়া</b> ভ্রূণথলির <b>অন্য যেকোনো কোষ</b> (সহকারী কোষ, প্রতিপাদকোষ ইত্যাদি) থেকে ভ্রূণ সৃষ্টি। <span class="ref">স্লা.৪২ · পৃ.৩৬৮</span><br>
+        <span class="who">অ্যাঙ্কর → <b>গ্যামি</b> = গ্যামিট = ডিম্বাণু।</span> "অ্যাপো-" মানে <b>ছাড়া</b> → <b>গ্যামিট ছাড়া</b>।</div>
+    </div>
+    <div class="vs-key"><b>গুলিয়ে না যাওয়ার সূত্র —</b> নামের দ্বিতীয় অংশটাই বলে দেয় <b>কে বাদ পড়ল</b>: অ্যাপো<b>গ্যামি</b> = গ্যামিট (ডিম্বাণু) <b>বাদ</b>, অন্য কোষ কাজ করছে। অ্যাপো<b>স্পোরি</b> = স্বাভাবিক স্পোর (স্ত্রীরেণু) <b>বাদ</b>, দেহকোষ থেকে থলি হচ্ছে। <b>একটায় ডিম্বাণু নেই, অন্যটায় স্ত্রীরেণু নেই।</b> MAT 21-22-এ প্রশ্ন ছিল "কোন পদ্ধতিতে নিষেক ছাড়াই ভ্রূণ সৃষ্টি হয়?" → উত্তর <b>apogamy</b> <span class="ref">স্লা.৫৬</span>।</div>
+  </div>
+
+  <div class="vs">
+    <div class="vs-h">০৭ · অ্যাগামোস্পার্মি ↔ বাকি চারটি <span class="pri">★★★★</span></div>
+    <div class="vs-g">
+      <div><span class="lbl">A — চারটি আলাদা প্রক্রিয়া</span>
+        <b>পার্থেনোজেনেসিস · অ্যাপোস্পোরি · অ্যাপোগ্যামি · অ্যাডভেনটিটিভ এমব্রায়োনি</b> — প্রত্যেকটির <b>নিজস্ব উৎস কোষ</b> আছে। <span class="ref">স্লা.৪২ · পৃ.৩৬৮</span><br>
+        <span class="who">অ্যাঙ্কর → চারজন আলাদা খেলোয়াড়।</span></div>
+      <div><span class="lbl">B — অ্যাগামোস্পার্মি (Agamospermy)</span>
+        ডিম্বাণু, ভ্রূণথলি বা ডিম্বকের অন্যান্য কোষ থেকে <b>নিষেক ছাড়া ভ্রূণ তৈরির এসব প্রক্রিয়াকে সামগ্রিকভাবে</b> বলা হয় অ্যাগামোস্পার্মি। <span class="ref">স্লা.৪২ · পৃ.৩৬৮</span><br>
+        <span class="who">অ্যাঙ্কর → দলের নাম, খেলোয়াড় নয়।</span></div>
+    </div>
+    <div class="vs-key"><b>গুলিয়ে না যাওয়ার সূত্র —</b> অ্যাগামোস্পার্মি <b>পঞ্চম পদ্ধতি নয়, চারটির ছাতা</b>। প্রশ্নে "সামগ্রিকভাবে" বা "এসব প্রক্রিয়াকে একত্রে" শব্দ থাকলে উত্তর অ্যাগামোস্পার্মি; নির্দিষ্ট কোষের কথা বললে চারটির একটি। <b>a-gamo-spermy = গ্যামিট ছাড়া বীজ</b> — শব্দটাই সংজ্ঞা। MAT 25-26-এ এটি <b>ফাঁদ অপশন</b> হিসেবে এসেছিল, উত্তর ছিল পার্থেনোজেনেসিস <span class="ref">স্লা.৫০</span>।</div>
+  </div>
+
+  <div class="vs">
+    <div class="vs-h">০৮ · এক্সাইন ↔ ইনটাইন <span class="pri">★★★★★</span></div>
+    <div class="vs-g">
+      <div><span class="lbl">A — এক্সাইন (exine), বহিঃত্বক</span>
+        পরাগরেণুর বাইরের ত্বক — <b>কিউটিনযুক্ত, পুরু ও শক্ত</b>, বিভিন্নভাবে অর্নামেন্টেড। প্রধান রাসায়নিক উপাদান <b>স্পোরোপোলেনিন</b>। স্থানে স্থানে পাতলা হয়ে <b>জননছিদ্র/জার্মপোর</b> তৈরি করে। <span class="ref">স্লা.৯,১০ · পৃ.৩৫৫ · MAT: 17-18</span><br>
+        <span class="who">অ্যাঙ্কর → <b>Ex</b> = external = বাইরে।</span></div>
+      <div><span class="lbl">B — ইনটাইন (intine), অন্তঃত্বক</span>
+        ভেতরের ত্বক — <b>বেশ পাতলা এবং সেলুলোজ নির্মিত</b>। অঙ্কুরোদগমের সময় <b>ইনটাইন বৃদ্ধি পেয়ে</b> জার্মপোর দিয়ে <b>পরাগনালিকা</b> রূপে বেরোয়। <span class="ref">স্লা.১১,১২ · পৃ.৩৫৫,৩৫৬</span><br>
+        <span class="who">অ্যাঙ্কর → <b>In</b> = internal = ভেতরে।</span></div>
+    </div>
+    <div class="vs-key"><b>গুলিয়ে না যাওয়ার সূত্র —</b> <b>Ex = বাইরে = শক্ত = স্পোরোপোলেনিন। In = ভেতরে = নরম = সেলুলোজ; আর নালিকা বানায় ইনটাইন।</b> "পরাগনালিকা কে বানায়?" প্রশ্নে অনেকে এক্সাইন লেখে, কারণ এক্সাইন কথাটা বেশি চেনা — কিন্তু বাইরের শক্ত খোলস বাড়ে না, <b>ভেতরের নরম স্তরই বাড়ে</b>।
+    <div class="warn" style="margin:10px 0 0"><b>এই জায়গায় সবচেয়ে বড় ফাঁদ:</b> বই <b>ডিম্বকের ত্বককেও</b> "ডিম্বক বহিঃত্বক বা এক্সাইন" ও "ডিম্বক অন্তঃত্বক বা ইনটাইন" লিখেছে <span class="ref">স্লা.২৯ · পৃ.৩৬৩</span> — নিষেকের পরে যেগুলো <b>টেস্টা</b> ও <b>টেগমেন</b> হয়। অর্থাৎ একই দুটো শব্দ <b>পরাগরেণু</b> আর <b>ডিম্বক</b> — দুই জায়গায় ব্যবহৃত। প্রশ্নে <b>কোনটির কথা বলা হচ্ছে</b> সেটা আগে দেখুন: পরাগরেণুর এক্সাইন → স্পোরোপোলেনিন; ডিম্বকের এক্সাইন → টেস্টা। <span class="extra">বইয়ের পরিভাষা হুবহু রাখা হলো, বদলানো হয়নি</span></div></div>
+  </div>
+
+  <div class="vs">
+    <div class="vs-h">০৯ · পোলেন টেট্রাড ↔ পলিনিয়াম <span class="pri">★★★★</span></div>
+    <div class="vs-g">
+      <div><span class="lbl">A — পরাগ চতুষ্টয় / পোলেন টেট্রাড</span>
+        পরাগমাতৃকোষ হতে সৃষ্ট <b>চারটি পরাগরেণু একসাথে হালকাভাবে লাগানো</b> অবস্থা। <b>তবে পরিণত অবস্থায় পরাগরেণুগুলো পরস্পর আলাদা হয়ে যায়।</b> <span class="ref">স্লা.৯ · পৃ.৩৫৫</span><br>
+        <span class="who">অ্যাঙ্কর → কাঁচা লিচুর থোকা।</span> এখন একসাথে, পাকলে <b>আলাদা</b>।</div>
+      <div><span class="lbl">B — পলিনিয়াম (pollinium)</span>
+        <b>Orchidaceae, Asclepiadaceae</b> গোত্রের উদ্ভিদের পরাগরেণু <b>পৃথক না হয়ে একসাথে থাকে</b> — এ বিশেষ গঠনই পলিনিয়াম। <span class="ref">স্লা.৯ · পৃ.৩৫৫</span><br>
+        <span class="who">অ্যাঙ্কর → অর্কিডের আঠালো দলা।</span> শেষ পর্যন্ত <b>একসাথেই</b>।</div>
+    </div>
+    <div class="vs-key"><b>গুলিয়ে না যাওয়ার সূত্র —</b> দুটোতেই "পরাগরেণু একসাথে" — কিন্তু <b>শেষে কী হয়</b> সেটাই পার্থক্য। <b>টেট্রাড পরে ভেঙে যায়; পলিনিয়াম ভাঙে না।</b> সংখ্যাটাও আলাদা করে দেয় — টেট্রাডে <b>ঠিক ৪টি</b>, পলিনিয়ামে <b>সংখ্যা বলা নেই, শুধু গোত্র বলা আছে</b>। প্রশ্নে গোত্রের নাম থাকলেই উত্তর পলিনিয়াম।</div>
+  </div>
+
+  <div class="vs">
+    <div class="vs-h">১০ · সিনগ্যামি ↔ ত্রিমিলন <span class="pri">★★★★★</span></div>
+    <div class="vs-g">
+      <div><span class="lbl">A — সিনগ্যামি (syngamy)</span>
+        দুটি পুংগ্যামিটের <b>একটি ডিম্বাণুর সাথে</b> মিলিত ও একীভূত হয়। <b>প্রকৃতপক্ষে ডিম্বাণুর সাথে শুক্রাণুর মিলনই হলো নিষেকক্রিয়া।</b> ফল — <b>ডিম্বাণু জাইগোটে পরিণত হয়, ডিপ্লয়েড (2n)</b>। <span class="ref">স্লা.২৪ · পৃ.৩৬১</span><br>
+        <span class="who">অ্যাঙ্কর → দুইজনের বিয়ে।</span> <b>২টি</b> নিউক্লিয়াস।</div>
+      <div><span class="lbl">B — ত্রিমিলন (triple fusion)</span>
+        অপর পুংগ্যামিটটি <b>সেকেন্ডারি নিউক্লিয়াসের সাথে</b> মিলিত হয়। নাম "ত্রি" কারণ <b>দুটি মেরু নিউক্লিয়াস ও একটি পুংনিউক্লিয়াস</b> — তিনটির মিলন। ফল — <b>ট্রিপ্লয়েড (3n)</b>, পরে <b>এন্ডোস্পার্ম/সস্য</b>। <span class="ref">স্লা.২৪,২৯ · পৃ.৩৬১,৩৬৩</span><br>
+        <span class="who">অ্যাঙ্কর → তিনজনের আসর।</span> <b>৩টি</b> নিউক্লিয়াস।</div>
+    </div>
+    <div class="vs-key"><b>গুলিয়ে না যাওয়ার সূত্র —</b> <b>গুনে ফেলুন: ২ → সিনগ্যামি → জাইগোট (2n) → ভ্রূণ। ৩ → ত্রিমিলন → সস্য (3n)।</b> সংখ্যাটাই ফলাফলের ক্রোমোসোম সংখ্যা — আলাদা করে মুখস্থ করার কিছু নেই। আর এই <b>দুটো একসাথে ঘটলেই</b> তার নাম <b>দ্বিনিষেক</b>, যা <b>আবৃতবীজীর বিশেষ বৈশিষ্ট্য</b> (ব্যতিক্রম <b><i>Ephedra</i></b>, ১৯৯০) <span class="ref">স্লা.২৪,২৬</span>।</div>
+  </div>
+
+  <div class="vs">
+    <div class="vs-h">১১ · সাইয়ন ↔ স্টক <span class="pri">★★★★★</span></div>
+    <div class="vs-g">
+      <div><span class="lbl">A — সাইয়ন (scion)</span>
+        <b>বিচ্ছিন্ন অংশটিকে সাইয়ন বলে।</b> <b>সাইয়ন সাধারণত উন্নতজাতের উদ্ভিদের অংশ।</b> জোড়কলমে <b>উপরের</b> অংশ। <span class="ref">স্লা.৩৭ · পৃ.৩৬৬</span><br>
+        <span class="who">অ্যাঙ্কর → সাইনবোর্ড।</span> দোকানের <b>উপরে</b> ঝোলে, আর সেটাই দোকানের <b>নাম ও পরিচয়</b> — যেমন ফল-ফুলের চরিত্র।</div>
+      <div><span class="lbl">B — স্টক (stock)</span>
+        <b>সাইয়নকে যে উদ্ভিদের সাথে জোড়া দেয়া হয় তাকে স্টক বলে।</b> <b>স্টক যেকোনো ধরনের নিম্নমানের উদ্ভিদ হতে পারে; মাটির রস শোষণ করে ওপরে পাঠানোই স্টকের কাজ।</b> <b>নিচের</b> অংশ। <span class="ref">স্লা.৩৭ · পৃ.৩৬৬</span><br>
+        <span class="who">অ্যাঙ্কর → গুদাম (stock room)।</span> <b>নিচে</b> থাকে, <b>মাল সাপ্লাই</b> দেয়, নাম দেয় না।</div>
+    </div>
+    <div class="vs-key"><b>গুলিয়ে না যাওয়ার সূত্র —</b> বইয়ের এক লাইনই যথেষ্ট: <b>"ফল ও ফুলের চরিত্র নির্ভর করে সাইয়নের ওপর — স্টকের ওপর নয়।"</b> <span class="ref">স্লা.৩৭,৪০</span> <b>সাইনবোর্ডে নাম, গুদামে মাল।</b> উদাহরণ — <b>আম, কুল (আলীম স্যার), জাম (আজিবুর স্যার)</b> <span class="ref">স্লা.৪০ · মেডিট্রিক্স পৃ.২৪৭</span>। আর গ্রাফটিং সফল হওয়ার শর্ত: <b>স্টক ও সাইয়নের ক্যাম্বিয়ামদ্বয় একত্রে সংযুক্ত</b> হতে হবে।</div>
+  </div>
+
+  <div class="vs">
+    <div class="vs-h">১২ · সাকার ↔ অর্ধবায়বীয় কাণ্ড (স্টোলন) <span class="pri">★★★★★</span></div>
+    <div class="vs-g">
+      <div><span class="lbl">A — সাকার-এর সাহায্যে</span>
+        <b>কলা, পুদিনা, আনারস, চন্দ্রমল্লিকা, বাঁশ</b> — এদের <b>সাকার-এর (বিশেষ কাণ্ড)</b> সাহায্যে প্রজনন হয়। <span class="ref">স্লা.৩৩,৩৪,৩৯ · পৃ.৩৬৪</span><br>
+        <span class="who">অ্যাঙ্কর → কলাগাছের গোড়ার চারা।</span> বইয়ের শুরুতেই আছে — <b>কলা গাছের গোড়া থেকে কলার চারা</b> <span class="ref">স্লা.৪</span>।</div>
+      <div><span class="lbl">B — অর্ধবায়বীয় কাণ্ড / স্টোলন দ্বারা</span>
+        <b>কচুজাতীয় উদ্ভিদে অর্ধবায়বীয় কাণ্ড (রানার যা লতি হিসেবে পরিচিত)</b> দ্বারা বংশ বৃদ্ধি; <b>আমরুল শাকের স্টোলন</b> দ্বারা বংশ বৃদ্ধি। <span class="ref">স্লা.৩৫ · পৃ.৩৬৫</span><br>
+        <span class="who">অ্যাঙ্কর → কচুর লতি।</span> মাটির <b>উপর দিয়ে ছড়ায়</b>।</div>
+    </div>
+    <div class="vs-key"><b>গুলিয়ে না যাওয়ার সূত্র —</b> <b>সাকার গোড়া থেকে উপরে ওঠে; স্টোলন মাটির উপর দিয়ে পাশে ছড়ায়।</b>
+    <div class="warn" style="margin:10px 0 0"><b>উৎস নিজেই দুই জায়গায় একই নাম রেখেছে:</b> <b>চন্দ্রমল্লিকা</b> স্লাইড ৩৩-৩৯-এ <b>সাকার</b>-এর তালিকায়, আবার স্লাইড ৩৯-এ <b>"অর্ধ বায়বীয় কাণ্ড বা স্টোলন"</b>-এর তালিকাতেও (আলীম স্যার) — <b>কলা, পুদিনা, আনারস, বাঁশ</b>-ও একইভাবে দুই তালিকায়। মিলিয়ে দেবেন না, দুটোই লেখা থাক। <b>পরীক্ষায় কোনটা লিখবেন?</b> MAT 15-16-এ প্রশ্ন এসেছিল "চন্দ্রমল্লিকা বংশবিস্তার করে কিসের সাহায্যে?" — অপশনে সাকার <b>ছিলই না</b>, উত্তর <b>অর্ধবায়বীয় কাণ্ডের</b> <span class="ref">স্লা.৫৫</span>। অর্থাৎ <b>অপশন দেখে ঠিক করুন</b> — দুটোই বইসিদ্ধ।</div></div>
+  </div>
+
+  <div class="vs">
+    <div class="vs-h">১৩ · মূল দিয়ে ↔ কাণ্ড দিয়ে — চার আলুর ফাঁদ <span class="pri">★★★★★</span></div>
+    <div class="vs-g">
+      <div><span class="lbl">A — মূল দ্বারা (By roots)</span>
+        <b>মিষ্টি আলু, ডালিয়া, শতমূলী, কাঁকরোল, পটল</b>। <span class="ref">স্লা.৩৩,৩৯ · পৃ.৩৬৪</span><br>
+        <span class="who">অ্যাঙ্কর → <b>শতমূলী</b> নামের ভেতরেই "মূল"।</span> সে-ই এই ঘরের নেমপ্লেট।</div>
+      <div><span class="lbl">B — কাণ্ড / ভূ-নিম্নস্থ কাণ্ড দ্বারা</span>
+        <b>গোলআলু, আদা, পিঁয়াজ, সটি, ওলকচু</b> <span class="ref">স্লা.৩৩ · পৃ.৩৬৪</span>; মেডিট্রিক্সে <b>হলুদ</b>-সহ (আজিবুর স্যার) <span class="ref">স্লা.৩৯</span>।<br>
+        <span class="who">অ্যাঙ্কর → রান্নাঘরের ঝুড়ি।</span> <b>আদা-পিঁয়াজ-হলুদ</b> — সব একসাথে থাকে।</div>
+    </div>
+    <div class="vs-key"><b>গুলিয়ে না যাওয়ার সূত্র —</b> চারটি "আলু" চার ঘরে, একসাথে মনে রাখুন <b>"মাটির নিচে দুই ভাই, গাছের উপরে দুই ভাই"</b> <span class="ref">দেখুন — পর্ব ১, আলুর চার ভাই</span>: <b>মিষ্টি আলু = মূল</b>, <b>গোলআলু = কাণ্ড</b>, <b>চুপরিআলু = বুলবিল/কক্ষমুকুল</b> <span class="ref">স্লা.৩৫</span>, <b>গাছ আলু = সঞ্চয়ী মুকুল</b> (আজিবুর স্যার) <span class="ref">স্লা.৩৯</span>। নাম চারটে প্রায় এক, ঘর চারটে আলাদা — এই একটিমাত্র লাইনই ৪টি প্রশ্ন সামলায়।</div>
+  </div>
+
+  <div class="vs">
+    <div class="vs-h">১৪ · ভ্রূণথলির সংখ্যা — ৪ ↔ ৮ ↔ ১৬ <span class="pri">★★★★</span></div>
+    <div class="vs-g">
+      <div><span class="lbl">A — মনোস্পোরিক (একটি স্ত্রীরেণু)</span>
+        <b>শতকরা প্রায় ৭৫টি উদ্ভিদেই মনোস্পোরিক প্রক্রিয়ায়</b> ভ্রূণথলি গঠিত হয়; <b>অধিকাংশই ৮-নিউক্লিয়াসবিশিষ্ট</b>। <b>ব্যতিক্রম Oenothera type — ৪-নিউক্লিয়াসবিশিষ্ট।</b> মনোস্পোরিক <b>Polygonum ধরন</b> নামেও পরিচিত। <span class="ref">স্লা.১৯ · পৃ.৩৫৮</span><br>
+        <span class="who">অ্যাঙ্কর → "ও নো!" = <i>Oenothera</i> = সবচেয়ে কম, ৪।</span></div>
+      <div><span class="lbl">B — টেট্রাস্পোরিক (চারটি স্ত্রীরেণু)</span>
+        <b>টেট্রাস্পোরিক ৭ প্রকার।</b> প্রধান <b><i>Peperomia</i> type — ১৬-নিউক্লিয়াসবিশিষ্ট</b>; <b><i>Fritiliaria</i> type — ৮-নিউক্লিয়াসবিশিষ্ট</b>। <span class="ref">স্লা.১৯ · পৃ.৩৫৮</span><br>
+        <span class="who">অ্যাঙ্কর → পেঁপে বড়, ফ্রিজ মাঝারি।</span> <i>Peperomia</i> ≈ পেঁপে = ১৬; <i>Fritiliaria</i> ≈ ফ্রিজ = ৮।</div>
+    </div>
+    <div class="vs-key"><b>গুলিয়ে না যাওয়ার সূত্র —</b> <b>"৮" দুই জায়গায় আছে — এটাই একমাত্র ফাঁদ।</b> মনোস্পোরিকের <b>স্বাভাবিক</b> ৮, আর টেট্রাস্পোরিকের <b><i>Fritiliaria</i></b>-ও ৮। তাই সংখ্যা নয়, <b>নাম</b> ধরে উত্তর দিন: নাম বললে <i>Oenothera</i>=৪, <i>Fritiliaria</i>=৮, <i>Peperomia</i>=১৬। আর <b>বাইস্পোরিক = Allium type</b> (দুটি স্ত্রীরেণু) <span class="ref">স্লা.১৯</span>। সিঁড়িটা মনে রাখুন — <b>পেঁপে ১৬ → ফ্রিজ ৮ → ও নো ৪</b> <span class="ref">দেখুন — পর্ব ১, সংখ্যার সিঁড়ি</span>। Quiz-03-এ প্রশ্ন ছিল "ভ্রূণথলির গঠন প্রধানত কোন উপায়ে?" → <b>মনোস্পোরিক</b> <span class="ref">স্লা.৫৮</span>।</div>
+  </div>
+
+  <div class="vs">
+    <div class="vs-h">১৫ · হোমোস্পোরাস ↔ হেটেরোস্পোরাস <span class="pri">★★★★</span></div>
+    <div class="vs-g">
+      <div><span class="lbl">A — হোমোস্পোরাস (সম-আকৃতি)</span>
+        <b>ফার্ন (fern) ও লাইকোপোডিয়াম (<i>Lycopodium</i>)-এর স্পোর সম-আকৃতির</b>। <span class="ref">স্লা.৩২ · পৃ.৩৬৪</span><br>
+        <span class="who">অ্যাঙ্কর → <i>Lyco</i> ≈ <b>like</b> = একইরকম।</span></div>
+      <div><span class="lbl">B — হেটেরোস্পোরাস (অসম-আকৃতি)</span>
+        <b>সেলাজিনেলা (<i>Selaginella</i>), ঢেঁকি শাক (<i>Marsilea</i>) ইত্যাদির স্পোর অসম-আকৃতির</b>। <span class="ref">স্লা.৩২ · পৃ.৩৬৪</span><br>
+        <span class="who">অ্যাঙ্কর → ঢেঁকির দুই মাথা অসমান।</span></div>
+    </div>
+    <div class="vs-key"><b>গুলিয়ে না যাওয়ার সূত্র —</b> <b>Lycopodium-এ "like" (একরকম) → হোমো; ঢেঁকির দুই মাথা অসমান → হেটেরো।</b> দুটো তালিকাই ছোট, তাই একটার নাম মনে থাকলে অন্যটা বাদ দিয়েই পাওয়া যায়। খেয়াল রাখুন — <b>ফার্ন হোমো, কিন্তু <i>Marsilea</i>-ও ফার্নজাতীয়</b>; বই যেভাবে লিখেছে সেভাবেই ধরুন, নাম ধরে ধরে।</div>
+  </div>
+
+  <a class="toplink" href="#how">↑ উপরে</a>
+</section>
+<section class="part" id="top20">
+  <div class="part-head"><span class="part-no">৪</span><h2>Top 20 must-remember examples</h2></div>
+  <p class="lede">পুরো অধ্যায়ে নাম-উদাহরণ আছে দেড়শোর বেশি। কিন্তু <b>প্রশ্ন হয় ঘুরেফিরে এই কুড়িটা ঘর থেকেই</b> — স্লাইড ৩-এর এক্সাম-ওয়েট টেবিল আর স্লাইড ৪৯–৫৮-এর বিগত প্রশ্নগুলো মিলিয়ে সাজানো। প্রতিটি সারির <b>অ্যাঙ্কর</b> কলামটাই মনে রাখার হাতল; উদাহরণের নাম ভুলে গেলে ওখান থেকে টেনে তুলুন।</p>
+
+  <div class="tw"><table>
+    <thead><tr><th style="width:34px">#</th><th>উদাহরণ</th><th>কীসের উদাহরণ</th><th>এক লাইনের অ্যাঙ্কর</th><th style="width:64px">প্রায়োরিটি</th></tr></thead>
+    <tbody>
+    <tr><td class="k">১</td><td><b>বিষকাটালী (পানি মরিচ), গোলমরিচ, পান</b></td><td><b>ঊর্ধ্বমুখী (Orthotropous/Atropous) ডিম্বক</b> — মুখ ওপরে, সব একই সরলরেখায় <span class="ref">স্লা.১৭ · পৃ.৩৫৮ · DAT: 17-18</span></td><td>ঝাল খেলে <b>মুখ উপরে</b> তুলে "আহ্‌"</td><td><span class="pri">★★★★★</span></td></tr>
+    <tr><td class="k">২</td><td><b>শিম, রেড়ি, ছোলা</b></td><td><b>অধোমুখী / নিম্নমুখী (Anatropous) ডিম্বক</b> — মুখ নিচে <span class="ref">স্লা.১৭,১৮ · পৃ.৩৫৮</span></td><td>শিম <b>মাচা থেকে নিচে ঝোলে</b></td><td><span class="pri">★★★★★</span></td></tr>
+    <tr><td class="k">৩</td><td><b>ক্ষুদিপানা, পপি (আফিম)</b> · <b>সরিষা, কালকাসুন্দা</b></td><td><b>পার্শ্বমুখী (Amphitropous)</b> · <b>বক্রমুখী (Campylotropous)</b> <span class="ref">স্লা.১৭ · পৃ.৩৫৮</span></td><td>ক্ষুদিপানা পুকুরে <b>সমতল</b>; সরিষার শুঁটি <b>বাঁকা</b></td><td><span class="pri">★★★★</span></td></tr>
+    <tr><td class="k">৪</td><td><b>আম, জাম</b> · <b>ঝাউ (<i>Casuarina</i>)</b> · <b>লাউ, কুমড়া</b></td><td>পরাগনালিকার ডিম্বকে প্রবেশের ৩ পথ — <b>porogamy</b> (ডিম্বকরন্ধ্র) · <b>chalazogamy</b> (ডিম্বকমূল) · <b>mesogamy</b> (ডিম্বকত্বক ভেদ)। অধিকাংশ উদ্ভিদে <b>পোরোগ্যামি</b> <span class="ref">স্লা.২৩ · পৃ.৩৬০</span></td><td><b>বাড়িতে ঢোকার তিন পথ</b> — সদর দরজা (আম-জাম) / গোড়ার পথ (ঝাউ) / দেয়াল ভেদ করে লতা (লাউ-কুমড়া)</td><td><span class="pri">★★★★★</span></td></tr>
+    <tr><td class="k">৫</td><td><b>Orchidaceae, Asclepiadaceae</b></td><td><b>পলিনিয়াম</b> — পরাগরেণু পৃথক না হয়ে একসাথে থাকা <span class="ref">স্লা.৯ · পৃ.৩৫৫</span></td><td>অর্কিডের <b>আঠালো এক দলা</b> পরাগ</td><td><span class="pri">★★★★</span></td></tr>
+    <tr><td class="k">৬</td><td><b><i>Polygonum divaricatum</i></b> · <b><i>Allium</i></b> · <b><i>Peperomia</i></b> · <b><i>Fritiliaria</i></b> · <b><i>Oenothera</i></b></td><td>ভ্রূণথলি — মনোস্পোরিক = <b>Polygonum ধরন</b> (স্ট্রাসবার্গার, <b>১৮৭৯</b>), <b>~৭৫%</b> উদ্ভিদে, অধিকাংশ <b>৮</b>-নিউক্লিয়াস; বাইস্পোরিক = <b>Allium type</b>; টেট্রাস্পোরিক <b>৭ প্রকার</b> — <b>Peperomia ১৬</b>, <b>Fritiliaria ৮</b>; ব্যতিক্রম <b>Oenothera ৪</b> <span class="ref">স্লা.১৯ · পৃ.৩৫৮</span></td><td><b>সংখ্যার সিঁড়ি</b> — পেঁপে ১৬ → ফ্রিজ ৮ → "ও নো!" ৪। পিঁয়াজ <b>দুবার</b> কাঁদায় = বাই-স্পোরিক</td><td><span class="pri">★★★★</span></td></tr>
+    <tr><td class="k">৭</td><td><b><i>Ephedra</i></b></td><td><b>দ্বিনিষেক আবৃতবীজীর বিশেষ বৈশিষ্ট্য</b> — নগ্নবীজী <i>Ephedra</i>-তে আবিষ্কৃত <b>১৯৯০</b> সালে, এটিই ব্যতিক্রম <span class="ref">স্লা.২৪,২৬ · পৃ.৩৬১</span></td><td><b>E = Ephedra = Exception</b></td><td><span class="pri">★★★★★</span></td></tr>
+    <tr><td class="k">৮</td><td><b><i>Solanum nigrum</i></b> [বেগুন], <b><i>Orchis maculata</i></b></td><td><b>হ্যাপ্লয়েড পার্থেনোজেনেসিস</b> — স্বাভাবিক মায়োসিসে সৃষ্ট ডিম্বাণু নিষিক্ত না হয়ে ভ্রূণ; উদ্ভিদ হ্যাপ্লয়েড ও <b>অনুর্বর</b> <span class="ref">স্লা.৪১ · পৃ.৩৬৭</span></td><td><b>অর্ধেক কাটা বেগুন</b> = n</td><td><span class="pri">★★★★★</span></td></tr>
+    <tr><td class="k">৯</td><td><b><i>Parthenium argentatum</i>, <i>Taraxacum albidum</i></b></td><td><b>ডিপ্লয়েড পার্থেনোজেনেসিস</b> — মায়োসিসের বদলে <b>মাইটোসিসে</b> ডিম্বাণু (2n), পরে ভ্রূণ <span class="ref">স্লা.৪১ · পৃ.৩৬৭</span></td><td>"পার্থ ও তারা" — <b>নাম আস্ত</b>, তাই <b>2n</b></td><td><span class="pri">★★★★★</span></td></tr>
+    <tr><td class="k">১০</td><td><b><i>Nicotiana tabacum</i> (তামাক)</b></td><td><b>অ্যান্ড্রোজেনেসিস</b> — নিষেক ছাড়া <b>শুক্রাণু</b> থেকে ভ্রূণ <span class="ref">স্লা.৪১ · পৃ.৩৬৭</span></td><td>তামাক <b>পুরুষদের</b> নেশা → andro = পুরুষ</td><td><span class="pri">★★★★★</span></td></tr>
+    <tr><td class="k">১১</td><td><b><i>Hieracium</i></b></td><td><b>অ্যাপোস্পোরি</b> — দেহকোষ থেকে ডিপ্লয়েড ভ্রূণথলি; উদ্ভিদ ডিপ্লয়েড ও <b>মাতৃউদ্ভিদের সমগুণসম্পন্ন</b> <span class="ref">স্লা.৪২ · পৃ.৩৬৮</span></td><td><i>Hier</i>acium ≈ <b>Heir</b> (উত্তরাধিকারী) → মায়ের হুবহু গুণ</td><td><span class="pri">★★★★</span></td></tr>
+    <tr><td class="k">১২</td><td><b>লেবু, কমলালেবু, বীজহীন কলা</b></td><td><b>পার্থেনোকার্পি</b> — হরমোন প্রয়োগে <b>বীজহীন ফল</b> <span class="ref">স্লা.৪১ · পৃ.৩৬৭ · MAT: 25-26</span></td><td><b>-কার্প = ফল</b>; দোকানের বীজহীন কলা</td><td><span class="pri">★★★★★</span></td></tr>
+    <tr><td class="k">১৩</td><td><b>লিচু, কাঁঠলিচু, জায়ফল, শাপলা</b></td><td><b>এরিল (aril)</b> — বীজের তৃতীয় স্তর। <b>লিচু ও কাঁঠলিচুর এরিল হলো ভোজ্য অংশ</b> <span class="ref">স্লা.২৮ · পৃ.৩৬২</span></td><td>লিচুর <b>সাদা রসালো অংশটাই</b> এরিল — আপনি বীজ নয়, <b>এরিল খান</b></td><td><span class="pri">★★★★</span></td></tr>
+    <tr><td class="k">১৪</td><td><b>মিষ্টি আলু, ডালিয়া, শতমূলী, কাঁকরোল, পটল</b></td><td>স্বাভাবিক অঙ্গজ প্রজনন — <b>মূল দ্বারা</b> <span class="ref">স্লা.৩৩,৩৯ · পৃ.৩৬৪</span></td><td><b>শতমূলী</b> নামেই "মূল" — সে এই ঘরের নেমপ্লেট</td><td><span class="pri">★★★★★</span></td></tr>
+    <tr><td class="k">১৫</td><td><b>গোলআলু, আদা, পিঁয়াজ, সটি, ওলকচু</b> (+ <b>হলুদ</b>, আজিবুর স্যার)</td><td>স্বাভাবিক অঙ্গজ প্রজনন — <b>কাণ্ড / ভূ-নিম্নস্থ কাণ্ড দ্বারা</b> <span class="ref">স্লা.৩৩,৩৯ · পৃ.৩৬৪</span></td><td><b>রান্নাঘরের ঝুড়ি</b> — আদা-পিঁয়াজ-হলুদ একসাথেই থাকে</td><td><span class="pri">★★★★★</span></td></tr>
+    <tr><td class="k">১৬</td><td><b>কলা, পুদিনা, আনারস, চন্দ্রমল্লিকা, বাঁশ</b></td><td><b>সাকার</b> (বিশেষ কাণ্ড)-এর সাহায্যে <span class="ref">স্লা.৩৩,৩৪,৩৯ · পৃ.৩৬৪</span></td><td>"কলা-পুদিনা-আনারস খেয়ে <b>চন্দ্র</b> <b>বাঁশি</b> বাজায়"</td><td><span class="pri">★★★★★</span></td></tr>
+    <tr><td class="k">১৭</td><td><b>পাথরকুচি</b> (+ নাইট কুইন) · <b>চুপরিআলু</b> · <b>ফণিমনসা</b> · <b>ঈস্ট</b></td><td><b>পাতা</b> · <b>বুলবিল বা কক্ষমুকুল</b> · <b>পর্ণকাণ্ড</b> [ফাইলোক্ল্যাড, আলীম স্যার] · <b>মুকুলোদগম</b> <span class="ref">স্লা.৩৫,৩৯ · পৃ.৩৬৫</span></td><td>চারটে চার রকম অঙ্গ — <b>পাতা, মুকুল, কাণ্ড, কোষ</b>; উপরের দিক থেকে নিচে নামছে</td><td><span class="pri">★★★★★</span></td></tr>
+    <tr><td class="k">১৮</td><td><b>কচু</b> (লতি) · <b>আমরুল</b> (স্টোলন) · [কচুরিপানা, টোপাপানা, স্ট্রেবেরি, থানকুনি — আজিবুর স্যার]</td><td><b>অর্ধবায়বীয় কাণ্ড (রানার/লতি) ও স্টোলন দ্বারা</b> <span class="ref">স্লা.৩৫,৩৯ · পৃ.৩৬৫ · MAT: 15-16</span></td><td>মাটির <b>উপর দিয়ে ছড়ানো</b> কচুর লতি</td><td><span class="pri">★★★★</span></td></tr>
+    <tr><td class="k">১৯</td><td><b>জবা, আখ, গোলাপ, পাতাবাহার, সজিনা, আপেল, কমলালেবু</b> · <b>লেবু, যুঁই</b> · <b>আম, কুল, জাম</b> · <b>লিচু, লেবু, আম, গোলাপ, গন্ধরাজ</b> · <b>কুল (বরই), গোলাপ</b></td><td>কৃত্রিম অঙ্গজ প্রজননের পাঁচ পদ্ধতি — <b>কাটিং/শাখা কলম</b> · <b>দাবাকলম</b> · <b>জোড়কলম</b> · <b>গুটিকলম</b> · <b>চোখকলম</b> <span class="ref">স্লা.৩৬–৩৮,৪০ · পৃ.৩৬৫,৩৬৬ · MAT: 20-21</span></td><td><b>গোলাপ তিন জায়গায়</b> (কাটিং, গুটি, চোখ) — গোলাপ দেখলে অপশন বাদ দেওয়া যায় না, বাকি নাম দেখে ঠিক করুন</td><td><span class="pri">★★★★★</span></td></tr>
+    <tr><td class="k">২০</td><td><b>সাদা শাপলা</b> · <b>কাঁঠাল</b> · <b>আম</b> · <b>পদ্ম</b></td><td>জাতীয় ফুলের মুখ্য প্রজনন <b>অযৌন</b> (টিউবার = শালুক); জাতীয় ফলের <b>যৌন</b>, অঙ্কুরোদগম <b>মৃৎগত</b>; জাতীয় বৃক্ষের স্বাভাবিক প্রজনন <b>যৌন</b> কিন্তু স্বাদ রক্ষায় <b>গ্রাফটিং</b>; পদ্ম <b>রানার (রাইজোম কাণ্ড)</b> <span class="ref">স্লা.৪৪,৪৫ · পৃ.৩৬৯</span></td><td><b>পানিতে ভাসলে অযৌন, ডালে ঝুললে যৌন</b></td><td><span class="pri">★★★★★</span></td></tr>
+    </tbody>
+  </table></div>
+
+  <div class="hook"><b>এই কুড়িটার ভেতরেও যদি সময় না থাকে —</b> ১, ২, ৪, ৭, ৮, ৯, ১০, ১২, ১৪, ১৫, ১৬ — এই এগারোটি সরাসরি বিগত বছরের প্রশ্নে বা <b>লাল বক্সে</b> চিহ্নিত। বাকিগুলো তার পরের ধাপ।</div>
+
+  <a class="toplink" href="#how">↑ উপরে</a>
+</section>
+<section class="part" id="map">
+  <div class="part-head"><span class="part-no">৫</span><h2>ওয়ান-পেজ মেমোরি ম্যাপ</h2></div>
+  <p class="lede">অধ্যায়টা মনে রাখার জন্য নয়, <b>ফিরিয়ে আনার</b> জন্য এই পাতা। উদাহরণগুলোকে ছয়টি <b>চেনা জায়গায়</b> ভাগ করা হয়েছে — রান্নাঘর, ফলের দোকান, পুকুরপাড়, মশলার তাক, বাগান, আর "বিদেশি নামের তাক"। পরীক্ষার হলে একটা নাম আটকে গেলে <b>আগে জায়গাটা মনে করুন</b>, নামটা তার পরে আসবে।</p>
+
+  <div class="two">
+    <div class="box"><h4 style="margin-top:0">🍲 রান্নাঘর — অঙ্গজ প্রজননের অঙ্গ</h4>
+      <ul class="plain">
+        <li><b>শতমূলী</b> · মিষ্টি আলু · ডালিয়া · কাঁকরোল · পটল → <b>মূল</b> <span class="ref">স্লা.৩৩</span></li>
+        <li><b>গোলআলু</b> · আদা · পিঁয়াজ · সটি · ওলকচু · হলুদ → <b>ভূ-নিম্নস্থ কাণ্ড</b> <span class="ref">স্লা.৩৩,৩৯</span></li>
+        <li><b>চুপরিআলু</b> → বুলবিল/কক্ষমুকুল · <b>গাছ আলু</b> → সঞ্চয়ী মুকুল <span class="ref">স্লা.৩৫,৩৯</span></li>
+        <li><b>কচুর লতি</b> · আমরুল → অর্ধবায়বীয় কাণ্ড/স্টোলন <span class="ref">স্লা.৩৫</span></li>
+        <li><b>ঈস্ট</b> (পাউরুটি) → মুকুলোদগম <span class="ref">স্লা.৩৫</span></li>
+      </ul>
+      <div class="bind" style="margin-top:6px">মাটির নিচে দুই ভাই (মিষ্টি=মূল, গোল=কাণ্ড)<br>গাছের উপরে দুই ভাই (চুপরি=বুলবিল, গাছ আলু=সঞ্চয়ী মুকুল)</div>
+    </div>
+
+    <div class="box"><h4 style="margin-top:0">🍋 ফলের দোকান — নিষেক ও নিষেকোত্তর</h4>
+      <ul class="plain">
+        <li><b>আম, জাম</b> → <b>porogamy</b> (ডিম্বকরন্ধ্র পথে) <span class="ref">স্লা.২৩</span></li>
+        <li><b>লিচু</b>, কাঁঠলিচু, জায়ফল, শাপলা → <b>এরিল</b>; লিচু-কাঁঠলিচুর এরিলই ভোজ্য <span class="ref">স্লা.২৮</span></li>
+        <li><b>বীজহীন কলা</b>, লেবু, কমলালেবু → <b>পার্থেনোকার্পি</b> (হরমোন) <span class="ref">স্লা.৪১</span></li>
+        <li><b>কাঁঠাল</b> → জাতীয় ফল, <b>যৌন</b>, অঙ্কুরোদগম <b>মৃৎগত</b> <span class="ref">স্লা.৪৪</span></li>
+        <li><b>আম</b> → জাতীয় বৃক্ষ, যৌন, কিন্তু স্বাদ রক্ষায় <b>গ্রাফটিং</b> <span class="ref">স্লা.৪৪</span></li>
+      </ul>
+      <div class="bind" style="margin-top:6px">বীজ আছে → যৌন · বীজ নেই → পার্থেনোকার্পি<br>খোসার ভেতর তৃতীয় রসালো স্তর → এরিল</div>
+    </div>
+
+    <div class="box"><h4 style="margin-top:0">🪷 পুকুরপাড় — জলজ উদ্ভিদ</h4>
+      <ul class="plain">
+        <li><b>সাদা শাপলা</b> → জাতীয় ফুল, মুখ্য প্রজনন <b>অযৌন</b>, ভূনিম্নস্থ কাণ্ড থেকে <b>টিউবার (শালুক)</b> <span class="ref">স্লা.৪৪</span></li>
+        <li><b>লাল শাপলা</b> → সাধারণত ফল হয় না, প্রজনন <b>সম্পূর্ণ অযৌন</b> <span class="ref">স্লা.৪৪</span></li>
+        <li><b>পদ্ম</b> → <b>রানার (রাইজোম কাণ্ড)</b>, দ্রুত বিরাট এলাকা দখল <span class="ref">স্লা.৪৫</span></li>
+        <li><b>ক্ষুদিপানা</b> → <b>পার্শ্বমুখী</b> ডিম্বক <span class="ref">স্লা.১৭</span></li>
+        <li>কচুরিপানা, টোপাপানা → স্টোলন (আজিবুর স্যার) <span class="ref">স্লা.৩৯</span></li>
+      </ul>
+      <div class="bind" style="margin-top:6px">পানিতে ভাসে → অযৌন / অঙ্গজ<br>ডালে ঝোলে → যৌন / বীজ</div>
+    </div>
+
+    <div class="box"><h4 style="margin-top:0">🌶️ মশলার তাক ও মাচা — ডিম্বকের চার ধরন</h4>
+      <ul class="plain">
+        <li><b>পান, গোলমরিচ, বিষকাটালী</b> → <b>ঊর্ধ্বমুখী</b> (মুখ ওপরে) <span class="ref">স্লা.১৭</span></li>
+        <li><b>শিম, রেড়ি, ছোলা</b> → <b>অধোমুখী</b> (মুখ নিচে) <span class="ref">স্লা.১৭,১৮</span></li>
+        <li><b>ক্ষুদিপানা, পপি</b> → <b>পার্শ্বমুখী</b> (এক পাশে) <span class="ref">স্লা.১৭</span></li>
+        <li><b>সরিষা, কালকাসুন্দা</b> → <b>বক্রমুখী</b> (বেঁকে নিচে) <span class="ref">স্লা.১৭</span></li>
+      </ul>
+      <div class="bind" style="margin-top:6px">ঝাল → মুখ উপরে · শিম → নিচে ঝোলে<br>পানা → সমতল · সরিষা → বাঁকা</div>
+    </div>
+
+    <div class="box"><h4 style="margin-top:0">🌹 বাগান — কলম করার পাঁচ পদ্ধতি</h4>
+      <ul class="plain">
+        <li><b>কাটিং/শাখা কলম</b> → জবা, আখ, গোলাপ, পাতাবাহার, সজিনা, আপেল, কমলালেবু <span class="ref">স্লা.৩৬</span></li>
+        <li><b>দাবাকলম</b> → লেবু, যুঁই (+ আঙুর, পেয়ারা, আপেল, ডালিম) <span class="ref">স্লা.৩৬,৪০</span></li>
+        <li><b>জোড়কলম</b> → আম, কুল, জাম · <b>সাইয়ন</b> উপরে, <b>স্টক</b> নিচে <span class="ref">স্লা.৩৭,৪০</span></li>
+        <li><b>গুটিকলম</b> → লিচু, লেবু, আম, গোলাপ, গন্ধরাজ <span class="ref">স্লা.৩৮,৪০</span></li>
+        <li><b>চোখকলম</b> → কুল (বরই), গোলাপ <span class="ref">স্লা.৩৮,৪০</span></li>
+      </ul>
+      <div class="bind" style="margin-top:6px">ডাল কেটে পুঁতলে → কাটিং · বাঁকিয়ে চাপা দিলে → দাবা<br>জুড়ে দিলে → জোড় · গুটি বেঁধে দিলে → গুটি · কুঁড়ি বসালে → চোখ</div>
+    </div>
+
+    <div class="box"><h4 style="margin-top:0">🔬 বিদেশি নামের তাক — একটাও বাদ নয়</h4>
+      <ul class="plain">
+        <li><b><i>Solanum nigrum</i>, <i>Orchis maculata</i></b> → হ্যাপ্লয়েড পার্থেনোজেনেসিস <span class="ref">স্লা.৪১</span></li>
+        <li><b><i>Parthenium argentatum</i>, <i>Taraxacum albidum</i></b> → ডিপ্লয়েড পার্থেনোজেনেসিস <span class="ref">স্লা.৪১</span></li>
+        <li><b><i>Nicotiana tabacum</i></b> → অ্যান্ড্রোজেনেসিস <span class="ref">স্লা.৪১</span></li>
+        <li><b><i>Hieracium</i></b> → অ্যাপোস্পোরি <span class="ref">স্লা.৪২</span></li>
+        <li><b><i>Ephedra</i></b> → দ্বিনিষেকের ব্যতিক্রম, <b>১৯৯০</b> <span class="ref">স্লা.২৪,২৬</span></li>
+        <li><b><i>Polygonum divaricatum</i></b> → মনোস্পোরিক, স্ট্রাসবার্গার <b>১৮৭৯</b> <span class="ref">স্লা.১৯</span></li>
+        <li><b><i>Allium</i></b> ২ · <b><i>Peperomia</i></b> ১৬ · <b><i>Fritiliaria</i></b> ৮ · <b><i>Oenothera</i></b> ৪ <span class="ref">স্লা.১৯</span></li>
+        <li><b><i>Casuarina</i></b> (ঝাউ) → chalazogamy <span class="ref">স্লা.২৩</span></li>
+        <li><b><i>Lycopodium</i></b>, ফার্ন → হোমোস্পোরাস · <b><i>Selaginella</i>, <i>Marsilea</i></b> (ঢেঁকি শাক) → হেটেরোস্পোরাস <span class="ref">স্লা.৩২</span></li>
+        <li><b><i>Spirogyra</i>, <i>Ocillatoria</i></b> → খণ্ডায়ন (আলীম স্যার) <span class="ref">স্লা.৩৯</span></li>
+      </ul>
+      <div class="bind" style="margin-top:6px">নামের ভেতরেই উত্তর: Partheno · Andro · Heir · E=Exception · poly-নামে/mono-কাজে</div>
+    </div>
+  </div>
+
+  <div class="sys">
+    <h4>এক নিঃশ্বাসে পুরো অধ্যায় — চোখ বন্ধ করে বলার ক্রম</h4>
+    <div class="link-chain">
+      <b>পরাগরেণু</b> → এক্সাইন (স্পোরোপোলেনিন) → ইনটাইন (সেলুলোজ) → জার্মপোর → <b>পরাগনালিকা</b> → তিন পথ (আম-জাম · ঝাউ · লাউ-কুমড়া) →
+      <b>ভ্রূণথলি</b> (মনোস্পোরিক ৭৫%, ৮ নিউক্লিয়াস, ৭ কোষ) → ডিম্বাণু + সেকেন্ডারি নিউক্লিয়াস →
+      <b>সিনগ্যামি (২)</b> + <b>ত্রিমিলন (৩)</b> = <b>দ্বিনিষেক</b> (ব্যতিক্রম <i>Ephedra</i> ১৯৯০) →
+      গর্ভাশয়→<b>ফল</b>, ডিম্বক→<b>বীজ</b>, ডিম্বাণু→<b>ভ্রূণ</b>, সেকেন্ডারি→<b>সস্য</b> → এরিল (লিচু) →
+      নিষেক ছাড়া পথ: <b>পার্থেনোজেনেসিস</b> (বেগুন n · পার্থ-তারা 2n) · <b>অ্যান্ড্রোজেনেসিস</b> (তামাক) · <b>অ্যাপোস্পোরি</b> (<i>Hieracium</i>) · <b>অ্যাপোগ্যামি</b> · <b>অ্যাডভেনটিটিভ এমব্রায়োনি</b> = <b>অ্যাগামোস্পার্মি</b> →
+      ফল আছে বীজ নেই: <b>পার্থেনোকার্পি</b> (কলা, লেবু) →
+      <b>অযৌন</b>: রেণু (ফার্ন হোমো · ঢেঁকি শাক হেটেরো) + <b>অঙ্গজ</b> (মূল · কাণ্ড · সাকার · পাতা · বুলবিল · স্টোলন · মুকুলোদগম · পর্ণকাণ্ড) →
+      <b>কৃত্রিম</b>: কাটিং · দাবা · জোড় (সাইয়ন-স্টক) · গুটি · চোখ → <b>ক্লোন</b>
+    </div>
+  </div>
+
+  <a class="toplink" href="#how">↑ উপরে</a>
+</section>
+<section class="part" id="rapid">
+  <div class="part-head"><span class="part-no">৬</span><h2>র‍্যাপিড রিকল</h2></div>
+  <p class="lede">পরীক্ষার আগের রাতের জন্য। কোনো ব্যাখ্যা নেই, কোনো অ্যাঙ্কর নেই — শুধু <b>নাম → উত্তর</b>। প্রথম তালিকাটা পড়ুন <b>বাঁ থেকে ডানে</b> (নাম দেখে উত্তর), দ্বিতীয়টা <b>ডান থেকে বাঁয়ে</b> (উত্তর দেখে নাম)। দুটোই সাবলীল হলে উদাহরণ আর হারাবে না।</p>
+
+  <h3>ক · উদাহরণ → কীসের উদাহরণ</h3>
+  <div class="two">
+    <div class="box">
+      <div class="stat"><span class="v">পান</span><span>ঊর্ধ্বমুখী ডিম্বক</span></div>
+      <div class="stat"><span class="v">গোলমরিচ</span><span>ঊর্ধ্বমুখী ডিম্বক</span></div>
+      <div class="stat"><span class="v">বিষকাটালী</span><span>ঊর্ধ্বমুখী ডিম্বক (পানি মরিচ)</span></div>
+      <div class="stat"><span class="v">শিম</span><span>অধোমুখী ডিম্বক</span></div>
+      <div class="stat"><span class="v">রেড়ি</span><span>অধোমুখী ডিম্বক</span></div>
+      <div class="stat"><span class="v">ছোলা</span><span>অধোমুখী ডিম্বক</span></div>
+      <div class="stat"><span class="v">ক্ষুদিপানা</span><span>পার্শ্বমুখী ডিম্বক</span></div>
+      <div class="stat"><span class="v">পপি (আফিম)</span><span>পার্শ্বমুখী ডিম্বক</span></div>
+      <div class="stat"><span class="v">সরিষা</span><span>বক্রমুখী ডিম্বক</span></div>
+      <div class="stat"><span class="v">কালকাসুন্দা</span><span>বক্রমুখী ডিম্বক</span></div>
+      <div class="stat"><span class="v">আম, জাম</span><span>porogamy — ডিম্বকরন্ধ্র পথে</span></div>
+      <div class="stat"><span class="v">ঝাউ</span><span>chalazogamy — ডিম্বকমূল দিয়ে (<i>Casuarina</i>)</span></div>
+      <div class="stat"><span class="v">লাউ, কুমড়া</span><span>mesogamy — ডিম্বকত্বক ভেদ করে</span></div>
+      <div class="stat"><span class="v">Orchidaceae</span><span>পলিনিয়াম</span></div>
+      <div class="stat"><span class="v">Asclepiadaceae</span><span>পলিনিয়াম</span></div>
+      <div class="stat"><span class="v"><i>Allium</i></span><span>বাইস্পোরিক ভ্রূণথলি (২টি স্ত্রীরেণু)</span></div>
+      <div class="stat"><span class="v"><i>Polygonum</i></span><span>মনোস্পোরিক ধরন; <i>P. divaricatum</i>, স্ট্রাসবার্গার ১৮৭৯</span></div>
+      <div class="stat"><span class="v"><i>Peperomia</i></span><span>টেট্রাস্পোরিক, ১৬-নিউক্লিয়াস</span></div>
+      <div class="stat"><span class="v"><i>Fritiliaria</i></span><span>টেট্রাস্পোরিক, ৮-নিউক্লিয়াস</span></div>
+      <div class="stat"><span class="v"><i>Oenothera</i></span><span>মনোস্পোরিকের ব্যতিক্রম, ৪-নিউক্লিয়াস</span></div>
+      <div class="stat"><span class="v"><i>Ephedra</i></span><span>দ্বিনিষেকের ব্যতিক্রম, ১৯৯০</span></div>
+      <div class="stat"><span class="v">লিচু</span><span>এরিল (ভোজ্য অংশ); গুটিকলম</span></div>
+      <div class="stat"><span class="v">কাঁঠলিচু</span><span>এরিল (ভোজ্য অংশ)</span></div>
+      <div class="stat"><span class="v">জায়ফল</span><span>এরিল</span></div>
+      <div class="stat"><span class="v">শাপলা</span><span>এরিল; জাতীয় ফুল — অযৌন, টিউবার (শালুক)</span></div>
+    </div>
+    <div class="box">
+      <div class="stat"><span class="v"><i>Solanum nigrum</i></span><span>হ্যাপ্লয়েড পার্থেনোজেনেসিস [বেগুন]</span></div>
+      <div class="stat"><span class="v"><i>Orchis maculata</i></span><span>হ্যাপ্লয়েড পার্থেনোজেনেসিস</span></div>
+      <div class="stat"><span class="v"><i>Parthenium argentatum</i></span><span>ডিপ্লয়েড পার্থেনোজেনেসিস</span></div>
+      <div class="stat"><span class="v"><i>Taraxacum albidum</i></span><span>ডিপ্লয়েড পার্থেনোজেনেসিস</span></div>
+      <div class="stat"><span class="v"><i>Nicotiana tabacum</i></span><span>অ্যান্ড্রোজেনেসিস (তামাক)</span></div>
+      <div class="stat"><span class="v"><i>Hieracium</i></span><span>অ্যাপোস্পোরি</span></div>
+      <div class="stat"><span class="v">লেবু, কমলালেবু</span><span>পার্থেনোকার্পি</span></div>
+      <div class="stat"><span class="v">বীজহীন কলা</span><span>পার্থেনোকার্পিক ফল</span></div>
+      <div class="stat"><span class="v">ফার্ন, <i>Lycopodium</i></span><span>হোমোস্পোরাস</span></div>
+      <div class="stat"><span class="v"><i>Selaginella</i>, ঢেঁকি শাক</span><span>হেটেরোস্পোরাস (<i>Marsilea</i>)</span></div>
+      <div class="stat"><span class="v">মিষ্টি আলু</span><span>মূল দ্বারা</span></div>
+      <div class="stat"><span class="v">ডালিয়া, শতমূলী</span><span>মূল দ্বারা</span></div>
+      <div class="stat"><span class="v">কাঁকরোল, পটল</span><span>মূল দ্বারা</span></div>
+      <div class="stat"><span class="v">গোলআলু, আদা, পিঁয়াজ</span><span>কাণ্ড / ভূ-নিম্নস্থ কাণ্ড</span></div>
+      <div class="stat"><span class="v">সটি, ওলকচু, হলুদ</span><span>কাণ্ড / ভূ-নিম্নস্থ কাণ্ড</span></div>
+      <div class="stat"><span class="v">পান, আখ</span><span>স্বাভাবিক কাণ্ড দ্বারা (আজিবুর স্যার)</span></div>
+      <div class="stat"><span class="v">কলা, পুদিনা, আনারস</span><span>সাকার</span></div>
+      <div class="stat"><span class="v">চন্দ্রমল্লিকা, বাঁশ</span><span>সাকার / অর্ধবায়বীয় কাণ্ড — অপশন দেখে</span></div>
+      <div class="stat"><span class="v">পাথরকুচি</span><span>পাতার মাধ্যমে</span></div>
+      <div class="stat"><span class="v">নাইট কুইন</span><span>পাতার মাধ্যমে (আজিবুর স্যার)</span></div>
+      <div class="stat"><span class="v">চুপরিআলু</span><span>বুলবিল / কক্ষমুকুল</span></div>
+      <div class="stat"><span class="v">গাছ আলু</span><span>সঞ্চয়ী মুকুল (আজিবুর স্যার)</span></div>
+      <div class="stat"><span class="v">কচু, আমরুল</span><span>অর্ধবায়বীয় কাণ্ড / স্টোলন</span></div>
+      <div class="stat"><span class="v">ঈস্ট</span><span>মুকুলোদগম</span></div>
+      <div class="stat"><span class="v">ফণিমনসা</span><span>পর্ণকাণ্ড / ফাইলোক্ল্যাড</span></div>
+      <div class="stat"><span class="v">পদ্ম</span><span>রানার (রাইজোম কাণ্ড)</span></div>
+      <div class="stat"><span class="v">খেজুর, পটল, তাল</span><span>ভিন্নবাড়ী উদ্ভিদ</span></div>
+      <div class="stat"><span class="v">জবা, ধুতুরা</span><span>উভলিঙ্গ ফুল; একবাড়ী</span></div>
+    </div>
+  </div>
+
+  <h3>খ · তথ্য → উদাহরণ (উল্টো দিক)</h3>
+  <div class="two">
+    <div class="box">
+      <div class="stat"><span class="v">ঊর্ধ্বমুখী</span><span>বিষকাটালী, গোলমরিচ, পান</span></div>
+      <div class="stat"><span class="v">অধোমুখী</span><span>শিম, রেড়ি, ছোলা</span></div>
+      <div class="stat"><span class="v">পার্শ্বমুখী</span><span>ক্ষুদিপানা, পপি</span></div>
+      <div class="stat"><span class="v">বক্রমুখী</span><span>সরিষা, কালকাসুন্দা</span></div>
+      <div class="stat"><span class="v">পোরোগ্যামি</span><span>আম, জাম — অধিকাংশ উদ্ভিদে</span></div>
+      <div class="stat"><span class="v">ক্যালাজোগ্যামি</span><span>ঝাউ (<i>Casuarina</i>)</span></div>
+      <div class="stat"><span class="v">মেসোগ্যামি</span><span>লাউ, কুমড়া</span></div>
+      <div class="stat"><span class="v">পলিনিয়াম</span><span>Orchidaceae, Asclepiadaceae</span></div>
+      <div class="stat"><span class="v">পোলেন টেট্রাড</span><span>৪টি পরাগরেণু — পরিণত অবস্থায় আলাদা হয়ে যায়</span></div>
+      <div class="stat"><span class="v">স্পোরোপোলেনিন</span><span>এক্সাইন-এর প্রধান উপাদান</span></div>
+      <div class="stat"><span class="v">সেলুলোজ</span><span>ইনটাইন; ইনটাইনই পরাগনালিকা বানায়</span></div>
+      <div class="stat"><span class="v">হ্যাপ্লয়েড পার্থেনো.</span><span><i>Solanum nigrum</i>, <i>Orchis maculata</i></span></div>
+      <div class="stat"><span class="v">ডিপ্লয়েড পার্থেনো.</span><span><i>Parthenium argentatum</i>, <i>Taraxacum albidum</i></span></div>
+      <div class="stat"><span class="v">অ্যান্ড্রোজেনেসিস</span><span><i>Nicotiana tabacum</i></span></div>
+      <div class="stat"><span class="v">অ্যাপোস্পোরি</span><span><i>Hieracium</i></span></div>
+      <div class="stat"><span class="v">পার্থেনোকার্পি</span><span>লেবু, কমলালেবু, বীজহীন কলা</span></div>
+    </div>
+    <div class="box">
+      <div class="stat"><span class="v">এরিল</span><span>লিচু, কাঁঠলিচু, জায়ফল, শাপলা</span></div>
+      <div class="stat"><span class="v">মূল দ্বারা</span><span>মিষ্টি আলু, ডালিয়া, শতমূলী, কাঁকরোল, পটল</span></div>
+      <div class="stat"><span class="v">কাণ্ড দ্বারা</span><span>গোলআলু, আদা, পিঁয়াজ, সটি, ওলকচু, হলুদ</span></div>
+      <div class="stat"><span class="v">সাকার</span><span>কলা, পুদিনা, আনারস, চন্দ্রমল্লিকা, বাঁশ</span></div>
+      <div class="stat"><span class="v">পাতা</span><span>পাথরকুচি, নাইট কুইন</span></div>
+      <div class="stat"><span class="v">বুলবিল</span><span>চুপরিআলু</span></div>
+      <div class="stat"><span class="v">সঞ্চয়ী মুকুল</span><span>গাছ আলু</span></div>
+      <div class="stat"><span class="v">স্টোলন</span><span>কচু, আমরুল, কচুরিপানা, টোপাপানা, স্ট্রেবেরি, থানকুনি</span></div>
+      <div class="stat"><span class="v">মুকুলোদগম</span><span>ঈস্ট</span></div>
+      <div class="stat"><span class="v">পর্ণকাণ্ড</span><span>ফণিমনসা</span></div>
+      <div class="stat"><span class="v">খণ্ডায়ন</span><span><i>Spirogyra</i>, <i>Ocillatoria</i>; শৈবাল, ছত্রাক, ব্রায়োফাইটা</span></div>
+      <div class="stat"><span class="v">কাটিং</span><span>জবা, আখ, গোলাপ, পাতাবাহার, সজিনা, আপেল, কমলালেবু</span></div>
+      <div class="stat"><span class="v">দাবাকলম</span><span>লেবু, যুঁই, আঙুর, পেয়ারা, আপেল, ডালিম</span></div>
+      <div class="stat"><span class="v">জোড়কলম</span><span>আম, কুল, জাম</span></div>
+      <div class="stat"><span class="v">গুটিকলম</span><span>লিচু, লেবু, আম, গোলাপ, গন্ধরাজ</span></div>
+      <div class="stat"><span class="v">চোখকলম</span><span>কুল (বরই), গোলাপ</span></div>
+      <div class="stat"><span class="v">টিস্যু কালচার</span><span>জারবেরা, কাঁঠাল, আলু, কলা, অর্কিড</span></div>
+    </div>
+  </div>
+
+  <h3>গ · সংখ্যা মনে রাখার লাইন</h3>
+  <div class="box">
+    <div class="stat"><span class="v">১৮৭৯</span><span>স্ট্রাসবার্গার — <i>Polygonum divaricatum</i>-এ মনোস্পোরিক ভ্রূণথলির বর্ণনা <span class="ref">স্লা.১৯</span></span></div>
+    <div class="stat"><span class="v">১৯৯০</span><span><i>Ephedra</i>-তে দ্বিনিষেক আবিষ্কার — অধ্যায়ের সবচেয়ে সাম্প্রতিক সাল <span class="ref">স্লা.২৪</span></span></div>
+    <div class="stat"><span class="v">~৭৫%</span><span>উদ্ভিদে ভ্রূণথলি <b>মনোস্পোরিক</b> প্রক্রিয়ায় <span class="ref">স্লা.১৯</span></span></div>
+    <div class="stat"><span class="v">৮৫%+</span><span>পুষ্পক উদ্ভিদ পরাগায়নে <b>পতঙ্গ/প্রাণী</b>-নির্ভর (মোট ২,৫০,০০০ পুষ্পক উদ্ভিদের মধ্যে) <span class="ref">স্লা.২২</span></span></div>
+    <div class="stat"><span class="v">৮ ও ৭</span><span>বিকশিত ভ্রূণথলি = <b>৮ নিউক্লিয়াস, ৭ কোষ</b> <span class="ref">স্লা.২১</span></span></div>
+    <div class="stat"><span class="v">৪ ধাপ</span><span>নিষিক্তকরণ প্রক্রিয়ার ধাপ <span class="ref">স্লা.২২</span></span></div>
+    <div class="stat"><span class="v">৩ পথ</span><span>পরাগনালিকার ডিম্বকে প্রবেশ — poro / chalazo / meso <span class="ref">স্লা.২৩</span></span></div>
+    <div class="stat"><span class="v">৭ প্রকার</span><span>টেট্রাস্পোরিক ভ্রূণথলি <span class="ref">স্লা.১৯</span></span></div>
+    <div class="stat"><span class="v">১৬ · ৮ · ৪</span><span><i>Peperomia</i> · <i>Fritiliaria</i> · <i>Oenothera</i> <span class="ref">স্লা.১৯</span></span></div>
+    <div class="stat"><span class="v">২ ও ৩</span><span>সিনগ্যামি = ২ নিউক্লিয়াস (2n) · ত্রিমিলন = ৩ নিউক্লিয়াস (3n) <span class="ref">স্লা.২৪</span></span></div>
+  </div>
+
+  <a class="toplink" href="#how">↑ উপরে</a>
+</section>
+<section class="part" id="reverse">
+  <div class="part-head"><span class="part-no">৭</span><h2>রিভার্স রিকল প্রশ্ন</h2></div>
+  <p class="lede">উদাহরণ পড়া আর উদাহরণ <b>ফিরিয়ে আনা</b> এক জিনিস নয়। নিচের প্রতিটি প্রশ্নে <b>তথ্যটা</b> দেওয়া আছে, <b>নামটা</b> আপনাকে বের করতে হবে — পরীক্ষায় ঠিক এভাবেই আসে। প্রশ্নে ক্লিক করলে উত্তর খুলবে; আগে নিজে বলুন, তারপর খুলুন।</p>
+
+  <h3>ক · তথ্য → উদাহরণ (৩০টি)</h3>
+
+  <details class="qq"><summary><span class="qnum">০১</span>কোন উদ্ভিদের ডিম্বকে ডিম্বকনাড়ী, ডিম্বমূল ও ডিম্বকরন্ধ্র একই সরলরেখায় খাড়াভাবে থাকে?</summary><div class="ans"><b>বিষকাটালী (পানি মরিচ), গোলমরিচ, পান</b> — ঊর্ধ্বমুখী (Orthotropous/Atropous)। অ্যাঙ্কর: ঝাল খেলে মুখ উপরে। <span class="ref">স্লা.১৭ · পৃ.৩৫৮</span></div></details>
+
+  <details class="qq"><summary><span class="qnum">০২</span>ডিম্বকরন্ধ্র নিচের দিকে ডিম্বকনাড়ীর কাছাকাছি এবং ডিম্বকমূল ওপরে — কোন উদ্ভিদে?</summary><div class="ans"><b>শিম, রেড়ি, ছোলা</b> — অধোমুখী / নিম্নমুখী (Anatropous)। স্লাইড ১৮-এ হাতে লেখা জোর: "অধোমুখী → (শিম, ছোলা)"। <span class="ref">স্লা.১৭,১৮</span></div></details>
+
+  <details class="qq"><summary><span class="qnum">০৩</span>ডিম্বকরন্ধ্র ও ডিম্বকমূল বিপরীতমুখী অবস্থানে দু'পাশে, ডিম্বকনাড়ীর সাথে সমকোণে — উদাহরণ?</summary><div class="ans"><b>ক্ষুদিপানা, পপি (আফিম)</b> — পার্শ্বমুখী (Amphitropous)। <span class="ref">স্লা.১৭</span></div></details>
+
+  <details class="qq"><summary><span class="qnum">০৪</span>ডিম্বকরন্ধ্র অঞ্চলটি একটু বাঁকা হয়ে ডিম্বকনাড়ীর কাছাকাছি চলে আসে — কোন উদ্ভিদে?</summary><div class="ans"><b>সরিষা, কালকাসুন্দা</b> — বক্রমুখী (Campylotropous)। <span class="ref">স্লা.১৭</span></div></details>
+
+  <details class="qq"><summary><span class="qnum">০৫</span>পরাগনালিকা ডিম্বকমূল দিয়ে ডিম্বকে প্রবেশ করে — উদাহরণ ও প্রক্রিয়ার নাম?</summary><div class="ans"><b>ঝাউ (<i>Casuarina</i>)</b> — <b>chalazogamy</b>। ডিম্বকরন্ধ্র পথে হলে porogamy (আম, জাম); ডিম্বকত্বক ভেদ করলে mesogamy (লাউ, কুমড়া)। <span class="ref">স্লা.২৩ · পৃ.৩৬০</span></div></details>
+
+  <details class="qq"><summary><span class="qnum">০৬</span>অধিকাংশ উদ্ভিদে পরাগনালিকা কোন পথে ঢোকে, আর তার উদাহরণ কী?</summary><div class="ans"><b>পোরোগ্যামি</b> — ডিম্বকরন্ধ্র পথে; উদাহরণ <b>আম, জাম</b>। বই স্পষ্টই বলেছে "অধিকাংশ উদ্ভিদে পোরোগ্যামি প্রক্রিয়া সংঘটিত হয়"। <span class="ref">স্লা.২৩</span></div></details>
+
+  <details class="qq"><summary><span class="qnum">০৭</span>কোন দুই গোত্রের উদ্ভিদে পরাগরেণু পৃথক না হয়ে একসাথে থাকে, আর সেই গঠনের নাম কী?</summary><div class="ans"><b>Orchidaceae, Asclepiadaceae</b> — গঠনের নাম <b>পলিনিয়াম (pollinium)</b>। <span class="ref">স্লা.৯ · পৃ.৩৫৫</span></div></details>
+
+  <details class="qq"><summary><span class="qnum">০৮</span>দুটি স্ত্রীরেণু ভ্রূণথলি গঠনে অংশ নেয় — এই ধরনটির নাম কী এবং কোন উদ্ভিদের নামে?</summary><div class="ans"><b>বাইস্পোরিক</b>, পরিচিত <b><i>Allium</i> type</b> নামে। অ্যাঙ্কর: পিঁয়াজ <b>দুবার</b> কাঁদায়। <span class="ref">স্লা.১৯ · পৃ.৩৫৮</span></div></details>
+
+  <details class="qq"><summary><span class="qnum">০৯</span>টেট্রাস্পোরিকের প্রধান ধরনটি কোনটি এবং তাতে কয়টি নিউক্লিয়াস?</summary><div class="ans"><b><i>Peperomia</i> type — ১৬-নিউক্লিয়াসবিশিষ্ট</b>। <b><i>Fritiliaria</i> type ৮</b>-নিউক্লিয়াসবিশিষ্ট। টেট্রাস্পোরিক মোট <b>৭ প্রকার</b>। <span class="ref">স্লা.১৯</span></div></details>
+
+  <details class="qq"><summary><span class="qnum">১০</span>মনোস্পোরিক অধিকাংশই ৮-নিউক্লিয়াস — ব্যতিক্রমটি কোনটি এবং কয়টি?</summary><div class="ans"><b><i>Oenothera</i> type — ৪-নিউক্লিয়াসবিশিষ্ট</b>। অ্যাঙ্কর: "ও নো!" — সবচেয়ে কম। <span class="ref">স্লা.১৯</span></div></details>
+
+  <details class="qq"><summary><span class="qnum">১১</span>মনোস্পোরিক প্রক্রিয়ায় ভ্রূণথলি গঠনের বর্ণনা সর্বপ্রথম কে, কবে, কোন উদ্ভিদে দেন?</summary><div class="ans"><b>স্ট্রাসবার্গার, ১৮৭৯ খ্রিষ্টাব্দে, <i>Polygonum divaricatum</i></b> উদ্ভিদে। এজন্য মনোস্পোরিক <b>Polygonum ধরন</b> নামেও পরিচিত। <span class="ref">স্লা.১৯</span></div></details>
+
+  <details class="qq"><summary><span class="qnum">১২</span>দ্বিনিষেক কেবল আবৃতবীজীতে — তাহলে ব্যতিক্রমটি কোন উদ্ভিদ ও কোন সালে?</summary><div class="ans"><b>নগ্নবীজী <i>Ephedra</i></b>-তে, <b>১৯৯০</b> সালে আবিষ্কৃত। অ্যাঙ্কর: <b>E = Exception</b>। <span class="ref">স্লা.২৪,২৬ · পৃ.৩৬১</span></div></details>
+
+  <details class="qq"><summary><span class="qnum">১৩</span>স্বাভাবিক মায়োসিসে সৃষ্ট ডিম্বাণু নিষিক্ত না হয়েই ভ্রূণ দেয় — কোন দুই উদ্ভিদে, আর ফলাফল কী?</summary><div class="ans"><b><i>Solanum nigrum</i></b> [হাতে লেখা: বেগুন] ও <b><i>Orchis maculata</i></b> — হ্যাপ্লয়েড পার্থেনোজেনেসিস; সৃষ্ট উদ্ভিদ <b>হ্যাপ্লয়েড ও অনুর্বর</b>। <span class="ref">স্লা.৪১ · পৃ.৩৬৭</span></div></details>
+
+  <details class="qq"><summary><span class="qnum">১৪</span>মায়োসিসের বদলে মাইটোসিসে ডিম্বাণু (2n) তৈরি হয়ে ভ্রূণ হয় — উদাহরণ?</summary><div class="ans"><b><i>Parthenium argentatum</i></b> ও <b><i>Taraxacum albidum</i></b> — ডিপ্লয়েড পার্থেনোজেনেসিস। <span class="ref">স্লা.৪১</span></div></details>
+
+  <details class="qq"><summary><span class="qnum">১৫</span>নিষেক ছাড়া <b>শুক্রাণু</b> থেকে ভ্রূণ সৃষ্টি হয় কোন উদ্ভিদে, আর প্রক্রিয়াটির নাম?</summary><div class="ans"><b><i>Nicotiana tabacum</i> (তামাক)</b> — প্রক্রিয়ার নাম <b>অ্যান্ড্রোজেনেসিস (androgenesis)</b>। অ্যাঙ্কর: andro = পুরুষ = শুক্রাণু। <span class="ref">স্লা.৪১</span></div></details>
+
+  <details class="qq"><summary><span class="qnum">১৬</span>কোন প্রক্রিয়ায় সৃষ্ট উদ্ভিদ ডিপ্লয়েড ও মাতৃউদ্ভিদের সমগুণসম্পন্ন হয়, এবং কোন উদ্ভিদে?</summary><div class="ans"><b>অ্যাপোস্পোরি</b> — <b><i>Hieracium</i></b> উদ্ভিদে। অ্যাঙ্কর: <i>Hier</i> ≈ <b>Heir</b>, উত্তরাধিকারী। <span class="ref">স্লা.৪২ · পৃ.৩৬৮</span></div></details>
+
+  <details class="qq"><summary><span class="qnum">১৭</span>হরমোন প্রয়োগে বীজহীন ফল উৎপাদনের প্রক্রিয়া কী, আর তার উদাহরণ?</summary><div class="ans"><b>পার্থেনোকার্পি (parthenocarpy)</b> — উদাহরণ <b>লেবু, কমলালেবু</b>; <b>বীজহীন কলাও</b> পার্থেনোকার্পিক ফল। MAT 25-26-এ এসেছিল। <span class="ref">স্লা.৪১,৪৯</span></div></details>
+
+  <details class="qq"><summary><span class="qnum">১৮</span>বীজের তৃতীয় স্তরটির নাম কী, আর কোন কোন ফলে তা দেখা যায়?</summary><div class="ans"><b>এরিল (aril)</b> — <b>লিচু, কাঁঠলিচু ও জায়ফলে</b>; <b>শাপলা বীজেও এরিল আছে</b>। <b>লিচু ও কাঁঠলিচুর এরিল হলো ভোজ্য অংশ।</b> <span class="ref">স্লা.২৮ · পৃ.৩৬২</span></div></details>
+
+  <details class="qq"><summary><span class="qnum">১৯</span>পরাগরেণুর কোন ত্বক কিউটিনযুক্ত, পুরু ও শক্ত — এবং তার প্রধান রাসায়নিক উপাদান কী?</summary><div class="ans"><b>এক্সাইন (exine)</b> — প্রধান উপাদান <b>স্পোরোপোলেনিন</b>। MAT 17-18-এ প্রশ্ন এসেছিল, ফাঁদ অপশন ছিল ইনটাইন, রেণুরন্ধ্র, পলিনিয়াম। <span class="ref">স্লা.৯,১০,৫১</span></div></details>
+
+  <details class="qq"><summary><span class="qnum">২০</span>পরাগনালিকা আসলে কোন স্তর থেকে তৈরি হয়, আর সেটি কী দিয়ে গঠিত?</summary><div class="ans"><b>ইনটাইন (intine)</b> — <b>সেলুলোজ</b> নির্মিত, পাতলা। অঙ্কুরোদগমের সময় <b>ইনটাইন বৃদ্ধি পেয়ে</b> জার্মপোর দিয়ে নালিকা আকারে বাড়ে। <span class="ref">স্লা.১১,১২</span></div></details>
+
+  <details class="qq"><summary><span class="qnum">২১</span>ফার্ন ও কোন উদ্ভিদের স্পোর সম-আকৃতির, আর কাদের অসম-আকৃতির?</summary><div class="ans">সম-আকৃতি (<b>হোমোস্পোরাস</b>) — <b>ফার্ন ও <i>Lycopodium</i></b>। অসম-আকৃতি (<b>হেটেরোস্পোরাস</b>) — <b><i>Selaginella</i>, ঢেঁকি শাক (<i>Marsilea</i>)</b>। <span class="ref">স্লা.৩২ · পৃ.৩৬৪</span></div></details>
+
+  <details class="qq"><summary><span class="qnum">২২</span>মূল দিয়ে অঙ্গজ প্রজনন করে এমন পাঁচটি উদ্ভিদের নাম বলুন।</summary><div class="ans"><b>মিষ্টি আলু, ডালিয়া, শতমূলী, কাঁকরোল, পটল</b>। অ্যাঙ্কর: <b>শতমূলী</b> নামেই "মূল" — সে নেমপ্লেট। <span class="ref">স্লা.৩৩,৩৯ · পৃ.৩৬৪</span></div></details>
+
+  <details class="qq"><summary><span class="qnum">২৩</span>ভূ-নিম্নস্থ কাণ্ড দিয়ে বংশবৃদ্ধি করে এমন উদ্ভিদগুলো কী কী?</summary><div class="ans"><b>গোলআলু, আদা, পিঁয়াজ, সটি, ওলকচু</b> (মেডিট্রিক্সে <b>হলুদ</b>-সহ, আজিবুর স্যার)। অ্যাঙ্কর: রান্নাঘরের ঝুড়ি। <span class="ref">স্লা.৩৩,৩৯</span></div></details>
+
+  <details class="qq"><summary><span class="qnum">২৪</span>সাকারের সাহায্যে প্রজনন করে কোন পাঁচটি উদ্ভিদ?</summary><div class="ans"><b>কলা, পুদিনা, আনারস, চন্দ্রমল্লিকা, বাঁশ</b>। অ্যাঙ্কর: "কলা-পুদিনা-আনারস খেয়ে চন্দ্র বাঁশি বাজায়"। <span class="ref">স্লা.৩৩,৩৪,৩৯</span></div></details>
+
+  <details class="qq"><summary><span class="qnum">২৫</span>পরিবর্তিত কক্ষমুকুল তথা বুলবিল দিয়ে বংশবৃদ্ধি করে কোন উদ্ভিদ? আর সঞ্চয়ী মুকুল দিয়ে?</summary><div class="ans">বুলবিল — <b>চুপরিআলু</b> <span class="ref">স্লা.৩৫</span>। সঞ্চয়ী মুকুল — <b>গাছ আলু</b> (আজিবুর স্যার) <span class="ref">স্লা.৩৯</span>। চার আলুর বাকি দুই: মিষ্টি আলু = মূল, গোলআলু = কাণ্ড।</div></details>
+
+  <details class="qq"><summary><span class="qnum">২৬</span>অর্ধবায়বীয় কাণ্ড ও স্টোলন দিয়ে বংশবৃদ্ধির উদাহরণ কী?</summary><div class="ans">বইয়ে — <b>কচুজাতীয় উদ্ভিদে রানার (লতি)</b> এবং <b>আমরুল শাকের স্টোলন</b> <span class="ref">স্লা.৩৫</span>। মেডিট্রিক্সে আরও — কলা, পুদিনা, আমরুল, বাঁশ, আনারস, চন্দ্রমল্লিকা (আলীম স্যার); কচু, স্ট্রেবেরি, থানকুনি, কচুরিপানা, টোপাপানা (আজিবুর স্যার) <span class="ref">স্লা.৩৯</span>।</div></details>
+
+  <details class="qq"><summary><span class="qnum">২৭</span>পর্ণকাণ্ড দিয়ে নতুন গাছ হয় কোনটিতে? আর পাতা দিয়ে?</summary><div class="ans">পর্ণকাণ্ড [ফাইলোক্ল্যাড, আলীম স্যার] — <b>ফণিমনসা</b>। পাতা — <b>পাথরকুচি</b> (+ <b>নাইট কুইন</b>, আজিবুর স্যার)। <span class="ref">স্লা.৩৫,৩৯</span></div></details>
+
+  <details class="qq"><summary><span class="qnum">২৮</span>জোড়কলমে ফল ও ফুলের চরিত্র কার ওপর নির্ভর করে, আর তার উদাহরণ কী?</summary><div class="ans"><b>সাইয়নের ওপর — স্টকের ওপর নয়।</b> উদাহরণ <b>আম, কুল (আলীম স্যার), জাম (আজিবুর স্যার)</b>। অ্যাঙ্কর: সাইনবোর্ডে নাম, গুদামে মাল। <span class="ref">স্লা.৩৭,৪০</span></div></details>
+
+  <details class="qq"><summary><span class="qnum">২৯</span>বাংলাদেশের জাতীয় ফুল, ফল ও বৃক্ষের প্রজনন প্রক্রিয়া আলাদা করে বলুন।</summary><div class="ans"><b>সাদা শাপলা (জাতীয় ফুল)</b> — মুখ্য প্রজনন <b>অযৌন</b>, ভূনিম্নস্থ কাণ্ড থেকে <b>টিউবার (শালুক)</b>; লাল শাপলাতে সাধারণত ফল হয় না, প্রজনন সম্পূর্ণ অযৌন। <b>কাঁঠাল (জাতীয় ফল)</b> — <b>যৌন</b>, অঙ্কুরোদগম <b>মৃৎগত</b>। <b>আম (জাতীয় বৃক্ষ)</b> — স্বাভাবিক প্রজনন <b>যৌন</b>, কিন্তু পরপরাগায়নে স্বাদ নষ্ট হয় বলে <b>গ্রাফটিং</b>। <span class="ref">স্লা.৪৪ · পৃ.৩৬৯</span></div></details>
+
+  <details class="qq"><summary><span class="qnum">৩০</span>ভিন্নবাড়ী উদ্ভিদের উদাহরণ কী? আর একবাড়ীর?</summary><div class="ans">ভিন্নবাড়ী — <b>খেজুর, পটল, তাল</b> ("খে-প-তা" = খেপাটা)। একবাড়ী — <b>লাউ, কুমড়া, জবা, ধুতুরা</b>। উভলিঙ্গ ফুল — জবা, ধুতুরা; একলিঙ্গ — লাউ, কুমড়া। <span class="ref">স্লা.৭ (হোয়াইটবোর্ড)</span></div></details>
+
+  <h3>খ · অ্যাঙ্কর → তথ্য (১০টি)</h3>
+
+  <details class="qq"><summary><span class="qnum">৩১</span>"ঝাল খেলে মুখ উপরে" — কোন তথ্য, কোন উদাহরণ?</summary><div class="ans">ঊর্ধ্বমুখী (Orthotropous/Atropous) ডিম্বক — <b>বিষকাটালী, গোলমরিচ, পান</b>। মনে রাখুন এর উল্টোটাই অধোমুখী (শিম, রেড়ি, ছোলা)।</div></details>
+
+  <details class="qq"><summary><span class="qnum">৩২</span>"অর্ধেক কাটা বেগুন" — কী মনে পড়ছে?</summary><div class="ans"><b>হ্যাপ্লয়েড (n) পার্থেনোজেনেসিস</b> — <i>Solanum nigrum</i> [বেগুন] ও <i>Orchis maculata</i>; উদ্ভিদ <b>অনুর্বর</b>। জোড়া অ্যাঙ্কর: "পার্থ ও তারা" = আস্ত নাম = <b>2n</b>।</div></details>
+
+  <details class="qq"><summary><span class="qnum">৩৩</span>"বাড়িতে ঢোকার তিন পথ" — তিনটে কী কী?</summary><div class="ans">সদর দরজা = <b>porogamy</b> (আম, জাম) · গোড়ার পথ = <b>chalazogamy</b> (ঝাউ) · দেয়াল ভেদ করে লতা = <b>mesogamy</b> (লাউ, কুমড়া)।</div></details>
+
+  <details class="qq"><summary><span class="qnum">৩৪</span>"পেঁপে ১৬ → ফ্রিজ ৮ → ও নো ৪" — পুরোটা খুলে বলুন।</summary><div class="ans"><b><i>Peperomia</i> ১৬</b> (টেট্রাস্পোরিকের প্রধান) → <b><i>Fritiliaria</i> ৮</b> (টেট্রাস্পোরিক) → <b><i>Oenothera</i> ৪</b> (মনোস্পোরিকের ব্যতিক্রম)। সাথে <b><i>Allium</i></b> = বাইস্পোরিক, ২টি স্ত্রীরেণু।</div></details>
+
+  <details class="qq"><summary><span class="qnum">৩৫</span>"E = Exception" — কী?</summary><div class="ans"><b><i>Ephedra</i></b> — নগ্নবীজী হয়েও দ্বিনিষেক দেখায়, আবিষ্কার <b>১৯৯০</b>। দ্বিনিষেক নিজে <b>আবৃতবীজীর বিশেষ বৈশিষ্ট্য</b>।</div></details>
+
+  <details class="qq"><summary><span class="qnum">৩৬</span>"সাইনবোর্ড ও গুদাম" — কোন জোড়া?</summary><div class="ans"><b>সাইয়ন</b> (উপরে, উন্নতজাত, ফল-ফুলের চরিত্র এর ওপর) ↔ <b>স্টক</b> (নিচে, নিম্নমানের হতে পারে, কাজ মাটির রস শোষণ করে ওপরে পাঠানো)। সফলতার শর্ত: <b>দুইয়ের ক্যাম্বিয়াম সংযুক্ত</b> হওয়া।</div></details>
+
+  <details class="qq"><summary><span class="qnum">৩৭</span>"ঘর বানিয়ে ঢোকা ↔ ঘর ছাড়াই বসা" — কোন দুই প্রক্রিয়া?</summary><div class="ans"><b>অ্যাপোস্পোরি</b> (দেহকোষ থেকে <b>ডিপ্লয়েড ভ্রূণথলি তৈরি হয়</b>, তারপর ভ্রূণ — <i>Hieracium</i>) ↔ <b>অ্যাডভেনটিটিভ এমব্রায়োনি</b> (<b>ভ্রূণথলি গঠন ছাড়াই</b> ডিম্বক ত্বক/নিউসেলাসের কোষ থেকে ভ্রূণ)।</div></details>
+
+  <details class="qq"><summary><span class="qnum">৩৮</span>"২ → জাইগোট, ৩ → সস্য" — কী বোঝাচ্ছে?</summary><div class="ans"><b>সিনগ্যামি</b> = ডিম্বাণু + ১ পুংগ্যামিট = ২ নিউক্লিয়াস → <b>জাইগোট (2n) → ভ্রূণ</b>। <b>ত্রিমিলন</b> = ২ মেরু নিউক্লিয়াস + ১ পুংনিউক্লিয়াস = ৩ → <b>ট্রিপ্লয়েড (3n) → এন্ডোস্পার্ম/সস্য</b>। দুটো একসাথে = <b>দ্বিনিষেক</b>।</div></details>
+
+  <details class="qq"><summary><span class="qnum">৩৯</span>"মাটির নিচে দুই ভাই, গাছের উপরে দুই ভাই" — চারজন কে?</summary><div class="ans">নিচে — <b>মিষ্টি আলু (মূল)</b>, <b>গোলআলু (কাণ্ড)</b>। উপরে — <b>চুপরিআলু (বুলবিল/কক্ষমুকুল)</b>, <b>গাছ আলু (সঞ্চয়ী মুকুল)</b>।</div></details>
+
+  <details class="qq"><summary><span class="qnum">৪০</span>"পানিতে ভাসলে অযৌন, ডালে ঝুললে যৌন" — কোন তিনটি?</summary><div class="ans"><b>সাদা শাপলা</b> (জাতীয় ফুল) → অযৌন, টিউবার/শালুক। <b>কাঁঠাল</b> (জাতীয় ফল) → যৌন, মৃৎগত অঙ্কুরোদগম। <b>আম</b> (জাতীয় বৃক্ষ) → যৌন, তবে স্বাদ রক্ষায় গ্রাফটিং। সঙ্গে <b>পদ্ম</b> → রানার (রাইজোম কাণ্ড)।</div></details>
+
+  <h3>গ · বিগত বছরের প্রশ্ন — ফাঁদসহ</h3>
+
+  <details class="qq"><summary><span class="qnum">৪১</span><b>DAT 17-18:</b> ঊর্ধ্বমুখী ডিম্বকের উদাহরণ কোনটি? (ক) শিম (খ) ছোলা (গ) সরিষা (ঘ) পান</summary><div class="ans">উত্তর <b>(ঘ) পান</b>। ফাঁদ: শিম ও ছোলা <b>অধোমুখী</b>, সরিষা <b>বক্রমুখী</b> — তিনটিই অন্য ঘরের। <span class="ref">স্লা.৫২</span></div></details>
+
+  <details class="qq"><summary><span class="qnum">৪২</span><b>MAT 17-18:</b> পরাগরেণুর বাইরের পুরু, শক্ত ও কিউটিনযুক্ত ত্বককে কী বলে?</summary><div class="ans">উত্তর <b>এক্সাইন (Exine)</b>। ফাঁদ ছিল ইনটাইন, রেণুরন্ধ্র (Ovule pore), পলিনিয়াম। <span class="ref">স্লা.৫১</span></div></details>
+
+  <details class="qq"><summary><span class="qnum">৪৩</span><b>MAT 25-26:</b> হরমোন প্রয়োগ করে বীজহীন ফল উৎপাদন করার প্রক্রিয়ার নাম?</summary><div class="ans">উত্তর <b>পার্থেনোকার্পি</b>। ফাঁদ ছিল <b>অ্যাপোগ্যামি</b>, সংকরায়ন, ইমাস্কুলেশন। মনে রাখুন <b>-কার্প = ফল</b>। <span class="ref">স্লা.৪৯</span></div></details>
+
+  <details class="qq"><summary><span class="qnum">৪৪</span><b>MAT 25-26:</b> নিষিক্ত হওয়া ব্যতীত ডিম্বাণু থেকে ভ্রূণ সৃষ্টির পদ্ধতির নাম?</summary><div class="ans">উত্তর <b>Parthenogenesis</b>। ফাঁদ ছিল <b>Agamospermy</b> (চারটির ছাতা), Androgenesis (শুক্রাণু থেকে), Apospory (দেহকোষ থেকে ভ্রূণথলি)। প্রশ্নে <b>"ডিম্বাণু থেকে"</b> শব্দটাই উত্তর ঠিক করে। <span class="ref">স্লা.৫০</span></div></details>
+
+  <details class="qq"><summary><span class="qnum">৪৫</span><b>MAT 21-22:</b> কোন পদ্ধতিতে নিষেক ছাড়াই ভ্রূণ সৃষ্টি হয়? (a) apogamy (b) oogenesis (c) cytogenesis (d) sporogenesis</summary><div class="ans">উত্তর <b>(a) apogamy</b> — ডিম্বাণু ছাড়া ভ্রূণথলির অন্য কোষ (সহকারী/প্রতিপাদ) থেকে ভ্রূণ। বাকি তিনটি "সৃষ্টি" প্রক্রিয়া হলেও নিষেকের প্রসঙ্গ নয়। <span class="ref">স্লা.৫৬</span></div></details>
+
+  <details class="qq"><summary><span class="qnum">৪৬</span><b>MAT 15-16:</b> চন্দ্রমল্লিকা বংশবিস্তার করে কিসের সাহায্যে?</summary><div class="ans">উত্তর <b>অর্ধবায়বীয় কাণ্ডের</b>। খেয়াল করুন — বইয়ের অন্য তালিকায় চন্দ্রমল্লিকা <b>সাকার</b>-এও আছে, কিন্তু সেই অপশনটাই দেওয়া হয়নি। <b>অপশন দেখে সিদ্ধান্ত নিন</b>, দুটোই বইসিদ্ধ। <span class="ref">স্লা.৩৩,৩৯,৫৫</span></div></details>
+
+  <details class="qq"><summary><span class="qnum">৪৭</span><b>MAT 18-19:</b> নিষেকের ফলে কোনটি উৎপন্ন হয় না? (ক) বীজ (খ) জাইগোস্পোর (গ) সস্যকলা (ঘ) ভ্রূণ</summary><div class="ans">উত্তর <b>(খ) জাইগোস্পোর</b>। নিষেকের পর — গর্ভাশয়→ফল, ডিম্বক→<b>বীজ</b>, ডিম্বাণু→<b>ভ্রূণ</b>, সেকেন্ডারি নিউক্লিয়াস→<b>সস্য</b>। <span class="ref">স্লা.২৯,৫৩</span></div></details>
+
+  <details class="qq"><summary><span class="qnum">৪৮</span><b>MAT 17-18, 13-14:</b> নিষেকের পর ডিম্বক কিসে পরিণত হয়?</summary><div class="ans">উত্তর <b>বীজ</b>। ফাঁদ <b>টেস্টা</b> — টেস্টা হয় <b>ডিম্বক বহিঃত্বক</b> থেকে, গোটা ডিম্বক থেকে নয়। <span class="ref">স্লা.২৯,৫৪</span></div></details>
+
+  <details class="qq"><summary><span class="qnum">৪৯</span><b>Quiz-03:</b> ভ্রূণথলির গঠন প্রধানত কোন উপায়ে হয়?</summary><div class="ans">উত্তর <b>মনোস্পোরিক</b> — <b>~৭৫%</b> উদ্ভিদে। ফাঁদ অপশনে <b>ট্রাইস্পোরিক</b> ছিল, যা বইয়ের তিন প্রকারের মধ্যেই নেই (মনো / বাই / টেট্রা)। <span class="ref">স্লা.১৯,৫৮</span></div></details>
+
+  <details class="qq"><summary><span class="qnum">৫০</span><b>MAT 14-15:</b> বাণিজ্যিকভাবে উদ্ভিদ প্রজননের সর্বাপেক্ষা গুরুত্বপূর্ণ পদ্ধতি কোনটি?</summary><div class="ans">উত্তর <b>কৃত্রিম প্রজনন</b>। ফাঁদ ছিল অঙ্গজ প্রজনন ও অযৌন প্রজনন — দুটোই সত্যি প্রক্রিয়া, কিন্তু প্রশ্নের শব্দ <b>"বাণিজ্যিকভাবে"</b>। <span class="ref">স্লা.৫৭</span></div></details>
+
+  <div class="gap"><b>একটি সৎ কথা:</b> এই পাতার প্রতিটি প্রশ্ন ও উত্তর PDF-এর ৫৯টি স্লাইড থেকেই নেওয়া — প্রশ্নের ভাষা সাজানো হয়েছে, তথ্য নয়। বইয়ের বানান (<i>Fritiliaria</i>, <i>Ocillatoria</i>, "সটি/সাট", "যুঁই/জুঁই" — যেভাবে যেখানে আছে) হুবহু রাখা হয়েছে, শোধরানো হয়নি।</div>
+
+  <a class="toplink" href="#how">↑ উপরে</a>
+</section>
+</div>
