@@ -1,0 +1,57 @@
+{
+  "project_name": "my-course",
+
+  "sources": {
+    "roots": [
+      "/Users/me/Movies/My Course",
+      "/Volumes/External/course-recordings"
+    ]
+  },
+
+  "work_dir": "promo_work",
+  "language": "bn",
+
+  "transcribe": {
+    "model": "large-v3",
+    "device": "auto"
+  },
+
+  "output": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "crf": 19,
+    "preset": "slow"
+  },
+
+  "subtitles": {
+    "font": "Noto Sans Bengali",
+    "size_pct": 0.052,
+    "max_words": 4,
+    "emphasis": "&H0034D9FF"
+  },
+
+  "attention": {
+    "early_budget": 1.6,
+    "late_budget": 2.6,
+    "punch_levels": [1.0, 1.12, 1.22, 1.35]
+  },
+
+  "audio": {
+    "target_lufs": -14.0,
+    "music_bed": null
+  },
+
+  "cta": {
+    "text": null,
+    "sub": null
+  },
+
+  "approved_claims": [],
+
+  "versions": [
+    { "id": "01_FINAL_PROMO_30S", "target": 30, "concept": "auto" },
+    { "id": "02_FINAL_PROMO_45S", "target": 45, "concept": "auto" },
+    { "id": "03_FINAL_PROMO_60S", "target": 60, "concept": "auto" }
+  ]
+}

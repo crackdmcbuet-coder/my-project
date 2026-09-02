@@ -1,0 +1,10 @@
+# Transcription with word-level timestamps (STEP 2 / STEP 11).
+# CPU works; a CUDA GPU is roughly 10-20x faster on a long course.
+faster-whisper>=1.0.0
+
+# Everything else in the engine is Python standard library.
+# External tools required on PATH (not pip-installable):
+#   ffmpeg, ffprobe   -- https://ffmpeg.org/download.html
+#                        macOS:  brew install ffmpeg
+#                        Debian: sudo apt install ffmpeg
+#                        Windows: winget install Gyan.FFmpeg

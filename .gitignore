@@ -1,0 +1,4 @@
+promo_work/
+promo.config.json
+__pycache__/
+*.pyc
