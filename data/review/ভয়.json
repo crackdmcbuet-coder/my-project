@@ -1,0 +1,1412 @@
+{
+  "topic": "ভয়",
+  "generated_at": "2026-09-15T00:09:29.082Z",
+  "review_queue": [],
+  "excluded_candidates": [],
+  "audit_trail": [
+    {
+      "surah_number": 2,
+      "ayah_number": 38,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "خوف"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"خوف\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 2,
+      "ayah_number": 62,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "خوف"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"خوف\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 2,
+      "ayah_number": 112,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "خوف"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"خوف\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 2,
+      "ayah_number": 155,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الخوف"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الخوف\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 2,
+      "ayah_number": 182,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "خاف"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"خاف\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 2,
+      "ayah_number": 229,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "يخافا"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"يخافا\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 2,
+      "ayah_number": 262,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "خوف"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"خوف\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 2,
+      "ayah_number": 274,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "خوف"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"خوف\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 2,
+      "ayah_number": 277,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "خوف"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"خوف\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 3,
+      "ayah_number": 151,
+      "found_by": [
+        "concept"
+      ],
+      "matched_concepts": [
+        "الرعب"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে \"ভয়\"-এর একটি সমার্থক শব্দ (\"الرعب\", ru'b -- আতঙ্ক/ত্রাস) ব্যবহৃত হয়েছে।",
+      "confidence": 0.8
+    },
+    {
+      "surah_number": 3,
+      "ayah_number": 170,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "خوف"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"خوف\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 3,
+      "ayah_number": 175,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "يخوف",
+        "تخافوهم",
+        "وخافون"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"يخوف\", \"تخافوهم\", \"وخافون\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 4,
+      "ayah_number": 9,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "خافوا"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"خافوا\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 4,
+      "ayah_number": 34,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "تخافون"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"تخافون\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 4,
+      "ayah_number": 83,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الخوف"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الخوف\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 4,
+      "ayah_number": 128,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "خافت"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"خافت\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 5,
+      "ayah_number": 23,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "يخافون"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"يخافون\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 5,
+      "ayah_number": 28,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "اخاف"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"اخاف\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 5,
+      "ayah_number": 54,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "يخافون"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"يخافون\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 5,
+      "ayah_number": 69,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "خوف"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"خوف\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 5,
+      "ayah_number": 94,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "يخافه"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"يخافه\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 5,
+      "ayah_number": 108,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "يخافوا"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"يخافوا\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 6,
+      "ayah_number": 15,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "اخاف"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"اخاف\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 6,
+      "ayah_number": 48,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "خوف"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"خوف\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 6,
+      "ayah_number": 51,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "يخافون"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"يخافون\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 6,
+      "ayah_number": 80,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "اخاف"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"اخاف\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 6,
+      "ayah_number": 81,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "اخاف",
+        "تخافون"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"اخاف\", \"تخافون\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 7,
+      "ayah_number": 35,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "خوف"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"خوف\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 7,
+      "ayah_number": 49,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "خوف"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"خوف\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 7,
+      "ayah_number": 56,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "خوفا"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"خوفا\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 7,
+      "ayah_number": 59,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "اخاف"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"اخاف\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 8,
+      "ayah_number": 2,
+      "found_by": [
+        "concept"
+      ],
+      "matched_concepts": [
+        "وجلت"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে \"ভয়\"-এর একটি সমার্থক শব্দ (\"وجلت\", wajal -- হৃদয়ে ভীতি/কম্পন) ব্যবহৃত হয়েছে।",
+      "confidence": 0.8
+    },
+    {
+      "surah_number": 8,
+      "ayah_number": 12,
+      "found_by": [
+        "concept"
+      ],
+      "matched_concepts": [
+        "الرعب"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে \"ভয়\"-এর একটি সমার্থক শব্দ (\"الرعب\", ru'b -- আতঙ্ক/ত্রাস) ব্যবহৃত হয়েছে।",
+      "confidence": 0.8
+    },
+    {
+      "surah_number": 8,
+      "ayah_number": 26,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "تخافون"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"تخافون\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 8,
+      "ayah_number": 48,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "اخاف"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"اخاف\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 8,
+      "ayah_number": 58,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "تخافن"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"تخافن\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 10,
+      "ayah_number": 15,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "اخاف"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"اخاف\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 10,
+      "ayah_number": 62,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "خوف"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"خوف\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 10,
+      "ayah_number": 83,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "خوف"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"خوف\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 11,
+      "ayah_number": 3,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "اخاف"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"اخاف\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 11,
+      "ayah_number": 26,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "اخاف"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"اخاف\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 11,
+      "ayah_number": 84,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "اخاف"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"اخاف\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 11,
+      "ayah_number": 103,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "خاف"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"خاف\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 12,
+      "ayah_number": 13,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "واخاف"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"واخاف\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 13,
+      "ayah_number": 12,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "خوفا"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"خوفا\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 13,
+      "ayah_number": 21,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "ويخافون"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ويخافون\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 14,
+      "ayah_number": 14,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "خاف",
+        "وخاف"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"خاف\", \"وخاف\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 15,
+      "ayah_number": 52,
+      "found_by": [
+        "concept"
+      ],
+      "matched_concepts": [
+        "وجلون"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে \"ভয়\"-এর একটি সমার্থক শব্দ (\"وجلون\", wajal -- হৃদয়ে ভীতি/কম্পন) ব্যবহৃত হয়েছে।",
+      "confidence": 0.8
+    },
+    {
+      "surah_number": 15,
+      "ayah_number": 53,
+      "found_by": [
+        "concept"
+      ],
+      "matched_concepts": [
+        "توجل"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে \"ভয়\"-এর একটি সমার্থক শব্দ (\"توجل\", wajal -- হৃদয়ে ভীতি/কম্পন) ব্যবহৃত হয়েছে।",
+      "confidence": 0.8
+    },
+    {
+      "surah_number": 16,
+      "ayah_number": 47,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "تخوف"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"تخوف\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 16,
+      "ayah_number": 50,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "يخافون"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"يخافون\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 16,
+      "ayah_number": 112,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "والخوف"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"والخوف\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 17,
+      "ayah_number": 57,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "ويخافون"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ويخافون\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 17,
+      "ayah_number": 60,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "ونخوفهم"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ونخوفهم\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 18,
+      "ayah_number": 18,
+      "found_by": [
+        "concept"
+      ],
+      "matched_concepts": [
+        "رعبا"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে \"ভয়\"-এর একটি সমার্থক শব্দ (\"رعبا\", ru'b -- আতঙ্ক/ত্রাস) ব্যবহৃত হয়েছে।",
+      "confidence": 0.8
+    },
+    {
+      "surah_number": 19,
+      "ayah_number": 45,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "اخاف"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"اخاف\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 20,
+      "ayah_number": 45,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "نخاف"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نخاف\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 20,
+      "ayah_number": 46,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "تخافا"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"تخافا\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 20,
+      "ayah_number": 77,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "تخاف"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"تخاف\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 20,
+      "ayah_number": 112,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "يخاف"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"يخاف\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 22,
+      "ayah_number": 35,
+      "found_by": [
+        "concept"
+      ],
+      "matched_concepts": [
+        "وجلت"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে \"ভয়\"-এর একটি সমার্থক শব্দ (\"وجلت\", wajal -- হৃদয়ে ভীতি/কম্পন) ব্যবহৃত হয়েছে।",
+      "confidence": 0.8
+    },
+    {
+      "surah_number": 23,
+      "ayah_number": 60,
+      "found_by": [
+        "concept"
+      ],
+      "matched_concepts": [
+        "وجله"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে \"ভয়\"-এর একটি সমার্থক শব্দ (\"وجله\", wajal -- হৃদয়ে ভীতি/কম্পন) ব্যবহৃত হয়েছে।",
+      "confidence": 0.8
+    },
+    {
+      "surah_number": 24,
+      "ayah_number": 37,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "يخافون"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"يخافون\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 24,
+      "ayah_number": 50,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "يخافون"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"يخافون\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 24,
+      "ayah_number": 55,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "خوفهم"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"خوفهم\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 26,
+      "ayah_number": 12,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "اخاف"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"اخاف\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 26,
+      "ayah_number": 14,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "فاخاف"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"فاخاف\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 26,
+      "ayah_number": 135,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "اخاف"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"اخاف\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 27,
+      "ayah_number": 10,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "يخاف"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"يخاف\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 28,
+      "ayah_number": 7,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "تخافي"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"تخافي\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 28,
+      "ayah_number": 33,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "فاخاف"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"فاخاف\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 28,
+      "ayah_number": 34,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "اخاف"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"اخاف\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 30,
+      "ayah_number": 24,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "خوفا"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"خوفا\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 30,
+      "ayah_number": 28,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "تخافونهم"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"تخافونهم\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 32,
+      "ayah_number": 16,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "خوفا"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"خوفا\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 33,
+      "ayah_number": 19,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الخوف"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الخوف\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 33,
+      "ayah_number": 26,
+      "found_by": [
+        "concept"
+      ],
+      "matched_concepts": [
+        "الرعب"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে \"ভয়\"-এর একটি সমার্থক শব্দ (\"الرعب\", ru'b -- আতঙ্ক/ত্রাস) ব্যবহৃত হয়েছে।",
+      "confidence": 0.8
+    },
+    {
+      "surah_number": 39,
+      "ayah_number": 13,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "اخاف"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"اخاف\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 39,
+      "ayah_number": 16,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "يخوف"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"يخوف\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 39,
+      "ayah_number": 36,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "ويخوفونك"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ويخوفونك\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 40,
+      "ayah_number": 26,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "اخاف"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"اخاف\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 40,
+      "ayah_number": 30,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "اخاف"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"اخاف\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 40,
+      "ayah_number": 32,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "اخاف"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"اخاف\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 41,
+      "ayah_number": 30,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "تخافوا"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"تخافوا\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 43,
+      "ayah_number": 68,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "خوف"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"خوف\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 46,
+      "ayah_number": 13,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "خوف"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"خوف\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 46,
+      "ayah_number": 21,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "اخاف"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"اخاف\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 48,
+      "ayah_number": 27,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "تخافون"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"تخافون\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 50,
+      "ayah_number": 45,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "يخاف"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"يخاف\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 51,
+      "ayah_number": 37,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "يخافون"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"يخافون\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 55,
+      "ayah_number": 46,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "خاف"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"خاف\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 59,
+      "ayah_number": 2,
+      "found_by": [
+        "concept"
+      ],
+      "matched_concepts": [
+        "الرعب"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে \"ভয়\"-এর একটি সমার্থক শব্দ (\"الرعب\", ru'b -- আতঙ্ক/ত্রাস) ব্যবহৃত হয়েছে।",
+      "confidence": 0.8
+    },
+    {
+      "surah_number": 59,
+      "ayah_number": 16,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "اخاف"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"اخاف\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 72,
+      "ayah_number": 13,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "يخاف"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"يخاف\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 74,
+      "ayah_number": 53,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "يخافون"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"يخافون\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 76,
+      "ayah_number": 7,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "ويخافون"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ويخافون\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 76,
+      "ayah_number": 10,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "نخاف"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نخاف\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 79,
+      "ayah_number": 40,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "خاف"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"خاف\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 91,
+      "ayah_number": 15,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "يخاف"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"يخاف\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 106,
+      "ayah_number": 4,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "خوف"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"خوف\")।",
+      "confidence": 0.95
+    }
+  ]
+}

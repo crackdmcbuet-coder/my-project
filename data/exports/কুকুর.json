@@ -1,0 +1,148 @@
+{
+  "topic": "কুকুর",
+  "generated_at": "2026-09-15T00:09:25.837Z",
+  "total_ayahs": 6236,
+  "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+  "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+  "dataset_version": "quran-json@3.1.2 / merged 2026",
+  "direct": [
+    {
+      "surah_number": 5,
+      "surah_name_ar": "المائدة",
+      "surah_name_transliteration": "Al-Ma'idah",
+      "surah_name_bn": "খাদ্য পরিবেশিত টেবিল",
+      "ayah_number": 4,
+      "arabic": "يَسۡـَٔلُونَكَ مَاذَآ أُحِلَّ لَهُمۡۖ قُلۡ أُحِلَّ لَكُمُ ٱلطَّيِّبَٰتُ وَمَا عَلَّمۡتُم مِّنَ ٱلۡجَوَارِحِ مُكَلِّبِينَ تُعَلِّمُونَهُنَّ مِمَّا عَلَّمَكُمُ ٱللَّهُۖ فَكُلُواْ مِمَّآ أَمۡسَكۡنَ عَلَيۡكُمۡ وَٱذۡكُرُواْ ٱسۡمَ ٱللَّهِ عَلَيۡهِۖ وَٱتَّقُواْ ٱللَّهَۚ إِنَّ ٱللَّهَ سَرِيعُ ٱلۡحِسَابِ",
+      "bangla": "তারা আপনাকে জিজ্ঞেস করে যে, কি বস্তু তাদের জন্যে হালাল? বলে দিন, তোমাদের জন্যে পবিত্র বস্তুসমূহ হালাল করা হয়েছে। যেসব শিকারী জন্তুকে তোমরা প্রশিক্ষণ দান কর শিকারের প্রতি প্রেরণের জন্যে এবং ওদেরকে ঐ পদ্ধতিতে প্রশিক্ষণ দাও, যা আল্লাহ তোমাদেরকে শিক্ষা দিয়েছেন। এমন শিকারী জন্তু যে শিকারকে তোমাদের জন্যে ধরে রাখে, তা খাও এবং তার উপর আল্লাহর নাম উচ্চারণ কর। আল্লাহকে ভয় করতে থাক। নিশ্চয় আল্লাহ সত্ত্বর হিসাব গ্রহণকারী।",
+      "topic": "কুকুর",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"কুকুর\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"مكلبين\")।",
+      "matched_concepts": [
+        "مكلبين"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 7,
+      "surah_name_ar": "الأعراف",
+      "surah_name_transliteration": "Al-A'raf",
+      "surah_name_bn": "উচু স্থান",
+      "ayah_number": 176,
+      "arabic": "وَلَوۡ شِئۡنَا لَرَفَعۡنَٰهُ بِهَا وَلَٰكِنَّهُۥٓ أَخۡلَدَ إِلَى ٱلۡأَرۡضِ وَٱتَّبَعَ هَوَىٰهُۚ فَمَثَلُهُۥ كَمَثَلِ ٱلۡكَلۡبِ إِن تَحۡمِلۡ عَلَيۡهِ يَلۡهَثۡ أَوۡ تَتۡرُكۡهُ يَلۡهَثۚ ذَّـٰلِكَ مَثَلُ ٱلۡقَوۡمِ ٱلَّذِينَ كَذَّبُواْ بِـَٔايَٰتِنَاۚ فَٱقۡصُصِ ٱلۡقَصَصَ لَعَلَّهُمۡ يَتَفَكَّرُونَ",
+      "bangla": "অবশ্য আমি ইচ্ছা করলে তার মর্যাদা বাড়িয়ে দিতাম সে সকল নিদর্শনসমূহের দৌলতে। কিন্তু সে যে অধঃপতিত এবং নিজের রিপুর অনুগামী হয়ে রইল। সুতরাং তার অবস্থা হল কুকুরের মত; যদি তাকে তাড়া কর তবুও হাঁপাবে আর যদি ছেড়ে দাও তবুও হাঁপাবে। এ হল সেসব লোকের উদাহরণ; যারা মিথ্যা প্রতিপন্ন করেছে আমার নিদর্শনসমূহকে। অতএব, আপনি বিবৃত করুন এসব কাহিনী, যাতে তারা চিন্তা করে।",
+      "topic": "কুকুর",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"কুকুর\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الكلب\")।",
+      "matched_concepts": [
+        "الكلب"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 18,
+      "surah_name_ar": "الكهف",
+      "surah_name_transliteration": "Al-Kahf",
+      "surah_name_bn": "গুহা",
+      "ayah_number": 18,
+      "arabic": "وَتَحۡسَبُهُمۡ أَيۡقَاظٗا وَهُمۡ رُقُودٞۚ وَنُقَلِّبُهُمۡ ذَاتَ ٱلۡيَمِينِ وَذَاتَ ٱلشِّمَالِۖ وَكَلۡبُهُم بَٰسِطٞ ذِرَاعَيۡهِ بِٱلۡوَصِيدِۚ لَوِ ٱطَّلَعۡتَ عَلَيۡهِمۡ لَوَلَّيۡتَ مِنۡهُمۡ فِرَارٗا وَلَمُلِئۡتَ مِنۡهُمۡ رُعۡبٗا",
+      "bangla": "তুমি মনে করবে তারা জাগ্রত, অথচ তারা নিদ্রিত। আমি তাদেরকে পার্শ্ব পরিবর্তন করাই ডান দিকে ও বাম দিকে। তাদের কুকুর ছিল সামনের পা দুটি গুহাদ্বারে প্রসারিত করে। যদি তুমি উঁকি দিয়ে তাদেরকে দেখতে, তবে পেছন ফিরে পলায়ন করতে এবং তাদের ভয়ে আতংক গ্রস্ত হয়ে পড়তে।",
+      "topic": "কুকুর",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"কুকুর\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"وكلبهم\")।",
+      "matched_concepts": [
+        "وكلبهم"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 18,
+      "surah_name_ar": "الكهف",
+      "surah_name_transliteration": "Al-Kahf",
+      "surah_name_bn": "গুহা",
+      "ayah_number": 22,
+      "arabic": "سَيَقُولُونَ ثَلَٰثَةٞ رَّابِعُهُمۡ كَلۡبُهُمۡ وَيَقُولُونَ خَمۡسَةٞ سَادِسُهُمۡ كَلۡبُهُمۡ رَجۡمَۢا بِٱلۡغَيۡبِۖ وَيَقُولُونَ سَبۡعَةٞ وَثَامِنُهُمۡ كَلۡبُهُمۡۚ قُل رَّبِّيٓ أَعۡلَمُ بِعِدَّتِهِم مَّا يَعۡلَمُهُمۡ إِلَّا قَلِيلٞۗ فَلَا تُمَارِ فِيهِمۡ إِلَّا مِرَآءٗ ظَٰهِرٗا وَلَا تَسۡتَفۡتِ فِيهِم مِّنۡهُمۡ أَحَدٗا",
+      "bangla": "অজ্ঞাত বিষয়ে অনুমানের উপর ভিত্তি করে এখন তারা বলবেঃ তারা ছিল তিন জন; তাদের চতুর্থটি তাদের কুকুর। একথাও বলবে; তারা পাঁচ জন। তাদের ছষ্ঠটি ছিল তাদের কুকুর। আরও বলবেঃ তারা ছিল সাত জন। তাদের অষ্টমটি ছিল তাদের কুকুর। বলুনঃ আমার পালনকর্তা তাদের সংখ্যা ভাল জানেন। তাদের খবর অল্প লোকই জানে। সাধারণ আলোচনা ছাড়া আপনি তাদের সম্পর্কে বিতর্ক করবেন না এবং তাদের অবস্থা সম্পর্কে তাদের কাউকে জিজ্ঞাসাবাদ ও করবেন না।",
+      "topic": "কুকুর",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"কুকুর\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"كلبهم\")।",
+      "matched_concepts": [
+        "كلبهم"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    }
+  ],
+  "strong_context": [],
+  "related": [],
+  "completeness_report": {
+    "topic": "কুকুর",
+    "generated_at": "2026-09-15T00:09:25.837Z",
+    "total_ayahs_scanned": 6236,
+    "keyword_candidates": 4,
+    "narrative_candidates": 0,
+    "total_candidates_before_dedup": 4,
+    "total_candidates_after_dedup": 4,
+    "final_direct": 4,
+    "final_strong_context": 0,
+    "final_related": 0,
+    "rejected": 0,
+    "needs_human_review": 0,
+    "audit_checklist": [
+      {
+        "question": "Direct Arabic keywords কি সব search করেছি?",
+        "answer": "হ্যাঁ — টপিক ম্যাপের verified arabic_terms লিস্ট অনুযায়ী সম্পূর্ণ ৬২৩৬ আয়াতের কর্পাসে exact/whole-word search করা হয়েছে।"
+      },
+      {
+        "question": "Morphological variations (root surface forms) কি search করেছি?",
+        "answer": "হ্যাঁ — arabic_terms লিস্টে root-এর একাধিক surface form (উপসর্গ/প্রত্যয়সহ) অন্তর্ভুক্ত, প্রতিটি scripts/discover-forms.ts দিয়ে কর্পাসে verify করে নেওয়া হয়েছে।"
+      },
+      {
+        "question": "Synonyms/concepts কি search করেছি?",
+        "answer": "এই টপিকের জন্য কোনো পৃথক concept/synonym root কনফিগার করা হয়নি (শুধুমাত্র primary root-ই যথেষ্ট প্রাসঙ্গিক বিবেচিত হয়েছে)।"
+      },
+      {
+        "question": "Narrative/event context কি search করেছি?",
+        "answer": "এই টপিকের জন্য কোনো curated narrative passage যোগ করা হয়নি (over-inclusion এড়াতে সচেতনভাবে বাদ দেওয়া হয়েছে, বা প্রযোজ্য কোনো নির্দিষ্ট ঘটনা নেই)।"
+      },
+      {
+        "question": "কোনো আয়াত শুধু keyword না থাকার কারণে বাদ পড়েছে কি?",
+        "answer": "না — keyword ছাড়াও concept ও narrative layer সমান্তরালে সম্পূর্ণ কর্পাসে চালানো হয়েছে, তাই কোনো layer অন্য layer-কে \"শর্টসার্কিট\" করে বাদ দেয়নি।"
+      },
+      {
+        "question": "কোনো weak association ভুল করে include হয়েছে কি?",
+        "answer": "0 টি candidate confidence threshold-এর নিচে থাকায় REVIEW_REQUIRED হিসেবে চিহ্নিত হয়েছে এবং চূড়ান্ত DIRECT/STRONG_CONTEXT তালিকায় স্বয়ংক্রিয়ভাবে রাখা হয়নি।"
+      }
+    ]
+  }
+}

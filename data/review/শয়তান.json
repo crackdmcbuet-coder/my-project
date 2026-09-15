@@ -1,0 +1,1044 @@
+{
+  "topic": "শয়তান",
+  "generated_at": "2026-09-15T00:09:26.629Z",
+  "review_queue": [],
+  "excluded_candidates": [],
+  "audit_trail": [
+    {
+      "surah_number": 2,
+      "ayah_number": 34,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "ابليس"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ابليس\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 2,
+      "ayah_number": 36,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 2,
+      "ayah_number": 168,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 2,
+      "ayah_number": 208,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 2,
+      "ayah_number": 268,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 2,
+      "ayah_number": 275,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 3,
+      "ayah_number": 36,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 3,
+      "ayah_number": 155,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 3,
+      "ayah_number": 175,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 4,
+      "ayah_number": 38,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 4,
+      "ayah_number": 60,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 4,
+      "ayah_number": 76,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 4,
+      "ayah_number": 83,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 4,
+      "ayah_number": 117,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "شيطانا"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"شيطانا\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 4,
+      "ayah_number": 119,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 4,
+      "ayah_number": 120,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 5,
+      "ayah_number": 90,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 5,
+      "ayah_number": 91,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 6,
+      "ayah_number": 43,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 6,
+      "ayah_number": 68,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 6,
+      "ayah_number": 142,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 7,
+      "ayah_number": 11,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "ابليس"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ابليس\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 7,
+      "ayah_number": 20,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 7,
+      "ayah_number": 22,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 7,
+      "ayah_number": 27,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 7,
+      "ayah_number": 175,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 7,
+      "ayah_number": 200,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 7,
+      "ayah_number": 201,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 8,
+      "ayah_number": 11,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 8,
+      "ayah_number": 48,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 12,
+      "ayah_number": 5,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 12,
+      "ayah_number": 42,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 12,
+      "ayah_number": 100,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 14,
+      "ayah_number": 22,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 15,
+      "ayah_number": 17,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "شيطان"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"شيطان\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 15,
+      "ayah_number": 31,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "ابليس"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ابليس\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 15,
+      "ayah_number": 32,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "ياابليس"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ياابليس\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 16,
+      "ayah_number": 63,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 16,
+      "ayah_number": 98,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 17,
+      "ayah_number": 27,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 17,
+      "ayah_number": 53,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 17,
+      "ayah_number": 61,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "ابليس"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ابليس\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 17,
+      "ayah_number": 64,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 18,
+      "ayah_number": 50,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "ابليس"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ابليس\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 18,
+      "ayah_number": 63,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 19,
+      "ayah_number": 44,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 19,
+      "ayah_number": 45,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "للشيطان"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"للشيطان\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 20,
+      "ayah_number": 116,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "ابليس"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ابليس\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 20,
+      "ayah_number": 120,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 22,
+      "ayah_number": 3,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "شيطان"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"شيطان\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 22,
+      "ayah_number": 52,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 22,
+      "ayah_number": 53,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 24,
+      "ayah_number": 21,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 25,
+      "ayah_number": 29,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 26,
+      "ayah_number": 95,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "ابليس"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ابليس\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 27,
+      "ayah_number": 24,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 28,
+      "ayah_number": 15,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 29,
+      "ayah_number": 38,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 31,
+      "ayah_number": 21,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 34,
+      "ayah_number": 20,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "ابليس"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ابليس\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 35,
+      "ayah_number": 6,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 36,
+      "ayah_number": 60,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 37,
+      "ayah_number": 7,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "شيطان"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"شيطان\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 38,
+      "ayah_number": 41,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 38,
+      "ayah_number": 74,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "ابليس"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ابليس\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 38,
+      "ayah_number": 75,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "ياابليس"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ياابليس\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 41,
+      "ayah_number": 36,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 43,
+      "ayah_number": 36,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "شيطانا"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"شيطانا\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 43,
+      "ayah_number": 62,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 47,
+      "ayah_number": 25,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 58,
+      "ayah_number": 10,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 58,
+      "ayah_number": 19,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 59,
+      "ayah_number": 16,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 81,
+      "ayah_number": 25,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "شيطان"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"شيطان\")।",
+      "confidence": 0.95
+    }
+  ]
+}

@@ -1,0 +1,1828 @@
+{
+  "topic": "শয়তান",
+  "generated_at": "2026-09-15T00:09:26.629Z",
+  "total_ayahs": 6236,
+  "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+  "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+  "dataset_version": "quran-json@3.1.2 / merged 2026",
+  "direct": [
+    {
+      "surah_number": 2,
+      "surah_name_ar": "البقرة",
+      "surah_name_transliteration": "Al-Baqarah",
+      "surah_name_bn": "বকনা-বাছুর",
+      "ayah_number": 34,
+      "arabic": "وَإِذۡ قُلۡنَا لِلۡمَلَـٰٓئِكَةِ ٱسۡجُدُواْ لِأٓدَمَ فَسَجَدُوٓاْ إِلَّآ إِبۡلِيسَ أَبَىٰ وَٱسۡتَكۡبَرَ وَكَانَ مِنَ ٱلۡكَٰفِرِينَ",
+      "bangla": "এবং যখন আমি হযরত আদম (আঃ)-কে সেজদা করার জন্য ফেরেশতাগণকে নির্দেশ দিলাম, তখনই ইবলীস ব্যতীত সবাই সিজদা করলো। সে (নির্দেশ) পালন করতে অস্বীকার করল এবং অহংকার প্রদর্শন করল। ফলে সে কাফেরদের অন্তর্ভূক্ত হয়ে গেল।",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ابليس\")।",
+      "matched_concepts": [
+        "ابليس"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 2,
+      "surah_name_ar": "البقرة",
+      "surah_name_transliteration": "Al-Baqarah",
+      "surah_name_bn": "বকনা-বাছুর",
+      "ayah_number": 36,
+      "arabic": "فَأَزَلَّهُمَا ٱلشَّيۡطَٰنُ عَنۡهَا فَأَخۡرَجَهُمَا مِمَّا كَانَا فِيهِۖ وَقُلۡنَا ٱهۡبِطُواْ بَعۡضُكُمۡ لِبَعۡضٍ عَدُوّٞۖ وَلَكُمۡ فِي ٱلۡأَرۡضِ مُسۡتَقَرّٞ وَمَتَٰعٌ إِلَىٰ حِينٖ",
+      "bangla": "অনন্তর শয়তান তাদের উভয়কে ওখান থেকে পদস্খলিত করেছিল। পরে তারা যে সুখ-স্বাচ্ছন্দ্যে ছিল তা থেকে তাদেরকে বের করে দিল এবং আমি বললাম, তোমরা নেমে যাও। তোমরা পরস্পর একে অপরের শক্র হবে এবং তোমাদেরকে সেখানে কিছুকাল অবস্থান করতে হবে ও লাভ সংগ্রহ করতে হবে।",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 2,
+      "surah_name_ar": "البقرة",
+      "surah_name_transliteration": "Al-Baqarah",
+      "surah_name_bn": "বকনা-বাছুর",
+      "ayah_number": 168,
+      "arabic": "يَـٰٓأَيُّهَا ٱلنَّاسُ كُلُواْ مِمَّا فِي ٱلۡأَرۡضِ حَلَٰلٗا طَيِّبٗا وَلَا تَتَّبِعُواْ خُطُوَٰتِ ٱلشَّيۡطَٰنِۚ إِنَّهُۥ لَكُمۡ عَدُوّٞ مُّبِينٌ",
+      "bangla": "হে মানব মন্ডলী, পৃথিবীর হালাল ও পবিত্র বস্তু-সামগ্রী ভক্ষন কর। আর শয়তানের পদাঙ্ক অনুসরণ করো না। সে নিঃসন্দেহে তোমাদের প্রকাশ্য শত্রু।",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 2,
+      "surah_name_ar": "البقرة",
+      "surah_name_transliteration": "Al-Baqarah",
+      "surah_name_bn": "বকনা-বাছুর",
+      "ayah_number": 208,
+      "arabic": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُواْ ٱدۡخُلُواْ فِي ٱلسِّلۡمِ كَآفَّةٗ وَلَا تَتَّبِعُواْ خُطُوَٰتِ ٱلشَّيۡطَٰنِۚ إِنَّهُۥ لَكُمۡ عَدُوّٞ مُّبِينٞ",
+      "bangla": "হে ঈমানদার গন! তোমরা পরিপূর্ণভাবে ইসলামের অন্তর্ভুক্ত হয়ে যাও এবং শয়তানের পদাংক অনুসরণ কর না। নিশ্চিত রূপে সে তোমাদের প্রকাশ্য শত্রু।",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 2,
+      "surah_name_ar": "البقرة",
+      "surah_name_transliteration": "Al-Baqarah",
+      "surah_name_bn": "বকনা-বাছুর",
+      "ayah_number": 268,
+      "arabic": "ٱلشَّيۡطَٰنُ يَعِدُكُمُ ٱلۡفَقۡرَ وَيَأۡمُرُكُم بِٱلۡفَحۡشَآءِۖ وَٱللَّهُ يَعِدُكُم مَّغۡفِرَةٗ مِّنۡهُ وَفَضۡلٗاۗ وَٱللَّهُ وَٰسِعٌ عَلِيمٞ",
+      "bangla": "শয়তান তোমাদেরকে অভাব অনটনের ভীতি প্রদর্শন করে এবং অশ্লীলতার আদেশ দেয়। পক্ষান্তরে আল্লাহ তোমাদেরকে নিজের পক্ষ থেকে ক্ষমা ও বেশী অনুগ্রহের ওয়াদা করেন। আল্লাহ প্রাচুর্যময়, সুবিজ্ঞ।",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 2,
+      "surah_name_ar": "البقرة",
+      "surah_name_transliteration": "Al-Baqarah",
+      "surah_name_bn": "বকনা-বাছুর",
+      "ayah_number": 275,
+      "arabic": "ٱلَّذِينَ يَأۡكُلُونَ ٱلرِّبَوٰاْ لَا يَقُومُونَ إِلَّا كَمَا يَقُومُ ٱلَّذِي يَتَخَبَّطُهُ ٱلشَّيۡطَٰنُ مِنَ ٱلۡمَسِّۚ ذَٰلِكَ بِأَنَّهُمۡ قَالُوٓاْ إِنَّمَا ٱلۡبَيۡعُ مِثۡلُ ٱلرِّبَوٰاْۗ وَأَحَلَّ ٱللَّهُ ٱلۡبَيۡعَ وَحَرَّمَ ٱلرِّبَوٰاْۚ فَمَن جَآءَهُۥ مَوۡعِظَةٞ مِّن رَّبِّهِۦ فَٱنتَهَىٰ فَلَهُۥ مَا سَلَفَ وَأَمۡرُهُۥٓ إِلَى ٱللَّهِۖ وَمَنۡ عَادَ فَأُوْلَـٰٓئِكَ أَصۡحَٰبُ ٱلنَّارِۖ هُمۡ فِيهَا خَٰلِدُونَ",
+      "bangla": "যারা সুদ খায়, তারা কিয়ামতে দন্ডায়মান হবে, যেভাবে দন্ডায়মান হয় ঐ ব্যক্তি, যাকে শয়তান আসর করে মোহাবিষ্ট করে দেয়। তাদের এ অবস্থার কারণ এই যে, তারা বলেছেঃ ক্রয়-বিক্রয় ও তো সুদ নেয়ারই মত! অথচ আল্লা’হ তা’আলা ক্রয়-বিক্রয় বৈধ করেছেন এবং সুদ হারাম করেছেন। অতঃপর যার কাছে তার পালনকর্তার পক্ষ থেকে উপদেশ এসেছে এবং সে বিরত হয়েছে, পূর্বে যা হয়ে গেছে, তা তার। তার ব্যাপার আল্লাহর উপর নির্ভরশীল। আর যারা পুনরায় সুদ নেয়, তারাই দোযখে যাবে। তারা সেখানে চিরকাল অবস্থান করবে।",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 3,
+      "surah_name_ar": "آل عمران",
+      "surah_name_transliteration": "Ali 'Imran",
+      "surah_name_bn": "ইমরানের পরিবার",
+      "ayah_number": 36,
+      "arabic": "فَلَمَّا وَضَعَتۡهَا قَالَتۡ رَبِّ إِنِّي وَضَعۡتُهَآ أُنثَىٰ وَٱللَّهُ أَعۡلَمُ بِمَا وَضَعَتۡ وَلَيۡسَ ٱلذَّكَرُ كَٱلۡأُنثَىٰۖ وَإِنِّي سَمَّيۡتُهَا مَرۡيَمَ وَإِنِّيٓ أُعِيذُهَا بِكَ وَذُرِّيَّتَهَا مِنَ ٱلشَّيۡطَٰنِ ٱلرَّجِيمِ",
+      "bangla": "অতঃপর যখন তাকে প্রসব করলো বলল, হে আমার পালনকর্তা! আমি একে কন্যা প্রসব করেছি। বস্তুতঃ কি সে প্রসব করেছে আল্লাহ তা ভালই জানেন। সেই কন্যার মত কোন পুত্রই যে নেই। আর আমি তার নাম রাখলাম মারইয়াম। আর আমি তাকে ও তার সন্তানদেরকে তোমার আশ্রয়ে সমর্পণ করছি। অভিশপ্ত শয়তানের কবল থেকে।",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 3,
+      "surah_name_ar": "آل عمران",
+      "surah_name_transliteration": "Ali 'Imran",
+      "surah_name_bn": "ইমরানের পরিবার",
+      "ayah_number": 155,
+      "arabic": "إِنَّ ٱلَّذِينَ تَوَلَّوۡاْ مِنكُمۡ يَوۡمَ ٱلۡتَقَى ٱلۡجَمۡعَانِ إِنَّمَا ٱسۡتَزَلَّهُمُ ٱلشَّيۡطَٰنُ بِبَعۡضِ مَا كَسَبُواْۖ وَلَقَدۡ عَفَا ٱللَّهُ عَنۡهُمۡۗ إِنَّ ٱللَّهَ غَفُورٌ حَلِيمٞ",
+      "bangla": "তোমাদের যে দুটি দল লড়াইয়ের দিনে ঘুরে দাঁড়িয়েছিল শয়তান তাদেরকে বিভ্রান্ত করেছিল, তাদেরই পাপের দরুন।",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 3,
+      "surah_name_ar": "آل عمران",
+      "surah_name_transliteration": "Ali 'Imran",
+      "surah_name_bn": "ইমরানের পরিবার",
+      "ayah_number": 175,
+      "arabic": "إِنَّمَا ذَٰلِكُمُ ٱلشَّيۡطَٰنُ يُخَوِّفُ أَوۡلِيَآءَهُۥ فَلَا تَخَافُوهُمۡ وَخَافُونِ إِن كُنتُم مُّؤۡمِنِينَ",
+      "bangla": "এরা যে রয়েছে, এরাই হলে শয়তান, এরা নিজেদের বন্ধুদের ব্যাপারে ভীতি প্রদর্শন করে। সুতরাং তোমরা তাদের ভয় করো না। আর তোমরা যদি ঈমানদার হয়ে থাক, তবে আমাকে ভয় কর।",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 4,
+      "surah_name_ar": "النساء",
+      "surah_name_transliteration": "An-Nisa",
+      "surah_name_bn": "নারী",
+      "ayah_number": 38,
+      "arabic": "وَٱلَّذِينَ يُنفِقُونَ أَمۡوَٰلَهُمۡ رِئَآءَ ٱلنَّاسِ وَلَا يُؤۡمِنُونَ بِٱللَّهِ وَلَا بِٱلۡيَوۡمِ ٱلۡأٓخِرِۗ وَمَن يَكُنِ ٱلشَّيۡطَٰنُ لَهُۥ قَرِينٗا فَسَآءَ قَرِينٗا",
+      "bangla": "আর সে সমস্ত লোক যারা ব্যয় করে স্বীয় ধন-সম্পদ লোক-দেখানোর উদ্দেশে এবং যারা আল্লাহর উপর ঈমান আনে না, ঈমান আনে না কেয়ামত দিবসের প্রতি এবং শয়তান যার সাথী হয় সে হল নিকৃষ্টতর সাথী।",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 4,
+      "surah_name_ar": "النساء",
+      "surah_name_transliteration": "An-Nisa",
+      "surah_name_bn": "নারী",
+      "ayah_number": 60,
+      "arabic": "أَلَمۡ تَرَ إِلَى ٱلَّذِينَ يَزۡعُمُونَ أَنَّهُمۡ ءَامَنُواْ بِمَآ أُنزِلَ إِلَيۡكَ وَمَآ أُنزِلَ مِن قَبۡلِكَ يُرِيدُونَ أَن يَتَحَاكَمُوٓاْ إِلَى ٱلطَّـٰغُوتِ وَقَدۡ أُمِرُوٓاْ أَن يَكۡفُرُواْ بِهِۦۖ وَيُرِيدُ ٱلشَّيۡطَٰنُ أَن يُضِلَّهُمۡ ضَلَٰلَۢا بَعِيدٗا",
+      "bangla": "আপনি কি তাদেরকে দেখেননি, যারা দাবী করে যে, যা আপনার প্রতি অবর্তীর্ণ হয়েছে আমরা সে বিষয়ের উপর ঈমান এনেছি এবং আপনার পূর্বে যা অবর্তীণ হয়েছে। তারা বিরোধীয় বিষয়কে শয়তানের দিকে নিয়ে যেতে চায়, অথচ তাদের প্রতি নির্দেশ হয়েছে, যাতে তারা ওকে মান্য না করে। পক্ষান্তরে শয়তান তাদেরকে প্রতারিত করে পথভ্রষ্ট করে ফেলতে চায়।",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 4,
+      "surah_name_ar": "النساء",
+      "surah_name_transliteration": "An-Nisa",
+      "surah_name_bn": "নারী",
+      "ayah_number": 76,
+      "arabic": "ٱلَّذِينَ ءَامَنُواْ يُقَٰتِلُونَ فِي سَبِيلِ ٱللَّهِۖ وَٱلَّذِينَ كَفَرُواْ يُقَٰتِلُونَ فِي سَبِيلِ ٱلطَّـٰغُوتِ فَقَٰتِلُوٓاْ أَوۡلِيَآءَ ٱلشَّيۡطَٰنِۖ إِنَّ كَيۡدَ ٱلشَّيۡطَٰنِ كَانَ ضَعِيفًا",
+      "bangla": "যারা ঈমানদার তারা যে, জেহাদ করে আল্লাহর রাহেই। পক্ষান্তরে যারা কাফের তারা লড়াই করে শয়তানের পক্ষে সুতরাং তোমরা জেহাদ করতে থাক শয়তানের পক্ষালম্বনকারীদের বিরুদ্ধে, (দেখবে) শয়তানের চক্রান্ত একান্তই দুর্বল।",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 4,
+      "surah_name_ar": "النساء",
+      "surah_name_transliteration": "An-Nisa",
+      "surah_name_bn": "নারী",
+      "ayah_number": 83,
+      "arabic": "وَإِذَا جَآءَهُمۡ أَمۡرٞ مِّنَ ٱلۡأَمۡنِ أَوِ ٱلۡخَوۡفِ أَذَاعُواْ بِهِۦۖ وَلَوۡ رَدُّوهُ إِلَى ٱلرَّسُولِ وَإِلَىٰٓ أُوْلِي ٱلۡأَمۡرِ مِنۡهُمۡ لَعَلِمَهُ ٱلَّذِينَ يَسۡتَنۢبِطُونَهُۥ مِنۡهُمۡۗ وَلَوۡلَا فَضۡلُ ٱللَّهِ عَلَيۡكُمۡ وَرَحۡمَتُهُۥ لَٱتَّبَعۡتُمُ ٱلشَّيۡطَٰنَ إِلَّا قَلِيلٗا",
+      "bangla": "আর যখন তাদের কছে পৌঁছে কোন সংবাদ শান্তি-সংক্রান্ত কিংবা ভয়ের, তখন তারা সেগুলোকে রটিয়ে দেয়। আর যদি সেগুলো পৌঁছে দিত রসূল পর্যন্ত কিংবা তাদের শাসকদের পর্যন্ত, তখন অনুসন্ধান করে দেখা যেত সেসব বিষয়, যা তাতে রয়েছে অনুসন্ধান করার মত। বস্তুতঃ আল্লাহর অনুগ্রহ ও করুণা যদি তোমাদের উপর বিদ্যমান না থাকত তবে তোমাদের অল্প কতিপয় লোক ব্যতীত সবাই শয়তানের অনুসরণ করতে শুরু করত",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 4,
+      "surah_name_ar": "النساء",
+      "surah_name_transliteration": "An-Nisa",
+      "surah_name_bn": "নারী",
+      "ayah_number": 117,
+      "arabic": "إِن يَدۡعُونَ مِن دُونِهِۦٓ إِلَّآ إِنَٰثٗا وَإِن يَدۡعُونَ إِلَّا شَيۡطَٰنٗا مَّرِيدٗا",
+      "bangla": "তারা আল্লাহকে পরিত্যাগ করে শুধু নারীর আরাধনা করে এবং শুধু অবাধ্য শয়তানের পূজা করে।",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"شيطانا\")।",
+      "matched_concepts": [
+        "شيطانا"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 4,
+      "surah_name_ar": "النساء",
+      "surah_name_transliteration": "An-Nisa",
+      "surah_name_bn": "নারী",
+      "ayah_number": 119,
+      "arabic": "وَلَأُضِلَّنَّهُمۡ وَلَأُمَنِّيَنَّهُمۡ وَلَأٓمُرَنَّهُمۡ فَلَيُبَتِّكُنَّ ءَاذَانَ ٱلۡأَنۡعَٰمِ وَلَأٓمُرَنَّهُمۡ فَلَيُغَيِّرُنَّ خَلۡقَ ٱللَّهِۚ وَمَن يَتَّخِذِ ٱلشَّيۡطَٰنَ وَلِيّٗا مِّن دُونِ ٱللَّهِ فَقَدۡ خَسِرَ خُسۡرَانٗا مُّبِينٗا",
+      "bangla": "তাদেরকে পথভ্রষ্ট করব, তাদেরকে আশ্বাস দেব; তাদেরকে পশুদের কর্ণ ছেদন করতে বলব এবং তাদেরকে আল্লাহর সৃষ্ট আকৃতি পরিবর্তন করতে আদেশ দেব। যে কেউ আল্লাহকে ছেড়ে শয়তানকে বন্ধুরূপে গ্রহণ করে, সে প্রকাশ্য ক্ষতিতে পতিত হয়।",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 4,
+      "surah_name_ar": "النساء",
+      "surah_name_transliteration": "An-Nisa",
+      "surah_name_bn": "নারী",
+      "ayah_number": 120,
+      "arabic": "يَعِدُهُمۡ وَيُمَنِّيهِمۡۖ وَمَا يَعِدُهُمُ ٱلشَّيۡطَٰنُ إِلَّا غُرُورًا",
+      "bangla": "সে তাদেরকে প্রতিশ্রুতি দেয় এবং তাদেরকে আশ্বাস দেয়। শয়তান তাদেরকে যে প্রতিশ্রুতি দেয়, তা সব প্রতারণা বৈ নয়।",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 5,
+      "surah_name_ar": "المائدة",
+      "surah_name_transliteration": "Al-Ma'idah",
+      "surah_name_bn": "খাদ্য পরিবেশিত টেবিল",
+      "ayah_number": 90,
+      "arabic": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓاْ إِنَّمَا ٱلۡخَمۡرُ وَٱلۡمَيۡسِرُ وَٱلۡأَنصَابُ وَٱلۡأَزۡلَٰمُ رِجۡسٞ مِّنۡ عَمَلِ ٱلشَّيۡطَٰنِ فَٱجۡتَنِبُوهُ لَعَلَّكُمۡ تُفۡلِحُونَ",
+      "bangla": "হে মুমিনগণ, এই যে মদ, জুয়া, প্রতিমা এবং ভাগ্য-নির্ধারক শরসমূহ এসব শয়তানের অপবিত্র কার্য বৈ তো নয়। অতএব, এগুলো থেকে বেঁচে থাক-যাতে তোমরা কল্যাণপ্রাপ্ত হও।",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 5,
+      "surah_name_ar": "المائدة",
+      "surah_name_transliteration": "Al-Ma'idah",
+      "surah_name_bn": "খাদ্য পরিবেশিত টেবিল",
+      "ayah_number": 91,
+      "arabic": "إِنَّمَا يُرِيدُ ٱلشَّيۡطَٰنُ أَن يُوقِعَ بَيۡنَكُمُ ٱلۡعَدَٰوَةَ وَٱلۡبَغۡضَآءَ فِي ٱلۡخَمۡرِ وَٱلۡمَيۡسِرِ وَيَصُدَّكُمۡ عَن ذِكۡرِ ٱللَّهِ وَعَنِ ٱلصَّلَوٰةِۖ فَهَلۡ أَنتُم مُّنتَهُونَ",
+      "bangla": "শয়তান তো চায়, মদ ও জুয়ার মাধ্যমে তোমাদের পরস্পরের মাঝে শুত্রুতা ও বিদ্বেষ সঞ্চারিত করে দিতে এবং আল্লাহর স্মরণ ও নামায থেকে তোমাদেরকে বিরত রাখতে। অতএব, তোমরা এখন ও কি নিবৃত্ত হবে",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 6,
+      "surah_name_ar": "الأنعام",
+      "surah_name_transliteration": "Al-An'am",
+      "surah_name_bn": "গৃহপালিত পশু",
+      "ayah_number": 43,
+      "arabic": "فَلَوۡلَآ إِذۡ جَآءَهُم بَأۡسُنَا تَضَرَّعُواْ وَلَٰكِن قَسَتۡ قُلُوبُهُمۡ وَزَيَّنَ لَهُمُ ٱلشَّيۡطَٰنُ مَا كَانُواْ يَعۡمَلُونَ",
+      "bangla": "অতঃপর তাদের কাছে যখন আমার আযাব আসল, তখন কেন কাকুতি-মিনতি করল না ? বস্তুতঃ তাদের অন্তর কঠোর হয়ে গেল এবং শয়তান তাদের কাছে সুশোভিত করে দেখাল, যে কাজ তারা করছিল।",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 6,
+      "surah_name_ar": "الأنعام",
+      "surah_name_transliteration": "Al-An'am",
+      "surah_name_bn": "গৃহপালিত পশু",
+      "ayah_number": 68,
+      "arabic": "وَإِذَا رَأَيۡتَ ٱلَّذِينَ يَخُوضُونَ فِيٓ ءَايَٰتِنَا فَأَعۡرِضۡ عَنۡهُمۡ حَتَّىٰ يَخُوضُواْ فِي حَدِيثٍ غَيۡرِهِۦۚ وَإِمَّا يُنسِيَنَّكَ ٱلشَّيۡطَٰنُ فَلَا تَقۡعُدۡ بَعۡدَ ٱلذِّكۡرَىٰ مَعَ ٱلۡقَوۡمِ ٱلظَّـٰلِمِينَ",
+      "bangla": "যখন আপনি তাদেরকে দেখেন, যারা আমার আয়াত সমূহে ছিদ্রান্বেষণ করে, তখন তাদের কাছ থেকে সরে যান যে পর্যন্ত তারা অন্য কথায় প্রবৃত্ত না হয়, যদি শয়তান আপনাকে ভূলিয়ে দেয় তবে স্মরণ হওয়ার পর জালেমদের সাথে উপবেশন করবেন না।",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 6,
+      "surah_name_ar": "الأنعام",
+      "surah_name_transliteration": "Al-An'am",
+      "surah_name_bn": "গৃহপালিত পশু",
+      "ayah_number": 142,
+      "arabic": "وَمِنَ ٱلۡأَنۡعَٰمِ حَمُولَةٗ وَفَرۡشٗاۚ كُلُواْ مِمَّا رَزَقَكُمُ ٱللَّهُ وَلَا تَتَّبِعُواْ خُطُوَٰتِ ٱلشَّيۡطَٰنِۚ إِنَّهُۥ لَكُمۡ عَدُوّٞ مُّبِينٞ",
+      "bangla": "তিনি সৃষ্টি করেছেন চতুষ্পদ জন্তুর মধ্যে বোঝা বহনকারীকে এবং খর্বাকৃতিকে। আল্লাহ তোমাদেরকে যা কিছু দিয়েছেন, তা থেকে খাও এবং শয়তানের পদাঙ্ক অনুসরণ করো না। সে তোমাদের প্রকাশ্য শত্রু।",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 7,
+      "surah_name_ar": "الأعراف",
+      "surah_name_transliteration": "Al-A'raf",
+      "surah_name_bn": "উচু স্থান",
+      "ayah_number": 11,
+      "arabic": "وَلَقَدۡ خَلَقۡنَٰكُمۡ ثُمَّ صَوَّرۡنَٰكُمۡ ثُمَّ قُلۡنَا لِلۡمَلَـٰٓئِكَةِ ٱسۡجُدُواْ لِأٓدَمَ فَسَجَدُوٓاْ إِلَّآ إِبۡلِيسَ لَمۡ يَكُن مِّنَ ٱلسَّـٰجِدِينَ",
+      "bangla": "আর আমি তোমাদেরকে সৃষ্টি করেছি, এরপর আকার-অবয়ব, তৈরী করেছি। অতঃপর আমি ফেরেশতাদেরকে বলছি-আদমকে সেজদা কর তখন সবাই সেজদা করেছে, কিন্তু ইবলীস সে সেজদাকারীদের অন্তর্ভূক্ত ছিল না।",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ابليس\")।",
+      "matched_concepts": [
+        "ابليس"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 7,
+      "surah_name_ar": "الأعراف",
+      "surah_name_transliteration": "Al-A'raf",
+      "surah_name_bn": "উচু স্থান",
+      "ayah_number": 20,
+      "arabic": "فَوَسۡوَسَ لَهُمَا ٱلشَّيۡطَٰنُ لِيُبۡدِيَ لَهُمَا مَا وُۥرِيَ عَنۡهُمَا مِن سَوۡءَٰتِهِمَا وَقَالَ مَا نَهَىٰكُمَا رَبُّكُمَا عَنۡ هَٰذِهِ ٱلشَّجَرَةِ إِلَّآ أَن تَكُونَا مَلَكَيۡنِ أَوۡ تَكُونَا مِنَ ٱلۡخَٰلِدِينَ",
+      "bangla": "অতঃপর শয়তান উভয়কে প্ররোচিত করল, যাতে তাদের অঙ্গ, যা তাদের কাছে গোপন ছিল, তাদের সামনে প্রকাশ করে দেয়। সে বললঃ তোমাদের পালনকর্তা তোমাদেরকে এ বৃক্ষ থেকে নিষেধ করেননি; তবে তা এ কারণে যে, তোমরা না আবার ফেরেশতা হয়ে যাও-কিংবা হয়ে যাও চিরকাল বসবাসকারী।",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 7,
+      "surah_name_ar": "الأعراف",
+      "surah_name_transliteration": "Al-A'raf",
+      "surah_name_bn": "উচু স্থান",
+      "ayah_number": 22,
+      "arabic": "فَدَلَّىٰهُمَا بِغُرُورٖۚ فَلَمَّا ذَاقَا ٱلشَّجَرَةَ بَدَتۡ لَهُمَا سَوۡءَٰتُهُمَا وَطَفِقَا يَخۡصِفَانِ عَلَيۡهِمَا مِن وَرَقِ ٱلۡجَنَّةِۖ وَنَادَىٰهُمَا رَبُّهُمَآ أَلَمۡ أَنۡهَكُمَا عَن تِلۡكُمَا ٱلشَّجَرَةِ وَأَقُل لَّكُمَآ إِنَّ ٱلشَّيۡطَٰنَ لَكُمَا عَدُوّٞ مُّبِينٞ",
+      "bangla": "অতঃপর প্রতারণাপূর্বক তাদেরকে সম্মত করে ফেলল। অনন্তর যখন তারা বৃক্ষ আস্বাদন করল, তখন তাদের লজ্জাস্থান তাদের সামনে খুলে গেল এবং তারা নিজের উপর বেহেশতের পাতা জড়াতে লাগল। তাদের প্রতিপালক তাদেরকে ডেকে বললেনঃ আমি কি তোমাদেরকে এ বৃক্ষ থেকে নিষেধ করিনি এবং বলিনি যে, শয়তান তোমাদের প্রকাশ্য শত্রু।",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 7,
+      "surah_name_ar": "الأعراف",
+      "surah_name_transliteration": "Al-A'raf",
+      "surah_name_bn": "উচু স্থান",
+      "ayah_number": 27,
+      "arabic": "يَٰبَنِيٓ ءَادَمَ لَا يَفۡتِنَنَّكُمُ ٱلشَّيۡطَٰنُ كَمَآ أَخۡرَجَ أَبَوَيۡكُم مِّنَ ٱلۡجَنَّةِ يَنزِعُ عَنۡهُمَا لِبَاسَهُمَا لِيُرِيَهُمَا سَوۡءَٰتِهِمَآۚ إِنَّهُۥ يَرَىٰكُمۡ هُوَ وَقَبِيلُهُۥ مِنۡ حَيۡثُ لَا تَرَوۡنَهُمۡۗ إِنَّا جَعَلۡنَا ٱلشَّيَٰطِينَ أَوۡلِيَآءَ لِلَّذِينَ لَا يُؤۡمِنُونَ",
+      "bangla": "হে বনী-আদম শয়তান যেন তোমাদেরকে বিভ্রান্ত না করে; যেমন সে তোমাদের পিতামাতাকে জান্নাত থেকে বের করে দিয়েছে এমতাবস্থায় যে, তাদের পোশাক তাদের থেকে খুলিয়ে দিয়েছি-যাতে তাদেরকে লজ্জাস্থান দেখিয়ে দেয়। সে এবং তার দলবল তোমাদেরকে দেখে, যেখান থেকে তোমরা তাদেরকে দেখ না। আমি শয়তানদেরকে তাদের বন্ধু করে দিয়েছি, , যারা বিশ্বাস স্থাপন করে না।",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 7,
+      "surah_name_ar": "الأعراف",
+      "surah_name_transliteration": "Al-A'raf",
+      "surah_name_bn": "উচু স্থান",
+      "ayah_number": 175,
+      "arabic": "وَٱتۡلُ عَلَيۡهِمۡ نَبَأَ ٱلَّذِيٓ ءَاتَيۡنَٰهُ ءَايَٰتِنَا فَٱنسَلَخَ مِنۡهَا فَأَتۡبَعَهُ ٱلشَّيۡطَٰنُ فَكَانَ مِنَ ٱلۡغَاوِينَ",
+      "bangla": "আর আপনি তাদেরকে শুনিয়ে দিন, সে লোকের অবস্থা, যাকে আমি নিজের নিদর্শনসমূহ দান করেছিলাম, অথচ সে তা পরিহার করে বেরিয়ে গেছে। আর তার পেছনে লেগেছে শয়তান, ফলে সে পথভ্রষ্টদের অন্তর্ভূক্ত হয়ে পড়েছে।",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 7,
+      "surah_name_ar": "الأعراف",
+      "surah_name_transliteration": "Al-A'raf",
+      "surah_name_bn": "উচু স্থান",
+      "ayah_number": 200,
+      "arabic": "وَإِمَّا يَنزَغَنَّكَ مِنَ ٱلشَّيۡطَٰنِ نَزۡغٞ فَٱسۡتَعِذۡ بِٱللَّهِۚ إِنَّهُۥ سَمِيعٌ عَلِيمٌ",
+      "bangla": "আর যদি শয়তানের প্ররোচনা তোমাকে প্ররোচিত করে, তাহলে আল্লাহর শরণাপন্ন হও তিনিই শ্রবণকারী, মহাজ্ঞানী।",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 7,
+      "surah_name_ar": "الأعراف",
+      "surah_name_transliteration": "Al-A'raf",
+      "surah_name_bn": "উচু স্থান",
+      "ayah_number": 201,
+      "arabic": "إِنَّ ٱلَّذِينَ ٱتَّقَوۡاْ إِذَا مَسَّهُمۡ طَـٰٓئِفٞ مِّنَ ٱلشَّيۡطَٰنِ تَذَكَّرُواْ فَإِذَا هُم مُّبۡصِرُونَ",
+      "bangla": "যাদের মনে ভয় রয়েছে, তাদের উপর শয়তানের আগমন ঘটার সাথে সাথেই তারা সতর্ক হয়ে যায় এবং তখনই তাদের বিবেচনাশক্তি জাগ্রত হয়ে উঠে।",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 8,
+      "surah_name_ar": "الأنفال",
+      "surah_name_transliteration": "Al-Anfal",
+      "surah_name_bn": "যুদ্ধ-লব্ধ ধনসম্পদ",
+      "ayah_number": 11,
+      "arabic": "إِذۡ يُغَشِّيكُمُ ٱلنُّعَاسَ أَمَنَةٗ مِّنۡهُ وَيُنَزِّلُ عَلَيۡكُم مِّنَ ٱلسَّمَآءِ مَآءٗ لِّيُطَهِّرَكُم بِهِۦ وَيُذۡهِبَ عَنكُمۡ رِجۡزَ ٱلشَّيۡطَٰنِ وَلِيَرۡبِطَ عَلَىٰ قُلُوبِكُمۡ وَيُثَبِّتَ بِهِ ٱلۡأَقۡدَامَ",
+      "bangla": "যখন তিনি আরোপ করেন তোমাদের উপর তন্দ্রাচ্ছন্ন তা নিজের পক্ষ থেকে তোমাদের প্রশান্তির জন্য এবং তোমাদের উপর আকাশ থেকে পানি অবতরণ করেন, যাতে তোমাদিগকে পবিত্র করে দেন এবং যাতে তোমাদের থেকে অপসারিত করে দেন শয়তানের অপবিত্রতা। আর যাতে করে সুরক্ষিত করে দিতে পারেন তোমাদের অন্তরসমূহকে এবং তাতে যেন সুদৃঢ় করে দিতে পারেন তোমাদের পা গুলো।",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 8,
+      "surah_name_ar": "الأنفال",
+      "surah_name_transliteration": "Al-Anfal",
+      "surah_name_bn": "যুদ্ধ-লব্ধ ধনসম্পদ",
+      "ayah_number": 48,
+      "arabic": "وَإِذۡ زَيَّنَ لَهُمُ ٱلشَّيۡطَٰنُ أَعۡمَٰلَهُمۡ وَقَالَ لَا غَالِبَ لَكُمُ ٱلۡيَوۡمَ مِنَ ٱلنَّاسِ وَإِنِّي جَارٞ لَّكُمۡۖ فَلَمَّا تَرَآءَتِ ٱلۡفِئَتَانِ نَكَصَ عَلَىٰ عَقِبَيۡهِ وَقَالَ إِنِّي بَرِيٓءٞ مِّنكُمۡ إِنِّيٓ أَرَىٰ مَا لَا تَرَوۡنَ إِنِّيٓ أَخَافُ ٱللَّهَۚ وَٱللَّهُ شَدِيدُ ٱلۡعِقَابِ",
+      "bangla": "আর যখন সুদৃশ্য করে দিল শয়তান তাদের দৃষ্টিতে তাদের কার্যকলাপকে এবং বলল যে, আজকের দিনে কোন মানুষই তোমাদের উপর বিজয়ী হতে পারবে না আর আমি হলাম তোমাদের সমর্থক, অতঃপর যখন সামনাসামনী হল উভয় বাহিনী তখন সে অতি দ্রুত পায়ে পেছনে দিকে পালিয়ে গেল এবং বলল, আমি তোমাদের সাথে না-আমি দেখছি, যা তোমরা দেখছ না; আমি ভয় করি আল্লাহকে। আর আল্লাহর আযাব অত্যন্ত কঠিন।",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 12,
+      "surah_name_ar": "يوسف",
+      "surah_name_transliteration": "Yusuf",
+      "surah_name_bn": "নবী ইউসুফ",
+      "ayah_number": 5,
+      "arabic": "قَالَ يَٰبُنَيَّ لَا تَقۡصُصۡ رُءۡيَاكَ عَلَىٰٓ إِخۡوَتِكَ فَيَكِيدُواْ لَكَ كَيۡدًاۖ إِنَّ ٱلشَّيۡطَٰنَ لِلۡإِنسَٰنِ عَدُوّٞ مُّبِينٞ",
+      "bangla": "তিনি বললেনঃ বৎস, তোমার ভাইদের সামনে এ স্বপ্ন বর্ণনা করো না। তাহলে তারা তোমার বিরুদ্ধে চক্রান্ত করবে। নিশ্চয় শয়তান মানুষের প্রকাশ্য।",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 12,
+      "surah_name_ar": "يوسف",
+      "surah_name_transliteration": "Yusuf",
+      "surah_name_bn": "নবী ইউসুফ",
+      "ayah_number": 42,
+      "arabic": "وَقَالَ لِلَّذِي ظَنَّ أَنَّهُۥ نَاجٖ مِّنۡهُمَا ٱذۡكُرۡنِي عِندَ رَبِّكَ فَأَنسَىٰهُ ٱلشَّيۡطَٰنُ ذِكۡرَ رَبِّهِۦ فَلَبِثَ فِي ٱلسِّجۡنِ بِضۡعَ سِنِينَ",
+      "bangla": "যে ব্যক্তি সম্পর্কে ধারণা ছিল যে, সে মুক্তি পাবে, তাকে ইউসুফ বলে দিলঃ আপন প্রভুর কাছে আমার আলোচনা করবে। অতঃপর শয়তান তাকে প্রভুর কাছে আলোচনার কথা ভুলিয়ে দিল। ফলে তাঁকে কয়েক বছর কারাগারে থাকতে হল।",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 12,
+      "surah_name_ar": "يوسف",
+      "surah_name_transliteration": "Yusuf",
+      "surah_name_bn": "নবী ইউসুফ",
+      "ayah_number": 100,
+      "arabic": "وَرَفَعَ أَبَوَيۡهِ عَلَى ٱلۡعَرۡشِ وَخَرُّواْ لَهُۥ سُجَّدٗاۖ وَقَالَ يَـٰٓأَبَتِ هَٰذَا تَأۡوِيلُ رُءۡيَٰيَ مِن قَبۡلُ قَدۡ جَعَلَهَا رَبِّي حَقّٗاۖ وَقَدۡ أَحۡسَنَ بِيٓ إِذۡ أَخۡرَجَنِي مِنَ ٱلسِّجۡنِ وَجَآءَ بِكُم مِّنَ ٱلۡبَدۡوِ مِنۢ بَعۡدِ أَن نَّزَغَ ٱلشَّيۡطَٰنُ بَيۡنِي وَبَيۡنَ إِخۡوَتِيٓۚ إِنَّ رَبِّي لَطِيفٞ لِّمَا يَشَآءُۚ إِنَّهُۥ هُوَ ٱلۡعَلِيمُ ٱلۡحَكِيمُ",
+      "bangla": "এবং তিনি পিতা-মাতাকে সিংহাসনের উপর বসালেন এবং তারা সবাই তাঁর সামনে সেজদাবনত হল। তিনি বললেনঃ পিতা এ হচ্ছে আমার ইতিপূর্বেকার স্বপ্নের বর্ণনা আমার পালনকর্তা একে সত্যে পরিণত করেছেন এবং তিনি আমার প্রতি অনুগ্রহ করেছেন। আমাকে জেল থেকে বের করেছেন এবং আপনাদেরকে গ্রাম থেকে নিয়ে এসেছেন, শয়তান আমার ও আমার ভাইদের মধ্যে কলহ সৃষ্টি করে দেয়ার পর। আমার পালনকর্তা যা চান, কৌশলে সম্পন্ন করেন। নিশ্চয় তিনি বিজ্ঞ, প্রজ্ঞাময়।",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 14,
+      "surah_name_ar": "ابراهيم",
+      "surah_name_transliteration": "Ibrahim",
+      "surah_name_bn": "নবী ইবরাহীম",
+      "ayah_number": 22,
+      "arabic": "وَقَالَ ٱلشَّيۡطَٰنُ لَمَّا قُضِيَ ٱلۡأَمۡرُ إِنَّ ٱللَّهَ وَعَدَكُمۡ وَعۡدَ ٱلۡحَقِّ وَوَعَدتُّكُمۡ فَأَخۡلَفۡتُكُمۡۖ وَمَا كَانَ لِيَ عَلَيۡكُم مِّن سُلۡطَٰنٍ إِلَّآ أَن دَعَوۡتُكُمۡ فَٱسۡتَجَبۡتُمۡ لِيۖ فَلَا تَلُومُونِي وَلُومُوٓاْ أَنفُسَكُمۖ مَّآ أَنَا۠ بِمُصۡرِخِكُمۡ وَمَآ أَنتُم بِمُصۡرِخِيَّ إِنِّي كَفَرۡتُ بِمَآ أَشۡرَكۡتُمُونِ مِن قَبۡلُۗ إِنَّ ٱلظَّـٰلِمِينَ لَهُمۡ عَذَابٌ أَلِيمٞ",
+      "bangla": "যখন সব কাজের ফায়সলা হয়ে যাবে, তখন শয়তান বলবেঃ নিশ্চয় আল্লাহ তোমাদেরকে সত্য ওয়াদা দিয়েছিলেন এবং আমি তোমাদের সাথে ওয়াদা করেছি, অতঃপর তা ভঙ্গ করেছি। তোমাদের উপর তো আমার কোন ক্ষমতা ছিল না, কিন্তু এতটুকু যে, আমি তোমাদেরকে ডেকেছি, অতঃপর তোমরা আমার কথা মেনে নিয়েছ। অতএব তোমরা আমাকে ভৎর্সনা করো না এবং নিজেদেরকেই ভৎর্সনা কর। আমি তোমাদের উদ্ধারে সাহায্যকারী নই। এবং তোমরাও আমার উদ্ধারে সাহায্যকারী নও। ইতোপূর্বে তোমরা আমাকে যে আল্লাহর শরীক করেছিলে, আমি তা অস্বীকার করি। নিশ্চয় যারা জালেম তাদের জন্যে রয়েছে যন্ত্রণাদায়ক শাস্তি।",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 15,
+      "surah_name_ar": "الحجر",
+      "surah_name_transliteration": "Al-Hijr",
+      "surah_name_bn": "পাথুরে পাহাড়",
+      "ayah_number": 17,
+      "arabic": "وَحَفِظۡنَٰهَا مِن كُلِّ شَيۡطَٰنٖ رَّجِيمٍ",
+      "bangla": "আমি আকাশকে প্রত্যেক বিতাড়িত শয়তান থেকে নিরাপদ করে দিয়েছি।",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"شيطان\")।",
+      "matched_concepts": [
+        "شيطان"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 15,
+      "surah_name_ar": "الحجر",
+      "surah_name_transliteration": "Al-Hijr",
+      "surah_name_bn": "পাথুরে পাহাড়",
+      "ayah_number": 31,
+      "arabic": "إِلَّآ إِبۡلِيسَ أَبَىٰٓ أَن يَكُونَ مَعَ ٱلسَّـٰجِدِينَ",
+      "bangla": "কিন্তু ইবলীস-সে সেজদাকারীদের অন্তর্ভূক্ত হতে স্বীকৃত হল না।",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ابليس\")।",
+      "matched_concepts": [
+        "ابليس"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 15,
+      "surah_name_ar": "الحجر",
+      "surah_name_transliteration": "Al-Hijr",
+      "surah_name_bn": "পাথুরে পাহাড়",
+      "ayah_number": 32,
+      "arabic": "قَالَ يَـٰٓإِبۡلِيسُ مَا لَكَ أَلَّا تَكُونَ مَعَ ٱلسَّـٰجِدِينَ",
+      "bangla": "আল্লাহ বললেনঃ হে ইবলিস, তোমার কি হলো যে তুমি সেজদাকারীদের অন্তর্ভূক্ত হতে স্বীকৃত হলে না",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ياابليس\")।",
+      "matched_concepts": [
+        "ياابليس"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 16,
+      "surah_name_ar": "النحل",
+      "surah_name_transliteration": "An-Nahl",
+      "surah_name_bn": "মৌমাছি",
+      "ayah_number": 63,
+      "arabic": "تَٱللَّهِ لَقَدۡ أَرۡسَلۡنَآ إِلَىٰٓ أُمَمٖ مِّن قَبۡلِكَ فَزَيَّنَ لَهُمُ ٱلشَّيۡطَٰنُ أَعۡمَٰلَهُمۡ فَهُوَ وَلِيُّهُمُ ٱلۡيَوۡمَ وَلَهُمۡ عَذَابٌ أَلِيمٞ",
+      "bangla": "আল্লাহর কসম, আমি আপনার পূর্বে বিভিন্ন সম্প্রদায়ে রাসূল প্রেরণ করেছি, অতঃপর শয়তান তাদেরকে কর্ম সমূহ শোভনীয় করে দেখিয়েছে। আজ সেই তাদের অভিভাবক এবং তাদের জন্যে রয়েছে যন্ত্রণাদায়ক শাস্তি।",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 16,
+      "surah_name_ar": "النحل",
+      "surah_name_transliteration": "An-Nahl",
+      "surah_name_bn": "মৌমাছি",
+      "ayah_number": 98,
+      "arabic": "فَإِذَا قَرَأۡتَ ٱلۡقُرۡءَانَ فَٱسۡتَعِذۡ بِٱللَّهِ مِنَ ٱلشَّيۡطَٰنِ ٱلرَّجِيمِ",
+      "bangla": "অতএব, যখন আপনি কোরআন পাঠ করেন তখন বিতাড়িত শয়তান থেকে আল্লাহর আশ্রয় গ্রহণ করুন।",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 17,
+      "surah_name_ar": "الإسراء",
+      "surah_name_transliteration": "Al-Isra",
+      "surah_name_bn": "ইহুদি জাতি",
+      "ayah_number": 27,
+      "arabic": "إِنَّ ٱلۡمُبَذِّرِينَ كَانُوٓاْ إِخۡوَٰنَ ٱلشَّيَٰطِينِۖ وَكَانَ ٱلشَّيۡطَٰنُ لِرَبِّهِۦ كَفُورٗا",
+      "bangla": "নিশ্চয় অপব্যয়কারীরা শয়তানের ভাই। শয়তান স্বীয় পালনকর্তার প্রতি অতিশয় অকৃতজ্ঞ।",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 17,
+      "surah_name_ar": "الإسراء",
+      "surah_name_transliteration": "Al-Isra",
+      "surah_name_bn": "ইহুদি জাতি",
+      "ayah_number": 53,
+      "arabic": "وَقُل لِّعِبَادِي يَقُولُواْ ٱلَّتِي هِيَ أَحۡسَنُۚ إِنَّ ٱلشَّيۡطَٰنَ يَنزَغُ بَيۡنَهُمۡۚ إِنَّ ٱلشَّيۡطَٰنَ كَانَ لِلۡإِنسَٰنِ عَدُوّٗا مُّبِينٗا",
+      "bangla": "আমার বান্দাদেরকে বলে দিন, তারা যেন যা উত্তম এমন কথাই বলে। শয়তান তাদের মধ্যে সংঘর্ষ বাধায়। নিশ্চয় শয়তান মানুষের প্রকাশ্য শত্রু।",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 17,
+      "surah_name_ar": "الإسراء",
+      "surah_name_transliteration": "Al-Isra",
+      "surah_name_bn": "ইহুদি জাতি",
+      "ayah_number": 61,
+      "arabic": "وَإِذۡ قُلۡنَا لِلۡمَلَـٰٓئِكَةِ ٱسۡجُدُواْ لِأٓدَمَ فَسَجَدُوٓاْ إِلَّآ إِبۡلِيسَ قَالَ ءَأَسۡجُدُ لِمَنۡ خَلَقۡتَ طِينٗا",
+      "bangla": "স্মরণ কর, যখন আমি ফেরেশতাদেরকে বললামঃ আদমকে সেজদা কর, তখন ইবলীস ব্যতীত সবাই সেজদায় পড়ে গেল। কিন্তু সে বললঃ আমি কি এমন ব্যক্তিকে সেজদা করব, যাকে আপনি মাটির দ্বারা সৃষ্টি করেছেন",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ابليس\")।",
+      "matched_concepts": [
+        "ابليس"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 17,
+      "surah_name_ar": "الإسراء",
+      "surah_name_transliteration": "Al-Isra",
+      "surah_name_bn": "ইহুদি জাতি",
+      "ayah_number": 64,
+      "arabic": "وَٱسۡتَفۡزِزۡ مَنِ ٱسۡتَطَعۡتَ مِنۡهُم بِصَوۡتِكَ وَأَجۡلِبۡ عَلَيۡهِم بِخَيۡلِكَ وَرَجِلِكَ وَشَارِكۡهُمۡ فِي ٱلۡأَمۡوَٰلِ وَٱلۡأَوۡلَٰدِ وَعِدۡهُمۡۚ وَمَا يَعِدُهُمُ ٱلشَّيۡطَٰنُ إِلَّا غُرُورًا",
+      "bangla": "তুই সত্যচ্যুত করে তাদের মধ্য থেকে যাকে পারিস স্বীয় আওয়ায দ্বারা, স্বীয় অশ্বারোহী ও পদাতিক বাহিনী নিয়ে তাদেরকে আক্রমণ কর, তাদের অর্থ-সম্পদ ও সন্তান-সন্ততিতে শরীক হয়ে যা এবং তাদেরকে প্রতিশ্রুতি দে। ছলনা ছাড়া শয়তান তাদেরকে কোন প্রতিশ্রুতি দেয় না।",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 18,
+      "surah_name_ar": "الكهف",
+      "surah_name_transliteration": "Al-Kahf",
+      "surah_name_bn": "গুহা",
+      "ayah_number": 50,
+      "arabic": "وَإِذۡ قُلۡنَا لِلۡمَلَـٰٓئِكَةِ ٱسۡجُدُواْ لِأٓدَمَ فَسَجَدُوٓاْ إِلَّآ إِبۡلِيسَ كَانَ مِنَ ٱلۡجِنِّ فَفَسَقَ عَنۡ أَمۡرِ رَبِّهِۦٓۗ أَفَتَتَّخِذُونَهُۥ وَذُرِّيَّتَهُۥٓ أَوۡلِيَآءَ مِن دُونِي وَهُمۡ لَكُمۡ عَدُوُّۢۚ بِئۡسَ لِلظَّـٰلِمِينَ بَدَلٗا",
+      "bangla": "যখন আমি ফেরেশতাদেরকে বললামঃ আদমকে সেজদা কর, তখন সবাই সেজদা করল ইবলীস ব্যতীত। সে ছিল জিনদের একজন। সে তার পালনকর্তার আদেশ অমান্য করল। অতএব তোমরা কি আমার পরিবর্তে তাকে এবং তার বংশধরকে বন্ধুরূপে গ্রহণ করছ? অথচ তারা তোমাদের শত্রু। এটা জালেমদের জন্যে খুবই নিকৃষ্ট বদল।",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ابليس\")।",
+      "matched_concepts": [
+        "ابليس"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 18,
+      "surah_name_ar": "الكهف",
+      "surah_name_transliteration": "Al-Kahf",
+      "surah_name_bn": "গুহা",
+      "ayah_number": 63,
+      "arabic": "قَالَ أَرَءَيۡتَ إِذۡ أَوَيۡنَآ إِلَى ٱلصَّخۡرَةِ فَإِنِّي نَسِيتُ ٱلۡحُوتَ وَمَآ أَنسَىٰنِيهُ إِلَّا ٱلشَّيۡطَٰنُ أَنۡ أَذۡكُرَهُۥۚ وَٱتَّخَذَ سَبِيلَهُۥ فِي ٱلۡبَحۡرِ عَجَبٗا",
+      "bangla": "সে বললঃ আপনি কি লক্ষ্য করেছেন, আমরা যখন প্রস্তর খন্ডে আশ্রয় নিয়েছিলাম, তখন আমি মাছের কথা ভুলে গিয়েছিলাম। শয়তানই আমাকে একথা স্মরণ রাখতে ভুলিয়ে দিয়েছিল। মাছটি আশ্চর্য জনক ভাবে সমুদ্রে নিজের পথ করে নিয়েছে।",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 19,
+      "surah_name_ar": "مريم",
+      "surah_name_transliteration": "Maryam",
+      "surah_name_bn": "মারইয়াম (ঈসা নবীর মা)",
+      "ayah_number": 44,
+      "arabic": "يَـٰٓأَبَتِ لَا تَعۡبُدِ ٱلشَّيۡطَٰنَۖ إِنَّ ٱلشَّيۡطَٰنَ كَانَ لِلرَّحۡمَٰنِ عَصِيّٗا",
+      "bangla": "হে আমার পিতা, শয়তানের এবাদত করো না। নিশ্চয় শয়তান দয়াময়ের অবাধ্য।",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 19,
+      "surah_name_ar": "مريم",
+      "surah_name_transliteration": "Maryam",
+      "surah_name_bn": "মারইয়াম (ঈসা নবীর মা)",
+      "ayah_number": 45,
+      "arabic": "يَـٰٓأَبَتِ إِنِّيٓ أَخَافُ أَن يَمَسَّكَ عَذَابٞ مِّنَ ٱلرَّحۡمَٰنِ فَتَكُونَ لِلشَّيۡطَٰنِ وَلِيّٗا",
+      "bangla": "হে আমার পিতা, আমি আশঙ্কা করি, দয়াময়ের একটি আযাব তোমাকে স্পর্শ করবে, অতঃপর তুমি শয়তানের সঙ্গী হয়ে যাবে।",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"للشيطان\")।",
+      "matched_concepts": [
+        "للشيطان"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 20,
+      "surah_name_ar": "طه",
+      "surah_name_transliteration": "Taha",
+      "surah_name_bn": "ত়া হা",
+      "ayah_number": 116,
+      "arabic": "وَإِذۡ قُلۡنَا لِلۡمَلَـٰٓئِكَةِ ٱسۡجُدُواْ لِأٓدَمَ فَسَجَدُوٓاْ إِلَّآ إِبۡلِيسَ أَبَىٰ",
+      "bangla": "যখন আমি ফেরেশতাদেরকে বললামঃ তোমরা আদমকে সেজদা কর, তখন ইবলীস ব্যতীত সবাই সেজদা করল। সে অমান্য করল।",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ابليس\")।",
+      "matched_concepts": [
+        "ابليس"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 20,
+      "surah_name_ar": "طه",
+      "surah_name_transliteration": "Taha",
+      "surah_name_bn": "ত়া হা",
+      "ayah_number": 120,
+      "arabic": "فَوَسۡوَسَ إِلَيۡهِ ٱلشَّيۡطَٰنُ قَالَ يَـٰٓـَٔادَمُ هَلۡ أَدُلُّكَ عَلَىٰ شَجَرَةِ ٱلۡخُلۡدِ وَمُلۡكٖ لَّا يَبۡلَىٰ",
+      "bangla": "অতঃপর শয়তান তাকে কুমন্ত্রনা দিল, বললঃ হে আদম, আমি কি তোমাকে বলে দিব অনন্তকাল জীবিত থাকার বৃক্ষের কথা এবং অবিনশ্বর রাজত্বের কথা",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 22,
+      "surah_name_ar": "الحج",
+      "surah_name_transliteration": "Al-Hajj",
+      "surah_name_bn": "হ়াজ্জ",
+      "ayah_number": 3,
+      "arabic": "وَمِنَ ٱلنَّاسِ مَن يُجَٰدِلُ فِي ٱللَّهِ بِغَيۡرِ عِلۡمٖ وَيَتَّبِعُ كُلَّ شَيۡطَٰنٖ مَّرِيدٖ",
+      "bangla": "কতক মানুষ অজ্ঞানতাবশতঃ আল্লাহ সম্পেক বিতর্ক করে এবং প্রত্যেক অবাধ্য শয়তানের অনুসরণ করে।",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"شيطان\")।",
+      "matched_concepts": [
+        "شيطان"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 22,
+      "surah_name_ar": "الحج",
+      "surah_name_transliteration": "Al-Hajj",
+      "surah_name_bn": "হ়াজ্জ",
+      "ayah_number": 52,
+      "arabic": "وَمَآ أَرۡسَلۡنَا مِن قَبۡلِكَ مِن رَّسُولٖ وَلَا نَبِيٍّ إِلَّآ إِذَا تَمَنَّىٰٓ أَلۡقَى ٱلشَّيۡطَٰنُ فِيٓ أُمۡنِيَّتِهِۦ فَيَنسَخُ ٱللَّهُ مَا يُلۡقِي ٱلشَّيۡطَٰنُ ثُمَّ يُحۡكِمُ ٱللَّهُ ءَايَٰتِهِۦۗ وَٱللَّهُ عَلِيمٌ حَكِيمٞ",
+      "bangla": "আমি আপনার পূর্বে যে সমস্ত রাসূল ও নবী প্রেরণ করেছি, তারা যখনই কিছু কল্পনা করেছে, তখনই শয়তান তাদের কল্পনায় কিছু মিশ্রণ করে দিয়েছে। অতঃপর আল্লাহ দূর করে দেন শয়তান যা মিশ্রণ করে। এরপর আল্লাহ তাঁর আয়াতসমূহকে সু-প্রতিষ্ঠিত করেন এবং আল্লাহ জ্ঞানময়, প্রজ্ঞাময়।",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 22,
+      "surah_name_ar": "الحج",
+      "surah_name_transliteration": "Al-Hajj",
+      "surah_name_bn": "হ়াজ্জ",
+      "ayah_number": 53,
+      "arabic": "لِّيَجۡعَلَ مَا يُلۡقِي ٱلشَّيۡطَٰنُ فِتۡنَةٗ لِّلَّذِينَ فِي قُلُوبِهِم مَّرَضٞ وَٱلۡقَاسِيَةِ قُلُوبُهُمۡۗ وَإِنَّ ٱلظَّـٰلِمِينَ لَفِي شِقَاقِۭ بَعِيدٖ",
+      "bangla": "এ কারণে যে, শয়তান যা মিশ্রণ করে, তিনি তা পরীক্ষাস্বরূপ করে দেন, তাদের জন্যে, যাদের অন্তরে রোগ আছে এবং যারা পাষাণহৃদয়। গোনাহগাররা দূরবর্তী বিরোধিতায় লিপ্ত আছে।",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 24,
+      "surah_name_ar": "النور",
+      "surah_name_transliteration": "An-Nur",
+      "surah_name_bn": "আলো",
+      "ayah_number": 21,
+      "arabic": "۞يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُواْ لَا تَتَّبِعُواْ خُطُوَٰتِ ٱلشَّيۡطَٰنِۚ وَمَن يَتَّبِعۡ خُطُوَٰتِ ٱلشَّيۡطَٰنِ فَإِنَّهُۥ يَأۡمُرُ بِٱلۡفَحۡشَآءِ وَٱلۡمُنكَرِۚ وَلَوۡلَا فَضۡلُ ٱللَّهِ عَلَيۡكُمۡ وَرَحۡمَتُهُۥ مَا زَكَىٰ مِنكُم مِّنۡ أَحَدٍ أَبَدٗا وَلَٰكِنَّ ٱللَّهَ يُزَكِّي مَن يَشَآءُۗ وَٱللَّهُ سَمِيعٌ عَلِيمٞ",
+      "bangla": "হে ঈমানদারগণ, তোমরা শয়তানের পদাঙ্ক অনুসরণ করো না। যে কেউ শয়তানের পদাঙ্ক অনুসরণ করবে, তখন তো শয়তান নির্লজ্জতা ও মন্দ কাজেরই আদেশ করবে। যদি আল্লাহর অনুগ্রহ ও দয়া তোমাদের প্রতি না থাকত, তবে তোমাদের কেউ কখনও পবিত্র হতে পারতে না। কিন্তু আল্লাহ যাকে ইচ্ছা পবিত্র করেন। আল্লাহ সবকিছু শোনেন, জানেন।",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 25,
+      "surah_name_ar": "الفرقان",
+      "surah_name_transliteration": "Al-Furqan",
+      "surah_name_bn": "মানদণ্ড",
+      "ayah_number": 29,
+      "arabic": "لَّقَدۡ أَضَلَّنِي عَنِ ٱلذِّكۡرِ بَعۡدَ إِذۡ جَآءَنِيۗ وَكَانَ ٱلشَّيۡطَٰنُ لِلۡإِنسَٰنِ خَذُولٗا",
+      "bangla": "আমার কাছে উপদেশ আসার পর সে আমাকে তা থেকে বিভ্রান্ত করেছিল। শয়তান মানুষকে বিপদকালে ধোঁকা দেয়।",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 26,
+      "surah_name_ar": "الشعراء",
+      "surah_name_transliteration": "Ash-Shu'ara",
+      "surah_name_bn": "কবি",
+      "ayah_number": 95,
+      "arabic": "وَجُنُودُ إِبۡلِيسَ أَجۡمَعُونَ",
+      "bangla": "এবং ইবলীস বাহিনীর সকলকে।",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ابليس\")।",
+      "matched_concepts": [
+        "ابليس"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 27,
+      "surah_name_ar": "النمل",
+      "surah_name_transliteration": "An-Naml",
+      "surah_name_bn": "পিঁপড়া",
+      "ayah_number": 24,
+      "arabic": "وَجَدتُّهَا وَقَوۡمَهَا يَسۡجُدُونَ لِلشَّمۡسِ مِن دُونِ ٱللَّهِ وَزَيَّنَ لَهُمُ ٱلشَّيۡطَٰنُ أَعۡمَٰلَهُمۡ فَصَدَّهُمۡ عَنِ ٱلسَّبِيلِ فَهُمۡ لَا يَهۡتَدُونَ",
+      "bangla": "আমি তাকে ও তার সম্প্রদায়কে দেখলাম তারা আল্লাহর পরিবর্তে সূর্যকে সেজদা করছে। শয়তান তাদের দৃষ্টিতে তাদের কার্যাবলী সুশোভিত করে দিয়েছে। অতঃপর তাদেরকে সৎপথ থেকে নিবৃত্ত করেছে। অতএব তারা সৎপথ পায় না।",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 28,
+      "surah_name_ar": "القصص",
+      "surah_name_transliteration": "Al-Qasas",
+      "surah_name_bn": "কাহিনি",
+      "ayah_number": 15,
+      "arabic": "وَدَخَلَ ٱلۡمَدِينَةَ عَلَىٰ حِينِ غَفۡلَةٖ مِّنۡ أَهۡلِهَا فَوَجَدَ فِيهَا رَجُلَيۡنِ يَقۡتَتِلَانِ هَٰذَا مِن شِيعَتِهِۦ وَهَٰذَا مِنۡ عَدُوِّهِۦۖ فَٱسۡتَغَٰثَهُ ٱلَّذِي مِن شِيعَتِهِۦ عَلَى ٱلَّذِي مِنۡ عَدُوِّهِۦ فَوَكَزَهُۥ مُوسَىٰ فَقَضَىٰ عَلَيۡهِۖ قَالَ هَٰذَا مِنۡ عَمَلِ ٱلشَّيۡطَٰنِۖ إِنَّهُۥ عَدُوّٞ مُّضِلّٞ مُّبِينٞ",
+      "bangla": "তিনি শহরে প্রবেশ করলেন, যখন তার অধিবাসীরা ছিল বেখবর। তথায় তিনি দুই ব্যক্তিকে লড়াইরত দেখলেন। এদের একজন ছিল তাঁর নিজ দলের এবং অন্য জন তাঁর শত্রু দলের। অতঃপর যে তাঁর নিজ দলের সে তাঁর শত্রু দলের লোকটির বিরুদ্ধে তাঁর কাছে সাহায্য প্রার্থনা করল। তখন মূসা তাকে ঘুষি মারলেন এবং এতেই তার মৃত্যু হয়ে গেল। মূসা বললেন, এটা শয়তানের কাজ। নিশ্চয় সে প্রকাশ্য শত্রু, বিভ্রান্তকারী।",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 29,
+      "surah_name_ar": "العنكبوت",
+      "surah_name_transliteration": "Al-'Ankabut",
+      "surah_name_bn": "মাকড়শা",
+      "ayah_number": 38,
+      "arabic": "وَعَادٗا وَثَمُودَاْ وَقَد تَّبَيَّنَ لَكُم مِّن مَّسَٰكِنِهِمۡۖ وَزَيَّنَ لَهُمُ ٱلشَّيۡطَٰنُ أَعۡمَٰلَهُمۡ فَصَدَّهُمۡ عَنِ ٱلسَّبِيلِ وَكَانُواْ مُسۡتَبۡصِرِينَ",
+      "bangla": "আমি আ’দ ও সামুদকে ধ্বংস করে দিয়েছি। তাদের বাড়ী-ঘর থেকেই তাদের অবস্থা তোমাদের জানা হয়ে গেছে। শয়তান তাদের কর্মকে তাদের দৃষ্টিতে সুশোভিত করেছিল, অতঃপর তাদেরকে সৎপথ অবলম্বনে বাধা দিয়েছিল এবং তারা ছিল হুশিয়ার।",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 31,
+      "surah_name_ar": "لقمان",
+      "surah_name_transliteration": "Luqman",
+      "surah_name_bn": "এক জ্ঞানী ব্যাক্তি",
+      "ayah_number": 21,
+      "arabic": "وَإِذَا قِيلَ لَهُمُ ٱتَّبِعُواْ مَآ أَنزَلَ ٱللَّهُ قَالُواْ بَلۡ نَتَّبِعُ مَا وَجَدۡنَا عَلَيۡهِ ءَابَآءَنَآۚ أَوَلَوۡ كَانَ ٱلشَّيۡطَٰنُ يَدۡعُوهُمۡ إِلَىٰ عَذَابِ ٱلسَّعِيرِ",
+      "bangla": "তাদেরকে যখন বলা হয়, আল্লাহ যা নাযিল করেছেন, তোমরা তার অনুসরণ কর, তখন তারা বলে, বরং আমরা আমাদের পূর্বপুরুষদেরকে যে বিষয়ের উপর পেয়েছি, তারই অনুসরণ করব। শয়তান যদি তাদেরকে জাহান্নামের শাস্তির দিকে দাওয়াত দেয়, তবুও কি",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 34,
+      "surah_name_ar": "سبإ",
+      "surah_name_transliteration": "Saba",
+      "surah_name_bn": "রানী সাবা/শেবা",
+      "ayah_number": 20,
+      "arabic": "وَلَقَدۡ صَدَّقَ عَلَيۡهِمۡ إِبۡلِيسُ ظَنَّهُۥ فَٱتَّبَعُوهُ إِلَّا فَرِيقٗا مِّنَ ٱلۡمُؤۡمِنِينَ",
+      "bangla": "আর তাদের উপর ইবলীস তার অনুমান সত্য হিসেবে প্রতিষ্ঠিত করল। ফলে তাদের মধ্যে মুমিনদের একটি দল ব্যতীত সকলেই তার পথ অনুসরণ করল।",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ابليس\")।",
+      "matched_concepts": [
+        "ابليس"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 35,
+      "surah_name_ar": "فاطر",
+      "surah_name_transliteration": "Fatir",
+      "surah_name_bn": "আদি স্রষ্টা",
+      "ayah_number": 6,
+      "arabic": "إِنَّ ٱلشَّيۡطَٰنَ لَكُمۡ عَدُوّٞ فَٱتَّخِذُوهُ عَدُوًّاۚ إِنَّمَا يَدۡعُواْ حِزۡبَهُۥ لِيَكُونُواْ مِنۡ أَصۡحَٰبِ ٱلسَّعِيرِ",
+      "bangla": "শয়তান তোমাদের শত্রু; অতএব তাকে শত্রু রূপেই গ্রহণ কর। সে তার দলবলকে আহবান করে যেন তারা জাহান্নামী হয়।",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 36,
+      "surah_name_ar": "يس",
+      "surah_name_transliteration": "Ya-Sin",
+      "surah_name_bn": "ইয়াসীন",
+      "ayah_number": 60,
+      "arabic": "۞أَلَمۡ أَعۡهَدۡ إِلَيۡكُمۡ يَٰبَنِيٓ ءَادَمَ أَن لَّا تَعۡبُدُواْ ٱلشَّيۡطَٰنَۖ إِنَّهُۥ لَكُمۡ عَدُوّٞ مُّبِينٞ",
+      "bangla": "হে বনী-আদম! আমি কি তোমাদেরকে বলে রাখিনি যে, শয়তানের এবাদত করো না, সে তোমাদের প্রকাশ্য শত্রু",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 37,
+      "surah_name_ar": "الصافات",
+      "surah_name_transliteration": "As-Saffat",
+      "surah_name_bn": "সারিবদ্ধভাবে দাঁড়ানো",
+      "ayah_number": 7,
+      "arabic": "وَحِفۡظٗا مِّن كُلِّ شَيۡطَٰنٖ مَّارِدٖ",
+      "bangla": "এবং তাকে সংরক্ষিত করেছি প্রত্যেক অবাধ্য শয়তান থেকে।",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"شيطان\")।",
+      "matched_concepts": [
+        "شيطان"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 38,
+      "surah_name_ar": "ص",
+      "surah_name_transliteration": "Sad",
+      "surah_name_bn": "আরবি বর্ণ সাদ",
+      "ayah_number": 41,
+      "arabic": "وَٱذۡكُرۡ عَبۡدَنَآ أَيُّوبَ إِذۡ نَادَىٰ رَبَّهُۥٓ أَنِّي مَسَّنِيَ ٱلشَّيۡطَٰنُ بِنُصۡبٖ وَعَذَابٍ",
+      "bangla": "স্মরণ করুণ, আমার বান্দা আইয়্যুবের কথা, যখন সে তার পালনকর্তাকে আহবান করে বললঃ শয়তান আমাকে যন্ত্রণা ও কষ্ট পৌছিয়েছে।",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 38,
+      "surah_name_ar": "ص",
+      "surah_name_transliteration": "Sad",
+      "surah_name_bn": "আরবি বর্ণ সাদ",
+      "ayah_number": 74,
+      "arabic": "إِلَّآ إِبۡلِيسَ ٱسۡتَكۡبَرَ وَكَانَ مِنَ ٱلۡكَٰفِرِينَ",
+      "bangla": "কিন্তু ইবলীস; সে অহংকার করল এবং অস্বীকারকারীদের অন্তর্ভুক্ত হয়ে গেল।",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ابليس\")।",
+      "matched_concepts": [
+        "ابليس"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 38,
+      "surah_name_ar": "ص",
+      "surah_name_transliteration": "Sad",
+      "surah_name_bn": "আরবি বর্ণ সাদ",
+      "ayah_number": 75,
+      "arabic": "قَالَ يَـٰٓإِبۡلِيسُ مَا مَنَعَكَ أَن تَسۡجُدَ لِمَا خَلَقۡتُ بِيَدَيَّۖ أَسۡتَكۡبَرۡتَ أَمۡ كُنتَ مِنَ ٱلۡعَالِينَ",
+      "bangla": "আল্লাহ বললেন, হে ইবলীস, আমি স্বহস্তে যাকে সৃষ্টি করেছি, তার সম্মুখে সেজদা করতে তোমাকে কিসে বাধা দিল? তুমি অহংকার করলে, না তুমি তার চেয়ে উচ্চ মর্যাদা সম্পন্ন",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ياابليس\")।",
+      "matched_concepts": [
+        "ياابليس"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 41,
+      "surah_name_ar": "فصلت",
+      "surah_name_transliteration": "Fussilat",
+      "surah_name_bn": "সুস্পষ্ট বিবরণ",
+      "ayah_number": 36,
+      "arabic": "وَإِمَّا يَنزَغَنَّكَ مِنَ ٱلشَّيۡطَٰنِ نَزۡغٞ فَٱسۡتَعِذۡ بِٱللَّهِۖ إِنَّهُۥ هُوَ ٱلسَّمِيعُ ٱلۡعَلِيمُ",
+      "bangla": "যদি শয়তানের পক্ষ থেকে আপনি কিছু কুমন্ত্রণা অনুভব করেন, তবে আল্লাহর শরণাপন্ন হোন। নিশ্চয় তিনি সর্বশ্রোতা, সর্বজ্ঞ।",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 43,
+      "surah_name_ar": "الزخرف",
+      "surah_name_transliteration": "Az-Zukhruf",
+      "surah_name_bn": "সোনাদানা",
+      "ayah_number": 36,
+      "arabic": "وَمَن يَعۡشُ عَن ذِكۡرِ ٱلرَّحۡمَٰنِ نُقَيِّضۡ لَهُۥ شَيۡطَٰنٗا فَهُوَ لَهُۥ قَرِينٞ",
+      "bangla": "যে ব্যক্তি দয়াময় আল্লাহর স্মরণ থেকে চোখ ফিরিয়ে নেয়, আমি তার জন্যে এক শয়তান নিয়োজিত করে দেই, অতঃপর সে-ই হয় তার সঙ্গী।",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"شيطانا\")।",
+      "matched_concepts": [
+        "شيطانا"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 43,
+      "surah_name_ar": "الزخرف",
+      "surah_name_transliteration": "Az-Zukhruf",
+      "surah_name_bn": "সোনাদানা",
+      "ayah_number": 62,
+      "arabic": "وَلَا يَصُدَّنَّكُمُ ٱلشَّيۡطَٰنُۖ إِنَّهُۥ لَكُمۡ عَدُوّٞ مُّبِينٞ",
+      "bangla": "শয়তান যেন তোমাদেরকে নিবৃত্ত না করে। সে তোমাদের প্রকাশ্য শুত্রু।",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 47,
+      "surah_name_ar": "محمد",
+      "surah_name_transliteration": "Muhammad",
+      "surah_name_bn": "নবী মুহাম্মদ",
+      "ayah_number": 25,
+      "arabic": "إِنَّ ٱلَّذِينَ ٱرۡتَدُّواْ عَلَىٰٓ أَدۡبَٰرِهِم مِّنۢ بَعۡدِ مَا تَبَيَّنَ لَهُمُ ٱلۡهُدَى ٱلشَّيۡطَٰنُ سَوَّلَ لَهُمۡ وَأَمۡلَىٰ لَهُمۡ",
+      "bangla": "নিশ্চয় যারা সোজা পথ ব্যক্ত হওয়ার পর তৎপ্রতি পৃষ্ঠপ্রদর্শন করে, শয়তান তাদের জন্যে তাদের কাজকে সুন্দর করে দেখায় এবং তাদেরকে মিথ্যা আশা দেয়।",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 58,
+      "surah_name_ar": "المجادلة",
+      "surah_name_transliteration": "Al-Mujadila",
+      "surah_name_bn": "অনুযোগকারিণী",
+      "ayah_number": 10,
+      "arabic": "إِنَّمَا ٱلنَّجۡوَىٰ مِنَ ٱلشَّيۡطَٰنِ لِيَحۡزُنَ ٱلَّذِينَ ءَامَنُواْ وَلَيۡسَ بِضَآرِّهِمۡ شَيۡـًٔا إِلَّا بِإِذۡنِ ٱللَّهِۚ وَعَلَى ٱللَّهِ فَلۡيَتَوَكَّلِ ٱلۡمُؤۡمِنُونَ",
+      "bangla": "এই কানাঘুষা তো শয়তানের কাজ; মুমিনদেরকে দুঃখ দেয়ার দেয়ার জন্যে। তবে আল্লাহর অনুমতি ব্যতীত সে তাদের কোন ক্ষতি করতে পারবে না। মুমিনদের উচিত আল্লাহর উপর ভরসা করা।",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 58,
+      "surah_name_ar": "المجادلة",
+      "surah_name_transliteration": "Al-Mujadila",
+      "surah_name_bn": "অনুযোগকারিণী",
+      "ayah_number": 19,
+      "arabic": "ٱسۡتَحۡوَذَ عَلَيۡهِمُ ٱلشَّيۡطَٰنُ فَأَنسَىٰهُمۡ ذِكۡرَ ٱللَّهِۚ أُوْلَـٰٓئِكَ حِزۡبُ ٱلشَّيۡطَٰنِۚ أَلَآ إِنَّ حِزۡبَ ٱلشَّيۡطَٰنِ هُمُ ٱلۡخَٰسِرُونَ",
+      "bangla": "শয়তান তাদেরকে বশীভূত করে নিয়েছে, অতঃপর আল্লাহর স্মরণ ভূলিয়ে দিয়েছে। তারা শয়তানের দল। সাবধান, শয়তানের দলই ক্ষতিগ্রস্ত।",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 59,
+      "surah_name_ar": "الحشر",
+      "surah_name_transliteration": "Al-Hashr",
+      "surah_name_bn": "সমাবেশ",
+      "ayah_number": 16,
+      "arabic": "كَمَثَلِ ٱلشَّيۡطَٰنِ إِذۡ قَالَ لِلۡإِنسَٰنِ ٱكۡفُرۡ فَلَمَّا كَفَرَ قَالَ إِنِّي بَرِيٓءٞ مِّنكَ إِنِّيٓ أَخَافُ ٱللَّهَ رَبَّ ٱلۡعَٰلَمِينَ",
+      "bangla": "তারা শয়তানের মত, যে মানুষকে কাফের হতে বলে। অতঃপর যখন সে কাফের হয়, তখন শয়তান বলেঃ তোমার সাথে আমার কোন সম্পর্ক নেই। আমি বিশ্বপালনকর্তা আল্লাহ তা’আলাকে ভয় করি।",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الشيطان\")।",
+      "matched_concepts": [
+        "الشيطان"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 81,
+      "surah_name_ar": "التكوير",
+      "surah_name_transliteration": "At-Takwir",
+      "surah_name_bn": "অন্ধকারাচ্ছন্ন",
+      "ayah_number": 25,
+      "arabic": "وَمَا هُوَ بِقَوۡلِ شَيۡطَٰنٖ رَّجِيمٖ",
+      "bangla": "এটা বিতাড়িত শয়তানের উক্তি নয়।",
+      "topic": "শয়তান",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"শয়তান\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"شيطان\")।",
+      "matched_concepts": [
+        "شيطان"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    }
+  ],
+  "strong_context": [],
+  "related": [],
+  "completeness_report": {
+    "topic": "শয়তান",
+    "generated_at": "2026-09-15T00:09:26.629Z",
+    "total_ayahs_scanned": 6236,
+    "keyword_candidates": 74,
+    "narrative_candidates": 0,
+    "total_candidates_before_dedup": 74,
+    "total_candidates_after_dedup": 74,
+    "final_direct": 74,
+    "final_strong_context": 0,
+    "final_related": 0,
+    "rejected": 0,
+    "needs_human_review": 0,
+    "audit_checklist": [
+      {
+        "question": "Direct Arabic keywords কি সব search করেছি?",
+        "answer": "হ্যাঁ — টপিক ম্যাপের verified arabic_terms লিস্ট অনুযায়ী সম্পূর্ণ ৬২৩৬ আয়াতের কর্পাসে exact/whole-word search করা হয়েছে।"
+      },
+      {
+        "question": "Morphological variations (root surface forms) কি search করেছি?",
+        "answer": "হ্যাঁ — arabic_terms লিস্টে root-এর একাধিক surface form (উপসর্গ/প্রত্যয়সহ) অন্তর্ভুক্ত, প্রতিটি scripts/discover-forms.ts দিয়ে কর্পাসে verify করে নেওয়া হয়েছে।"
+      },
+      {
+        "question": "Synonyms/concepts কি search করেছি?",
+        "answer": "এই টপিকের জন্য কোনো পৃথক concept/synonym root কনফিগার করা হয়নি (শুধুমাত্র primary root-ই যথেষ্ট প্রাসঙ্গিক বিবেচিত হয়েছে)।"
+      },
+      {
+        "question": "Narrative/event context কি search করেছি?",
+        "answer": "এই টপিকের জন্য কোনো curated narrative passage যোগ করা হয়নি (over-inclusion এড়াতে সচেতনভাবে বাদ দেওয়া হয়েছে, বা প্রযোজ্য কোনো নির্দিষ্ট ঘটনা নেই)।"
+      },
+      {
+        "question": "কোনো আয়াত শুধু keyword না থাকার কারণে বাদ পড়েছে কি?",
+        "answer": "না — keyword ছাড়াও concept ও narrative layer সমান্তরালে সম্পূর্ণ কর্পাসে চালানো হয়েছে, তাই কোনো layer অন্য layer-কে \"শর্টসার্কিট\" করে বাদ দেয়নি।"
+      },
+      {
+        "question": "কোনো weak association ভুল করে include হয়েছে কি?",
+        "answer": "0 টি candidate confidence threshold-এর নিচে থাকায় REVIEW_REQUIRED হিসেবে চিহ্নিত হয়েছে এবং চূড়ান্ত DIRECT/STRONG_CONTEXT তালিকায় স্বয়ংক্রিয়ভাবে রাখা হয়নি।"
+      }
+    ]
+  }
+}

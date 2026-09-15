@@ -1,0 +1,3417 @@
+{
+  "topic": "আগুন",
+  "generated_at": "2026-09-15T00:09:28.184Z",
+  "total_ayahs": 6236,
+  "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+  "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+  "dataset_version": "quran-json@3.1.2 / merged 2026",
+  "direct": [
+    {
+      "surah_number": 2,
+      "surah_name_ar": "البقرة",
+      "surah_name_transliteration": "Al-Baqarah",
+      "surah_name_bn": "বকনা-বাছুর",
+      "ayah_number": 17,
+      "arabic": "مَثَلُهُمۡ كَمَثَلِ ٱلَّذِي ٱسۡتَوۡقَدَ نَارٗا فَلَمَّآ أَضَآءَتۡ مَا حَوۡلَهُۥ ذَهَبَ ٱللَّهُ بِنُورِهِمۡ وَتَرَكَهُمۡ فِي ظُلُمَٰتٖ لَّا يُبۡصِرُونَ",
+      "bangla": "তাদের অবস্থা সে ব্যক্তির মত, যে লোক কোথাও আগুন জ্বালালো এবং তার চারদিককার সবকিছুকে যখন আগুন স্পষ্ট করে তুললো, ঠিক এমনি সময় আল্লাহ তার চারদিকের আলোকে উঠিয়ে নিলেন এবং তাদেরকে অন্ধকারে ছেড়ে দিলেন। ফলে, তারা কিছুই দেখতে পায় না।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نارا\")।",
+      "matched_concepts": [
+        "نارا"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 2,
+      "surah_name_ar": "البقرة",
+      "surah_name_transliteration": "Al-Baqarah",
+      "surah_name_bn": "বকনা-বাছুর",
+      "ayah_number": 24,
+      "arabic": "فَإِن لَّمۡ تَفۡعَلُواْ وَلَن تَفۡعَلُواْ فَٱتَّقُواْ ٱلنَّارَ ٱلَّتِي وَقُودُهَا ٱلنَّاسُ وَٱلۡحِجَارَةُۖ أُعِدَّتۡ لِلۡكَٰفِرِينَ",
+      "bangla": "আর যদি তা না পার-অবশ্য তা তোমরা কখনও পারবে না, তাহলে সে দোযখের আগুন থেকে রক্ষা পাওয়ার চেষ্টা কর, যার জ্বালানী হবে মানুষ ও পাথর। যা প্রস্তুত করা হয়েছে কাফেরদের জন্য।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 2,
+      "surah_name_ar": "البقرة",
+      "surah_name_transliteration": "Al-Baqarah",
+      "surah_name_bn": "বকনা-বাছুর",
+      "ayah_number": 39,
+      "arabic": "وَٱلَّذِينَ كَفَرُواْ وَكَذَّبُواْ بِـَٔايَٰتِنَآ أُوْلَـٰٓئِكَ أَصۡحَٰبُ ٱلنَّارِۖ هُمۡ فِيهَا خَٰلِدُونَ",
+      "bangla": "আর যে লোক তা অস্বীকার করবে এবং আমার নিদর্শনগুলোকে মিথ্যা প্রতিপন্ন করার প্রয়াস পাবে, তারাই হবে জাহান্নামবাসী; অন্তকাল সেখানে থাকবে।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 2,
+      "surah_name_ar": "البقرة",
+      "surah_name_transliteration": "Al-Baqarah",
+      "surah_name_bn": "বকনা-বাছুর",
+      "ayah_number": 80,
+      "arabic": "وَقَالُواْ لَن تَمَسَّنَا ٱلنَّارُ إِلَّآ أَيَّامٗا مَّعۡدُودَةٗۚ قُلۡ أَتَّخَذۡتُمۡ عِندَ ٱللَّهِ عَهۡدٗا فَلَن يُخۡلِفَ ٱللَّهُ عَهۡدَهُۥٓۖ أَمۡ تَقُولُونَ عَلَى ٱللَّهِ مَا لَا تَعۡلَمُونَ",
+      "bangla": "তারা বলেঃ আগুন আমাদিগকে কখনও স্পর্শ করবে না; কিন্তু গণাগনতি কয়েকদিন। বলে দিনঃ তোমরা কি আল্লাহর কাছ থেকে কোন অঙ্গীকার পেয়েছ যে, আল্লাহ কখনও তার খেলাফ করবেন না-না তোমরা যা জান না, তা আল্লাহর সাথে জুড়ে দিচ্ছ।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 2,
+      "surah_name_ar": "البقرة",
+      "surah_name_transliteration": "Al-Baqarah",
+      "surah_name_bn": "বকনা-বাছুর",
+      "ayah_number": 81,
+      "arabic": "بَلَىٰۚ مَن كَسَبَ سَيِّئَةٗ وَأَحَٰطَتۡ بِهِۦ خَطِيٓـَٔتُهُۥ فَأُوْلَـٰٓئِكَ أَصۡحَٰبُ ٱلنَّارِۖ هُمۡ فِيهَا خَٰلِدُونَ",
+      "bangla": "হাঁ, যে ব্যক্তি পাপ অর্জন করেছে এবং সে পাপ তাকে পরিবেষ্টিত করে নিয়েছে, তারাই দোযখের অধিবাসী। তারা সেখানেই চিরকাল থাকবে।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 2,
+      "surah_name_ar": "البقرة",
+      "surah_name_transliteration": "Al-Baqarah",
+      "surah_name_bn": "বকনা-বাছুর",
+      "ayah_number": 126,
+      "arabic": "وَإِذۡ قَالَ إِبۡرَٰهِـۧمُ رَبِّ ٱجۡعَلۡ هَٰذَا بَلَدًا ءَامِنٗا وَٱرۡزُقۡ أَهۡلَهُۥ مِنَ ٱلثَّمَرَٰتِ مَنۡ ءَامَنَ مِنۡهُم بِٱللَّهِ وَٱلۡيَوۡمِ ٱلۡأٓخِرِۚ قَالَ وَمَن كَفَرَ فَأُمَتِّعُهُۥ قَلِيلٗا ثُمَّ أَضۡطَرُّهُۥٓ إِلَىٰ عَذَابِ ٱلنَّارِۖ وَبِئۡسَ ٱلۡمَصِيرُ",
+      "bangla": "যখন ইব্রাহীম বললেন, পরওয়ারদেগার! এ স্থানকে তুমি শান্তিধান কর এবং এর অধিবাসীদের মধ্যে যারা অল্লাহ ও কিয়ামতে বিশ্বাস করে, তাদেরকে ফলের দ্বারা রিযিক দান কর। বললেনঃ যারা অবিশ্বাস করে, আমি তাদেরও কিছুদিন ফায়দা ভোগ করার সুযোগ দেব, অতঃপর তাদেরকে বলপ্রয়োগে দোযখের আযাবে ঠেলে দেবো; সেটা নিকৃষ্ট বাসস্থান।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 2,
+      "surah_name_ar": "البقرة",
+      "surah_name_transliteration": "Al-Baqarah",
+      "surah_name_bn": "বকনা-বাছুর",
+      "ayah_number": 167,
+      "arabic": "وَقَالَ ٱلَّذِينَ ٱتَّبَعُواْ لَوۡ أَنَّ لَنَا كَرَّةٗ فَنَتَبَرَّأَ مِنۡهُمۡ كَمَا تَبَرَّءُواْ مِنَّاۗ كَذَٰلِكَ يُرِيهِمُ ٱللَّهُ أَعۡمَٰلَهُمۡ حَسَرَٰتٍ عَلَيۡهِمۡۖ وَمَا هُم بِخَٰرِجِينَ مِنَ ٱلنَّارِ",
+      "bangla": "এবং অনুসারীরা বলবে, কতইনা ভাল হত, যদি আমাদিগকে পৃথিবীতে ফিরে যাবার সুযোগ দেয়া হত। তাহলে আমরাও তাদের প্রতি তেমনি অসন্তুষ্ট হয়ে যেতাম, যেমন তারা অসন্তুষ্ট হয়েছে আমাদের প্রতি। এভাবেই আল্লাহ তা’আলা তাদেরকে দেখাবেন তাদের কৃতকর্ম তাদেরকে অনুতপ্ত করার জন্যে। অথচ, তারা কস্মিনকালেও আগুন থেকে বের হতে পারবে না।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 2,
+      "surah_name_ar": "البقرة",
+      "surah_name_transliteration": "Al-Baqarah",
+      "surah_name_bn": "বকনা-বাছুর",
+      "ayah_number": 174,
+      "arabic": "إِنَّ ٱلَّذِينَ يَكۡتُمُونَ مَآ أَنزَلَ ٱللَّهُ مِنَ ٱلۡكِتَٰبِ وَيَشۡتَرُونَ بِهِۦ ثَمَنٗا قَلِيلًا أُوْلَـٰٓئِكَ مَا يَأۡكُلُونَ فِي بُطُونِهِمۡ إِلَّا ٱلنَّارَ وَلَا يُكَلِّمُهُمُ ٱللَّهُ يَوۡمَ ٱلۡقِيَٰمَةِ وَلَا يُزَكِّيهِمۡ وَلَهُمۡ عَذَابٌ أَلِيمٌ",
+      "bangla": "নিশ্চয় যারা সেসব বিষয় গোপন করে, যা আল্লাহ কিতাবে নাযিল করেছেন এবং সেজন্য অল্প মূল্য গ্রহণ করে, তারা আগুন ছাড়া নিজের পেটে আর কিছুই ঢুকায় না। আর আল্লাহ কেয়ামতের দিন তাদের সাথে না কথা বলবেন, না তাদের পবিত্র করা হবে, বস্তুতঃ তাদের জন্যে রয়েছে বেদনাদায়ক আযাব।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 2,
+      "surah_name_ar": "البقرة",
+      "surah_name_transliteration": "Al-Baqarah",
+      "surah_name_bn": "বকনা-বাছুর",
+      "ayah_number": 175,
+      "arabic": "أُوْلَـٰٓئِكَ ٱلَّذِينَ ٱشۡتَرَوُاْ ٱلضَّلَٰلَةَ بِٱلۡهُدَىٰ وَٱلۡعَذَابَ بِٱلۡمَغۡفِرَةِۚ فَمَآ أَصۡبَرَهُمۡ عَلَى ٱلنَّارِ",
+      "bangla": "এরাই হল সে সমস্ত লোক, যারা হেদায়েতের বিনিময়ে গোমরাহী খরিদ করেছে এবং (খরিদ করেছে) ক্ষমা ও অনুগ্রহের বিনিময়ে আযাব। অতএব, তারা দোযখের উপর কেমন ধৈর্য্য ধারণকারী।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 2,
+      "surah_name_ar": "البقرة",
+      "surah_name_transliteration": "Al-Baqarah",
+      "surah_name_bn": "বকনা-বাছুর",
+      "ayah_number": 201,
+      "arabic": "وَمِنۡهُم مَّن يَقُولُ رَبَّنَآ ءَاتِنَا فِي ٱلدُّنۡيَا حَسَنَةٗ وَفِي ٱلۡأٓخِرَةِ حَسَنَةٗ وَقِنَا عَذَابَ ٱلنَّارِ",
+      "bangla": "আর তাদের মধ্যে কেউ কেউ বলে-হে পরওয়ারদেগার! আমাদিগকে দুনয়াতেও কল্যাণ দান কর এবং আখেরাতেও কল্যাণ দান কর এবং আমাদিগকে দোযখের আযাব থেকে রক্ষা কর।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 2,
+      "surah_name_ar": "البقرة",
+      "surah_name_transliteration": "Al-Baqarah",
+      "surah_name_bn": "বকনা-বাছুর",
+      "ayah_number": 217,
+      "arabic": "يَسۡـَٔلُونَكَ عَنِ ٱلشَّهۡرِ ٱلۡحَرَامِ قِتَالٖ فِيهِۖ قُلۡ قِتَالٞ فِيهِ كَبِيرٞۚ وَصَدٌّ عَن سَبِيلِ ٱللَّهِ وَكُفۡرُۢ بِهِۦ وَٱلۡمَسۡجِدِ ٱلۡحَرَامِ وَإِخۡرَاجُ أَهۡلِهِۦ مِنۡهُ أَكۡبَرُ عِندَ ٱللَّهِۚ وَٱلۡفِتۡنَةُ أَكۡبَرُ مِنَ ٱلۡقَتۡلِۗ وَلَا يَزَالُونَ يُقَٰتِلُونَكُمۡ حَتَّىٰ يَرُدُّوكُمۡ عَن دِينِكُمۡ إِنِ ٱسۡتَطَٰعُواْۚ وَمَن يَرۡتَدِدۡ مِنكُمۡ عَن دِينِهِۦ فَيَمُتۡ وَهُوَ كَافِرٞ فَأُوْلَـٰٓئِكَ حَبِطَتۡ أَعۡمَٰلُهُمۡ فِي ٱلدُّنۡيَا وَٱلۡأٓخِرَةِۖ وَأُوْلَـٰٓئِكَ أَصۡحَٰبُ ٱلنَّارِۖ هُمۡ فِيهَا خَٰلِدُونَ",
+      "bangla": "সম্মানিত মাস সম্পর্কে তোমার কাছে জিজ্ঞেস করে যে, তাতে যুদ্ধ করা কেমন? বলে দাও এতে যুদ্ধ করা ভীষণ বড় পাপ। আর আল্লাহর পথে প্রতিবন্দ্বকতা সৃষ্টি করা এবং কুফরী করা, মসজিদে-হারামের পথে বাধা দেয়া এবং সেখানকার অধিবাসীদেরকে বহিস্কার করা, আল্লাহর নিকট তার চেয়েও বড় পাপ। আর ধর্মের ব্যাপারে ফেতনা সৃষ্টি করা নরহত্যা অপেক্ষাও মহা পাপ। বস্তুতঃ তারা তো সর্বদাই তোমাদের সাথে যুদ্ধ করতে থাকবে, যাতে করে তোমাদিগকে দ্বীন থেকে ফিরিয়ে দিতে পারে যদি সম্ভব হয়। তোমাদের মধ্যে যারা নিজের দ্বীন থেকে ফিরে দাঁড়াবে এবং কাফের অবস্থায় মৃত্যুবরণ করবে, দুনিয়া ও আখেরাতে তাদের যাবতীয় আমল বিনষ্ট হয়ে যাবে। আর তারাই হলো দোযখবাসী। তাতে তারা চিরকাল বাস করবে।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 2,
+      "surah_name_ar": "البقرة",
+      "surah_name_transliteration": "Al-Baqarah",
+      "surah_name_bn": "বকনা-বাছুর",
+      "ayah_number": 221,
+      "arabic": "وَلَا تَنكِحُواْ ٱلۡمُشۡرِكَٰتِ حَتَّىٰ يُؤۡمِنَّۚ وَلَأَمَةٞ مُّؤۡمِنَةٌ خَيۡرٞ مِّن مُّشۡرِكَةٖ وَلَوۡ أَعۡجَبَتۡكُمۡۗ وَلَا تُنكِحُواْ ٱلۡمُشۡرِكِينَ حَتَّىٰ يُؤۡمِنُواْۚ وَلَعَبۡدٞ مُّؤۡمِنٌ خَيۡرٞ مِّن مُّشۡرِكٖ وَلَوۡ أَعۡجَبَكُمۡۗ أُوْلَـٰٓئِكَ يَدۡعُونَ إِلَى ٱلنَّارِۖ وَٱللَّهُ يَدۡعُوٓاْ إِلَى ٱلۡجَنَّةِ وَٱلۡمَغۡفِرَةِ بِإِذۡنِهِۦۖ وَيُبَيِّنُ ءَايَٰتِهِۦ لِلنَّاسِ لَعَلَّهُمۡ يَتَذَكَّرُونَ",
+      "bangla": "আর তোমরা মুশরেক নারীদেরকে বিয়ে করোনা, যতক্ষণ না তারা ঈমান গ্রহণ করে। অবশ্য মুসলমান ক্রীতদাসী মুশরেক নারী অপেক্ষা উত্তম, যদিও তাদেরকে তোমাদের কাছে ভালো লাগে। এবং তোমরা (নারীরা) কোন মুশরেকের সঙ্গে বিবাহ বন্ধনে আবদ্ধ হয়ো না, যে পর্যন্ত সে ঈমান না আনে। একজন মুসলমান ক্রীতদাসও একজন মুশরেকের তুলনায় অনেক ভাল, যদিও তোমরা তাদের দেখে মোহিত হও। তারা দোযখের দিকে আহ্বান করে, আর আল্লাহ নিজের হুকুমের মাধ্যমে আহ্বান করেন জান্নাত ও ক্ষমার দিকে। আর তিনি মানুষকে নিজের নির্দেশ বাতলে দেন যাতে তারা উপদেশ গ্রহণ করে।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 2,
+      "surah_name_ar": "البقرة",
+      "surah_name_transliteration": "Al-Baqarah",
+      "surah_name_bn": "বকনা-বাছুর",
+      "ayah_number": 257,
+      "arabic": "ٱللَّهُ وَلِيُّ ٱلَّذِينَ ءَامَنُواْ يُخۡرِجُهُم مِّنَ ٱلظُّلُمَٰتِ إِلَى ٱلنُّورِۖ وَٱلَّذِينَ كَفَرُوٓاْ أَوۡلِيَآؤُهُمُ ٱلطَّـٰغُوتُ يُخۡرِجُونَهُم مِّنَ ٱلنُّورِ إِلَى ٱلظُّلُمَٰتِۗ أُوْلَـٰٓئِكَ أَصۡحَٰبُ ٱلنَّارِۖ هُمۡ فِيهَا خَٰلِدُونَ",
+      "bangla": "যারা ঈমান এনেছে, আল্লাহ তাদের অভিভাবক। তাদেরকে তিনি বের করে আনেন অন্ধকার থেকে আলোর দিকে। আর যারা কুফরী করে তাদের অভিভাবক হচ্ছে তাগুত। তারা তাদেরকে আলো থেকে বের করে অন্ধকারের দিকে নিয়ে যায়। এরাই হলো দোযখের অধিবাসী, চিরকাল তারা সেখানেই থাকবে।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 2,
+      "surah_name_ar": "البقرة",
+      "surah_name_transliteration": "Al-Baqarah",
+      "surah_name_bn": "বকনা-বাছুর",
+      "ayah_number": 266,
+      "arabic": "أَيَوَدُّ أَحَدُكُمۡ أَن تَكُونَ لَهُۥ جَنَّةٞ مِّن نَّخِيلٖ وَأَعۡنَابٖ تَجۡرِي مِن تَحۡتِهَا ٱلۡأَنۡهَٰرُ لَهُۥ فِيهَا مِن كُلِّ ٱلثَّمَرَٰتِ وَأَصَابَهُ ٱلۡكِبَرُ وَلَهُۥ ذُرِّيَّةٞ ضُعَفَآءُ فَأَصَابَهَآ إِعۡصَارٞ فِيهِ نَارٞ فَٱحۡتَرَقَتۡۗ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ لَكُمُ ٱلۡأٓيَٰتِ لَعَلَّكُمۡ تَتَفَكَّرُونَ",
+      "bangla": "তোমাদের কেউ পছন্দ করে যে, তার একটি খেজুর ও আঙ্গুরের বাগান হবে, এর তলদেশ দিয়ে নহর প্রবাহিত হবে, আর এতে সর্বপ্রকার ফল-ফসল থাকবে এবং সে বার্ধক্যে পৌছবে, তার দুর্বল সন্তান সন্ততিও থাকবে, এমতাবস্থায় এ বাগানের একটি ঘূর্ণিবায়ু আসবে, যাতে আগুন রয়েছে, অনন্তর বাগানটি ভষ্মীভূত হয়ে যাবে? এমনিভাবে আল্লাহ তা’আলা তোমাদের জন্যে নিদর্শনসমূহ বর্ননা করেন-যাতে তোমরা চিন্তা-ভাবনা কর।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نار\")।",
+      "matched_concepts": [
+        "نار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 2,
+      "surah_name_ar": "البقرة",
+      "surah_name_transliteration": "Al-Baqarah",
+      "surah_name_bn": "বকনা-বাছুর",
+      "ayah_number": 275,
+      "arabic": "ٱلَّذِينَ يَأۡكُلُونَ ٱلرِّبَوٰاْ لَا يَقُومُونَ إِلَّا كَمَا يَقُومُ ٱلَّذِي يَتَخَبَّطُهُ ٱلشَّيۡطَٰنُ مِنَ ٱلۡمَسِّۚ ذَٰلِكَ بِأَنَّهُمۡ قَالُوٓاْ إِنَّمَا ٱلۡبَيۡعُ مِثۡلُ ٱلرِّبَوٰاْۗ وَأَحَلَّ ٱللَّهُ ٱلۡبَيۡعَ وَحَرَّمَ ٱلرِّبَوٰاْۚ فَمَن جَآءَهُۥ مَوۡعِظَةٞ مِّن رَّبِّهِۦ فَٱنتَهَىٰ فَلَهُۥ مَا سَلَفَ وَأَمۡرُهُۥٓ إِلَى ٱللَّهِۖ وَمَنۡ عَادَ فَأُوْلَـٰٓئِكَ أَصۡحَٰبُ ٱلنَّارِۖ هُمۡ فِيهَا خَٰلِدُونَ",
+      "bangla": "যারা সুদ খায়, তারা কিয়ামতে দন্ডায়মান হবে, যেভাবে দন্ডায়মান হয় ঐ ব্যক্তি, যাকে শয়তান আসর করে মোহাবিষ্ট করে দেয়। তাদের এ অবস্থার কারণ এই যে, তারা বলেছেঃ ক্রয়-বিক্রয় ও তো সুদ নেয়ারই মত! অথচ আল্লা’হ তা’আলা ক্রয়-বিক্রয় বৈধ করেছেন এবং সুদ হারাম করেছেন। অতঃপর যার কাছে তার পালনকর্তার পক্ষ থেকে উপদেশ এসেছে এবং সে বিরত হয়েছে, পূর্বে যা হয়ে গেছে, তা তার। তার ব্যাপার আল্লাহর উপর নির্ভরশীল। আর যারা পুনরায় সুদ নেয়, তারাই দোযখে যাবে। তারা সেখানে চিরকাল অবস্থান করবে।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 3,
+      "surah_name_ar": "آل عمران",
+      "surah_name_transliteration": "Ali 'Imran",
+      "surah_name_bn": "ইমরানের পরিবার",
+      "ayah_number": 10,
+      "arabic": "إِنَّ ٱلَّذِينَ كَفَرُواْ لَن تُغۡنِيَ عَنۡهُمۡ أَمۡوَٰلُهُمۡ وَلَآ أَوۡلَٰدُهُم مِّنَ ٱللَّهِ شَيۡـٔٗاۖ وَأُوْلَـٰٓئِكَ هُمۡ وَقُودُ ٱلنَّارِ",
+      "bangla": "যারা কুফুরী করে, তাদের ধন-সম্পদ ও সন্তান-সন্ততি আল্লাহর সামনে কখনও কাজে আসবে না। আর তারাই হচ্ছে দোযখের ইন্ধন।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 3,
+      "surah_name_ar": "آل عمران",
+      "surah_name_transliteration": "Ali 'Imran",
+      "surah_name_bn": "ইমরানের পরিবার",
+      "ayah_number": 16,
+      "arabic": "ٱلَّذِينَ يَقُولُونَ رَبَّنَآ إِنَّنَآ ءَامَنَّا فَٱغۡفِرۡ لَنَا ذُنُوبَنَا وَقِنَا عَذَابَ ٱلنَّارِ",
+      "bangla": "যারা বলে, হে আমাদের পালনকর্তা, আমরা ঈমান এনেছি, কাজেই আমাদের গোনাহ ক্ষমা করে দাও আর আমাদেরকে দোযখের আযাব থেকে রক্ষা কর।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 3,
+      "surah_name_ar": "آل عمران",
+      "surah_name_transliteration": "Ali 'Imran",
+      "surah_name_bn": "ইমরানের পরিবার",
+      "ayah_number": 24,
+      "arabic": "ذَٰلِكَ بِأَنَّهُمۡ قَالُواْ لَن تَمَسَّنَا ٱلنَّارُ إِلَّآ أَيَّامٗا مَّعۡدُودَٰتٖۖ وَغَرَّهُمۡ فِي دِينِهِم مَّا كَانُواْ يَفۡتَرُونَ",
+      "bangla": "তা এজন্য যে, তারা বলে থাকে যে, দোযখের আগুন আমাদের স্পর্শ করবে না; তবে সামান্য হাতে গোনা কয়েকদিনের জন্য স্পর্শ করতে পারে। নিজেদের উদ্ভাবিত ভিত্তিহীন কথায় তারা ধোকা খেয়েছে।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 3,
+      "surah_name_ar": "آل عمران",
+      "surah_name_transliteration": "Ali 'Imran",
+      "surah_name_bn": "ইমরানের পরিবার",
+      "ayah_number": 103,
+      "arabic": "وَٱعۡتَصِمُواْ بِحَبۡلِ ٱللَّهِ جَمِيعٗا وَلَا تَفَرَّقُواْۚ وَٱذۡكُرُواْ نِعۡمَتَ ٱللَّهِ عَلَيۡكُمۡ إِذۡ كُنتُمۡ أَعۡدَآءٗ فَأَلَّفَ بَيۡنَ قُلُوبِكُمۡ فَأَصۡبَحۡتُم بِنِعۡمَتِهِۦٓ إِخۡوَٰنٗا وَكُنتُمۡ عَلَىٰ شَفَا حُفۡرَةٖ مِّنَ ٱلنَّارِ فَأَنقَذَكُم مِّنۡهَاۗ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ لَكُمۡ ءَايَٰتِهِۦ لَعَلَّكُمۡ تَهۡتَدُونَ",
+      "bangla": "আর তোমরা সকলে আল্লাহর রজ্জুকে সুদৃঢ় হস্তে ধারণ কর; পরস্পর বিচ্ছিন্ন হয়ো না। আর তোমরা সে নেয়ামতের কথা স্মরণ কর, যা আল্লাহ তোমাদিগকে দান করেছেন। তোমরা পরস্পর শত্রু ছিলে। অতঃপর আল্লাহ তোমাদের মনে সম্প্রীতি দান করেছেন। ফলে, এখন তোমরা তাঁর অনুগ্রহের কারণে পরস্পর ভাই ভাই হয়েছ। তোমরা এক অগ্নিকুন্ডের পাড়ে অবস্থান করছিলে। অতঃপর তা থেকে তিনি তোমাদেরকে মুক্তি দিয়েছেন। এভাবেই আল্লাহ নিজের নিদর্শনসমুহ প্রকাশ করেন, যাতে তোমরা হেদায়েত প্রাপ্ত হতে পার।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 3,
+      "surah_name_ar": "آل عمران",
+      "surah_name_transliteration": "Ali 'Imran",
+      "surah_name_bn": "ইমরানের পরিবার",
+      "ayah_number": 116,
+      "arabic": "إِنَّ ٱلَّذِينَ كَفَرُواْ لَن تُغۡنِيَ عَنۡهُمۡ أَمۡوَٰلُهُمۡ وَلَآ أَوۡلَٰدُهُم مِّنَ ٱللَّهِ شَيۡـٔٗاۖ وَأُوْلَـٰٓئِكَ أَصۡحَٰبُ ٱلنَّارِۖ هُمۡ فِيهَا خَٰلِدُونَ",
+      "bangla": "নিশ্চয় যারা কাফের হয়, তাদের ধন সম্পদ ও সন্তান-সন্ততি আল্লাহর সামনে কখনও কোন কাজে আসবে না। আর তারাই হলো দোযখের আগুনের অধিবাসী। তারা সে আগুনে চিরকাল থাকবে।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 3,
+      "surah_name_ar": "آل عمران",
+      "surah_name_transliteration": "Ali 'Imran",
+      "surah_name_bn": "ইমরানের পরিবার",
+      "ayah_number": 131,
+      "arabic": "وَٱتَّقُواْ ٱلنَّارَ ٱلَّتِيٓ أُعِدَّتۡ لِلۡكَٰفِرِينَ",
+      "bangla": "এবং তোমরা সে আগুন থেকে বেঁচে থাক, যা কাফেরদের জন্য প্রস্তুত করা হয়েছে।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 3,
+      "surah_name_ar": "آل عمران",
+      "surah_name_transliteration": "Ali 'Imran",
+      "surah_name_bn": "ইমরানের পরিবার",
+      "ayah_number": 151,
+      "arabic": "سَنُلۡقِي فِي قُلُوبِ ٱلَّذِينَ كَفَرُواْ ٱلرُّعۡبَ بِمَآ أَشۡرَكُواْ بِٱللَّهِ مَا لَمۡ يُنَزِّلۡ بِهِۦ سُلۡطَٰنٗاۖ وَمَأۡوَىٰهُمُ ٱلنَّارُۖ وَبِئۡسَ مَثۡوَى ٱلظَّـٰلِمِينَ",
+      "bangla": "খুব শীঘ্রই আমি কাফেরদের মনে ভীতির সঞ্চার করবো। কারণ, ওরা আল্লাহর সাথে অংশীদার সাব্যস্ত করে যে সম্পর্কে কোন সনদ অবতীর্ণ করা হয়নি। আর ওদের ঠিকানা হলো দোযখের আগুন। বস্তুতঃ জালেমদের ঠিকানা অত্যন্ত নিকৃষ্ট।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 3,
+      "surah_name_ar": "آل عمران",
+      "surah_name_transliteration": "Ali 'Imran",
+      "surah_name_bn": "ইমরানের পরিবার",
+      "ayah_number": 183,
+      "arabic": "ٱلَّذِينَ قَالُوٓاْ إِنَّ ٱللَّهَ عَهِدَ إِلَيۡنَآ أَلَّا نُؤۡمِنَ لِرَسُولٍ حَتَّىٰ يَأۡتِيَنَا بِقُرۡبَانٖ تَأۡكُلُهُ ٱلنَّارُۗ قُلۡ قَدۡ جَآءَكُمۡ رُسُلٞ مِّن قَبۡلِي بِٱلۡبَيِّنَٰتِ وَبِٱلَّذِي قُلۡتُمۡ فَلِمَ قَتَلۡتُمُوهُمۡ إِن كُنتُمۡ صَٰدِقِينَ",
+      "bangla": "সে সমস্ত লোক, যারা বলে যে, আল্লাহ আমাদিগকে এমন কোন রসূলের ওপর বিশ্বাস না করতে বলে রেখেছেন যতক্ষণ না তারা আমাদের নিকট এমন কোরবানী নিয়ে আসবেন যাকে আগুন গ্রাস করে নেবে। তুমি তাদের বলে দাও, তোমাদের মাঝে আমার পূর্বে বহু রসূল নিদর্শনসমূহ এবং তোমরা যা আব্দার করেছ তা নিয়ে এসেছিলেন, তখন তোমরা কেন তাদেরকে হত্যা করলে যদি তোমরা সত্য হয়ে থাক।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 3,
+      "surah_name_ar": "آل عمران",
+      "surah_name_transliteration": "Ali 'Imran",
+      "surah_name_bn": "ইমরানের পরিবার",
+      "ayah_number": 185,
+      "arabic": "كُلُّ نَفۡسٖ ذَآئِقَةُ ٱلۡمَوۡتِۗ وَإِنَّمَا تُوَفَّوۡنَ أُجُورَكُمۡ يَوۡمَ ٱلۡقِيَٰمَةِۖ فَمَن زُحۡزِحَ عَنِ ٱلنَّارِ وَأُدۡخِلَ ٱلۡجَنَّةَ فَقَدۡ فَازَۗ وَمَا ٱلۡحَيَوٰةُ ٱلدُّنۡيَآ إِلَّا مَتَٰعُ ٱلۡغُرُورِ",
+      "bangla": "প্রত্যেক প্রাণীকে আস্বাদন করতে হবে মৃত্যু। আর তোমরা কিয়ামতের দিন পরিপূর্ণ বদলা প্রাপ্ত হবে। তারপর যাকে দোযখ থেকে দূরে রাখা হবে এবং জান্নাতে প্রবেশ করানো হবে, তার কার্যসিদ্ধি ঘটবে। আর পার্থিব জীবন ধোঁকা ছাড়া অন্য কোন সম্পদ নয়।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 3,
+      "surah_name_ar": "آل عمران",
+      "surah_name_transliteration": "Ali 'Imran",
+      "surah_name_bn": "ইমরানের পরিবার",
+      "ayah_number": 191,
+      "arabic": "ٱلَّذِينَ يَذۡكُرُونَ ٱللَّهَ قِيَٰمٗا وَقُعُودٗا وَعَلَىٰ جُنُوبِهِمۡ وَيَتَفَكَّرُونَ فِي خَلۡقِ ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضِ رَبَّنَا مَا خَلَقۡتَ هَٰذَا بَٰطِلٗا سُبۡحَٰنَكَ فَقِنَا عَذَابَ ٱلنَّارِ",
+      "bangla": "যাঁরা দাঁড়িয়ে, বসে, ও শায়িত অবস্থায় আল্লাহকে স্মরণ করে এবং চিন্তা গবেষণা করে আসমান ও জমিন সৃষ্টির বিষযে, (তারা বলে) পরওয়ারদেগার! এসব তুমি অনর্থক সৃষ্টি করনি। সকল পবিত্রতা তোমারই, আমাদিগকে তুমি দোযখের শাস্তি থেকে বাঁচাও।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 3,
+      "surah_name_ar": "آل عمران",
+      "surah_name_transliteration": "Ali 'Imran",
+      "surah_name_bn": "ইমরানের পরিবার",
+      "ayah_number": 192,
+      "arabic": "رَبَّنَآ إِنَّكَ مَن تُدۡخِلِ ٱلنَّارَ فَقَدۡ أَخۡزَيۡتَهُۥۖ وَمَا لِلظَّـٰلِمِينَ مِنۡ أَنصَارٖ",
+      "bangla": "হে আমাদের পালনকর্তা! নিশ্চয় তুমি যাকে দোযখে নিক্ষেপ করলে তাকে সবসময়ে অপমানিত করলে; আর জালেমদের জন্যে তো সাহায্যকারী নেই।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 4,
+      "surah_name_ar": "النساء",
+      "surah_name_transliteration": "An-Nisa",
+      "surah_name_bn": "নারী",
+      "ayah_number": 10,
+      "arabic": "إِنَّ ٱلَّذِينَ يَأۡكُلُونَ أَمۡوَٰلَ ٱلۡيَتَٰمَىٰ ظُلۡمًا إِنَّمَا يَأۡكُلُونَ فِي بُطُونِهِمۡ نَارٗاۖ وَسَيَصۡلَوۡنَ سَعِيرٗا",
+      "bangla": "যারা এতীমদের অর্থ-সম্পদ অন্যায়ভাবে খায়, তারা নিজেদের পেটে আগুনই ভর্তি করেছে এবং সত্ত্বরই তারা অগ্নিতে প্রবেশ করবে।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نارا\")।",
+      "matched_concepts": [
+        "نارا"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 4,
+      "surah_name_ar": "النساء",
+      "surah_name_transliteration": "An-Nisa",
+      "surah_name_bn": "নারী",
+      "ayah_number": 14,
+      "arabic": "وَمَن يَعۡصِ ٱللَّهَ وَرَسُولَهُۥ وَيَتَعَدَّ حُدُودَهُۥ يُدۡخِلۡهُ نَارًا خَٰلِدٗا فِيهَا وَلَهُۥ عَذَابٞ مُّهِينٞ",
+      "bangla": "যে কেউ আল্লাহ ও রসূলের অবাধ্যতা করে এবং তার সীমা অতিক্রম করে তিনি তাকে আগুনে প্রবেশ করাবেন। সে সেখানে চিরকাল থাকবে। তার জন্যে রয়েছে অপমানজনক শাস্তি।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نارا\")।",
+      "matched_concepts": [
+        "نارا"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 4,
+      "surah_name_ar": "النساء",
+      "surah_name_transliteration": "An-Nisa",
+      "surah_name_bn": "নারী",
+      "ayah_number": 30,
+      "arabic": "وَمَن يَفۡعَلۡ ذَٰلِكَ عُدۡوَٰنٗا وَظُلۡمٗا فَسَوۡفَ نُصۡلِيهِ نَارٗاۚ وَكَانَ ذَٰلِكَ عَلَى ٱللَّهِ يَسِيرًا",
+      "bangla": "আর যে কেউ সীমালঙ্ঘন কিংবা জুলুমের বশবর্তী হয়ে এরূপ করবে, তাকে খুব শীঘ্রই আগুনে নিক্ষেপ করা হবে। এটা আল্লাহর পক্ষে খুবই সহজসাধ্য।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نارا\")।",
+      "matched_concepts": [
+        "نارا"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 4,
+      "surah_name_ar": "النساء",
+      "surah_name_transliteration": "An-Nisa",
+      "surah_name_bn": "নারী",
+      "ayah_number": 56,
+      "arabic": "إِنَّ ٱلَّذِينَ كَفَرُواْ بِـَٔايَٰتِنَا سَوۡفَ نُصۡلِيهِمۡ نَارٗا كُلَّمَا نَضِجَتۡ جُلُودُهُم بَدَّلۡنَٰهُمۡ جُلُودًا غَيۡرَهَا لِيَذُوقُواْ ٱلۡعَذَابَۗ إِنَّ ٱللَّهَ كَانَ عَزِيزًا حَكِيمٗا",
+      "bangla": "এতে সন্দেহ নেই যে, আমার নিদর্শন সমুহের প্রতি যেসব লোক অস্বীকৃতি জ্ঞাপন করবে, আমি তাদেরকে আগুনে নিক্ষেপ করব। তাদের চামড়াগুলো যখন জ্বলে-পুড়ে যাবে, তখন আবার আমি তা পালটে দেব অন্য চামড়া দিয়ে, যাতে তারা আযাব আস্বাদন করতে থাকে। নিশ্চয়ই আল্লাহ মহাপরাক্রমশালী, হেকমতের অধিকারী।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نارا\")।",
+      "matched_concepts": [
+        "نارا"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 4,
+      "surah_name_ar": "النساء",
+      "surah_name_transliteration": "An-Nisa",
+      "surah_name_bn": "নারী",
+      "ayah_number": 145,
+      "arabic": "إِنَّ ٱلۡمُنَٰفِقِينَ فِي ٱلدَّرۡكِ ٱلۡأَسۡفَلِ مِنَ ٱلنَّارِ وَلَن تَجِدَ لَهُمۡ نَصِيرًا",
+      "bangla": "নিঃসন্দেহে মুনাফেকরা রয়েছে দোযখের সর্বনিম্ন স্তরে। আর তোমরা তাদের জন্য কোন সাহায্যকারী কখনও পাবে না।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 5,
+      "surah_name_ar": "المائدة",
+      "surah_name_transliteration": "Al-Ma'idah",
+      "surah_name_bn": "খাদ্য পরিবেশিত টেবিল",
+      "ayah_number": 29,
+      "arabic": "إِنِّيٓ أُرِيدُ أَن تَبُوٓأَ بِإِثۡمِي وَإِثۡمِكَ فَتَكُونَ مِنۡ أَصۡحَٰبِ ٱلنَّارِۚ وَذَٰلِكَ جَزَـٰٓؤُاْ ٱلظَّـٰلِمِينَ",
+      "bangla": "আমি চাই যে, আমার পাপ ও তোমার পাপ তুমি নিজের মাথায় চাপিয়ে নাও। অতঃপর তুমি দোযখীদের অন্তর্ভূক্ত হয়ে যাও। এটাই অত্যাচারীদের শাস্তি।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 5,
+      "surah_name_ar": "المائدة",
+      "surah_name_transliteration": "Al-Ma'idah",
+      "surah_name_bn": "খাদ্য পরিবেশিত টেবিল",
+      "ayah_number": 37,
+      "arabic": "يُرِيدُونَ أَن يَخۡرُجُواْ مِنَ ٱلنَّارِ وَمَا هُم بِخَٰرِجِينَ مِنۡهَاۖ وَلَهُمۡ عَذَابٞ مُّقِيمٞ",
+      "bangla": "তারা দোযখের আগুন থেকে বের হয়ে আসতে চাইবে কিন্তু তা থেকে বের হতে পারবে না। তারা চিরস্থায়ী শাস্তি ভোগ করবে।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 5,
+      "surah_name_ar": "المائدة",
+      "surah_name_transliteration": "Al-Ma'idah",
+      "surah_name_bn": "খাদ্য পরিবেশিত টেবিল",
+      "ayah_number": 64,
+      "arabic": "وَقَالَتِ ٱلۡيَهُودُ يَدُ ٱللَّهِ مَغۡلُولَةٌۚ غُلَّتۡ أَيۡدِيهِمۡ وَلُعِنُواْ بِمَا قَالُواْۘ بَلۡ يَدَاهُ مَبۡسُوطَتَانِ يُنفِقُ كَيۡفَ يَشَآءُۚ وَلَيَزِيدَنَّ كَثِيرٗا مِّنۡهُم مَّآ أُنزِلَ إِلَيۡكَ مِن رَّبِّكَ طُغۡيَٰنٗا وَكُفۡرٗاۚ وَأَلۡقَيۡنَا بَيۡنَهُمُ ٱلۡعَدَٰوَةَ وَٱلۡبَغۡضَآءَ إِلَىٰ يَوۡمِ ٱلۡقِيَٰمَةِۚ كُلَّمَآ أَوۡقَدُواْ نَارٗا لِّلۡحَرۡبِ أَطۡفَأَهَا ٱللَّهُۚ وَيَسۡعَوۡنَ فِي ٱلۡأَرۡضِ فَسَادٗاۚ وَٱللَّهُ لَا يُحِبُّ ٱلۡمُفۡسِدِينَ",
+      "bangla": "আর ইহুদীরা বলেঃ আল্লাহর হাত বন্ধ হয়ে গেছে। তাদেরই হাত বন্ধ হোক। একথা বলার জন্যে তাদের প্রতি অভিসম্পাত। বরং তাঁর উভয় হস্ত উম্মুক্ত। তিনি যেরূপ ইচ্ছা ব্যয় করেন। আপনার প্রতি পলনকর্তার পক্ষ থেকে যে কালাম অবর্তীণ হয়েছে, তার কারণে তাদের অনেকের অবাধ্যতা ও কুফর পরিবর্ধিত হবে। আমি তাদের পরস্পরের মধ্যে কেয়ামত পর্যন্ত শত্রুতা ও বিদ্বেষ সঞ্চারিত করে দিয়েছি। তারা যখনই যুদ্ধের আগুন প্রজ্জ?482;িত করে, আল্লাহ তা নির্বাপিত করে দেন। তারা দেশে অশান্তি উৎপাদন করে বেড়ায়। আল্লাহ অশান্তি ও বিশৃঙ্খলা সৃষ্টিকারীদেরকে পছন্দ করেন না।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نارا\")।",
+      "matched_concepts": [
+        "نارا"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 5,
+      "surah_name_ar": "المائدة",
+      "surah_name_transliteration": "Al-Ma'idah",
+      "surah_name_bn": "খাদ্য পরিবেশিত টেবিল",
+      "ayah_number": 72,
+      "arabic": "لَقَدۡ كَفَرَ ٱلَّذِينَ قَالُوٓاْ إِنَّ ٱللَّهَ هُوَ ٱلۡمَسِيحُ ٱبۡنُ مَرۡيَمَۖ وَقَالَ ٱلۡمَسِيحُ يَٰبَنِيٓ إِسۡرَـٰٓءِيلَ ٱعۡبُدُواْ ٱللَّهَ رَبِّي وَرَبَّكُمۡۖ إِنَّهُۥ مَن يُشۡرِكۡ بِٱللَّهِ فَقَدۡ حَرَّمَ ٱللَّهُ عَلَيۡهِ ٱلۡجَنَّةَ وَمَأۡوَىٰهُ ٱلنَّارُۖ وَمَا لِلظَّـٰلِمِينَ مِنۡ أَنصَارٖ",
+      "bangla": "তারা কাফের, যারা বলে যে, মরিময়-তনয় মসীহ-ই আল্লাহ; অথচ মসীহ বলেন, হে বণী-ইসরাঈল, তোমরা আল্লাহর এবাদত কর, যিনি আমার পালন কর্তা এবং তোমাদেরও পালনকর্তা। নিশ্চয় যে ব্যক্তি আল্লাহর সাথে অংশীদার স্থির করে, আল্লাহ তার জন্যে জান্নাত হারাম করে দেন। এবং তার বাসস্থান হয় জাহান্নাম। অত্যাচারীদের কোন সাহায্যকারী নেই।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 6,
+      "surah_name_ar": "الأنعام",
+      "surah_name_transliteration": "Al-An'am",
+      "surah_name_bn": "গৃহপালিত পশু",
+      "ayah_number": 27,
+      "arabic": "وَلَوۡ تَرَىٰٓ إِذۡ وُقِفُواْ عَلَى ٱلنَّارِ فَقَالُواْ يَٰلَيۡتَنَا نُرَدُّ وَلَا نُكَذِّبَ بِـَٔايَٰتِ رَبِّنَا وَنَكُونَ مِنَ ٱلۡمُؤۡمِنِينَ",
+      "bangla": "আর আপনি যদি দেখেন, যখন তাদেরকে দোযখের উপর দাঁড় করানো হবে! তারা বলবেঃ কতই না ভাল হত, যদি আমরা পুনঃ প্রেরিত হতাম; তা হলে আমরা স্বীয় পালনকর্তার নিদর্শনসমূহে মিথ্যারোপ করতাম না এবং আমরা বিশ্বাসীদের অন্তর্ভুক্ত হয়ে যেতাম।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 6,
+      "surah_name_ar": "الأنعام",
+      "surah_name_transliteration": "Al-An'am",
+      "surah_name_bn": "গৃহপালিত পশু",
+      "ayah_number": 128,
+      "arabic": "وَيَوۡمَ يَحۡشُرُهُمۡ جَمِيعٗا يَٰمَعۡشَرَ ٱلۡجِنِّ قَدِ ٱسۡتَكۡثَرۡتُم مِّنَ ٱلۡإِنسِۖ وَقَالَ أَوۡلِيَآؤُهُم مِّنَ ٱلۡإِنسِ رَبَّنَا ٱسۡتَمۡتَعَ بَعۡضُنَا بِبَعۡضٖ وَبَلَغۡنَآ أَجَلَنَا ٱلَّذِيٓ أَجَّلۡتَ لَنَاۚ قَالَ ٱلنَّارُ مَثۡوَىٰكُمۡ خَٰلِدِينَ فِيهَآ إِلَّا مَا شَآءَ ٱللَّهُۚ إِنَّ رَبَّكَ حَكِيمٌ عَلِيمٞ",
+      "bangla": "যেদিন আল্লাহ সবাইকে একত্রিত করবেন, হে জিন সম্প্রদায়, তোমরা মানুষদের মধ্যে অনেককে অনুগামী করে নিয়েছ। তাদের মানব বন্ধুরা বলবেঃ হে আমাদের পালনকর্তা, আমরা পরস্পরে পরস্পরের মাধ্যমে ফল লাভ করেছি। আপনি আমাদের জন্যে যে সময় নির্ধারণ করেছিলেন, আমরা তাতে উপনীত হয়েছি। আল্লাহ বলবেনঃ আগুন হল তোমাদের বাসস্থান। তথায় তোমরা চিরকাল অবস্থান করবে; কিন্তু যখন চাইবেন আল্লাহ। নিশ্চয় আপনার পালনকর্তা প্রজ্ঞাময়, মহাজ্ঞানী।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 7,
+      "surah_name_ar": "الأعراف",
+      "surah_name_transliteration": "Al-A'raf",
+      "surah_name_bn": "উচু স্থান",
+      "ayah_number": 12,
+      "arabic": "قَالَ مَا مَنَعَكَ أَلَّا تَسۡجُدَ إِذۡ أَمَرۡتُكَۖ قَالَ أَنَا۠ خَيۡرٞ مِّنۡهُ خَلَقۡتَنِي مِن نَّارٖ وَخَلَقۡتَهُۥ مِن طِينٖ",
+      "bangla": "আল্লাহ বললেনঃ আমি যখন নির্দেশ দিয়েছি, তখন তোকে কিসে সেজদা করতে বারণ করল? সে বললঃ আমি তার চাইতে শ্রেষ্ট। আপনি আমাকে আগুন দ্বারা সৃষ্টি করেছেন এবং তাকে সৃষ্টি করেছেন মাটির দ্বারা।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نار\")।",
+      "matched_concepts": [
+        "نار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 7,
+      "surah_name_ar": "الأعراف",
+      "surah_name_transliteration": "Al-A'raf",
+      "surah_name_bn": "উচু স্থান",
+      "ayah_number": 36,
+      "arabic": "وَٱلَّذِينَ كَذَّبُواْ بِـَٔايَٰتِنَا وَٱسۡتَكۡبَرُواْ عَنۡهَآ أُوْلَـٰٓئِكَ أَصۡحَٰبُ ٱلنَّارِۖ هُمۡ فِيهَا خَٰلِدُونَ",
+      "bangla": "যারা আমার আয়াতসমূহকে মিথ্যা বলবে এবং তা থেকে অহংকার করবে, তারাই দোযখী এবং তথায় চিরকাল থাকবে।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 7,
+      "surah_name_ar": "الأعراف",
+      "surah_name_transliteration": "Al-A'raf",
+      "surah_name_bn": "উচু স্থান",
+      "ayah_number": 38,
+      "arabic": "قَالَ ٱدۡخُلُواْ فِيٓ أُمَمٖ قَدۡ خَلَتۡ مِن قَبۡلِكُم مِّنَ ٱلۡجِنِّ وَٱلۡإِنسِ فِي ٱلنَّارِۖ كُلَّمَا دَخَلَتۡ أُمَّةٞ لَّعَنَتۡ أُخۡتَهَاۖ حَتَّىٰٓ إِذَا ٱدَّارَكُواْ فِيهَا جَمِيعٗا قَالَتۡ أُخۡرَىٰهُمۡ لِأُولَىٰهُمۡ رَبَّنَا هَـٰٓؤُلَآءِ أَضَلُّونَا فَـَٔاتِهِمۡ عَذَابٗا ضِعۡفٗا مِّنَ ٱلنَّارِۖ قَالَ لِكُلّٖ ضِعۡفٞ وَلَٰكِن لَّا تَعۡلَمُونَ",
+      "bangla": "আল্লাহ বলবেনঃ তোমাদের পূর্বে জিন ও মানবের যেসব সম্প্রদায় চলে গেছে, তাদের সাথে তোমরাও দোযখে যাও। যখন এক সম্প্রদায় প্রবেশ করবে; তখন অন্য সম্প্রদায়কে অভিসম্পাত করবে। এমনকি, যখন তাতে সবাই পতিত হবে, তখন পরবর্তীরা পূর্ববর্তীদের সম্পর্কে বলবেঃ হে আমাদের প্রতিপালক এরাই আমাদেরকে বিপথগামী করেছিল। অতএব, আপনি তাদেরকে দ্বিগুণ শাস্তি দিন। আল্লাহ বলবেন প্রত্যেকেরই দ্বিগুণ; তোমরা জান না।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 7,
+      "surah_name_ar": "الأعراف",
+      "surah_name_transliteration": "Al-A'raf",
+      "surah_name_bn": "উচু স্থান",
+      "ayah_number": 44,
+      "arabic": "وَنَادَىٰٓ أَصۡحَٰبُ ٱلۡجَنَّةِ أَصۡحَٰبَ ٱلنَّارِ أَن قَدۡ وَجَدۡنَا مَا وَعَدَنَا رَبُّنَا حَقّٗا فَهَلۡ وَجَدتُّم مَّا وَعَدَ رَبُّكُمۡ حَقّٗاۖ قَالُواْ نَعَمۡۚ فَأَذَّنَ مُؤَذِّنُۢ بَيۡنَهُمۡ أَن لَّعۡنَةُ ٱللَّهِ عَلَى ٱلظَّـٰلِمِينَ",
+      "bangla": "জান্নাতীরা দোযখীদেরকে ডেকে বলবেঃ আমাদের সাথে আমাদের প্রতিপালক যে ওয়াদা করেছিলেন, তা আমরা সত্য পেয়েছি? অতএব, তোমরাও কি তোমাদের প্রতিপালকের ওয়াদা সত্য পেয়েছ? তারা বলবেঃ হ্যাঁ। অতঃপর একজন ঘোষক উভয়ের মাঝখানে ঘোষণা করবেঃ আল্লাহর অভিসম্পাত জালেমদের উপর।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 7,
+      "surah_name_ar": "الأعراف",
+      "surah_name_transliteration": "Al-A'raf",
+      "surah_name_bn": "উচু স্থান",
+      "ayah_number": 47,
+      "arabic": "۞وَإِذَا صُرِفَتۡ أَبۡصَٰرُهُمۡ تِلۡقَآءَ أَصۡحَٰبِ ٱلنَّارِ قَالُواْ رَبَّنَا لَا تَجۡعَلۡنَا مَعَ ٱلۡقَوۡمِ ٱلظَّـٰلِمِينَ",
+      "bangla": "যখন তাদের দৃষ্টি দোযখীদের উপর পড়বে, তখন বলবেঃ হে আমাদের প্রতিপালক, আমাদেরকে এ জালেমদের সাথী করো না।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 7,
+      "surah_name_ar": "الأعراف",
+      "surah_name_transliteration": "Al-A'raf",
+      "surah_name_bn": "উচু স্থান",
+      "ayah_number": 50,
+      "arabic": "وَنَادَىٰٓ أَصۡحَٰبُ ٱلنَّارِ أَصۡحَٰبَ ٱلۡجَنَّةِ أَنۡ أَفِيضُواْ عَلَيۡنَا مِنَ ٱلۡمَآءِ أَوۡ مِمَّا رَزَقَكُمُ ٱللَّهُۚ قَالُوٓاْ إِنَّ ٱللَّهَ حَرَّمَهُمَا عَلَى ٱلۡكَٰفِرِينَ",
+      "bangla": "দোযখীরা জান্নাতীদেরকে ডেকে বলবেঃ আমাদের উপর সামান্য পানি নিক্ষেপ কর অথবা আল্লাহ তোমাদেরকে যে রুযী দিয়েছেন, তা থেকেই কিছু দাও। তারা বলবেঃ আল্লাহ এই উভয় বস্তু কাফেরদের জন্যে নিষিদ্ধ করেছেন",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 8,
+      "surah_name_ar": "الأنفال",
+      "surah_name_transliteration": "Al-Anfal",
+      "surah_name_bn": "যুদ্ধ-লব্ধ ধনসম্পদ",
+      "ayah_number": 14,
+      "arabic": "ذَٰلِكُمۡ فَذُوقُوهُ وَأَنَّ لِلۡكَٰفِرِينَ عَذَابَ ٱلنَّارِ",
+      "bangla": "আপাততঃ বর্তমান এ শাস্তি তোমরা আস্বাদন করে নাও এবং জেনে রাখ যে, কাফেরদের জন্য রয়েছে দোযখের আযাব।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 9,
+      "surah_name_ar": "التوبة",
+      "surah_name_transliteration": "At-Tawbah",
+      "surah_name_bn": "অনুশোচনা",
+      "ayah_number": 17,
+      "arabic": "مَا كَانَ لِلۡمُشۡرِكِينَ أَن يَعۡمُرُواْ مَسَٰجِدَ ٱللَّهِ شَٰهِدِينَ عَلَىٰٓ أَنفُسِهِم بِٱلۡكُفۡرِۚ أُوْلَـٰٓئِكَ حَبِطَتۡ أَعۡمَٰلُهُمۡ وَفِي ٱلنَّارِ هُمۡ خَٰلِدُونَ",
+      "bangla": "মুশরিকরা যোগ্যতা রাখে না আল্লাহর মসজিদ আবাদ করার, যখন তারা নিজেরাই নিজেদের কুফরীর স্বীকৃতি দিচ্ছে। এদের আমল বরবাদ হবে এবং এরা আগুনে স্থায়ীভাবে বসবাস করবে।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 9,
+      "surah_name_ar": "التوبة",
+      "surah_name_transliteration": "At-Tawbah",
+      "surah_name_bn": "অনুশোচনা",
+      "ayah_number": 35,
+      "arabic": "يَوۡمَ يُحۡمَىٰ عَلَيۡهَا فِي نَارِ جَهَنَّمَ فَتُكۡوَىٰ بِهَا جِبَاهُهُمۡ وَجُنُوبُهُمۡ وَظُهُورُهُمۡۖ هَٰذَا مَا كَنَزۡتُمۡ لِأَنفُسِكُمۡ فَذُوقُواْ مَا كُنتُمۡ تَكۡنِزُونَ",
+      "bangla": "সে দিন জাহান্নামের আগুনে তা উত্তপ্ত করা হবে এবং তার দ্বারা তাদের ললাট, পার্শ্ব ও পৃষ্ঠদেশকে দগ্ধ করা হবে (সেদিন বলা হবে), এগুলো যা তোমরা নিজেদের জন্যে জমা রেখেছিলে, সুতরাং এক্ষণে আস্বাদ গ্রহণ কর জমা করে রাখার।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نار\")।",
+      "matched_concepts": [
+        "نار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 9,
+      "surah_name_ar": "التوبة",
+      "surah_name_transliteration": "At-Tawbah",
+      "surah_name_bn": "অনুশোচনা",
+      "ayah_number": 63,
+      "arabic": "أَلَمۡ يَعۡلَمُوٓاْ أَنَّهُۥ مَن يُحَادِدِ ٱللَّهَ وَرَسُولَهُۥ فَأَنَّ لَهُۥ نَارَ جَهَنَّمَ خَٰلِدٗا فِيهَاۚ ذَٰلِكَ ٱلۡخِزۡيُ ٱلۡعَظِيمُ",
+      "bangla": "তারা কি একথা জেনে নেয়নি যে, আল্লাহর সাথে এবং তাঁর রসূলের সাথে যে মোকাবেলা করে তার জন্যে নির্ধারিত রয়েছে দোযখ; তাতে সব সময় থাকবে। এটিই হল মহা-অপমান।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نار\")।",
+      "matched_concepts": [
+        "نار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 9,
+      "surah_name_ar": "التوبة",
+      "surah_name_transliteration": "At-Tawbah",
+      "surah_name_bn": "অনুশোচনা",
+      "ayah_number": 68,
+      "arabic": "وَعَدَ ٱللَّهُ ٱلۡمُنَٰفِقِينَ وَٱلۡمُنَٰفِقَٰتِ وَٱلۡكُفَّارَ نَارَ جَهَنَّمَ خَٰلِدِينَ فِيهَاۚ هِيَ حَسۡبُهُمۡۚ وَلَعَنَهُمُ ٱللَّهُۖ وَلَهُمۡ عَذَابٞ مُّقِيمٞ",
+      "bangla": "ওয়াদা করেছেন আল্লাহ, মুনাফেক পুরুষ ও মুনাফেক নারীদের এবং কাফেরদের জন্যে দোযখের আগুনের-তাতে পড়ে থাকবে সর্বদা। সেটাই তাদের জন্যে যথেষ্ট। আর আল্লাহ তাদের প্রতি অভিসম্পাত করেছেন এবং তাদের জন্যে রয়েছে স্থায়ী আযাব।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نار\")।",
+      "matched_concepts": [
+        "نار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 9,
+      "surah_name_ar": "التوبة",
+      "surah_name_transliteration": "At-Tawbah",
+      "surah_name_bn": "অনুশোচনা",
+      "ayah_number": 81,
+      "arabic": "فَرِحَ ٱلۡمُخَلَّفُونَ بِمَقۡعَدِهِمۡ خِلَٰفَ رَسُولِ ٱللَّهِ وَكَرِهُوٓاْ أَن يُجَٰهِدُواْ بِأَمۡوَٰلِهِمۡ وَأَنفُسِهِمۡ فِي سَبِيلِ ٱللَّهِ وَقَالُواْ لَا تَنفِرُواْ فِي ٱلۡحَرِّۗ قُلۡ نَارُ جَهَنَّمَ أَشَدُّ حَرّٗاۚ لَّوۡ كَانُواْ يَفۡقَهُونَ",
+      "bangla": "পেছনে থেকে যাওয়া লোকেরা আল্লাহর রসূল থেকে বিচ্ছিন্ন হয়ে বসে থাকতে পেরে আনন্দ লাভ করেছে; আর জান ও মালের দ্বারা আল্লাহর রাহে জেহাদ করতে অপছন্দ করেছে এবং বলেছে, এই গরমের মধ্যে অভিযানে বের হয়ো না। বলে দাও, উত্তাপে জাহান্নামের আগুন প্রচন্ডতম। যদি তাদের বিবেচনা শক্তি থাকত।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نار\")।",
+      "matched_concepts": [
+        "نار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 9,
+      "surah_name_ar": "التوبة",
+      "surah_name_transliteration": "At-Tawbah",
+      "surah_name_bn": "অনুশোচনা",
+      "ayah_number": 109,
+      "arabic": "أَفَمَنۡ أَسَّسَ بُنۡيَٰنَهُۥ عَلَىٰ تَقۡوَىٰ مِنَ ٱللَّهِ وَرِضۡوَٰنٍ خَيۡرٌ أَم مَّنۡ أَسَّسَ بُنۡيَٰنَهُۥ عَلَىٰ شَفَا جُرُفٍ هَارٖ فَٱنۡهَارَ بِهِۦ فِي نَارِ جَهَنَّمَۗ وَٱللَّهُ لَا يَهۡدِي ٱلۡقَوۡمَ ٱلظَّـٰلِمِينَ",
+      "bangla": "যে ব্যাক্তি স্বীয় গৃহের ভিত্তি রেখেছে কোন গর্তের কিনারায় যা ধ্বসে পড়ার নিকটবর্তী এবং অতঃপর তা ওকে নিয়ে দোযখের আগুনে পতিত হয়। আর আল্লাহ জালেমদের পথ দেখান না।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نار\")।",
+      "matched_concepts": [
+        "نار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 10,
+      "surah_name_ar": "يونس",
+      "surah_name_transliteration": "Yunus",
+      "surah_name_bn": "নবী ইউনুস",
+      "ayah_number": 8,
+      "arabic": "أُوْلَـٰٓئِكَ مَأۡوَىٰهُمُ ٱلنَّارُ بِمَا كَانُواْ يَكۡسِبُونَ",
+      "bangla": "এমন লোকদের ঠিকানা হল আগুন সেসবের বদলা হিসাবে যা তারা অর্জন করছিল।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 10,
+      "surah_name_ar": "يونس",
+      "surah_name_transliteration": "Yunus",
+      "surah_name_bn": "নবী ইউনুস",
+      "ayah_number": 27,
+      "arabic": "وَٱلَّذِينَ كَسَبُواْ ٱلسَّيِّـَٔاتِ جَزَآءُ سَيِّئَةِۭ بِمِثۡلِهَا وَتَرۡهَقُهُمۡ ذِلَّةٞۖ مَّا لَهُم مِّنَ ٱللَّهِ مِنۡ عَاصِمٖۖ كَأَنَّمَآ أُغۡشِيَتۡ وُجُوهُهُمۡ قِطَعٗا مِّنَ ٱلَّيۡلِ مُظۡلِمًاۚ أُوْلَـٰٓئِكَ أَصۡحَٰبُ ٱلنَّارِۖ هُمۡ فِيهَا خَٰلِدُونَ",
+      "bangla": "আর যারা সঞ্চয় করেছে অকল্যাণ অসৎ কর্মের বদলায় সে পরিমাণ অপমান তাদের চেহারাকে আবৃত করে ফেলবে। কেউ নেই তাদেরকে বাঁচাতে পারে আল্লাহর হাত থেকে। তাদের মুখমন্ডল যেন ঢেকে দেয়া হয়েছে আধাঁর রাতের টুকরো দিয়ে। এরা হল দোযখবাসী। এরা এতেই থাকবে অনন্তকাল।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 11,
+      "surah_name_ar": "هود",
+      "surah_name_transliteration": "Hud",
+      "surah_name_bn": "নবী হুদ",
+      "ayah_number": 16,
+      "arabic": "أُوْلَـٰٓئِكَ ٱلَّذِينَ لَيۡسَ لَهُمۡ فِي ٱلۡأٓخِرَةِ إِلَّا ٱلنَّارُۖ وَحَبِطَ مَا صَنَعُواْ فِيهَا وَبَٰطِلٞ مَّا كَانُواْ يَعۡمَلُونَ",
+      "bangla": "এরাই হল সেসব লোক আখেরাতে যাদের জন্য আগুন ছাড়া নেই। তারা এখানে যা কিছু করেছিল সবই বরবাদ করেছে; আর যা কিছু উপার্জন করেছিল, সবই বিনষ্ট হল।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 11,
+      "surah_name_ar": "هود",
+      "surah_name_transliteration": "Hud",
+      "surah_name_bn": "নবী হুদ",
+      "ayah_number": 17,
+      "arabic": "أَفَمَن كَانَ عَلَىٰ بَيِّنَةٖ مِّن رَّبِّهِۦ وَيَتۡلُوهُ شَاهِدٞ مِّنۡهُ وَمِن قَبۡلِهِۦ كِتَٰبُ مُوسَىٰٓ إِمَامٗا وَرَحۡمَةًۚ أُوْلَـٰٓئِكَ يُؤۡمِنُونَ بِهِۦۚ وَمَن يَكۡفُرۡ بِهِۦ مِنَ ٱلۡأَحۡزَابِ فَٱلنَّارُ مَوۡعِدُهُۥۚ فَلَا تَكُ فِي مِرۡيَةٖ مِّنۡهُۚ إِنَّهُ ٱلۡحَقُّ مِن رَّبِّكَ وَلَٰكِنَّ أَكۡثَرَ ٱلنَّاسِ لَا يُؤۡمِنُونَ",
+      "bangla": "আচ্ছা বল তো, যে ব্যক্তি তার প্রভুর সুস্পষ্ট পথে রয়েছে, আর সাথে সাথে আল্লাহর তরফ থেকে একটি সাক্ষীও বর্তমান রয়েছে এবং তার পূর্ববর্তী মূসা (আঃ) এর কিতাবও সাক্ষী যা ছিল পথনির্দেশক ও রহমত স্বরূপ, (তিনি কি অন্যান্যের সমান) অতএব তাঁরা কোরআনের প্রতি ঈমান আনেন। আর ঐসব দলগুলি যে কেউ তা অস্বীকার করে, দোযখই হবে তার ঠিকানা। অতএব, আপনি তাতে কোন সন্দেহে থাকবেন না। নিঃসন্দেহে তা আপনার পালনকর্তার পক্ষ হতে ধ্রুব সত্য; তথাপি অনেকেই তা বিশ্বাস করে না।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"فالنار\")।",
+      "matched_concepts": [
+        "فالنار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 11,
+      "surah_name_ar": "هود",
+      "surah_name_transliteration": "Hud",
+      "surah_name_bn": "নবী হুদ",
+      "ayah_number": 98,
+      "arabic": "يَقۡدُمُ قَوۡمَهُۥ يَوۡمَ ٱلۡقِيَٰمَةِ فَأَوۡرَدَهُمُ ٱلنَّارَۖ وَبِئۡسَ ٱلۡوِرۡدُ ٱلۡمَوۡرُودُ",
+      "bangla": "কেয়ামতের দিন সে তার জাতির লোকদের আগে আগে থাকবে এবং তাদেরকে জাহান্নামের আগুনে পৌঁছে দিবে। আর সেটা অতীব নিকৃষ্ট স্থান, সেখানে তারা পৌঁছেছে।।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 11,
+      "surah_name_ar": "هود",
+      "surah_name_transliteration": "Hud",
+      "surah_name_bn": "নবী হুদ",
+      "ayah_number": 106,
+      "arabic": "فَأَمَّا ٱلَّذِينَ شَقُواْ فَفِي ٱلنَّارِ لَهُمۡ فِيهَا زَفِيرٞ وَشَهِيقٌ",
+      "bangla": "অতএব যারা হতভাগ্য তারা দোযখে যাবে, সেখানে তারা আর্তনাদ ও চিৎকার করতে থাকবে।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 11,
+      "surah_name_ar": "هود",
+      "surah_name_transliteration": "Hud",
+      "surah_name_bn": "নবী হুদ",
+      "ayah_number": 113,
+      "arabic": "وَلَا تَرۡكَنُوٓاْ إِلَى ٱلَّذِينَ ظَلَمُواْ فَتَمَسَّكُمُ ٱلنَّارُ وَمَا لَكُم مِّن دُونِ ٱللَّهِ مِنۡ أَوۡلِيَآءَ ثُمَّ لَا تُنصَرُونَ",
+      "bangla": "আর পাপিষ্ঠদের প্রতি ঝুঁকবে না। নতুবা তোমাদেরকেও আগুনে ধরবে। আর আল্লাহ ব্যতীত তোমাদের কোন বন্ধু নাই। অতএব কোথাও সাহায্য পাবে না।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 13,
+      "surah_name_ar": "الرعد",
+      "surah_name_transliteration": "Ar-Ra'd",
+      "surah_name_bn": "বজ্রপাত",
+      "ayah_number": 5,
+      "arabic": "۞وَإِن تَعۡجَبۡ فَعَجَبٞ قَوۡلُهُمۡ أَءِذَا كُنَّا تُرَٰبًا أَءِنَّا لَفِي خَلۡقٖ جَدِيدٍۗ أُوْلَـٰٓئِكَ ٱلَّذِينَ كَفَرُواْ بِرَبِّهِمۡۖ وَأُوْلَـٰٓئِكَ ٱلۡأَغۡلَٰلُ فِيٓ أَعۡنَاقِهِمۡۖ وَأُوْلَـٰٓئِكَ أَصۡحَٰبُ ٱلنَّارِۖ هُمۡ فِيهَا خَٰلِدُونَ",
+      "bangla": "যদি আপনি বিস্ময়ের বিষয় চান, তবে তাদের একথা বিস্ময়কর যে, আমরা যখন মাটি হয়ে যাব, তখনও কি নতুন ভাবে সৃজিত হব? এরাই স্বীয় পালনকর্তার সত্তায় অবিশ্বাসী হয়ে গেছে, এদের গর্দানেই লৌহ-শৃংখল পড়বে এবং এরাই দোযখী এরা তাতে চিরকাল থাকবে।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 13,
+      "surah_name_ar": "الرعد",
+      "surah_name_transliteration": "Ar-Ra'd",
+      "surah_name_bn": "বজ্রপাত",
+      "ayah_number": 17,
+      "arabic": "أَنزَلَ مِنَ ٱلسَّمَآءِ مَآءٗ فَسَالَتۡ أَوۡدِيَةُۢ بِقَدَرِهَا فَٱحۡتَمَلَ ٱلسَّيۡلُ زَبَدٗا رَّابِيٗاۖ وَمِمَّا يُوقِدُونَ عَلَيۡهِ فِي ٱلنَّارِ ٱبۡتِغَآءَ حِلۡيَةٍ أَوۡ مَتَٰعٖ زَبَدٞ مِّثۡلُهُۥۚ كَذَٰلِكَ يَضۡرِبُ ٱللَّهُ ٱلۡحَقَّ وَٱلۡبَٰطِلَۚ فَأَمَّا ٱلزَّبَدُ فَيَذۡهَبُ جُفَآءٗۖ وَأَمَّا مَا يَنفَعُ ٱلنَّاسَ فَيَمۡكُثُ فِي ٱلۡأَرۡضِۚ كَذَٰلِكَ يَضۡرِبُ ٱللَّهُ ٱلۡأَمۡثَالَ",
+      "bangla": "তিনি আকাশ থেকে পানি বর্ষণ করেন। অতঃপর স্রোতধারা প্রবাহিত হতে থাকে নিজ নিজ পরিমাণ অনুযায়ী। অতঃপর স্রোতধারা স্ফীত ফেনারাশি উপরে নিয়ে আসে। এবং অলঙ্কার অথবা তৈজসপত্রের জন্যে যে বস্তুকে আগুনে উত্তপ্ত করে, তাতেও তেমনি ফেনারাশি থাকে। এমনি ভাবে আল্লাহ সত্য ও অসত্যের দৃষ্টান্ত প্রদান করেন। অতএব, ফেনা তো শুকিয়ে খতম হয়ে যায় এবং যা মানুষের উপকারে আসে, তা জমিতে অবশিষ্ট থাকে। আল্লাহ এমনিভাবে দৃষ্টান্তসমূহ বর্ণনা করেন।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 13,
+      "surah_name_ar": "الرعد",
+      "surah_name_transliteration": "Ar-Ra'd",
+      "surah_name_bn": "বজ্রপাত",
+      "ayah_number": 35,
+      "arabic": "۞مَّثَلُ ٱلۡجَنَّةِ ٱلَّتِي وُعِدَ ٱلۡمُتَّقُونَۖ تَجۡرِي مِن تَحۡتِهَا ٱلۡأَنۡهَٰرُۖ أُكُلُهَا دَآئِمٞ وَظِلُّهَاۚ تِلۡكَ عُقۡبَى ٱلَّذِينَ ٱتَّقَواْۚ وَّعُقۡبَى ٱلۡكَٰفِرِينَ ٱلنَّارُ",
+      "bangla": "পরহেযগারদের জন্যে প্রতিশ্রুত জান্নাতের অবস্থা এই যে, তার নিম্নে নির্ঝরিণীসমূহ প্রবাহিত হয়। তার ফলসমূহ চিরস্থায়ী এবং ছায়াও। এটা তাদের প্রতিদান, যারা সাবধান হয়েছে এবং কাফেরদের প্রতিফল অগ্নি।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 14,
+      "surah_name_ar": "ابراهيم",
+      "surah_name_transliteration": "Ibrahim",
+      "surah_name_bn": "নবী ইবরাহীম",
+      "ayah_number": 30,
+      "arabic": "وَجَعَلُواْ لِلَّهِ أَندَادٗا لِّيُضِلُّواْ عَن سَبِيلِهِۦۗ قُلۡ تَمَتَّعُواْ فَإِنَّ مَصِيرَكُمۡ إِلَى ٱلنَّارِ",
+      "bangla": "এবং তারা আল্লাহর জন্যে সমকক্ষ স্থির করেছে, যাতে তারা তার পথ থেকে বিচ্যুত করে দেয়। বলুনঃ মজা উপভোগ করে নাও। অতঃপর তোমাদেরকে অগ্নির দিকেই ফিরে যেতে হবে।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 14,
+      "surah_name_ar": "ابراهيم",
+      "surah_name_transliteration": "Ibrahim",
+      "surah_name_bn": "নবী ইবরাহীম",
+      "ayah_number": 50,
+      "arabic": "سَرَابِيلُهُم مِّن قَطِرَانٖ وَتَغۡشَىٰ وُجُوهَهُمُ ٱلنَّارُ",
+      "bangla": "তাদের জামা হবে দাহ্য আলকাতরার এবং তাদের মুখমন্ডলকে আগুন আচ্ছন্ন করে ফেলবে।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 15,
+      "surah_name_ar": "الحجر",
+      "surah_name_transliteration": "Al-Hijr",
+      "surah_name_bn": "পাথুরে পাহাড়",
+      "ayah_number": 27,
+      "arabic": "وَٱلۡجَآنَّ خَلَقۡنَٰهُ مِن قَبۡلُ مِن نَّارِ ٱلسَّمُومِ",
+      "bangla": "এবং জিনকে এর আগে লু এর আগুনের দ্বারা সৃজিত করেছি।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نار\")।",
+      "matched_concepts": [
+        "نار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 16,
+      "surah_name_ar": "النحل",
+      "surah_name_transliteration": "An-Nahl",
+      "surah_name_bn": "মৌমাছি",
+      "ayah_number": 62,
+      "arabic": "وَيَجۡعَلُونَ لِلَّهِ مَا يَكۡرَهُونَۚ وَتَصِفُ أَلۡسِنَتُهُمُ ٱلۡكَذِبَ أَنَّ لَهُمُ ٱلۡحُسۡنَىٰۚ لَا جَرَمَ أَنَّ لَهُمُ ٱلنَّارَ وَأَنَّهُم مُّفۡرَطُونَ",
+      "bangla": "যা নিজেদের মন চায় না তারই তারা আল্লাহর জন্যে সাব্যস্ত করে এবং তাদের জিহবা মিথ্যা বর্ণনা করে যে, তাদের জন্যে রয়েছে কল্যাণ। স্বতঃসিদ্ধ কথা যে, তাদের জন্যে রয়েছে আগুন এবং তাদেরকেই সর্বাগ্রে নিক্ষেপ করা হবে।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 18,
+      "surah_name_ar": "الكهف",
+      "surah_name_transliteration": "Al-Kahf",
+      "surah_name_bn": "গুহা",
+      "ayah_number": 29,
+      "arabic": "وَقُلِ ٱلۡحَقُّ مِن رَّبِّكُمۡۖ فَمَن شَآءَ فَلۡيُؤۡمِن وَمَن شَآءَ فَلۡيَكۡفُرۡۚ إِنَّآ أَعۡتَدۡنَا لِلظَّـٰلِمِينَ نَارًا أَحَاطَ بِهِمۡ سُرَادِقُهَاۚ وَإِن يَسۡتَغِيثُواْ يُغَاثُواْ بِمَآءٖ كَٱلۡمُهۡلِ يَشۡوِي ٱلۡوُجُوهَۚ بِئۡسَ ٱلشَّرَابُ وَسَآءَتۡ مُرۡتَفَقًا",
+      "bangla": "বলুনঃ সত্য তোমাদের পালনকর্তার পক্ষ থেকে আগত। অতএব, যার ইচ্ছা, বিশ্বাস স্থাপন করুক এবং যার ইচ্ছা অমান্য করুক। আমি জালেমদের জন্যে অগ্নি প্রস্তুত করে রেখেছি, যার বেষ্টনী তাদের কে পরিবেষ্টন করে থাকবে। যদি তারা পানীয় প্রার্থনা করে, তবে পুঁজের ন্যায় পানীয় দেয়া হবে যা তাদের মুখমন্ডল দগ্ধ করবে। কত নিকৃষ্ট পানীয় এবং খুবই মন্দ আশ্রয়।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نارا\")।",
+      "matched_concepts": [
+        "نارا"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 18,
+      "surah_name_ar": "الكهف",
+      "surah_name_transliteration": "Al-Kahf",
+      "surah_name_bn": "গুহা",
+      "ayah_number": 53,
+      "arabic": "وَرَءَا ٱلۡمُجۡرِمُونَ ٱلنَّارَ فَظَنُّوٓاْ أَنَّهُم مُّوَاقِعُوهَا وَلَمۡ يَجِدُواْ عَنۡهَا مَصۡرِفٗا",
+      "bangla": "অপরাধীরা আগুন দেখে বোঝে নেবে যে, তাদেরকে তাতে পতিত হতে হবে এবং তারা তা থেকে রাস্তা পরিবর্তন করতে পারবে না।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 18,
+      "surah_name_ar": "الكهف",
+      "surah_name_transliteration": "Al-Kahf",
+      "surah_name_bn": "গুহা",
+      "ayah_number": 96,
+      "arabic": "ءَاتُونِي زُبَرَ ٱلۡحَدِيدِۖ حَتَّىٰٓ إِذَا سَاوَىٰ بَيۡنَ ٱلصَّدَفَيۡنِ قَالَ ٱنفُخُواْۖ حَتَّىٰٓ إِذَا جَعَلَهُۥ نَارٗا قَالَ ءَاتُونِيٓ أُفۡرِغۡ عَلَيۡهِ قِطۡرٗا",
+      "bangla": "তোমরা আমাকে লোহার পাত এনে দাও। অবশেষে যখন পাহাড়ের মধ্যবর্তী ফাঁকা স্থান পূর্ণ হয়ে গেল, তখন তিনি বললেনঃ তোমরা হাঁপরে দম দিতে থাক। অবশেষে যখন তা আগুনে পরিণত হল, তখন তিনি বললেনঃ তোমরা গলিত তামা নিয়ে এস, আমি তা এর উপরে ঢেলে দেই।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نارا\")।",
+      "matched_concepts": [
+        "نارا"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 20,
+      "surah_name_ar": "طه",
+      "surah_name_transliteration": "Taha",
+      "surah_name_bn": "ত়া হা",
+      "ayah_number": 10,
+      "arabic": "إِذۡ رَءَا نَارٗا فَقَالَ لِأَهۡلِهِ ٱمۡكُثُوٓاْ إِنِّيٓ ءَانَسۡتُ نَارٗا لَّعَلِّيٓ ءَاتِيكُم مِّنۡهَا بِقَبَسٍ أَوۡ أَجِدُ عَلَى ٱلنَّارِ هُدٗى",
+      "bangla": "তিনি যখন আগুন দেখলেন, তখন পরিবারবর্গকে বললেনঃ তোমরা এখানে অবস্থান কর আমি আগুন দেখেছি। সম্ভবতঃ আমি তা থেকে তোমাদের কাছে কিছু আগুন জালিয়ে আনতে পারব অথবা আগুনে পৌছে পথের সন্ধান পাব।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\", \"نارا\")।",
+      "matched_concepts": [
+        "النار",
+        "نارا"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 21,
+      "surah_name_ar": "الأنبياء",
+      "surah_name_transliteration": "Al-Anbya",
+      "surah_name_bn": "নবীগণ",
+      "ayah_number": 39,
+      "arabic": "لَوۡ يَعۡلَمُ ٱلَّذِينَ كَفَرُواْ حِينَ لَا يَكُفُّونَ عَن وُجُوهِهِمُ ٱلنَّارَ وَلَا عَن ظُهُورِهِمۡ وَلَا هُمۡ يُنصَرُونَ",
+      "bangla": "যদি কাফেররা ঐ সময়টি জানত, যখন তারা তাদের সম্মুখ ও পৃষ্ঠদেশ থেকে অগ্নি প্রতিরোধ করতে পারবে না এবং তারা সাহায্য প্রাপ্ত হবে না।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 21,
+      "surah_name_ar": "الأنبياء",
+      "surah_name_transliteration": "Al-Anbya",
+      "surah_name_bn": "নবীগণ",
+      "ayah_number": 69,
+      "arabic": "قُلۡنَا يَٰنَارُ كُونِي بَرۡدٗا وَسَلَٰمًا عَلَىٰٓ إِبۡرَٰهِيمَ",
+      "bangla": "আমি বললামঃ হে অগ্নি, তুমি ইব্রাহীমের উপর শীতল ও নিরাপদ হয়ে যাও।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"يانار\")। এই আয়াতটি ইবরাহীম (আ.)-কে আগুনে নিক্ষেপ করার ঘটনা ও আগুনকে শীতল হওয়ার নির্দেশ (সূরা আল-আম্বিয়া)। ২১:৬৯ ইতিমধ্যে সরাসরি কীওয়ার্ড দ্বারা DIRECT হিসেবে ধরা পড়ে; ৬৮ ও ৭০ প্রাসঙ্গিক STRONG_CONTEXT। এই ঘটনার অংশ; সরাসরি \"আগুন\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "matched_concepts": [
+        "يانار",
+        "21:68-70"
+      ],
+      "found_by": [
+        "keyword",
+        "narrative"
+      ],
+      "confidence": 0.98,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 22,
+      "surah_name_ar": "الحج",
+      "surah_name_transliteration": "Al-Hajj",
+      "surah_name_bn": "হ়াজ্জ",
+      "ayah_number": 19,
+      "arabic": "۞هَٰذَانِ خَصۡمَانِ ٱخۡتَصَمُواْ فِي رَبِّهِمۡۖ فَٱلَّذِينَ كَفَرُواْ قُطِّعَتۡ لَهُمۡ ثِيَابٞ مِّن نَّارٖ يُصَبُّ مِن فَوۡقِ رُءُوسِهِمُ ٱلۡحَمِيمُ",
+      "bangla": "এই দুই বাদী বিবাদী, তারা তাদের পালনকর্তা সম্পর্কে বিতর্ক করে। অতএব যারা কাফের, তাদের জন্যে আগুনের পোশাক তৈরী করা হয়েছে। তাদের মাথার উপর ফুটন্ত পানি ঢেলে দেয়া হবে।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نار\")।",
+      "matched_concepts": [
+        "نار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 22,
+      "surah_name_ar": "الحج",
+      "surah_name_transliteration": "Al-Hajj",
+      "surah_name_bn": "হ়াজ্জ",
+      "ayah_number": 72,
+      "arabic": "وَإِذَا تُتۡلَىٰ عَلَيۡهِمۡ ءَايَٰتُنَا بَيِّنَٰتٖ تَعۡرِفُ فِي وُجُوهِ ٱلَّذِينَ كَفَرُواْ ٱلۡمُنكَرَۖ يَكَادُونَ يَسۡطُونَ بِٱلَّذِينَ يَتۡلُونَ عَلَيۡهِمۡ ءَايَٰتِنَاۗ قُلۡ أَفَأُنَبِّئُكُم بِشَرّٖ مِّن ذَٰلِكُمُۚ ٱلنَّارُ وَعَدَهَا ٱللَّهُ ٱلَّذِينَ كَفَرُواْۖ وَبِئۡسَ ٱلۡمَصِيرُ",
+      "bangla": "যখন তাদের কাছে আমার সুস্পষ্ট আয়াতসমূহ আবৃত্তি করা হয়, তখন তুমি কাফেরদের চোখে মুখে অসন্তোষের লক্ষণ প্রত্যক্ষ করতে পারবে। যারা তাদের কাছে আমার আয়াত সমূহ পাঠ করে, তারা তাদের প্রতি মার মুখো হয়ে উঠে। বলুন, আমি কি তোমাদেরকে তদপেক্ষা মন্দ কিছুর সংবাদ দেব? তা আগুন; আল্লাহ কাফেরদেরকে এর ওয়াদা দিয়েছেন। এটা কতই না নিকৃষ্ট প্রত্যাবর্তনস্থল।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 23,
+      "surah_name_ar": "المؤمنون",
+      "surah_name_transliteration": "Al-Mu'minun",
+      "surah_name_bn": "বিশ্বাসী",
+      "ayah_number": 104,
+      "arabic": "تَلۡفَحُ وُجُوهَهُمُ ٱلنَّارُ وَهُمۡ فِيهَا كَٰلِحُونَ",
+      "bangla": "আগুন তাদের মুখমন্ডল দগ্ধ করবে এবং তারা তাতে বীভৎস আকার ধারন করবে।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 24,
+      "surah_name_ar": "النور",
+      "surah_name_transliteration": "An-Nur",
+      "surah_name_bn": "আলো",
+      "ayah_number": 35,
+      "arabic": "۞ٱللَّهُ نُورُ ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضِۚ مَثَلُ نُورِهِۦ كَمِشۡكَوٰةٖ فِيهَا مِصۡبَاحٌۖ ٱلۡمِصۡبَاحُ فِي زُجَاجَةٍۖ ٱلزُّجَاجَةُ كَأَنَّهَا كَوۡكَبٞ دُرِّيّٞ يُوقَدُ مِن شَجَرَةٖ مُّبَٰرَكَةٖ زَيۡتُونَةٖ لَّا شَرۡقِيَّةٖ وَلَا غَرۡبِيَّةٖ يَكَادُ زَيۡتُهَا يُضِيٓءُ وَلَوۡ لَمۡ تَمۡسَسۡهُ نَارٞۚ نُّورٌ عَلَىٰ نُورٖۚ يَهۡدِي ٱللَّهُ لِنُورِهِۦ مَن يَشَآءُۚ وَيَضۡرِبُ ٱللَّهُ ٱلۡأَمۡثَٰلَ لِلنَّاسِۗ وَٱللَّهُ بِكُلِّ شَيۡءٍ عَلِيمٞ",
+      "bangla": "আল্লাহ নভোমন্ডল ও ভূমন্ডলের জ্যোতি, তাঁর জ্যোতির উদাহরণ যেন একটি কুলঙ্গি, যাতে আছে একটি প্রদীপ, প্রদীপটি একটি কাঁচপাত্রে স্থাপিত, কাঁচপাত্রটি উজ্জ্বল নক্ষত্র সদৃশ্য। তাতে পুতঃপবিত্র যয়তুন বৃক্ষের তৈল প্রজ্বলিত হয়, যা পূর্বমুখী নয় এবং পশ্চিমমুখীও নয়। অগ্নি স্পর্শ না করলেও তার তৈল যেন আলোকিত হওয়ার নিকটবর্তী। জ্যোতির উপর জ্যোতি। আল্লাহ যাকে ইচ্ছা পথ দেখান তাঁর জ্যোতির দিকে। আল্লাহ মানুষের জন্যে দৃষ্টান্তসমূহ বর্ণনা করেন এবং আল্লাহ সব বিষয়ে জ্ঞাত।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نار\")।",
+      "matched_concepts": [
+        "نار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 24,
+      "surah_name_ar": "النور",
+      "surah_name_transliteration": "An-Nur",
+      "surah_name_bn": "আলো",
+      "ayah_number": 57,
+      "arabic": "لَا تَحۡسَبَنَّ ٱلَّذِينَ كَفَرُواْ مُعۡجِزِينَ فِي ٱلۡأَرۡضِۚ وَمَأۡوَىٰهُمُ ٱلنَّارُۖ وَلَبِئۡسَ ٱلۡمَصِيرُ",
+      "bangla": "তোমরা কাফেরদেরকে পৃথিবীতে পরাক্রমশালী মনে করো না। তাদের ঠিকানা অগ্নি। কতই না নিকৃষ্ট এই প্রত্যাবর্তনস্থল।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 27,
+      "surah_name_ar": "النمل",
+      "surah_name_transliteration": "An-Naml",
+      "surah_name_bn": "পিঁপড়া",
+      "ayah_number": 7,
+      "arabic": "إِذۡ قَالَ مُوسَىٰ لِأَهۡلِهِۦٓ إِنِّيٓ ءَانَسۡتُ نَارٗا سَـَٔاتِيكُم مِّنۡهَا بِخَبَرٍ أَوۡ ءَاتِيكُم بِشِهَابٖ قَبَسٖ لَّعَلَّكُمۡ تَصۡطَلُونَ",
+      "bangla": "যখন মূসা তাঁর পরিবারবর্গকে বললেনঃ আমি অগ্নি দেখেছি, এখন আমি সেখান থেকে তোমাদের জন্যে কোন খবর আনতে পারব অথবা তোমাদের জন্যে জ্বলন্ত অঙ্গার নিয়ে আসতে পারব যাতে তোমরা আগুন পোহাতে পার।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نارا\")।",
+      "matched_concepts": [
+        "نارا"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 27,
+      "surah_name_ar": "النمل",
+      "surah_name_transliteration": "An-Naml",
+      "surah_name_bn": "পিঁপড়া",
+      "ayah_number": 8,
+      "arabic": "فَلَمَّا جَآءَهَا نُودِيَ أَنۢ بُورِكَ مَن فِي ٱلنَّارِ وَمَنۡ حَوۡلَهَا وَسُبۡحَٰنَ ٱللَّهِ رَبِّ ٱلۡعَٰلَمِينَ",
+      "bangla": "অতঃপর যখন তিনি আগুনের কাছে আসলেন তখন আওয়াজ হল ধন্য তিনি, যিনি আগুনের স্থানে আছেন এবং যারা আগুনের আশেপাশে আছেন। বিশ্ব জাহানের পালনকর্তা আল্লাহ পবিত্র ও মহিমান্বিত।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 27,
+      "surah_name_ar": "النمل",
+      "surah_name_transliteration": "An-Naml",
+      "surah_name_bn": "পিঁপড়া",
+      "ayah_number": 90,
+      "arabic": "وَمَن جَآءَ بِٱلسَّيِّئَةِ فَكُبَّتۡ وُجُوهُهُمۡ فِي ٱلنَّارِ هَلۡ تُجۡزَوۡنَ إِلَّا مَا كُنتُمۡ تَعۡمَلُونَ",
+      "bangla": "এবং যে মন্দ কাজ নিয়ে আসবে, তাকে অগ্নিতে অধঃমূখে নিক্ষেপ করা হবে। তোমরা যা করছিলে, তারই প্রতিফল তোমরা পাবে।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 28,
+      "surah_name_ar": "القصص",
+      "surah_name_transliteration": "Al-Qasas",
+      "surah_name_bn": "কাহিনি",
+      "ayah_number": 29,
+      "arabic": "۞فَلَمَّا قَضَىٰ مُوسَى ٱلۡأَجَلَ وَسَارَ بِأَهۡلِهِۦٓ ءَانَسَ مِن جَانِبِ ٱلطُّورِ نَارٗاۖ قَالَ لِأَهۡلِهِ ٱمۡكُثُوٓاْ إِنِّيٓ ءَانَسۡتُ نَارٗا لَّعَلِّيٓ ءَاتِيكُم مِّنۡهَا بِخَبَرٍ أَوۡ جَذۡوَةٖ مِّنَ ٱلنَّارِ لَعَلَّكُمۡ تَصۡطَلُونَ",
+      "bangla": "অতঃপর মূসা (আঃ) যখন সেই মেয়াদ পূর্ণ করল এবং সপরিবারে যাত্রা করল, তখন সে তুর পর্বতের দিক থেকে আগুন দেখতে পেল। সে তার পরিবারবর্গকে বলল, তোমরা অপেক্ষা কর, আমি আগুন দেখেছি। সম্ভবতঃ আমি সেখান থেকে তোমাদের কাছে কোন খবর নিয়ে আসতে পারি অথবা কোন জ্বলন্ত কাষ্ঠখন্ড আনতে পারি, যাতে তোমরা আগুন পোহাতে পার।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\", \"نارا\")।",
+      "matched_concepts": [
+        "النار",
+        "نارا"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 28,
+      "surah_name_ar": "القصص",
+      "surah_name_transliteration": "Al-Qasas",
+      "surah_name_bn": "কাহিনি",
+      "ayah_number": 41,
+      "arabic": "وَجَعَلۡنَٰهُمۡ أَئِمَّةٗ يَدۡعُونَ إِلَى ٱلنَّارِۖ وَيَوۡمَ ٱلۡقِيَٰمَةِ لَا يُنصَرُونَ",
+      "bangla": "আমি তাদেরকে নেতা করেছিলাম। তারা জাহান্নামের দিকে আহবান করত। কেয়ামতের দিন তারা সাহায্য প্রাপ্ত হবে না।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 29,
+      "surah_name_ar": "العنكبوت",
+      "surah_name_transliteration": "Al-'Ankabut",
+      "surah_name_bn": "মাকড়শা",
+      "ayah_number": 24,
+      "arabic": "فَمَا كَانَ جَوَابَ قَوۡمِهِۦٓ إِلَّآ أَن قَالُواْ ٱقۡتُلُوهُ أَوۡ حَرِّقُوهُ فَأَنجَىٰهُ ٱللَّهُ مِنَ ٱلنَّارِۚ إِنَّ فِي ذَٰلِكَ لَأٓيَٰتٖ لِّقَوۡمٖ يُؤۡمِنُونَ",
+      "bangla": "তখন ইব্রাহীমের সম্প্রদায়ের এছাড়া কোন জওয়াব ছিল না যে তারা বলল, তাকে হত্যা কর অথবা অগ্নিদগ্ধ কর। অতঃপর আল্লাহ তাকে অগ্নি থেকে রক্ষা করলেন। নিশ্চয় এতে বিশ্বাসী লোকদের জন্যে নিদর্শনাবলী রয়েছে।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 29,
+      "surah_name_ar": "العنكبوت",
+      "surah_name_transliteration": "Al-'Ankabut",
+      "surah_name_bn": "মাকড়শা",
+      "ayah_number": 25,
+      "arabic": "وَقَالَ إِنَّمَا ٱتَّخَذۡتُم مِّن دُونِ ٱللَّهِ أَوۡثَٰنٗا مَّوَدَّةَ بَيۡنِكُمۡ فِي ٱلۡحَيَوٰةِ ٱلدُّنۡيَاۖ ثُمَّ يَوۡمَ ٱلۡقِيَٰمَةِ يَكۡفُرُ بَعۡضُكُم بِبَعۡضٖ وَيَلۡعَنُ بَعۡضُكُم بَعۡضٗا وَمَأۡوَىٰكُمُ ٱلنَّارُ وَمَا لَكُم مِّن نَّـٰصِرِينَ",
+      "bangla": "ইব্রাহীম বললেন, পার্থিব জীবনে তোমাদের পারস্পরিক ভালবাসা রক্ষার জন্যে তোমরা আল্লাহর পরিবর্তে প্রতিমাগুলোকে উপাস্যরূপে গ্রহণ করেছ। এরপর কেয়ামতের দিন তোমরা একে অপরকে অস্বীকার করবে এবং একে অপরকে লানত করবে। তোমাদের ঠিকানা জাহান্নাম এবং তোমাদের কোন সাহায্যকারী নেই।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 32,
+      "surah_name_ar": "السجدة",
+      "surah_name_transliteration": "As-Sajdah",
+      "surah_name_bn": "সিজদা",
+      "ayah_number": 20,
+      "arabic": "وَأَمَّا ٱلَّذِينَ فَسَقُواْ فَمَأۡوَىٰهُمُ ٱلنَّارُۖ كُلَّمَآ أَرَادُوٓاْ أَن يَخۡرُجُواْ مِنۡهَآ أُعِيدُواْ فِيهَا وَقِيلَ لَهُمۡ ذُوقُواْ عَذَابَ ٱلنَّارِ ٱلَّذِي كُنتُم بِهِۦ تُكَذِّبُونَ",
+      "bangla": "পক্ষান্তরে যারা অবাধ্য হয়, তাদের ঠিকানা জাহান্নাম। যখনই তারা জাহান্নাম থেকে বের হতে চাইবে, তখনই তাদেরকে তথায় ফিরিয়ে দেয়া হবে এবং তাদেরকে বলা হবে, তোমরা জাহান্নামের যে আযাবকে মিথ্যা বলতে, তার স্বাদ আস্বাদন কর।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 33,
+      "surah_name_ar": "الأحزاب",
+      "surah_name_transliteration": "Al-Ahzab",
+      "surah_name_bn": "জোট",
+      "ayah_number": 66,
+      "arabic": "يَوۡمَ تُقَلَّبُ وُجُوهُهُمۡ فِي ٱلنَّارِ يَقُولُونَ يَٰلَيۡتَنَآ أَطَعۡنَا ٱللَّهَ وَأَطَعۡنَا ٱلرَّسُولَا۠",
+      "bangla": "যেদিন অগ্নিতে তাদের মুখমন্ডল ওলট পালট করা হবে; সেদিন তারা বলবে, হায়। আমরা যদি আল্লাহর আনুগত্য করতাম ও রসূলের আনুগত্য করতাম।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 34,
+      "surah_name_ar": "سبإ",
+      "surah_name_transliteration": "Saba",
+      "surah_name_bn": "রানী সাবা/শেবা",
+      "ayah_number": 42,
+      "arabic": "فَٱلۡيَوۡمَ لَا يَمۡلِكُ بَعۡضُكُمۡ لِبَعۡضٖ نَّفۡعٗا وَلَا ضَرّٗا وَنَقُولُ لِلَّذِينَ ظَلَمُواْ ذُوقُواْ عَذَابَ ٱلنَّارِ ٱلَّتِي كُنتُم بِهَا تُكَذِّبُونَ",
+      "bangla": "অতএব আজকের দিনে তোমরা একে অপরের কোন উপকার ও অপকার করার অধিকারী হবে না আর আমি জালেমদেরকে বলব, তোমরা আগুনের যে শাস্তিকে মিথ্যা বলতে তা আস্বাদন কর।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 35,
+      "surah_name_ar": "فاطر",
+      "surah_name_transliteration": "Fatir",
+      "surah_name_bn": "আদি স্রষ্টা",
+      "ayah_number": 36,
+      "arabic": "وَٱلَّذِينَ كَفَرُواْ لَهُمۡ نَارُ جَهَنَّمَ لَا يُقۡضَىٰ عَلَيۡهِمۡ فَيَمُوتُواْ وَلَا يُخَفَّفُ عَنۡهُم مِّنۡ عَذَابِهَاۚ كَذَٰلِكَ نَجۡزِي كُلَّ كَفُورٖ",
+      "bangla": "আর যারা কাফের হয়েছে, তাদের জন্যে রয়েছে জাহান্নামের আগুন। তাদেরকে মৃত্যুর আদেশও দেয়া হবে না যে, তারা মরে যাবে এবং তাদের থেকে তার শাস্তিও লাঘব করা হবে না। আমি প্রত্যেক অকৃতজ্ঞকে এভাবেই শাস্তি দিয়ে থাকি।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نار\")।",
+      "matched_concepts": [
+        "نار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 36,
+      "surah_name_ar": "يس",
+      "surah_name_transliteration": "Ya-Sin",
+      "surah_name_bn": "ইয়াসীন",
+      "ayah_number": 80,
+      "arabic": "ٱلَّذِي جَعَلَ لَكُم مِّنَ ٱلشَّجَرِ ٱلۡأَخۡضَرِ نَارٗا فَإِذَآ أَنتُم مِّنۡهُ تُوقِدُونَ",
+      "bangla": "যিনি তোমাদের জন্যে সবুজ বৃক্ষ থেকে আগুন উৎপন্ন করেন। তখন তোমরা তা থেকে আগুন জ্বালাও।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نارا\")।",
+      "matched_concepts": [
+        "نارا"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 38,
+      "surah_name_ar": "ص",
+      "surah_name_transliteration": "Sad",
+      "surah_name_bn": "আরবি বর্ণ সাদ",
+      "ayah_number": 27,
+      "arabic": "وَمَا خَلَقۡنَا ٱلسَّمَآءَ وَٱلۡأَرۡضَ وَمَا بَيۡنَهُمَا بَٰطِلٗاۚ ذَٰلِكَ ظَنُّ ٱلَّذِينَ كَفَرُواْۚ فَوَيۡلٞ لِّلَّذِينَ كَفَرُواْ مِنَ ٱلنَّارِ",
+      "bangla": "আমি আসমান-যমীন ও এতদুভয়ের মধ্যবর্তী কোন কিছু অযথা সৃষ্টি করিনি। এটা কাফেরদের ধারণা। অতএব, কাফেরদের জন্যে রয়েছে দূর্ভোগ অর্থাৎ জাহান্নাম।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 38,
+      "surah_name_ar": "ص",
+      "surah_name_transliteration": "Sad",
+      "surah_name_bn": "আরবি বর্ণ সাদ",
+      "ayah_number": 59,
+      "arabic": "هَٰذَا فَوۡجٞ مُّقۡتَحِمٞ مَّعَكُمۡ لَا مَرۡحَبَۢا بِهِمۡۚ إِنَّهُمۡ صَالُواْ ٱلنَّارِ",
+      "bangla": "এই তো একদল তোমাদের সাথে প্রবেশ করছে। তাদের জন্যে অভিনন্দন নেই তারা তো জাহান্নামে প্রবেশ করবে।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 38,
+      "surah_name_ar": "ص",
+      "surah_name_transliteration": "Sad",
+      "surah_name_bn": "আরবি বর্ণ সাদ",
+      "ayah_number": 61,
+      "arabic": "قَالُواْ رَبَّنَا مَن قَدَّمَ لَنَا هَٰذَا فَزِدۡهُ عَذَابٗا ضِعۡفٗا فِي ٱلنَّارِ",
+      "bangla": "তারা বলবে, হে আমাদের পালনকর্তা, যে আমাদেরকে এর সম্মুখীন করেছে, আপনি জাহান্নামে তার শাস্তি দ্বিগুণ করে দিন।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 38,
+      "surah_name_ar": "ص",
+      "surah_name_transliteration": "Sad",
+      "surah_name_bn": "আরবি বর্ণ সাদ",
+      "ayah_number": 64,
+      "arabic": "إِنَّ ذَٰلِكَ لَحَقّٞ تَخَاصُمُ أَهۡلِ ٱلنَّارِ",
+      "bangla": "এটা অর্থাৎ জাহান্নামীদের পারস্পরিক বাক-বিতন্ডা অবশ্যম্ভাবী।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 38,
+      "surah_name_ar": "ص",
+      "surah_name_transliteration": "Sad",
+      "surah_name_bn": "আরবি বর্ণ সাদ",
+      "ayah_number": 76,
+      "arabic": "قَالَ أَنَا۠ خَيۡرٞ مِّنۡهُ خَلَقۡتَنِي مِن نَّارٖ وَخَلَقۡتَهُۥ مِن طِينٖ",
+      "bangla": "সে বললঃ আমি তার চেয়ে উত্তম আপনি আমাকে আগুনের দ্বারা সৃষ্টি করেছেন, আর তাকে সৃষ্টি করেছেন মাটির দ্বারা।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نار\")।",
+      "matched_concepts": [
+        "نار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 39,
+      "surah_name_ar": "الزمر",
+      "surah_name_transliteration": "Az-Zumar",
+      "surah_name_bn": "দলবদ্ধ জনতা",
+      "ayah_number": 8,
+      "arabic": "۞وَإِذَا مَسَّ ٱلۡإِنسَٰنَ ضُرّٞ دَعَا رَبَّهُۥ مُنِيبًا إِلَيۡهِ ثُمَّ إِذَا خَوَّلَهُۥ نِعۡمَةٗ مِّنۡهُ نَسِيَ مَا كَانَ يَدۡعُوٓاْ إِلَيۡهِ مِن قَبۡلُ وَجَعَلَ لِلَّهِ أَندَادٗا لِّيُضِلَّ عَن سَبِيلِهِۦۚ قُلۡ تَمَتَّعۡ بِكُفۡرِكَ قَلِيلًا إِنَّكَ مِنۡ أَصۡحَٰبِ ٱلنَّارِ",
+      "bangla": "যখন মানুষকে দুঃখ-কষ্ট স্পর্শ করে, তখন সে একাগ্রচিত্তে তার পালনকর্তাকে ডাকে, অতঃপর তিনি যখন তাকে নেয়ামত দান করেন, তখন সে কষ্টের কথা বিস্মৃত হয়ে যায়, যার জন্যে পূর্বে ডেকেছিল এবং আল্লাহর সমকক্ষ স্থির করে; যাতে করে অপরকে আল্লাহর পথ থেকে বিভ্রান্ত করে। বলুন, তুমি তোমার কুফর সহকারে কিছুকাল জীবনোপভোগ করে নাও। নিশ্চয় তুমি জাহান্নামীদের অন্তর্ভূক্ত।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 39,
+      "surah_name_ar": "الزمر",
+      "surah_name_transliteration": "Az-Zumar",
+      "surah_name_bn": "দলবদ্ধ জনতা",
+      "ayah_number": 16,
+      "arabic": "لَهُم مِّن فَوۡقِهِمۡ ظُلَلٞ مِّنَ ٱلنَّارِ وَمِن تَحۡتِهِمۡ ظُلَلٞۚ ذَٰلِكَ يُخَوِّفُ ٱللَّهُ بِهِۦ عِبَادَهُۥۚ يَٰعِبَادِ فَٱتَّقُونِ",
+      "bangla": "তাদের জন্যে উপর দিক থেকে এবং নীচের দিক থেকে আগুনের মেঘমালা থাকবে। এ শাস্তি দ্বারা আল্লাহ তাঁর বান্দাদেরকে সতর্ক করেন যে, হে আমার বান্দাগণ, আমাকে ভয় কর।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 39,
+      "surah_name_ar": "الزمر",
+      "surah_name_transliteration": "Az-Zumar",
+      "surah_name_bn": "দলবদ্ধ জনতা",
+      "ayah_number": 19,
+      "arabic": "أَفَمَنۡ حَقَّ عَلَيۡهِ كَلِمَةُ ٱلۡعَذَابِ أَفَأَنتَ تُنقِذُ مَن فِي ٱلنَّارِ",
+      "bangla": "যার জন্যে শাস্তির হুকুম অবধারিত হয়ে গেছে আপনি কি সে জাহান্নামীকে মুক্ত করতে পারবেন",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 40,
+      "surah_name_ar": "غافر",
+      "surah_name_transliteration": "Ghafir",
+      "surah_name_bn": "ক্ষমাকারী",
+      "ayah_number": 6,
+      "arabic": "وَكَذَٰلِكَ حَقَّتۡ كَلِمَتُ رَبِّكَ عَلَى ٱلَّذِينَ كَفَرُوٓاْ أَنَّهُمۡ أَصۡحَٰبُ ٱلنَّارِ",
+      "bangla": "এভাবে কাফেরদের বেলায় আপনার পালনকর্তার এ বাক্য সত্য হল যে, তারা জাহান্নামী।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 40,
+      "surah_name_ar": "غافر",
+      "surah_name_transliteration": "Ghafir",
+      "surah_name_bn": "ক্ষমাকারী",
+      "ayah_number": 41,
+      "arabic": "۞وَيَٰقَوۡمِ مَا لِيٓ أَدۡعُوكُمۡ إِلَى ٱلنَّجَوٰةِ وَتَدۡعُونَنِيٓ إِلَى ٱلنَّارِ",
+      "bangla": "হে আমার কওম, ব্যাপার কি, আমি তোমাদেরকে দাওয়াত দেই মুক্তির দিকে, আর তোমরা আমাকে দাওয়াত দাও জাহান্নামের দিকে।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 40,
+      "surah_name_ar": "غافر",
+      "surah_name_transliteration": "Ghafir",
+      "surah_name_bn": "ক্ষমাকারী",
+      "ayah_number": 43,
+      "arabic": "لَا جَرَمَ أَنَّمَا تَدۡعُونَنِيٓ إِلَيۡهِ لَيۡسَ لَهُۥ دَعۡوَةٞ فِي ٱلدُّنۡيَا وَلَا فِي ٱلۡأٓخِرَةِ وَأَنَّ مَرَدَّنَآ إِلَى ٱللَّهِ وَأَنَّ ٱلۡمُسۡرِفِينَ هُمۡ أَصۡحَٰبُ ٱلنَّارِ",
+      "bangla": "এতে সন্দেহ নেই যে, তোমরা আমাকে যার দিকে দাওয়াত দাও, হইকালে ও পরকালে তার কোন দাওয়াত নেই! আমাদের প্রত্যাবর্তন আল্লাহর দিকে এবং সীমা লংঘকারীরাই জাহান্নামী।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 40,
+      "surah_name_ar": "غافر",
+      "surah_name_transliteration": "Ghafir",
+      "surah_name_bn": "ক্ষমাকারী",
+      "ayah_number": 46,
+      "arabic": "ٱلنَّارُ يُعۡرَضُونَ عَلَيۡهَا غُدُوّٗا وَعَشِيّٗاۚ وَيَوۡمَ تَقُومُ ٱلسَّاعَةُ أَدۡخِلُوٓاْ ءَالَ فِرۡعَوۡنَ أَشَدَّ ٱلۡعَذَابِ",
+      "bangla": "সকালে ও সন্ধ্যায় তাদেরকে আগুনের সামনে পেশ করা হয় এবং যেদিন কেয়ামত সংঘটিত হবে, সেদিন আদেশ করা হবে, ফেরাউন গোত্রকে কঠিনতর আযাবে দাখিল কর।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 40,
+      "surah_name_ar": "غافر",
+      "surah_name_transliteration": "Ghafir",
+      "surah_name_bn": "ক্ষমাকারী",
+      "ayah_number": 47,
+      "arabic": "وَإِذۡ يَتَحَآجُّونَ فِي ٱلنَّارِ فَيَقُولُ ٱلضُّعَفَـٰٓؤُاْ لِلَّذِينَ ٱسۡتَكۡبَرُوٓاْ إِنَّا كُنَّا لَكُمۡ تَبَعٗا فَهَلۡ أَنتُم مُّغۡنُونَ عَنَّا نَصِيبٗا مِّنَ ٱلنَّارِ",
+      "bangla": "যখন তারা জাহান্নামে পরস্পর বিতর্ক করবে, অতঃপর দূর্বলরা অহংকারীদেরকে বলবে, আমরা তোমাদের অনুসারী ছিলাম। তোমরা এখন জাহান্নামের আগুনের কিছু অংশ আমাদের থেকে নিবৃত করবে কি",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 40,
+      "surah_name_ar": "غافر",
+      "surah_name_transliteration": "Ghafir",
+      "surah_name_bn": "ক্ষমাকারী",
+      "ayah_number": 49,
+      "arabic": "وَقَالَ ٱلَّذِينَ فِي ٱلنَّارِ لِخَزَنَةِ جَهَنَّمَ ٱدۡعُواْ رَبَّكُمۡ يُخَفِّفۡ عَنَّا يَوۡمٗا مِّنَ ٱلۡعَذَابِ",
+      "bangla": "যারা জাহান্নামে আছে, তারা জাহান্নামের রক্ষীদেরকে বলবে, তোমরা তোমাদের পালনকর্তাকে বল, তিনি যেন আমাদের থেকে একদিনের আযাব লাঘব করে দেন।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 40,
+      "surah_name_ar": "غافر",
+      "surah_name_transliteration": "Ghafir",
+      "surah_name_bn": "ক্ষমাকারী",
+      "ayah_number": 72,
+      "arabic": "فِي ٱلۡحَمِيمِ ثُمَّ فِي ٱلنَّارِ يُسۡجَرُونَ",
+      "bangla": "ফুটন্ত পানিতে, অতঃপর তাদেরকে আগুনে জ্বালানো হবে।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 41,
+      "surah_name_ar": "فصلت",
+      "surah_name_transliteration": "Fussilat",
+      "surah_name_bn": "সুস্পষ্ট বিবরণ",
+      "ayah_number": 19,
+      "arabic": "وَيَوۡمَ يُحۡشَرُ أَعۡدَآءُ ٱللَّهِ إِلَى ٱلنَّارِ فَهُمۡ يُوزَعُونَ",
+      "bangla": "যেদিন আল্লাহর শত্রুদেরকে অগ্নিকুন্ডের দিকে ঠেলে নেওয়া হবে। এবং ওদের বিন্যস্ত করা হবে বিভিন্ন দলে।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 41,
+      "surah_name_ar": "فصلت",
+      "surah_name_transliteration": "Fussilat",
+      "surah_name_bn": "সুস্পষ্ট বিবরণ",
+      "ayah_number": 24,
+      "arabic": "فَإِن يَصۡبِرُواْ فَٱلنَّارُ مَثۡوٗى لَّهُمۡۖ وَإِن يَسۡتَعۡتِبُواْ فَمَا هُم مِّنَ ٱلۡمُعۡتَبِينَ",
+      "bangla": "অতঃপর যদি তারা সবর করে, তবুও জাহান্নামই তাদের আবাসস্থল। আর যদি তারা ওযরখাহী করে, তবে তাদের ওযর কবুল করা হবে না।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"فالنار\")।",
+      "matched_concepts": [
+        "فالنار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 41,
+      "surah_name_ar": "فصلت",
+      "surah_name_transliteration": "Fussilat",
+      "surah_name_bn": "সুস্পষ্ট বিবরণ",
+      "ayah_number": 28,
+      "arabic": "ذَٰلِكَ جَزَآءُ أَعۡدَآءِ ٱللَّهِ ٱلنَّارُۖ لَهُمۡ فِيهَا دَارُ ٱلۡخُلۡدِ جَزَآءَۢ بِمَا كَانُواْ بِـَٔايَٰتِنَا يَجۡحَدُونَ",
+      "bangla": "এটা আল্লাহর শত্রুদের শাস্তি-জাহান্নাম। তাতে তাদের জন্যে রয়েছে স্থায়ী আবাস, আমার আয়াতসমূহ অস্বীকার করার প্রতিফলস্বরূপ।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 41,
+      "surah_name_ar": "فصلت",
+      "surah_name_transliteration": "Fussilat",
+      "surah_name_bn": "সুস্পষ্ট বিবরণ",
+      "ayah_number": 40,
+      "arabic": "إِنَّ ٱلَّذِينَ يُلۡحِدُونَ فِيٓ ءَايَٰتِنَا لَا يَخۡفَوۡنَ عَلَيۡنَآۗ أَفَمَن يُلۡقَىٰ فِي ٱلنَّارِ خَيۡرٌ أَم مَّن يَأۡتِيٓ ءَامِنٗا يَوۡمَ ٱلۡقِيَٰمَةِۚ ٱعۡمَلُواْ مَا شِئۡتُمۡ إِنَّهُۥ بِمَا تَعۡمَلُونَ بَصِيرٌ",
+      "bangla": "নিশ্চয় যারা আমার আয়াতসমূহের ব্যাপারে বক্রতা অবলম্বন করে, তারা আমার কাছে গোপন নয়। যে ব্যক্তি জাহান্নামে নিক্ষিপ্ত হবে সে শ্রেষ্ঠ, না যে কেয়ামতের দিন নিরাপদে আসবে? তোমরা যা ইচ্ছা কর, নিশ্চয় তিনি দেখেন যা তোমরা কর।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 45,
+      "surah_name_ar": "الجاثية",
+      "surah_name_transliteration": "Al-Jathiyah",
+      "surah_name_bn": "নতজানু",
+      "ayah_number": 34,
+      "arabic": "وَقِيلَ ٱلۡيَوۡمَ نَنسَىٰكُمۡ كَمَا نَسِيتُمۡ لِقَآءَ يَوۡمِكُمۡ هَٰذَا وَمَأۡوَىٰكُمُ ٱلنَّارُ وَمَا لَكُم مِّن نَّـٰصِرِينَ",
+      "bangla": "বলা হবে, আজ আমি তোমাদেরকে ভুলে যাব, যেমন তোমরা এ দিনের সাক্ষাৎকে ভুলে গিয়েছিলে। তোমাদের আবাসস্থল জাহান্নাম এবং তোমাদের সাহায্যকারী নেই।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 46,
+      "surah_name_ar": "الأحقاف",
+      "surah_name_transliteration": "Al-Ahqaf",
+      "surah_name_bn": "বালুর পাহাড়",
+      "ayah_number": 20,
+      "arabic": "وَيَوۡمَ يُعۡرَضُ ٱلَّذِينَ كَفَرُواْ عَلَى ٱلنَّارِ أَذۡهَبۡتُمۡ طَيِّبَٰتِكُمۡ فِي حَيَاتِكُمُ ٱلدُّنۡيَا وَٱسۡتَمۡتَعۡتُم بِهَا فَٱلۡيَوۡمَ تُجۡزَوۡنَ عَذَابَ ٱلۡهُونِ بِمَا كُنتُمۡ تَسۡتَكۡبِرُونَ فِي ٱلۡأَرۡضِ بِغَيۡرِ ٱلۡحَقِّ وَبِمَا كُنتُمۡ تَفۡسُقُونَ",
+      "bangla": "যেদিন কাফেরদেরকে জাহান্নামের কাছে উপস্থিত করা হবে সেদিন বলা হবে, তোমরা তোমাদের সুখ পার্থিব জীবনেই নিঃশেষ করেছ এবং সেগুলো ভোগ করেছ সুতরাং আজ তোমাদেরকে অপমানকর আযাবের শাস্তি দেয়া হবে; কারণ, তোমরা পৃথিবীতে অন্যায় ভাবে অহংকার করতে এবং তোমরা পাপাচার করতে।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 46,
+      "surah_name_ar": "الأحقاف",
+      "surah_name_transliteration": "Al-Ahqaf",
+      "surah_name_bn": "বালুর পাহাড়",
+      "ayah_number": 34,
+      "arabic": "وَيَوۡمَ يُعۡرَضُ ٱلَّذِينَ كَفَرُواْ عَلَى ٱلنَّارِ أَلَيۡسَ هَٰذَا بِٱلۡحَقِّۖ قَالُواْ بَلَىٰ وَرَبِّنَاۚ قَالَ فَذُوقُواْ ٱلۡعَذَابَ بِمَا كُنتُمۡ تَكۡفُرُونَ",
+      "bangla": "যেদিন কাফেরদেরকে জাহান্নামের সামনে পেশ করা হবে, সেদিন বলা হবে, এটা কি সত্য নয়? তারা বলবে, হঁ্যা আমাদের পালনকর্তার শপথ। আল্লাহ বলবেন, আযাব আস্বাদন কর। কারণ, তোমরা কুফরী করতে।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 47,
+      "surah_name_ar": "محمد",
+      "surah_name_transliteration": "Muhammad",
+      "surah_name_bn": "নবী মুহাম্মদ",
+      "ayah_number": 12,
+      "arabic": "إِنَّ ٱللَّهَ يُدۡخِلُ ٱلَّذِينَ ءَامَنُواْ وَعَمِلُواْ ٱلصَّـٰلِحَٰتِ جَنَّـٰتٖ تَجۡرِي مِن تَحۡتِهَا ٱلۡأَنۡهَٰرُۖ وَٱلَّذِينَ كَفَرُواْ يَتَمَتَّعُونَ وَيَأۡكُلُونَ كَمَا تَأۡكُلُ ٱلۡأَنۡعَٰمُ وَٱلنَّارُ مَثۡوٗى لَّهُمۡ",
+      "bangla": "যারা বিশ্বাস করে ও সৎকর্ম করে, আল্লাহ তাদেরকে জান্নাতে দাখিল করবেন, যার নিম্নদেশে নির্ঝরিণীসমূহ প্রবাহিত হয়। আর যারা কাফের, তারা ভোগ-বিলাসে মত্ত থাকে এবং চতুস্পদ জন্তুর মত আহার করে। তাদের বাসস্থান জাহান্নাম।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"والنار\")।",
+      "matched_concepts": [
+        "والنار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 47,
+      "surah_name_ar": "محمد",
+      "surah_name_transliteration": "Muhammad",
+      "surah_name_bn": "নবী মুহাম্মদ",
+      "ayah_number": 15,
+      "arabic": "مَّثَلُ ٱلۡجَنَّةِ ٱلَّتِي وُعِدَ ٱلۡمُتَّقُونَۖ فِيهَآ أَنۡهَٰرٞ مِّن مَّآءٍ غَيۡرِ ءَاسِنٖ وَأَنۡهَٰرٞ مِّن لَّبَنٖ لَّمۡ يَتَغَيَّرۡ طَعۡمُهُۥ وَأَنۡهَٰرٞ مِّنۡ خَمۡرٖ لَّذَّةٖ لِّلشَّـٰرِبِينَ وَأَنۡهَٰرٞ مِّنۡ عَسَلٖ مُّصَفّٗىۖ وَلَهُمۡ فِيهَا مِن كُلِّ ٱلثَّمَرَٰتِ وَمَغۡفِرَةٞ مِّن رَّبِّهِمۡۖ كَمَنۡ هُوَ خَٰلِدٞ فِي ٱلنَّارِ وَسُقُواْ مَآءً حَمِيمٗا فَقَطَّعَ أَمۡعَآءَهُمۡ",
+      "bangla": "পরহেযগারদেরকে যে জান্নাতের ওয়াদা দেয়া হয়েছে, তার অবস্থা নিম্নরূপঃ তাতে আছে পানির নহর, নির্মল দুধের নহর যারা স্বাদ অপরিবর্তনীয়, পানকারীদের জন্যে সুস্বাদু শরাবের নহর এবং পরিশোধিত মধুর নহর। তথায় তাদের জন্যে আছে রকমারি ফল-মূল ও তাদের পালনকর্তার ক্ষমা। পরহেযগাররা কি তাদের সমান, যারা জাহান্নামে অনন্তকাল থাকবে এবং যাদেরকে পান করতে দেয়া হবে ফুটন্ত পানি অতঃপর তা তাদের নাড়িভূঁড়ি ছিন্ন বিচ্ছিন্ন করে দেবে",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 51,
+      "surah_name_ar": "الذاريات",
+      "surah_name_transliteration": "Adh-Dhariyat",
+      "surah_name_bn": "বিক্ষেপকারী বাতাস",
+      "ayah_number": 13,
+      "arabic": "يَوۡمَ هُمۡ عَلَى ٱلنَّارِ يُفۡتَنُونَ",
+      "bangla": "যেদিন তারা অগ্নিতে পতিত হবে",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 52,
+      "surah_name_ar": "الطور",
+      "surah_name_transliteration": "At-Tur",
+      "surah_name_bn": "পাহাড়",
+      "ayah_number": 13,
+      "arabic": "يَوۡمَ يُدَعُّونَ إِلَىٰ نَارِ جَهَنَّمَ دَعًّا",
+      "bangla": "সেদিন তোমাদেরকে জাহান্নামের অগ্নির দিকে ধাক্কা মেরে মেরে নিয়ে যাওয়া হবে।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نار\")।",
+      "matched_concepts": [
+        "نار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 52,
+      "surah_name_ar": "الطور",
+      "surah_name_transliteration": "At-Tur",
+      "surah_name_bn": "পাহাড়",
+      "ayah_number": 14,
+      "arabic": "هَٰذِهِ ٱلنَّارُ ٱلَّتِي كُنتُم بِهَا تُكَذِّبُونَ",
+      "bangla": "এবং বলা হবেঃ এই সেই অগ্নি, যাকে তোমরা মিথ্যা বলতে",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 54,
+      "surah_name_ar": "القمر",
+      "surah_name_transliteration": "Al-Qamar",
+      "surah_name_bn": "চাঁদ",
+      "ayah_number": 48,
+      "arabic": "يَوۡمَ يُسۡحَبُونَ فِي ٱلنَّارِ عَلَىٰ وُجُوهِهِمۡ ذُوقُواْ مَسَّ سَقَرَ",
+      "bangla": "যেদিন তাদেরকে মুখ হিঁচড়ে টেনে নেয়া হবে জাহান্নামে, বলা হবেঃ অগ্নির খাদ্য আস্বাদন কর।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 55,
+      "surah_name_ar": "الرحمن",
+      "surah_name_transliteration": "Ar-Rahman",
+      "surah_name_bn": "পরম করুণাময়",
+      "ayah_number": 15,
+      "arabic": "وَخَلَقَ ٱلۡجَآنَّ مِن مَّارِجٖ مِّن نَّارٖ",
+      "bangla": "এবং জিনকে সৃষ্টি করেছেন অগ্নিশিখা থেকে।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نار\")।",
+      "matched_concepts": [
+        "نار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 55,
+      "surah_name_ar": "الرحمن",
+      "surah_name_transliteration": "Ar-Rahman",
+      "surah_name_bn": "পরম করুণাময়",
+      "ayah_number": 35,
+      "arabic": "يُرۡسَلُ عَلَيۡكُمَا شُوَاظٞ مِّن نَّارٖ وَنُحَاسٞ فَلَا تَنتَصِرَانِ",
+      "bangla": "ছাড়া হবে তোমাদের প্রতি অগ্নিস্ফুলিঙ্গ ও ধুম্রকুঞ্জ তখন তোমরা সেসব প্রতিহত করতে পারবে না।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نار\")।",
+      "matched_concepts": [
+        "نار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 56,
+      "surah_name_ar": "الواقعة",
+      "surah_name_transliteration": "Al-Waqi'ah",
+      "surah_name_bn": "নিশ্চিত ঘটনা",
+      "ayah_number": 71,
+      "arabic": "أَفَرَءَيۡتُمُ ٱلنَّارَ ٱلَّتِي تُورُونَ",
+      "bangla": "তোমরা যে অগ্নি প্রজ্জ্বলিত কর, সে সম্পর্কে ভেবে দেখেছ কি",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 57,
+      "surah_name_ar": "الحديد",
+      "surah_name_transliteration": "Al-Hadid",
+      "surah_name_bn": "লোহা",
+      "ayah_number": 15,
+      "arabic": "فَٱلۡيَوۡمَ لَا يُؤۡخَذُ مِنكُمۡ فِدۡيَةٞ وَلَا مِنَ ٱلَّذِينَ كَفَرُواْۚ مَأۡوَىٰكُمُ ٱلنَّارُۖ هِيَ مَوۡلَىٰكُمۡۖ وَبِئۡسَ ٱلۡمَصِيرُ",
+      "bangla": "অতএব, আজ তোমাদের কাছ থেকে কোন মুক্তিপন গ্রহণ করা হবে না। এবং কাফেরদের কাছ থেকেও নয়। তোমাদের সবার আবাস্থল জাহান্নাম। সেটাই তোমাদের সঙ্গী। কতই না নিকৃষ্ট এই প্রত্যাবর্তন স্থল।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 58,
+      "surah_name_ar": "المجادلة",
+      "surah_name_transliteration": "Al-Mujadila",
+      "surah_name_bn": "অনুযোগকারিণী",
+      "ayah_number": 17,
+      "arabic": "لَّن تُغۡنِيَ عَنۡهُمۡ أَمۡوَٰلُهُمۡ وَلَآ أَوۡلَٰدُهُم مِّنَ ٱللَّهِ شَيۡـًٔاۚ أُوْلَـٰٓئِكَ أَصۡحَٰبُ ٱلنَّارِۖ هُمۡ فِيهَا خَٰلِدُونَ",
+      "bangla": "আল্লাহর কবল থেকে তাদের ধন-সম্পদ ও সন্তান-সন্ততি তাদেরকে মোটেই বাঁচাতে পারবেনা। তারাই জাহান্নামের অধিবাসী তথায় তারা চিরকাল থাকবে।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 59,
+      "surah_name_ar": "الحشر",
+      "surah_name_transliteration": "Al-Hashr",
+      "surah_name_bn": "সমাবেশ",
+      "ayah_number": 3,
+      "arabic": "وَلَوۡلَآ أَن كَتَبَ ٱللَّهُ عَلَيۡهِمُ ٱلۡجَلَآءَ لَعَذَّبَهُمۡ فِي ٱلدُّنۡيَاۖ وَلَهُمۡ فِي ٱلۡأٓخِرَةِ عَذَابُ ٱلنَّارِ",
+      "bangla": "আল্লাহ যদি তাদের জন্যে নির্বাসন অবধারিত না করতেন, তবে তাদেরকে দুনিয়াতে শাস্তি দিতেন। আর পরকালে তাদের জন্যে রয়েছে জাহান্নামের আযাব।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 59,
+      "surah_name_ar": "الحشر",
+      "surah_name_transliteration": "Al-Hashr",
+      "surah_name_bn": "সমাবেশ",
+      "ayah_number": 17,
+      "arabic": "فَكَانَ عَٰقِبَتَهُمَآ أَنَّهُمَا فِي ٱلنَّارِ خَٰلِدَيۡنِ فِيهَاۚ وَذَٰلِكَ جَزَـٰٓؤُاْ ٱلظَّـٰلِمِينَ",
+      "bangla": "অতঃপর উভয়ের পরিণতি হবে এই যে, তারা জাহান্নামে যাবে এবং চিরকাল তথায় বসবাস করবে। এটাই জালেমদের শাস্তি।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 59,
+      "surah_name_ar": "الحشر",
+      "surah_name_transliteration": "Al-Hashr",
+      "surah_name_bn": "সমাবেশ",
+      "ayah_number": 20,
+      "arabic": "لَا يَسۡتَوِيٓ أَصۡحَٰبُ ٱلنَّارِ وَأَصۡحَٰبُ ٱلۡجَنَّةِۚ أَصۡحَٰبُ ٱلۡجَنَّةِ هُمُ ٱلۡفَآئِزُونَ",
+      "bangla": "জাহান্নামের অধিবাসী এবং জান্নাতের অধিবাসী সমান হতে পারে না। যারা জান্নাতের অধিবাসী, তারাই সফলকাম।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 64,
+      "surah_name_ar": "التغابن",
+      "surah_name_transliteration": "At-Taghabun",
+      "surah_name_bn": "মোহ অপসারণ",
+      "ayah_number": 10,
+      "arabic": "وَٱلَّذِينَ كَفَرُواْ وَكَذَّبُواْ بِـَٔايَٰتِنَآ أُوْلَـٰٓئِكَ أَصۡحَٰبُ ٱلنَّارِ خَٰلِدِينَ فِيهَاۖ وَبِئۡسَ ٱلۡمَصِيرُ",
+      "bangla": "আর যারা কাফের এবং আমার আয়াতসমূহকে মিথ্যা বলে, তারাই জাহান্নামের অধিবাসী, তারা তথায় অনন্তকাল থাকবে। কতই না মন্দ প্রত্যাবর্তনস্থল এটা।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 66,
+      "surah_name_ar": "التحريم",
+      "surah_name_transliteration": "At-Tahrim",
+      "surah_name_bn": "নিষিদ্ধকরণ",
+      "ayah_number": 6,
+      "arabic": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُواْ قُوٓاْ أَنفُسَكُمۡ وَأَهۡلِيكُمۡ نَارٗا وَقُودُهَا ٱلنَّاسُ وَٱلۡحِجَارَةُ عَلَيۡهَا مَلَـٰٓئِكَةٌ غِلَاظٞ شِدَادٞ لَّا يَعۡصُونَ ٱللَّهَ مَآ أَمَرَهُمۡ وَيَفۡعَلُونَ مَا يُؤۡمَرُونَ",
+      "bangla": "মুমিনগণ, তোমরা নিজেদেরকে এবং তোমাদের পরিবার-পরিজনকে সেই অগ্নি থেকে রক্ষা কর, যার ইন্ধন হবে মানুষ ও প্রস্তর, যাতে নিয়োজিত আছে পাষাণ হৃদয়, কঠোরস্বভাব ফেরেশতাগণ। তারা আল্লাহ তা’আলা যা আদেশ করেন, তা অমান্য করে না এবং যা করতে আদেশ করা হয়, তাই করে।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نارا\")।",
+      "matched_concepts": [
+        "نارا"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 66,
+      "surah_name_ar": "التحريم",
+      "surah_name_transliteration": "At-Tahrim",
+      "surah_name_bn": "নিষিদ্ধকরণ",
+      "ayah_number": 10,
+      "arabic": "ضَرَبَ ٱللَّهُ مَثَلٗا لِّلَّذِينَ كَفَرُواْ ٱمۡرَأَتَ نُوحٖ وَٱمۡرَأَتَ لُوطٖۖ كَانَتَا تَحۡتَ عَبۡدَيۡنِ مِنۡ عِبَادِنَا صَٰلِحَيۡنِ فَخَانَتَاهُمَا فَلَمۡ يُغۡنِيَا عَنۡهُمَا مِنَ ٱللَّهِ شَيۡـٔٗا وَقِيلَ ٱدۡخُلَا ٱلنَّارَ مَعَ ٱلدَّـٰخِلِينَ",
+      "bangla": "আল্লাহ তা’আলা কাফেরদের জন্যে নূহ-পত্নী ও লূত-পত্নীর দৃষ্টান্ত বর্ণনা করেছেন। তারা ছিল আমার দুই ধর্মপরায়ণ বান্দার গৃহে। অতঃপর তারা তাদের সাথে বিশ্বাসঘাতকতা করল। ফলে নূহ ও লূত তাদেরকে আল্লাহ তা’আলার কবল থেকে রক্ষা করতে পারল না এবং তাদেরকে বলা হলঃ জাহান্নামীদের সাথে জাহান্নামে চলে যাও।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 71,
+      "surah_name_ar": "نوح",
+      "surah_name_transliteration": "Nuh",
+      "surah_name_bn": "নবী নূহ",
+      "ayah_number": 25,
+      "arabic": "مِّمَّا خَطِيٓـَٰٔتِهِمۡ أُغۡرِقُواْ فَأُدۡخِلُواْ نَارٗا فَلَمۡ يَجِدُواْ لَهُم مِّن دُونِ ٱللَّهِ أَنصَارٗا",
+      "bangla": "তাদের গোনাহসমূহের দরুন তাদেরকে নিমজ্জিত করা হয়েছে, অতঃপর দাখিল করা হয়েছে জাহান্নামে। অতঃপর তারা আল্লাহ তা’আলা ব্যতীত কাউকে সাহায্যকারী পায়নি।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نارا\")।",
+      "matched_concepts": [
+        "نارا"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 72,
+      "surah_name_ar": "الجن",
+      "surah_name_transliteration": "Al-Jinn",
+      "surah_name_bn": "জিন সম্প্রদায়",
+      "ayah_number": 23,
+      "arabic": "إِلَّا بَلَٰغٗا مِّنَ ٱللَّهِ وَرِسَٰلَٰتِهِۦۚ وَمَن يَعۡصِ ٱللَّهَ وَرَسُولَهُۥ فَإِنَّ لَهُۥ نَارَ جَهَنَّمَ خَٰلِدِينَ فِيهَآ أَبَدًا",
+      "bangla": "কিন্তু আল্লাহ তা’আলার বাণী পৌছানো ও তাঁর পয়গাম প্রচার করাই আমার কাজ। যে আল্লাহ ও তাঁর রসূলকে অমান্য করে, তার জন্যে রয়েছে জাহান্নামের অগ্নি। তথায় তারা চিরকাল থাকবে।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نار\")।",
+      "matched_concepts": [
+        "نار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 74,
+      "surah_name_ar": "المدثر",
+      "surah_name_transliteration": "Al-Muddaththir",
+      "surah_name_bn": "পোশাক পরিহিত",
+      "ayah_number": 31,
+      "arabic": "وَمَا جَعَلۡنَآ أَصۡحَٰبَ ٱلنَّارِ إِلَّا مَلَـٰٓئِكَةٗۖ وَمَا جَعَلۡنَا عِدَّتَهُمۡ إِلَّا فِتۡنَةٗ لِّلَّذِينَ كَفَرُواْ لِيَسۡتَيۡقِنَ ٱلَّذِينَ أُوتُواْ ٱلۡكِتَٰبَ وَيَزۡدَادَ ٱلَّذِينَ ءَامَنُوٓاْ إِيمَٰنٗا وَلَا يَرۡتَابَ ٱلَّذِينَ أُوتُواْ ٱلۡكِتَٰبَ وَٱلۡمُؤۡمِنُونَ وَلِيَقُولَ ٱلَّذِينَ فِي قُلُوبِهِم مَّرَضٞ وَٱلۡكَٰفِرُونَ مَاذَآ أَرَادَ ٱللَّهُ بِهَٰذَا مَثَلٗاۚ كَذَٰلِكَ يُضِلُّ ٱللَّهُ مَن يَشَآءُ وَيَهۡدِي مَن يَشَآءُۚ وَمَا يَعۡلَمُ جُنُودَ رَبِّكَ إِلَّا هُوَۚ وَمَا هِيَ إِلَّا ذِكۡرَىٰ لِلۡبَشَرِ",
+      "bangla": "আমি জাহান্নামের তত্ত্বাবধায়ক ফেরেশতাই রেখেছি। আমি কাফেরদেরকে পরীক্ষা করার জন্যেই তার এই সংখ্যা করেছি-যাতে কিতাবীরা দৃঢ়বিশ্বাসী হয়, মুমিনদের ঈমান বৃদ্ধি পায় এবং কিতাবীরা ও মুমিনগণ সন্দেহ পোষণ না করে এবং যাতে যাদের অন্তরে রোগ আছে, তারা এবং কাফেররা বলে যে, আল্লাহ এর দ্বারা কি বোঝাতে চেয়েছেন। এমনিভাবে আল্লাহ যাকে ইচ্ছা পথভ্রষ্ট করেন এবং যাকে ইচ্ছা সৎপথে চালান। আপনার পালনকর্তার বাহিনী সম্পর্কে একমাত্র তিনিই জানেন এটা তো মানুষের জন্যে উপদেশ বৈ নয়।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 85,
+      "surah_name_ar": "البروج",
+      "surah_name_transliteration": "Al-Buruj",
+      "surah_name_bn": "নক্ষত্রপুঞ্জ",
+      "ayah_number": 5,
+      "arabic": "ٱلنَّارِ ذَاتِ ٱلۡوَقُودِ",
+      "bangla": "অনেক ইন্ধনের অগ্নিসংযোগকারীরা",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 87,
+      "surah_name_ar": "الأعلى",
+      "surah_name_transliteration": "Al-A'la",
+      "surah_name_bn": "সর্বোন্নত",
+      "ayah_number": 12,
+      "arabic": "ٱلَّذِي يَصۡلَى ٱلنَّارَ ٱلۡكُبۡرَىٰ",
+      "bangla": "সে মহা-অগ্নিতে প্রবেশ করবে।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "matched_concepts": [
+        "النار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 88,
+      "surah_name_ar": "الغاشية",
+      "surah_name_transliteration": "Al-Ghashiyah",
+      "surah_name_bn": "বিহ্বলকর ঘটনা",
+      "ayah_number": 4,
+      "arabic": "تَصۡلَىٰ نَارًا حَامِيَةٗ",
+      "bangla": "তারা জ্বলন্ত আগুনে পতিত হবে।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نارا\")।",
+      "matched_concepts": [
+        "نارا"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 90,
+      "surah_name_ar": "البلد",
+      "surah_name_transliteration": "Al-Balad",
+      "surah_name_bn": "নগর",
+      "ayah_number": 20,
+      "arabic": "عَلَيۡهِمۡ نَارٞ مُّؤۡصَدَةُۢ",
+      "bangla": "তারা অগ্নিপরিবেষ্টিত অবস্থায় বন্দী থাকবে।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نار\")।",
+      "matched_concepts": [
+        "نار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 92,
+      "surah_name_ar": "الليل",
+      "surah_name_transliteration": "Al-Layl",
+      "surah_name_bn": "রাত",
+      "ayah_number": 14,
+      "arabic": "فَأَنذَرۡتُكُمۡ نَارٗا تَلَظَّىٰ",
+      "bangla": "অতএব, আমি তোমাদেরকে প্রজ্বলিত অগ্নি সম্পর্কে সতর্ক করে দিয়েছি।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نارا\")।",
+      "matched_concepts": [
+        "نارا"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 98,
+      "surah_name_ar": "البينة",
+      "surah_name_transliteration": "Al-Bayyinah",
+      "surah_name_bn": "প্রমাণ",
+      "ayah_number": 6,
+      "arabic": "إِنَّ ٱلَّذِينَ كَفَرُواْ مِنۡ أَهۡلِ ٱلۡكِتَٰبِ وَٱلۡمُشۡرِكِينَ فِي نَارِ جَهَنَّمَ خَٰلِدِينَ فِيهَآۚ أُوْلَـٰٓئِكَ هُمۡ شَرُّ ٱلۡبَرِيَّةِ",
+      "bangla": "আহলে-কিতাব ও মুশরেকদের মধ্যে যারা কাফের, তারা জাহান্নামের আগুনে স্থায়ীভাবে থাকবে। তারাই সৃষ্টির অধম।",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نار\")।",
+      "matched_concepts": [
+        "نار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 101,
+      "surah_name_ar": "القارعة",
+      "surah_name_transliteration": "Al-Qari'ah",
+      "surah_name_bn": "মহাসংকট",
+      "ayah_number": 11,
+      "arabic": "نَارٌ حَامِيَةُۢ",
+      "bangla": "প্রজ্জ্বলিত অগ্নি",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نار\")।",
+      "matched_concepts": [
+        "نار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 104,
+      "surah_name_ar": "الهمزة",
+      "surah_name_transliteration": "Al-Humazah",
+      "surah_name_bn": "পরনিন্দাকারী",
+      "ayah_number": 6,
+      "arabic": "نَارُ ٱللَّهِ ٱلۡمُوقَدَةُ",
+      "bangla": "এটা আল্লাহর প্রজ্জ্বলিত অগ্নি",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نار\")।",
+      "matched_concepts": [
+        "نار"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 111,
+      "surah_name_ar": "المسد",
+      "surah_name_transliteration": "Al-Masad",
+      "surah_name_bn": "খেজুরের পাকানো (রশি)",
+      "ayah_number": 3,
+      "arabic": "سَيَصۡلَىٰ نَارٗا ذَاتَ لَهَبٖ",
+      "bangla": "সত্বরই সে প্রবেশ করবে লেলিহান অগ্নিতে",
+      "topic": "আগুন",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نارا\")।",
+      "matched_concepts": [
+        "نارا"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    }
+  ],
+  "strong_context": [
+    {
+      "surah_number": 21,
+      "surah_name_ar": "الأنبياء",
+      "surah_name_transliteration": "Al-Anbya",
+      "surah_name_bn": "নবীগণ",
+      "ayah_number": 68,
+      "arabic": "قَالُواْ حَرِّقُوهُ وَٱنصُرُوٓاْ ءَالِهَتَكُمۡ إِن كُنتُمۡ فَٰعِلِينَ",
+      "bangla": "তারা বললঃ একে পুড়িয়ে দাও এবং তোমাদের উপাস্যদের সাহায্য কর, যদি তোমরা কিছু করতে চাও।",
+      "topic": "আগুন",
+      "relevance": "STRONG_CONTEXT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতটি ইবরাহীম (আ.)-কে আগুনে নিক্ষেপ করার ঘটনা ও আগুনকে শীতল হওয়ার নির্দেশ (সূরা আল-আম্বিয়া)। ২১:৬৯ ইতিমধ্যে সরাসরি কীওয়ার্ড দ্বারা DIRECT হিসেবে ধরা পড়ে; ৬৮ ও ৭০ প্রাসঙ্গিক STRONG_CONTEXT। এই ঘটনার অংশ; সরাসরি \"আগুন\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "matched_concepts": [
+        "21:68-70"
+      ],
+      "found_by": [
+        "narrative"
+      ],
+      "confidence": 0.75,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 21,
+      "surah_name_ar": "الأنبياء",
+      "surah_name_transliteration": "Al-Anbya",
+      "surah_name_bn": "নবীগণ",
+      "ayah_number": 70,
+      "arabic": "وَأَرَادُواْ بِهِۦ كَيۡدٗا فَجَعَلۡنَٰهُمُ ٱلۡأَخۡسَرِينَ",
+      "bangla": "তারা ইব্রাহীমের বিরুদ্ধে ফন্দি আঁটতে চাইল, অতঃপর আমি তাদেরকেই সর্বাধিক ক্ষতিগ্রস্থ করে দিলাম।",
+      "topic": "আগুন",
+      "relevance": "STRONG_CONTEXT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতটি ইবরাহীম (আ.)-কে আগুনে নিক্ষেপ করার ঘটনা ও আগুনকে শীতল হওয়ার নির্দেশ (সূরা আল-আম্বিয়া)। ২১:৬৯ ইতিমধ্যে সরাসরি কীওয়ার্ড দ্বারা DIRECT হিসেবে ধরা পড়ে; ৬৮ ও ৭০ প্রাসঙ্গিক STRONG_CONTEXT। এই ঘটনার অংশ; সরাসরি \"আগুন\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "matched_concepts": [
+        "21:68-70"
+      ],
+      "found_by": [
+        "narrative"
+      ],
+      "confidence": 0.75,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    }
+  ],
+  "related": [],
+  "completeness_report": {
+    "topic": "আগুন",
+    "generated_at": "2026-09-15T00:09:28.183Z",
+    "total_ayahs_scanned": 6236,
+    "keyword_candidates": 138,
+    "narrative_candidates": 3,
+    "total_candidates_before_dedup": 141,
+    "total_candidates_after_dedup": 140,
+    "final_direct": 138,
+    "final_strong_context": 2,
+    "final_related": 0,
+    "rejected": 0,
+    "needs_human_review": 0,
+    "audit_checklist": [
+      {
+        "question": "Direct Arabic keywords কি সব search করেছি?",
+        "answer": "হ্যাঁ — টপিক ম্যাপের verified arabic_terms লিস্ট অনুযায়ী সম্পূর্ণ ৬২৩৬ আয়াতের কর্পাসে exact/whole-word search করা হয়েছে।"
+      },
+      {
+        "question": "Morphological variations (root surface forms) কি search করেছি?",
+        "answer": "হ্যাঁ — arabic_terms লিস্টে root-এর একাধিক surface form (উপসর্গ/প্রত্যয়সহ) অন্তর্ভুক্ত, প্রতিটি scripts/discover-forms.ts দিয়ে কর্পাসে verify করে নেওয়া হয়েছে।"
+      },
+      {
+        "question": "Synonyms/concepts কি search করেছি?",
+        "answer": "এই টপিকের জন্য কোনো পৃথক concept/synonym root কনফিগার করা হয়নি (শুধুমাত্র primary root-ই যথেষ্ট প্রাসঙ্গিক বিবেচিত হয়েছে)।"
+      },
+      {
+        "question": "Narrative/event context কি search করেছি?",
+        "answer": "হ্যাঁ — curated narrative_refs passage range অনুযায়ী সংশ্লিষ্ট ঘটনার সব আয়াত পরীক্ষা করা হয়েছে।"
+      },
+      {
+        "question": "কোনো আয়াত শুধু keyword না থাকার কারণে বাদ পড়েছে কি?",
+        "answer": "না — keyword ছাড়াও concept ও narrative layer সমান্তরালে সম্পূর্ণ কর্পাসে চালানো হয়েছে, তাই কোনো layer অন্য layer-কে \"শর্টসার্কিট\" করে বাদ দেয়নি।"
+      },
+      {
+        "question": "কোনো weak association ভুল করে include হয়েছে কি?",
+        "answer": "0 টি candidate confidence threshold-এর নিচে থাকায় REVIEW_REQUIRED হিসেবে চিহ্নিত হয়েছে এবং চূড়ান্ত DIRECT/STRONG_CONTEXT তালিকায় স্বয়ংক্রিয়ভাবে রাখা হয়নি।"
+      }
+    ]
+  }
+}

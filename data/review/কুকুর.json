@@ -1,0 +1,64 @@
+{
+  "topic": "কুকুর",
+  "generated_at": "2026-09-15T00:09:25.837Z",
+  "review_queue": [],
+  "excluded_candidates": [],
+  "audit_trail": [
+    {
+      "surah_number": 5,
+      "ayah_number": 4,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "مكلبين"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"কুকুর\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"مكلبين\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 7,
+      "ayah_number": 176,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الكلب"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"কুকুর\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الكلب\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 18,
+      "ayah_number": 18,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "وكلبهم"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"কুকুর\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"وكلبهم\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 18,
+      "ayah_number": 22,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "كلبهم"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"কুকুর\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"كلبهم\")।",
+      "confidence": 0.95
+    }
+  ]
+}

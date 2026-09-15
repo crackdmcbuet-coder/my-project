@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-brand-50 text-gray-900;
+  }
+}
+
+.arabic-text {
+  font-family: var(--font-arabic), 'Traditional Arabic', serif;
+  direction: rtl;
+  text-align: right;
+  line-height: 2.4;
+  font-size: 1.65rem;
+  letter-spacing: 0.01em;
+}
+
+.bangla-text {
+  font-family: var(--font-bangla), 'SolaimanLipi', sans-serif;
+  direction: ltr;
+  text-align: left;
+  line-height: 1.9;
+  font-size: 1.05rem;
+}
+
+@media (max-width: 480px) {
+  .arabic-text {
+    font-size: 1.35rem;
+    line-height: 2.1;
+  }
+  .bangla-text {
+    font-size: 0.95rem;
+  }
+}

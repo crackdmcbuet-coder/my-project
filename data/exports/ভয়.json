@@ -1,0 +1,2456 @@
+{
+  "topic": "ভয়",
+  "generated_at": "2026-09-15T00:09:29.082Z",
+  "total_ayahs": 6236,
+  "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+  "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+  "dataset_version": "quran-json@3.1.2 / merged 2026",
+  "direct": [
+    {
+      "surah_number": 2,
+      "surah_name_ar": "البقرة",
+      "surah_name_transliteration": "Al-Baqarah",
+      "surah_name_bn": "বকনা-বাছুর",
+      "ayah_number": 38,
+      "arabic": "قُلۡنَا ٱهۡبِطُواْ مِنۡهَا جَمِيعٗاۖ فَإِمَّا يَأۡتِيَنَّكُم مِّنِّي هُدٗى فَمَن تَبِعَ هُدَايَ فَلَا خَوۡفٌ عَلَيۡهِمۡ وَلَا هُمۡ يَحۡزَنُونَ",
+      "bangla": "আমি হুকুম করলাম, তোমরা সবাই নীচে নেমে যাও। অতঃপর যদি তোমাদের নিকট আমার পক্ষ থেকে কোন হেদায়েত পৌঁছে, তবে যে ব্যক্তি আমার সে হেদায়েত অনুসারে চলবে, তার উপর না কোন ভয় আসবে, না (কোন কারণে) তারা চিন্তাগ্রস্ত ও সন্তপ্ত হবে।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"خوف\")।",
+      "matched_concepts": [
+        "خوف"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 2,
+      "surah_name_ar": "البقرة",
+      "surah_name_transliteration": "Al-Baqarah",
+      "surah_name_bn": "বকনা-বাছুর",
+      "ayah_number": 62,
+      "arabic": "إِنَّ ٱلَّذِينَ ءَامَنُواْ وَٱلَّذِينَ هَادُواْ وَٱلنَّصَٰرَىٰ وَٱلصَّـٰبِـِٔينَ مَنۡ ءَامَنَ بِٱللَّهِ وَٱلۡيَوۡمِ ٱلۡأٓخِرِ وَعَمِلَ صَٰلِحٗا فَلَهُمۡ أَجۡرُهُمۡ عِندَ رَبِّهِمۡ وَلَا خَوۡفٌ عَلَيۡهِمۡ وَلَا هُمۡ يَحۡزَنُونَ",
+      "bangla": "নিঃসন্দেহে যারা মুসলমান হয়েছে এবং যারা ইহুদী, নাসারা ও সাবেঈন, (তাদের মধ্য থেকে) যারা ঈমান এনেছে আল্লাহর প্রতি ও কিয়ামত দিবসের প্রতি এবং সৎকাজ করেছে, তাদের জন্য রয়েছে তার সওয়াব তাদের পালনকর্তার কাছে। আর তাদের কোনই ভয়-ভীতি নেই, তারা দুঃখিতও হবে না।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"خوف\")।",
+      "matched_concepts": [
+        "خوف"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 2,
+      "surah_name_ar": "البقرة",
+      "surah_name_transliteration": "Al-Baqarah",
+      "surah_name_bn": "বকনা-বাছুর",
+      "ayah_number": 112,
+      "arabic": "بَلَىٰۚ مَنۡ أَسۡلَمَ وَجۡهَهُۥ لِلَّهِ وَهُوَ مُحۡسِنٞ فَلَهُۥٓ أَجۡرُهُۥ عِندَ رَبِّهِۦ وَلَا خَوۡفٌ عَلَيۡهِمۡ وَلَا هُمۡ يَحۡزَنُونَ",
+      "bangla": "হাঁ, যে ব্যক্তি নিজেকে আল্লাহর উদ্দেশ্যে সমর্পন করেছে এবং সে সৎকর্মশীলও বটে তার জন্য তার পালনকর্তার কাছে পুরস্কার বয়েছে। তাদের ভয় নেই এবং তারা চিন্তিতও হবে না।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"خوف\")।",
+      "matched_concepts": [
+        "خوف"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 2,
+      "surah_name_ar": "البقرة",
+      "surah_name_transliteration": "Al-Baqarah",
+      "surah_name_bn": "বকনা-বাছুর",
+      "ayah_number": 155,
+      "arabic": "وَلَنَبۡلُوَنَّكُم بِشَيۡءٖ مِّنَ ٱلۡخَوۡفِ وَٱلۡجُوعِ وَنَقۡصٖ مِّنَ ٱلۡأَمۡوَٰلِ وَٱلۡأَنفُسِ وَٱلثَّمَرَٰتِۗ وَبَشِّرِ ٱلصَّـٰبِرِينَ",
+      "bangla": "এবং অবশ্যই আমি তোমাদিগকে পরীক্ষা করব কিছুটা ভয়, ক্ষুধা, মাল ও জানের ক্ষতি ও ফল-ফসল বিনষ্টের মাধ্যমে। তবে সুসংবাদ দাও সবরকারীদের।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الخوف\")।",
+      "matched_concepts": [
+        "الخوف"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 2,
+      "surah_name_ar": "البقرة",
+      "surah_name_transliteration": "Al-Baqarah",
+      "surah_name_bn": "বকনা-বাছুর",
+      "ayah_number": 182,
+      "arabic": "فَمَنۡ خَافَ مِن مُّوصٖ جَنَفًا أَوۡ إِثۡمٗا فَأَصۡلَحَ بَيۡنَهُمۡ فَلَآ إِثۡمَ عَلَيۡهِۚ إِنَّ ٱللَّهَ غَفُورٞ رَّحِيمٞ",
+      "bangla": "যদি কেউ ওসীয়তকারীর পক্ষ থেকে আশংকা করে পক্ষপাতিত্বের অথবা কোন অপরাধমূলক সিদ্ধান্তের এবং তাদের মধ্যে মীমাংসা করে দেয়, তবে তার কোন গোনাহ হবে না। নিশ্চয় আল্লাহ তা’আলা ক্ষমাশীল, অতি দয়ালু।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"خاف\")।",
+      "matched_concepts": [
+        "خاف"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 2,
+      "surah_name_ar": "البقرة",
+      "surah_name_transliteration": "Al-Baqarah",
+      "surah_name_bn": "বকনা-বাছুর",
+      "ayah_number": 229,
+      "arabic": "ٱلطَّلَٰقُ مَرَّتَانِۖ فَإِمۡسَاكُۢ بِمَعۡرُوفٍ أَوۡ تَسۡرِيحُۢ بِإِحۡسَٰنٖۗ وَلَا يَحِلُّ لَكُمۡ أَن تَأۡخُذُواْ مِمَّآ ءَاتَيۡتُمُوهُنَّ شَيۡـًٔا إِلَّآ أَن يَخَافَآ أَلَّا يُقِيمَا حُدُودَ ٱللَّهِۖ فَإِنۡ خِفۡتُمۡ أَلَّا يُقِيمَا حُدُودَ ٱللَّهِ فَلَا جُنَاحَ عَلَيۡهِمَا فِيمَا ٱفۡتَدَتۡ بِهِۦۗ تِلۡكَ حُدُودُ ٱللَّهِ فَلَا تَعۡتَدُوهَاۚ وَمَن يَتَعَدَّ حُدُودَ ٱللَّهِ فَأُوْلَـٰٓئِكَ هُمُ ٱلظَّـٰلِمُونَ",
+      "bangla": "তালাকে-‘রাজঈ’ হ’ল দুবার পর্যন্ত তারপর হয় নিয়মানুযায়ী রাখবে, না হয় সহৃদয়তার সঙ্গে বর্জন করবে। আর নিজের দেয়া সম্পদ থেকে কিছু ফিরিয়ে নেয়া তোমাদের জন্য জায়েয নয় তাদের কাছ থেকে। কিন্তু যে ক্ষেত্রে স্বামী ও স্ত্রী উভয়েই এ ব্যাপারে ভয় করে যে, তারা আল্লাহর নির্দেশ বজায় রাখতে পারবে না, অতঃপর যদি তোমাদের ভয় হয় যে, তারা উভয়েই আল্লাহর নির্দেশ বজায় রাখতে পারবে না, তাহলে সেক্ষেত্রে স্ত্রী যদি বিনিময় দিয়ে অব্যাহতি নিয়ে নেয়, তবে উভয়ের মধ্যে কারোরই কোন পাপ নেই। এই হলো আল্লাহ কর্তৃক নির্ধারিত সীমা। কাজেই একে অতিক্রম করো না। বস্তুতঃ যারা আল্লাহ কর্তৃক নির্ধারিত সীমা লঙ্ঘন করবে, তারাই জালেম।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"يخافا\")।",
+      "matched_concepts": [
+        "يخافا"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 2,
+      "surah_name_ar": "البقرة",
+      "surah_name_transliteration": "Al-Baqarah",
+      "surah_name_bn": "বকনা-বাছুর",
+      "ayah_number": 262,
+      "arabic": "ٱلَّذِينَ يُنفِقُونَ أَمۡوَٰلَهُمۡ فِي سَبِيلِ ٱللَّهِ ثُمَّ لَا يُتۡبِعُونَ مَآ أَنفَقُواْ مَنّٗا وَلَآ أَذٗى لَّهُمۡ أَجۡرُهُمۡ عِندَ رَبِّهِمۡ وَلَا خَوۡفٌ عَلَيۡهِمۡ وَلَا هُمۡ يَحۡزَنُونَ",
+      "bangla": "যারা স্বীয় ধন সম্পদ আল্লাহর রাস্তায় ব্যয় করে, এরপর ব্যয় করার পর সে অনুগ্রহের কথা প্রকাশ করে না এবং কষ্টও দেয় না, তাদেরই জন্যে তাদের পালনকর্তার কাছে রয়েছে পুরস্কার এবং তাদের কোন আশংকা নেই, তারা চিন্তিতও হবে না।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"خوف\")।",
+      "matched_concepts": [
+        "خوف"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 2,
+      "surah_name_ar": "البقرة",
+      "surah_name_transliteration": "Al-Baqarah",
+      "surah_name_bn": "বকনা-বাছুর",
+      "ayah_number": 274,
+      "arabic": "ٱلَّذِينَ يُنفِقُونَ أَمۡوَٰلَهُم بِٱلَّيۡلِ وَٱلنَّهَارِ سِرّٗا وَعَلَانِيَةٗ فَلَهُمۡ أَجۡرُهُمۡ عِندَ رَبِّهِمۡ وَلَا خَوۡفٌ عَلَيۡهِمۡ وَلَا هُمۡ يَحۡزَنُونَ",
+      "bangla": "যারা স্বীয় ধন-সম্পদ ব্যয় করে, রাত্রে ও দিনে, গোপনে ও প্রকাশ্যে। তাদের জন্যে তাদের সওয়াব রয়েছে তাদের পালনকর্তার কাছে। তাদের কোন আশংঙ্কা নেই এবং তারা চিন্তিত ও হবে না।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"خوف\")।",
+      "matched_concepts": [
+        "خوف"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 2,
+      "surah_name_ar": "البقرة",
+      "surah_name_transliteration": "Al-Baqarah",
+      "surah_name_bn": "বকনা-বাছুর",
+      "ayah_number": 277,
+      "arabic": "إِنَّ ٱلَّذِينَ ءَامَنُواْ وَعَمِلُواْ ٱلصَّـٰلِحَٰتِ وَأَقَامُواْ ٱلصَّلَوٰةَ وَءَاتَوُاْ ٱلزَّكَوٰةَ لَهُمۡ أَجۡرُهُمۡ عِندَ رَبِّهِمۡ وَلَا خَوۡفٌ عَلَيۡهِمۡ وَلَا هُمۡ يَحۡزَنُونَ",
+      "bangla": "নিশ্চয়ই যারা বিশ্বাস স্থাপন করেছে, সৎকাজ করেছে, নামায প্রতিষ্ঠিত করেছে এবং যাকাত দান করেছে, তাদের জন্যে তাদের পুরষ্কার তাদের পালনকর্তার কছে রয়েছে। তাদের কোন শঙ্কা নেই এবং তারা দুঃখিত হবে না।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"خوف\")।",
+      "matched_concepts": [
+        "خوف"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 3,
+      "surah_name_ar": "آل عمران",
+      "surah_name_transliteration": "Ali 'Imran",
+      "surah_name_bn": "ইমরানের পরিবার",
+      "ayah_number": 151,
+      "arabic": "سَنُلۡقِي فِي قُلُوبِ ٱلَّذِينَ كَفَرُواْ ٱلرُّعۡبَ بِمَآ أَشۡرَكُواْ بِٱللَّهِ مَا لَمۡ يُنَزِّلۡ بِهِۦ سُلۡطَٰنٗاۖ وَمَأۡوَىٰهُمُ ٱلنَّارُۖ وَبِئۡسَ مَثۡوَى ٱلظَّـٰلِمِينَ",
+      "bangla": "খুব শীঘ্রই আমি কাফেরদের মনে ভীতির সঞ্চার করবো। কারণ, ওরা আল্লাহর সাথে অংশীদার সাব্যস্ত করে যে সম্পর্কে কোন সনদ অবতীর্ণ করা হয়নি। আর ওদের ঠিকানা হলো দোযখের আগুন। বস্তুতঃ জালেমদের ঠিকানা অত্যন্ত নিকৃষ্ট।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে \"ভয়\"-এর একটি সমার্থক শব্দ (\"الرعب\", ru'b -- আতঙ্ক/ত্রাস) ব্যবহৃত হয়েছে।",
+      "matched_concepts": [
+        "الرعب"
+      ],
+      "found_by": [
+        "concept"
+      ],
+      "confidence": 0.8,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 3,
+      "surah_name_ar": "آل عمران",
+      "surah_name_transliteration": "Ali 'Imran",
+      "surah_name_bn": "ইমরানের পরিবার",
+      "ayah_number": 170,
+      "arabic": "فَرِحِينَ بِمَآ ءَاتَىٰهُمُ ٱللَّهُ مِن فَضۡلِهِۦ وَيَسۡتَبۡشِرُونَ بِٱلَّذِينَ لَمۡ يَلۡحَقُواْ بِهِم مِّنۡ خَلۡفِهِمۡ أَلَّا خَوۡفٌ عَلَيۡهِمۡ وَلَا هُمۡ يَحۡزَنُونَ",
+      "bangla": "আল্লাহ নিজের অনুগ্রহ থেকে যা দান করেছেন তার প্রেক্ষিতে তারা আনন্দ উদযাপন করছে। আর যারা এখনও তাদের কাছে এসে পৌঁছেনি তাদের পেছনে তাদের জন্যে আনন্দ প্রকাশ করে। কারণ, তাদের কোন ভয় ভীতিও নেই এবং কোন চিন্তা ভাবনাও নেই।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"خوف\")।",
+      "matched_concepts": [
+        "خوف"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 3,
+      "surah_name_ar": "آل عمران",
+      "surah_name_transliteration": "Ali 'Imran",
+      "surah_name_bn": "ইমরানের পরিবার",
+      "ayah_number": 175,
+      "arabic": "إِنَّمَا ذَٰلِكُمُ ٱلشَّيۡطَٰنُ يُخَوِّفُ أَوۡلِيَآءَهُۥ فَلَا تَخَافُوهُمۡ وَخَافُونِ إِن كُنتُم مُّؤۡمِنِينَ",
+      "bangla": "এরা যে রয়েছে, এরাই হলে শয়তান, এরা নিজেদের বন্ধুদের ব্যাপারে ভীতি প্রদর্শন করে। সুতরাং তোমরা তাদের ভয় করো না। আর তোমরা যদি ঈমানদার হয়ে থাক, তবে আমাকে ভয় কর।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"يخوف\", \"تخافوهم\", \"وخافون\")।",
+      "matched_concepts": [
+        "يخوف",
+        "تخافوهم",
+        "وخافون"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 4,
+      "surah_name_ar": "النساء",
+      "surah_name_transliteration": "An-Nisa",
+      "surah_name_bn": "নারী",
+      "ayah_number": 9,
+      "arabic": "وَلۡيَخۡشَ ٱلَّذِينَ لَوۡ تَرَكُواْ مِنۡ خَلۡفِهِمۡ ذُرِّيَّةٗ ضِعَٰفًا خَافُواْ عَلَيۡهِمۡ فَلۡيَتَّقُواْ ٱللَّهَ وَلۡيَقُولُواْ قَوۡلٗا سَدِيدًا",
+      "bangla": "তাদের ভয় করা উচিত, যারা নিজেদের পশ্চাতে দুর্বল অক্ষম সন্তান-সন্ততি ছেড়ে গেলে তাদের জন্যে তারাও আশঙ্কা করে; সুতরাং তারা যেন আল্লাহকে ভয় করে এবং সংগত কথা বলে।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"خافوا\")।",
+      "matched_concepts": [
+        "خافوا"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 4,
+      "surah_name_ar": "النساء",
+      "surah_name_transliteration": "An-Nisa",
+      "surah_name_bn": "নারী",
+      "ayah_number": 34,
+      "arabic": "ٱلرِّجَالُ قَوَّـٰمُونَ عَلَى ٱلنِّسَآءِ بِمَا فَضَّلَ ٱللَّهُ بَعۡضَهُمۡ عَلَىٰ بَعۡضٖ وَبِمَآ أَنفَقُواْ مِنۡ أَمۡوَٰلِهِمۡۚ فَٱلصَّـٰلِحَٰتُ قَٰنِتَٰتٌ حَٰفِظَٰتٞ لِّلۡغَيۡبِ بِمَا حَفِظَ ٱللَّهُۚ وَٱلَّـٰتِي تَخَافُونَ نُشُوزَهُنَّ فَعِظُوهُنَّ وَٱهۡجُرُوهُنَّ فِي ٱلۡمَضَاجِعِ وَٱضۡرِبُوهُنَّۖ فَإِنۡ أَطَعۡنَكُمۡ فَلَا تَبۡغُواْ عَلَيۡهِنَّ سَبِيلًاۗ إِنَّ ٱللَّهَ كَانَ عَلِيّٗا كَبِيرٗا",
+      "bangla": "পুরুষেরা নারীদের উপর কৃর্তত্বশীল এ জন্য যে, আল্লাহ একের উপর অন্যের বৈশিষ্ট্য দান করেছেন এবং এ জন্য যে, তারা তাদের অর্থ ব্যয় করে। সে মতে নেককার স্ত্রীলোকগণ হয় অনুগতা এবং আল্লাহ যা হেফাযতযোগ্য করে দিয়েছেন লোক চক্ষুর অন্তরালেও তার হেফাযত করে। আর যাদের মধ্যে অবাধ্যতার আশঙ্কা কর তাদের সদুপদেশ দাও, তাদের শয্যা ত্যাগ কর এবং প্রহার কর। যদি তাতে তারা বাধ্য হয়ে যায়, তবে আর তাদের জন্য অন্য কোন পথ অনুসন্ধান করো না। নিশ্চয় আল্লাহ সবার উপর শ্রেষ্ঠ।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"تخافون\")।",
+      "matched_concepts": [
+        "تخافون"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 4,
+      "surah_name_ar": "النساء",
+      "surah_name_transliteration": "An-Nisa",
+      "surah_name_bn": "নারী",
+      "ayah_number": 83,
+      "arabic": "وَإِذَا جَآءَهُمۡ أَمۡرٞ مِّنَ ٱلۡأَمۡنِ أَوِ ٱلۡخَوۡفِ أَذَاعُواْ بِهِۦۖ وَلَوۡ رَدُّوهُ إِلَى ٱلرَّسُولِ وَإِلَىٰٓ أُوْلِي ٱلۡأَمۡرِ مِنۡهُمۡ لَعَلِمَهُ ٱلَّذِينَ يَسۡتَنۢبِطُونَهُۥ مِنۡهُمۡۗ وَلَوۡلَا فَضۡلُ ٱللَّهِ عَلَيۡكُمۡ وَرَحۡمَتُهُۥ لَٱتَّبَعۡتُمُ ٱلشَّيۡطَٰنَ إِلَّا قَلِيلٗا",
+      "bangla": "আর যখন তাদের কছে পৌঁছে কোন সংবাদ শান্তি-সংক্রান্ত কিংবা ভয়ের, তখন তারা সেগুলোকে রটিয়ে দেয়। আর যদি সেগুলো পৌঁছে দিত রসূল পর্যন্ত কিংবা তাদের শাসকদের পর্যন্ত, তখন অনুসন্ধান করে দেখা যেত সেসব বিষয়, যা তাতে রয়েছে অনুসন্ধান করার মত। বস্তুতঃ আল্লাহর অনুগ্রহ ও করুণা যদি তোমাদের উপর বিদ্যমান না থাকত তবে তোমাদের অল্প কতিপয় লোক ব্যতীত সবাই শয়তানের অনুসরণ করতে শুরু করত",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الخوف\")।",
+      "matched_concepts": [
+        "الخوف"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 4,
+      "surah_name_ar": "النساء",
+      "surah_name_transliteration": "An-Nisa",
+      "surah_name_bn": "নারী",
+      "ayah_number": 128,
+      "arabic": "وَإِنِ ٱمۡرَأَةٌ خَافَتۡ مِنۢ بَعۡلِهَا نُشُوزًا أَوۡ إِعۡرَاضٗا فَلَا جُنَاحَ عَلَيۡهِمَآ أَن يُصۡلِحَا بَيۡنَهُمَا صُلۡحٗاۚ وَٱلصُّلۡحُ خَيۡرٞۗ وَأُحۡضِرَتِ ٱلۡأَنفُسُ ٱلشُّحَّۚ وَإِن تُحۡسِنُواْ وَتَتَّقُواْ فَإِنَّ ٱللَّهَ كَانَ بِمَا تَعۡمَلُونَ خَبِيرٗا",
+      "bangla": "যদি কোন নারী স্বীয় স্বামীর পক্ষ থেকে অসদাচরণ কিংবা উপেক্ষার আশংকা করে, তবে পরস্পর কোন মীমাংসা করে নিলে তাদের উভয়ের কোন গোনাহ নাই। মীমাংসা উত্তম। মনের সামনে লোভ বিদ্যমান আছে। যদি তোমরা উত্তম কাজ কর এবং খোদাভীরু হও, তবে, আল্লাহ তোমাদের সব কাজের খবর রাখেন।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"خافت\")।",
+      "matched_concepts": [
+        "خافت"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 5,
+      "surah_name_ar": "المائدة",
+      "surah_name_transliteration": "Al-Ma'idah",
+      "surah_name_bn": "খাদ্য পরিবেশিত টেবিল",
+      "ayah_number": 23,
+      "arabic": "قَالَ رَجُلَانِ مِنَ ٱلَّذِينَ يَخَافُونَ أَنۡعَمَ ٱللَّهُ عَلَيۡهِمَا ٱدۡخُلُواْ عَلَيۡهِمُ ٱلۡبَابَ فَإِذَا دَخَلۡتُمُوهُ فَإِنَّكُمۡ غَٰلِبُونَۚ وَعَلَى ٱللَّهِ فَتَوَكَّلُوٓاْ إِن كُنتُم مُّؤۡمِنِينَ",
+      "bangla": "খোদাভীরুদের মধ্য থেকে দু’ব্যক্তি বলল, যাদের প্রতি আল্লাহ অনুগ্রহ করেছিলেনঃ তোমরা তাদের উপর আক্রমণ করে দরজায় প্রবেশ কর। অতঃপর তোমরা যখন তাতে পবেশ করবে, তখন তোমরাই জয়ী হবে। আর আল্লাহর উপর ভরসা কর যদি তোমরা বিশ্বাসী হও।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"يخافون\")।",
+      "matched_concepts": [
+        "يخافون"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 5,
+      "surah_name_ar": "المائدة",
+      "surah_name_transliteration": "Al-Ma'idah",
+      "surah_name_bn": "খাদ্য পরিবেশিত টেবিল",
+      "ayah_number": 28,
+      "arabic": "لَئِنۢ بَسَطتَ إِلَيَّ يَدَكَ لِتَقۡتُلَنِي مَآ أَنَا۠ بِبَاسِطٖ يَدِيَ إِلَيۡكَ لِأَقۡتُلَكَۖ إِنِّيٓ أَخَافُ ٱللَّهَ رَبَّ ٱلۡعَٰلَمِينَ",
+      "bangla": "যদি তুমি আমাকে হত্যা করতে আমার দিকে হস্ত প্রসারিত কর, তবে আমি তোমাকে হত্যা করতে তোমার দিকে হস্ত প্রসারিত করব না। কেননা, আমি বিশ্বজগতের পালনকর্তা আল্লাহকে ভয় করি।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"اخاف\")।",
+      "matched_concepts": [
+        "اخاف"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 5,
+      "surah_name_ar": "المائدة",
+      "surah_name_transliteration": "Al-Ma'idah",
+      "surah_name_bn": "খাদ্য পরিবেশিত টেবিল",
+      "ayah_number": 54,
+      "arabic": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُواْ مَن يَرۡتَدَّ مِنكُمۡ عَن دِينِهِۦ فَسَوۡفَ يَأۡتِي ٱللَّهُ بِقَوۡمٖ يُحِبُّهُمۡ وَيُحِبُّونَهُۥٓ أَذِلَّةٍ عَلَى ٱلۡمُؤۡمِنِينَ أَعِزَّةٍ عَلَى ٱلۡكَٰفِرِينَ يُجَٰهِدُونَ فِي سَبِيلِ ٱللَّهِ وَلَا يَخَافُونَ لَوۡمَةَ لَآئِمٖۚ ذَٰلِكَ فَضۡلُ ٱللَّهِ يُؤۡتِيهِ مَن يَشَآءُۚ وَٱللَّهُ وَٰسِعٌ عَلِيمٌ",
+      "bangla": "হে মুমিনগণ, তোমাদের মধ্যে যে স্বীয় ধর্ম থেকে ফিরে যাবে, অচিরে আল্লাহ এমন সম্প্রদায় সৃষ্টি করবেন, যাদেরকে তিনি ভালবাসবেন এবং তারা তাঁকে ভালবাসবে। তারা মুসলমানদের প্রতি বিনয়-নম্র হবে এবং কাফেরদের প্রতি কঠোর হবে। তারা আল্লাহর পথে জেহাদ করবে এবং কোন তিরস্কারকারীর তিরস্কারে ভীত হবে না। এটি আল্লাহর অনুগ্রহ-তিনি যাকে ইচ্ছা দান করেন। আল্লাহ প্রাচুর্য দানকারী, মহাজ্ঞানী।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"يخافون\")।",
+      "matched_concepts": [
+        "يخافون"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 5,
+      "surah_name_ar": "المائدة",
+      "surah_name_transliteration": "Al-Ma'idah",
+      "surah_name_bn": "খাদ্য পরিবেশিত টেবিল",
+      "ayah_number": 69,
+      "arabic": "إِنَّ ٱلَّذِينَ ءَامَنُواْ وَٱلَّذِينَ هَادُواْ وَٱلصَّـٰبِـُٔونَ وَٱلنَّصَٰرَىٰ مَنۡ ءَامَنَ بِٱللَّهِ وَٱلۡيَوۡمِ ٱلۡأٓخِرِ وَعَمِلَ صَٰلِحٗا فَلَا خَوۡفٌ عَلَيۡهِمۡ وَلَا هُمۡ يَحۡزَنُونَ",
+      "bangla": "নিশ্চয় যারা মুসলমান, যারা ইহুদী, ছাবেয়ী বা খ্রীষ্টান, তাদের মধ্যে যারা বিশ্বাস স্থাপন করে আল্লাহর প্রতি, কিয়ামতের প্রতি এবং সৎকর্ম সম্পাদন করে, তাদের কোন ভয় নেই এবং তারা দুঃখিত হবে না।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"خوف\")।",
+      "matched_concepts": [
+        "خوف"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 5,
+      "surah_name_ar": "المائدة",
+      "surah_name_transliteration": "Al-Ma'idah",
+      "surah_name_bn": "খাদ্য পরিবেশিত টেবিল",
+      "ayah_number": 94,
+      "arabic": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُواْ لَيَبۡلُوَنَّكُمُ ٱللَّهُ بِشَيۡءٖ مِّنَ ٱلصَّيۡدِ تَنَالُهُۥٓ أَيۡدِيكُمۡ وَرِمَاحُكُمۡ لِيَعۡلَمَ ٱللَّهُ مَن يَخَافُهُۥ بِٱلۡغَيۡبِۚ فَمَنِ ٱعۡتَدَىٰ بَعۡدَ ذَٰلِكَ فَلَهُۥ عَذَابٌ أَلِيمٞ",
+      "bangla": "হে মুমিনগণ, আল্লাহ তোমাদেরকে এমন কিছু শিকারের মাধ্যমে পরীক্ষা করবেন, যে শিকার পর্যন্ত তোমাদের হাত ও বর্শা সহজেই পৌছতে পারবে-যাতে আল্লাহ বুঝতে পারেন যে, কে তাকে অদৃশ্যভাবে ভয়করে। অতএব, যে ব্যক্তি এরপর সীমা অতিক্রম করবে, তার জন্য যন্ত্রনাদায়ক শাস্তি রয়েছে।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"يخافه\")।",
+      "matched_concepts": [
+        "يخافه"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 5,
+      "surah_name_ar": "المائدة",
+      "surah_name_transliteration": "Al-Ma'idah",
+      "surah_name_bn": "খাদ্য পরিবেশিত টেবিল",
+      "ayah_number": 108,
+      "arabic": "ذَٰلِكَ أَدۡنَىٰٓ أَن يَأۡتُواْ بِٱلشَّهَٰدَةِ عَلَىٰ وَجۡهِهَآ أَوۡ يَخَافُوٓاْ أَن تُرَدَّ أَيۡمَٰنُۢ بَعۡدَ أَيۡمَٰنِهِمۡۗ وَٱتَّقُواْ ٱللَّهَ وَٱسۡمَعُواْۗ وَٱللَّهُ لَا يَهۡدِي ٱلۡقَوۡمَ ٱلۡفَٰسِقِينَ",
+      "bangla": "এটি এ বিষয়ের নিকটতম উপায় যে, তারা ঘটনাকে সঠিকভাবে প্রকাশ করবে অথবা আশঙ্কা করবে যে, তাদের কাছ থেকে কসম নেয়ার পর আবার কসম চাওয়া হবে। আল্লাহকে ভয় কর এবং শুন, আল্লাহ দুরাচারীদেরকে পথ-প্রদর্শন করবেন না।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"يخافوا\")।",
+      "matched_concepts": [
+        "يخافوا"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 6,
+      "surah_name_ar": "الأنعام",
+      "surah_name_transliteration": "Al-An'am",
+      "surah_name_bn": "গৃহপালিত পশু",
+      "ayah_number": 15,
+      "arabic": "قُلۡ إِنِّيٓ أَخَافُ إِنۡ عَصَيۡتُ رَبِّي عَذَابَ يَوۡمٍ عَظِيمٖ",
+      "bangla": "আপনি বলুন, আমি আমার প্রতিপালকের অবাধ্য হতে ভয় পাই কেননা, আমি একটি মহাদিবসের শাস্তিকে ভয় করি।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"اخاف\")।",
+      "matched_concepts": [
+        "اخاف"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 6,
+      "surah_name_ar": "الأنعام",
+      "surah_name_transliteration": "Al-An'am",
+      "surah_name_bn": "গৃহপালিত পশু",
+      "ayah_number": 48,
+      "arabic": "وَمَا نُرۡسِلُ ٱلۡمُرۡسَلِينَ إِلَّا مُبَشِّرِينَ وَمُنذِرِينَۖ فَمَنۡ ءَامَنَ وَأَصۡلَحَ فَلَا خَوۡفٌ عَلَيۡهِمۡ وَلَا هُمۡ يَحۡزَنُونَ",
+      "bangla": "আমি পয়গম্বরদেরকে প্রেরণ করি না, কিন্তু সুসংবাদাতা ও ভীতি প্রদর্শকরূপে অতঃপর যে বিশ্বাস স্থাপন করে এবং সংশোধিত হয়, তাদের কোন শঙ্কা নেই এবং তারা দুঃখিত হবে না।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"خوف\")।",
+      "matched_concepts": [
+        "خوف"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 6,
+      "surah_name_ar": "الأنعام",
+      "surah_name_transliteration": "Al-An'am",
+      "surah_name_bn": "গৃহপালিত পশু",
+      "ayah_number": 51,
+      "arabic": "وَأَنذِرۡ بِهِ ٱلَّذِينَ يَخَافُونَ أَن يُحۡشَرُوٓاْ إِلَىٰ رَبِّهِمۡ لَيۡسَ لَهُم مِّن دُونِهِۦ وَلِيّٞ وَلَا شَفِيعٞ لَّعَلَّهُمۡ يَتَّقُونَ",
+      "bangla": "আপনি এ কোরআন দ্বারা তাদেরকে ভয়-প্রদর্শন করুন, যারা আশঙ্কা করে স্বীয় পালনকর্তার কাছে এমতাবস্থায় একত্রিত হওয়ার যে, তাদের কোন সাহায্যকারী ও সুপারিশকারী হবে না-যাতে তারা গোনাহ থেকে বেঁচে থাকে।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"يخافون\")।",
+      "matched_concepts": [
+        "يخافون"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 6,
+      "surah_name_ar": "الأنعام",
+      "surah_name_transliteration": "Al-An'am",
+      "surah_name_bn": "গৃহপালিত পশু",
+      "ayah_number": 80,
+      "arabic": "وَحَآجَّهُۥ قَوۡمُهُۥۚ قَالَ أَتُحَـٰٓجُّوٓنِّي فِي ٱللَّهِ وَقَدۡ هَدَىٰنِۚ وَلَآ أَخَافُ مَا تُشۡرِكُونَ بِهِۦٓ إِلَّآ أَن يَشَآءَ رَبِّي شَيۡـٔٗاۚ وَسِعَ رَبِّي كُلَّ شَيۡءٍ عِلۡمًاۚ أَفَلَا تَتَذَكَّرُونَ",
+      "bangla": "তাঁর সাথে তার সম্প্রদায় বিতর্ক করল। সে বললঃ তোমরা কি আমার সাথে আল্লাহর একত্ববাদ সম্পর্কে বিতর্ক করছ; অথচ তিনি আমাকে পথ প্রদর্শন করেছেন। তোমরা যাদেরকে শরীক কর, আমি তাদেরকে ভয় করি না তবে আমার পালকর্তাই যদি কোন কষ্ট দিতে চান। আমার পালনকর্তাই প্রত্যেক বস্তুকে স্বীয় জ্ঞান দ্বারা বেষ্টন করে আছেন। তোমরা কি চিন্তা কর না",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"اخاف\")।",
+      "matched_concepts": [
+        "اخاف"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 6,
+      "surah_name_ar": "الأنعام",
+      "surah_name_transliteration": "Al-An'am",
+      "surah_name_bn": "গৃহপালিত পশু",
+      "ayah_number": 81,
+      "arabic": "وَكَيۡفَ أَخَافُ مَآ أَشۡرَكۡتُمۡ وَلَا تَخَافُونَ أَنَّكُمۡ أَشۡرَكۡتُم بِٱللَّهِ مَا لَمۡ يُنَزِّلۡ بِهِۦ عَلَيۡكُمۡ سُلۡطَٰنٗاۚ فَأَيُّ ٱلۡفَرِيقَيۡنِ أَحَقُّ بِٱلۡأَمۡنِۖ إِن كُنتُمۡ تَعۡلَمُونَ",
+      "bangla": "যাদেরকে তোমরা আল্লাহর সাথে শরীক করে রেখেছ, তাদেরকে কিরূপে ভয় কর, অথচ তোমরা ভয় কর না যে, তোমরা আল্লাহর সাথে এমন বস্তুকে শরীক করছ, যাদের সম্পর্কে আল্লাহ তোমাদের প্রতি কোন প্রমাণ অবতীর্ণ করেননি। অতএব, উভয় সম্প্রদায়ের মধ্যে শাস্তি লাভের অধিক যোগ্য কে, যদি তোমরা জ্ঞানী হয়ে থাক।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"اخاف\", \"تخافون\")।",
+      "matched_concepts": [
+        "اخاف",
+        "تخافون"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 7,
+      "surah_name_ar": "الأعراف",
+      "surah_name_transliteration": "Al-A'raf",
+      "surah_name_bn": "উচু স্থান",
+      "ayah_number": 35,
+      "arabic": "يَٰبَنِيٓ ءَادَمَ إِمَّا يَأۡتِيَنَّكُمۡ رُسُلٞ مِّنكُمۡ يَقُصُّونَ عَلَيۡكُمۡ ءَايَٰتِي فَمَنِ ٱتَّقَىٰ وَأَصۡلَحَ فَلَا خَوۡفٌ عَلَيۡهِمۡ وَلَا هُمۡ يَحۡزَنُونَ",
+      "bangla": "হে বনী-আদম, যদি তোমাদের কাছে তোমাদেরই মধ্য থেকে পয়গম্বর আগমন করে তোমাদেরকে আমার আয়াত সমূহ শুনায়, তবে যে ব্যক্তি সংযত হয় এবং সৎকাজ অবলম্বন করে, তাদের কোন আশঙ্কা নেই এবং তারা দুঃখিত হবে না।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"خوف\")।",
+      "matched_concepts": [
+        "خوف"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 7,
+      "surah_name_ar": "الأعراف",
+      "surah_name_transliteration": "Al-A'raf",
+      "surah_name_bn": "উচু স্থান",
+      "ayah_number": 49,
+      "arabic": "أَهَـٰٓؤُلَآءِ ٱلَّذِينَ أَقۡسَمۡتُمۡ لَا يَنَالُهُمُ ٱللَّهُ بِرَحۡمَةٍۚ ٱدۡخُلُواْ ٱلۡجَنَّةَ لَا خَوۡفٌ عَلَيۡكُمۡ وَلَآ أَنتُمۡ تَحۡزَنُونَ",
+      "bangla": "এরা কি তারাই; যাদের সম্পর্কে তোমরা কসম খেয়ে বলতে যে, আল্লাহ এদের প্রতি অনুগ্রহ করবেন না। প্রবেশ কর জান্নাতে। তোমাদের কোন আশঙ্কা নেই এবং তোমরা দুঃখিত হবে না।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"خوف\")।",
+      "matched_concepts": [
+        "خوف"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 7,
+      "surah_name_ar": "الأعراف",
+      "surah_name_transliteration": "Al-A'raf",
+      "surah_name_bn": "উচু স্থান",
+      "ayah_number": 56,
+      "arabic": "وَلَا تُفۡسِدُواْ فِي ٱلۡأَرۡضِ بَعۡدَ إِصۡلَٰحِهَا وَٱدۡعُوهُ خَوۡفٗا وَطَمَعًاۚ إِنَّ رَحۡمَتَ ٱللَّهِ قَرِيبٞ مِّنَ ٱلۡمُحۡسِنِينَ",
+      "bangla": "পৃথিবীকে কুসংস্কারমুক্ত ও ঠিক করার পর তাতে অনর্থ সৃষ্টি করো না। তাঁকে আহবান কর ভয় ও আশা সহকারে। নিশ্চয় আল্লাহর করুণা সৎকর্মশীলদের নিকটবর্তী।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"خوفا\")।",
+      "matched_concepts": [
+        "خوفا"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 7,
+      "surah_name_ar": "الأعراف",
+      "surah_name_transliteration": "Al-A'raf",
+      "surah_name_bn": "উচু স্থান",
+      "ayah_number": 59,
+      "arabic": "لَقَدۡ أَرۡسَلۡنَا نُوحًا إِلَىٰ قَوۡمِهِۦ فَقَالَ يَٰقَوۡمِ ٱعۡبُدُواْ ٱللَّهَ مَا لَكُم مِّنۡ إِلَٰهٍ غَيۡرُهُۥٓ إِنِّيٓ أَخَافُ عَلَيۡكُمۡ عَذَابَ يَوۡمٍ عَظِيمٖ",
+      "bangla": "নিশ্চয় আমি নূহকে তার সম্প্রদায়ের প্রতি পাঠিয়েছি। সে বললঃ হে আমার সম্প্রদায়, তোমরা আল্লাহর এবাদত কর। তিনি ব্যতীত তোমাদের কোন উপাস্য নেই। আমি তোমাদের জন্যে একটি মহাদিবসের শাস্তির আশঙ্কা করি।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"اخاف\")।",
+      "matched_concepts": [
+        "اخاف"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 8,
+      "surah_name_ar": "الأنفال",
+      "surah_name_transliteration": "Al-Anfal",
+      "surah_name_bn": "যুদ্ধ-লব্ধ ধনসম্পদ",
+      "ayah_number": 2,
+      "arabic": "إِنَّمَا ٱلۡمُؤۡمِنُونَ ٱلَّذِينَ إِذَا ذُكِرَ ٱللَّهُ وَجِلَتۡ قُلُوبُهُمۡ وَإِذَا تُلِيَتۡ عَلَيۡهِمۡ ءَايَٰتُهُۥ زَادَتۡهُمۡ إِيمَٰنٗا وَعَلَىٰ رَبِّهِمۡ يَتَوَكَّلُونَ",
+      "bangla": "যারা ঈমানদার, তারা এমন যে, যখন আল্লাহর নাম নেয়া হয় তখন ভীত হয়ে পড়ে তাদের অন্তর। আর যখন তাদের সামনে পাঠ করা হয় কালাম, তখন তাদের ঈমান বেড়ে যায় এবং তারা স্বীয় পরওয়ার দেগারের প্রতি ভরসা পোষণ করে।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে \"ভয়\"-এর একটি সমার্থক শব্দ (\"وجلت\", wajal -- হৃদয়ে ভীতি/কম্পন) ব্যবহৃত হয়েছে।",
+      "matched_concepts": [
+        "وجلت"
+      ],
+      "found_by": [
+        "concept"
+      ],
+      "confidence": 0.8,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 8,
+      "surah_name_ar": "الأنفال",
+      "surah_name_transliteration": "Al-Anfal",
+      "surah_name_bn": "যুদ্ধ-লব্ধ ধনসম্পদ",
+      "ayah_number": 12,
+      "arabic": "إِذۡ يُوحِي رَبُّكَ إِلَى ٱلۡمَلَـٰٓئِكَةِ أَنِّي مَعَكُمۡ فَثَبِّتُواْ ٱلَّذِينَ ءَامَنُواْۚ سَأُلۡقِي فِي قُلُوبِ ٱلَّذِينَ كَفَرُواْ ٱلرُّعۡبَ فَٱضۡرِبُواْ فَوۡقَ ٱلۡأَعۡنَاقِ وَٱضۡرِبُواْ مِنۡهُمۡ كُلَّ بَنَانٖ",
+      "bangla": "যখন নির্দেশ দান করেন ফেরেশতাদিগকে তোমাদের পরওয়ারদেগার যে, আমি সাথে রয়েছি তোমাদের, সুতরাং তোমরা মুসলমানদের চিত্তসমূহকে ধীরস্থির করে রাখ। আমি কাফেরদের মনে ভীতির সঞ্চার করে দেব। কাজেই গর্দানের উপর আঘাত হান এবং তাদেরকে কাট জোড়ায় জোড়ায়।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে \"ভয়\"-এর একটি সমার্থক শব্দ (\"الرعب\", ru'b -- আতঙ্ক/ত্রাস) ব্যবহৃত হয়েছে।",
+      "matched_concepts": [
+        "الرعب"
+      ],
+      "found_by": [
+        "concept"
+      ],
+      "confidence": 0.8,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 8,
+      "surah_name_ar": "الأنفال",
+      "surah_name_transliteration": "Al-Anfal",
+      "surah_name_bn": "যুদ্ধ-লব্ধ ধনসম্পদ",
+      "ayah_number": 26,
+      "arabic": "وَٱذۡكُرُوٓاْ إِذۡ أَنتُمۡ قَلِيلٞ مُّسۡتَضۡعَفُونَ فِي ٱلۡأَرۡضِ تَخَافُونَ أَن يَتَخَطَّفَكُمُ ٱلنَّاسُ فَـَٔاوَىٰكُمۡ وَأَيَّدَكُم بِنَصۡرِهِۦ وَرَزَقَكُم مِّنَ ٱلطَّيِّبَٰتِ لَعَلَّكُمۡ تَشۡكُرُونَ",
+      "bangla": "আর স্মরণ কর, যখন তোমরা ছিলে অল্প, পরাজিত অবস্থায় পড়েছিলে দেশে; ভীত-সস্ত্রস্ত্র ছিলে যে, তোমাদের না অন্যেরা ছোঁ মেরে নিয়ে যায়। অতঃপর তিনি তোমাদিগকে আশ্রয়ের ঠিকানা দিয়েছেন, স্বীয় সাহায্যের দ্বারা তোমাদিগকে শক্তি দান করেছেন এবং পরিচ্ছন্ন জীবিকা দিয়েছেন যাতে তোমরা শুকরিয়া আদায় কর।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"تخافون\")।",
+      "matched_concepts": [
+        "تخافون"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 8,
+      "surah_name_ar": "الأنفال",
+      "surah_name_transliteration": "Al-Anfal",
+      "surah_name_bn": "যুদ্ধ-লব্ধ ধনসম্পদ",
+      "ayah_number": 48,
+      "arabic": "وَإِذۡ زَيَّنَ لَهُمُ ٱلشَّيۡطَٰنُ أَعۡمَٰلَهُمۡ وَقَالَ لَا غَالِبَ لَكُمُ ٱلۡيَوۡمَ مِنَ ٱلنَّاسِ وَإِنِّي جَارٞ لَّكُمۡۖ فَلَمَّا تَرَآءَتِ ٱلۡفِئَتَانِ نَكَصَ عَلَىٰ عَقِبَيۡهِ وَقَالَ إِنِّي بَرِيٓءٞ مِّنكُمۡ إِنِّيٓ أَرَىٰ مَا لَا تَرَوۡنَ إِنِّيٓ أَخَافُ ٱللَّهَۚ وَٱللَّهُ شَدِيدُ ٱلۡعِقَابِ",
+      "bangla": "আর যখন সুদৃশ্য করে দিল শয়তান তাদের দৃষ্টিতে তাদের কার্যকলাপকে এবং বলল যে, আজকের দিনে কোন মানুষই তোমাদের উপর বিজয়ী হতে পারবে না আর আমি হলাম তোমাদের সমর্থক, অতঃপর যখন সামনাসামনী হল উভয় বাহিনী তখন সে অতি দ্রুত পায়ে পেছনে দিকে পালিয়ে গেল এবং বলল, আমি তোমাদের সাথে না-আমি দেখছি, যা তোমরা দেখছ না; আমি ভয় করি আল্লাহকে। আর আল্লাহর আযাব অত্যন্ত কঠিন।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"اخاف\")।",
+      "matched_concepts": [
+        "اخاف"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 8,
+      "surah_name_ar": "الأنفال",
+      "surah_name_transliteration": "Al-Anfal",
+      "surah_name_bn": "যুদ্ধ-লব্ধ ধনসম্পদ",
+      "ayah_number": 58,
+      "arabic": "وَإِمَّا تَخَافَنَّ مِن قَوۡمٍ خِيَانَةٗ فَٱنۢبِذۡ إِلَيۡهِمۡ عَلَىٰ سَوَآءٍۚ إِنَّ ٱللَّهَ لَا يُحِبُّ ٱلۡخَآئِنِينَ",
+      "bangla": "তবে কোন সম্প্রদায়ের ধোঁকা দেয়ার ব্যাপারে যদি তোমাদের ভয় থাকে, তবে তাদের চুক্তি তাদের দিকেই ছুঁড়ে ফেলে দাও এমনভাবে যেন হয়ে যাও তোমরাও তারা সমান। নিশ্চয়ই আল্লাহ ধোকাবাজ, প্রতারককে পছন্দ করেন না।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"تخافن\")।",
+      "matched_concepts": [
+        "تخافن"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 10,
+      "surah_name_ar": "يونس",
+      "surah_name_transliteration": "Yunus",
+      "surah_name_bn": "নবী ইউনুস",
+      "ayah_number": 15,
+      "arabic": "وَإِذَا تُتۡلَىٰ عَلَيۡهِمۡ ءَايَاتُنَا بَيِّنَٰتٖ قَالَ ٱلَّذِينَ لَا يَرۡجُونَ لِقَآءَنَا ٱئۡتِ بِقُرۡءَانٍ غَيۡرِ هَٰذَآ أَوۡ بَدِّلۡهُۚ قُلۡ مَا يَكُونُ لِيٓ أَنۡ أُبَدِّلَهُۥ مِن تِلۡقَآيِٕ نَفۡسِيٓۖ إِنۡ أَتَّبِعُ إِلَّا مَا يُوحَىٰٓ إِلَيَّۖ إِنِّيٓ أَخَافُ إِنۡ عَصَيۡتُ رَبِّي عَذَابَ يَوۡمٍ عَظِيمٖ",
+      "bangla": "আর যখন তাদের কাছে আমার প্রকৃষ্ট আয়াত সমূহ পাঠ করা হয়, তখন সে সমস্ত লোক বলে, যাদের আশা নেই আমার সাক্ষাতের, নিয়ে এসো কোন কোরআন এটি ছাড়া, অথবা একে পরিবর্তিত করে দাও। তাহলে বলে দাও, একে নিজের পক্ষ থেকে পরিবর্তিত করা আমার কাজ নয়। আমি সে নির্দেশেরই আনুগত্য করি, যা আমার কাছে আসে। আমি যদি স্বীয় পরওয়ারদেগারের নাফরমানী করি, তবে কঠিন দিবসের আযাবের ভয় করি।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"اخاف\")।",
+      "matched_concepts": [
+        "اخاف"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 10,
+      "surah_name_ar": "يونس",
+      "surah_name_transliteration": "Yunus",
+      "surah_name_bn": "নবী ইউনুস",
+      "ayah_number": 62,
+      "arabic": "أَلَآ إِنَّ أَوۡلِيَآءَ ٱللَّهِ لَا خَوۡفٌ عَلَيۡهِمۡ وَلَا هُمۡ يَحۡزَنُونَ",
+      "bangla": "মনে রেখো যারা আল্লাহর বন্ধু, তাদের না কোন ভয় ভীতি আছে, না তারা চিন্তান্বিত হবে।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"خوف\")।",
+      "matched_concepts": [
+        "خوف"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 10,
+      "surah_name_ar": "يونس",
+      "surah_name_transliteration": "Yunus",
+      "surah_name_bn": "নবী ইউনুস",
+      "ayah_number": 83,
+      "arabic": "فَمَآ ءَامَنَ لِمُوسَىٰٓ إِلَّا ذُرِّيَّةٞ مِّن قَوۡمِهِۦ عَلَىٰ خَوۡفٖ مِّن فِرۡعَوۡنَ وَمَلَإِيْهِمۡ أَن يَفۡتِنَهُمۡۚ وَإِنَّ فِرۡعَوۡنَ لَعَالٖ فِي ٱلۡأَرۡضِ وَإِنَّهُۥ لَمِنَ ٱلۡمُسۡرِفِينَ",
+      "bangla": "আর কেউ ঈমান আনল না মূসার প্রতি তাঁর কওমের কতিপয় বালক ছাড়া-ফেরাউন ও তার সর্দারদের ভয়ে যে, এরা না আবার কোন বিপদে ফেলে দেয়। ফেরাউন দেশময় কর্তৃত্বের শিখরে আরোহণ করেছিল। আর সে তার হাত ছেড়ে রেখেছিল।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"خوف\")।",
+      "matched_concepts": [
+        "خوف"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 11,
+      "surah_name_ar": "هود",
+      "surah_name_transliteration": "Hud",
+      "surah_name_bn": "নবী হুদ",
+      "ayah_number": 3,
+      "arabic": "وَأَنِ ٱسۡتَغۡفِرُواْ رَبَّكُمۡ ثُمَّ تُوبُوٓاْ إِلَيۡهِ يُمَتِّعۡكُم مَّتَٰعًا حَسَنًا إِلَىٰٓ أَجَلٖ مُّسَمّٗى وَيُؤۡتِ كُلَّ ذِي فَضۡلٖ فَضۡلَهُۥۖ وَإِن تَوَلَّوۡاْ فَإِنِّيٓ أَخَافُ عَلَيۡكُمۡ عَذَابَ يَوۡمٖ كَبِيرٍ",
+      "bangla": "আর তোমরা নিজেদের পালনকর্তা সমীপে ক্ষমা প্রার্থনা কর। অনন্তর তাঁরই প্রতি মনোনিবেশ কর। তাহলে তিনি তোমাদেরকে নির্দিষ্ট সময় পর্যন্ত উৎকৃষ্ট জীবনোপকরণ দান করবেন এবং অধিক আমলকারীকে বেশী করে দেবেন আর যদি তোমরা বিমুখ হতে থাক, তবে আমি তোমাদের উপর এক মহা দিবসের আযাবের আশঙ্কা করছি।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"اخاف\")।",
+      "matched_concepts": [
+        "اخاف"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 11,
+      "surah_name_ar": "هود",
+      "surah_name_transliteration": "Hud",
+      "surah_name_bn": "নবী হুদ",
+      "ayah_number": 26,
+      "arabic": "أَن لَّا تَعۡبُدُوٓاْ إِلَّا ٱللَّهَۖ إِنِّيٓ أَخَافُ عَلَيۡكُمۡ عَذَابَ يَوۡمٍ أَلِيمٖ",
+      "bangla": "তোমরা আল্লাহ ব্যতীত কারো এবাদত করবে না। নিশ্চয় আমি তোমাদের ব্যাপারে এক যন্ত্রণাদায়ক দিনের আযাবের ভয় করছি।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"اخاف\")।",
+      "matched_concepts": [
+        "اخاف"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 11,
+      "surah_name_ar": "هود",
+      "surah_name_transliteration": "Hud",
+      "surah_name_bn": "নবী হুদ",
+      "ayah_number": 84,
+      "arabic": "۞وَإِلَىٰ مَدۡيَنَ أَخَاهُمۡ شُعَيۡبٗاۚ قَالَ يَٰقَوۡمِ ٱعۡبُدُواْ ٱللَّهَ مَا لَكُم مِّنۡ إِلَٰهٍ غَيۡرُهُۥۖ وَلَا تَنقُصُواْ ٱلۡمِكۡيَالَ وَٱلۡمِيزَانَۖ إِنِّيٓ أَرَىٰكُم بِخَيۡرٖ وَإِنِّيٓ أَخَافُ عَلَيۡكُمۡ عَذَابَ يَوۡمٖ مُّحِيطٖ",
+      "bangla": "আর মাদইয়ানবাসীদের প্রতি তাদের ভাই শোয়ায়েব (আঃ) কে প্রেরণ করেছি। তিনি বললেন-হে আমার কওম! আল্লাহর বন্দেগী কর, তিনি ছাড়া আমাদের কোন মাবুদ নাই। আর পরিমাপে ও ওজনে কম দিও না, আজ আমি তোমাদেরকে ভাল অবস্থায়ই দেখছি, কিন্তু আমি তোমাদের উপর এমন একদিনের আযাবের আশঙ্কা করছি যেদিনটি পরিবেষ্টনকারী।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"اخاف\")।",
+      "matched_concepts": [
+        "اخاف"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 11,
+      "surah_name_ar": "هود",
+      "surah_name_transliteration": "Hud",
+      "surah_name_bn": "নবী হুদ",
+      "ayah_number": 103,
+      "arabic": "إِنَّ فِي ذَٰلِكَ لَأٓيَةٗ لِّمَنۡ خَافَ عَذَابَ ٱلۡأٓخِرَةِۚ ذَٰلِكَ يَوۡمٞ مَّجۡمُوعٞ لَّهُ ٱلنَّاسُ وَذَٰلِكَ يَوۡمٞ مَّشۡهُودٞ",
+      "bangla": "নিশ্চয় ইহার মধ্যে নিদর্শন রয়েছে এমন প্রতিটি মানুষের জন্য যে আখেরাতের আযাবকে ভয় করে। উহা এমন একদিন, যে দিন সব মানুষেই সমবেত হবে, সেদিনটি যে হাযিরের দিন।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"خاف\")।",
+      "matched_concepts": [
+        "خاف"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 12,
+      "surah_name_ar": "يوسف",
+      "surah_name_transliteration": "Yusuf",
+      "surah_name_bn": "নবী ইউসুফ",
+      "ayah_number": 13,
+      "arabic": "قَالَ إِنِّي لَيَحۡزُنُنِيٓ أَن تَذۡهَبُواْ بِهِۦ وَأَخَافُ أَن يَأۡكُلَهُ ٱلذِّئۡبُ وَأَنتُمۡ عَنۡهُ غَٰفِلُونَ",
+      "bangla": "তিনি বললেনঃ আমার দুশ্চিন্তা হয় যে, তোমরা তাকে নিয়ে যাবে এবং আমি আশঙ্কা করি যে, ব্যাঘ্র তাঁকে খেয়ে ফেলবে এবং তোমরা তার দিক থেকে গাফেল থাকবে।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"واخاف\")।",
+      "matched_concepts": [
+        "واخاف"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 13,
+      "surah_name_ar": "الرعد",
+      "surah_name_transliteration": "Ar-Ra'd",
+      "surah_name_bn": "বজ্রপাত",
+      "ayah_number": 12,
+      "arabic": "هُوَ ٱلَّذِي يُرِيكُمُ ٱلۡبَرۡقَ خَوۡفٗا وَطَمَعٗا وَيُنشِئُ ٱلسَّحَابَ ٱلثِّقَالَ",
+      "bangla": "তিনিই তোমাদেরকে বিদ্যুৎ দেখান ভয়ের জন্যে এবং আশার জন্যে এবং উক্ষিত করেন ঘন মেঘমালা।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"خوفا\")।",
+      "matched_concepts": [
+        "خوفا"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 13,
+      "surah_name_ar": "الرعد",
+      "surah_name_transliteration": "Ar-Ra'd",
+      "surah_name_bn": "বজ্রপাত",
+      "ayah_number": 21,
+      "arabic": "وَٱلَّذِينَ يَصِلُونَ مَآ أَمَرَ ٱللَّهُ بِهِۦٓ أَن يُوصَلَ وَيَخۡشَوۡنَ رَبَّهُمۡ وَيَخَافُونَ سُوٓءَ ٱلۡحِسَابِ",
+      "bangla": "এবং যারা বজায় রাখে ঐ সম্পর্ক, যা বজায় রাখতে আল্লাহ আদেশ দিয়েছেন এবং স্বীয় পালনকর্তাকে ভয় করে এবং কঠোর হিসাবের আশঙ্কা রাখে।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ويخافون\")।",
+      "matched_concepts": [
+        "ويخافون"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 14,
+      "surah_name_ar": "ابراهيم",
+      "surah_name_transliteration": "Ibrahim",
+      "surah_name_bn": "নবী ইবরাহীম",
+      "ayah_number": 14,
+      "arabic": "وَلَنُسۡكِنَنَّكُمُ ٱلۡأَرۡضَ مِنۢ بَعۡدِهِمۡۚ ذَٰلِكَ لِمَنۡ خَافَ مَقَامِي وَخَافَ وَعِيدِ",
+      "bangla": "তাদের পর তোমাদেরকে দেশে আবাদ করব। এটা ঐ ব্যক্তি পায়, যে আমার সামনে দন্ডায়মান হওয়াকে এবং আমার আযাবের ওয়াদাকে ভয় করে।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"خاف\", \"وخاف\")।",
+      "matched_concepts": [
+        "خاف",
+        "وخاف"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 15,
+      "surah_name_ar": "الحجر",
+      "surah_name_transliteration": "Al-Hijr",
+      "surah_name_bn": "পাথুরে পাহাড়",
+      "ayah_number": 52,
+      "arabic": "إِذۡ دَخَلُواْ عَلَيۡهِ فَقَالُواْ سَلَٰمٗا قَالَ إِنَّا مِنكُمۡ وَجِلُونَ",
+      "bangla": "যখন তারা তাঁর গৃহে আগমন করল এবং বললঃ সালাম। তিনি বললেনঃ আমরা তোমাদের ব্যাপারে ভীত।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে \"ভয়\"-এর একটি সমার্থক শব্দ (\"وجلون\", wajal -- হৃদয়ে ভীতি/কম্পন) ব্যবহৃত হয়েছে।",
+      "matched_concepts": [
+        "وجلون"
+      ],
+      "found_by": [
+        "concept"
+      ],
+      "confidence": 0.8,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 15,
+      "surah_name_ar": "الحجر",
+      "surah_name_transliteration": "Al-Hijr",
+      "surah_name_bn": "পাথুরে পাহাড়",
+      "ayah_number": 53,
+      "arabic": "قَالُواْ لَا تَوۡجَلۡ إِنَّا نُبَشِّرُكَ بِغُلَٰمٍ عَلِيمٖ",
+      "bangla": "তারা বললঃ ভয় করবেন না। আমরা আপনাকে একজন জ্ঞানবান ছেলে-সন্তানের সুসংবাদ দিচ্ছি।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে \"ভয়\"-এর একটি সমার্থক শব্দ (\"توجل\", wajal -- হৃদয়ে ভীতি/কম্পন) ব্যবহৃত হয়েছে।",
+      "matched_concepts": [
+        "توجل"
+      ],
+      "found_by": [
+        "concept"
+      ],
+      "confidence": 0.8,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 16,
+      "surah_name_ar": "النحل",
+      "surah_name_transliteration": "An-Nahl",
+      "surah_name_bn": "মৌমাছি",
+      "ayah_number": 47,
+      "arabic": "أَوۡ يَأۡخُذَهُمۡ عَلَىٰ تَخَوُّفٖ فَإِنَّ رَبَّكُمۡ لَرَءُوفٞ رَّحِيمٌ",
+      "bangla": "কিংবা ভীতি প্রদর্শনের পর তাদেরকে পাকড়াও করবেন? তোমাদের পালনকর্তা তো অত্যন্ত নম্র, দয়ালু।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"تخوف\")।",
+      "matched_concepts": [
+        "تخوف"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 16,
+      "surah_name_ar": "النحل",
+      "surah_name_transliteration": "An-Nahl",
+      "surah_name_bn": "মৌমাছি",
+      "ayah_number": 50,
+      "arabic": "يَخَافُونَ رَبَّهُم مِّن فَوۡقِهِمۡ وَيَفۡعَلُونَ مَا يُؤۡمَرُونَ۩",
+      "bangla": "তারা তাদের উপর পরাক্রমশালী তাদের পালনকর্তাকে ভয় করে এবং তারা যা আদেশ পায়, তা করে",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"يخافون\")।",
+      "matched_concepts": [
+        "يخافون"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 16,
+      "surah_name_ar": "النحل",
+      "surah_name_transliteration": "An-Nahl",
+      "surah_name_bn": "মৌমাছি",
+      "ayah_number": 112,
+      "arabic": "وَضَرَبَ ٱللَّهُ مَثَلٗا قَرۡيَةٗ كَانَتۡ ءَامِنَةٗ مُّطۡمَئِنَّةٗ يَأۡتِيهَا رِزۡقُهَا رَغَدٗا مِّن كُلِّ مَكَانٖ فَكَفَرَتۡ بِأَنۡعُمِ ٱللَّهِ فَأَذَٰقَهَا ٱللَّهُ لِبَاسَ ٱلۡجُوعِ وَٱلۡخَوۡفِ بِمَا كَانُواْ يَصۡنَعُونَ",
+      "bangla": "আল্লাহ দৃষ্টান্ত বর্ণনা করেছেন একটি জনপদের, যা ছিল নিরাপদ ও নিশ্চিন্ত, তথায় প্রত্যেক জায়গা থেকে আসত প্রচুর জীবনোপকরণ। অতঃপর তারা আল্লাহর নেয়ামতের প্রতি অকৃতজ্ঞতা প্রকাশ করল। তখন আল্লাহ তাদেরকে তাদের কৃতকর্মের কারণে স্বাদ আস্বাদন করালেন, ক্ষুধা ও ভীতির।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"والخوف\")।",
+      "matched_concepts": [
+        "والخوف"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 17,
+      "surah_name_ar": "الإسراء",
+      "surah_name_transliteration": "Al-Isra",
+      "surah_name_bn": "ইহুদি জাতি",
+      "ayah_number": 57,
+      "arabic": "أُوْلَـٰٓئِكَ ٱلَّذِينَ يَدۡعُونَ يَبۡتَغُونَ إِلَىٰ رَبِّهِمُ ٱلۡوَسِيلَةَ أَيُّهُمۡ أَقۡرَبُ وَيَرۡجُونَ رَحۡمَتَهُۥ وَيَخَافُونَ عَذَابَهُۥٓۚ إِنَّ عَذَابَ رَبِّكَ كَانَ مَحۡذُورٗا",
+      "bangla": "যাদেরকে তারা আহবান করে, তারা নিজেরাই তো তাদের পালনকর্তার নৈকট্য লাভের জন্য মধ্যস্থ তালাশ করে যে, তাদের মধ্যে কে নৈকট্যশীল। তারা তাঁর রহমতের আশা করে এবং তাঁর শাস্তিকে ভয় করে। নিশ্চয় আপনার পালনকর্তার শাস্তি ভয়াবহ।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ويخافون\")।",
+      "matched_concepts": [
+        "ويخافون"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 17,
+      "surah_name_ar": "الإسراء",
+      "surah_name_transliteration": "Al-Isra",
+      "surah_name_bn": "ইহুদি জাতি",
+      "ayah_number": 60,
+      "arabic": "وَإِذۡ قُلۡنَا لَكَ إِنَّ رَبَّكَ أَحَاطَ بِٱلنَّاسِۚ وَمَا جَعَلۡنَا ٱلرُّءۡيَا ٱلَّتِيٓ أَرَيۡنَٰكَ إِلَّا فِتۡنَةٗ لِّلنَّاسِ وَٱلشَّجَرَةَ ٱلۡمَلۡعُونَةَ فِي ٱلۡقُرۡءَانِۚ وَنُخَوِّفُهُمۡ فَمَا يَزِيدُهُمۡ إِلَّا طُغۡيَٰنٗا كَبِيرٗا",
+      "bangla": "এবং স্মরণ করুন, আমি আপনাকে বলে দিয়েছিলাম যে, আপনার পালনকর্তা মানুষকে পরিবেষ্টন করে রেখেছেন এবং যে দৃশ্য আমি আপনাকে দেখিয়েছি তাও কোরআনে উল্লেখিত অভিশপ্ত বৃক্ষ কেবল মানুষের পরীক্ষার জন্যে। আমি তাদেরকে ভয় প্রদর্শন করি। কিন্তু এতে তাদের অবাধ্যতাই আরও বৃদ্ধি পায়।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ونخوفهم\")।",
+      "matched_concepts": [
+        "ونخوفهم"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 18,
+      "surah_name_ar": "الكهف",
+      "surah_name_transliteration": "Al-Kahf",
+      "surah_name_bn": "গুহা",
+      "ayah_number": 18,
+      "arabic": "وَتَحۡسَبُهُمۡ أَيۡقَاظٗا وَهُمۡ رُقُودٞۚ وَنُقَلِّبُهُمۡ ذَاتَ ٱلۡيَمِينِ وَذَاتَ ٱلشِّمَالِۖ وَكَلۡبُهُم بَٰسِطٞ ذِرَاعَيۡهِ بِٱلۡوَصِيدِۚ لَوِ ٱطَّلَعۡتَ عَلَيۡهِمۡ لَوَلَّيۡتَ مِنۡهُمۡ فِرَارٗا وَلَمُلِئۡتَ مِنۡهُمۡ رُعۡبٗا",
+      "bangla": "তুমি মনে করবে তারা জাগ্রত, অথচ তারা নিদ্রিত। আমি তাদেরকে পার্শ্ব পরিবর্তন করাই ডান দিকে ও বাম দিকে। তাদের কুকুর ছিল সামনের পা দুটি গুহাদ্বারে প্রসারিত করে। যদি তুমি উঁকি দিয়ে তাদেরকে দেখতে, তবে পেছন ফিরে পলায়ন করতে এবং তাদের ভয়ে আতংক গ্রস্ত হয়ে পড়তে।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে \"ভয়\"-এর একটি সমার্থক শব্দ (\"رعبا\", ru'b -- আতঙ্ক/ত্রাস) ব্যবহৃত হয়েছে।",
+      "matched_concepts": [
+        "رعبا"
+      ],
+      "found_by": [
+        "concept"
+      ],
+      "confidence": 0.8,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 19,
+      "surah_name_ar": "مريم",
+      "surah_name_transliteration": "Maryam",
+      "surah_name_bn": "মারইয়াম (ঈসা নবীর মা)",
+      "ayah_number": 45,
+      "arabic": "يَـٰٓأَبَتِ إِنِّيٓ أَخَافُ أَن يَمَسَّكَ عَذَابٞ مِّنَ ٱلرَّحۡمَٰنِ فَتَكُونَ لِلشَّيۡطَٰنِ وَلِيّٗا",
+      "bangla": "হে আমার পিতা, আমি আশঙ্কা করি, দয়াময়ের একটি আযাব তোমাকে স্পর্শ করবে, অতঃপর তুমি শয়তানের সঙ্গী হয়ে যাবে।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"اخاف\")।",
+      "matched_concepts": [
+        "اخاف"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 20,
+      "surah_name_ar": "طه",
+      "surah_name_transliteration": "Taha",
+      "surah_name_bn": "ত়া হা",
+      "ayah_number": 45,
+      "arabic": "قَالَا رَبَّنَآ إِنَّنَا نَخَافُ أَن يَفۡرُطَ عَلَيۡنَآ أَوۡ أَن يَطۡغَىٰ",
+      "bangla": "তারা বললঃ হে আমাদের পালনকর্তা, আমরা আশঙ্কা করি যে, সে আমাদের প্রতি জুলুম করবে কিংবা উত্তেজিত হয়ে উঠবে।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نخاف\")।",
+      "matched_concepts": [
+        "نخاف"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 20,
+      "surah_name_ar": "طه",
+      "surah_name_transliteration": "Taha",
+      "surah_name_bn": "ত়া হা",
+      "ayah_number": 46,
+      "arabic": "قَالَ لَا تَخَافَآۖ إِنَّنِي مَعَكُمَآ أَسۡمَعُ وَأَرَىٰ",
+      "bangla": "আল্লাহ বললেনঃ তোমরা ভয় করো না, আমি তোমাদের সাথে আছি, আমি শুনি ও দেখি।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"تخافا\")।",
+      "matched_concepts": [
+        "تخافا"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 20,
+      "surah_name_ar": "طه",
+      "surah_name_transliteration": "Taha",
+      "surah_name_bn": "ত়া হা",
+      "ayah_number": 77,
+      "arabic": "وَلَقَدۡ أَوۡحَيۡنَآ إِلَىٰ مُوسَىٰٓ أَنۡ أَسۡرِ بِعِبَادِي فَٱضۡرِبۡ لَهُمۡ طَرِيقٗا فِي ٱلۡبَحۡرِ يَبَسٗا لَّا تَخَٰفُ دَرَكٗا وَلَا تَخۡشَىٰ",
+      "bangla": "আমি মূসা প্রতি এই মর্মে ওহী করলাম যে, আমার বান্দাদেরকে নিয়ে রাত্রিযোগে বের হয়ে যাও এবং তাদের জন্যে সমুদ্রে শুষ্কপথ নির্মাণ কর। পেছন থেকে এসে তোমাদের ধরে ফেলার আশঙ্কা করো না এবং পানিতে ডুবে যাওয়ার ভয় করো না।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"تخاف\")।",
+      "matched_concepts": [
+        "تخاف"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 20,
+      "surah_name_ar": "طه",
+      "surah_name_transliteration": "Taha",
+      "surah_name_bn": "ত়া হা",
+      "ayah_number": 112,
+      "arabic": "وَمَن يَعۡمَلۡ مِنَ ٱلصَّـٰلِحَٰتِ وَهُوَ مُؤۡمِنٞ فَلَا يَخَافُ ظُلۡمٗا وَلَا هَضۡمٗا",
+      "bangla": "যে ঈমানদার অবস্থায় সৎকর্ম সম্পাদন করে, সে জুলুম ও ক্ষতির আশঙ্কা করবে না।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"يخاف\")।",
+      "matched_concepts": [
+        "يخاف"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 22,
+      "surah_name_ar": "الحج",
+      "surah_name_transliteration": "Al-Hajj",
+      "surah_name_bn": "হ়াজ্জ",
+      "ayah_number": 35,
+      "arabic": "ٱلَّذِينَ إِذَا ذُكِرَ ٱللَّهُ وَجِلَتۡ قُلُوبُهُمۡ وَٱلصَّـٰبِرِينَ عَلَىٰ مَآ أَصَابَهُمۡ وَٱلۡمُقِيمِي ٱلصَّلَوٰةِ وَمِمَّا رَزَقۡنَٰهُمۡ يُنفِقُونَ",
+      "bangla": "যাদের অন্তর আল্লাহর নাম স্মরণ করা হলে ভীত হয় এবং যারা তাদের বিপদাপদে ধৈর্য্যধারণ করে এবং যারা নামায কায়েম করে ও আমি যা দিয়েছি, তা থেকে ব্যয় করে।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে \"ভয়\"-এর একটি সমার্থক শব্দ (\"وجلت\", wajal -- হৃদয়ে ভীতি/কম্পন) ব্যবহৃত হয়েছে।",
+      "matched_concepts": [
+        "وجلت"
+      ],
+      "found_by": [
+        "concept"
+      ],
+      "confidence": 0.8,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 23,
+      "surah_name_ar": "المؤمنون",
+      "surah_name_transliteration": "Al-Mu'minun",
+      "surah_name_bn": "বিশ্বাসী",
+      "ayah_number": 60,
+      "arabic": "وَٱلَّذِينَ يُؤۡتُونَ مَآ ءَاتَواْ وَّقُلُوبُهُمۡ وَجِلَةٌ أَنَّهُمۡ إِلَىٰ رَبِّهِمۡ رَٰجِعُونَ",
+      "bangla": "এবং যারা যা দান করবার, তা ভীত, কম্পিত হৃদয়ে এ কারণে দান করে যে, তারা তাদের পালনকর্তার কাছে প্রত্যাবর্তন করবে",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে \"ভয়\"-এর একটি সমার্থক শব্দ (\"وجله\", wajal -- হৃদয়ে ভীতি/কম্পন) ব্যবহৃত হয়েছে।",
+      "matched_concepts": [
+        "وجله"
+      ],
+      "found_by": [
+        "concept"
+      ],
+      "confidence": 0.8,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 24,
+      "surah_name_ar": "النور",
+      "surah_name_transliteration": "An-Nur",
+      "surah_name_bn": "আলো",
+      "ayah_number": 37,
+      "arabic": "رِجَالٞ لَّا تُلۡهِيهِمۡ تِجَٰرَةٞ وَلَا بَيۡعٌ عَن ذِكۡرِ ٱللَّهِ وَإِقَامِ ٱلصَّلَوٰةِ وَإِيتَآءِ ٱلزَّكَوٰةِ يَخَافُونَ يَوۡمٗا تَتَقَلَّبُ فِيهِ ٱلۡقُلُوبُ وَٱلۡأَبۡصَٰرُ",
+      "bangla": "এমন লোকেরা, যাদেরকে ব্যবসা-বাণিজ্য ও ক্রয়-বিক্রয় আল্লাহর স্মরণ থেকে, নামায কায়েম করা থেকে এবং যাকাত প্রদান করা থেকে বিরত রাখে না। তারা ভয় করে সেই দিনকে, যেদিন অন্তর ও দৃষ্টিসমূহ উল্টে যাবে।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"يخافون\")।",
+      "matched_concepts": [
+        "يخافون"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 24,
+      "surah_name_ar": "النور",
+      "surah_name_transliteration": "An-Nur",
+      "surah_name_bn": "আলো",
+      "ayah_number": 50,
+      "arabic": "أَفِي قُلُوبِهِم مَّرَضٌ أَمِ ٱرۡتَابُوٓاْ أَمۡ يَخَافُونَ أَن يَحِيفَ ٱللَّهُ عَلَيۡهِمۡ وَرَسُولُهُۥۚ بَلۡ أُوْلَـٰٓئِكَ هُمُ ٱلظَّـٰلِمُونَ",
+      "bangla": "তাদের অন্তরে কি রোগ আছে, না তারা ধোঁকায় পড়ে আছে; না তারা ভয় করে যে, আল্লাহ ও তাঁর রাসূল তাদের প্রতি অবিচার করবেন? বরং তারাই তো অবিচারকারী",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"يخافون\")।",
+      "matched_concepts": [
+        "يخافون"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 24,
+      "surah_name_ar": "النور",
+      "surah_name_transliteration": "An-Nur",
+      "surah_name_bn": "আলো",
+      "ayah_number": 55,
+      "arabic": "وَعَدَ ٱللَّهُ ٱلَّذِينَ ءَامَنُواْ مِنكُمۡ وَعَمِلُواْ ٱلصَّـٰلِحَٰتِ لَيَسۡتَخۡلِفَنَّهُمۡ فِي ٱلۡأَرۡضِ كَمَا ٱسۡتَخۡلَفَ ٱلَّذِينَ مِن قَبۡلِهِمۡ وَلَيُمَكِّنَنَّ لَهُمۡ دِينَهُمُ ٱلَّذِي ٱرۡتَضَىٰ لَهُمۡ وَلَيُبَدِّلَنَّهُم مِّنۢ بَعۡدِ خَوۡفِهِمۡ أَمۡنٗاۚ يَعۡبُدُونَنِي لَا يُشۡرِكُونَ بِي شَيۡـٔٗاۚ وَمَن كَفَرَ بَعۡدَ ذَٰلِكَ فَأُوْلَـٰٓئِكَ هُمُ ٱلۡفَٰسِقُونَ",
+      "bangla": "তোমাদের মধ্যে যারা বিশ্বাস স্থাপন করে ও সৎকর্ম করে, আল্লাহ তাদেরকে ওয়াদা দিয়েছেন যে, তাদেরকে অবশ্যই পৃথিবীতে শাসনকর্তৃত্ব দান করবেন। যেমন তিনি শাসনকতৃত্ব দান করেছেন তাদের পূর্ববতীদেরকে এবং তিনি অবশ্যই সুদৃঢ় করবেন তাদের ধর্মকে, যা তিনি তাদের জন্যে পছন্দ করেছেন এবং তাদের ভয়-ভীতির পরিবর্তে অবশ্যই তাদেরকে শান্তি দান করবেন। তারা আমার এবাদত করবে এবং আমার সাথে কাউকে শরীক করবে না। এরপর যারা অকৃতজ্ঞ হবে, তারাই অবাধ্য।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"خوفهم\")।",
+      "matched_concepts": [
+        "خوفهم"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 26,
+      "surah_name_ar": "الشعراء",
+      "surah_name_transliteration": "Ash-Shu'ara",
+      "surah_name_bn": "কবি",
+      "ayah_number": 12,
+      "arabic": "قَالَ رَبِّ إِنِّيٓ أَخَافُ أَن يُكَذِّبُونِ",
+      "bangla": "সে বলল, হে আমার পালনকর্তা, আমার আশংকা হচ্ছে যে, তারা আমাকে মিথ্যাবাদী বলে দেবে।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"اخاف\")।",
+      "matched_concepts": [
+        "اخاف"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 26,
+      "surah_name_ar": "الشعراء",
+      "surah_name_transliteration": "Ash-Shu'ara",
+      "surah_name_bn": "কবি",
+      "ayah_number": 14,
+      "arabic": "وَلَهُمۡ عَلَيَّ ذَنۢبٞ فَأَخَافُ أَن يَقۡتُلُونِ",
+      "bangla": "আমার বিরুদ্ধে তাদের অভিযোগ আছে। অতএব আমি আশংকা করি যে, তারা আমাকে হত্যা করবে।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"فاخاف\")।",
+      "matched_concepts": [
+        "فاخاف"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 26,
+      "surah_name_ar": "الشعراء",
+      "surah_name_transliteration": "Ash-Shu'ara",
+      "surah_name_bn": "কবি",
+      "ayah_number": 135,
+      "arabic": "إِنِّيٓ أَخَافُ عَلَيۡكُمۡ عَذَابَ يَوۡمٍ عَظِيمٖ",
+      "bangla": "আমি তোমাদের জন্যে মহাদিবসের শাস্তি আশংকা করি।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"اخاف\")।",
+      "matched_concepts": [
+        "اخاف"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 27,
+      "surah_name_ar": "النمل",
+      "surah_name_transliteration": "An-Naml",
+      "surah_name_bn": "পিঁপড়া",
+      "ayah_number": 10,
+      "arabic": "وَأَلۡقِ عَصَاكَۚ فَلَمَّا رَءَاهَا تَهۡتَزُّ كَأَنَّهَا جَآنّٞ وَلَّىٰ مُدۡبِرٗا وَلَمۡ يُعَقِّبۡۚ يَٰمُوسَىٰ لَا تَخَفۡ إِنِّي لَا يَخَافُ لَدَيَّ ٱلۡمُرۡسَلُونَ",
+      "bangla": "আপনি নিক্ষেপ করুন আপনার লাঠি। অতঃপর যখন তিনি তাকে সর্পের ন্যায় ছুটাছুটি করতে দেখলেন, তখন তিনি বিপরীত দিকে ছুটতে লাগলেন এবং পেছন ফিরেও দেখলেন না। হে মূসা, ভয় করবেন না। আমি যে রয়েছি, আমার কাছে পয়গম্বরগণ ভয় করেন না।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"يخاف\")।",
+      "matched_concepts": [
+        "يخاف"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 28,
+      "surah_name_ar": "القصص",
+      "surah_name_transliteration": "Al-Qasas",
+      "surah_name_bn": "কাহিনি",
+      "ayah_number": 7,
+      "arabic": "وَأَوۡحَيۡنَآ إِلَىٰٓ أُمِّ مُوسَىٰٓ أَنۡ أَرۡضِعِيهِۖ فَإِذَا خِفۡتِ عَلَيۡهِ فَأَلۡقِيهِ فِي ٱلۡيَمِّ وَلَا تَخَافِي وَلَا تَحۡزَنِيٓۖ إِنَّا رَآدُّوهُ إِلَيۡكِ وَجَاعِلُوهُ مِنَ ٱلۡمُرۡسَلِينَ",
+      "bangla": "আমি মূসা-জননীকে আদেশ পাঠালাম যে, তাকে স্তন্য দান করতে থাক। অতঃপর যখন তুমি তার সম্পর্কে বিপদের আশংকা কর, তখন তাকে দরিয়ায় নিক্ষেপ কর এবং ভয় করো না, দুঃখও করো না। আমি অবশ্যই তাকে তোমার কাছে ফিরিয়ে দেব এবং তাকে পয়গম্বরগণের একজন করব।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"تخافي\")।",
+      "matched_concepts": [
+        "تخافي"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 28,
+      "surah_name_ar": "القصص",
+      "surah_name_transliteration": "Al-Qasas",
+      "surah_name_bn": "কাহিনি",
+      "ayah_number": 33,
+      "arabic": "قَالَ رَبِّ إِنِّي قَتَلۡتُ مِنۡهُمۡ نَفۡسٗا فَأَخَافُ أَن يَقۡتُلُونِ",
+      "bangla": "মূসা বলল, হে আমার পালনকর্তা, আমি তাদের এক ব্যক্তিকে হত্যা করেছি। কাজেই আমি ভয় করছি যে, তারা আমাকে হত্যা করবে।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"فاخاف\")।",
+      "matched_concepts": [
+        "فاخاف"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 28,
+      "surah_name_ar": "القصص",
+      "surah_name_transliteration": "Al-Qasas",
+      "surah_name_bn": "কাহিনি",
+      "ayah_number": 34,
+      "arabic": "وَأَخِي هَٰرُونُ هُوَ أَفۡصَحُ مِنِّي لِسَانٗا فَأَرۡسِلۡهُ مَعِيَ رِدۡءٗا يُصَدِّقُنِيٓۖ إِنِّيٓ أَخَافُ أَن يُكَذِّبُونِ",
+      "bangla": "আমার ভাই হারুণ, সে আমা অপেক্ষা প্রাঞ্জলভাষী। অতএব, তাকে আমার সাথে সাহায্যের জন্যে প্রেরণ করুন। সে আমাকে সমর্থন জানাবে। আমি আশংকা করি যে, তারা আমাকে মিথ্যাবাদী বলবে।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"اخاف\")।",
+      "matched_concepts": [
+        "اخاف"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 30,
+      "surah_name_ar": "الروم",
+      "surah_name_transliteration": "Ar-Rum",
+      "surah_name_bn": "রোমান জাতি",
+      "ayah_number": 24,
+      "arabic": "وَمِنۡ ءَايَٰتِهِۦ يُرِيكُمُ ٱلۡبَرۡقَ خَوۡفٗا وَطَمَعٗا وَيُنَزِّلُ مِنَ ٱلسَّمَآءِ مَآءٗ فَيُحۡيِۦ بِهِ ٱلۡأَرۡضَ بَعۡدَ مَوۡتِهَآۚ إِنَّ فِي ذَٰلِكَ لَأٓيَٰتٖ لِّقَوۡمٖ يَعۡقِلُونَ",
+      "bangla": "তাঁর আরও নিদর্শনঃ তিনি তোমাদেরকে দেখান বিদ্যুৎ, ভয় ও ভরসার জন্যে এবং আকাশ থেকে পানি বর্ষণ করেন, অতঃপর তদ্দ্বারা ভূমির মৃত্যুর পর তাকে পুনরুজ্জীবিত করেন। নিশ্চয় এতে বুদ্ধিমান লোকদের জন্যে নিদর্শনাবলী রয়েছে।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"خوفا\")।",
+      "matched_concepts": [
+        "خوفا"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 30,
+      "surah_name_ar": "الروم",
+      "surah_name_transliteration": "Ar-Rum",
+      "surah_name_bn": "রোমান জাতি",
+      "ayah_number": 28,
+      "arabic": "ضَرَبَ لَكُم مَّثَلٗا مِّنۡ أَنفُسِكُمۡۖ هَل لَّكُم مِّن مَّا مَلَكَتۡ أَيۡمَٰنُكُم مِّن شُرَكَآءَ فِي مَا رَزَقۡنَٰكُمۡ فَأَنتُمۡ فِيهِ سَوَآءٞ تَخَافُونَهُمۡ كَخِيفَتِكُمۡ أَنفُسَكُمۡۚ كَذَٰلِكَ نُفَصِّلُ ٱلۡأٓيَٰتِ لِقَوۡمٖ يَعۡقِلُونَ",
+      "bangla": "আল্লাহ তোমাদের জন্যে তোমাদেরই মধ্য থেকে একটি দৃষ্টান্ত বর্ণনা করেছেনঃ তোমাদের আমি যে রুযী দিয়েছি, তোমাদের অধিকারভুক্ত দাস-দাসীরা কি তাতে তোমাদের সমান সমান অংশীদার? তোমরা কি তাদেরকে সেরূপ ভয় কর, যেরূপ নিজেদের লোককে ভয় কর? এমনিভাবে আমি সমঝদার সম্প্রদায়ের জন্যে নিদর্শনাবলী বিস্তারিত বর্ণনা করি।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"تخافونهم\")।",
+      "matched_concepts": [
+        "تخافونهم"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 32,
+      "surah_name_ar": "السجدة",
+      "surah_name_transliteration": "As-Sajdah",
+      "surah_name_bn": "সিজদা",
+      "ayah_number": 16,
+      "arabic": "تَتَجَافَىٰ جُنُوبُهُمۡ عَنِ ٱلۡمَضَاجِعِ يَدۡعُونَ رَبَّهُمۡ خَوۡفٗا وَطَمَعٗا وَمِمَّا رَزَقۡنَٰهُمۡ يُنفِقُونَ",
+      "bangla": "তাদের পার্শ্ব শয্যা থেকে আলাদা থাকে। তারা তাদের পালনকর্তাকে ডাকে ভয়ে ও আশায় এবং আমি তাদেরকে যে রিযিক দিয়েছি, তা থেকে ব্যয় করে।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"خوفا\")।",
+      "matched_concepts": [
+        "خوفا"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 33,
+      "surah_name_ar": "الأحزاب",
+      "surah_name_transliteration": "Al-Ahzab",
+      "surah_name_bn": "জোট",
+      "ayah_number": 19,
+      "arabic": "أَشِحَّةً عَلَيۡكُمۡۖ فَإِذَا جَآءَ ٱلۡخَوۡفُ رَأَيۡتَهُمۡ يَنظُرُونَ إِلَيۡكَ تَدُورُ أَعۡيُنُهُمۡ كَٱلَّذِي يُغۡشَىٰ عَلَيۡهِ مِنَ ٱلۡمَوۡتِۖ فَإِذَا ذَهَبَ ٱلۡخَوۡفُ سَلَقُوكُم بِأَلۡسِنَةٍ حِدَادٍ أَشِحَّةً عَلَى ٱلۡخَيۡرِۚ أُوْلَـٰٓئِكَ لَمۡ يُؤۡمِنُواْ فَأَحۡبَطَ ٱللَّهُ أَعۡمَٰلَهُمۡۚ وَكَانَ ذَٰلِكَ عَلَى ٱللَّهِ يَسِيرٗا",
+      "bangla": "তারা তোমাদের প্রতি কুন্ঠাবোধ করে। যখন বিপদ আসে, তখন আপনি দেখবেন মৃত্যুভয়ে অচেতন ব্যক্তির মত চোখ উল্টিয়ে তারা আপনার প্রতি তাকায়। অতঃপর যখন বিপদ টলে যায় তখন তারা ধন-সম্পদ লাভের আশায় তোমাদের সাথে বাকচাতুরীতে অবতীর্ণ হয়। তারা মুমিন নয়। তাই আল্লাহ তাদের কর্মসমূহ নিস্ফল করে দিয়েছেন। এটা আল্লাহর জন্যে সহজ।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الخوف\")।",
+      "matched_concepts": [
+        "الخوف"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 33,
+      "surah_name_ar": "الأحزاب",
+      "surah_name_transliteration": "Al-Ahzab",
+      "surah_name_bn": "জোট",
+      "ayah_number": 26,
+      "arabic": "وَأَنزَلَ ٱلَّذِينَ ظَٰهَرُوهُم مِّنۡ أَهۡلِ ٱلۡكِتَٰبِ مِن صَيَاصِيهِمۡ وَقَذَفَ فِي قُلُوبِهِمُ ٱلرُّعۡبَ فَرِيقٗا تَقۡتُلُونَ وَتَأۡسِرُونَ فَرِيقٗا",
+      "bangla": "কিতাবীদের মধ্যে যারা কাফেরদের পৃষ্টপোষকতা করেছিল, তাদেরকে তিনি তাদের দূর্গ থেকে নামিয়ে দিলেন এবং তাদের অন্তরে ভীতি নিক্ষেপ করলেন। ফলে তোমরা একদলকে হত্যা করছ এবং একদলকে বন্দী করছ।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে \"ভয়\"-এর একটি সমার্থক শব্দ (\"الرعب\", ru'b -- আতঙ্ক/ত্রাস) ব্যবহৃত হয়েছে।",
+      "matched_concepts": [
+        "الرعب"
+      ],
+      "found_by": [
+        "concept"
+      ],
+      "confidence": 0.8,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 39,
+      "surah_name_ar": "الزمر",
+      "surah_name_transliteration": "Az-Zumar",
+      "surah_name_bn": "দলবদ্ধ জনতা",
+      "ayah_number": 13,
+      "arabic": "قُلۡ إِنِّيٓ أَخَافُ إِنۡ عَصَيۡتُ رَبِّي عَذَابَ يَوۡمٍ عَظِيمٖ",
+      "bangla": "বলুন, আমি আমার পালনকর্তার অবাধ্য হলে এক মহাদিবসের শাস্তির ভয় করি।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"اخاف\")।",
+      "matched_concepts": [
+        "اخاف"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 39,
+      "surah_name_ar": "الزمر",
+      "surah_name_transliteration": "Az-Zumar",
+      "surah_name_bn": "দলবদ্ধ জনতা",
+      "ayah_number": 16,
+      "arabic": "لَهُم مِّن فَوۡقِهِمۡ ظُلَلٞ مِّنَ ٱلنَّارِ وَمِن تَحۡتِهِمۡ ظُلَلٞۚ ذَٰلِكَ يُخَوِّفُ ٱللَّهُ بِهِۦ عِبَادَهُۥۚ يَٰعِبَادِ فَٱتَّقُونِ",
+      "bangla": "তাদের জন্যে উপর দিক থেকে এবং নীচের দিক থেকে আগুনের মেঘমালা থাকবে। এ শাস্তি দ্বারা আল্লাহ তাঁর বান্দাদেরকে সতর্ক করেন যে, হে আমার বান্দাগণ, আমাকে ভয় কর।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"يخوف\")।",
+      "matched_concepts": [
+        "يخوف"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 39,
+      "surah_name_ar": "الزمر",
+      "surah_name_transliteration": "Az-Zumar",
+      "surah_name_bn": "দলবদ্ধ জনতা",
+      "ayah_number": 36,
+      "arabic": "أَلَيۡسَ ٱللَّهُ بِكَافٍ عَبۡدَهُۥۖ وَيُخَوِّفُونَكَ بِٱلَّذِينَ مِن دُونِهِۦۚ وَمَن يُضۡلِلِ ٱللَّهُ فَمَا لَهُۥ مِنۡ هَادٖ",
+      "bangla": "আল্লাহ কি তাঁর বান্দার পক্ষে যথেষ্ট নন? অথচ তারা আপনাকে আল্লাহর পরিবর্তে অন্যান্য উপাস্যদের ভয় দেখায়। আল্লাহ যাকে গোমরাহ করেন, তার কোন পথপ্রদর্শক নেই।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ويخوفونك\")।",
+      "matched_concepts": [
+        "ويخوفونك"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 40,
+      "surah_name_ar": "غافر",
+      "surah_name_transliteration": "Ghafir",
+      "surah_name_bn": "ক্ষমাকারী",
+      "ayah_number": 26,
+      "arabic": "وَقَالَ فِرۡعَوۡنُ ذَرُونِيٓ أَقۡتُلۡ مُوسَىٰ وَلۡيَدۡعُ رَبَّهُۥٓۖ إِنِّيٓ أَخَافُ أَن يُبَدِّلَ دِينَكُمۡ أَوۡ أَن يُظۡهِرَ فِي ٱلۡأَرۡضِ ٱلۡفَسَادَ",
+      "bangla": "ফেরাউন বলল; তোমরা আমাকে ছাড়, মূসাকে হত্যা করতে দাও, ডাকুক সে তার পালনকর্তাকে! আমি আশংকা করি যে, সে তোমাদের ধর্ম পরিবর্তন করে দেবে অথবা সে দেশময় বিপর্যয় সৃষ্টি করবে।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"اخاف\")।",
+      "matched_concepts": [
+        "اخاف"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 40,
+      "surah_name_ar": "غافر",
+      "surah_name_transliteration": "Ghafir",
+      "surah_name_bn": "ক্ষমাকারী",
+      "ayah_number": 30,
+      "arabic": "وَقَالَ ٱلَّذِيٓ ءَامَنَ يَٰقَوۡمِ إِنِّيٓ أَخَافُ عَلَيۡكُم مِّثۡلَ يَوۡمِ ٱلۡأَحۡزَابِ",
+      "bangla": "সে মুমিন ব্যক্তি বললঃ হে আমার কওম, আমি তোমাদের জন্যে পূর্ববর্তী সম্প্রদায়সমূহের মতই বিপদসঙ্কুল দিনের আশংকা করি।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"اخاف\")।",
+      "matched_concepts": [
+        "اخاف"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 40,
+      "surah_name_ar": "غافر",
+      "surah_name_transliteration": "Ghafir",
+      "surah_name_bn": "ক্ষমাকারী",
+      "ayah_number": 32,
+      "arabic": "وَيَٰقَوۡمِ إِنِّيٓ أَخَافُ عَلَيۡكُمۡ يَوۡمَ ٱلتَّنَادِ",
+      "bangla": "হে আমার কওম, আমি তোমাদের জন্যে প্রচন্ড হাঁক-ডাকের দিনের আশংকা করি।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"اخاف\")।",
+      "matched_concepts": [
+        "اخاف"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 41,
+      "surah_name_ar": "فصلت",
+      "surah_name_transliteration": "Fussilat",
+      "surah_name_bn": "সুস্পষ্ট বিবরণ",
+      "ayah_number": 30,
+      "arabic": "إِنَّ ٱلَّذِينَ قَالُواْ رَبُّنَا ٱللَّهُ ثُمَّ ٱسۡتَقَٰمُواْ تَتَنَزَّلُ عَلَيۡهِمُ ٱلۡمَلَـٰٓئِكَةُ أَلَّا تَخَافُواْ وَلَا تَحۡزَنُواْ وَأَبۡشِرُواْ بِٱلۡجَنَّةِ ٱلَّتِي كُنتُمۡ تُوعَدُونَ",
+      "bangla": "নিশ্চয় যারা বলে, আমাদের পালনকর্তা আল্লাহ, অতঃপর তাতেই অবিচল থাকে, তাদের কাছে ফেরেশতা অবতীর্ণ হয় এবং বলে, তোমরা ভয় করো না, চিন্তা করো না এবং তোমাদের প্রতিশ্রুত জান্নাতের সুসংবাদ শোন।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"تخافوا\")।",
+      "matched_concepts": [
+        "تخافوا"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 43,
+      "surah_name_ar": "الزخرف",
+      "surah_name_transliteration": "Az-Zukhruf",
+      "surah_name_bn": "সোনাদানা",
+      "ayah_number": 68,
+      "arabic": "يَٰعِبَادِ لَا خَوۡفٌ عَلَيۡكُمُ ٱلۡيَوۡمَ وَلَآ أَنتُمۡ تَحۡزَنُونَ",
+      "bangla": "হে আমার বান্দাগণ, তোমাদের আজ কোন ভয় নেই এবং তোমরা দুঃখিতও হবে না।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"خوف\")।",
+      "matched_concepts": [
+        "خوف"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 46,
+      "surah_name_ar": "الأحقاف",
+      "surah_name_transliteration": "Al-Ahqaf",
+      "surah_name_bn": "বালুর পাহাড়",
+      "ayah_number": 13,
+      "arabic": "إِنَّ ٱلَّذِينَ قَالُواْ رَبُّنَا ٱللَّهُ ثُمَّ ٱسۡتَقَٰمُواْ فَلَا خَوۡفٌ عَلَيۡهِمۡ وَلَا هُمۡ يَحۡزَنُونَ",
+      "bangla": "নিশ্চয় যারা বলে, আমাদের পালনকর্তা আল্লাহ অতঃপর অবিচল থাকে, তাদের কোন ভয় নেই এবং তারা চিন্তিত হবে না।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"خوف\")।",
+      "matched_concepts": [
+        "خوف"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 46,
+      "surah_name_ar": "الأحقاف",
+      "surah_name_transliteration": "Al-Ahqaf",
+      "surah_name_bn": "বালুর পাহাড়",
+      "ayah_number": 21,
+      "arabic": "۞وَٱذۡكُرۡ أَخَا عَادٍ إِذۡ أَنذَرَ قَوۡمَهُۥ بِٱلۡأَحۡقَافِ وَقَدۡ خَلَتِ ٱلنُّذُرُ مِنۢ بَيۡنِ يَدَيۡهِ وَمِنۡ خَلۡفِهِۦٓ أَلَّا تَعۡبُدُوٓاْ إِلَّا ٱللَّهَ إِنِّيٓ أَخَافُ عَلَيۡكُمۡ عَذَابَ يَوۡمٍ عَظِيمٖ",
+      "bangla": "আ’দ সম্প্রদায়ের ভাইয়ের কথা স্মরণ করুন, তার পূর্বে ও পরে অনেক সতর্ককারী গত হয়েছিল সে তার সম্প্রদায়কে বালুকাময় উচ্চ উপত্যকায় এ মর্মে সতর্ক করেছিল যে, তোমরা আল্লাহ ব্যতীত কারও এবাদত করো না। আমি তোমাদের জন্যে এক মহাদিবসের শাস্তির আশংকা করি।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"اخاف\")।",
+      "matched_concepts": [
+        "اخاف"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 48,
+      "surah_name_ar": "الفتح",
+      "surah_name_transliteration": "Al-Fath",
+      "surah_name_bn": "বিজয়",
+      "ayah_number": 27,
+      "arabic": "لَّقَدۡ صَدَقَ ٱللَّهُ رَسُولَهُ ٱلرُّءۡيَا بِٱلۡحَقِّۖ لَتَدۡخُلُنَّ ٱلۡمَسۡجِدَ ٱلۡحَرَامَ إِن شَآءَ ٱللَّهُ ءَامِنِينَ مُحَلِّقِينَ رُءُوسَكُمۡ وَمُقَصِّرِينَ لَا تَخَافُونَۖ فَعَلِمَ مَا لَمۡ تَعۡلَمُواْ فَجَعَلَ مِن دُونِ ذَٰلِكَ فَتۡحٗا قَرِيبًا",
+      "bangla": "আল্লাহ তাঁর রসূলকে সত্য স্বপ্ন দেখিয়েছেন। আল্লাহ চাহেন তো তোমরা অবশ্যই মসজিদে হারামে প্রবেশ করবে নিরাপদে মস্তকমুন্ডিত অবস্থায় এবং কেশ কর্তিত অবস্থায়। তোমরা কাউকে ভয় করবে না। অতঃপর তিনি জানেন যা তোমরা জান না। এছাড়াও তিনি দিয়েছেন তোমাদেরকে একটি আসন্ন বিজয়।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"تخافون\")।",
+      "matched_concepts": [
+        "تخافون"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 50,
+      "surah_name_ar": "ق",
+      "surah_name_transliteration": "Qaf",
+      "surah_name_bn": "কাফ",
+      "ayah_number": 45,
+      "arabic": "نَّحۡنُ أَعۡلَمُ بِمَا يَقُولُونَۖ وَمَآ أَنتَ عَلَيۡهِم بِجَبَّارٖۖ فَذَكِّرۡ بِٱلۡقُرۡءَانِ مَن يَخَافُ وَعِيدِ",
+      "bangla": "তারা যা বলে, তা আমি সম্যক অবগত আছি। আপনি তাদের উপর জোরজবরকারী নন। অতএব, যে আমার শাস্তিকে ভয় করে, তাকে কোরআনের মাধ্যমে উপদেশ দান করুন।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"يخاف\")।",
+      "matched_concepts": [
+        "يخاف"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 51,
+      "surah_name_ar": "الذاريات",
+      "surah_name_transliteration": "Adh-Dhariyat",
+      "surah_name_bn": "বিক্ষেপকারী বাতাস",
+      "ayah_number": 37,
+      "arabic": "وَتَرَكۡنَا فِيهَآ ءَايَةٗ لِّلَّذِينَ يَخَافُونَ ٱلۡعَذَابَ ٱلۡأَلِيمَ",
+      "bangla": "যারা যন্ত্রণাদায়ক শাস্তিকে ভয় করে, আমি তাদের জন্যে সেখানে একটি নিদর্শন রেখেছি।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"يخافون\")।",
+      "matched_concepts": [
+        "يخافون"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 55,
+      "surah_name_ar": "الرحمن",
+      "surah_name_transliteration": "Ar-Rahman",
+      "surah_name_bn": "পরম করুণাময়",
+      "ayah_number": 46,
+      "arabic": "وَلِمَنۡ خَافَ مَقَامَ رَبِّهِۦ جَنَّتَانِ",
+      "bangla": "যে ব্যক্তি তার পালনকর্তার সামনে পেশ হওয়ার ভয় রাখে, তার জন্যে রয়েছে দু’টি উদ্যান।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"خاف\")।",
+      "matched_concepts": [
+        "خاف"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 59,
+      "surah_name_ar": "الحشر",
+      "surah_name_transliteration": "Al-Hashr",
+      "surah_name_bn": "সমাবেশ",
+      "ayah_number": 2,
+      "arabic": "هُوَ ٱلَّذِيٓ أَخۡرَجَ ٱلَّذِينَ كَفَرُواْ مِنۡ أَهۡلِ ٱلۡكِتَٰبِ مِن دِيَٰرِهِمۡ لِأَوَّلِ ٱلۡحَشۡرِۚ مَا ظَنَنتُمۡ أَن يَخۡرُجُواْۖ وَظَنُّوٓاْ أَنَّهُم مَّانِعَتُهُمۡ حُصُونُهُم مِّنَ ٱللَّهِ فَأَتَىٰهُمُ ٱللَّهُ مِنۡ حَيۡثُ لَمۡ يَحۡتَسِبُواْۖ وَقَذَفَ فِي قُلُوبِهِمُ ٱلرُّعۡبَۚ يُخۡرِبُونَ بُيُوتَهُم بِأَيۡدِيهِمۡ وَأَيۡدِي ٱلۡمُؤۡمِنِينَ فَٱعۡتَبِرُواْ يَـٰٓأُوْلِي ٱلۡأَبۡصَٰرِ",
+      "bangla": "তিনিই কিতাবধারীদের মধ্যে যারা কাফের, তাদেরকে প্রথমবার একত্রিত করে তাদের বাড়ী-ঘর থেকে বহিস্কার করেছেন। তোমরা ধারণাও করতে পারনি যে, তারা বের হবে এবং তারা মনে করেছিল যে, তাদের দূর্গগুলো তাদেরকে আল্লাহর কবল থেকে রক্ষা করবে। অতঃপর আল্লাহর শাস্তি তাদের উপর এমনদিক থেকে আসল, যার কল্পনাও তারা করেনি। আল্লাহ তাদের অন্তরে ত্রাস সঞ্চার করে দিলেন। তারা তাদের বাড়ী-ঘর নিজেদের হাতে এবং মুসলমানদের হাতে ধ্বংস করছিল। অতএব, হে চক্ষুষ্মান ব্যক্তিগণ, তোমরা শিক্ষা গ্রহণ কর।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে \"ভয়\"-এর একটি সমার্থক শব্দ (\"الرعب\", ru'b -- আতঙ্ক/ত্রাস) ব্যবহৃত হয়েছে।",
+      "matched_concepts": [
+        "الرعب"
+      ],
+      "found_by": [
+        "concept"
+      ],
+      "confidence": 0.8,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 59,
+      "surah_name_ar": "الحشر",
+      "surah_name_transliteration": "Al-Hashr",
+      "surah_name_bn": "সমাবেশ",
+      "ayah_number": 16,
+      "arabic": "كَمَثَلِ ٱلشَّيۡطَٰنِ إِذۡ قَالَ لِلۡإِنسَٰنِ ٱكۡفُرۡ فَلَمَّا كَفَرَ قَالَ إِنِّي بَرِيٓءٞ مِّنكَ إِنِّيٓ أَخَافُ ٱللَّهَ رَبَّ ٱلۡعَٰلَمِينَ",
+      "bangla": "তারা শয়তানের মত, যে মানুষকে কাফের হতে বলে। অতঃপর যখন সে কাফের হয়, তখন শয়তান বলেঃ তোমার সাথে আমার কোন সম্পর্ক নেই। আমি বিশ্বপালনকর্তা আল্লাহ তা’আলাকে ভয় করি।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"اخاف\")।",
+      "matched_concepts": [
+        "اخاف"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 72,
+      "surah_name_ar": "الجن",
+      "surah_name_transliteration": "Al-Jinn",
+      "surah_name_bn": "জিন সম্প্রদায়",
+      "ayah_number": 13,
+      "arabic": "وَأَنَّا لَمَّا سَمِعۡنَا ٱلۡهُدَىٰٓ ءَامَنَّا بِهِۦۖ فَمَن يُؤۡمِنۢ بِرَبِّهِۦ فَلَا يَخَافُ بَخۡسٗا وَلَا رَهَقٗا",
+      "bangla": "আমরা যখন সুপথের নির্দেশ শুনলাম, তখন তাতে বিশ্বাস স্থাপন করলাম। অতএব, যে তার পালনকর্তার প্রতি বিশ্বাস করে, সে লোকসান ও জোর-জবরের আশংকা করে না।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"يخاف\")।",
+      "matched_concepts": [
+        "يخاف"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 74,
+      "surah_name_ar": "المدثر",
+      "surah_name_transliteration": "Al-Muddaththir",
+      "surah_name_bn": "পোশাক পরিহিত",
+      "ayah_number": 53,
+      "arabic": "كَلَّاۖ بَل لَّا يَخَافُونَ ٱلۡأٓخِرَةَ",
+      "bangla": "কখনও না, বরং তারা পরকালকে ভয় করে না।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"يخافون\")।",
+      "matched_concepts": [
+        "يخافون"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 76,
+      "surah_name_ar": "الانسان",
+      "surah_name_transliteration": "Al-Insan",
+      "surah_name_bn": "মানবজাতি",
+      "ayah_number": 7,
+      "arabic": "يُوفُونَ بِٱلنَّذۡرِ وَيَخَافُونَ يَوۡمٗا كَانَ شَرُّهُۥ مُسۡتَطِيرٗا",
+      "bangla": "তারা মান্নত পূর্ণ করে এবং সেদিনকে ভয় করে, যেদিনের অনিষ্ট হবে সুদূরপ্রসারী।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ويخافون\")।",
+      "matched_concepts": [
+        "ويخافون"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 76,
+      "surah_name_ar": "الانسان",
+      "surah_name_transliteration": "Al-Insan",
+      "surah_name_bn": "মানবজাতি",
+      "ayah_number": 10,
+      "arabic": "إِنَّا نَخَافُ مِن رَّبِّنَا يَوۡمًا عَبُوسٗا قَمۡطَرِيرٗا",
+      "bangla": "আমরা আমাদের পালনকর্তার তরফ থেকে এক ভীতিপ্রদ ভয়ংকর দিনের ভয় রাখি।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نخاف\")।",
+      "matched_concepts": [
+        "نخاف"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 79,
+      "surah_name_ar": "النازعات",
+      "surah_name_transliteration": "An-Nazi'at",
+      "surah_name_bn": "প্রচেষ্টাকারী",
+      "ayah_number": 40,
+      "arabic": "وَأَمَّا مَنۡ خَافَ مَقَامَ رَبِّهِۦ وَنَهَى ٱلنَّفۡسَ عَنِ ٱلۡهَوَىٰ",
+      "bangla": "পক্ষান্তরে যে ব্যক্তি তার পালনকর্তার সামনে দন্ডায়মান হওয়াকে ভয় করেছে এবং খেয়াল-খুশী থেকে নিজেকে নিবৃত্ত রেখেছে",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"خاف\")।",
+      "matched_concepts": [
+        "خاف"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 91,
+      "surah_name_ar": "الشمس",
+      "surah_name_transliteration": "Ash-Shams",
+      "surah_name_bn": "সূর্য",
+      "ayah_number": 15,
+      "arabic": "وَلَا يَخَافُ عُقۡبَٰهَا",
+      "bangla": "আল্লাহ তা’আলা এই ধ্বংসের কোন বিরূপ পরিণতির আশংকা করেন না।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"يخاف\")।",
+      "matched_concepts": [
+        "يخاف"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 106,
+      "surah_name_ar": "قريش",
+      "surah_name_transliteration": "Quraysh",
+      "surah_name_bn": "কুরাইশ গোত্র",
+      "ayah_number": 4,
+      "arabic": "ٱلَّذِيٓ أَطۡعَمَهُم مِّن جُوعٖ وَءَامَنَهُم مِّنۡ خَوۡفِۭ",
+      "bangla": "যিনি তাদেরকে ক্ষুধায় আহার দিয়েছেন এবং যুদ্ধভীতি থেকে তাদেরকে নিরাপদ করেছেন।",
+      "topic": "ভয়",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"ভয়\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"خوف\")।",
+      "matched_concepts": [
+        "خوف"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    }
+  ],
+  "strong_context": [],
+  "related": [],
+  "completeness_report": {
+    "topic": "ভয়",
+    "generated_at": "2026-09-15T00:09:29.082Z",
+    "total_ayahs_scanned": 6236,
+    "keyword_candidates": 100,
+    "narrative_candidates": 0,
+    "total_candidates_before_dedup": 100,
+    "total_candidates_after_dedup": 100,
+    "final_direct": 100,
+    "final_strong_context": 0,
+    "final_related": 0,
+    "rejected": 0,
+    "needs_human_review": 0,
+    "audit_checklist": [
+      {
+        "question": "Direct Arabic keywords কি সব search করেছি?",
+        "answer": "হ্যাঁ — টপিক ম্যাপের verified arabic_terms লিস্ট অনুযায়ী সম্পূর্ণ ৬২৩৬ আয়াতের কর্পাসে exact/whole-word search করা হয়েছে।"
+      },
+      {
+        "question": "Morphological variations (root surface forms) কি search করেছি?",
+        "answer": "হ্যাঁ — arabic_terms লিস্টে root-এর একাধিক surface form (উপসর্গ/প্রত্যয়সহ) অন্তর্ভুক্ত, প্রতিটি scripts/discover-forms.ts দিয়ে কর্পাসে verify করে নেওয়া হয়েছে।"
+      },
+      {
+        "question": "Synonyms/concepts কি search করেছি?",
+        "answer": "হ্যাঁ — concept_terms-এ সংজ্ঞায়িত সমার্থক শব্দগুলোও (distinct root) সম্পূর্ণ কর্পাসে search করা হয়েছে।"
+      },
+      {
+        "question": "Narrative/event context কি search করেছি?",
+        "answer": "এই টপিকের জন্য কোনো curated narrative passage যোগ করা হয়নি (over-inclusion এড়াতে সচেতনভাবে বাদ দেওয়া হয়েছে, বা প্রযোজ্য কোনো নির্দিষ্ট ঘটনা নেই)।"
+      },
+      {
+        "question": "কোনো আয়াত শুধু keyword না থাকার কারণে বাদ পড়েছে কি?",
+        "answer": "না — keyword ছাড়াও concept ও narrative layer সমান্তরালে সম্পূর্ণ কর্পাসে চালানো হয়েছে, তাই কোনো layer অন্য layer-কে \"শর্টসার্কিট\" করে বাদ দেয়নি।"
+      },
+      {
+        "question": "কোনো weak association ভুল করে include হয়েছে কি?",
+        "answer": "0 টি candidate confidence threshold-এর নিচে থাকায় REVIEW_REQUIRED হিসেবে চিহ্নিত হয়েছে এবং চূড়ান্ত DIRECT/STRONG_CONTEXT তালিকায় স্বয়ংক্রিয়ভাবে রাখা হয়নি।"
+      }
+    ]
+  }
+}
