@@ -1,0 +1,1662 @@
+{
+  "topic": "পানি",
+  "generated_at": "2026-09-15T00:09:27.409Z",
+  "total_ayahs": 6236,
+  "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+  "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+  "dataset_version": "quran-json@3.1.2 / merged 2026",
+  "direct": [
+    {
+      "surah_number": 2,
+      "surah_name_ar": "البقرة",
+      "surah_name_transliteration": "Al-Baqarah",
+      "surah_name_bn": "বকনা-বাছুর",
+      "ayah_number": 22,
+      "arabic": "ٱلَّذِي جَعَلَ لَكُمُ ٱلۡأَرۡضَ فِرَٰشٗا وَٱلسَّمَآءَ بِنَآءٗ وَأَنزَلَ مِنَ ٱلسَّمَآءِ مَآءٗ فَأَخۡرَجَ بِهِۦ مِنَ ٱلثَّمَرَٰتِ رِزۡقٗا لَّكُمۡۖ فَلَا تَجۡعَلُواْ لِلَّهِ أَندَادٗا وَأَنتُمۡ تَعۡلَمُونَ",
+      "bangla": "যে পবিত্রসত্তা তোমাদের জন্য ভূমিকে বিছানা এবং আকাশকে ছাদ স্বরূপ স্থাপন করে দিয়েছেন, আর আকাশ থেকে পানি বর্ষণ করে তোমাদের জন্য ফল-ফসল উৎপাদন করেছেন তোমাদের খাদ্য হিসাবে। অতএব, আল্লাহর সাথে তোমরা অন্য কাকেও সমকক্ষ করো না। বস্তুতঃ এসব তোমরা জান।",
+      "topic": "পানি",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماء\")।",
+      "matched_concepts": [
+        "ماء"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 2,
+      "surah_name_ar": "البقرة",
+      "surah_name_transliteration": "Al-Baqarah",
+      "surah_name_bn": "বকনা-বাছুর",
+      "ayah_number": 74,
+      "arabic": "ثُمَّ قَسَتۡ قُلُوبُكُم مِّنۢ بَعۡدِ ذَٰلِكَ فَهِيَ كَٱلۡحِجَارَةِ أَوۡ أَشَدُّ قَسۡوَةٗۚ وَإِنَّ مِنَ ٱلۡحِجَارَةِ لَمَا يَتَفَجَّرُ مِنۡهُ ٱلۡأَنۡهَٰرُۚ وَإِنَّ مِنۡهَا لَمَا يَشَّقَّقُ فَيَخۡرُجُ مِنۡهُ ٱلۡمَآءُۚ وَإِنَّ مِنۡهَا لَمَا يَهۡبِطُ مِنۡ خَشۡيَةِ ٱللَّهِۗ وَمَا ٱللَّهُ بِغَٰفِلٍ عَمَّا تَعۡمَلُونَ",
+      "bangla": "অতঃপর এ ঘটনার পরে তোমাদের অন্তর কঠিন হয়ে গেছে। তা পাথরের মত অথবা তদপেক্ষাও কঠিন। পাথরের মধ্যে এমন ও আছে; যা থেকে ঝরণা প্রবাহিত হয়, এমনও আছে, যা বিদীর্ণ হয়, অতঃপর তা থেকে পানি নির্গত হয় এবং এমনও আছে, যা আল্লাহর ভয়ে খসেপড়তে থাকে! আল্লাহ তোমাদের কাজকর্ম সম্পর্কে বে-খবর নন।",
+      "topic": "পানি",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الماء\")।",
+      "matched_concepts": [
+        "الماء"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 2,
+      "surah_name_ar": "البقرة",
+      "surah_name_transliteration": "Al-Baqarah",
+      "surah_name_bn": "বকনা-বাছুর",
+      "ayah_number": 164,
+      "arabic": "إِنَّ فِي خَلۡقِ ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضِ وَٱخۡتِلَٰفِ ٱلَّيۡلِ وَٱلنَّهَارِ وَٱلۡفُلۡكِ ٱلَّتِي تَجۡرِي فِي ٱلۡبَحۡرِ بِمَا يَنفَعُ ٱلنَّاسَ وَمَآ أَنزَلَ ٱللَّهُ مِنَ ٱلسَّمَآءِ مِن مَّآءٖ فَأَحۡيَا بِهِ ٱلۡأَرۡضَ بَعۡدَ مَوۡتِهَا وَبَثَّ فِيهَا مِن كُلِّ دَآبَّةٖ وَتَصۡرِيفِ ٱلرِّيَٰحِ وَٱلسَّحَابِ ٱلۡمُسَخَّرِ بَيۡنَ ٱلسَّمَآءِ وَٱلۡأَرۡضِ لَأٓيَٰتٖ لِّقَوۡمٖ يَعۡقِلُونَ",
+      "bangla": "নিশ্চয়ই আসমান ও যমীনের সৃষ্টিতে, রাত ও দিনের বিবর্তনে এবং নদীতে নৌকাসমূহের চলাচলে মানুষের জন্য কল্যাণ রয়েছে। আর আল্লাহ তা’ আলা আকাশ থেকে যে পানি নাযিল করেছেন, তদ্দ্বারা মৃত যমীনকে সজীব করে তুলেছেন এবং তাতে ছড়িয়ে দিয়েছেন সবরকম জীব-জন্তু। আর আবহাওয়া পরিবর্তনে এবং মেঘমালার যা তাঁরই হুকুমের অধীনে আসমান ও যমীনের মাঝে বিচরণ করে, নিশ্চয়ই সে সমস্ত বিষয়ের মাঝে নিদর্শন রয়েছে বুদ্ধিমান সম্প্রদায়ের জন্যে।",
+      "topic": "পানি",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماء\")।",
+      "matched_concepts": [
+        "ماء"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 2,
+      "surah_name_ar": "البقرة",
+      "surah_name_transliteration": "Al-Baqarah",
+      "surah_name_bn": "বকনা-বাছুর",
+      "ayah_number": 259,
+      "arabic": "أَوۡ كَٱلَّذِي مَرَّ عَلَىٰ قَرۡيَةٖ وَهِيَ خَاوِيَةٌ عَلَىٰ عُرُوشِهَا قَالَ أَنَّىٰ يُحۡيِۦ هَٰذِهِ ٱللَّهُ بَعۡدَ مَوۡتِهَاۖ فَأَمَاتَهُ ٱللَّهُ مِاْئَةَ عَامٖ ثُمَّ بَعَثَهُۥۖ قَالَ كَمۡ لَبِثۡتَۖ قَالَ لَبِثۡتُ يَوۡمًا أَوۡ بَعۡضَ يَوۡمٖۖ قَالَ بَل لَّبِثۡتَ مِاْئَةَ عَامٖ فَٱنظُرۡ إِلَىٰ طَعَامِكَ وَشَرَابِكَ لَمۡ يَتَسَنَّهۡۖ وَٱنظُرۡ إِلَىٰ حِمَارِكَ وَلِنَجۡعَلَكَ ءَايَةٗ لِّلنَّاسِۖ وَٱنظُرۡ إِلَى ٱلۡعِظَامِ كَيۡفَ نُنشِزُهَا ثُمَّ نَكۡسُوهَا لَحۡمٗاۚ فَلَمَّا تَبَيَّنَ لَهُۥ قَالَ أَعۡلَمُ أَنَّ ٱللَّهَ عَلَىٰ كُلِّ شَيۡءٖ قَدِيرٞ",
+      "bangla": "তুমি কি সে লোককে দেখনি যে এমন এক জনপদ দিয়ে যাচ্ছিল যার বাড়ীঘরগুলো ভেঙ্গে ছাদের উপর পড়ে ছিল? বলল, কেমন করে আল্লাহ মরনের পর একে জীবিত করবেন? অতঃপর আল্লাহ তাকে মৃত অবস্থায় রাখলেন একশ বছর। তারপর তাকে উঠালেন। বললেন, কত কাল এভাবে ছিলে? বলল আমি ছিলাম, একদিন কংবা একদিনের কিছু কম সময়। বললেন, তা নয়; বরং তুমি তো একশ বছর ছিলে। এবার চেয়ে দেখ নিজের খাবার ও পানীয়ের দিকে-সেগুলো পচে যায় নি এবং দেখ নিজের গাধাটির দিকে। আর আমি তোমাকে মানুষের জন্য দৃষ্টান্ত বানাতে চেয়েছি। আর হাড়গুলোর দিকে চেয়ে দেখ যে, আমি এগুলোকে কেমন করে জুড়ে দেই এবং সেগুলোর উপর মাংসের আবরণ পরিয়ে দেই। অতঃপর যখন তার উপর এ অবস্থা প্রকাশিত হল, তখন বলে উঠল-আমি জানি, নিঃসন্দেহে আল্লাহ সর্ব বিষয়ে ক্ষমতাশীল।",
+      "topic": "পানি",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماءه\")।",
+      "matched_concepts": [
+        "ماءه"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 2,
+      "surah_name_ar": "البقرة",
+      "surah_name_transliteration": "Al-Baqarah",
+      "surah_name_bn": "বকনা-বাছুর",
+      "ayah_number": 261,
+      "arabic": "مَّثَلُ ٱلَّذِينَ يُنفِقُونَ أَمۡوَٰلَهُمۡ فِي سَبِيلِ ٱللَّهِ كَمَثَلِ حَبَّةٍ أَنۢبَتَتۡ سَبۡعَ سَنَابِلَ فِي كُلِّ سُنۢبُلَةٖ مِّاْئَةُ حَبَّةٖۗ وَٱللَّهُ يُضَٰعِفُ لِمَن يَشَآءُۚ وَٱللَّهُ وَٰسِعٌ عَلِيمٌ",
+      "bangla": "যারা আল্লাহর রাস্তায় স্বীয় ধন সম্পদ ব্যয় করে, তাদের উদাহরণ একটি বীজের মত, যা থেকে সাতটি শীষ জন্মায়। প্রত্যেকটি শীষে একশ করে দানা থাকে। আল্লাহ অতি দানশীল, সর্বজ্ঞ।",
+      "topic": "পানি",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماءه\")।",
+      "matched_concepts": [
+        "ماءه"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 4,
+      "surah_name_ar": "النساء",
+      "surah_name_transliteration": "An-Nisa",
+      "surah_name_bn": "নারী",
+      "ayah_number": 43,
+      "arabic": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُواْ لَا تَقۡرَبُواْ ٱلصَّلَوٰةَ وَأَنتُمۡ سُكَٰرَىٰ حَتَّىٰ تَعۡلَمُواْ مَا تَقُولُونَ وَلَا جُنُبًا إِلَّا عَابِرِي سَبِيلٍ حَتَّىٰ تَغۡتَسِلُواْۚ وَإِن كُنتُم مَّرۡضَىٰٓ أَوۡ عَلَىٰ سَفَرٍ أَوۡ جَآءَ أَحَدٞ مِّنكُم مِّنَ ٱلۡغَآئِطِ أَوۡ لَٰمَسۡتُمُ ٱلنِّسَآءَ فَلَمۡ تَجِدُواْ مَآءٗ فَتَيَمَّمُواْ صَعِيدٗا طَيِّبٗا فَٱمۡسَحُواْ بِوُجُوهِكُمۡ وَأَيۡدِيكُمۡۗ إِنَّ ٱللَّهَ كَانَ عَفُوًّا غَفُورًا",
+      "bangla": "হে ঈমাণদারগণ! তোমরা যখন নেশাগ্রস্ত থাক, তখন নামাযের ধারে-কাছেও যেওনা, যতক্ষণ না বুঝতে সক্ষম হও যা কিছু তোমরা বলছ, আর (নামাযের কাছে যেও না) ফরয গোসলের আবস্থায়ও যতক্ষণ না গোসল করে নাও। কিন্তু মুসাফির অবস্থার কথা স্বতন্ত্র আর যদি তোমরা অসুস্থ হয়ে থাক কিংবা সফরে থাক অথবা তোমাদের মধ্য থেকে কেউ যদি প্রস্রাব-পায়খানা থেকে এসে থাকে কিংবা নারী গমন করে থাকে, কিন্তু পরে যদি পানিপ্রাপ্তি সম্ভব না হয়, তবে পাক-পবিত্র মাটির দ্বারা তায়াম্মুম করে নাও-তাতে মুখমন্ডল ও হাতকে ঘষে নাও। নিশ্চয়ই আল্লাহ তা’আলা ক্ষমাশীল।",
+      "topic": "পানি",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماء\")।",
+      "matched_concepts": [
+        "ماء"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 5,
+      "surah_name_ar": "المائدة",
+      "surah_name_transliteration": "Al-Ma'idah",
+      "surah_name_bn": "খাদ্য পরিবেশিত টেবিল",
+      "ayah_number": 6,
+      "arabic": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓاْ إِذَا قُمۡتُمۡ إِلَى ٱلصَّلَوٰةِ فَٱغۡسِلُواْ وُجُوهَكُمۡ وَأَيۡدِيَكُمۡ إِلَى ٱلۡمَرَافِقِ وَٱمۡسَحُواْ بِرُءُوسِكُمۡ وَأَرۡجُلَكُمۡ إِلَى ٱلۡكَعۡبَيۡنِۚ وَإِن كُنتُمۡ جُنُبٗا فَٱطَّهَّرُواْۚ وَإِن كُنتُم مَّرۡضَىٰٓ أَوۡ عَلَىٰ سَفَرٍ أَوۡ جَآءَ أَحَدٞ مِّنكُم مِّنَ ٱلۡغَآئِطِ أَوۡ لَٰمَسۡتُمُ ٱلنِّسَآءَ فَلَمۡ تَجِدُواْ مَآءٗ فَتَيَمَّمُواْ صَعِيدٗا طَيِّبٗا فَٱمۡسَحُواْ بِوُجُوهِكُمۡ وَأَيۡدِيكُم مِّنۡهُۚ مَا يُرِيدُ ٱللَّهُ لِيَجۡعَلَ عَلَيۡكُم مِّنۡ حَرَجٖ وَلَٰكِن يُرِيدُ لِيُطَهِّرَكُمۡ وَلِيُتِمَّ نِعۡمَتَهُۥ عَلَيۡكُمۡ لَعَلَّكُمۡ تَشۡكُرُونَ",
+      "bangla": "হে মুমিনগণ, যখন তোমরা নামাযের জন্যে উঠ, তখন স্বীয় মুখমন্ডল ও হস্তসমূহ কনুই পর্যন্ত ধৌত কর, মাথা মুছেহ কর এবং পদযুগল গিটসহ। যদি তোমরা অপবিত্র হও তবে সারা দেহ পবিত্র করে নাও এবং যদি তোমরা রুগ্ন হও, অথবা প্রবাসে থাক অথবা তোমাদের কেউ প্রসাব-পায়খানা সেরে আসে অথবা তোমরা স্ত্রীদের সাথে সহবাস কর, অতঃপর পানি না পাও, তবে তোমরা পবিত্র মাটি দ্বারা তায়াম্মুম করে নাও-অর্থাৎ, স্বীয় মুখ-মন্ডল ও হস্তদ্বয় মাটি দ্বারা মুছে ফেল। আল্লাহ তোমাদেরকে অসুবিধায় ফেলতে চান না; কিন্তু তোমাদেরকে পবিত্র রাখতে চান এবং তোমাদের প্রতি স্বীয় নেয়ামত পূর্ণ করতে চান-যাতে তোমরা কৃতজ্ঞাতা প্রকাশ কর।",
+      "topic": "পানি",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماء\")।",
+      "matched_concepts": [
+        "ماء"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 6,
+      "surah_name_ar": "الأنعام",
+      "surah_name_transliteration": "Al-An'am",
+      "surah_name_bn": "গৃহপালিত পশু",
+      "ayah_number": 99,
+      "arabic": "وَهُوَ ٱلَّذِيٓ أَنزَلَ مِنَ ٱلسَّمَآءِ مَآءٗ فَأَخۡرَجۡنَا بِهِۦ نَبَاتَ كُلِّ شَيۡءٖ فَأَخۡرَجۡنَا مِنۡهُ خَضِرٗا نُّخۡرِجُ مِنۡهُ حَبّٗا مُّتَرَاكِبٗا وَمِنَ ٱلنَّخۡلِ مِن طَلۡعِهَا قِنۡوَانٞ دَانِيَةٞ وَجَنَّـٰتٖ مِّنۡ أَعۡنَابٖ وَٱلزَّيۡتُونَ وَٱلرُّمَّانَ مُشۡتَبِهٗا وَغَيۡرَ مُتَشَٰبِهٍۗ ٱنظُرُوٓاْ إِلَىٰ ثَمَرِهِۦٓ إِذَآ أَثۡمَرَ وَيَنۡعِهِۦٓۚ إِنَّ فِي ذَٰلِكُمۡ لَأٓيَٰتٖ لِّقَوۡمٖ يُؤۡمِنُونَ",
+      "bangla": "তিনিই আকাশ থেকে পানি বর্ষণ করেছেন অতঃপর আমি এর দ্বারা সর্বপ্রকার উদ্ভিদ উৎপন্ন করেছি, অতঃপর আমি এ থেকে সবুজ ফসল নির্গত করেছি, যা থেকে যুগ্ম বীজ উৎপন্ন করি। খেজুরের কাঁদি থেকে গুচ্ছ বের করি, যা নুয়ে থাকে এবং আঙ্গুরের বাগান, যয়তুন, আনার পরস্পর সাদৃশ্যযুক্ত এবং সাদৃশ্যহীন। বিভিন্ন গাছের ফলের প্রতি লক্ষ্য কর যখন সেুগুলো ফলন্ত হয় এবং তার পরিপক্কতার প্রতি লক্ষ্য কর। নিশ্চয় এ গুলোতে নিদর্শন রয়েছে ঈমানদারদের জন্যে।",
+      "topic": "পানি",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماء\")।",
+      "matched_concepts": [
+        "ماء"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 7,
+      "surah_name_ar": "الأعراف",
+      "surah_name_transliteration": "Al-A'raf",
+      "surah_name_bn": "উচু স্থান",
+      "ayah_number": 50,
+      "arabic": "وَنَادَىٰٓ أَصۡحَٰبُ ٱلنَّارِ أَصۡحَٰبَ ٱلۡجَنَّةِ أَنۡ أَفِيضُواْ عَلَيۡنَا مِنَ ٱلۡمَآءِ أَوۡ مِمَّا رَزَقَكُمُ ٱللَّهُۚ قَالُوٓاْ إِنَّ ٱللَّهَ حَرَّمَهُمَا عَلَى ٱلۡكَٰفِرِينَ",
+      "bangla": "দোযখীরা জান্নাতীদেরকে ডেকে বলবেঃ আমাদের উপর সামান্য পানি নিক্ষেপ কর অথবা আল্লাহ তোমাদেরকে যে রুযী দিয়েছেন, তা থেকেই কিছু দাও। তারা বলবেঃ আল্লাহ এই উভয় বস্তু কাফেরদের জন্যে নিষিদ্ধ করেছেন",
+      "topic": "পানি",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الماء\")।",
+      "matched_concepts": [
+        "الماء"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 7,
+      "surah_name_ar": "الأعراف",
+      "surah_name_transliteration": "Al-A'raf",
+      "surah_name_bn": "উচু স্থান",
+      "ayah_number": 57,
+      "arabic": "وَهُوَ ٱلَّذِي يُرۡسِلُ ٱلرِّيَٰحَ بُشۡرَۢا بَيۡنَ يَدَيۡ رَحۡمَتِهِۦۖ حَتَّىٰٓ إِذَآ أَقَلَّتۡ سَحَابٗا ثِقَالٗا سُقۡنَٰهُ لِبَلَدٖ مَّيِّتٖ فَأَنزَلۡنَا بِهِ ٱلۡمَآءَ فَأَخۡرَجۡنَا بِهِۦ مِن كُلِّ ٱلثَّمَرَٰتِۚ كَذَٰلِكَ نُخۡرِجُ ٱلۡمَوۡتَىٰ لَعَلَّكُمۡ تَذَكَّرُونَ",
+      "bangla": "তিনিই বৃষ্টির পূর্বে সুসংবাদবাহী বায়ু পাঠিয়ে দেন। এমনকি যখন বায়ুরাশি পানিপূর্ন মেঘমালা বয়ে আনে, তখন আমি এ মেঘমালাকে একটি মৃত শহরের দিকে হঁ্যাকিয়ে দেই। অতঃপর এ মেঘ থেকে বৃষ্টি ধারা বর্ষণ করি। অতঃপর পানি দ্বারা সব রকমের ফল উৎপন্ন করি। এমনি ভাবে মৃতদেরকে বের করব-যাতে তোমরা চিন্তা কর।",
+      "topic": "পানি",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الماء\")।",
+      "matched_concepts": [
+        "الماء"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 8,
+      "surah_name_ar": "الأنفال",
+      "surah_name_transliteration": "Al-Anfal",
+      "surah_name_bn": "যুদ্ধ-লব্ধ ধনসম্পদ",
+      "ayah_number": 11,
+      "arabic": "إِذۡ يُغَشِّيكُمُ ٱلنُّعَاسَ أَمَنَةٗ مِّنۡهُ وَيُنَزِّلُ عَلَيۡكُم مِّنَ ٱلسَّمَآءِ مَآءٗ لِّيُطَهِّرَكُم بِهِۦ وَيُذۡهِبَ عَنكُمۡ رِجۡزَ ٱلشَّيۡطَٰنِ وَلِيَرۡبِطَ عَلَىٰ قُلُوبِكُمۡ وَيُثَبِّتَ بِهِ ٱلۡأَقۡدَامَ",
+      "bangla": "যখন তিনি আরোপ করেন তোমাদের উপর তন্দ্রাচ্ছন্ন তা নিজের পক্ষ থেকে তোমাদের প্রশান্তির জন্য এবং তোমাদের উপর আকাশ থেকে পানি অবতরণ করেন, যাতে তোমাদিগকে পবিত্র করে দেন এবং যাতে তোমাদের থেকে অপসারিত করে দেন শয়তানের অপবিত্রতা। আর যাতে করে সুরক্ষিত করে দিতে পারেন তোমাদের অন্তরসমূহকে এবং তাতে যেন সুদৃঢ় করে দিতে পারেন তোমাদের পা গুলো।",
+      "topic": "পানি",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماء\")।",
+      "matched_concepts": [
+        "ماء"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 8,
+      "surah_name_ar": "الأنفال",
+      "surah_name_transliteration": "Al-Anfal",
+      "surah_name_bn": "যুদ্ধ-লব্ধ ধনসম্পদ",
+      "ayah_number": 65,
+      "arabic": "يَـٰٓأَيُّهَا ٱلنَّبِيُّ حَرِّضِ ٱلۡمُؤۡمِنِينَ عَلَى ٱلۡقِتَالِۚ إِن يَكُن مِّنكُمۡ عِشۡرُونَ صَٰبِرُونَ يَغۡلِبُواْ مِاْئَتَيۡنِۚ وَإِن يَكُن مِّنكُم مِّاْئَةٞ يَغۡلِبُوٓاْ أَلۡفٗا مِّنَ ٱلَّذِينَ كَفَرُواْ بِأَنَّهُمۡ قَوۡمٞ لَّا يَفۡقَهُونَ",
+      "bangla": "হে নবী, আপনি মুসলমানগণকে উৎসাহিত করুন জেহাদের জন্য। তোমাদের মধ্যে যদি বিশ জন দৃঢ়পদ ব্যক্তি থাকে, তবে জয়ী হবে দু’শর মোকাবেলায়। আর যদি তোমাদের মধ্যে থাকে একশ লোক, তবে জয়ী হবে হাজার কাফেরের উপর থেকে তার কারণ ওরা জ্ঞানহীন।",
+      "topic": "পানি",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماءه\")।",
+      "matched_concepts": [
+        "ماءه"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 8,
+      "surah_name_ar": "الأنفال",
+      "surah_name_transliteration": "Al-Anfal",
+      "surah_name_bn": "যুদ্ধ-লব্ধ ধনসম্পদ",
+      "ayah_number": 66,
+      "arabic": "ٱلۡـَٰٔنَ خَفَّفَ ٱللَّهُ عَنكُمۡ وَعَلِمَ أَنَّ فِيكُمۡ ضَعۡفٗاۚ فَإِن يَكُن مِّنكُم مِّاْئَةٞ صَابِرَةٞ يَغۡلِبُواْ مِاْئَتَيۡنِۚ وَإِن يَكُن مِّنكُمۡ أَلۡفٞ يَغۡلِبُوٓاْ أَلۡفَيۡنِ بِإِذۡنِ ٱللَّهِۗ وَٱللَّهُ مَعَ ٱلصَّـٰبِرِينَ",
+      "bangla": "এখন বোঝা হালকা করে দিয়েছেন আল্লাহ তা’আলা তোমাদের উপর এবং তিনি জেনে নিয়েছেন যে, তোমাদের মধ্য দূর্বলতা রয়েছে। কাজেই তোমাদের মধ্যে যদি দৃঢ়চিত্ত একশ লোক বিদ্যমান থাকে, তবে জয়ী হবে দু’শর উপর। আর যদি তোমরা এক হাজার হও তবে আল্লাহর হুকুম অনুযায়ী জয়ী হবে দু’হাজারের উপর আর আল্লাহ রয়েছেন দৃঢ়চিত্ত লোকদের সাথে।",
+      "topic": "পানি",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماءه\")।",
+      "matched_concepts": [
+        "ماءه"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 10,
+      "surah_name_ar": "يونس",
+      "surah_name_transliteration": "Yunus",
+      "surah_name_bn": "নবী ইউনুস",
+      "ayah_number": 24,
+      "arabic": "إِنَّمَا مَثَلُ ٱلۡحَيَوٰةِ ٱلدُّنۡيَا كَمَآءٍ أَنزَلۡنَٰهُ مِنَ ٱلسَّمَآءِ فَٱخۡتَلَطَ بِهِۦ نَبَاتُ ٱلۡأَرۡضِ مِمَّا يَأۡكُلُ ٱلنَّاسُ وَٱلۡأَنۡعَٰمُ حَتَّىٰٓ إِذَآ أَخَذَتِ ٱلۡأَرۡضُ زُخۡرُفَهَا وَٱزَّيَّنَتۡ وَظَنَّ أَهۡلُهَآ أَنَّهُمۡ قَٰدِرُونَ عَلَيۡهَآ أَتَىٰهَآ أَمۡرُنَا لَيۡلًا أَوۡ نَهَارٗا فَجَعَلۡنَٰهَا حَصِيدٗا كَأَن لَّمۡ تَغۡنَ بِٱلۡأَمۡسِۚ كَذَٰلِكَ نُفَصِّلُ ٱلۡأٓيَٰتِ لِقَوۡمٖ يَتَفَكَّرُونَ",
+      "bangla": "পার্থিব জীবনের উদাহরণ তেমনি, যেমনি আমি আসমান থেকে পানি বর্ষন করলাম, পরে তা মিলিত সংমিশ্রিত হয়ে তা থেকে যমীনের শ্যামল উদ্ভিদ বেরিয়ে এল যা মানুষ ও জীব-জন্তুরা খেয়ে থাকে। এমনকি যমীন যখন সৌন্দর্য সুষমায় ভরে উঠলো আর যমীনের অধিকর্তারা ভাবতে লাগল, এগুলো আমাদের হাতে আসবে, হঠাৎ করে তার উপর আমার নির্দেশ এল রাত্রে কিংবা দিনে, তখন সেগুলোকে কেটে স্তুপাকার করে দিল যেন কাল ও এখানে কোন আবাদ ছিল না। এমনিভাবে আমি খোলাখুলি বর্ণনা করে থাকি নিদর্শণসমূহ সে সমস্ত লোকদের জন্য যারা লক্ষ্য করে।",
+      "topic": "পানি",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"كماء\")।",
+      "matched_concepts": [
+        "كماء"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 11,
+      "surah_name_ar": "هود",
+      "surah_name_transliteration": "Hud",
+      "surah_name_bn": "নবী হুদ",
+      "ayah_number": 7,
+      "arabic": "وَهُوَ ٱلَّذِي خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضَ فِي سِتَّةِ أَيَّامٖ وَكَانَ عَرۡشُهُۥ عَلَى ٱلۡمَآءِ لِيَبۡلُوَكُمۡ أَيُّكُمۡ أَحۡسَنُ عَمَلٗاۗ وَلَئِن قُلۡتَ إِنَّكُم مَّبۡعُوثُونَ مِنۢ بَعۡدِ ٱلۡمَوۡتِ لَيَقُولَنَّ ٱلَّذِينَ كَفَرُوٓاْ إِنۡ هَٰذَآ إِلَّا سِحۡرٞ مُّبِينٞ",
+      "bangla": "তিনিই আসমান ও যমীন ছয় দিনে তৈরী করেছেন, তাঁর আরশ ছিল পানির উপরে, তিনি তোমাদেরকে পরীক্ষা করতে চান যে, তোমাদের মধ্যে কে সবচেয়ে ভাল কাজ করে। আর যদি আপনি তাদেরকে বলেন যে, \"নিশ্চয় তোমাদেরকে মৃত্যুর পরে জীবিত ওঠানো হবে, তখন কাফেরেরা অবশ্য বলে এটা তো স্পষ্ট যাদু",
+      "topic": "পানি",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الماء\")।",
+      "matched_concepts": [
+        "الماء"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 11,
+      "surah_name_ar": "هود",
+      "surah_name_transliteration": "Hud",
+      "surah_name_bn": "নবী হুদ",
+      "ayah_number": 43,
+      "arabic": "قَالَ سَـَٔاوِيٓ إِلَىٰ جَبَلٖ يَعۡصِمُنِي مِنَ ٱلۡمَآءِۚ قَالَ لَا عَاصِمَ ٱلۡيَوۡمَ مِنۡ أَمۡرِ ٱللَّهِ إِلَّا مَن رَّحِمَۚ وَحَالَ بَيۡنَهُمَا ٱلۡمَوۡجُ فَكَانَ مِنَ ٱلۡمُغۡرَقِينَ",
+      "bangla": "সে বলল, আমি অচিরেই কোন পাহাড়ে আশ্রয় নেব, যা আমাকে পানি হতে রক্ষা করবে। নূহ (আঃ) বল্লেন আজকের দিনে আল্লাহর হুকুম থেকে কোন রক্ষাকারী নেই। একমাত্র তিনি যাকে দয়া করবেন। এমন সময় উভয়ের মাঝে তরঙ্গ আড়াল হয়ে দাঁড়াল, ফলে সে নিমজ্জিত হল।",
+      "topic": "পানি",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الماء\")।",
+      "matched_concepts": [
+        "الماء"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 11,
+      "surah_name_ar": "هود",
+      "surah_name_transliteration": "Hud",
+      "surah_name_bn": "নবী হুদ",
+      "ayah_number": 44,
+      "arabic": "وَقِيلَ يَـٰٓأَرۡضُ ٱبۡلَعِي مَآءَكِ وَيَٰسَمَآءُ أَقۡلِعِي وَغِيضَ ٱلۡمَآءُ وَقُضِيَ ٱلۡأَمۡرُ وَٱسۡتَوَتۡ عَلَى ٱلۡجُودِيِّۖ وَقِيلَ بُعۡدٗا لِّلۡقَوۡمِ ٱلظَّـٰلِمِينَ",
+      "bangla": "আর নির্দেশ দেয়া হল-হে পৃথিবী! তোমার পানি গিলে ফেল, আর হে আকাশ, ক্ষান্ত হও। আর পানি হ্রাস করা হল এবং কাজ শেষ হয়ে গেল, আর জুদী পর্বতে নৌকা ভিড়ল এবং ঘোষনা করা হল, দুরাত্না কাফেররা নিপাত যাক।",
+      "topic": "পানি",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الماء\", \"ماءك\")।",
+      "matched_concepts": [
+        "الماء",
+        "ماءك"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 13,
+      "surah_name_ar": "الرعد",
+      "surah_name_transliteration": "Ar-Ra'd",
+      "surah_name_bn": "বজ্রপাত",
+      "ayah_number": 4,
+      "arabic": "وَفِي ٱلۡأَرۡضِ قِطَعٞ مُّتَجَٰوِرَٰتٞ وَجَنَّـٰتٞ مِّنۡ أَعۡنَٰبٖ وَزَرۡعٞ وَنَخِيلٞ صِنۡوَانٞ وَغَيۡرُ صِنۡوَانٖ يُسۡقَىٰ بِمَآءٖ وَٰحِدٖ وَنُفَضِّلُ بَعۡضَهَا عَلَىٰ بَعۡضٖ فِي ٱلۡأُكُلِۚ إِنَّ فِي ذَٰلِكَ لَأٓيَٰتٖ لِّقَوۡمٖ يَعۡقِلُونَ",
+      "bangla": "এবং যমিনে বিভিন্ন শস্য ক্ষেত্র রয়েছে-একটি অপরটির সাথে সংলগ্ন এবং আঙ্গুরের বাগান আছে আর শস্য ও খজ্জুর রয়েছে-একটির মূল অপরটির সাথে মিলিত এবং কতক মিলিত নয়। এগুলো কে একই পানি দ্বারা সেচ করা হয়। আর আমি স্বাদে একটিকে অপরটির চাইতে উৎকৃষ্টতর করে দেই। এগুলোর মধ্যে নিদর্শণ রয়েছে তাদের জন্য যারা চিন্তা ভাবনা করে।",
+      "topic": "পানি",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"بماء\")।",
+      "matched_concepts": [
+        "بماء"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 13,
+      "surah_name_ar": "الرعد",
+      "surah_name_transliteration": "Ar-Ra'd",
+      "surah_name_bn": "বজ্রপাত",
+      "ayah_number": 14,
+      "arabic": "لَهُۥ دَعۡوَةُ ٱلۡحَقِّۚ وَٱلَّذِينَ يَدۡعُونَ مِن دُونِهِۦ لَا يَسۡتَجِيبُونَ لَهُم بِشَيۡءٍ إِلَّا كَبَٰسِطِ كَفَّيۡهِ إِلَى ٱلۡمَآءِ لِيَبۡلُغَ فَاهُ وَمَا هُوَ بِبَٰلِغِهِۦۚ وَمَا دُعَآءُ ٱلۡكَٰفِرِينَ إِلَّا فِي ضَلَٰلٖ",
+      "bangla": "সত্যের আহবান একমাত্র তাঁরই এবং তাকে ছাড়া যাদেরকে ডাকে, তারা তাদের কোন কাজে আসে না; ওদের দৃষ্টান্ত সেরূপ, যেমন কেউ দু’ হাত পানির দিকে প্রসারিত করে যাতে পানি তার মুখে পৌঁছে যায়। অথচ পানি কোন সময় পৌঁছাবে না। কাফেরদের যত আহবান তার সবই পথভ্রষ্টতা।",
+      "topic": "পানি",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الماء\")।",
+      "matched_concepts": [
+        "الماء"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 13,
+      "surah_name_ar": "الرعد",
+      "surah_name_transliteration": "Ar-Ra'd",
+      "surah_name_bn": "বজ্রপাত",
+      "ayah_number": 17,
+      "arabic": "أَنزَلَ مِنَ ٱلسَّمَآءِ مَآءٗ فَسَالَتۡ أَوۡدِيَةُۢ بِقَدَرِهَا فَٱحۡتَمَلَ ٱلسَّيۡلُ زَبَدٗا رَّابِيٗاۖ وَمِمَّا يُوقِدُونَ عَلَيۡهِ فِي ٱلنَّارِ ٱبۡتِغَآءَ حِلۡيَةٍ أَوۡ مَتَٰعٖ زَبَدٞ مِّثۡلُهُۥۚ كَذَٰلِكَ يَضۡرِبُ ٱللَّهُ ٱلۡحَقَّ وَٱلۡبَٰطِلَۚ فَأَمَّا ٱلزَّبَدُ فَيَذۡهَبُ جُفَآءٗۖ وَأَمَّا مَا يَنفَعُ ٱلنَّاسَ فَيَمۡكُثُ فِي ٱلۡأَرۡضِۚ كَذَٰلِكَ يَضۡرِبُ ٱللَّهُ ٱلۡأَمۡثَالَ",
+      "bangla": "তিনি আকাশ থেকে পানি বর্ষণ করেন। অতঃপর স্রোতধারা প্রবাহিত হতে থাকে নিজ নিজ পরিমাণ অনুযায়ী। অতঃপর স্রোতধারা স্ফীত ফেনারাশি উপরে নিয়ে আসে। এবং অলঙ্কার অথবা তৈজসপত্রের জন্যে যে বস্তুকে আগুনে উত্তপ্ত করে, তাতেও তেমনি ফেনারাশি থাকে। এমনি ভাবে আল্লাহ সত্য ও অসত্যের দৃষ্টান্ত প্রদান করেন। অতএব, ফেনা তো শুকিয়ে খতম হয়ে যায় এবং যা মানুষের উপকারে আসে, তা জমিতে অবশিষ্ট থাকে। আল্লাহ এমনিভাবে দৃষ্টান্তসমূহ বর্ণনা করেন।",
+      "topic": "পানি",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماء\")।",
+      "matched_concepts": [
+        "ماء"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 14,
+      "surah_name_ar": "ابراهيم",
+      "surah_name_transliteration": "Ibrahim",
+      "surah_name_bn": "নবী ইবরাহীম",
+      "ayah_number": 16,
+      "arabic": "مِّن وَرَآئِهِۦ جَهَنَّمُ وَيُسۡقَىٰ مِن مَّآءٖ صَدِيدٖ",
+      "bangla": "তার পেছনে দোযখ রয়েছে। তাতে পূঁজ মিশানো পানি পান করানো হবে।",
+      "topic": "পানি",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماء\")।",
+      "matched_concepts": [
+        "ماء"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 14,
+      "surah_name_ar": "ابراهيم",
+      "surah_name_transliteration": "Ibrahim",
+      "surah_name_bn": "নবী ইবরাহীম",
+      "ayah_number": 32,
+      "arabic": "ٱللَّهُ ٱلَّذِي خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضَ وَأَنزَلَ مِنَ ٱلسَّمَآءِ مَآءٗ فَأَخۡرَجَ بِهِۦ مِنَ ٱلثَّمَرَٰتِ رِزۡقٗا لَّكُمۡۖ وَسَخَّرَ لَكُمُ ٱلۡفُلۡكَ لِتَجۡرِيَ فِي ٱلۡبَحۡرِ بِأَمۡرِهِۦۖ وَسَخَّرَ لَكُمُ ٱلۡأَنۡهَٰرَ",
+      "bangla": "তিনিই আল্লাহ, যিনি নভোমন্ডল ও ভুমন্ডল সৃজন করেছেন এবং আকাশ থেকে পানি বর্ষণ করে অতঃপর তা দ্বারা তোমাদের জন্যে ফলের রিযিক উৎপন্ন করেছেন এবং নৌকাকে তোমাদের আজ্ঞাবহ করেছেন, যাতে তাঁর আদেশে সমুদ্রে চলা ফেরা করে এবং নদ-নদীকে তোমাদের সেবায় নিয়োজিত করেছেন।",
+      "topic": "পানি",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماء\")।",
+      "matched_concepts": [
+        "ماء"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 15,
+      "surah_name_ar": "الحجر",
+      "surah_name_transliteration": "Al-Hijr",
+      "surah_name_bn": "পাথুরে পাহাড়",
+      "ayah_number": 22,
+      "arabic": "وَأَرۡسَلۡنَا ٱلرِّيَٰحَ لَوَٰقِحَ فَأَنزَلۡنَا مِنَ ٱلسَّمَآءِ مَآءٗ فَأَسۡقَيۡنَٰكُمُوهُ وَمَآ أَنتُمۡ لَهُۥ بِخَٰزِنِينَ",
+      "bangla": "আমি বৃষ্টিগর্ভ বায়ু পরিচালনা করি অতঃপর আকাশ থেকে পানি বর্ষণ করি, এরপর তোমাদেরকে তা পান করাই। বস্তুতঃ তোমাদের কাছে এর ভান্ডার নেই।",
+      "topic": "পানি",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماء\")।",
+      "matched_concepts": [
+        "ماء"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 16,
+      "surah_name_ar": "النحل",
+      "surah_name_transliteration": "An-Nahl",
+      "surah_name_bn": "মৌমাছি",
+      "ayah_number": 10,
+      "arabic": "هُوَ ٱلَّذِيٓ أَنزَلَ مِنَ ٱلسَّمَآءِ مَآءٗۖ لَّكُم مِّنۡهُ شَرَابٞ وَمِنۡهُ شَجَرٞ فِيهِ تُسِيمُونَ",
+      "bangla": "তিনি তোমাদের জন্যে আকাশ থেকে পানি বর্ষণ করেছেন। এই পানি থেকে তোমরা পান কর এবং এ থেকেই উদ্ভিদ উৎপন্ন হয়, যাতে তোমরা পশুচারণ কর।",
+      "topic": "পানি",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماء\")।",
+      "matched_concepts": [
+        "ماء"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 16,
+      "surah_name_ar": "النحل",
+      "surah_name_transliteration": "An-Nahl",
+      "surah_name_bn": "মৌমাছি",
+      "ayah_number": 65,
+      "arabic": "وَٱللَّهُ أَنزَلَ مِنَ ٱلسَّمَآءِ مَآءٗ فَأَحۡيَا بِهِ ٱلۡأَرۡضَ بَعۡدَ مَوۡتِهَآۚ إِنَّ فِي ذَٰلِكَ لَأٓيَةٗ لِّقَوۡمٖ يَسۡمَعُونَ",
+      "bangla": "আল্লাহ আকাশ থেকে পানি বর্ষণ করেছেন, তদ্বারা যমীনকে তার মৃত্যুর পর পুনর্জীবিত করেছেন। নিশ্চয় এতে তাদের জন্যে নিদর্শন রয়েছে, যারা শ্রবণ করে।",
+      "topic": "পানি",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماء\")।",
+      "matched_concepts": [
+        "ماء"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 18,
+      "surah_name_ar": "الكهف",
+      "surah_name_transliteration": "Al-Kahf",
+      "surah_name_bn": "গুহা",
+      "ayah_number": 25,
+      "arabic": "وَلَبِثُواْ فِي كَهۡفِهِمۡ ثَلَٰثَ مِاْئَةٖ سِنِينَ وَٱزۡدَادُواْ تِسۡعٗا",
+      "bangla": "তাদের উপর তাদের গুহায় তিনশ বছর, অতিরিক্ত আরও নয় বছর অতিবাহিত হয়েছে।",
+      "topic": "পানি",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماءه\")।",
+      "matched_concepts": [
+        "ماءه"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 18,
+      "surah_name_ar": "الكهف",
+      "surah_name_transliteration": "Al-Kahf",
+      "surah_name_bn": "গুহা",
+      "ayah_number": 29,
+      "arabic": "وَقُلِ ٱلۡحَقُّ مِن رَّبِّكُمۡۖ فَمَن شَآءَ فَلۡيُؤۡمِن وَمَن شَآءَ فَلۡيَكۡفُرۡۚ إِنَّآ أَعۡتَدۡنَا لِلظَّـٰلِمِينَ نَارًا أَحَاطَ بِهِمۡ سُرَادِقُهَاۚ وَإِن يَسۡتَغِيثُواْ يُغَاثُواْ بِمَآءٖ كَٱلۡمُهۡلِ يَشۡوِي ٱلۡوُجُوهَۚ بِئۡسَ ٱلشَّرَابُ وَسَآءَتۡ مُرۡتَفَقًا",
+      "bangla": "বলুনঃ সত্য তোমাদের পালনকর্তার পক্ষ থেকে আগত। অতএব, যার ইচ্ছা, বিশ্বাস স্থাপন করুক এবং যার ইচ্ছা অমান্য করুক। আমি জালেমদের জন্যে অগ্নি প্রস্তুত করে রেখেছি, যার বেষ্টনী তাদের কে পরিবেষ্টন করে থাকবে। যদি তারা পানীয় প্রার্থনা করে, তবে পুঁজের ন্যায় পানীয় দেয়া হবে যা তাদের মুখমন্ডল দগ্ধ করবে। কত নিকৃষ্ট পানীয় এবং খুবই মন্দ আশ্রয়।",
+      "topic": "পানি",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"بماء\")।",
+      "matched_concepts": [
+        "بماء"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 18,
+      "surah_name_ar": "الكهف",
+      "surah_name_transliteration": "Al-Kahf",
+      "surah_name_bn": "গুহা",
+      "ayah_number": 41,
+      "arabic": "أَوۡ يُصۡبِحَ مَآؤُهَا غَوۡرٗا فَلَن تَسۡتَطِيعَ لَهُۥ طَلَبٗا",
+      "bangla": "অথবা সকালে তার পানি শুকিয়ে যাবে। অতঃপর তুমি তা তালাশ করে আনতে পারবে না।",
+      "topic": "পানি",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماءها\")।",
+      "matched_concepts": [
+        "ماءها"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 18,
+      "surah_name_ar": "الكهف",
+      "surah_name_transliteration": "Al-Kahf",
+      "surah_name_bn": "গুহা",
+      "ayah_number": 45,
+      "arabic": "وَٱضۡرِبۡ لَهُم مَّثَلَ ٱلۡحَيَوٰةِ ٱلدُّنۡيَا كَمَآءٍ أَنزَلۡنَٰهُ مِنَ ٱلسَّمَآءِ فَٱخۡتَلَطَ بِهِۦ نَبَاتُ ٱلۡأَرۡضِ فَأَصۡبَحَ هَشِيمٗا تَذۡرُوهُ ٱلرِّيَٰحُۗ وَكَانَ ٱللَّهُ عَلَىٰ كُلِّ شَيۡءٖ مُّقۡتَدِرًا",
+      "bangla": "তাদের কাছে পার্থিব জীবনের উপমা বর্ণনা করুন। তা পানির ন্যায়, যা আমি আকাশ থেকে নাযিল করি। অতঃপর এর সংমিশ্রণে শ্যামল সবুজ ভূমিজ লতা-পাতা নির্গত হয়; অতঃপর তা এমন শুস্ক চুর্ণ-বিচুর্ণ হয় যে, বাতাসে উড়ে যায়। আল্লাহ এ সবকিছুর উপর শক্তিমান।",
+      "topic": "পানি",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"كماء\")।",
+      "matched_concepts": [
+        "كماء"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 20,
+      "surah_name_ar": "طه",
+      "surah_name_transliteration": "Taha",
+      "surah_name_bn": "ত়া হা",
+      "ayah_number": 53,
+      "arabic": "ٱلَّذِي جَعَلَ لَكُمُ ٱلۡأَرۡضَ مَهۡدٗا وَسَلَكَ لَكُمۡ فِيهَا سُبُلٗا وَأَنزَلَ مِنَ ٱلسَّمَآءِ مَآءٗ فَأَخۡرَجۡنَا بِهِۦٓ أَزۡوَٰجٗا مِّن نَّبَاتٖ شَتَّىٰ",
+      "bangla": "তিনি তোমাদের জন্যে পৃথিবীকে শয্যা করেছেন এবং তাতে চলার পথ করেছেন, আকাশ থেকে বৃষ্টি বর্ষণ করেছেন এবং তা দ্বারা আমি বিভিন্ন প্রকার উদ্ভিদ উৎপন্ন করেছি।",
+      "topic": "পানি",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماء\")।",
+      "matched_concepts": [
+        "ماء"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 21,
+      "surah_name_ar": "الأنبياء",
+      "surah_name_transliteration": "Al-Anbya",
+      "surah_name_bn": "নবীগণ",
+      "ayah_number": 30,
+      "arabic": "أَوَلَمۡ يَرَ ٱلَّذِينَ كَفَرُوٓاْ أَنَّ ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضَ كَانَتَا رَتۡقٗا فَفَتَقۡنَٰهُمَاۖ وَجَعَلۡنَا مِنَ ٱلۡمَآءِ كُلَّ شَيۡءٍ حَيٍّۚ أَفَلَا يُؤۡمِنُونَ",
+      "bangla": "কাফেররা কি ভেবে দেখে না যে, আকাশমন্ডলী ও পৃথিবীর মুখ বন্ধ ছিল, অতঃপর আমি উভয়কে খুলে দিলাম এবং প্রাণবন্ত সবকিছু আমি পানি থেকে সৃষ্টি করলাম। এরপরও কি তারা বিশ্বাস স্থাপন করবে না",
+      "topic": "পানি",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الماء\")।",
+      "matched_concepts": [
+        "الماء"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 22,
+      "surah_name_ar": "الحج",
+      "surah_name_transliteration": "Al-Hajj",
+      "surah_name_bn": "হ়াজ্জ",
+      "ayah_number": 5,
+      "arabic": "يَـٰٓأَيُّهَا ٱلنَّاسُ إِن كُنتُمۡ فِي رَيۡبٖ مِّنَ ٱلۡبَعۡثِ فَإِنَّا خَلَقۡنَٰكُم مِّن تُرَابٖ ثُمَّ مِن نُّطۡفَةٖ ثُمَّ مِنۡ عَلَقَةٖ ثُمَّ مِن مُّضۡغَةٖ مُّخَلَّقَةٖ وَغَيۡرِ مُخَلَّقَةٖ لِّنُبَيِّنَ لَكُمۡۚ وَنُقِرُّ فِي ٱلۡأَرۡحَامِ مَا نَشَآءُ إِلَىٰٓ أَجَلٖ مُّسَمّٗى ثُمَّ نُخۡرِجُكُمۡ طِفۡلٗا ثُمَّ لِتَبۡلُغُوٓاْ أَشُدَّكُمۡۖ وَمِنكُم مَّن يُتَوَفَّىٰ وَمِنكُم مَّن يُرَدُّ إِلَىٰٓ أَرۡذَلِ ٱلۡعُمُرِ لِكَيۡلَا يَعۡلَمَ مِنۢ بَعۡدِ عِلۡمٖ شَيۡـٔٗاۚ وَتَرَى ٱلۡأَرۡضَ هَامِدَةٗ فَإِذَآ أَنزَلۡنَا عَلَيۡهَا ٱلۡمَآءَ ٱهۡتَزَّتۡ وَرَبَتۡ وَأَنۢبَتَتۡ مِن كُلِّ زَوۡجِۭ بَهِيجٖ",
+      "bangla": "হে লোকসকল! যদি তোমরা পুনরুত্থানের ব্যাপারে সন্দিগ্ধ হও, তবে (ভেবে দেখ-) আমি তোমাদেরকে মৃত্তিকা থেকে সৃষ্টি করেছি। এরপর বীর্য থেকে, এরপর জমাট রক্ত থেকে, এরপর পূর্ণাকৃতিবিশিষ্ট ও অপূর্ণাকৃতিবিশিষ্ট মাংসপিন্ড থেকে, তোমাদের কাছে ব্যক্ত করার জন্যে। আর আমি এক নির্দিষ্ট কালের জন্যে মাতৃগর্ভে যা ইচ্ছা রেখে দেই, এরপর আমি তোমাদেরকে শিশু অবস্থায় বের করি; তারপর যাতে তোমরা যৌবনে পদার্পণ কর। তোমাদের মধ্যে কেউ কেউ মৃত্যুমুখে পতিত হয় এবং তোমাদের মধ্যে কাউকে নিষ্কর্মা বয়স পর্যন্ত পৌছানো হয়, যাতে সে জানার পর জ্ঞাত বিষয় সম্পর্কে সজ্ঞান থাকে না। তুমি ভূমিকে পতিত দেখতে পাও, অতঃপর আমি যখন তাতে বৃষ্টি বর্ষণ করি, তখন তা সতেজ ও স্ফীত হয়ে যায় এবং সর্বপ্রকার সুদৃশ্য উদ্ভিদ উৎপন্ন করে।",
+      "topic": "পানি",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الماء\")।",
+      "matched_concepts": [
+        "الماء"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 22,
+      "surah_name_ar": "الحج",
+      "surah_name_transliteration": "Al-Hajj",
+      "surah_name_bn": "হ়াজ্জ",
+      "ayah_number": 63,
+      "arabic": "أَلَمۡ تَرَ أَنَّ ٱللَّهَ أَنزَلَ مِنَ ٱلسَّمَآءِ مَآءٗ فَتُصۡبِحُ ٱلۡأَرۡضُ مُخۡضَرَّةًۚ إِنَّ ٱللَّهَ لَطِيفٌ خَبِيرٞ",
+      "bangla": "তুমি কি দেখ না যে, আল্লাহ আকাশ থেকে পানি বর্ষণ করেন, অতঃপর ভূপৃষ্ট সবুজ-শ্যামল হয়ে উঠে। নিশ্চয় আল্লাহ সুক্ষদর্শী, সর্ববিষয়ে খবরদার।",
+      "topic": "পানি",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماء\")।",
+      "matched_concepts": [
+        "ماء"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 23,
+      "surah_name_ar": "المؤمنون",
+      "surah_name_transliteration": "Al-Mu'minun",
+      "surah_name_bn": "বিশ্বাসী",
+      "ayah_number": 18,
+      "arabic": "وَأَنزَلۡنَا مِنَ ٱلسَّمَآءِ مَآءَۢ بِقَدَرٖ فَأَسۡكَنَّـٰهُ فِي ٱلۡأَرۡضِۖ وَإِنَّا عَلَىٰ ذَهَابِۭ بِهِۦ لَقَٰدِرُونَ",
+      "bangla": "আমি আকাশ থেকে পানি বর্ষণ করে থাকি পরিমাণ মত অতঃপর আমি জমিনে সংরক্ষণ করি এবং আমি তা অপসারণও করতে সক্ষম।",
+      "topic": "পানি",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماء\")।",
+      "matched_concepts": [
+        "ماء"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 24,
+      "surah_name_ar": "النور",
+      "surah_name_transliteration": "An-Nur",
+      "surah_name_bn": "আলো",
+      "ayah_number": 2,
+      "arabic": "ٱلزَّانِيَةُ وَٱلزَّانِي فَٱجۡلِدُواْ كُلَّ وَٰحِدٖ مِّنۡهُمَا مِاْئَةَ جَلۡدَةٖۖ وَلَا تَأۡخُذۡكُم بِهِمَا رَأۡفَةٞ فِي دِينِ ٱللَّهِ إِن كُنتُمۡ تُؤۡمِنُونَ بِٱللَّهِ وَٱلۡيَوۡمِ ٱلۡأٓخِرِۖ وَلۡيَشۡهَدۡ عَذَابَهُمَا طَآئِفَةٞ مِّنَ ٱلۡمُؤۡمِنِينَ",
+      "bangla": "ব্যভিচারিণী নারী ব্যভিচারী পুরুষ; তাদের প্রত্যেককে একশ’ করে বেত্রাঘাত কর। আল্লাহর বিধান কার্যকর কারণে তাদের প্রতি যেন তোমাদের মনে দয়ার উদ্রেক না হয়, যদি তোমরা আল্লাহর প্রতি ও পরকালের প্রতি বিশ্বাসী হয়ে থাক। মুসলমানদের একটি দল যেন তাদের শাস্তি প্রত্যক্ষ করে।",
+      "topic": "পানি",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماءه\")।",
+      "matched_concepts": [
+        "ماءه"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 24,
+      "surah_name_ar": "النور",
+      "surah_name_transliteration": "An-Nur",
+      "surah_name_bn": "আলো",
+      "ayah_number": 39,
+      "arabic": "وَٱلَّذِينَ كَفَرُوٓاْ أَعۡمَٰلُهُمۡ كَسَرَابِۭ بِقِيعَةٖ يَحۡسَبُهُ ٱلظَّمۡـَٔانُ مَآءً حَتَّىٰٓ إِذَا جَآءَهُۥ لَمۡ يَجِدۡهُ شَيۡـٔٗا وَوَجَدَ ٱللَّهَ عِندَهُۥ فَوَفَّىٰهُ حِسَابَهُۥۗ وَٱللَّهُ سَرِيعُ ٱلۡحِسَابِ",
+      "bangla": "যারা কাফের, তাদের কর্ম মরুভুমির মরীচিকা সদৃশ, যাকে পিপাসার্ত ব্যক্তি পানি মনে করে। এমনকি, সে যখন তার কাছে যায়, তখন কিছুই পায় না এবং পায় সেখানে আল্লাহকে, অতঃপর আল্লাহ তার হিসাব চুকিয়ে দেন। আল্লাহ দ্রুত হিসাব গ্রহণকারী।",
+      "topic": "পানি",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماء\")।",
+      "matched_concepts": [
+        "ماء"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 24,
+      "surah_name_ar": "النور",
+      "surah_name_transliteration": "An-Nur",
+      "surah_name_bn": "আলো",
+      "ayah_number": 45,
+      "arabic": "وَٱللَّهُ خَلَقَ كُلَّ دَآبَّةٖ مِّن مَّآءٖۖ فَمِنۡهُم مَّن يَمۡشِي عَلَىٰ بَطۡنِهِۦ وَمِنۡهُم مَّن يَمۡشِي عَلَىٰ رِجۡلَيۡنِ وَمِنۡهُم مَّن يَمۡشِي عَلَىٰٓ أَرۡبَعٖۚ يَخۡلُقُ ٱللَّهُ مَا يَشَآءُۚ إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَيۡءٖ قَدِيرٞ",
+      "bangla": "আল্লাহ প্রত্যেক চলন্ত জীবকে পানি দ্বারা সৃষ্টি করেছেন। তাদের কতক বুকে ভয় দিয়ে চলে, কতক দুই পায়ে ভর দিয়ে চলে এবং কতক চার পায়ে ভর দিয়ে চলে; আল্লাহ যা ইচ্ছা সৃষ্টি করেন। নিশ্চয়ই আল্লাহ সবকিছু করতে সক্ষম।",
+      "topic": "পানি",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماء\")।",
+      "matched_concepts": [
+        "ماء"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 25,
+      "surah_name_ar": "الفرقان",
+      "surah_name_transliteration": "Al-Furqan",
+      "surah_name_bn": "মানদণ্ড",
+      "ayah_number": 48,
+      "arabic": "وَهُوَ ٱلَّذِيٓ أَرۡسَلَ ٱلرِّيَٰحَ بُشۡرَۢا بَيۡنَ يَدَيۡ رَحۡمَتِهِۦۚ وَأَنزَلۡنَا مِنَ ٱلسَّمَآءِ مَآءٗ طَهُورٗا",
+      "bangla": "তিনিই স্বীয় রহমতের প্রাক্কালে বাতাসকে সুসংবাদবাহীরূপে প্রেরণ করেন। এবং আমি আকাশ থেকে পবিত্রতা অর্জনের জন্যে পানি বর্ষণ করি।",
+      "topic": "পানি",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماء\")।",
+      "matched_concepts": [
+        "ماء"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 25,
+      "surah_name_ar": "الفرقان",
+      "surah_name_transliteration": "Al-Furqan",
+      "surah_name_bn": "মানদণ্ড",
+      "ayah_number": 54,
+      "arabic": "وَهُوَ ٱلَّذِي خَلَقَ مِنَ ٱلۡمَآءِ بَشَرٗا فَجَعَلَهُۥ نَسَبٗا وَصِهۡرٗاۗ وَكَانَ رَبُّكَ قَدِيرٗا",
+      "bangla": "তিনিই পানি থেকে সৃষ্টি করেছেন মানবকে, অতঃপর তাকে রক্তগত, বংশ ও বৈবাহিক সম্পর্কশীল করেছেন। তোমার পালনকর্তা সবকিছু করতে সক্ষম।",
+      "topic": "পানি",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الماء\")।",
+      "matched_concepts": [
+        "الماء"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 27,
+      "surah_name_ar": "النمل",
+      "surah_name_transliteration": "An-Naml",
+      "surah_name_bn": "পিঁপড়া",
+      "ayah_number": 60,
+      "arabic": "أَمَّنۡ خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضَ وَأَنزَلَ لَكُم مِّنَ ٱلسَّمَآءِ مَآءٗ فَأَنۢبَتۡنَا بِهِۦ حَدَآئِقَ ذَاتَ بَهۡجَةٖ مَّا كَانَ لَكُمۡ أَن تُنۢبِتُواْ شَجَرَهَآۗ أَءِلَٰهٞ مَّعَ ٱللَّهِۚ بَلۡ هُمۡ قَوۡمٞ يَعۡدِلُونَ",
+      "bangla": "বল তো কে সৃষ্টি করেছেন নভোমন্ডল ও ভূমন্ডল এবং আকাশ থেকে তোমাদের জন্যে বর্ষণ করেছেন পানি; অতঃপর তা দ্বারা আমি মনোরম বাগান সৃষ্টি করেছি। তার বৃক্ষাদি উৎপন্ন করার শক্তিই তোমাদের নেই। অতএব, আল্লাহর সাথে অন্য কোন উপাস্য আছে কি? বরং তারা সত্যবিচ্যুত সম্প্রদায়।",
+      "topic": "পানি",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماء\")।",
+      "matched_concepts": [
+        "ماء"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 28,
+      "surah_name_ar": "القصص",
+      "surah_name_transliteration": "Al-Qasas",
+      "surah_name_bn": "কাহিনি",
+      "ayah_number": 23,
+      "arabic": "وَلَمَّا وَرَدَ مَآءَ مَدۡيَنَ وَجَدَ عَلَيۡهِ أُمَّةٗ مِّنَ ٱلنَّاسِ يَسۡقُونَ وَوَجَدَ مِن دُونِهِمُ ٱمۡرَأَتَيۡنِ تَذُودَانِۖ قَالَ مَا خَطۡبُكُمَاۖ قَالَتَا لَا نَسۡقِي حَتَّىٰ يُصۡدِرَ ٱلرِّعَآءُۖ وَأَبُونَا شَيۡخٞ كَبِيرٞ",
+      "bangla": "যখন তিনি মাদইয়ানের কূপের ধারে পৌছলেন, তখন কূপের কাছে একদল লোককে পেলেন তারা জন্তুদেরকে পানি পান করানোর কাজে রত। এবং তাদের পশ্চাতে দূ’জন স্ত্রীলোককে দেখলেন তারা তাদের জন্তুদেরকে আগলিয়ে রাখছে। তিনি বললেন, তোমাদের কি ব্যাপার? তারা বলল, আমরা আমাদের জন্তুদেরকে পানি পান করাতে পারি না, যে পর্যন্ত রাখালরা তাদের জন্তুদেরকে নিয়ে সরে না যায়। আমাদের পিতা খুবই বৃদ্ধ।",
+      "topic": "পানি",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماء\")।",
+      "matched_concepts": [
+        "ماء"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 29,
+      "surah_name_ar": "العنكبوت",
+      "surah_name_transliteration": "Al-'Ankabut",
+      "surah_name_bn": "মাকড়শা",
+      "ayah_number": 63,
+      "arabic": "وَلَئِن سَأَلۡتَهُم مَّن نَّزَّلَ مِنَ ٱلسَّمَآءِ مَآءٗ فَأَحۡيَا بِهِ ٱلۡأَرۡضَ مِنۢ بَعۡدِ مَوۡتِهَا لَيَقُولُنَّ ٱللَّهُۚ قُلِ ٱلۡحَمۡدُ لِلَّهِۚ بَلۡ أَكۡثَرُهُمۡ لَا يَعۡقِلُونَ",
+      "bangla": "যদি আপনি তাদেরকে জিজ্ঞেস করেন, কে আকাশ থেকে বারি বর্ষণ করে, অতঃপর তা দ্বারা মৃত্তিকাকে উহার মৃত হওয়ার পর সঞ্জীবিত করে? তবে তারা অবশ্যই বলবে, আল্লাহ। বলুন, সমস্ত প্রশংসা আল্লাহরই। কিন্তু তাদের অধিকাংশই তা বোঝে না।",
+      "topic": "পানি",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماء\")।",
+      "matched_concepts": [
+        "ماء"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 30,
+      "surah_name_ar": "الروم",
+      "surah_name_transliteration": "Ar-Rum",
+      "surah_name_bn": "রোমান জাতি",
+      "ayah_number": 24,
+      "arabic": "وَمِنۡ ءَايَٰتِهِۦ يُرِيكُمُ ٱلۡبَرۡقَ خَوۡفٗا وَطَمَعٗا وَيُنَزِّلُ مِنَ ٱلسَّمَآءِ مَآءٗ فَيُحۡيِۦ بِهِ ٱلۡأَرۡضَ بَعۡدَ مَوۡتِهَآۚ إِنَّ فِي ذَٰلِكَ لَأٓيَٰتٖ لِّقَوۡمٖ يَعۡقِلُونَ",
+      "bangla": "তাঁর আরও নিদর্শনঃ তিনি তোমাদেরকে দেখান বিদ্যুৎ, ভয় ও ভরসার জন্যে এবং আকাশ থেকে পানি বর্ষণ করেন, অতঃপর তদ্দ্বারা ভূমির মৃত্যুর পর তাকে পুনরুজ্জীবিত করেন। নিশ্চয় এতে বুদ্ধিমান লোকদের জন্যে নিদর্শনাবলী রয়েছে।",
+      "topic": "পানি",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماء\")।",
+      "matched_concepts": [
+        "ماء"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 31,
+      "surah_name_ar": "لقمان",
+      "surah_name_transliteration": "Luqman",
+      "surah_name_bn": "এক জ্ঞানী ব্যাক্তি",
+      "ayah_number": 10,
+      "arabic": "خَلَقَ ٱلسَّمَٰوَٰتِ بِغَيۡرِ عَمَدٖ تَرَوۡنَهَاۖ وَأَلۡقَىٰ فِي ٱلۡأَرۡضِ رَوَٰسِيَ أَن تَمِيدَ بِكُمۡ وَبَثَّ فِيهَا مِن كُلِّ دَآبَّةٖۚ وَأَنزَلۡنَا مِنَ ٱلسَّمَآءِ مَآءٗ فَأَنۢبَتۡنَا فِيهَا مِن كُلِّ زَوۡجٖ كَرِيمٍ",
+      "bangla": "তিনি খুঁটি ব্যতীত আকাশমন্ডলী সৃষ্টি করেছেন; তোমরা তা দেখছ। তিনি পৃথিবীতে স্থাপন করেছেন পর্বতমালা, যাতে পৃথিবী তোমাদেরকে নিয়ে ঢলে না পড়ে এবং এতে ছড়িয়ে দিয়েছেন সর্বপ্রকার জন্তু। আমি আকাশ থেকে পানি বর্ষণ করেছি, অতঃপর তাতে উদগত করেছি সর্বপ্রকার কল্যাণকর উদ্ভিদরাজি।",
+      "topic": "পানি",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماء\")।",
+      "matched_concepts": [
+        "ماء"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 32,
+      "surah_name_ar": "السجدة",
+      "surah_name_transliteration": "As-Sajdah",
+      "surah_name_bn": "সিজদা",
+      "ayah_number": 8,
+      "arabic": "ثُمَّ جَعَلَ نَسۡلَهُۥ مِن سُلَٰلَةٖ مِّن مَّآءٖ مَّهِينٖ",
+      "bangla": "অতঃপর তিনি তার বংশধর সৃষ্টি করেন তুচ্ছ পানির নির্যাস থেকে।",
+      "topic": "পানি",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماء\")।",
+      "matched_concepts": [
+        "ماء"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 32,
+      "surah_name_ar": "السجدة",
+      "surah_name_transliteration": "As-Sajdah",
+      "surah_name_bn": "সিজদা",
+      "ayah_number": 27,
+      "arabic": "أَوَلَمۡ يَرَوۡاْ أَنَّا نَسُوقُ ٱلۡمَآءَ إِلَى ٱلۡأَرۡضِ ٱلۡجُرُزِ فَنُخۡرِجُ بِهِۦ زَرۡعٗا تَأۡكُلُ مِنۡهُ أَنۡعَٰمُهُمۡ وَأَنفُسُهُمۡۚ أَفَلَا يُبۡصِرُونَ",
+      "bangla": "তারা কি লক্ষ্য করে না যে, আমি উষর ভূমিতে পানি প্রবাহিত করে শস্য উদগত করি, যা থেকে ভক্ষণ করে তাদের জন্তুরা এবং তারা কি দেখে না",
+      "topic": "পানি",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الماء\")।",
+      "matched_concepts": [
+        "الماء"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 35,
+      "surah_name_ar": "فاطر",
+      "surah_name_transliteration": "Fatir",
+      "surah_name_bn": "আদি স্রষ্টা",
+      "ayah_number": 27,
+      "arabic": "أَلَمۡ تَرَ أَنَّ ٱللَّهَ أَنزَلَ مِنَ ٱلسَّمَآءِ مَآءٗ فَأَخۡرَجۡنَا بِهِۦ ثَمَرَٰتٖ مُّخۡتَلِفًا أَلۡوَٰنُهَاۚ وَمِنَ ٱلۡجِبَالِ جُدَدُۢ بِيضٞ وَحُمۡرٞ مُّخۡتَلِفٌ أَلۡوَٰنُهَا وَغَرَابِيبُ سُودٞ",
+      "bangla": "তুমি কি দেখনি আল্লাহ আকাশ থেকে বৃষ্টিবর্ষণ করেন, অতঃপর তদ্দ্বারা আমি বিভিন্ন বর্ণের ফল-মূল উদগত করি। পর্বতসমূহের মধ্যে রয়েছে বিভিন্ন বর্ণের গিরিপথ-সাদা, লাল ও নিকষ কালো কৃষ্ণ।",
+      "topic": "পানি",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماء\")।",
+      "matched_concepts": [
+        "ماء"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 37,
+      "surah_name_ar": "الصافات",
+      "surah_name_transliteration": "As-Saffat",
+      "surah_name_bn": "সারিবদ্ধভাবে দাঁড়ানো",
+      "ayah_number": 147,
+      "arabic": "وَأَرۡسَلۡنَٰهُ إِلَىٰ مِاْئَةِ أَلۡفٍ أَوۡ يَزِيدُونَ",
+      "bangla": "এবং তাঁকে, লক্ষ বা ততোধিক লোকের প্রতি প্রেরণ করলাম।",
+      "topic": "পানি",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماءه\")।",
+      "matched_concepts": [
+        "ماءه"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 39,
+      "surah_name_ar": "الزمر",
+      "surah_name_transliteration": "Az-Zumar",
+      "surah_name_bn": "দলবদ্ধ জনতা",
+      "ayah_number": 21,
+      "arabic": "أَلَمۡ تَرَ أَنَّ ٱللَّهَ أَنزَلَ مِنَ ٱلسَّمَآءِ مَآءٗ فَسَلَكَهُۥ يَنَٰبِيعَ فِي ٱلۡأَرۡضِ ثُمَّ يُخۡرِجُ بِهِۦ زَرۡعٗا مُّخۡتَلِفًا أَلۡوَٰنُهُۥ ثُمَّ يَهِيجُ فَتَرَىٰهُ مُصۡفَرّٗا ثُمَّ يَجۡعَلُهُۥ حُطَٰمًاۚ إِنَّ فِي ذَٰلِكَ لَذِكۡرَىٰ لِأُوْلِي ٱلۡأَلۡبَٰبِ",
+      "bangla": "তুমি কি দেখনি যে, আল্লাহ আকাশ থেকে পানি বর্ষণ করেছেন, অতঃপর সে পানি যমীনের ঝর্ণাসমূহে প্রবাহিত করেছেন, এরপর তদ্দ্বারা বিভিন্ন রঙের ফসল উৎপন্ন করেন, অতঃপর তা শুকিয়ে যায়, ফলে তোমরা তা পীতবর্ণ দেখতে পাও। এরপর আল্লাহ তাকে খড়-কুটায় পরিণত করে দেন। নিশ্চয় এতে বুদ্ধিমানদের জন্যে উপদেশ রয়েছে।",
+      "topic": "পানি",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماء\")।",
+      "matched_concepts": [
+        "ماء"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 41,
+      "surah_name_ar": "فصلت",
+      "surah_name_transliteration": "Fussilat",
+      "surah_name_bn": "সুস্পষ্ট বিবরণ",
+      "ayah_number": 39,
+      "arabic": "وَمِنۡ ءَايَٰتِهِۦٓ أَنَّكَ تَرَى ٱلۡأَرۡضَ خَٰشِعَةٗ فَإِذَآ أَنزَلۡنَا عَلَيۡهَا ٱلۡمَآءَ ٱهۡتَزَّتۡ وَرَبَتۡۚ إِنَّ ٱلَّذِيٓ أَحۡيَاهَا لَمُحۡيِ ٱلۡمَوۡتَىٰٓۚ إِنَّهُۥ عَلَىٰ كُلِّ شَيۡءٖ قَدِيرٌ",
+      "bangla": "তাঁর এক নিদর্শন এই যে, তুমি ভূমিকে দেখবে অনুর্বর পড়ে আছে। অতঃপর আমি যখন তার উপর বৃষ্টি বর্ষণ করি, তখন সে শস্যশ্যামল ও স্ফীত হয়। নিশ্চয় যিনি একে জীবিত করেন, তিনি জীবিত করবেন মৃতদেরকেও। নিশ্চয় তিনি সবকিছু করতে সক্ষম।",
+      "topic": "পানি",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الماء\")।",
+      "matched_concepts": [
+        "الماء"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 43,
+      "surah_name_ar": "الزخرف",
+      "surah_name_transliteration": "Az-Zukhruf",
+      "surah_name_bn": "সোনাদানা",
+      "ayah_number": 11,
+      "arabic": "وَٱلَّذِي نَزَّلَ مِنَ ٱلسَّمَآءِ مَآءَۢ بِقَدَرٖ فَأَنشَرۡنَا بِهِۦ بَلۡدَةٗ مَّيۡتٗاۚ كَذَٰلِكَ تُخۡرَجُونَ",
+      "bangla": "এবং যিনি আকাশ থেকে পানি বর্ষণ করেছেন পরিমিত। আতঃপর তদ্দ্বারা আমি মৃত ভূ-ভাগকে পুনরুজ্জীবিত করেছি। তোমরা এমনিভাবে উত্থিত হবে।",
+      "topic": "পানি",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماء\")।",
+      "matched_concepts": [
+        "ماء"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 47,
+      "surah_name_ar": "محمد",
+      "surah_name_transliteration": "Muhammad",
+      "surah_name_bn": "নবী মুহাম্মদ",
+      "ayah_number": 15,
+      "arabic": "مَّثَلُ ٱلۡجَنَّةِ ٱلَّتِي وُعِدَ ٱلۡمُتَّقُونَۖ فِيهَآ أَنۡهَٰرٞ مِّن مَّآءٍ غَيۡرِ ءَاسِنٖ وَأَنۡهَٰرٞ مِّن لَّبَنٖ لَّمۡ يَتَغَيَّرۡ طَعۡمُهُۥ وَأَنۡهَٰرٞ مِّنۡ خَمۡرٖ لَّذَّةٖ لِّلشَّـٰرِبِينَ وَأَنۡهَٰرٞ مِّنۡ عَسَلٖ مُّصَفّٗىۖ وَلَهُمۡ فِيهَا مِن كُلِّ ٱلثَّمَرَٰتِ وَمَغۡفِرَةٞ مِّن رَّبِّهِمۡۖ كَمَنۡ هُوَ خَٰلِدٞ فِي ٱلنَّارِ وَسُقُواْ مَآءً حَمِيمٗا فَقَطَّعَ أَمۡعَآءَهُمۡ",
+      "bangla": "পরহেযগারদেরকে যে জান্নাতের ওয়াদা দেয়া হয়েছে, তার অবস্থা নিম্নরূপঃ তাতে আছে পানির নহর, নির্মল দুধের নহর যারা স্বাদ অপরিবর্তনীয়, পানকারীদের জন্যে সুস্বাদু শরাবের নহর এবং পরিশোধিত মধুর নহর। তথায় তাদের জন্যে আছে রকমারি ফল-মূল ও তাদের পালনকর্তার ক্ষমা। পরহেযগাররা কি তাদের সমান, যারা জাহান্নামে অনন্তকাল থাকবে এবং যাদেরকে পান করতে দেয়া হবে ফুটন্ত পানি অতঃপর তা তাদের নাড়িভূঁড়ি ছিন্ন বিচ্ছিন্ন করে দেবে",
+      "topic": "পানি",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماء\")।",
+      "matched_concepts": [
+        "ماء"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 50,
+      "surah_name_ar": "ق",
+      "surah_name_transliteration": "Qaf",
+      "surah_name_bn": "কাফ",
+      "ayah_number": 9,
+      "arabic": "وَنَزَّلۡنَا مِنَ ٱلسَّمَآءِ مَآءٗ مُّبَٰرَكٗا فَأَنۢبَتۡنَا بِهِۦ جَنَّـٰتٖ وَحَبَّ ٱلۡحَصِيدِ",
+      "bangla": "আমি আকাশ থেকে কল্যাণময় বৃষ্টি বর্ষণ করি এবং তদ্বারা বাগান ও শস্য উদগত করি, যেগুলোর ফসল আহরণ করা হয়।",
+      "topic": "পানি",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماء\")।",
+      "matched_concepts": [
+        "ماء"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 54,
+      "surah_name_ar": "القمر",
+      "surah_name_transliteration": "Al-Qamar",
+      "surah_name_bn": "চাঁদ",
+      "ayah_number": 11,
+      "arabic": "فَفَتَحۡنَآ أَبۡوَٰبَ ٱلسَّمَآءِ بِمَآءٖ مُّنۡهَمِرٖ",
+      "bangla": "তখন আমি খুলে দিলাম আকাশের দ্বার প্রবল বারিবর্ষণের মাধ্যমে।",
+      "topic": "পানি",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"بماء\")।",
+      "matched_concepts": [
+        "بماء"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 54,
+      "surah_name_ar": "القمر",
+      "surah_name_transliteration": "Al-Qamar",
+      "surah_name_bn": "চাঁদ",
+      "ayah_number": 12,
+      "arabic": "وَفَجَّرۡنَا ٱلۡأَرۡضَ عُيُونٗا فَٱلۡتَقَى ٱلۡمَآءُ عَلَىٰٓ أَمۡرٖ قَدۡ قُدِرَ",
+      "bangla": "এবং ভুমি থেকে প্রবাহিত করলাম প্রস্রবণ। অতঃপর সব পানি মিলিত হল এক পরিকম্পিত কাজে।",
+      "topic": "পানি",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الماء\")।",
+      "matched_concepts": [
+        "الماء"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 54,
+      "surah_name_ar": "القمر",
+      "surah_name_transliteration": "Al-Qamar",
+      "surah_name_bn": "চাঁদ",
+      "ayah_number": 28,
+      "arabic": "وَنَبِّئۡهُمۡ أَنَّ ٱلۡمَآءَ قِسۡمَةُۢ بَيۡنَهُمۡۖ كُلُّ شِرۡبٖ مُّحۡتَضَرٞ",
+      "bangla": "এবং তাদেরকে জানিয়ে দাও যে, তাদের মধ্যে পানির পালা নির্ধারিত হয়েছে এবং পালাক্রমে উপস্থিত হতে হবে।",
+      "topic": "পানি",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الماء\")।",
+      "matched_concepts": [
+        "الماء"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 56,
+      "surah_name_ar": "الواقعة",
+      "surah_name_transliteration": "Al-Waqi'ah",
+      "surah_name_bn": "নিশ্চিত ঘটনা",
+      "ayah_number": 31,
+      "arabic": "وَمَآءٖ مَّسۡكُوبٖ",
+      "bangla": "এবং প্রবাহিত পানিতে",
+      "topic": "পানি",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"وماء\")।",
+      "matched_concepts": [
+        "وماء"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 56,
+      "surah_name_ar": "الواقعة",
+      "surah_name_transliteration": "Al-Waqi'ah",
+      "surah_name_bn": "নিশ্চিত ঘটনা",
+      "ayah_number": 68,
+      "arabic": "أَفَرَءَيۡتُمُ ٱلۡمَآءَ ٱلَّذِي تَشۡرَبُونَ",
+      "bangla": "তোমরা যে পানি পান কর, সে সম্পর্কে ভেবে দেখেছ কি",
+      "topic": "পানি",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الماء\")।",
+      "matched_concepts": [
+        "الماء"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 67,
+      "surah_name_ar": "الملك",
+      "surah_name_transliteration": "Al-Mulk",
+      "surah_name_bn": "সার্বভৌম কর্তৃত্ব",
+      "ayah_number": 30,
+      "arabic": "قُلۡ أَرَءَيۡتُمۡ إِنۡ أَصۡبَحَ مَآؤُكُمۡ غَوۡرٗا فَمَن يَأۡتِيكُم بِمَآءٖ مَّعِينِۭ",
+      "bangla": "বলুন, তোমরা ভেবে দেখেছ কি, যদি তোমাদের পানি ভূগর্ভের গভীরে চলে যায়, তবে কে তোমাদেরকে সরবরাহ করবে পানির স্রোতধারা",
+      "topic": "পানি",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"بماء\", \"ماءكم\")।",
+      "matched_concepts": [
+        "بماء",
+        "ماءكم"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 69,
+      "surah_name_ar": "الحاقة",
+      "surah_name_transliteration": "Al-Haqqah",
+      "surah_name_bn": "নিশ্চিত সত্য",
+      "ayah_number": 11,
+      "arabic": "إِنَّا لَمَّا طَغَا ٱلۡمَآءُ حَمَلۡنَٰكُمۡ فِي ٱلۡجَارِيَةِ",
+      "bangla": "যখন জলোচ্ছ্বাস হয়েছিল, তখন আমি তোমাদেরকে চলন্ত নৌযানে আরোহণ করিয়েছিলাম।",
+      "topic": "পানি",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الماء\")।",
+      "matched_concepts": [
+        "الماء"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 72,
+      "surah_name_ar": "الجن",
+      "surah_name_transliteration": "Al-Jinn",
+      "surah_name_bn": "জিন সম্প্রদায়",
+      "ayah_number": 16,
+      "arabic": "وَأَلَّوِ ٱسۡتَقَٰمُواْ عَلَى ٱلطَّرِيقَةِ لَأَسۡقَيۡنَٰهُم مَّآءً غَدَقٗا",
+      "bangla": "আর এই প্রত্যাদেশ করা হয়েছে যে, তারা যদি সত্যপথে কায়েম থাকত, তবে আমি তাদেরকে প্রচুর পানি বর্ষণে সিক্ত করতাম।",
+      "topic": "পানি",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماء\")।",
+      "matched_concepts": [
+        "ماء"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 77,
+      "surah_name_ar": "المرسلات",
+      "surah_name_transliteration": "Al-Mursalat",
+      "surah_name_bn": "প্রেরিত পুরুষ",
+      "ayah_number": 20,
+      "arabic": "أَلَمۡ نَخۡلُقكُّم مِّن مَّآءٖ مَّهِينٖ",
+      "bangla": "আমি কি তোমাদেরকে তুচ্ছ পানি থেকে সৃষ্টি করিনি",
+      "topic": "পানি",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماء\")।",
+      "matched_concepts": [
+        "ماء"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 77,
+      "surah_name_ar": "المرسلات",
+      "surah_name_transliteration": "Al-Mursalat",
+      "surah_name_bn": "প্রেরিত পুরুষ",
+      "ayah_number": 27,
+      "arabic": "وَجَعَلۡنَا فِيهَا رَوَٰسِيَ شَٰمِخَٰتٖ وَأَسۡقَيۡنَٰكُم مَّآءٗ فُرَاتٗا",
+      "bangla": "আমি তাতে স্থাপন করেছি মজবুত সুউচ্চ পর্বতমালা এবং পান করিয়েছি তোমাদেরকে তৃষ্ণা নিবারণকারী সুপেয় পানি।",
+      "topic": "পানি",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماء\")।",
+      "matched_concepts": [
+        "ماء"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 78,
+      "surah_name_ar": "النبإ",
+      "surah_name_transliteration": "An-Naba",
+      "surah_name_bn": "মহাসংবাদ",
+      "ayah_number": 14,
+      "arabic": "وَأَنزَلۡنَا مِنَ ٱلۡمُعۡصِرَٰتِ مَآءٗ ثَجَّاجٗا",
+      "bangla": "আমি জলধর মেঘমালা থেকে প্রচুর বৃষ্টিপাত করি",
+      "topic": "পানি",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماء\")।",
+      "matched_concepts": [
+        "ماء"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 79,
+      "surah_name_ar": "النازعات",
+      "surah_name_transliteration": "An-Nazi'at",
+      "surah_name_bn": "প্রচেষ্টাকারী",
+      "ayah_number": 31,
+      "arabic": "أَخۡرَجَ مِنۡهَا مَآءَهَا وَمَرۡعَىٰهَا",
+      "bangla": "তিনি এর মধ্য থেকে এর পানি ও ঘাম নির্গত করেছেন",
+      "topic": "পানি",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماءها\")।",
+      "matched_concepts": [
+        "ماءها"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 80,
+      "surah_name_ar": "عبس",
+      "surah_name_transliteration": "'Abasa",
+      "surah_name_bn": "সে ভ্রু কুঁচকালো",
+      "ayah_number": 25,
+      "arabic": "أَنَّا صَبَبۡنَا ٱلۡمَآءَ صَبّٗا",
+      "bangla": "আমি আশ্চর্য উপায়ে পানি বর্ষণ করেছি",
+      "topic": "পানি",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الماء\")।",
+      "matched_concepts": [
+        "الماء"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 86,
+      "surah_name_ar": "الطارق",
+      "surah_name_transliteration": "At-Tariq",
+      "surah_name_bn": "রাতের আগন্তুক",
+      "ayah_number": 6,
+      "arabic": "خُلِقَ مِن مَّآءٖ دَافِقٖ",
+      "bangla": "সে সৃজিত হয়েছে সবেগে স্খলিত পানি থেকে।",
+      "topic": "পানি",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماء\")।",
+      "matched_concepts": [
+        "ماء"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    }
+  ],
+  "strong_context": [],
+  "related": [],
+  "completeness_report": {
+    "topic": "পানি",
+    "generated_at": "2026-09-15T00:09:27.408Z",
+    "total_ayahs_scanned": 6236,
+    "keyword_candidates": 67,
+    "narrative_candidates": 0,
+    "total_candidates_before_dedup": 67,
+    "total_candidates_after_dedup": 67,
+    "final_direct": 67,
+    "final_strong_context": 0,
+    "final_related": 0,
+    "rejected": 0,
+    "needs_human_review": 0,
+    "audit_checklist": [
+      {
+        "question": "Direct Arabic keywords কি সব search করেছি?",
+        "answer": "হ্যাঁ — টপিক ম্যাপের verified arabic_terms লিস্ট অনুযায়ী সম্পূর্ণ ৬২৩৬ আয়াতের কর্পাসে exact/whole-word search করা হয়েছে।"
+      },
+      {
+        "question": "Morphological variations (root surface forms) কি search করেছি?",
+        "answer": "হ্যাঁ — arabic_terms লিস্টে root-এর একাধিক surface form (উপসর্গ/প্রত্যয়সহ) অন্তর্ভুক্ত, প্রতিটি scripts/discover-forms.ts দিয়ে কর্পাসে verify করে নেওয়া হয়েছে।"
+      },
+      {
+        "question": "Synonyms/concepts কি search করেছি?",
+        "answer": "এই টপিকের জন্য কোনো পৃথক concept/synonym root কনফিগার করা হয়নি (শুধুমাত্র primary root-ই যথেষ্ট প্রাসঙ্গিক বিবেচিত হয়েছে)।"
+      },
+      {
+        "question": "Narrative/event context কি search করেছি?",
+        "answer": "এই টপিকের জন্য কোনো curated narrative passage যোগ করা হয়নি (over-inclusion এড়াতে সচেতনভাবে বাদ দেওয়া হয়েছে, বা প্রযোজ্য কোনো নির্দিষ্ট ঘটনা নেই)।"
+      },
+      {
+        "question": "কোনো আয়াত শুধু keyword না থাকার কারণে বাদ পড়েছে কি?",
+        "answer": "না — keyword ছাড়াও concept ও narrative layer সমান্তরালে সম্পূর্ণ কর্পাসে চালানো হয়েছে, তাই কোনো layer অন্য layer-কে \"শর্টসার্কিট\" করে বাদ দেয়নি।"
+      },
+      {
+        "question": "কোনো weak association ভুল করে include হয়েছে কি?",
+        "answer": "0 টি candidate confidence threshold-এর নিচে থাকায় REVIEW_REQUIRED হিসেবে চিহ্নিত হয়েছে এবং চূড়ান্ত DIRECT/STRONG_CONTEXT তালিকায় স্বয়ংক্রিয়ভাবে রাখা হয়নি।"
+      }
+    ]
+  }
+}

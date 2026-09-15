@@ -1,0 +1,1385 @@
+{
+  "topic": "জাদু",
+  "generated_at": "2026-09-15T00:09:25.131Z",
+  "review_queue": [],
+  "excluded_candidates": [
+    {
+      "surah_number": 54,
+      "ayah_number": 34,
+      "term": "بسحر",
+      "reason": "এই আয়াতে ব্যবহৃত শব্দটির অর্থ 'ভোররাতে' (dawn) -- diacritics ছাড়া লেখা হলে জাদু-বাচক শব্দের অক্ষরবিন্যাসের সাথে অভিন্ন দেখায়, কিন্তু এটি সম্পূর্ণ ভিন্ন ও অসম্পর্কিত একটি শব্দ (homonym)। তাই জাদু-বিষয়ক নয় বলে বাদ দেওয়া হয়েছে।"
+    }
+  ],
+  "audit_trail": [
+    {
+      "surah_number": 2,
+      "ayah_number": 102,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "السحر"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"السحر\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 5,
+      "ayah_number": 110,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "سحر"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"سحر\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 6,
+      "ayah_number": 7,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "سحر"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"سحر\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 7,
+      "ayah_number": 106,
+      "found_by": [
+        "narrative"
+      ],
+      "matched_concepts": [
+        "7:106-126"
+      ],
+      "decision": "include",
+      "relevance": "STRONG_CONTEXT",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আল-আরাফ) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "confidence": 0.75
+    },
+    {
+      "surah_number": 7,
+      "ayah_number": 107,
+      "found_by": [
+        "narrative"
+      ],
+      "matched_concepts": [
+        "7:106-126"
+      ],
+      "decision": "include",
+      "relevance": "STRONG_CONTEXT",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আল-আরাফ) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "confidence": 0.75
+    },
+    {
+      "surah_number": 7,
+      "ayah_number": 108,
+      "found_by": [
+        "narrative"
+      ],
+      "matched_concepts": [
+        "7:106-126"
+      ],
+      "decision": "include",
+      "relevance": "STRONG_CONTEXT",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আল-আরাফ) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "confidence": 0.75
+    },
+    {
+      "surah_number": 7,
+      "ayah_number": 109,
+      "found_by": [
+        "keyword",
+        "narrative"
+      ],
+      "matched_concepts": [
+        "لساحر",
+        "7:106-126"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"لساحر\")। এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আল-আরাফ) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "confidence": 0.98
+    },
+    {
+      "surah_number": 7,
+      "ayah_number": 110,
+      "found_by": [
+        "narrative"
+      ],
+      "matched_concepts": [
+        "7:106-126"
+      ],
+      "decision": "include",
+      "relevance": "STRONG_CONTEXT",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আল-আরাফ) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "confidence": 0.75
+    },
+    {
+      "surah_number": 7,
+      "ayah_number": 111,
+      "found_by": [
+        "narrative"
+      ],
+      "matched_concepts": [
+        "7:106-126"
+      ],
+      "decision": "include",
+      "relevance": "STRONG_CONTEXT",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আল-আরাফ) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "confidence": 0.75
+    },
+    {
+      "surah_number": 7,
+      "ayah_number": 112,
+      "found_by": [
+        "keyword",
+        "narrative"
+      ],
+      "matched_concepts": [
+        "ساحر",
+        "7:106-126"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ساحر\")। এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আল-আরাফ) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "confidence": 0.98
+    },
+    {
+      "surah_number": 7,
+      "ayah_number": 113,
+      "found_by": [
+        "keyword",
+        "narrative"
+      ],
+      "matched_concepts": [
+        "السحره",
+        "7:106-126"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"السحره\")। এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আল-আরাফ) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "confidence": 0.98
+    },
+    {
+      "surah_number": 7,
+      "ayah_number": 114,
+      "found_by": [
+        "narrative"
+      ],
+      "matched_concepts": [
+        "7:106-126"
+      ],
+      "decision": "include",
+      "relevance": "STRONG_CONTEXT",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আল-আরাফ) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "confidence": 0.75
+    },
+    {
+      "surah_number": 7,
+      "ayah_number": 115,
+      "found_by": [
+        "narrative"
+      ],
+      "matched_concepts": [
+        "7:106-126"
+      ],
+      "decision": "include",
+      "relevance": "STRONG_CONTEXT",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আল-আরাফ) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "confidence": 0.75
+    },
+    {
+      "surah_number": 7,
+      "ayah_number": 116,
+      "found_by": [
+        "keyword",
+        "narrative"
+      ],
+      "matched_concepts": [
+        "بسحر",
+        "سحروا",
+        "7:106-126"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"بسحر\", \"سحروا\")। এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আল-আরাফ) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "confidence": 0.98
+    },
+    {
+      "surah_number": 7,
+      "ayah_number": 117,
+      "found_by": [
+        "narrative"
+      ],
+      "matched_concepts": [
+        "7:106-126"
+      ],
+      "decision": "include",
+      "relevance": "STRONG_CONTEXT",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আল-আরাফ) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "confidence": 0.75
+    },
+    {
+      "surah_number": 7,
+      "ayah_number": 118,
+      "found_by": [
+        "narrative"
+      ],
+      "matched_concepts": [
+        "7:106-126"
+      ],
+      "decision": "include",
+      "relevance": "STRONG_CONTEXT",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আল-আরাফ) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "confidence": 0.75
+    },
+    {
+      "surah_number": 7,
+      "ayah_number": 119,
+      "found_by": [
+        "narrative"
+      ],
+      "matched_concepts": [
+        "7:106-126"
+      ],
+      "decision": "include",
+      "relevance": "STRONG_CONTEXT",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আল-আরাফ) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "confidence": 0.75
+    },
+    {
+      "surah_number": 7,
+      "ayah_number": 120,
+      "found_by": [
+        "keyword",
+        "narrative"
+      ],
+      "matched_concepts": [
+        "السحره",
+        "7:106-126"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"السحره\")। এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আল-আরাফ) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "confidence": 0.98
+    },
+    {
+      "surah_number": 7,
+      "ayah_number": 121,
+      "found_by": [
+        "narrative"
+      ],
+      "matched_concepts": [
+        "7:106-126"
+      ],
+      "decision": "include",
+      "relevance": "STRONG_CONTEXT",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আল-আরাফ) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "confidence": 0.75
+    },
+    {
+      "surah_number": 7,
+      "ayah_number": 122,
+      "found_by": [
+        "narrative"
+      ],
+      "matched_concepts": [
+        "7:106-126"
+      ],
+      "decision": "include",
+      "relevance": "STRONG_CONTEXT",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আল-আরাফ) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "confidence": 0.75
+    },
+    {
+      "surah_number": 7,
+      "ayah_number": 123,
+      "found_by": [
+        "narrative"
+      ],
+      "matched_concepts": [
+        "7:106-126"
+      ],
+      "decision": "include",
+      "relevance": "STRONG_CONTEXT",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আল-আরাফ) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "confidence": 0.75
+    },
+    {
+      "surah_number": 7,
+      "ayah_number": 124,
+      "found_by": [
+        "narrative"
+      ],
+      "matched_concepts": [
+        "7:106-126"
+      ],
+      "decision": "include",
+      "relevance": "STRONG_CONTEXT",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আল-আরাফ) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "confidence": 0.75
+    },
+    {
+      "surah_number": 7,
+      "ayah_number": 125,
+      "found_by": [
+        "narrative"
+      ],
+      "matched_concepts": [
+        "7:106-126"
+      ],
+      "decision": "include",
+      "relevance": "STRONG_CONTEXT",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আল-আরাফ) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "confidence": 0.75
+    },
+    {
+      "surah_number": 7,
+      "ayah_number": 126,
+      "found_by": [
+        "narrative"
+      ],
+      "matched_concepts": [
+        "7:106-126"
+      ],
+      "decision": "include",
+      "relevance": "STRONG_CONTEXT",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আল-আরাফ) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "confidence": 0.75
+    },
+    {
+      "surah_number": 7,
+      "ayah_number": 132,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "لتسحرنا"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"لتسحرنا\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 10,
+      "ayah_number": 2,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "لساحر"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"لساحر\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 10,
+      "ayah_number": 75,
+      "found_by": [
+        "narrative"
+      ],
+      "matched_concepts": [
+        "10:75-82"
+      ],
+      "decision": "include",
+      "relevance": "STRONG_CONTEXT",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা ইউনুস) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "confidence": 0.75
+    },
+    {
+      "surah_number": 10,
+      "ayah_number": 76,
+      "found_by": [
+        "keyword",
+        "narrative"
+      ],
+      "matched_concepts": [
+        "لسحر",
+        "10:75-82"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"لسحر\")। এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা ইউনুস) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "confidence": 0.98
+    },
+    {
+      "surah_number": 10,
+      "ayah_number": 77,
+      "found_by": [
+        "keyword",
+        "narrative"
+      ],
+      "matched_concepts": [
+        "اسحر",
+        "الساحرون",
+        "10:75-82"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"اسحر\", \"الساحرون\")। এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা ইউনুস) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "confidence": 0.98
+    },
+    {
+      "surah_number": 10,
+      "ayah_number": 78,
+      "found_by": [
+        "narrative"
+      ],
+      "matched_concepts": [
+        "10:75-82"
+      ],
+      "decision": "include",
+      "relevance": "STRONG_CONTEXT",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা ইউনুস) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "confidence": 0.75
+    },
+    {
+      "surah_number": 10,
+      "ayah_number": 79,
+      "found_by": [
+        "keyword",
+        "narrative"
+      ],
+      "matched_concepts": [
+        "ساحر",
+        "10:75-82"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ساحر\")। এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা ইউনুস) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "confidence": 0.98
+    },
+    {
+      "surah_number": 10,
+      "ayah_number": 80,
+      "found_by": [
+        "keyword",
+        "narrative"
+      ],
+      "matched_concepts": [
+        "السحره",
+        "10:75-82"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"السحره\")। এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা ইউনুস) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "confidence": 0.98
+    },
+    {
+      "surah_number": 10,
+      "ayah_number": 81,
+      "found_by": [
+        "keyword",
+        "narrative"
+      ],
+      "matched_concepts": [
+        "السحر",
+        "10:75-82"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"السحر\")। এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা ইউনুস) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "confidence": 0.98
+    },
+    {
+      "surah_number": 10,
+      "ayah_number": 82,
+      "found_by": [
+        "narrative"
+      ],
+      "matched_concepts": [
+        "10:75-82"
+      ],
+      "decision": "include",
+      "relevance": "STRONG_CONTEXT",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা ইউনুস) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "confidence": 0.75
+    },
+    {
+      "surah_number": 11,
+      "ayah_number": 7,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "سحر"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"سحر\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 20,
+      "ayah_number": 56,
+      "found_by": [
+        "narrative"
+      ],
+      "matched_concepts": [
+        "20:56-76"
+      ],
+      "decision": "include",
+      "relevance": "STRONG_CONTEXT",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা ত্বা-হা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "confidence": 0.75
+    },
+    {
+      "surah_number": 20,
+      "ayah_number": 57,
+      "found_by": [
+        "keyword",
+        "narrative"
+      ],
+      "matched_concepts": [
+        "بسحرك",
+        "20:56-76"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"بسحرك\")। এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা ত্বা-হা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "confidence": 0.98
+    },
+    {
+      "surah_number": 20,
+      "ayah_number": 58,
+      "found_by": [
+        "keyword",
+        "narrative"
+      ],
+      "matched_concepts": [
+        "بسحر",
+        "20:56-76"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"بسحر\")। এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা ত্বা-হা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "confidence": 0.98
+    },
+    {
+      "surah_number": 20,
+      "ayah_number": 59,
+      "found_by": [
+        "narrative"
+      ],
+      "matched_concepts": [
+        "20:56-76"
+      ],
+      "decision": "include",
+      "relevance": "STRONG_CONTEXT",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা ত্বা-হা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "confidence": 0.75
+    },
+    {
+      "surah_number": 20,
+      "ayah_number": 60,
+      "found_by": [
+        "narrative"
+      ],
+      "matched_concepts": [
+        "20:56-76"
+      ],
+      "decision": "include",
+      "relevance": "STRONG_CONTEXT",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা ত্বা-হা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "confidence": 0.75
+    },
+    {
+      "surah_number": 20,
+      "ayah_number": 61,
+      "found_by": [
+        "narrative"
+      ],
+      "matched_concepts": [
+        "20:56-76"
+      ],
+      "decision": "include",
+      "relevance": "STRONG_CONTEXT",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা ত্বা-হা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "confidence": 0.75
+    },
+    {
+      "surah_number": 20,
+      "ayah_number": 62,
+      "found_by": [
+        "narrative"
+      ],
+      "matched_concepts": [
+        "20:56-76"
+      ],
+      "decision": "include",
+      "relevance": "STRONG_CONTEXT",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা ত্বা-হা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "confidence": 0.75
+    },
+    {
+      "surah_number": 20,
+      "ayah_number": 63,
+      "found_by": [
+        "keyword",
+        "narrative"
+      ],
+      "matched_concepts": [
+        "بسحرهما",
+        "لساحران",
+        "20:56-76"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"بسحرهما\", \"لساحران\")। এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা ত্বা-হা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "confidence": 0.98
+    },
+    {
+      "surah_number": 20,
+      "ayah_number": 64,
+      "found_by": [
+        "narrative"
+      ],
+      "matched_concepts": [
+        "20:56-76"
+      ],
+      "decision": "include",
+      "relevance": "STRONG_CONTEXT",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা ত্বা-হা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "confidence": 0.75
+    },
+    {
+      "surah_number": 20,
+      "ayah_number": 65,
+      "found_by": [
+        "narrative"
+      ],
+      "matched_concepts": [
+        "20:56-76"
+      ],
+      "decision": "include",
+      "relevance": "STRONG_CONTEXT",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা ত্বা-হা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "confidence": 0.75
+    },
+    {
+      "surah_number": 20,
+      "ayah_number": 66,
+      "found_by": [
+        "keyword",
+        "narrative"
+      ],
+      "matched_concepts": [
+        "سحرهم",
+        "20:56-76"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"سحرهم\")। এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা ত্বা-হা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "confidence": 0.98
+    },
+    {
+      "surah_number": 20,
+      "ayah_number": 67,
+      "found_by": [
+        "narrative"
+      ],
+      "matched_concepts": [
+        "20:56-76"
+      ],
+      "decision": "include",
+      "relevance": "STRONG_CONTEXT",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা ত্বা-হা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "confidence": 0.75
+    },
+    {
+      "surah_number": 20,
+      "ayah_number": 68,
+      "found_by": [
+        "narrative"
+      ],
+      "matched_concepts": [
+        "20:56-76"
+      ],
+      "decision": "include",
+      "relevance": "STRONG_CONTEXT",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা ত্বা-হা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "confidence": 0.75
+    },
+    {
+      "surah_number": 20,
+      "ayah_number": 69,
+      "found_by": [
+        "keyword",
+        "narrative"
+      ],
+      "matched_concepts": [
+        "ساحر",
+        "الساحر",
+        "20:56-76"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ساحر\", \"الساحر\")। এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা ত্বা-হা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "confidence": 0.98
+    },
+    {
+      "surah_number": 20,
+      "ayah_number": 70,
+      "found_by": [
+        "keyword",
+        "narrative"
+      ],
+      "matched_concepts": [
+        "السحره",
+        "20:56-76"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"السحره\")। এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা ত্বা-হা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "confidence": 0.98
+    },
+    {
+      "surah_number": 20,
+      "ayah_number": 71,
+      "found_by": [
+        "keyword",
+        "narrative"
+      ],
+      "matched_concepts": [
+        "السحر",
+        "20:56-76"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"السحر\")। এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা ত্বা-হা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "confidence": 0.98
+    },
+    {
+      "surah_number": 20,
+      "ayah_number": 72,
+      "found_by": [
+        "narrative"
+      ],
+      "matched_concepts": [
+        "20:56-76"
+      ],
+      "decision": "include",
+      "relevance": "STRONG_CONTEXT",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা ত্বা-হা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "confidence": 0.75
+    },
+    {
+      "surah_number": 20,
+      "ayah_number": 73,
+      "found_by": [
+        "keyword",
+        "narrative"
+      ],
+      "matched_concepts": [
+        "السحر",
+        "20:56-76"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"السحر\")। এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা ত্বা-হা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "confidence": 0.98
+    },
+    {
+      "surah_number": 20,
+      "ayah_number": 74,
+      "found_by": [
+        "narrative"
+      ],
+      "matched_concepts": [
+        "20:56-76"
+      ],
+      "decision": "include",
+      "relevance": "STRONG_CONTEXT",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা ত্বা-হা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "confidence": 0.75
+    },
+    {
+      "surah_number": 20,
+      "ayah_number": 75,
+      "found_by": [
+        "narrative"
+      ],
+      "matched_concepts": [
+        "20:56-76"
+      ],
+      "decision": "include",
+      "relevance": "STRONG_CONTEXT",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা ত্বা-হা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "confidence": 0.75
+    },
+    {
+      "surah_number": 20,
+      "ayah_number": 76,
+      "found_by": [
+        "narrative"
+      ],
+      "matched_concepts": [
+        "20:56-76"
+      ],
+      "decision": "include",
+      "relevance": "STRONG_CONTEXT",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা ত্বা-হা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "confidence": 0.75
+    },
+    {
+      "surah_number": 21,
+      "ayah_number": 3,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "السحر"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"السحر\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 23,
+      "ayah_number": 89,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "تسحرون"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"تسحرون\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 26,
+      "ayah_number": 34,
+      "found_by": [
+        "keyword",
+        "narrative"
+      ],
+      "matched_concepts": [
+        "لساحر",
+        "26:34-51"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"لساحر\")। এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আশ-শুআরা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "confidence": 0.98
+    },
+    {
+      "surah_number": 26,
+      "ayah_number": 35,
+      "found_by": [
+        "keyword",
+        "narrative"
+      ],
+      "matched_concepts": [
+        "بسحره",
+        "26:34-51"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"بسحره\")। এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আশ-শুআরা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "confidence": 0.98
+    },
+    {
+      "surah_number": 26,
+      "ayah_number": 36,
+      "found_by": [
+        "narrative"
+      ],
+      "matched_concepts": [
+        "26:34-51"
+      ],
+      "decision": "include",
+      "relevance": "STRONG_CONTEXT",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আশ-শুআরা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "confidence": 0.75
+    },
+    {
+      "surah_number": 26,
+      "ayah_number": 37,
+      "found_by": [
+        "narrative"
+      ],
+      "matched_concepts": [
+        "26:34-51"
+      ],
+      "decision": "include",
+      "relevance": "STRONG_CONTEXT",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আশ-শুআরা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "confidence": 0.75
+    },
+    {
+      "surah_number": 26,
+      "ayah_number": 38,
+      "found_by": [
+        "keyword",
+        "narrative"
+      ],
+      "matched_concepts": [
+        "السحره",
+        "26:34-51"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"السحره\")। এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আশ-শুআরা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "confidence": 0.98
+    },
+    {
+      "surah_number": 26,
+      "ayah_number": 39,
+      "found_by": [
+        "narrative"
+      ],
+      "matched_concepts": [
+        "26:34-51"
+      ],
+      "decision": "include",
+      "relevance": "STRONG_CONTEXT",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আশ-শুআরা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "confidence": 0.75
+    },
+    {
+      "surah_number": 26,
+      "ayah_number": 40,
+      "found_by": [
+        "keyword",
+        "narrative"
+      ],
+      "matched_concepts": [
+        "السحره",
+        "26:34-51"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"السحره\")। এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আশ-শুআরা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "confidence": 0.98
+    },
+    {
+      "surah_number": 26,
+      "ayah_number": 41,
+      "found_by": [
+        "keyword",
+        "narrative"
+      ],
+      "matched_concepts": [
+        "السحره",
+        "26:34-51"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"السحره\")। এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আশ-শুআরা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "confidence": 0.98
+    },
+    {
+      "surah_number": 26,
+      "ayah_number": 42,
+      "found_by": [
+        "narrative"
+      ],
+      "matched_concepts": [
+        "26:34-51"
+      ],
+      "decision": "include",
+      "relevance": "STRONG_CONTEXT",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আশ-শুআরা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "confidence": 0.75
+    },
+    {
+      "surah_number": 26,
+      "ayah_number": 43,
+      "found_by": [
+        "narrative"
+      ],
+      "matched_concepts": [
+        "26:34-51"
+      ],
+      "decision": "include",
+      "relevance": "STRONG_CONTEXT",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আশ-শুআরা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "confidence": 0.75
+    },
+    {
+      "surah_number": 26,
+      "ayah_number": 44,
+      "found_by": [
+        "narrative"
+      ],
+      "matched_concepts": [
+        "26:34-51"
+      ],
+      "decision": "include",
+      "relevance": "STRONG_CONTEXT",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আশ-শুআরা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "confidence": 0.75
+    },
+    {
+      "surah_number": 26,
+      "ayah_number": 45,
+      "found_by": [
+        "narrative"
+      ],
+      "matched_concepts": [
+        "26:34-51"
+      ],
+      "decision": "include",
+      "relevance": "STRONG_CONTEXT",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আশ-শুআরা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "confidence": 0.75
+    },
+    {
+      "surah_number": 26,
+      "ayah_number": 46,
+      "found_by": [
+        "keyword",
+        "narrative"
+      ],
+      "matched_concepts": [
+        "السحره",
+        "26:34-51"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"السحره\")। এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আশ-শুআরা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "confidence": 0.98
+    },
+    {
+      "surah_number": 26,
+      "ayah_number": 47,
+      "found_by": [
+        "narrative"
+      ],
+      "matched_concepts": [
+        "26:34-51"
+      ],
+      "decision": "include",
+      "relevance": "STRONG_CONTEXT",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আশ-শুআরা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "confidence": 0.75
+    },
+    {
+      "surah_number": 26,
+      "ayah_number": 48,
+      "found_by": [
+        "narrative"
+      ],
+      "matched_concepts": [
+        "26:34-51"
+      ],
+      "decision": "include",
+      "relevance": "STRONG_CONTEXT",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আশ-শুআরা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "confidence": 0.75
+    },
+    {
+      "surah_number": 26,
+      "ayah_number": 49,
+      "found_by": [
+        "keyword",
+        "narrative"
+      ],
+      "matched_concepts": [
+        "السحر",
+        "26:34-51"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"السحر\")। এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আশ-শুআরা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "confidence": 0.98
+    },
+    {
+      "surah_number": 26,
+      "ayah_number": 50,
+      "found_by": [
+        "narrative"
+      ],
+      "matched_concepts": [
+        "26:34-51"
+      ],
+      "decision": "include",
+      "relevance": "STRONG_CONTEXT",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আশ-শুআরা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "confidence": 0.75
+    },
+    {
+      "surah_number": 26,
+      "ayah_number": 51,
+      "found_by": [
+        "narrative"
+      ],
+      "matched_concepts": [
+        "26:34-51"
+      ],
+      "decision": "include",
+      "relevance": "STRONG_CONTEXT",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আশ-শুআরা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "confidence": 0.75
+    },
+    {
+      "surah_number": 26,
+      "ayah_number": 153,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "المسحرين"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"المسحرين\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 26,
+      "ayah_number": 185,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "المسحرين"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"المسحرين\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 27,
+      "ayah_number": 13,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "سحر"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"سحر\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 28,
+      "ayah_number": 36,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "سحر"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"سحر\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 28,
+      "ayah_number": 48,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "سحران"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"سحران\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 34,
+      "ayah_number": 43,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "سحر"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"سحر\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 37,
+      "ayah_number": 15,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "سحر"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"سحر\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 38,
+      "ayah_number": 4,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "ساحر"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ساحر\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 40,
+      "ayah_number": 24,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "ساحر"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ساحر\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 43,
+      "ayah_number": 30,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "سحر"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"سحر\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 43,
+      "ayah_number": 49,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الساحر"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الساحر\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 46,
+      "ayah_number": 7,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "سحر"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"سحر\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 51,
+      "ayah_number": 39,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "ساحر"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ساحر\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 51,
+      "ayah_number": 52,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "ساحر"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ساحر\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 52,
+      "ayah_number": 15,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "افسحر"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"افسحر\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 54,
+      "ayah_number": 2,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "سحر"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"سحر\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 61,
+      "ayah_number": 6,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "سحر"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"سحر\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 74,
+      "ayah_number": 24,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "سحر"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"سحر\")।",
+      "confidence": 0.95
+    }
+  ]
+}

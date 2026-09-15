@@ -1,0 +1,654 @@
+{
+  "topic": "রোগ",
+  "generated_at": "2026-09-15T00:09:29.886Z",
+  "total_ayahs": 6236,
+  "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+  "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+  "dataset_version": "quran-json@3.1.2 / merged 2026",
+  "direct": [
+    {
+      "surah_number": 2,
+      "surah_name_ar": "البقرة",
+      "surah_name_transliteration": "Al-Baqarah",
+      "surah_name_bn": "বকনা-বাছুর",
+      "ayah_number": 10,
+      "arabic": "فِي قُلُوبِهِم مَّرَضٞ فَزَادَهُمُ ٱللَّهُ مَرَضٗاۖ وَلَهُمۡ عَذَابٌ أَلِيمُۢ بِمَا كَانُواْ يَكۡذِبُونَ",
+      "bangla": "তাদের অন্তঃকরণ ব্যধিগ্রস্ত আর আল্লাহ তাদের ব্যধি আরো বাড়িয়ে দিয়েছেন। বস্তুতঃ তাদের জন্য নির্ধারিত রয়েছে ভয়াবহ আযাব, তাদের মিথ্যাচারের দরুন।",
+      "topic": "রোগ",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"রোগ\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"مرض\", \"مرضا\")।",
+      "matched_concepts": [
+        "مرض",
+        "مرضا"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 2,
+      "surah_name_ar": "البقرة",
+      "surah_name_transliteration": "Al-Baqarah",
+      "surah_name_bn": "বকনা-বাছুর",
+      "ayah_number": 184,
+      "arabic": "أَيَّامٗا مَّعۡدُودَٰتٖۚ فَمَن كَانَ مِنكُم مَّرِيضًا أَوۡ عَلَىٰ سَفَرٖ فَعِدَّةٞ مِّنۡ أَيَّامٍ أُخَرَۚ وَعَلَى ٱلَّذِينَ يُطِيقُونَهُۥ فِدۡيَةٞ طَعَامُ مِسۡكِينٖۖ فَمَن تَطَوَّعَ خَيۡرٗا فَهُوَ خَيۡرٞ لَّهُۥۚ وَأَن تَصُومُواْ خَيۡرٞ لَّكُمۡ إِن كُنتُمۡ تَعۡلَمُونَ",
+      "bangla": "গণনার কয়েকটি দিনের জন্য অতঃপর তোমাদের মধ্যে যে, অসুখ থাকবে অথবা সফরে থাকবে, তার পক্ষে অন্য সময়ে সে রোজা পূরণ করে নিতে হবে। আর এটি যাদের জন্য অত্যন্ত কষ্ট দায়ক হয়, তারা এর পরিবর্তে একজন মিসকীনকে খাদ্যদান করবে। যে ব্যক্তি খুশীর সাথে সৎকর্ম করে, তা তার জন্য কল্যাণ কর হয়। আর যদি রোজা রাখ, তবে তোমাদের জন্যে বিশেষ কল্যাণকর, যদি তোমরা তা বুঝতে পার।",
+      "topic": "রোগ",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"রোগ\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"مريضا\")।",
+      "matched_concepts": [
+        "مريضا"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 2,
+      "surah_name_ar": "البقرة",
+      "surah_name_transliteration": "Al-Baqarah",
+      "surah_name_bn": "বকনা-বাছুর",
+      "ayah_number": 185,
+      "arabic": "شَهۡرُ رَمَضَانَ ٱلَّذِيٓ أُنزِلَ فِيهِ ٱلۡقُرۡءَانُ هُدٗى لِّلنَّاسِ وَبَيِّنَٰتٖ مِّنَ ٱلۡهُدَىٰ وَٱلۡفُرۡقَانِۚ فَمَن شَهِدَ مِنكُمُ ٱلشَّهۡرَ فَلۡيَصُمۡهُۖ وَمَن كَانَ مَرِيضًا أَوۡ عَلَىٰ سَفَرٖ فَعِدَّةٞ مِّنۡ أَيَّامٍ أُخَرَۗ يُرِيدُ ٱللَّهُ بِكُمُ ٱلۡيُسۡرَ وَلَا يُرِيدُ بِكُمُ ٱلۡعُسۡرَ وَلِتُكۡمِلُواْ ٱلۡعِدَّةَ وَلِتُكَبِّرُواْ ٱللَّهَ عَلَىٰ مَا هَدَىٰكُمۡ وَلَعَلَّكُمۡ تَشۡكُرُونَ",
+      "bangla": "রমযান মাসই হল সে মাস, যাতে নাযিল করা হয়েছে কোরআন, যা মানুষের জন্য হেদায়েত এবং সত্যপথ যাত্রীদের জন্য সুষ্পষ্ট পথ নির্দেশ আর ন্যায় ও অন্যায়ের মাঝে পার্থক্য বিধানকারী। কাজেই তোমাদের মধ্যে যে লোক এ মাসটি পাবে, সে এ মাসের রোযা রাখবে। আর যে লোক অসুস্থ কিংবা মুসাফির অবস্থায় থাকবে সে অন্য দিনে গণনা পূরণ করবে। আল্লাহ তোমাদের জন্য সহজ করতে চান; তোমাদের জন্য জটিলতা কামনা করেন না যাতে তোমরা গণনা পূরণ কর এবং তোমাদের হেদায়েত দান করার দরুন আল্লাহ তা’আলার মহত্ত্ব বর্ণনা কর, যাতে তোমরা কৃতজ্ঞতা স্বীকার কর।",
+      "topic": "রোগ",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"রোগ\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"مريضا\")।",
+      "matched_concepts": [
+        "مريضا"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 2,
+      "surah_name_ar": "البقرة",
+      "surah_name_transliteration": "Al-Baqarah",
+      "surah_name_bn": "বকনা-বাছুর",
+      "ayah_number": 196,
+      "arabic": "وَأَتِمُّواْ ٱلۡحَجَّ وَٱلۡعُمۡرَةَ لِلَّهِۚ فَإِنۡ أُحۡصِرۡتُمۡ فَمَا ٱسۡتَيۡسَرَ مِنَ ٱلۡهَدۡيِۖ وَلَا تَحۡلِقُواْ رُءُوسَكُمۡ حَتَّىٰ يَبۡلُغَ ٱلۡهَدۡيُ مَحِلَّهُۥۚ فَمَن كَانَ مِنكُم مَّرِيضًا أَوۡ بِهِۦٓ أَذٗى مِّن رَّأۡسِهِۦ فَفِدۡيَةٞ مِّن صِيَامٍ أَوۡ صَدَقَةٍ أَوۡ نُسُكٖۚ فَإِذَآ أَمِنتُمۡ فَمَن تَمَتَّعَ بِٱلۡعُمۡرَةِ إِلَى ٱلۡحَجِّ فَمَا ٱسۡتَيۡسَرَ مِنَ ٱلۡهَدۡيِۚ فَمَن لَّمۡ يَجِدۡ فَصِيَامُ ثَلَٰثَةِ أَيَّامٖ فِي ٱلۡحَجِّ وَسَبۡعَةٍ إِذَا رَجَعۡتُمۡۗ تِلۡكَ عَشَرَةٞ كَامِلَةٞۗ ذَٰلِكَ لِمَن لَّمۡ يَكُنۡ أَهۡلُهُۥ حَاضِرِي ٱلۡمَسۡجِدِ ٱلۡحَرَامِۚ وَٱتَّقُواْ ٱللَّهَ وَٱعۡلَمُوٓاْ أَنَّ ٱللَّهَ شَدِيدُ ٱلۡعِقَابِ",
+      "bangla": "আর তোমরা আল্লাহর উদ্দেশ্যে হজ্জ্ব ওমরাহ পরিপূর্ণ ভাবে পালন কর। যদি তোমরা বাধা প্রাপ্ত হও, তাহলে কোরবানীর জন্য যাকিছু সহজলভ্য, তাই তোমাদের উপর ধার্য। আর তোমরা ততক্ষণ পর্যন্ত মাথা মুন্ডন করবে না, যতক্ষণ না কোরবাণী যথাস্থানে পৌছে যাবে। যারা তোমাদের মধ্যে অসুস্থ হয়ে পড়বে কিংবা মাথায় যদি কোন কষ্ট থাকে, তাহলে তার পরিবর্তে রোজা করবে কিংবা খয়রাত দেবে অথবা কুরবানী করবে। আর তোমাদের মধ্যে যারা হজ্জ্ব ওমরাহ একত্রে একই সাথে পালন করতে চাও, তবে যাকিছু সহজলভ্য, তা দিয়ে কুরবানী করাই তার উপর কর্তব্য। বস্তুতঃ যারা কোরবানীর পশু পাবে না, তারা হজ্জ্বের দিনগুলোর মধ্যে রোজা রাখবে তিনটি আর সাতটি রোযা রাখবে ফিরে যাবার পর। এভাবে দশটি রোযা পূর্ণ হয়ে যাবে। এ নির্দেশটি তাদের জন্য, যাদের পরিবার পরিজন মসজিদুল হারামের আশে-পাশে বসবাস করে না। আর আল্লাহকে ভয় করতে থাক। সন্দেহাতীতভাবে জেনো যে, আল্লাহর আযাব বড়ই কঠিন।",
+      "topic": "রোগ",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"রোগ\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"مريضا\")।",
+      "matched_concepts": [
+        "مريضا"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 5,
+      "surah_name_ar": "المائدة",
+      "surah_name_transliteration": "Al-Ma'idah",
+      "surah_name_bn": "খাদ্য পরিবেশিত টেবিল",
+      "ayah_number": 52,
+      "arabic": "فَتَرَى ٱلَّذِينَ فِي قُلُوبِهِم مَّرَضٞ يُسَٰرِعُونَ فِيهِمۡ يَقُولُونَ نَخۡشَىٰٓ أَن تُصِيبَنَا دَآئِرَةٞۚ فَعَسَى ٱللَّهُ أَن يَأۡتِيَ بِٱلۡفَتۡحِ أَوۡ أَمۡرٖ مِّنۡ عِندِهِۦ فَيُصۡبِحُواْ عَلَىٰ مَآ أَسَرُّواْ فِيٓ أَنفُسِهِمۡ نَٰدِمِينَ",
+      "bangla": "বস্তুতঃ যাদের অন্তরে রোগ রয়েছে, তাদেরকে আপনি দেখবেন, দৌড়ে গিয়ে তাদেরই মধ্যে প্রবেশ করে। তারা বলেঃ আমরা আশঙ্কা করি, পাছে না আমরা কোন দুর্ঘটনায় পতিত হই। অতএব, সেদিন দুরে নয়, যেদিন আল্লাহ তা’আলা বিজয় প্রকাশ করবেন অথবা নিজের পক্ষ থেকে কোন নির্দেশ দেবেন-ফলে তারা স্বীয় গোপন মনোভাবের জন্যে অনুতপ্ত হবে।",
+      "topic": "রোগ",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"রোগ\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"مرض\")।",
+      "matched_concepts": [
+        "مرض"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 8,
+      "surah_name_ar": "الأنفال",
+      "surah_name_transliteration": "Al-Anfal",
+      "surah_name_bn": "যুদ্ধ-লব্ধ ধনসম্পদ",
+      "ayah_number": 49,
+      "arabic": "إِذۡ يَقُولُ ٱلۡمُنَٰفِقُونَ وَٱلَّذِينَ فِي قُلُوبِهِم مَّرَضٌ غَرَّ هَـٰٓؤُلَآءِ دِينُهُمۡۗ وَمَن يَتَوَكَّلۡ عَلَى ٱللَّهِ فَإِنَّ ٱللَّهَ عَزِيزٌ حَكِيمٞ",
+      "bangla": "যখন মোনাফেকরা বলতে লাগল এবং যাদের অন্তর ব্যাধিগ্রস্ত, এরা নিজেদের ধর্মের উপর গর্বিত। বস্তুতঃ যারা ভরসা করে আল্লাহর উপর, সে নিশ্চিন্ত, কেননা আল্লাহ অতি পরাক্রমশীল, সুবিজ্ঞ।",
+      "topic": "রোগ",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"রোগ\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"مرض\")।",
+      "matched_concepts": [
+        "مرض"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 9,
+      "surah_name_ar": "التوبة",
+      "surah_name_transliteration": "At-Tawbah",
+      "surah_name_bn": "অনুশোচনা",
+      "ayah_number": 91,
+      "arabic": "لَّيۡسَ عَلَى ٱلضُّعَفَآءِ وَلَا عَلَى ٱلۡمَرۡضَىٰ وَلَا عَلَى ٱلَّذِينَ لَا يَجِدُونَ مَا يُنفِقُونَ حَرَجٌ إِذَا نَصَحُواْ لِلَّهِ وَرَسُولِهِۦۚ مَا عَلَى ٱلۡمُحۡسِنِينَ مِن سَبِيلٖۚ وَٱللَّهُ غَفُورٞ رَّحِيمٞ",
+      "bangla": "দূর্বল, রুগ্ন, ব্যয়ভার বহনে অসমর্থ লোকদের জন্য কোন অপরাধ নেই, যখন তারা মনের দিক থেকে পবিত্র হবে আল্লাহ ও রসূলের সাথে। নেককারদের উপর অভিযোগের কোন পথ নেই। আর আল্লাহ হচ্ছেন ক্ষমাকারী দয়ালু।",
+      "topic": "রোগ",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"রোগ\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"المرضيا\")।",
+      "matched_concepts": [
+        "المرضيا"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 9,
+      "surah_name_ar": "التوبة",
+      "surah_name_transliteration": "At-Tawbah",
+      "surah_name_bn": "অনুশোচনা",
+      "ayah_number": 125,
+      "arabic": "وَأَمَّا ٱلَّذِينَ فِي قُلُوبِهِم مَّرَضٞ فَزَادَتۡهُمۡ رِجۡسًا إِلَىٰ رِجۡسِهِمۡ وَمَاتُواْ وَهُمۡ كَٰفِرُونَ",
+      "bangla": "বস্তুতঃ যাদের অন্তরে ব্যাধি রয়েছে এটি তাদের কলুষের সাথে আরো কলুষ বৃদ্ধি করেছে এবং তারা কাফের অবস্থায়ই মৃত্যু বরণ করলো।",
+      "topic": "রোগ",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"রোগ\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"مرض\")।",
+      "matched_concepts": [
+        "مرض"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 22,
+      "surah_name_ar": "الحج",
+      "surah_name_transliteration": "Al-Hajj",
+      "surah_name_bn": "হ়াজ্জ",
+      "ayah_number": 53,
+      "arabic": "لِّيَجۡعَلَ مَا يُلۡقِي ٱلشَّيۡطَٰنُ فِتۡنَةٗ لِّلَّذِينَ فِي قُلُوبِهِم مَّرَضٞ وَٱلۡقَاسِيَةِ قُلُوبُهُمۡۗ وَإِنَّ ٱلظَّـٰلِمِينَ لَفِي شِقَاقِۭ بَعِيدٖ",
+      "bangla": "এ কারণে যে, শয়তান যা মিশ্রণ করে, তিনি তা পরীক্ষাস্বরূপ করে দেন, তাদের জন্যে, যাদের অন্তরে রোগ আছে এবং যারা পাষাণহৃদয়। গোনাহগাররা দূরবর্তী বিরোধিতায় লিপ্ত আছে।",
+      "topic": "রোগ",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"রোগ\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"مرض\")।",
+      "matched_concepts": [
+        "مرض"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 24,
+      "surah_name_ar": "النور",
+      "surah_name_transliteration": "An-Nur",
+      "surah_name_bn": "আলো",
+      "ayah_number": 50,
+      "arabic": "أَفِي قُلُوبِهِم مَّرَضٌ أَمِ ٱرۡتَابُوٓاْ أَمۡ يَخَافُونَ أَن يَحِيفَ ٱللَّهُ عَلَيۡهِمۡ وَرَسُولُهُۥۚ بَلۡ أُوْلَـٰٓئِكَ هُمُ ٱلظَّـٰلِمُونَ",
+      "bangla": "তাদের অন্তরে কি রোগ আছে, না তারা ধোঁকায় পড়ে আছে; না তারা ভয় করে যে, আল্লাহ ও তাঁর রাসূল তাদের প্রতি অবিচার করবেন? বরং তারাই তো অবিচারকারী",
+      "topic": "রোগ",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"রোগ\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"مرض\")।",
+      "matched_concepts": [
+        "مرض"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 24,
+      "surah_name_ar": "النور",
+      "surah_name_transliteration": "An-Nur",
+      "surah_name_bn": "আলো",
+      "ayah_number": 61,
+      "arabic": "لَّيۡسَ عَلَى ٱلۡأَعۡمَىٰ حَرَجٞ وَلَا عَلَى ٱلۡأَعۡرَجِ حَرَجٞ وَلَا عَلَى ٱلۡمَرِيضِ حَرَجٞ وَلَا عَلَىٰٓ أَنفُسِكُمۡ أَن تَأۡكُلُواْ مِنۢ بُيُوتِكُمۡ أَوۡ بُيُوتِ ءَابَآئِكُمۡ أَوۡ بُيُوتِ أُمَّهَٰتِكُمۡ أَوۡ بُيُوتِ إِخۡوَٰنِكُمۡ أَوۡ بُيُوتِ أَخَوَٰتِكُمۡ أَوۡ بُيُوتِ أَعۡمَٰمِكُمۡ أَوۡ بُيُوتِ عَمَّـٰتِكُمۡ أَوۡ بُيُوتِ أَخۡوَٰلِكُمۡ أَوۡ بُيُوتِ خَٰلَٰتِكُمۡ أَوۡ مَا مَلَكۡتُم مَّفَاتِحَهُۥٓ أَوۡ صَدِيقِكُمۡۚ لَيۡسَ عَلَيۡكُمۡ جُنَاحٌ أَن تَأۡكُلُواْ جَمِيعًا أَوۡ أَشۡتَاتٗاۚ فَإِذَا دَخَلۡتُم بُيُوتٗا فَسَلِّمُواْ عَلَىٰٓ أَنفُسِكُمۡ تَحِيَّةٗ مِّنۡ عِندِ ٱللَّهِ مُبَٰرَكَةٗ طَيِّبَةٗۚ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ لَكُمُ ٱلۡأٓيَٰتِ لَعَلَّكُمۡ تَعۡقِلُونَ",
+      "bangla": "অন্ধের জন্যে দোষ নেই, খঞ্জের জন্যে দোষ নেই, রোগীর জন্যে দোষ নেই, এবং তোমাদের নিজেদের জন্যেও দোষ নেই যে, তোমরা আহার করবে তোমাদের গৃহে অথবা তোমাদের পিতাদের গৃহে অথবা তোমাদের মাতাদের গৃহে অথবা তোমাদের ভ্রাতাদের গৃহে অথবা তোমাদের ভগিণীদের গৃহে অথবা তোমাদের পিতৃব্যদের গৃহে অথবা তোমাদের ফুফুদের গৃহে অথবা তোমাদের মামাদের গৃহে অথবা তোমাদের খালাদের গৃহে অথবা সেই গৃহে, যার চাবি আছে তোমাদের হাতে অথবা তোমাদের বন্ধুদের গৃহে। তোমরা একত্রে আহার কর অথবা পৃথকভবে আহার কর, তাতে তোমাদের কোন দোষ নেই। অতঃপর যখন তোমরা গৃহে প্রবেশ কর, তখন তোমাদের স্বজনদের প্রতি সালাম বলবে। এটা আল্লাহর কাছ থেকে কল্যাণময় ও পবিত্র দোয়া। এমনিভাবে আল্লাহ তোমাদের জন্যে আয়াতসমূহ বিশদভাবে বর্ননা করেন, যাতে তোমরা বুঝে নাও।",
+      "topic": "রোগ",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"রোগ\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"المريض\")।",
+      "matched_concepts": [
+        "المريض"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 26,
+      "surah_name_ar": "الشعراء",
+      "surah_name_transliteration": "Ash-Shu'ara",
+      "surah_name_bn": "কবি",
+      "ayah_number": 80,
+      "arabic": "وَإِذَا مَرِضۡتُ فَهُوَ يَشۡفِينِ",
+      "bangla": "যখন আমি রোগাক্রান্ত হই, তখন তিনিই আরোগ্য দান করেন।",
+      "topic": "রোগ",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"রোগ\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"مرضت\")।",
+      "matched_concepts": [
+        "مرضت"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 33,
+      "surah_name_ar": "الأحزاب",
+      "surah_name_transliteration": "Al-Ahzab",
+      "surah_name_bn": "জোট",
+      "ayah_number": 12,
+      "arabic": "وَإِذۡ يَقُولُ ٱلۡمُنَٰفِقُونَ وَٱلَّذِينَ فِي قُلُوبِهِم مَّرَضٞ مَّا وَعَدَنَا ٱللَّهُ وَرَسُولُهُۥٓ إِلَّا غُرُورٗا",
+      "bangla": "এবং যখন মুনাফিক ও যাদের অন্তরে রোগ ছিল তারা বলছিল, আমাদেরকে প্রদত্ত আল্লাহ ও রসূলের প্রতিশ্রুতি প্রতারণা বৈ নয়।",
+      "topic": "রোগ",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"রোগ\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"مرض\")।",
+      "matched_concepts": [
+        "مرض"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 33,
+      "surah_name_ar": "الأحزاب",
+      "surah_name_transliteration": "Al-Ahzab",
+      "surah_name_bn": "জোট",
+      "ayah_number": 32,
+      "arabic": "يَٰنِسَآءَ ٱلنَّبِيِّ لَسۡتُنَّ كَأَحَدٖ مِّنَ ٱلنِّسَآءِ إِنِ ٱتَّقَيۡتُنَّۚ فَلَا تَخۡضَعۡنَ بِٱلۡقَوۡلِ فَيَطۡمَعَ ٱلَّذِي فِي قَلۡبِهِۦ مَرَضٞ وَقُلۡنَ قَوۡلٗا مَّعۡرُوفٗا",
+      "bangla": "হে নবী পত্নীগণ! তোমরা অন্য নারীদের মত নও; যদি তোমরা আল্লাহকে ভয় কর, তবে পরপুরুষের সাথে কোমল ও আকর্ষনীয় ভঙ্গিতে কথা বলো না, ফলে সেই ব্যক্তি কুবাসনা করে, যার অন্তরে ব্যাধি রয়েছে তোমরা সঙ্গত কথাবার্তা বলবে।",
+      "topic": "রোগ",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"রোগ\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"مرض\")।",
+      "matched_concepts": [
+        "مرض"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 33,
+      "surah_name_ar": "الأحزاب",
+      "surah_name_transliteration": "Al-Ahzab",
+      "surah_name_bn": "জোট",
+      "ayah_number": 60,
+      "arabic": "۞لَّئِن لَّمۡ يَنتَهِ ٱلۡمُنَٰفِقُونَ وَٱلَّذِينَ فِي قُلُوبِهِم مَّرَضٞ وَٱلۡمُرۡجِفُونَ فِي ٱلۡمَدِينَةِ لَنُغۡرِيَنَّكَ بِهِمۡ ثُمَّ لَا يُجَاوِرُونَكَ فِيهَآ إِلَّا قَلِيلٗا",
+      "bangla": "মুনাফিকরা এবং যাদের অন্তরে রোগ আছে এবং মদীনায় গুজব রটনাকারীরা যদি বিরত না হয়, তবে আমি অবশ্যই তাদের বিরুদ্ধে আপনাকে উত্তেজিত করব। অতঃপর এই শহরে আপনার প্রতিবেশী অল্পই থাকবে।",
+      "topic": "রোগ",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"রোগ\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"مرض\")।",
+      "matched_concepts": [
+        "مرض"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 37,
+      "surah_name_ar": "الصافات",
+      "surah_name_transliteration": "As-Saffat",
+      "surah_name_bn": "সারিবদ্ধভাবে দাঁড়ানো",
+      "ayah_number": 89,
+      "arabic": "فَقَالَ إِنِّي سَقِيمٞ",
+      "bangla": "এবং বললঃ আমি পীড়িত।",
+      "topic": "রোগ",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"রোগ\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"سقيم\")।",
+      "matched_concepts": [
+        "سقيم"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 37,
+      "surah_name_ar": "الصافات",
+      "surah_name_transliteration": "As-Saffat",
+      "surah_name_bn": "সারিবদ্ধভাবে দাঁড়ানো",
+      "ayah_number": 145,
+      "arabic": "۞فَنَبَذۡنَٰهُ بِٱلۡعَرَآءِ وَهُوَ سَقِيمٞ",
+      "bangla": "অতঃপর আমি তাঁকে এক বিস্তীর্ণ-বিজন প্রান্তরে নিক্ষেপ করলাম, তখন তিনি ছিলেন রুগ্ন।",
+      "topic": "রোগ",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"রোগ\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"سقيم\")।",
+      "matched_concepts": [
+        "سقيم"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 47,
+      "surah_name_ar": "محمد",
+      "surah_name_transliteration": "Muhammad",
+      "surah_name_bn": "নবী মুহাম্মদ",
+      "ayah_number": 20,
+      "arabic": "وَيَقُولُ ٱلَّذِينَ ءَامَنُواْ لَوۡلَا نُزِّلَتۡ سُورَةٞۖ فَإِذَآ أُنزِلَتۡ سُورَةٞ مُّحۡكَمَةٞ وَذُكِرَ فِيهَا ٱلۡقِتَالُ رَأَيۡتَ ٱلَّذِينَ فِي قُلُوبِهِم مَّرَضٞ يَنظُرُونَ إِلَيۡكَ نَظَرَ ٱلۡمَغۡشِيِّ عَلَيۡهِ مِنَ ٱلۡمَوۡتِۖ فَأَوۡلَىٰ لَهُمۡ",
+      "bangla": "যারা মুমিন, তারা বলেঃ একটি সূরা নাযিল হয় না কেন? অতঃপর যখন কোন দ্ব্যর্থহীন সূরা নাযিল হয় এবং তাতে জেহাদের উল্লেখ করা হয়, তখন যাদের অন্তরে রোগ আছে, আপনি তাদেরকে মৃত্যুভয়ে মূর্ছাপ্রাপ্ত মানুষের মত আপনার দিকে তাকিয়ে থাকতে দেখবেন। সুতরাং ধ্বংস তাদের জন্যে।",
+      "topic": "রোগ",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"রোগ\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"مرض\")।",
+      "matched_concepts": [
+        "مرض"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 47,
+      "surah_name_ar": "محمد",
+      "surah_name_transliteration": "Muhammad",
+      "surah_name_bn": "নবী মুহাম্মদ",
+      "ayah_number": 29,
+      "arabic": "أَمۡ حَسِبَ ٱلَّذِينَ فِي قُلُوبِهِم مَّرَضٌ أَن لَّن يُخۡرِجَ ٱللَّهُ أَضۡغَٰنَهُمۡ",
+      "bangla": "যাদের অন্তরে রোগ আছে, তারা কি মনে করে যে, আল্লাহ তাদের অন্তরের বিদ্বেষ প্রকাশ করে দেবেন না",
+      "topic": "রোগ",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"রোগ\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"مرض\")।",
+      "matched_concepts": [
+        "مرض"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 48,
+      "surah_name_ar": "الفتح",
+      "surah_name_transliteration": "Al-Fath",
+      "surah_name_bn": "বিজয়",
+      "ayah_number": 17,
+      "arabic": "لَّيۡسَ عَلَى ٱلۡأَعۡمَىٰ حَرَجٞ وَلَا عَلَى ٱلۡأَعۡرَجِ حَرَجٞ وَلَا عَلَى ٱلۡمَرِيضِ حَرَجٞۗ وَمَن يُطِعِ ٱللَّهَ وَرَسُولَهُۥ يُدۡخِلۡهُ جَنَّـٰتٖ تَجۡرِي مِن تَحۡتِهَا ٱلۡأَنۡهَٰرُۖ وَمَن يَتَوَلَّ يُعَذِّبۡهُ عَذَابًا أَلِيمٗا",
+      "bangla": "অন্ধের জন্যে, খঞ্জের জন্যে ও রুগ্নের জন্যে কোন অপরাধ নাই এবং যে কেউ আল্লাহ ও তাঁর রসূলের অনুগত্য করবে তাকে তিনি জান্নাতে দাখিল করবেন, যার তলদেশে নদী প্রবাহিত হয়। পক্ষান্তরে যে, ব্যক্তি পৃষ্ঠপ্রদর্শন করবে, তাকে যন্ত্রণাদায়ক শাস্তি দিবেন।",
+      "topic": "রোগ",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"রোগ\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"المريض\")।",
+      "matched_concepts": [
+        "المريض"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 74,
+      "surah_name_ar": "المدثر",
+      "surah_name_transliteration": "Al-Muddaththir",
+      "surah_name_bn": "পোশাক পরিহিত",
+      "ayah_number": 31,
+      "arabic": "وَمَا جَعَلۡنَآ أَصۡحَٰبَ ٱلنَّارِ إِلَّا مَلَـٰٓئِكَةٗۖ وَمَا جَعَلۡنَا عِدَّتَهُمۡ إِلَّا فِتۡنَةٗ لِّلَّذِينَ كَفَرُواْ لِيَسۡتَيۡقِنَ ٱلَّذِينَ أُوتُواْ ٱلۡكِتَٰبَ وَيَزۡدَادَ ٱلَّذِينَ ءَامَنُوٓاْ إِيمَٰنٗا وَلَا يَرۡتَابَ ٱلَّذِينَ أُوتُواْ ٱلۡكِتَٰبَ وَٱلۡمُؤۡمِنُونَ وَلِيَقُولَ ٱلَّذِينَ فِي قُلُوبِهِم مَّرَضٞ وَٱلۡكَٰفِرُونَ مَاذَآ أَرَادَ ٱللَّهُ بِهَٰذَا مَثَلٗاۚ كَذَٰلِكَ يُضِلُّ ٱللَّهُ مَن يَشَآءُ وَيَهۡدِي مَن يَشَآءُۚ وَمَا يَعۡلَمُ جُنُودَ رَبِّكَ إِلَّا هُوَۚ وَمَا هِيَ إِلَّا ذِكۡرَىٰ لِلۡبَشَرِ",
+      "bangla": "আমি জাহান্নামের তত্ত্বাবধায়ক ফেরেশতাই রেখেছি। আমি কাফেরদেরকে পরীক্ষা করার জন্যেই তার এই সংখ্যা করেছি-যাতে কিতাবীরা দৃঢ়বিশ্বাসী হয়, মুমিনদের ঈমান বৃদ্ধি পায় এবং কিতাবীরা ও মুমিনগণ সন্দেহ পোষণ না করে এবং যাতে যাদের অন্তরে রোগ আছে, তারা এবং কাফেররা বলে যে, আল্লাহ এর দ্বারা কি বোঝাতে চেয়েছেন। এমনিভাবে আল্লাহ যাকে ইচ্ছা পথভ্রষ্ট করেন এবং যাকে ইচ্ছা সৎপথে চালান। আপনার পালনকর্তার বাহিনী সম্পর্কে একমাত্র তিনিই জানেন এটা তো মানুষের জন্যে উপদেশ বৈ নয়।",
+      "topic": "রোগ",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"রোগ\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"مرض\")।",
+      "matched_concepts": [
+        "مرض"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    }
+  ],
+  "strong_context": [],
+  "related": [
+    {
+      "surah_number": 10,
+      "surah_name_ar": "يونس",
+      "surah_name_transliteration": "Yunus",
+      "surah_name_bn": "নবী ইউনুস",
+      "ayah_number": 57,
+      "arabic": "يَـٰٓأَيُّهَا ٱلنَّاسُ قَدۡ جَآءَتۡكُم مَّوۡعِظَةٞ مِّن رَّبِّكُمۡ وَشِفَآءٞ لِّمَا فِي ٱلصُّدُورِ وَهُدٗى وَرَحۡمَةٞ لِّلۡمُؤۡمِنِينَ",
+      "bangla": "হে মানবকুল, তোমাদের কাছে উপদেশবানী এসেছে তোমাদের পরওয়ারদেগারের পক্ষ থেকে এবং অন্তরের রোগের নিরাময়, হেদায়েত ও রহমত মুসলমানদের জন্য।",
+      "topic": "রোগ",
+      "relevance": "RELATED",
+      "decision": "related",
+      "reason_bn": "এই আয়াতে \"وشفاء\" (shifa -- আরোগ্য/উপশম) শব্দটি রয়েছে, যা \"রোগ\"-এর সাথে প্রাসঙ্গিকভাবে সম্পর্কিত হলেও মূল বিষয় নয় — তাই RELATED হিসেবে চিহ্নিত।",
+      "matched_concepts": [
+        "وشفاء"
+      ],
+      "found_by": [
+        "concept"
+      ],
+      "confidence": 0.6,
+      "review_required": true,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 16,
+      "surah_name_ar": "النحل",
+      "surah_name_transliteration": "An-Nahl",
+      "surah_name_bn": "মৌমাছি",
+      "ayah_number": 69,
+      "arabic": "ثُمَّ كُلِي مِن كُلِّ ٱلثَّمَرَٰتِ فَٱسۡلُكِي سُبُلَ رَبِّكِ ذُلُلٗاۚ يَخۡرُجُ مِنۢ بُطُونِهَا شَرَابٞ مُّخۡتَلِفٌ أَلۡوَٰنُهُۥ فِيهِ شِفَآءٞ لِّلنَّاسِۚ إِنَّ فِي ذَٰلِكَ لَأٓيَةٗ لِّقَوۡمٖ يَتَفَكَّرُونَ",
+      "bangla": "এরপর সর্বপ্রকার ফল থেকে ভক্ষণ কর এবং আপন পালনকর্তার উম্মুক্ত পথ সমূহে চলমান হও। তার পেট থেকে বিভিন্ন রঙে পানীয় নির্গত হয়। তাতে মানুষের জন্যে রয়েছে রোগের প্রতিকার। নিশ্চয় এতে চিন্তাশীল সম্প্রদায়ের জন্যে নিদর্শন রয়েছে।",
+      "topic": "রোগ",
+      "relevance": "RELATED",
+      "decision": "related",
+      "reason_bn": "এই আয়াতে \"شفاء\" (shifa -- আরোগ্য/উপশম) শব্দটি রয়েছে, যা \"রোগ\"-এর সাথে প্রাসঙ্গিকভাবে সম্পর্কিত হলেও মূল বিষয় নয় — তাই RELATED হিসেবে চিহ্নিত।",
+      "matched_concepts": [
+        "شفاء"
+      ],
+      "found_by": [
+        "concept"
+      ],
+      "confidence": 0.6,
+      "review_required": true,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 17,
+      "surah_name_ar": "الإسراء",
+      "surah_name_transliteration": "Al-Isra",
+      "surah_name_bn": "ইহুদি জাতি",
+      "ayah_number": 82,
+      "arabic": "وَنُنَزِّلُ مِنَ ٱلۡقُرۡءَانِ مَا هُوَ شِفَآءٞ وَرَحۡمَةٞ لِّلۡمُؤۡمِنِينَ وَلَا يَزِيدُ ٱلظَّـٰلِمِينَ إِلَّا خَسَارٗا",
+      "bangla": "আমি কোরআনে এমন বিষয় নাযিল করি যা রোগের সুচিকিৎসা এবং মুমিনের জন্য রহমত। গোনাহগারদের তো এতে শুধু ক্ষতিই বৃদ্ধি পায়।",
+      "topic": "রোগ",
+      "relevance": "RELATED",
+      "decision": "related",
+      "reason_bn": "এই আয়াতে \"شفاء\" (shifa -- আরোগ্য/উপশম) শব্দটি রয়েছে, যা \"রোগ\"-এর সাথে প্রাসঙ্গিকভাবে সম্পর্কিত হলেও মূল বিষয় নয় — তাই RELATED হিসেবে চিহ্নিত।",
+      "matched_concepts": [
+        "شفاء"
+      ],
+      "found_by": [
+        "concept"
+      ],
+      "confidence": 0.6,
+      "review_required": true,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 41,
+      "surah_name_ar": "فصلت",
+      "surah_name_transliteration": "Fussilat",
+      "surah_name_bn": "সুস্পষ্ট বিবরণ",
+      "ayah_number": 44,
+      "arabic": "وَلَوۡ جَعَلۡنَٰهُ قُرۡءَانًا أَعۡجَمِيّٗا لَّقَالُواْ لَوۡلَا فُصِّلَتۡ ءَايَٰتُهُۥٓۖ ءَا۬عۡجَمِيّٞ وَعَرَبِيّٞۗ قُلۡ هُوَ لِلَّذِينَ ءَامَنُواْ هُدٗى وَشِفَآءٞۚ وَٱلَّذِينَ لَا يُؤۡمِنُونَ فِيٓ ءَاذَانِهِمۡ وَقۡرٞ وَهُوَ عَلَيۡهِمۡ عَمًىۚ أُوْلَـٰٓئِكَ يُنَادَوۡنَ مِن مَّكَانِۭ بَعِيدٖ",
+      "bangla": "আমি যদি একে অনারব ভাষায় কোরআন করতাম, তবে অবশ্যই তারা বলত, এর আয়াতসমূহ পরিস্কার ভাষায় বিবৃত হয়নি কেন? কি আশ্চর্য যে, কিতাব অনারব ভাষায় আর রসূল আরবী ভাষী! বলুন, এটা বিশ্বাসীদের জন্য হেদায়েত ও রোগের প্রতিকার। যারা মুমিন নয়, তাদের কানে আছে ছিপি, আর কোরআন তাদের জন্যে অন্ধত্ব। তাদেরকে যেন দূরবর্তী স্থান থেকে আহবান করা হয়।",
+      "topic": "রোগ",
+      "relevance": "RELATED",
+      "decision": "related",
+      "reason_bn": "এই আয়াতে \"وشفاء\" (shifa -- আরোগ্য/উপশম) শব্দটি রয়েছে, যা \"রোগ\"-এর সাথে প্রাসঙ্গিকভাবে সম্পর্কিত হলেও মূল বিষয় নয় — তাই RELATED হিসেবে চিহ্নিত।",
+      "matched_concepts": [
+        "وشفاء"
+      ],
+      "found_by": [
+        "concept"
+      ],
+      "confidence": 0.6,
+      "review_required": true,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    }
+  ],
+  "completeness_report": {
+    "topic": "রোগ",
+    "generated_at": "2026-09-15T00:09:29.886Z",
+    "total_ayahs_scanned": 6236,
+    "keyword_candidates": 25,
+    "narrative_candidates": 0,
+    "total_candidates_before_dedup": 25,
+    "total_candidates_after_dedup": 25,
+    "final_direct": 21,
+    "final_strong_context": 0,
+    "final_related": 4,
+    "rejected": 0,
+    "needs_human_review": 4,
+    "audit_checklist": [
+      {
+        "question": "Direct Arabic keywords কি সব search করেছি?",
+        "answer": "হ্যাঁ — টপিক ম্যাপের verified arabic_terms লিস্ট অনুযায়ী সম্পূর্ণ ৬২৩৬ আয়াতের কর্পাসে exact/whole-word search করা হয়েছে।"
+      },
+      {
+        "question": "Morphological variations (root surface forms) কি search করেছি?",
+        "answer": "হ্যাঁ — arabic_terms লিস্টে root-এর একাধিক surface form (উপসর্গ/প্রত্যয়সহ) অন্তর্ভুক্ত, প্রতিটি scripts/discover-forms.ts দিয়ে কর্পাসে verify করে নেওয়া হয়েছে।"
+      },
+      {
+        "question": "Synonyms/concepts কি search করেছি?",
+        "answer": "হ্যাঁ — concept_terms-এ সংজ্ঞায়িত সমার্থক শব্দগুলোও (distinct root) সম্পূর্ণ কর্পাসে search করা হয়েছে।"
+      },
+      {
+        "question": "Narrative/event context কি search করেছি?",
+        "answer": "এই টপিকের জন্য কোনো curated narrative passage যোগ করা হয়নি (over-inclusion এড়াতে সচেতনভাবে বাদ দেওয়া হয়েছে, বা প্রযোজ্য কোনো নির্দিষ্ট ঘটনা নেই)।"
+      },
+      {
+        "question": "কোনো আয়াত শুধু keyword না থাকার কারণে বাদ পড়েছে কি?",
+        "answer": "না — keyword ছাড়াও concept ও narrative layer সমান্তরালে সম্পূর্ণ কর্পাসে চালানো হয়েছে, তাই কোনো layer অন্য layer-কে \"শর্টসার্কিট\" করে বাদ দেয়নি।"
+      },
+      {
+        "question": "কোনো weak association ভুল করে include হয়েছে কি?",
+        "answer": "4 টি candidate confidence threshold-এর নিচে থাকায় REVIEW_REQUIRED হিসেবে চিহ্নিত হয়েছে এবং চূড়ান্ত DIRECT/STRONG_CONTEXT তালিকায় স্বয়ংক্রিয়ভাবে রাখা হয়নি।"
+      }
+    ]
+  }
+}

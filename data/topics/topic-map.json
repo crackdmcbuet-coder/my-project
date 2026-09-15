@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "note": "Every arabic_term below was verified to actually occur (as a whole normalized word token) in data/quran/ayahs.json before being added here -- see scripts/discover-forms.ts and scripts/verify-terms.ts. Fields marked generated:true were curated/expanded by AI (Claude) from general Qur'anic knowledge, not mechanically derived from the dataset, and are flagged per project rule 24 (GENERATED_CONCEPT) -- they still only ever point at real ayahs; they never introduce invented Arabic/Bangla text.",
+  "topics": [
+    {
+      "topic": "জাদু",
+      "generated": false,
+      "aliases_bn": ["জাদু", "যাদু", "সিহর", "জাদুকর", "জাদুকররা", "জাদুবিদ্যা"],
+      "english_terms": ["magic", "sorcery", "magician", "witchcraft"],
+      "arabic_terms": {
+        "generated": false,
+        "note": "root s-h-r (sihr/sorcery) and saahir (sorcerer) surface forms, each individually verified against the corpus.",
+        "terms": [
+          "سحر", "السحر", "السحره", "بسحر", "المسحرين", "سحروا", "لتسحرنا",
+          "لسحر", "اسحر", "بسحرك", "بسحرهما", "سحرهم", "تسحرون", "بسحره",
+          "سحران", "افسحر", "ساحر", "لساحر", "الساحر", "الساحرون", "لساحران"
+        ],
+        "excluded_ayahs": [
+          {
+            "surah": 54,
+            "ayah": 34,
+            "term": "بسحر",
+            "reason": "এই আয়াতে ব্যবহৃত শব্দটির অর্থ 'ভোররাতে' (dawn) -- diacritics ছাড়া লেখা হলে জাদু-বাচক শব্দের অক্ষরবিন্যাসের সাথে অভিন্ন দেখায়, কিন্তু এটি সম্পূর্ণ ভিন্ন ও অসম্পর্কিত একটি শব্দ (homonym)। তাই জাদু-বিষয়ক নয় বলে বাদ দেওয়া হয়েছে।"
+          }
+        ]
+      },
+      "related_entities": {
+        "generated": true,
+        "entities": ["Musa", "Firawn (Pharaoh)", "Harut", "Marut", "Sulaiman"]
+      },
+      "narrative_refs": {
+        "generated": true,
+        "refs": [
+          { "surah": 7, "ayah_start": 106, "ayah_end": 126, "note": "মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আল-আরাফ)" },
+          { "surah": 20, "ayah_start": 56, "ayah_end": 76, "note": "মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা ত্বা-হা)" },
+          { "surah": 26, "ayah_start": 34, "ayah_end": 51, "note": "মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আশ-শুআরা)" },
+          { "surah": 10, "ayah_start": 75, "ayah_end": 82, "note": "মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা ইউনুস)" }
+        ]
+      }
+    },
+    {
+      "topic": "কুকুর",
+      "generated": false,
+      "aliases_bn": ["কুকুর", "কুত্তা", "সারমেয়"],
+      "english_terms": ["dog", "hound"],
+      "arabic_terms": {
+        "generated": false,
+        "note": "root k-l-b (kalb/dog). Deliberately narrow: per project rule, mere co-occurrence of cave or animal words must NOT be treated as dog-related -- only literal mentions of the dog itself qualify.",
+        "terms": ["الكلب", "كلبهم", "وكلبهم", "مكلبين"]
+      },
+      "related_entities": {
+        "generated": true,
+        "entities": ["Ashab al-Kahf (People of the Cave)"]
+      },
+      "narrative_refs": {
+        "generated": true,
+        "refs": [],
+        "note": "আসহাবে কাহফের সম্পূর্ণ ঘটনা (সূরা আল-কাহফ, আয়াত ৯-২৬) ইচ্ছাকৃতভাবে narrative_ref হিসেবে যোগ করা হয়নি, কারণ শুধু গুহা/সাথী সংক্রান্ত হওয়াই কুকুর-টপিকের জন্য যথেষ্ট প্রাসঙ্গিক নয় (false positive এড়াতে)। কুকুরের সরাসরি উল্লেখ থাকা আয়াতগুলোই (18:18, 18:22) কেবল অন্তর্ভুক্ত করা হয়েছে।"
+      }
+    },
+    {
+      "topic": "শয়তান",
+      "generated": false,
+      "aliases_bn": ["শয়তান", "শয়তানরা", "ইবলিস"],
+      "english_terms": ["satan", "devil", "iblis"],
+      "arabic_terms": {
+        "generated": false,
+        "note": "root sh-y-t-n (shaytan) plus the proper name Iblis, the named individual Satan in the Qur'an -- both verified against the corpus.",
+        "terms": ["الشيطان", "شيطان", "شيطانا", "للشيطان", "ابليس", "ياابليس"]
+      },
+      "related_entities": {
+        "generated": true,
+        "entities": ["Adam", "Hawwa (Eve)", "Jinn"]
+      },
+      "narrative_refs": {
+        "generated": true,
+        "refs": []
+      }
+    },
+    {
+      "topic": "পানি",
+      "generated": false,
+      "aliases_bn": ["পানি", "জল", "বৃষ্টির পানি"],
+      "english_terms": ["water"],
+      "arabic_terms": {
+        "generated": false,
+        "note": "root m-a-' (maa'/water). NOTE: many unrelated words (as-samaa'/sky, al-asmaa'/names, ad-dimaa'/blood, maa'idah/table, ruhamaa'/merciful) happen to CONTAIN the letters m-a-' as a coincidental substring -- these were checked individually and excluded; only genuine water tokens are listed.",
+        "terms": ["ماء", "الماء", "ماءه", "بماء", "كماء", "ماءها", "ماءك", "ماءكم", "وماء"]
+      },
+      "related_entities": { "generated": true, "entities": [] },
+      "narrative_refs": { "generated": true, "refs": [] }
+    },
+    {
+      "topic": "আগুন",
+      "generated": false,
+      "aliases_bn": ["আগুন", "অগ্নি", "অনল"],
+      "english_terms": ["fire"],
+      "arabic_terms": {
+        "generated": false,
+        "note": "root n-a-r (naar/fire). A word meaning 'a coin/dinar' was excluded -- it coincidentally contains n-a-r but is unrelated.",
+        "terms": ["النار", "نار", "نارا", "فالنار", "يانار", "والنار"]
+      },
+      "related_entities": {
+        "generated": true,
+        "entities": ["Ibrahim -- আগুনে নিক্ষিপ্ত হওয়ার ঘটনা"]
+      },
+      "narrative_refs": {
+        "generated": true,
+        "refs": [
+          { "surah": 21, "ayah_start": 68, "ayah_end": 70, "note": "ইবরাহীম (আ.)-কে আগুনে নিক্ষেপ করার ঘটনা ও আগুনকে শীতল হওয়ার নির্দেশ (সূরা আল-আম্বিয়া)। ২১:৬৯ ইতিমধ্যে সরাসরি কীওয়ার্ড দ্বারা DIRECT হিসেবে ধরা পড়ে; ৬৮ ও ৭০ প্রাসঙ্গিক STRONG_CONTEXT।" }
+        ]
+      }
+    },
+    {
+      "topic": "ভয়",
+      "generated": false,
+      "aliases_bn": ["ভয়", "আতঙ্ক", "ভীতি", "শঙ্কা"],
+      "english_terms": ["fear", "terror", "dread"],
+      "arabic_terms": {
+        "generated": false,
+        "note": "primary root kh-w-f / kh-a-f (khawf, a hollow root with waw/alif alternation -- both surface families verified). Excluded coincidental substrings from unrelated roots meaning 'lowering', 'hidden', and 'to speak in a hushed voice'.",
+        "terms": [
+          "خوف", "الخوف", "خوفا", "يخوف", "تخوف", "والخوف", "ونخوفهم", "خوفهم", "ويخوفونك",
+          "اخاف", "يخافون", "خاف", "يخاف", "تخافون", "ويخافون", "نخاف", "فاخاف", "يخافا",
+          "تخافوهم", "وخافون", "خافوا", "خافت", "يخافه", "يخافوا", "تخافن", "واخاف",
+          "وخاف", "تخافا", "تخاف", "تخافي", "تخافونهم", "تخافوا"
+        ]
+      },
+      "concept_terms": {
+        "generated": true,
+        "note": "Genuine Arabic synonyms for fear/apprehension/terror, distinct roots, each verified against the corpus. Matches are classified DIRECT (true synonyms, not loose association) but tagged found_by=concept for traceability, per project rule 25.",
+        "groups": [
+          { "name": "ru'b -- আতঙ্ক/ত্রাস", "classification": "DIRECT", "terms": ["الرعب", "رعبا"] },
+          { "name": "wajal -- হৃদয়ে ভীতি/কম্পন", "classification": "DIRECT", "terms": ["وجلت", "وجلون", "توجل", "وجله"] }
+        ]
+      },
+      "related_entities": { "generated": true, "entities": [] },
+      "narrative_refs": { "generated": true, "refs": [] }
+    },
+    {
+      "topic": "রোগ",
+      "generated": false,
+      "aliases_bn": ["রোগ", "অসুস্থতা", "ব্যাধি", "পীড়া"],
+      "english_terms": ["disease", "illness", "sickness"],
+      "arabic_terms": {
+        "generated": false,
+        "note": "root m-r-d (marad/disease), mareed (sick person), and saqeem (a synonym for ill). NOTE: several words meaning 'pleasing'/'pleasure of Allah' and 'nursing mother' coincidentally contain m-r-d from UNRELATED roots (ridha/pleasure, and breastfeeding) -- checked individually and excluded, except where the ayah was verified to genuinely mean 'the sick' (9:91) or 'I became ill' (26:80).",
+        "terms": ["مرض", "مرضا", "مريضا", "المريض", "سقيم", "المرضيا", "مرضت"],
+        "context_verified_terms": [
+          { "token": "المرضيا", "surah": 9, "ayah": 91, "meaning": "al-mardaa -- অসুস্থ ব্যক্তিগণ" },
+          { "token": "مرضت", "surah": 26, "ayah": 80, "meaning": "maridtu -- 'যখন আমি অসুস্থ হই' (ইবরাহীম আ.-এর উক্তি)" }
+        ]
+      },
+      "concept_terms": {
+        "generated": true,
+        "note": "Healing/shifa is disease-adjacent but NOT the same topic (per project rule 15, Ruqyah-usefulness and topic relevance are kept separate). Included as RELATED, not DIRECT.",
+        "groups": [
+          { "name": "shifa -- আরোগ্য/উপশম", "classification": "RELATED", "terms": ["شفاء", "وشفاء"] }
+        ]
+      },
+      "related_entities": {
+        "generated": true,
+        "entities": ["Ayyub -- রোগ ও ধৈর্যের ঘটনা", "Ibrahim"]
+      },
+      "narrative_refs": { "generated": true, "refs": [] }
+    }
+  ]
+}

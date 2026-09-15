@@ -1,0 +1,914 @@
+[
+  {
+    "surah_number": 1,
+    "name_ar": "الفاتحة",
+    "name_transliteration": "Al-Fatihah",
+    "name_bn": "সূচনা",
+    "revelation_type": "meccan",
+    "total_verses": 7
+  },
+  {
+    "surah_number": 2,
+    "name_ar": "البقرة",
+    "name_transliteration": "Al-Baqarah",
+    "name_bn": "বকনা-বাছুর",
+    "revelation_type": "medinan",
+    "total_verses": 286
+  },
+  {
+    "surah_number": 3,
+    "name_ar": "آل عمران",
+    "name_transliteration": "Ali 'Imran",
+    "name_bn": "ইমরানের পরিবার",
+    "revelation_type": "medinan",
+    "total_verses": 200
+  },
+  {
+    "surah_number": 4,
+    "name_ar": "النساء",
+    "name_transliteration": "An-Nisa",
+    "name_bn": "নারী",
+    "revelation_type": "medinan",
+    "total_verses": 176
+  },
+  {
+    "surah_number": 5,
+    "name_ar": "المائدة",
+    "name_transliteration": "Al-Ma'idah",
+    "name_bn": "খাদ্য পরিবেশিত টেবিল",
+    "revelation_type": "medinan",
+    "total_verses": 120
+  },
+  {
+    "surah_number": 6,
+    "name_ar": "الأنعام",
+    "name_transliteration": "Al-An'am",
+    "name_bn": "গৃহপালিত পশু",
+    "revelation_type": "meccan",
+    "total_verses": 165
+  },
+  {
+    "surah_number": 7,
+    "name_ar": "الأعراف",
+    "name_transliteration": "Al-A'raf",
+    "name_bn": "উচু স্থান",
+    "revelation_type": "meccan",
+    "total_verses": 206
+  },
+  {
+    "surah_number": 8,
+    "name_ar": "الأنفال",
+    "name_transliteration": "Al-Anfal",
+    "name_bn": "যুদ্ধ-লব্ধ ধনসম্পদ",
+    "revelation_type": "medinan",
+    "total_verses": 75
+  },
+  {
+    "surah_number": 9,
+    "name_ar": "التوبة",
+    "name_transliteration": "At-Tawbah",
+    "name_bn": "অনুশোচনা",
+    "revelation_type": "medinan",
+    "total_verses": 129
+  },
+  {
+    "surah_number": 10,
+    "name_ar": "يونس",
+    "name_transliteration": "Yunus",
+    "name_bn": "নবী ইউনুস",
+    "revelation_type": "meccan",
+    "total_verses": 109
+  },
+  {
+    "surah_number": 11,
+    "name_ar": "هود",
+    "name_transliteration": "Hud",
+    "name_bn": "নবী হুদ",
+    "revelation_type": "meccan",
+    "total_verses": 123
+  },
+  {
+    "surah_number": 12,
+    "name_ar": "يوسف",
+    "name_transliteration": "Yusuf",
+    "name_bn": "নবী ইউসুফ",
+    "revelation_type": "meccan",
+    "total_verses": 111
+  },
+  {
+    "surah_number": 13,
+    "name_ar": "الرعد",
+    "name_transliteration": "Ar-Ra'd",
+    "name_bn": "বজ্রপাত",
+    "revelation_type": "medinan",
+    "total_verses": 43
+  },
+  {
+    "surah_number": 14,
+    "name_ar": "ابراهيم",
+    "name_transliteration": "Ibrahim",
+    "name_bn": "নবী ইবরাহীম",
+    "revelation_type": "meccan",
+    "total_verses": 52
+  },
+  {
+    "surah_number": 15,
+    "name_ar": "الحجر",
+    "name_transliteration": "Al-Hijr",
+    "name_bn": "পাথুরে পাহাড়",
+    "revelation_type": "meccan",
+    "total_verses": 99
+  },
+  {
+    "surah_number": 16,
+    "name_ar": "النحل",
+    "name_transliteration": "An-Nahl",
+    "name_bn": "মৌমাছি",
+    "revelation_type": "meccan",
+    "total_verses": 128
+  },
+  {
+    "surah_number": 17,
+    "name_ar": "الإسراء",
+    "name_transliteration": "Al-Isra",
+    "name_bn": "ইহুদি জাতি",
+    "revelation_type": "meccan",
+    "total_verses": 111
+  },
+  {
+    "surah_number": 18,
+    "name_ar": "الكهف",
+    "name_transliteration": "Al-Kahf",
+    "name_bn": "গুহা",
+    "revelation_type": "meccan",
+    "total_verses": 110
+  },
+  {
+    "surah_number": 19,
+    "name_ar": "مريم",
+    "name_transliteration": "Maryam",
+    "name_bn": "মারইয়াম (ঈসা নবীর মা)",
+    "revelation_type": "meccan",
+    "total_verses": 98
+  },
+  {
+    "surah_number": 20,
+    "name_ar": "طه",
+    "name_transliteration": "Taha",
+    "name_bn": "ত়া হা",
+    "revelation_type": "meccan",
+    "total_verses": 135
+  },
+  {
+    "surah_number": 21,
+    "name_ar": "الأنبياء",
+    "name_transliteration": "Al-Anbya",
+    "name_bn": "নবীগণ",
+    "revelation_type": "meccan",
+    "total_verses": 112
+  },
+  {
+    "surah_number": 22,
+    "name_ar": "الحج",
+    "name_transliteration": "Al-Hajj",
+    "name_bn": "হ়াজ্জ",
+    "revelation_type": "medinan",
+    "total_verses": 78
+  },
+  {
+    "surah_number": 23,
+    "name_ar": "المؤمنون",
+    "name_transliteration": "Al-Mu'minun",
+    "name_bn": "বিশ্বাসী",
+    "revelation_type": "meccan",
+    "total_verses": 118
+  },
+  {
+    "surah_number": 24,
+    "name_ar": "النور",
+    "name_transliteration": "An-Nur",
+    "name_bn": "আলো",
+    "revelation_type": "medinan",
+    "total_verses": 64
+  },
+  {
+    "surah_number": 25,
+    "name_ar": "الفرقان",
+    "name_transliteration": "Al-Furqan",
+    "name_bn": "মানদণ্ড",
+    "revelation_type": "meccan",
+    "total_verses": 77
+  },
+  {
+    "surah_number": 26,
+    "name_ar": "الشعراء",
+    "name_transliteration": "Ash-Shu'ara",
+    "name_bn": "কবি",
+    "revelation_type": "meccan",
+    "total_verses": 227
+  },
+  {
+    "surah_number": 27,
+    "name_ar": "النمل",
+    "name_transliteration": "An-Naml",
+    "name_bn": "পিঁপড়া",
+    "revelation_type": "meccan",
+    "total_verses": 93
+  },
+  {
+    "surah_number": 28,
+    "name_ar": "القصص",
+    "name_transliteration": "Al-Qasas",
+    "name_bn": "কাহিনি",
+    "revelation_type": "meccan",
+    "total_verses": 88
+  },
+  {
+    "surah_number": 29,
+    "name_ar": "العنكبوت",
+    "name_transliteration": "Al-'Ankabut",
+    "name_bn": "মাকড়শা",
+    "revelation_type": "meccan",
+    "total_verses": 69
+  },
+  {
+    "surah_number": 30,
+    "name_ar": "الروم",
+    "name_transliteration": "Ar-Rum",
+    "name_bn": "রোমান জাতি",
+    "revelation_type": "meccan",
+    "total_verses": 60
+  },
+  {
+    "surah_number": 31,
+    "name_ar": "لقمان",
+    "name_transliteration": "Luqman",
+    "name_bn": "এক জ্ঞানী ব্যাক্তি",
+    "revelation_type": "meccan",
+    "total_verses": 34
+  },
+  {
+    "surah_number": 32,
+    "name_ar": "السجدة",
+    "name_transliteration": "As-Sajdah",
+    "name_bn": "সিজদা",
+    "revelation_type": "meccan",
+    "total_verses": 30
+  },
+  {
+    "surah_number": 33,
+    "name_ar": "الأحزاب",
+    "name_transliteration": "Al-Ahzab",
+    "name_bn": "জোট",
+    "revelation_type": "medinan",
+    "total_verses": 73
+  },
+  {
+    "surah_number": 34,
+    "name_ar": "سبإ",
+    "name_transliteration": "Saba",
+    "name_bn": "রানী সাবা/শেবা",
+    "revelation_type": "meccan",
+    "total_verses": 54
+  },
+  {
+    "surah_number": 35,
+    "name_ar": "فاطر",
+    "name_transliteration": "Fatir",
+    "name_bn": "আদি স্রষ্টা",
+    "revelation_type": "meccan",
+    "total_verses": 45
+  },
+  {
+    "surah_number": 36,
+    "name_ar": "يس",
+    "name_transliteration": "Ya-Sin",
+    "name_bn": "ইয়াসীন",
+    "revelation_type": "meccan",
+    "total_verses": 83
+  },
+  {
+    "surah_number": 37,
+    "name_ar": "الصافات",
+    "name_transliteration": "As-Saffat",
+    "name_bn": "সারিবদ্ধভাবে দাঁড়ানো",
+    "revelation_type": "meccan",
+    "total_verses": 182
+  },
+  {
+    "surah_number": 38,
+    "name_ar": "ص",
+    "name_transliteration": "Sad",
+    "name_bn": "আরবি বর্ণ সাদ",
+    "revelation_type": "meccan",
+    "total_verses": 88
+  },
+  {
+    "surah_number": 39,
+    "name_ar": "الزمر",
+    "name_transliteration": "Az-Zumar",
+    "name_bn": "দলবদ্ধ জনতা",
+    "revelation_type": "meccan",
+    "total_verses": 75
+  },
+  {
+    "surah_number": 40,
+    "name_ar": "غافر",
+    "name_transliteration": "Ghafir",
+    "name_bn": "ক্ষমাকারী",
+    "revelation_type": "meccan",
+    "total_verses": 85
+  },
+  {
+    "surah_number": 41,
+    "name_ar": "فصلت",
+    "name_transliteration": "Fussilat",
+    "name_bn": "সুস্পষ্ট বিবরণ",
+    "revelation_type": "meccan",
+    "total_verses": 54
+  },
+  {
+    "surah_number": 42,
+    "name_ar": "الشورى",
+    "name_transliteration": "Ash-Shuraa",
+    "name_bn": "পরামর্শ",
+    "revelation_type": "meccan",
+    "total_verses": 53
+  },
+  {
+    "surah_number": 43,
+    "name_ar": "الزخرف",
+    "name_transliteration": "Az-Zukhruf",
+    "name_bn": "সোনাদানা",
+    "revelation_type": "meccan",
+    "total_verses": 89
+  },
+  {
+    "surah_number": 44,
+    "name_ar": "الدخان",
+    "name_transliteration": "Ad-Dukhan",
+    "name_bn": "ধোঁয়া",
+    "revelation_type": "meccan",
+    "total_verses": 59
+  },
+  {
+    "surah_number": 45,
+    "name_ar": "الجاثية",
+    "name_transliteration": "Al-Jathiyah",
+    "name_bn": "নতজানু",
+    "revelation_type": "meccan",
+    "total_verses": 37
+  },
+  {
+    "surah_number": 46,
+    "name_ar": "الأحقاف",
+    "name_transliteration": "Al-Ahqaf",
+    "name_bn": "বালুর পাহাড়",
+    "revelation_type": "meccan",
+    "total_verses": 35
+  },
+  {
+    "surah_number": 47,
+    "name_ar": "محمد",
+    "name_transliteration": "Muhammad",
+    "name_bn": "নবী মুহাম্মদ",
+    "revelation_type": "medinan",
+    "total_verses": 38
+  },
+  {
+    "surah_number": 48,
+    "name_ar": "الفتح",
+    "name_transliteration": "Al-Fath",
+    "name_bn": "বিজয়",
+    "revelation_type": "medinan",
+    "total_verses": 29
+  },
+  {
+    "surah_number": 49,
+    "name_ar": "الحجرات",
+    "name_transliteration": "Al-Hujurat",
+    "name_bn": "আবাস",
+    "revelation_type": "medinan",
+    "total_verses": 18
+  },
+  {
+    "surah_number": 50,
+    "name_ar": "ق",
+    "name_transliteration": "Qaf",
+    "name_bn": "কাফ",
+    "revelation_type": "meccan",
+    "total_verses": 45
+  },
+  {
+    "surah_number": 51,
+    "name_ar": "الذاريات",
+    "name_transliteration": "Adh-Dhariyat",
+    "name_bn": "বিক্ষেপকারী বাতাস",
+    "revelation_type": "meccan",
+    "total_verses": 60
+  },
+  {
+    "surah_number": 52,
+    "name_ar": "الطور",
+    "name_transliteration": "At-Tur",
+    "name_bn": "পাহাড়",
+    "revelation_type": "meccan",
+    "total_verses": 49
+  },
+  {
+    "surah_number": 53,
+    "name_ar": "النجم",
+    "name_transliteration": "An-Najm",
+    "name_bn": "তারা",
+    "revelation_type": "meccan",
+    "total_verses": 62
+  },
+  {
+    "surah_number": 54,
+    "name_ar": "القمر",
+    "name_transliteration": "Al-Qamar",
+    "name_bn": "চাঁদ",
+    "revelation_type": "meccan",
+    "total_verses": 55
+  },
+  {
+    "surah_number": 55,
+    "name_ar": "الرحمن",
+    "name_transliteration": "Ar-Rahman",
+    "name_bn": "পরম করুণাময়",
+    "revelation_type": "medinan",
+    "total_verses": 78
+  },
+  {
+    "surah_number": 56,
+    "name_ar": "الواقعة",
+    "name_transliteration": "Al-Waqi'ah",
+    "name_bn": "নিশ্চিত ঘটনা",
+    "revelation_type": "meccan",
+    "total_verses": 96
+  },
+  {
+    "surah_number": 57,
+    "name_ar": "الحديد",
+    "name_transliteration": "Al-Hadid",
+    "name_bn": "লোহা",
+    "revelation_type": "medinan",
+    "total_verses": 29
+  },
+  {
+    "surah_number": 58,
+    "name_ar": "المجادلة",
+    "name_transliteration": "Al-Mujadila",
+    "name_bn": "অনুযোগকারিণী",
+    "revelation_type": "medinan",
+    "total_verses": 22
+  },
+  {
+    "surah_number": 59,
+    "name_ar": "الحشر",
+    "name_transliteration": "Al-Hashr",
+    "name_bn": "সমাবেশ",
+    "revelation_type": "medinan",
+    "total_verses": 24
+  },
+  {
+    "surah_number": 60,
+    "name_ar": "الممتحنة",
+    "name_transliteration": "Al-Mumtahanah",
+    "name_bn": "নারী, যাকে পরীক্ষা করা হবে",
+    "revelation_type": "medinan",
+    "total_verses": 13
+  },
+  {
+    "surah_number": 61,
+    "name_ar": "الصف",
+    "name_transliteration": "As-Saf",
+    "name_bn": "সারিবদ্ধ সৈন্যদল",
+    "revelation_type": "medinan",
+    "total_verses": 14
+  },
+  {
+    "surah_number": 62,
+    "name_ar": "الجمعة",
+    "name_transliteration": "Al-Jumu'ah",
+    "name_bn": "সম্মেলন/শুক্রবার",
+    "revelation_type": "medinan",
+    "total_verses": 11
+  },
+  {
+    "surah_number": 63,
+    "name_ar": "المنافقون",
+    "name_transliteration": "Al-Munafiqun",
+    "name_bn": "ভণ্ড বিশ্বাসী",
+    "revelation_type": "medinan",
+    "total_verses": 11
+  },
+  {
+    "surah_number": 64,
+    "name_ar": "التغابن",
+    "name_transliteration": "At-Taghabun",
+    "name_bn": "মোহ অপসারণ",
+    "revelation_type": "medinan",
+    "total_verses": 18
+  },
+  {
+    "surah_number": 65,
+    "name_ar": "الطلاق",
+    "name_transliteration": "At-Talaq",
+    "name_bn": "তালাক",
+    "revelation_type": "medinan",
+    "total_verses": 12
+  },
+  {
+    "surah_number": 66,
+    "name_ar": "التحريم",
+    "name_transliteration": "At-Tahrim",
+    "name_bn": "নিষিদ্ধকরণ",
+    "revelation_type": "medinan",
+    "total_verses": 12
+  },
+  {
+    "surah_number": 67,
+    "name_ar": "الملك",
+    "name_transliteration": "Al-Mulk",
+    "name_bn": "সার্বভৌম কর্তৃত্ব",
+    "revelation_type": "meccan",
+    "total_verses": 30
+  },
+  {
+    "surah_number": 68,
+    "name_ar": "القلم",
+    "name_transliteration": "Al-Qalam",
+    "name_bn": "কলম",
+    "revelation_type": "meccan",
+    "total_verses": 52
+  },
+  {
+    "surah_number": 69,
+    "name_ar": "الحاقة",
+    "name_transliteration": "Al-Haqqah",
+    "name_bn": "নিশ্চিত সত্য",
+    "revelation_type": "meccan",
+    "total_verses": 52
+  },
+  {
+    "surah_number": 70,
+    "name_ar": "المعارج",
+    "name_transliteration": "Al-Ma'arij",
+    "name_bn": "উন্নয়নের সোপান",
+    "revelation_type": "meccan",
+    "total_verses": 44
+  },
+  {
+    "surah_number": 71,
+    "name_ar": "نوح",
+    "name_transliteration": "Nuh",
+    "name_bn": "নবী নূহ",
+    "revelation_type": "meccan",
+    "total_verses": 28
+  },
+  {
+    "surah_number": 72,
+    "name_ar": "الجن",
+    "name_transliteration": "Al-Jinn",
+    "name_bn": "জিন সম্প্রদায়",
+    "revelation_type": "meccan",
+    "total_verses": 28
+  },
+  {
+    "surah_number": 73,
+    "name_ar": "المزمل",
+    "name_transliteration": "Al-Muzzammil",
+    "name_bn": "বস্ত্রাচ্ছাদনকারী",
+    "revelation_type": "meccan",
+    "total_verses": 20
+  },
+  {
+    "surah_number": 74,
+    "name_ar": "المدثر",
+    "name_transliteration": "Al-Muddaththir",
+    "name_bn": "পোশাক পরিহিত",
+    "revelation_type": "meccan",
+    "total_verses": 56
+  },
+  {
+    "surah_number": 75,
+    "name_ar": "القيامة",
+    "name_transliteration": "Al-Qiyamah",
+    "name_bn": "পুনরুত্থান",
+    "revelation_type": "meccan",
+    "total_verses": 40
+  },
+  {
+    "surah_number": 76,
+    "name_ar": "الانسان",
+    "name_transliteration": "Al-Insan",
+    "name_bn": "মানবজাতি",
+    "revelation_type": "medinan",
+    "total_verses": 31
+  },
+  {
+    "surah_number": 77,
+    "name_ar": "المرسلات",
+    "name_transliteration": "Al-Mursalat",
+    "name_bn": "প্রেরিত পুরুষ",
+    "revelation_type": "meccan",
+    "total_verses": 50
+  },
+  {
+    "surah_number": 78,
+    "name_ar": "النبإ",
+    "name_transliteration": "An-Naba",
+    "name_bn": "মহাসংবাদ",
+    "revelation_type": "meccan",
+    "total_verses": 40
+  },
+  {
+    "surah_number": 79,
+    "name_ar": "النازعات",
+    "name_transliteration": "An-Nazi'at",
+    "name_bn": "প্রচেষ্টাকারী",
+    "revelation_type": "meccan",
+    "total_verses": 46
+  },
+  {
+    "surah_number": 80,
+    "name_ar": "عبس",
+    "name_transliteration": "'Abasa",
+    "name_bn": "সে ভ্রু কুঁচকালো",
+    "revelation_type": "meccan",
+    "total_verses": 42
+  },
+  {
+    "surah_number": 81,
+    "name_ar": "التكوير",
+    "name_transliteration": "At-Takwir",
+    "name_bn": "অন্ধকারাচ্ছন্ন",
+    "revelation_type": "meccan",
+    "total_verses": 29
+  },
+  {
+    "surah_number": 82,
+    "name_ar": "الإنفطار",
+    "name_transliteration": "Al-Infitar",
+    "name_bn": "বিদীর্ণ করা",
+    "revelation_type": "meccan",
+    "total_verses": 19
+  },
+  {
+    "surah_number": 83,
+    "name_ar": "المطففين",
+    "name_transliteration": "Al-Mutaffifin",
+    "name_bn": "প্রতারণা করা",
+    "revelation_type": "meccan",
+    "total_verses": 36
+  },
+  {
+    "surah_number": 84,
+    "name_ar": "الإنشقاق",
+    "name_transliteration": "Al-Inshiqaq",
+    "name_bn": "খণ্ড-বিখণ্ডকরণ",
+    "revelation_type": "meccan",
+    "total_verses": 25
+  },
+  {
+    "surah_number": 85,
+    "name_ar": "البروج",
+    "name_transliteration": "Al-Buruj",
+    "name_bn": "নক্ষত্রপুঞ্জ",
+    "revelation_type": "meccan",
+    "total_verses": 22
+  },
+  {
+    "surah_number": 86,
+    "name_ar": "الطارق",
+    "name_transliteration": "At-Tariq",
+    "name_bn": "রাতের আগন্তুক",
+    "revelation_type": "meccan",
+    "total_verses": 17
+  },
+  {
+    "surah_number": 87,
+    "name_ar": "الأعلى",
+    "name_transliteration": "Al-A'la",
+    "name_bn": "সর্বোন্নত",
+    "revelation_type": "meccan",
+    "total_verses": 19
+  },
+  {
+    "surah_number": 88,
+    "name_ar": "الغاشية",
+    "name_transliteration": "Al-Ghashiyah",
+    "name_bn": "বিহ্বলকর ঘটনা",
+    "revelation_type": "meccan",
+    "total_verses": 26
+  },
+  {
+    "surah_number": 89,
+    "name_ar": "الفجر",
+    "name_transliteration": "Al-Fajr",
+    "name_bn": "ভোরবেলা",
+    "revelation_type": "meccan",
+    "total_verses": 30
+  },
+  {
+    "surah_number": 90,
+    "name_ar": "البلد",
+    "name_transliteration": "Al-Balad",
+    "name_bn": "নগর",
+    "revelation_type": "meccan",
+    "total_verses": 20
+  },
+  {
+    "surah_number": 91,
+    "name_ar": "الشمس",
+    "name_transliteration": "Ash-Shams",
+    "name_bn": "সূর্য",
+    "revelation_type": "meccan",
+    "total_verses": 15
+  },
+  {
+    "surah_number": 92,
+    "name_ar": "الليل",
+    "name_transliteration": "Al-Layl",
+    "name_bn": "রাত",
+    "revelation_type": "meccan",
+    "total_verses": 21
+  },
+  {
+    "surah_number": 93,
+    "name_ar": "الضحى",
+    "name_transliteration": "Ad-Duhaa",
+    "name_bn": "পূর্বাহ্নের সুর্যকিরণ",
+    "revelation_type": "meccan",
+    "total_verses": 11
+  },
+  {
+    "surah_number": 94,
+    "name_ar": "الشرح",
+    "name_transliteration": "Ash-Sharh",
+    "name_bn": "বক্ষ প্রশস্তকরণ",
+    "revelation_type": "meccan",
+    "total_verses": 8
+  },
+  {
+    "surah_number": 95,
+    "name_ar": "التين",
+    "name_transliteration": "At-Tin",
+    "name_bn": "ডুমুর",
+    "revelation_type": "meccan",
+    "total_verses": 8
+  },
+  {
+    "surah_number": 96,
+    "name_ar": "العلق",
+    "name_transliteration": "Al-'Alaq",
+    "name_bn": "রক্তপিণ্ড",
+    "revelation_type": "meccan",
+    "total_verses": 19
+  },
+  {
+    "surah_number": 97,
+    "name_ar": "القدر",
+    "name_transliteration": "Al-Qadr",
+    "name_bn": "মহিমান্বিত",
+    "revelation_type": "meccan",
+    "total_verses": 5
+  },
+  {
+    "surah_number": 98,
+    "name_ar": "البينة",
+    "name_transliteration": "Al-Bayyinah",
+    "name_bn": "প্রমাণ",
+    "revelation_type": "medinan",
+    "total_verses": 8
+  },
+  {
+    "surah_number": 99,
+    "name_ar": "الزلزلة",
+    "name_transliteration": "Az-Zalzalah",
+    "name_bn": "ভূমিকম্প",
+    "revelation_type": "medinan",
+    "total_verses": 8
+  },
+  {
+    "surah_number": 100,
+    "name_ar": "العاديات",
+    "name_transliteration": "Al-'Adiyat",
+    "name_bn": "অভিযানকারী",
+    "revelation_type": "meccan",
+    "total_verses": 11
+  },
+  {
+    "surah_number": 101,
+    "name_ar": "القارعة",
+    "name_transliteration": "Al-Qari'ah",
+    "name_bn": "মহাসংকট",
+    "revelation_type": "meccan",
+    "total_verses": 11
+  },
+  {
+    "surah_number": 102,
+    "name_ar": "التكاثر",
+    "name_transliteration": "At-Takathur",
+    "name_bn": "প্রাচুর্যের প্রতিযোগিতা",
+    "revelation_type": "meccan",
+    "total_verses": 8
+  },
+  {
+    "surah_number": 103,
+    "name_ar": "العصر",
+    "name_transliteration": "Al-'Asr",
+    "name_bn": "সময়",
+    "revelation_type": "meccan",
+    "total_verses": 3
+  },
+  {
+    "surah_number": 104,
+    "name_ar": "الهمزة",
+    "name_transliteration": "Al-Humazah",
+    "name_bn": "পরনিন্দাকারী",
+    "revelation_type": "meccan",
+    "total_verses": 9
+  },
+  {
+    "surah_number": 105,
+    "name_ar": "الفيل",
+    "name_transliteration": "Al-Fil",
+    "name_bn": "হাতি",
+    "revelation_type": "meccan",
+    "total_verses": 5
+  },
+  {
+    "surah_number": 106,
+    "name_ar": "قريش",
+    "name_transliteration": "Quraysh",
+    "name_bn": "কুরাইশ গোত্র",
+    "revelation_type": "meccan",
+    "total_verses": 4
+  },
+  {
+    "surah_number": 107,
+    "name_ar": "الماعون",
+    "name_transliteration": "Al-Ma'un",
+    "name_bn": "সাহায্য সহায়তা",
+    "revelation_type": "meccan",
+    "total_verses": 7
+  },
+  {
+    "surah_number": 108,
+    "name_ar": "الكوثر",
+    "name_transliteration": "Al-Kawthar",
+    "name_bn": "কাউসার/প্রাচুর্য",
+    "revelation_type": "meccan",
+    "total_verses": 3
+  },
+  {
+    "surah_number": 109,
+    "name_ar": "الكافرون",
+    "name_transliteration": "Al-Kafirun",
+    "name_bn": "অবিশ্বাসী",
+    "revelation_type": "meccan",
+    "total_verses": 6
+  },
+  {
+    "surah_number": 110,
+    "name_ar": "النصر",
+    "name_transliteration": "An-Nasr",
+    "name_bn": "সাহায্য",
+    "revelation_type": "medinan",
+    "total_verses": 3
+  },
+  {
+    "surah_number": 111,
+    "name_ar": "المسد",
+    "name_transliteration": "Al-Masad",
+    "name_bn": "খেজুরের পাকানো (রশি)",
+    "revelation_type": "meccan",
+    "total_verses": 5
+  },
+  {
+    "surah_number": 112,
+    "name_ar": "الإخلاص",
+    "name_transliteration": "Al-Ikhlas",
+    "name_bn": "আন্তরিকতা",
+    "revelation_type": "meccan",
+    "total_verses": 4
+  },
+  {
+    "surah_number": 113,
+    "name_ar": "الفلق",
+    "name_transliteration": "Al-Falaq",
+    "name_bn": "নিশিভোর",
+    "revelation_type": "meccan",
+    "total_verses": 5
+  },
+  {
+    "surah_number": 114,
+    "name_ar": "الناس",
+    "name_transliteration": "An-Nas",
+    "name_bn": "মানুষ জাতি",
+    "revelation_type": "meccan",
+    "total_verses": 6
+  }
+]

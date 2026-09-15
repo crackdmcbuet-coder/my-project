@@ -1,0 +1,948 @@
+{
+  "topic": "পানি",
+  "generated_at": "2026-09-15T00:09:27.409Z",
+  "review_queue": [],
+  "excluded_candidates": [],
+  "audit_trail": [
+    {
+      "surah_number": 2,
+      "ayah_number": 22,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "ماء"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماء\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 2,
+      "ayah_number": 74,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الماء"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الماء\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 2,
+      "ayah_number": 164,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "ماء"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماء\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 2,
+      "ayah_number": 259,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "ماءه"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماءه\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 2,
+      "ayah_number": 261,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "ماءه"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماءه\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 4,
+      "ayah_number": 43,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "ماء"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماء\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 5,
+      "ayah_number": 6,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "ماء"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماء\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 6,
+      "ayah_number": 99,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "ماء"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماء\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 7,
+      "ayah_number": 50,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الماء"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الماء\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 7,
+      "ayah_number": 57,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الماء"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الماء\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 8,
+      "ayah_number": 11,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "ماء"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماء\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 8,
+      "ayah_number": 65,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "ماءه"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماءه\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 8,
+      "ayah_number": 66,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "ماءه"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماءه\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 10,
+      "ayah_number": 24,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "كماء"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"كماء\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 11,
+      "ayah_number": 7,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الماء"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الماء\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 11,
+      "ayah_number": 43,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الماء"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الماء\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 11,
+      "ayah_number": 44,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الماء",
+        "ماءك"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الماء\", \"ماءك\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 13,
+      "ayah_number": 4,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "بماء"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"بماء\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 13,
+      "ayah_number": 14,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الماء"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الماء\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 13,
+      "ayah_number": 17,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "ماء"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماء\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 14,
+      "ayah_number": 16,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "ماء"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماء\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 14,
+      "ayah_number": 32,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "ماء"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماء\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 15,
+      "ayah_number": 22,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "ماء"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماء\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 16,
+      "ayah_number": 10,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "ماء"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماء\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 16,
+      "ayah_number": 65,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "ماء"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماء\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 18,
+      "ayah_number": 25,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "ماءه"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماءه\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 18,
+      "ayah_number": 29,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "بماء"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"بماء\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 18,
+      "ayah_number": 41,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "ماءها"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماءها\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 18,
+      "ayah_number": 45,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "كماء"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"كماء\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 20,
+      "ayah_number": 53,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "ماء"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماء\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 21,
+      "ayah_number": 30,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الماء"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الماء\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 22,
+      "ayah_number": 5,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الماء"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الماء\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 22,
+      "ayah_number": 63,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "ماء"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماء\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 23,
+      "ayah_number": 18,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "ماء"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماء\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 24,
+      "ayah_number": 2,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "ماءه"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماءه\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 24,
+      "ayah_number": 39,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "ماء"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماء\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 24,
+      "ayah_number": 45,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "ماء"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماء\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 25,
+      "ayah_number": 48,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "ماء"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماء\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 25,
+      "ayah_number": 54,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الماء"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الماء\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 27,
+      "ayah_number": 60,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "ماء"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماء\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 28,
+      "ayah_number": 23,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "ماء"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماء\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 29,
+      "ayah_number": 63,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "ماء"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماء\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 30,
+      "ayah_number": 24,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "ماء"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماء\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 31,
+      "ayah_number": 10,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "ماء"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماء\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 32,
+      "ayah_number": 8,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "ماء"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماء\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 32,
+      "ayah_number": 27,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الماء"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الماء\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 35,
+      "ayah_number": 27,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "ماء"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماء\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 37,
+      "ayah_number": 147,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "ماءه"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماءه\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 39,
+      "ayah_number": 21,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "ماء"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماء\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 41,
+      "ayah_number": 39,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الماء"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الماء\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 43,
+      "ayah_number": 11,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "ماء"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماء\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 47,
+      "ayah_number": 15,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "ماء"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماء\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 50,
+      "ayah_number": 9,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "ماء"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماء\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 54,
+      "ayah_number": 11,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "بماء"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"بماء\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 54,
+      "ayah_number": 12,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الماء"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الماء\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 54,
+      "ayah_number": 28,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الماء"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الماء\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 56,
+      "ayah_number": 31,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "وماء"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"وماء\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 56,
+      "ayah_number": 68,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الماء"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الماء\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 67,
+      "ayah_number": 30,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "بماء",
+        "ماءكم"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"بماء\", \"ماءكم\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 69,
+      "ayah_number": 11,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الماء"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الماء\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 72,
+      "ayah_number": 16,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "ماء"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماء\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 77,
+      "ayah_number": 20,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "ماء"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماء\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 77,
+      "ayah_number": 27,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "ماء"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماء\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 78,
+      "ayah_number": 14,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "ماء"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماء\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 79,
+      "ayah_number": 31,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "ماءها"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماءها\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 80,
+      "ayah_number": 25,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "الماء"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الماء\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 86,
+      "ayah_number": 6,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "ماء"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"পানি\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ماء\")।",
+      "confidence": 0.95
+    }
+  ]
+}

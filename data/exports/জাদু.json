@@ -1,0 +1,2363 @@
+{
+  "topic": "জাদু",
+  "generated_at": "2026-09-15T00:09:25.131Z",
+  "total_ayahs": 6236,
+  "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+  "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+  "dataset_version": "quran-json@3.1.2 / merged 2026",
+  "direct": [
+    {
+      "surah_number": 2,
+      "surah_name_ar": "البقرة",
+      "surah_name_transliteration": "Al-Baqarah",
+      "surah_name_bn": "বকনা-বাছুর",
+      "ayah_number": 102,
+      "arabic": "وَٱتَّبَعُواْ مَا تَتۡلُواْ ٱلشَّيَٰطِينُ عَلَىٰ مُلۡكِ سُلَيۡمَٰنَۖ وَمَا كَفَرَ سُلَيۡمَٰنُ وَلَٰكِنَّ ٱلشَّيَٰطِينَ كَفَرُواْ يُعَلِّمُونَ ٱلنَّاسَ ٱلسِّحۡرَ وَمَآ أُنزِلَ عَلَى ٱلۡمَلَكَيۡنِ بِبَابِلَ هَٰرُوتَ وَمَٰرُوتَۚ وَمَا يُعَلِّمَانِ مِنۡ أَحَدٍ حَتَّىٰ يَقُولَآ إِنَّمَا نَحۡنُ فِتۡنَةٞ فَلَا تَكۡفُرۡۖ فَيَتَعَلَّمُونَ مِنۡهُمَا مَا يُفَرِّقُونَ بِهِۦ بَيۡنَ ٱلۡمَرۡءِ وَزَوۡجِهِۦۚ وَمَا هُم بِضَآرِّينَ بِهِۦ مِنۡ أَحَدٍ إِلَّا بِإِذۡنِ ٱللَّهِۚ وَيَتَعَلَّمُونَ مَا يَضُرُّهُمۡ وَلَا يَنفَعُهُمۡۚ وَلَقَدۡ عَلِمُواْ لَمَنِ ٱشۡتَرَىٰهُ مَا لَهُۥ فِي ٱلۡأٓخِرَةِ مِنۡ خَلَٰقٖۚ وَلَبِئۡسَ مَا شَرَوۡاْ بِهِۦٓ أَنفُسَهُمۡۚ لَوۡ كَانُواْ يَعۡلَمُونَ",
+      "bangla": "তারা ঐ শাস্ত্রের অনুসরণ করল, যা সুলায়মানের রাজত্ব কালে শয়তানরা আবৃত্তি করত। সুলায়মান কুফর করেনি; শয়তানরাই কুফর করেছিল। তারা মানুষকে জাদুবিদ্যা এবং বাবেল শহরে হারুত ও মারুত দুই ফেরেশতার প্রতি যা অবতীর্ণ হয়েছিল, তা শিক্ষা দিত। তারা উভয়ই একথা না বলে কাউকে শিক্ষা দিত না যে, আমরা পরীক্ষার জন্য; কাজেই তুমি কাফের হয়ো না। অতঃপর তারা তাদের কাছ থেকে এমন জাদু শিখত, যদ্দ্বারা স্বামী ও স্ত্রীর মধ্যে বিচ্ছেদ ঘটে। তারা আল্লাহর আদেশ ছাড়া তদ্দ্বারা কারও অনিষ্ট করতে পারত না। যা তাদের ক্ষতি করে এবং উপকার না করে, তারা তাই শিখে। তারা ভালরূপে জানে যে, যে কেউ জাদু অবলম্বন করে, তার জন্য পরকালে কোন অংশ নেই। যার বিনিময়ে তারা আত্নবিক্রয় করেছে, তা খুবই মন্দ যদি তারা জানত।",
+      "topic": "জাদু",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"السحر\")।",
+      "matched_concepts": [
+        "السحر"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 5,
+      "surah_name_ar": "المائدة",
+      "surah_name_transliteration": "Al-Ma'idah",
+      "surah_name_bn": "খাদ্য পরিবেশিত টেবিল",
+      "ayah_number": 110,
+      "arabic": "إِذۡ قَالَ ٱللَّهُ يَٰعِيسَى ٱبۡنَ مَرۡيَمَ ٱذۡكُرۡ نِعۡمَتِي عَلَيۡكَ وَعَلَىٰ وَٰلِدَتِكَ إِذۡ أَيَّدتُّكَ بِرُوحِ ٱلۡقُدُسِ تُكَلِّمُ ٱلنَّاسَ فِي ٱلۡمَهۡدِ وَكَهۡلٗاۖ وَإِذۡ عَلَّمۡتُكَ ٱلۡكِتَٰبَ وَٱلۡحِكۡمَةَ وَٱلتَّوۡرَىٰةَ وَٱلۡإِنجِيلَۖ وَإِذۡ تَخۡلُقُ مِنَ ٱلطِّينِ كَهَيۡـَٔةِ ٱلطَّيۡرِ بِإِذۡنِي فَتَنفُخُ فِيهَا فَتَكُونُ طَيۡرَۢا بِإِذۡنِيۖ وَتُبۡرِئُ ٱلۡأَكۡمَهَ وَٱلۡأَبۡرَصَ بِإِذۡنِيۖ وَإِذۡ تُخۡرِجُ ٱلۡمَوۡتَىٰ بِإِذۡنِيۖ وَإِذۡ كَفَفۡتُ بَنِيٓ إِسۡرَـٰٓءِيلَ عَنكَ إِذۡ جِئۡتَهُم بِٱلۡبَيِّنَٰتِ فَقَالَ ٱلَّذِينَ كَفَرُواْ مِنۡهُمۡ إِنۡ هَٰذَآ إِلَّا سِحۡرٞ مُّبِينٞ",
+      "bangla": "যখন আল্লাহ বলবেনঃ হে ঈসা ইবনে মরিয়ম, তোমার প্রতি ও তোমার মাতার প্রতি আমার অনুগ্রহ স্মরণ কর, যখন আমি তোমাকে পবিত্র আত্মার দ্বারা সাহায্য করেছি। তুমি মানুষের সাথে কথা বলতে কোলে থাকতেও এবং পরিণত বয়সেও এবং যখন আমি তোমাকে গ্রন্থ, প্রগাঢ় জ্ঞান, তওরাত ও ইঞ্জিল শিক্ষা দিয়েছি এবং যখন তুমি কাদামাটি দিয়ে পাখীর প্রতিকৃতির মত প্রতিকৃতি নির্মাণ করতে আমার আদেশে, অতঃপর তুমি তাতে ফুঁ দিতে; ফলে তা আমার আদেশে পাখী হয়ে যেত এবং তুমি আমার আদেশে জন্মান্ধ ও কুষ্টরোগীকে নিরাময় করে দিতে এবং যখন আমি বনী-ইসরাঈলকে তোমা থেকে নিবৃত্ত রেখেছিলাম, যখন তুমি তাদের কাছে প্রমাণাদি নিয়ে এসেছিলে, অতঃপর তাদের মধ্যে যারা কাফের ছিল, তারা বললঃ এটা প্রকাশ্য জাদু ছাড়া কিছুই নয়।",
+      "topic": "জাদু",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"سحر\")।",
+      "matched_concepts": [
+        "سحر"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 6,
+      "surah_name_ar": "الأنعام",
+      "surah_name_transliteration": "Al-An'am",
+      "surah_name_bn": "গৃহপালিত পশু",
+      "ayah_number": 7,
+      "arabic": "وَلَوۡ نَزَّلۡنَا عَلَيۡكَ كِتَٰبٗا فِي قِرۡطَاسٖ فَلَمَسُوهُ بِأَيۡدِيهِمۡ لَقَالَ ٱلَّذِينَ كَفَرُوٓاْ إِنۡ هَٰذَآ إِلَّا سِحۡرٞ مُّبِينٞ",
+      "bangla": "যদি আমি কাগজে লিখিত কোন বিষয় তাদের প্রতি নাযিল করতাম, অতঃপর তারা তা সহস্তে স্পর্শ করত, তবুও অবিশ্বাসীরা একথাই বলত যে, এটা প্রকাশ্য জাদু বৈ কিছু নয়।",
+      "topic": "জাদু",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"سحر\")।",
+      "matched_concepts": [
+        "سحر"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 7,
+      "surah_name_ar": "الأعراف",
+      "surah_name_transliteration": "Al-A'raf",
+      "surah_name_bn": "উচু স্থান",
+      "ayah_number": 109,
+      "arabic": "قَالَ ٱلۡمَلَأُ مِن قَوۡمِ فِرۡعَوۡنَ إِنَّ هَٰذَا لَسَٰحِرٌ عَلِيمٞ",
+      "bangla": "ফেরাউনের সাঙ্গ-পাঙ্গরা বলতে লাগল, নিশ্চয় লোকটি বিজ্ঞ-যাদুকর।",
+      "topic": "জাদু",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"لساحر\")। এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আল-আরাফ) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "matched_concepts": [
+        "لساحر",
+        "7:106-126"
+      ],
+      "found_by": [
+        "keyword",
+        "narrative"
+      ],
+      "confidence": 0.98,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 7,
+      "surah_name_ar": "الأعراف",
+      "surah_name_transliteration": "Al-A'raf",
+      "surah_name_bn": "উচু স্থান",
+      "ayah_number": 112,
+      "arabic": "يَأۡتُوكَ بِكُلِّ سَٰحِرٍ عَلِيمٖ",
+      "bangla": "যাতে তারা পরাকাষ্ঠাসম্পন্ন বিজ্ঞ যাদুকরদের এনে সমবেত করে।",
+      "topic": "জাদু",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ساحر\")। এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আল-আরাফ) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "matched_concepts": [
+        "ساحر",
+        "7:106-126"
+      ],
+      "found_by": [
+        "keyword",
+        "narrative"
+      ],
+      "confidence": 0.98,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 7,
+      "surah_name_ar": "الأعراف",
+      "surah_name_transliteration": "Al-A'raf",
+      "surah_name_bn": "উচু স্থান",
+      "ayah_number": 113,
+      "arabic": "وَجَآءَ ٱلسَّحَرَةُ فِرۡعَوۡنَ قَالُوٓاْ إِنَّ لَنَا لَأَجۡرًا إِن كُنَّا نَحۡنُ ٱلۡغَٰلِبِينَ",
+      "bangla": "বস্তুতঃ যাদুকররা এসে ফেরাউনের কাছে উপস্থিত হল। তারা বলল, আমাদের জন্যে কি কোন পারিশ্রমিক নির্ধারিত আছে, যদি আমরা জয়লাভ করি",
+      "topic": "জাদু",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"السحره\")। এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আল-আরাফ) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "matched_concepts": [
+        "السحره",
+        "7:106-126"
+      ],
+      "found_by": [
+        "keyword",
+        "narrative"
+      ],
+      "confidence": 0.98,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 7,
+      "surah_name_ar": "الأعراف",
+      "surah_name_transliteration": "Al-A'raf",
+      "surah_name_bn": "উচু স্থান",
+      "ayah_number": 116,
+      "arabic": "قَالَ أَلۡقُواْۖ فَلَمَّآ أَلۡقَوۡاْ سَحَرُوٓاْ أَعۡيُنَ ٱلنَّاسِ وَٱسۡتَرۡهَبُوهُمۡ وَجَآءُو بِسِحۡرٍ عَظِيمٖ",
+      "bangla": "তিনি বললেন, তোমরাই নিক্ষেপ কর। যখন তারা নিক্ষেপ করল তখন লোকদের চোখগুলোকে বাধিয়ে দিল, ভীত-সন্ত্রস্ত করে তুলল এবং মহাযাদু প্রদর্শন করল।",
+      "topic": "জাদু",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"بسحر\", \"سحروا\")। এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আল-আরাফ) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "matched_concepts": [
+        "بسحر",
+        "سحروا",
+        "7:106-126"
+      ],
+      "found_by": [
+        "keyword",
+        "narrative"
+      ],
+      "confidence": 0.98,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 7,
+      "surah_name_ar": "الأعراف",
+      "surah_name_transliteration": "Al-A'raf",
+      "surah_name_bn": "উচু স্থান",
+      "ayah_number": 120,
+      "arabic": "وَأُلۡقِيَ ٱلسَّحَرَةُ سَٰجِدِينَ",
+      "bangla": "এবং যাদুকররা সেজদায় পড়ে গেল।",
+      "topic": "জাদু",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"السحره\")। এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আল-আরাফ) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "matched_concepts": [
+        "السحره",
+        "7:106-126"
+      ],
+      "found_by": [
+        "keyword",
+        "narrative"
+      ],
+      "confidence": 0.98,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 7,
+      "surah_name_ar": "الأعراف",
+      "surah_name_transliteration": "Al-A'raf",
+      "surah_name_bn": "উচু স্থান",
+      "ayah_number": 132,
+      "arabic": "وَقَالُواْ مَهۡمَا تَأۡتِنَا بِهِۦ مِنۡ ءَايَةٖ لِّتَسۡحَرَنَا بِهَا فَمَا نَحۡنُ لَكَ بِمُؤۡمِنِينَ",
+      "bangla": "তারা আরও বলতে লাগল, আমাদের উপর জাদু করার জন্য তুমি যে নিদর্শনই নিয়ে আস না কেন আমরা কিন্তু তোমার উপর ঈমান আনছি না।",
+      "topic": "জাদু",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"لتسحرنا\")।",
+      "matched_concepts": [
+        "لتسحرنا"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 10,
+      "surah_name_ar": "يونس",
+      "surah_name_transliteration": "Yunus",
+      "surah_name_bn": "নবী ইউনুস",
+      "ayah_number": 2,
+      "arabic": "أَكَانَ لِلنَّاسِ عَجَبًا أَنۡ أَوۡحَيۡنَآ إِلَىٰ رَجُلٖ مِّنۡهُمۡ أَنۡ أَنذِرِ ٱلنَّاسَ وَبَشِّرِ ٱلَّذِينَ ءَامَنُوٓاْ أَنَّ لَهُمۡ قَدَمَ صِدۡقٍ عِندَ رَبِّهِمۡۗ قَالَ ٱلۡكَٰفِرُونَ إِنَّ هَٰذَا لَسَٰحِرٞ مُّبِينٌ",
+      "bangla": "মানুষের কাছে কি আশ্চর্য লাগছে যে, আমি ওহী পাঠিয়েছি তাদেরই মধ্য থেকে একজনের কাছে যেন তিনি মানুষকে সতর্ক করেন এবং সুসংবাদ শুনিয়ে দেন ঈমনাদারগণকে যে, তাঁদের জন্য সত্য মর্যাদা রয়েছে তাঁদের পালনকর্তার কাছে। কাফেররা বলতে লাগল, নিঃসন্দেহে এ লোক প্রকাশ্য যাদুকর।",
+      "topic": "জাদু",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"لساحر\")।",
+      "matched_concepts": [
+        "لساحر"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 10,
+      "surah_name_ar": "يونس",
+      "surah_name_transliteration": "Yunus",
+      "surah_name_bn": "নবী ইউনুস",
+      "ayah_number": 76,
+      "arabic": "فَلَمَّا جَآءَهُمُ ٱلۡحَقُّ مِنۡ عِندِنَا قَالُوٓاْ إِنَّ هَٰذَا لَسِحۡرٞ مُّبِينٞ",
+      "bangla": "বস্তুতঃ তারা ছিল গোনাহগার। তারপর আমার পক্ষ থেকে যখন তাদের কাছে সত্য বিষয় উপস্থিত হল, তখন বলতে লাগলো, এগুলো তো প্রকাশ্য যাদু।",
+      "topic": "জাদু",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"لسحر\")। এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা ইউনুস) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "matched_concepts": [
+        "لسحر",
+        "10:75-82"
+      ],
+      "found_by": [
+        "keyword",
+        "narrative"
+      ],
+      "confidence": 0.98,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 10,
+      "surah_name_ar": "يونس",
+      "surah_name_transliteration": "Yunus",
+      "surah_name_bn": "নবী ইউনুস",
+      "ayah_number": 77,
+      "arabic": "قَالَ مُوسَىٰٓ أَتَقُولُونَ لِلۡحَقِّ لَمَّا جَآءَكُمۡۖ أَسِحۡرٌ هَٰذَا وَلَا يُفۡلِحُ ٱلسَّـٰحِرُونَ",
+      "bangla": "মূসা বলল, সত্যের ব্যাপারে একথা বলছ, তা তোমাদের কাছে পৌঁছার পর? একি যাদু? অথচ যারা যাদুকর, তারা সফল হতে পারে না।",
+      "topic": "জাদু",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"اسحر\", \"الساحرون\")। এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা ইউনুস) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "matched_concepts": [
+        "اسحر",
+        "الساحرون",
+        "10:75-82"
+      ],
+      "found_by": [
+        "keyword",
+        "narrative"
+      ],
+      "confidence": 0.98,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 10,
+      "surah_name_ar": "يونس",
+      "surah_name_transliteration": "Yunus",
+      "surah_name_bn": "নবী ইউনুস",
+      "ayah_number": 79,
+      "arabic": "وَقَالَ فِرۡعَوۡنُ ٱئۡتُونِي بِكُلِّ سَٰحِرٍ عَلِيمٖ",
+      "bangla": "আর ফেরাউন বলল, আমার কাছে নিয়ে এস সুদক্ষ যাদুকরদিগকে।",
+      "topic": "জাদু",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ساحر\")। এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা ইউনুস) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "matched_concepts": [
+        "ساحر",
+        "10:75-82"
+      ],
+      "found_by": [
+        "keyword",
+        "narrative"
+      ],
+      "confidence": 0.98,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 10,
+      "surah_name_ar": "يونس",
+      "surah_name_transliteration": "Yunus",
+      "surah_name_bn": "নবী ইউনুস",
+      "ayah_number": 80,
+      "arabic": "فَلَمَّا جَآءَ ٱلسَّحَرَةُ قَالَ لَهُم مُّوسَىٰٓ أَلۡقُواْ مَآ أَنتُم مُّلۡقُونَ",
+      "bangla": "তারপর যখন যাদুকররা এল, মূসা তাদেরকে বলল, নিক্ষেপ কর, তোমরা যা কিছু নিক্ষেপ করে থাক।",
+      "topic": "জাদু",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"السحره\")। এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা ইউনুস) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "matched_concepts": [
+        "السحره",
+        "10:75-82"
+      ],
+      "found_by": [
+        "keyword",
+        "narrative"
+      ],
+      "confidence": 0.98,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 10,
+      "surah_name_ar": "يونس",
+      "surah_name_transliteration": "Yunus",
+      "surah_name_bn": "নবী ইউনুস",
+      "ayah_number": 81,
+      "arabic": "فَلَمَّآ أَلۡقَوۡاْ قَالَ مُوسَىٰ مَا جِئۡتُم بِهِ ٱلسِّحۡرُۖ إِنَّ ٱللَّهَ سَيُبۡطِلُهُۥٓ إِنَّ ٱللَّهَ لَا يُصۡلِحُ عَمَلَ ٱلۡمُفۡسِدِينَ",
+      "bangla": "অতঃপর যখন তারা নিক্ষেপ করল, মূসা বলল, যা কিছু তোমরা এনেছ তা সবই যাদু-এবার আল্লাহ এসব ভন্ডুল করে দিচ্ছেন। নিঃসন্দেহে আল্লাহ দুস্কর্মীদের কর্মকে সুষ্ঠুতা দান করেন না।",
+      "topic": "জাদু",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"السحر\")। এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা ইউনুস) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "matched_concepts": [
+        "السحر",
+        "10:75-82"
+      ],
+      "found_by": [
+        "keyword",
+        "narrative"
+      ],
+      "confidence": 0.98,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 11,
+      "surah_name_ar": "هود",
+      "surah_name_transliteration": "Hud",
+      "surah_name_bn": "নবী হুদ",
+      "ayah_number": 7,
+      "arabic": "وَهُوَ ٱلَّذِي خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضَ فِي سِتَّةِ أَيَّامٖ وَكَانَ عَرۡشُهُۥ عَلَى ٱلۡمَآءِ لِيَبۡلُوَكُمۡ أَيُّكُمۡ أَحۡسَنُ عَمَلٗاۗ وَلَئِن قُلۡتَ إِنَّكُم مَّبۡعُوثُونَ مِنۢ بَعۡدِ ٱلۡمَوۡتِ لَيَقُولَنَّ ٱلَّذِينَ كَفَرُوٓاْ إِنۡ هَٰذَآ إِلَّا سِحۡرٞ مُّبِينٞ",
+      "bangla": "তিনিই আসমান ও যমীন ছয় দিনে তৈরী করেছেন, তাঁর আরশ ছিল পানির উপরে, তিনি তোমাদেরকে পরীক্ষা করতে চান যে, তোমাদের মধ্যে কে সবচেয়ে ভাল কাজ করে। আর যদি আপনি তাদেরকে বলেন যে, \"নিশ্চয় তোমাদেরকে মৃত্যুর পরে জীবিত ওঠানো হবে, তখন কাফেরেরা অবশ্য বলে এটা তো স্পষ্ট যাদু",
+      "topic": "জাদু",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"سحر\")।",
+      "matched_concepts": [
+        "سحر"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 20,
+      "surah_name_ar": "طه",
+      "surah_name_transliteration": "Taha",
+      "surah_name_bn": "ত়া হা",
+      "ayah_number": 57,
+      "arabic": "قَالَ أَجِئۡتَنَا لِتُخۡرِجَنَا مِنۡ أَرۡضِنَا بِسِحۡرِكَ يَٰمُوسَىٰ",
+      "bangla": "সে বললঃ হে মূসা, তুমি কি যাদুর জোরে আমাদেরকে দেশ থেকে বহিষ্কার করার জন্যে আগমন করেছ",
+      "topic": "জাদু",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"بسحرك\")। এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা ত্বা-হা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "matched_concepts": [
+        "بسحرك",
+        "20:56-76"
+      ],
+      "found_by": [
+        "keyword",
+        "narrative"
+      ],
+      "confidence": 0.98,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 20,
+      "surah_name_ar": "طه",
+      "surah_name_transliteration": "Taha",
+      "surah_name_bn": "ত়া হা",
+      "ayah_number": 58,
+      "arabic": "فَلَنَأۡتِيَنَّكَ بِسِحۡرٖ مِّثۡلِهِۦ فَٱجۡعَلۡ بَيۡنَنَا وَبَيۡنَكَ مَوۡعِدٗا لَّا نُخۡلِفُهُۥ نَحۡنُ وَلَآ أَنتَ مَكَانٗا سُوٗى",
+      "bangla": "অতএব, আমরাও তোমার মোকাবেলায় তোমার নিকট অনুরূপ যাদু উপস্থিত করব। সুতরাং আমাদের ও তোমার মধ্যে একটি ওয়াদার দিন ঠিক কর, যার খেলাফ আমরাও করব না এবং তুমিও করবে না একটি পরিষ্কার প্রান্তরে।",
+      "topic": "জাদু",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"بسحر\")। এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা ত্বা-হা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "matched_concepts": [
+        "بسحر",
+        "20:56-76"
+      ],
+      "found_by": [
+        "keyword",
+        "narrative"
+      ],
+      "confidence": 0.98,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 20,
+      "surah_name_ar": "طه",
+      "surah_name_transliteration": "Taha",
+      "surah_name_bn": "ত়া হা",
+      "ayah_number": 63,
+      "arabic": "قَالُوٓاْ إِنۡ هَٰذَٰنِ لَسَٰحِرَٰنِ يُرِيدَانِ أَن يُخۡرِجَاكُم مِّنۡ أَرۡضِكُم بِسِحۡرِهِمَا وَيَذۡهَبَا بِطَرِيقَتِكُمُ ٱلۡمُثۡلَىٰ",
+      "bangla": "তারা বললঃ এই দুইজন নিশ্চিতই যাদুকর, তারা তাদের যাদু দ্বারা তোমাদেরকে তোমাদের দেশ থেকে বহিস্কার করতে চায় এবং তোমাদের উৎকৃষ্ট জীবন ব্যবস্থা রহিত করতে চায়।",
+      "topic": "জাদু",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"بسحرهما\", \"لساحران\")। এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা ত্বা-হা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "matched_concepts": [
+        "بسحرهما",
+        "لساحران",
+        "20:56-76"
+      ],
+      "found_by": [
+        "keyword",
+        "narrative"
+      ],
+      "confidence": 0.98,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 20,
+      "surah_name_ar": "طه",
+      "surah_name_transliteration": "Taha",
+      "surah_name_bn": "ত়া হা",
+      "ayah_number": 66,
+      "arabic": "قَالَ بَلۡ أَلۡقُواْۖ فَإِذَا حِبَالُهُمۡ وَعِصِيُّهُمۡ يُخَيَّلُ إِلَيۡهِ مِن سِحۡرِهِمۡ أَنَّهَا تَسۡعَىٰ",
+      "bangla": "মূসা বললেনঃ বরং তোমরাই নিক্ষেপ কর। তাদের যাদুর প্রভাবে হঠাৎ তাঁর মনে হল, যেন তাদের রশিগুলো ও লাঠিগুলো চুটাছুটি করছে।",
+      "topic": "জাদু",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"سحرهم\")। এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা ত্বা-হা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "matched_concepts": [
+        "سحرهم",
+        "20:56-76"
+      ],
+      "found_by": [
+        "keyword",
+        "narrative"
+      ],
+      "confidence": 0.98,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 20,
+      "surah_name_ar": "طه",
+      "surah_name_transliteration": "Taha",
+      "surah_name_bn": "ত়া হা",
+      "ayah_number": 69,
+      "arabic": "وَأَلۡقِ مَا فِي يَمِينِكَ تَلۡقَفۡ مَا صَنَعُوٓاْۖ إِنَّمَا صَنَعُواْ كَيۡدُ سَٰحِرٖۖ وَلَا يُفۡلِحُ ٱلسَّاحِرُ حَيۡثُ أَتَىٰ",
+      "bangla": "তোমার ডান হাতে যা আছে তুমি তা নিক্ষেপ কর। এটা যা কিছু তারা করেছে তা গ্রাস করে ফেলবে। তারা যা করেছে তা তো কেবল যাদুকরের কলাকৌশল। যাদুকর যেখানেই থাকুক, সফল হবে না।",
+      "topic": "জাদু",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ساحر\", \"الساحر\")। এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা ত্বা-হা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "matched_concepts": [
+        "ساحر",
+        "الساحر",
+        "20:56-76"
+      ],
+      "found_by": [
+        "keyword",
+        "narrative"
+      ],
+      "confidence": 0.98,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 20,
+      "surah_name_ar": "طه",
+      "surah_name_transliteration": "Taha",
+      "surah_name_bn": "ত়া হা",
+      "ayah_number": 70,
+      "arabic": "فَأُلۡقِيَ ٱلسَّحَرَةُ سُجَّدٗا قَالُوٓاْ ءَامَنَّا بِرَبِّ هَٰرُونَ وَمُوسَىٰ",
+      "bangla": "অতঃপর যাদুকররা সেজদায় পড়ে গেল। তারা বললঃ আমরা হারুন ও মূসার পালনকর্তার প্রতি বিশ্বাস স্থাপন করলাম।",
+      "topic": "জাদু",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"السحره\")। এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা ত্বা-হা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "matched_concepts": [
+        "السحره",
+        "20:56-76"
+      ],
+      "found_by": [
+        "keyword",
+        "narrative"
+      ],
+      "confidence": 0.98,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 20,
+      "surah_name_ar": "طه",
+      "surah_name_transliteration": "Taha",
+      "surah_name_bn": "ত়া হা",
+      "ayah_number": 71,
+      "arabic": "قَالَ ءَامَنتُمۡ لَهُۥ قَبۡلَ أَنۡ ءَاذَنَ لَكُمۡۖ إِنَّهُۥ لَكَبِيرُكُمُ ٱلَّذِي عَلَّمَكُمُ ٱلسِّحۡرَۖ فَلَأُقَطِّعَنَّ أَيۡدِيَكُمۡ وَأَرۡجُلَكُم مِّنۡ خِلَٰفٖ وَلَأُصَلِّبَنَّكُمۡ فِي جُذُوعِ ٱلنَّخۡلِ وَلَتَعۡلَمُنَّ أَيُّنَآ أَشَدُّ عَذَابٗا وَأَبۡقَىٰ",
+      "bangla": "ফেরাউন বললঃ আমার অনুমতি দানের পূর্বেই? তোমরা কি তার প্রতি বিশ্বাস স্থাপন করলে; দেখছি সেই তোমাদের প্রধান, সে তোমাদেরকে যাদু শিক্ষা দিয়েছে। অতএব আমি অবশ্যই তোমাদের হস্তপদ বিপরীত দিক থেকে কর্তন করব এবং আমি তোমাদেরকে খর্জুর বৃক্ষের কান্ডে শূলে চড়াব এবং তোমরা নিশ্চিত রূপেই জানতে পারবে আমাদের মধ্যে কার আযাব কঠোরতর এবং অধিক্ষণ স্থায়ী।",
+      "topic": "জাদু",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"السحر\")। এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা ত্বা-হা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "matched_concepts": [
+        "السحر",
+        "20:56-76"
+      ],
+      "found_by": [
+        "keyword",
+        "narrative"
+      ],
+      "confidence": 0.98,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 20,
+      "surah_name_ar": "طه",
+      "surah_name_transliteration": "Taha",
+      "surah_name_bn": "ত়া হা",
+      "ayah_number": 73,
+      "arabic": "إِنَّآ ءَامَنَّا بِرَبِّنَا لِيَغۡفِرَ لَنَا خَطَٰيَٰنَا وَمَآ أَكۡرَهۡتَنَا عَلَيۡهِ مِنَ ٱلسِّحۡرِۗ وَٱللَّهُ خَيۡرٞ وَأَبۡقَىٰٓ",
+      "bangla": "আমরা আমাদের পালনকর্তার প্রতি বিশ্বাস স্থাপন করেছি যাতে তিনি আমাদের পাপ এবং তুমি আমাদেরকে যে যাদু করতে বাধ্য করেছ, তা মার্জনা করেন। আল্লাহ শ্রেষ্ঠ ও চিরস্থায়ী।",
+      "topic": "জাদু",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"السحر\")। এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা ত্বা-হা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "matched_concepts": [
+        "السحر",
+        "20:56-76"
+      ],
+      "found_by": [
+        "keyword",
+        "narrative"
+      ],
+      "confidence": 0.98,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 21,
+      "surah_name_ar": "الأنبياء",
+      "surah_name_transliteration": "Al-Anbya",
+      "surah_name_bn": "নবীগণ",
+      "ayah_number": 3,
+      "arabic": "لَاهِيَةٗ قُلُوبُهُمۡۗ وَأَسَرُّواْ ٱلنَّجۡوَى ٱلَّذِينَ ظَلَمُواْ هَلۡ هَٰذَآ إِلَّا بَشَرٞ مِّثۡلُكُمۡۖ أَفَتَأۡتُونَ ٱلسِّحۡرَ وَأَنتُمۡ تُبۡصِرُونَ",
+      "bangla": "তাদের অন্তর থাকে খেলায় মত্ত। জালেমরা গোপনে পরামর্শ করে, সে তো তোমাদেরই মত একজন মানুষ; এমতাবস্থায় দেখে শুনে তোমরা তার যাদুর কবলে কেন পড়",
+      "topic": "জাদু",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"السحر\")।",
+      "matched_concepts": [
+        "السحر"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 23,
+      "surah_name_ar": "المؤمنون",
+      "surah_name_transliteration": "Al-Mu'minun",
+      "surah_name_bn": "বিশ্বাসী",
+      "ayah_number": 89,
+      "arabic": "سَيَقُولُونَ لِلَّهِۚ قُلۡ فَأَنَّىٰ تُسۡحَرُونَ",
+      "bangla": "এখন তারা বলবেঃ আল্লাহর। বলুনঃ তাহলে কোথা থেকে তোমাদেরকে জাদু করা হচ্ছে",
+      "topic": "জাদু",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"تسحرون\")।",
+      "matched_concepts": [
+        "تسحرون"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 26,
+      "surah_name_ar": "الشعراء",
+      "surah_name_transliteration": "Ash-Shu'ara",
+      "surah_name_bn": "কবি",
+      "ayah_number": 34,
+      "arabic": "قَالَ لِلۡمَلَإِ حَوۡلَهُۥٓ إِنَّ هَٰذَا لَسَٰحِرٌ عَلِيمٞ",
+      "bangla": "ফেরাউন তার পরিষদবর্গকে বলল, নিশ্চয় এ একজন সুদক্ষ জাদুকর।",
+      "topic": "জাদু",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"لساحر\")। এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আশ-শুআরা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "matched_concepts": [
+        "لساحر",
+        "26:34-51"
+      ],
+      "found_by": [
+        "keyword",
+        "narrative"
+      ],
+      "confidence": 0.98,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 26,
+      "surah_name_ar": "الشعراء",
+      "surah_name_transliteration": "Ash-Shu'ara",
+      "surah_name_bn": "কবি",
+      "ayah_number": 35,
+      "arabic": "يُرِيدُ أَن يُخۡرِجَكُم مِّنۡ أَرۡضِكُم بِسِحۡرِهِۦ فَمَاذَا تَأۡمُرُونَ",
+      "bangla": "সে তার জাদু বলে তোমাদেরকে তোমাদের দেশ থেকে বহিস্কার করতে চায়। অতএব তোমাদের মত কি",
+      "topic": "জাদু",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"بسحره\")। এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আশ-শুআরা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "matched_concepts": [
+        "بسحره",
+        "26:34-51"
+      ],
+      "found_by": [
+        "keyword",
+        "narrative"
+      ],
+      "confidence": 0.98,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 26,
+      "surah_name_ar": "الشعراء",
+      "surah_name_transliteration": "Ash-Shu'ara",
+      "surah_name_bn": "কবি",
+      "ayah_number": 38,
+      "arabic": "فَجُمِعَ ٱلسَّحَرَةُ لِمِيقَٰتِ يَوۡمٖ مَّعۡلُومٖ",
+      "bangla": "অতঃপর এক নির্দিষ্ট দিনে জাদুকরদেরকে একত্রিত করা হল।",
+      "topic": "জাদু",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"السحره\")। এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আশ-শুআরা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "matched_concepts": [
+        "السحره",
+        "26:34-51"
+      ],
+      "found_by": [
+        "keyword",
+        "narrative"
+      ],
+      "confidence": 0.98,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 26,
+      "surah_name_ar": "الشعراء",
+      "surah_name_transliteration": "Ash-Shu'ara",
+      "surah_name_bn": "কবি",
+      "ayah_number": 40,
+      "arabic": "لَعَلَّنَا نَتَّبِعُ ٱلسَّحَرَةَ إِن كَانُواْ هُمُ ٱلۡغَٰلِبِينَ",
+      "bangla": "যাতে আমরা জাদুকরদের অনুসরণ করতে পারি-যদি তারাই বিজয়ী হয়।",
+      "topic": "জাদু",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"السحره\")। এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আশ-শুআরা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "matched_concepts": [
+        "السحره",
+        "26:34-51"
+      ],
+      "found_by": [
+        "keyword",
+        "narrative"
+      ],
+      "confidence": 0.98,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 26,
+      "surah_name_ar": "الشعراء",
+      "surah_name_transliteration": "Ash-Shu'ara",
+      "surah_name_bn": "কবি",
+      "ayah_number": 41,
+      "arabic": "فَلَمَّا جَآءَ ٱلسَّحَرَةُ قَالُواْ لِفِرۡعَوۡنَ أَئِنَّ لَنَا لَأَجۡرًا إِن كُنَّا نَحۡنُ ٱلۡغَٰلِبِينَ",
+      "bangla": "যখন যাদুকররা আগমণ করল, তখন ফেরআউনকে বলল, যদি আমরা বিজয়ী হই, তবে আমরা পুরস্কার পাব তো",
+      "topic": "জাদু",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"السحره\")। এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আশ-শুআরা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "matched_concepts": [
+        "السحره",
+        "26:34-51"
+      ],
+      "found_by": [
+        "keyword",
+        "narrative"
+      ],
+      "confidence": 0.98,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 26,
+      "surah_name_ar": "الشعراء",
+      "surah_name_transliteration": "Ash-Shu'ara",
+      "surah_name_bn": "কবি",
+      "ayah_number": 46,
+      "arabic": "فَأُلۡقِيَ ٱلسَّحَرَةُ سَٰجِدِينَ",
+      "bangla": "তখন জাদুকররা সেজদায় নত হয়ে গেল।",
+      "topic": "জাদু",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"السحره\")। এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আশ-শুআরা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "matched_concepts": [
+        "السحره",
+        "26:34-51"
+      ],
+      "found_by": [
+        "keyword",
+        "narrative"
+      ],
+      "confidence": 0.98,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 26,
+      "surah_name_ar": "الشعراء",
+      "surah_name_transliteration": "Ash-Shu'ara",
+      "surah_name_bn": "কবি",
+      "ayah_number": 49,
+      "arabic": "قَالَ ءَامَنتُمۡ لَهُۥ قَبۡلَ أَنۡ ءَاذَنَ لَكُمۡۖ إِنَّهُۥ لَكَبِيرُكُمُ ٱلَّذِي عَلَّمَكُمُ ٱلسِّحۡرَ فَلَسَوۡفَ تَعۡلَمُونَۚ لَأُقَطِّعَنَّ أَيۡدِيَكُمۡ وَأَرۡجُلَكُم مِّنۡ خِلَٰفٖ وَلَأُصَلِّبَنَّكُمۡ أَجۡمَعِينَ",
+      "bangla": "ফেরাউন বলল, আমার অনুমতি দানের পূর্বেই তোমরা কি তাকে মেনে নিলে? নিশ্চয় সে তোমাদের প্রধান, যে তোমাদেরকে জাদু শিক্ষা দিয়েছে। শীঘ্রই তোমরা পরিণাম জানতে পারবে। আমি অবশ্যই তোমাদের হাত ও পা বিপরীত দিক থেকে কর্তন করব। এবং তোমাদের সবাইকে শূলে চড়াব।",
+      "topic": "জাদু",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"السحر\")। এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আশ-শুআরা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "matched_concepts": [
+        "السحر",
+        "26:34-51"
+      ],
+      "found_by": [
+        "keyword",
+        "narrative"
+      ],
+      "confidence": 0.98,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 26,
+      "surah_name_ar": "الشعراء",
+      "surah_name_transliteration": "Ash-Shu'ara",
+      "surah_name_bn": "কবি",
+      "ayah_number": 153,
+      "arabic": "قَالُوٓاْ إِنَّمَآ أَنتَ مِنَ ٱلۡمُسَحَّرِينَ",
+      "bangla": "তারা বলল, তুমি তো জাদুগ্রস্থুরেদ একজন।",
+      "topic": "জাদু",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"المسحرين\")।",
+      "matched_concepts": [
+        "المسحرين"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 26,
+      "surah_name_ar": "الشعراء",
+      "surah_name_transliteration": "Ash-Shu'ara",
+      "surah_name_bn": "কবি",
+      "ayah_number": 185,
+      "arabic": "قَالُوٓاْ إِنَّمَآ أَنتَ مِنَ ٱلۡمُسَحَّرِينَ",
+      "bangla": "তারা বলল, তুমি তো জাদুগ্রস্তদের অন্যতম।",
+      "topic": "জাদু",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"المسحرين\")।",
+      "matched_concepts": [
+        "المسحرين"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 27,
+      "surah_name_ar": "النمل",
+      "surah_name_transliteration": "An-Naml",
+      "surah_name_bn": "পিঁপড়া",
+      "ayah_number": 13,
+      "arabic": "فَلَمَّا جَآءَتۡهُمۡ ءَايَٰتُنَا مُبۡصِرَةٗ قَالُواْ هَٰذَا سِحۡرٞ مُّبِينٞ",
+      "bangla": "অতঃপর যখন তাদের কাছে আমার উজ্জল নিদর্শনাবলী আগমন করল, তখন তারা বলল, এটা তো সুস্পষ্ট জাদু।",
+      "topic": "জাদু",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"سحر\")।",
+      "matched_concepts": [
+        "سحر"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 28,
+      "surah_name_ar": "القصص",
+      "surah_name_transliteration": "Al-Qasas",
+      "surah_name_bn": "কাহিনি",
+      "ayah_number": 36,
+      "arabic": "فَلَمَّا جَآءَهُم مُّوسَىٰ بِـَٔايَٰتِنَا بَيِّنَٰتٖ قَالُواْ مَا هَٰذَآ إِلَّا سِحۡرٞ مُّفۡتَرٗى وَمَا سَمِعۡنَا بِهَٰذَا فِيٓ ءَابَآئِنَا ٱلۡأَوَّلِينَ",
+      "bangla": "অতঃপর মূসা যখন তাদের কাছে আমার সুস্পষ্ট নিদর্শনাবলী নিয়ে পৌছল, তখন তারা বলল, এতো অলীক জাদু মাত্র। আমরা আমাদের পূর্বপুরুষদের মধ্যে এ কথা শুনিনি।",
+      "topic": "জাদু",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"سحر\")।",
+      "matched_concepts": [
+        "سحر"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 28,
+      "surah_name_ar": "القصص",
+      "surah_name_transliteration": "Al-Qasas",
+      "surah_name_bn": "কাহিনি",
+      "ayah_number": 48,
+      "arabic": "فَلَمَّا جَآءَهُمُ ٱلۡحَقُّ مِنۡ عِندِنَا قَالُواْ لَوۡلَآ أُوتِيَ مِثۡلَ مَآ أُوتِيَ مُوسَىٰٓۚ أَوَلَمۡ يَكۡفُرُواْ بِمَآ أُوتِيَ مُوسَىٰ مِن قَبۡلُۖ قَالُواْ سِحۡرَانِ تَظَٰهَرَا وَقَالُوٓاْ إِنَّا بِكُلّٖ كَٰفِرُونَ",
+      "bangla": "অতঃপর আমার কাছ থেকে যখন তাদের কাছে সত্য আগমন করল, তখন তারা বলল, মূসাকে যেরূপ দেয়া হয়েছিল, এই রসূলকে সেরূপ দেয়া হল না কেন? পূর্বে মূসাকে যা দেয়া হয়েছিল, তারা কি তা অস্বীকার করেনি? তারা বলেছিল, উভয়ই জাদু, পরস্পরে একাত্ম। তারা আরও বলেছিল, আমরা উভয়কে মানি না।",
+      "topic": "জাদু",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"سحران\")।",
+      "matched_concepts": [
+        "سحران"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 34,
+      "surah_name_ar": "سبإ",
+      "surah_name_transliteration": "Saba",
+      "surah_name_bn": "রানী সাবা/শেবা",
+      "ayah_number": 43,
+      "arabic": "وَإِذَا تُتۡلَىٰ عَلَيۡهِمۡ ءَايَٰتُنَا بَيِّنَٰتٖ قَالُواْ مَا هَٰذَآ إِلَّا رَجُلٞ يُرِيدُ أَن يَصُدَّكُمۡ عَمَّا كَانَ يَعۡبُدُ ءَابَآؤُكُمۡ وَقَالُواْ مَا هَٰذَآ إِلَّآ إِفۡكٞ مُّفۡتَرٗىۚ وَقَالَ ٱلَّذِينَ كَفَرُواْ لِلۡحَقِّ لَمَّا جَآءَهُمۡ إِنۡ هَٰذَآ إِلَّا سِحۡرٞ مُّبِينٞ",
+      "bangla": "যখন তাদের কাছে আমার সুস্পষ্ট আয়াত সমূহ তেলাওয়াত করা হয়, তখন তারা বলে, তোমাদের বাপ-দাদারা যার এবাদত করত এ লোকটি যে তা থেকে তোমাদেরকে বাধা দিতে চায়। তারা আরও বলে, এটা মনগড়া মিথ্যা বৈ নয়। আর কাফেরদের কাছে যখন সত্য আগমন করে, তখন তারা বলে, এতো এক সুস্পষ্ট যাদু।",
+      "topic": "জাদু",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"سحر\")।",
+      "matched_concepts": [
+        "سحر"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 37,
+      "surah_name_ar": "الصافات",
+      "surah_name_transliteration": "As-Saffat",
+      "surah_name_bn": "সারিবদ্ধভাবে দাঁড়ানো",
+      "ayah_number": 15,
+      "arabic": "وَقَالُوٓاْ إِنۡ هَٰذَآ إِلَّا سِحۡرٞ مُّبِينٌ",
+      "bangla": "এবং বলে, কিছুই নয়, এযে স্পষ্ট যাদু।",
+      "topic": "জাদু",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"سحر\")।",
+      "matched_concepts": [
+        "سحر"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 38,
+      "surah_name_ar": "ص",
+      "surah_name_transliteration": "Sad",
+      "surah_name_bn": "আরবি বর্ণ সাদ",
+      "ayah_number": 4,
+      "arabic": "وَعَجِبُوٓاْ أَن جَآءَهُم مُّنذِرٞ مِّنۡهُمۡۖ وَقَالَ ٱلۡكَٰفِرُونَ هَٰذَا سَٰحِرٞ كَذَّابٌ",
+      "bangla": "তারা বিস্ময়বোধ করে যে, তাদেরই কাছে তাদের মধ্যে থেকে একজন সতর্ককারী আগমন করেছেন। আর কাফেররা বলে এ-তো এক মিথ্যাচারী যাদুকর।",
+      "topic": "জাদু",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ساحر\")।",
+      "matched_concepts": [
+        "ساحر"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 40,
+      "surah_name_ar": "غافر",
+      "surah_name_transliteration": "Ghafir",
+      "surah_name_bn": "ক্ষমাকারী",
+      "ayah_number": 24,
+      "arabic": "إِلَىٰ فِرۡعَوۡنَ وَهَٰمَٰنَ وَقَٰرُونَ فَقَالُواْ سَٰحِرٞ كَذَّابٞ",
+      "bangla": "ফেরাউন, হামান ও কারুণের কাছে, অতঃপর তারা বলল, সে তো জাদুকর, মিথ্যাবাদী।",
+      "topic": "জাদু",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ساحر\")।",
+      "matched_concepts": [
+        "ساحر"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 43,
+      "surah_name_ar": "الزخرف",
+      "surah_name_transliteration": "Az-Zukhruf",
+      "surah_name_bn": "সোনাদানা",
+      "ayah_number": 30,
+      "arabic": "وَلَمَّا جَآءَهُمُ ٱلۡحَقُّ قَالُواْ هَٰذَا سِحۡرٞ وَإِنَّا بِهِۦ كَٰفِرُونَ",
+      "bangla": "যখন সত্য তাদের কাছে আগমন করল, তখন তারা বলল, এটা যাদু, আমরা একে মানি না।",
+      "topic": "জাদু",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"سحر\")।",
+      "matched_concepts": [
+        "سحر"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 43,
+      "surah_name_ar": "الزخرف",
+      "surah_name_transliteration": "Az-Zukhruf",
+      "surah_name_bn": "সোনাদানা",
+      "ayah_number": 49,
+      "arabic": "وَقَالُواْ يَـٰٓأَيُّهَ ٱلسَّاحِرُ ٱدۡعُ لَنَا رَبَّكَ بِمَا عَهِدَ عِندَكَ إِنَّنَا لَمُهۡتَدُونَ",
+      "bangla": "তারা বলল, হে যাদুকর, তুমি আমাদের জন্যে তোমার পালনকর্তার কাছে সে বিষয় প্রার্থনা কর, যার ওয়াদা তিনি তোমাকে দিয়েছেন; আমরা অবশ্যই সৎপথ অবলম্বন করব।",
+      "topic": "জাদু",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"الساحر\")।",
+      "matched_concepts": [
+        "الساحر"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 46,
+      "surah_name_ar": "الأحقاف",
+      "surah_name_transliteration": "Al-Ahqaf",
+      "surah_name_bn": "বালুর পাহাড়",
+      "ayah_number": 7,
+      "arabic": "وَإِذَا تُتۡلَىٰ عَلَيۡهِمۡ ءَايَٰتُنَا بَيِّنَٰتٖ قَالَ ٱلَّذِينَ كَفَرُواْ لِلۡحَقِّ لَمَّا جَآءَهُمۡ هَٰذَا سِحۡرٞ مُّبِينٌ",
+      "bangla": "যখন তাদেরকে আমার সুস্পষ্ট আয়াতসমূহ পাঠ করে শুনানো হয়, তখন সত্য আগমন করার পর কাফেররা বলে, এ তো প্রকাশ্য জাদু।",
+      "topic": "জাদু",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"سحر\")।",
+      "matched_concepts": [
+        "سحر"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 51,
+      "surah_name_ar": "الذاريات",
+      "surah_name_transliteration": "Adh-Dhariyat",
+      "surah_name_bn": "বিক্ষেপকারী বাতাস",
+      "ayah_number": 39,
+      "arabic": "فَتَوَلَّىٰ بِرُكۡنِهِۦ وَقَالَ سَٰحِرٌ أَوۡ مَجۡنُونٞ",
+      "bangla": "অতঃপর সে শক্তিবলে মুখ ফিরিয়ে নিল এবং বললঃ সে হয় যাদুকর, না হয় পাগল।",
+      "topic": "জাদু",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ساحر\")।",
+      "matched_concepts": [
+        "ساحر"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 51,
+      "surah_name_ar": "الذاريات",
+      "surah_name_transliteration": "Adh-Dhariyat",
+      "surah_name_bn": "বিক্ষেপকারী বাতাস",
+      "ayah_number": 52,
+      "arabic": "كَذَٰلِكَ مَآ أَتَى ٱلَّذِينَ مِن قَبۡلِهِم مِّن رَّسُولٍ إِلَّا قَالُواْ سَاحِرٌ أَوۡ مَجۡنُونٌ",
+      "bangla": "এমনিভাবে, তাদের পূর্ববর্তীদের কাছে যখনই কোন রসূল আগমন করেছে, তারা বলছেঃ যাদুকর, না হয় উম্মাদ।",
+      "topic": "জাদু",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"ساحر\")।",
+      "matched_concepts": [
+        "ساحر"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 52,
+      "surah_name_ar": "الطور",
+      "surah_name_transliteration": "At-Tur",
+      "surah_name_bn": "পাহাড়",
+      "ayah_number": 15,
+      "arabic": "أَفَسِحۡرٌ هَٰذَآ أَمۡ أَنتُمۡ لَا تُبۡصِرُونَ",
+      "bangla": "এটা কি জাদু, না তোমরা চোখে দেখছ না",
+      "topic": "জাদু",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"افسحر\")।",
+      "matched_concepts": [
+        "افسحر"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 54,
+      "surah_name_ar": "القمر",
+      "surah_name_transliteration": "Al-Qamar",
+      "surah_name_bn": "চাঁদ",
+      "ayah_number": 2,
+      "arabic": "وَإِن يَرَوۡاْ ءَايَةٗ يُعۡرِضُواْ وَيَقُولُواْ سِحۡرٞ مُّسۡتَمِرّٞ",
+      "bangla": "তারা যদি কোন নিদর্শন দেখে তবে মুখ ফিরিয়ে নেয় এবং বলে, এটা তো চিরাগত জাদু।",
+      "topic": "জাদু",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"سحر\")।",
+      "matched_concepts": [
+        "سحر"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 61,
+      "surah_name_ar": "الصف",
+      "surah_name_transliteration": "As-Saf",
+      "surah_name_bn": "সারিবদ্ধ সৈন্যদল",
+      "ayah_number": 6,
+      "arabic": "وَإِذۡ قَالَ عِيسَى ٱبۡنُ مَرۡيَمَ يَٰبَنِيٓ إِسۡرَـٰٓءِيلَ إِنِّي رَسُولُ ٱللَّهِ إِلَيۡكُم مُّصَدِّقٗا لِّمَا بَيۡنَ يَدَيَّ مِنَ ٱلتَّوۡرَىٰةِ وَمُبَشِّرَۢا بِرَسُولٖ يَأۡتِي مِنۢ بَعۡدِي ٱسۡمُهُۥٓ أَحۡمَدُۖ فَلَمَّا جَآءَهُم بِٱلۡبَيِّنَٰتِ قَالُواْ هَٰذَا سِحۡرٞ مُّبِينٞ",
+      "bangla": "স্মরণ কর, যখন মরিয়ম-তনয় ঈসা (আঃ) বললঃ হে বনী ইসরাইল! আমি তোমাদের কাছে আল্লাহর প্রেরিত রসূল, আমার পূর্ববর্তী তওরাতের আমি সত্যায়নকারী এবং আমি এমন একজন রসূলের সুসংবাদদাতা, যিনি আমার পরে আগমন করবেন। তাঁর নাম আহমদ। অতঃপর যখন সে স্পষ্ট প্রমাণাদি নিয়ে আগমন করল, তখন তারা বললঃ এ তো এক প্রকাশ্য যাদু।",
+      "topic": "জাদু",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"سحر\")।",
+      "matched_concepts": [
+        "سحر"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 74,
+      "surah_name_ar": "المدثر",
+      "surah_name_transliteration": "Al-Muddaththir",
+      "surah_name_bn": "পোশাক পরিহিত",
+      "ayah_number": 24,
+      "arabic": "فَقَالَ إِنۡ هَٰذَآ إِلَّا سِحۡرٞ يُؤۡثَرُ",
+      "bangla": "এরপর বলেছেঃ এতো লোক পরস্পরায় প্রাপ্ত জাদু বৈ নয়",
+      "topic": "জাদু",
+      "relevance": "DIRECT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতে সরাসরি \"জাদু\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"سحر\")।",
+      "matched_concepts": [
+        "سحر"
+      ],
+      "found_by": [
+        "keyword"
+      ],
+      "confidence": 0.95,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    }
+  ],
+  "strong_context": [
+    {
+      "surah_number": 7,
+      "surah_name_ar": "الأعراف",
+      "surah_name_transliteration": "Al-A'raf",
+      "surah_name_bn": "উচু স্থান",
+      "ayah_number": 106,
+      "arabic": "قَالَ إِن كُنتَ جِئۡتَ بِـَٔايَةٖ فَأۡتِ بِهَآ إِن كُنتَ مِنَ ٱلصَّـٰدِقِينَ",
+      "bangla": "সে বলল, যদি তুমি কোন নিদর্শন নিয়ে এসে থাক, তাহলে তা উপস্থিত কর যদি তুমি সত্যবাদী হয়ে থাক।",
+      "topic": "জাদু",
+      "relevance": "STRONG_CONTEXT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আল-আরাফ) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "matched_concepts": [
+        "7:106-126"
+      ],
+      "found_by": [
+        "narrative"
+      ],
+      "confidence": 0.75,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 7,
+      "surah_name_ar": "الأعراف",
+      "surah_name_transliteration": "Al-A'raf",
+      "surah_name_bn": "উচু স্থান",
+      "ayah_number": 107,
+      "arabic": "فَأَلۡقَىٰ عَصَاهُ فَإِذَا هِيَ ثُعۡبَانٞ مُّبِينٞ",
+      "bangla": "তখন তিনি নিক্ষেপ করলেন নিজের লাঠিখানা এবং তাৎক্ষণাৎ তা জলজ্যান্ত এক অজগরে রূপান্তরিত হয়ে গেল।",
+      "topic": "জাদু",
+      "relevance": "STRONG_CONTEXT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আল-আরাফ) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "matched_concepts": [
+        "7:106-126"
+      ],
+      "found_by": [
+        "narrative"
+      ],
+      "confidence": 0.75,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 7,
+      "surah_name_ar": "الأعراف",
+      "surah_name_transliteration": "Al-A'raf",
+      "surah_name_bn": "উচু স্থান",
+      "ayah_number": 108,
+      "arabic": "وَنَزَعَ يَدَهُۥ فَإِذَا هِيَ بَيۡضَآءُ لِلنَّـٰظِرِينَ",
+      "bangla": "আর বের করলেন নিজের হাত এবং তা সঙ্গে সঙ্গে দর্শকদের চোখে ধবধবে উজ্জ্বল দেখাতে লাগল।",
+      "topic": "জাদু",
+      "relevance": "STRONG_CONTEXT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আল-আরাফ) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "matched_concepts": [
+        "7:106-126"
+      ],
+      "found_by": [
+        "narrative"
+      ],
+      "confidence": 0.75,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 7,
+      "surah_name_ar": "الأعراف",
+      "surah_name_transliteration": "Al-A'raf",
+      "surah_name_bn": "উচু স্থান",
+      "ayah_number": 110,
+      "arabic": "يُرِيدُ أَن يُخۡرِجَكُم مِّنۡ أَرۡضِكُمۡۖ فَمَاذَا تَأۡمُرُونَ",
+      "bangla": "সে তোমাদিগকে তোমাদের দেশ থেকে বের করে দিতে চায়। এ ব্যাপারে তোমাদের কি মত",
+      "topic": "জাদু",
+      "relevance": "STRONG_CONTEXT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আল-আরাফ) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "matched_concepts": [
+        "7:106-126"
+      ],
+      "found_by": [
+        "narrative"
+      ],
+      "confidence": 0.75,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 7,
+      "surah_name_ar": "الأعراف",
+      "surah_name_transliteration": "Al-A'raf",
+      "surah_name_bn": "উচু স্থান",
+      "ayah_number": 111,
+      "arabic": "قَالُوٓاْ أَرۡجِهۡ وَأَخَاهُ وَأَرۡسِلۡ فِي ٱلۡمَدَآئِنِ حَٰشِرِينَ",
+      "bangla": "তারা বলল, আপনি তাকে ও তার ভাইকে অবকাশ দান করুন এবং শহরে বন্দরে লোক পাঠিয়ে দিন লোকদের সমবেত করার জন্য।",
+      "topic": "জাদু",
+      "relevance": "STRONG_CONTEXT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আল-আরাফ) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "matched_concepts": [
+        "7:106-126"
+      ],
+      "found_by": [
+        "narrative"
+      ],
+      "confidence": 0.75,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 7,
+      "surah_name_ar": "الأعراف",
+      "surah_name_transliteration": "Al-A'raf",
+      "surah_name_bn": "উচু স্থান",
+      "ayah_number": 114,
+      "arabic": "قَالَ نَعَمۡ وَإِنَّكُمۡ لَمِنَ ٱلۡمُقَرَّبِينَ",
+      "bangla": "সে বলল, হ্যাঁ এবং অবশ্যই তোমরা আমার নিকটবর্তী লোক হয়ে যাবে।",
+      "topic": "জাদু",
+      "relevance": "STRONG_CONTEXT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আল-আরাফ) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "matched_concepts": [
+        "7:106-126"
+      ],
+      "found_by": [
+        "narrative"
+      ],
+      "confidence": 0.75,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 7,
+      "surah_name_ar": "الأعراف",
+      "surah_name_transliteration": "Al-A'raf",
+      "surah_name_bn": "উচু স্থান",
+      "ayah_number": 115,
+      "arabic": "قَالُواْ يَٰمُوسَىٰٓ إِمَّآ أَن تُلۡقِيَ وَإِمَّآ أَن نَّكُونَ نَحۡنُ ٱلۡمُلۡقِينَ",
+      "bangla": "তারা বলল, হে মূসা! হয় তুমি নিক্ষেপ কর অথবা আমরা নিক্ষেপ করছি।",
+      "topic": "জাদু",
+      "relevance": "STRONG_CONTEXT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আল-আরাফ) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "matched_concepts": [
+        "7:106-126"
+      ],
+      "found_by": [
+        "narrative"
+      ],
+      "confidence": 0.75,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 7,
+      "surah_name_ar": "الأعراف",
+      "surah_name_transliteration": "Al-A'raf",
+      "surah_name_bn": "উচু স্থান",
+      "ayah_number": 117,
+      "arabic": "۞وَأَوۡحَيۡنَآ إِلَىٰ مُوسَىٰٓ أَنۡ أَلۡقِ عَصَاكَۖ فَإِذَا هِيَ تَلۡقَفُ مَا يَأۡفِكُونَ",
+      "bangla": "তারপর আমি ওহীযোগে মূসাকে বললাম, এবার নিক্ষেপ কর তোমার লাঠিখানা। অতএব সঙ্গে সঙ্গে তা সে সমুদয়কে গিলতে লাগল, যা তারা বানিয়েছিল যাদু বলে।",
+      "topic": "জাদু",
+      "relevance": "STRONG_CONTEXT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আল-আরাফ) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "matched_concepts": [
+        "7:106-126"
+      ],
+      "found_by": [
+        "narrative"
+      ],
+      "confidence": 0.75,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 7,
+      "surah_name_ar": "الأعراف",
+      "surah_name_transliteration": "Al-A'raf",
+      "surah_name_bn": "উচু স্থান",
+      "ayah_number": 118,
+      "arabic": "فَوَقَعَ ٱلۡحَقُّ وَبَطَلَ مَا كَانُواْ يَعۡمَلُونَ",
+      "bangla": "সুতরাং এভাবে প্রকাশ হয়ে গেল সত্য বিষয় এবং ভুল প্রতিপন্ন হয়ে গেল যা কিছু তারা করেছিল।",
+      "topic": "জাদু",
+      "relevance": "STRONG_CONTEXT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আল-আরাফ) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "matched_concepts": [
+        "7:106-126"
+      ],
+      "found_by": [
+        "narrative"
+      ],
+      "confidence": 0.75,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 7,
+      "surah_name_ar": "الأعراف",
+      "surah_name_transliteration": "Al-A'raf",
+      "surah_name_bn": "উচু স্থান",
+      "ayah_number": 119,
+      "arabic": "فَغُلِبُواْ هُنَالِكَ وَٱنقَلَبُواْ صَٰغِرِينَ",
+      "bangla": "সুতরাং তারা সেখানেই পরাজিত হয়ে গেল এবং অতীব লাঞ্ছিত হল।",
+      "topic": "জাদু",
+      "relevance": "STRONG_CONTEXT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আল-আরাফ) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "matched_concepts": [
+        "7:106-126"
+      ],
+      "found_by": [
+        "narrative"
+      ],
+      "confidence": 0.75,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 7,
+      "surah_name_ar": "الأعراف",
+      "surah_name_transliteration": "Al-A'raf",
+      "surah_name_bn": "উচু স্থান",
+      "ayah_number": 121,
+      "arabic": "قَالُوٓاْ ءَامَنَّا بِرَبِّ ٱلۡعَٰلَمِينَ",
+      "bangla": "বলল, আমরা ঈমান আনছি মহা বিশ্বের পরওয়ারদেগারের প্রতি।",
+      "topic": "জাদু",
+      "relevance": "STRONG_CONTEXT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আল-আরাফ) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "matched_concepts": [
+        "7:106-126"
+      ],
+      "found_by": [
+        "narrative"
+      ],
+      "confidence": 0.75,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 7,
+      "surah_name_ar": "الأعراف",
+      "surah_name_transliteration": "Al-A'raf",
+      "surah_name_bn": "উচু স্থান",
+      "ayah_number": 122,
+      "arabic": "رَبِّ مُوسَىٰ وَهَٰرُونَ",
+      "bangla": "যিনি মূসা ও হারুনের পরওয়ারদেগার।",
+      "topic": "জাদু",
+      "relevance": "STRONG_CONTEXT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আল-আরাফ) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "matched_concepts": [
+        "7:106-126"
+      ],
+      "found_by": [
+        "narrative"
+      ],
+      "confidence": 0.75,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 7,
+      "surah_name_ar": "الأعراف",
+      "surah_name_transliteration": "Al-A'raf",
+      "surah_name_bn": "উচু স্থান",
+      "ayah_number": 123,
+      "arabic": "قَالَ فِرۡعَوۡنُ ءَامَنتُم بِهِۦ قَبۡلَ أَنۡ ءَاذَنَ لَكُمۡۖ إِنَّ هَٰذَا لَمَكۡرٞ مَّكَرۡتُمُوهُ فِي ٱلۡمَدِينَةِ لِتُخۡرِجُواْ مِنۡهَآ أَهۡلَهَاۖ فَسَوۡفَ تَعۡلَمُونَ",
+      "bangla": "ফেরাউন বলল, তোমরা কি (তাহলে) আমার অনুমতি দেয়ার আগেই ঈমান আনলে! এটা প্রতারণা, যা তোমরা এ নগরীতে প্রদর্শন করলে। যাতে করে এ শহরের অধিবাসীদিগকে শহর থেকে বের করে দিতে পার। সুতরাং তোমরা শীঘ্রই বুঝতে পারবে।",
+      "topic": "জাদু",
+      "relevance": "STRONG_CONTEXT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আল-আরাফ) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "matched_concepts": [
+        "7:106-126"
+      ],
+      "found_by": [
+        "narrative"
+      ],
+      "confidence": 0.75,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 7,
+      "surah_name_ar": "الأعراف",
+      "surah_name_transliteration": "Al-A'raf",
+      "surah_name_bn": "উচু স্থান",
+      "ayah_number": 124,
+      "arabic": "لَأُقَطِّعَنَّ أَيۡدِيَكُمۡ وَأَرۡجُلَكُم مِّنۡ خِلَٰفٖ ثُمَّ لَأُصَلِّبَنَّكُمۡ أَجۡمَعِينَ",
+      "bangla": "অবশ্যই আমি কেটে দেব তোমাদের হাত ও পা বিপরীত দিক থেকে। তারপর তোমাদের সবাইকে শূলীতে চড়িয়ে মারব।",
+      "topic": "জাদু",
+      "relevance": "STRONG_CONTEXT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আল-আরাফ) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "matched_concepts": [
+        "7:106-126"
+      ],
+      "found_by": [
+        "narrative"
+      ],
+      "confidence": 0.75,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 7,
+      "surah_name_ar": "الأعراف",
+      "surah_name_transliteration": "Al-A'raf",
+      "surah_name_bn": "উচু স্থান",
+      "ayah_number": 125,
+      "arabic": "قَالُوٓاْ إِنَّآ إِلَىٰ رَبِّنَا مُنقَلِبُونَ",
+      "bangla": "তারা বলল, আমাদেরকে তো মৃত্যুর পর নিজেদের পরওয়ারদেগারের নিকট ফিরে যেতেই হবে।",
+      "topic": "জাদু",
+      "relevance": "STRONG_CONTEXT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আল-আরাফ) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "matched_concepts": [
+        "7:106-126"
+      ],
+      "found_by": [
+        "narrative"
+      ],
+      "confidence": 0.75,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 7,
+      "surah_name_ar": "الأعراف",
+      "surah_name_transliteration": "Al-A'raf",
+      "surah_name_bn": "উচু স্থান",
+      "ayah_number": 126,
+      "arabic": "وَمَا تَنقِمُ مِنَّآ إِلَّآ أَنۡ ءَامَنَّا بِـَٔايَٰتِ رَبِّنَا لَمَّا جَآءَتۡنَاۚ رَبَّنَآ أَفۡرِغۡ عَلَيۡنَا صَبۡرٗا وَتَوَفَّنَا مُسۡلِمِينَ",
+      "bangla": "বস্তুতঃ আমাদের সাথে তোমার শত্রুতা তো এ কারণেই যে, আমরা ঈমান এনেছি আমাদের পরওয়ারদেগারের নিদর্শনসমূহের প্রতি যখন তা আমাদের নিকট পৌঁছেছে। হে আমাদের পরওয়ারদেগার আমাদের জন্য ধৈর্য্যের দ্বার খুলে দাও এবং আমাদেরকে মুসলমান হিসাবে মৃত্যু দান কর।",
+      "topic": "জাদু",
+      "relevance": "STRONG_CONTEXT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আল-আরাফ) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "matched_concepts": [
+        "7:106-126"
+      ],
+      "found_by": [
+        "narrative"
+      ],
+      "confidence": 0.75,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 10,
+      "surah_name_ar": "يونس",
+      "surah_name_transliteration": "Yunus",
+      "surah_name_bn": "নবী ইউনুস",
+      "ayah_number": 75,
+      "arabic": "ثُمَّ بَعَثۡنَا مِنۢ بَعۡدِهِم مُّوسَىٰ وَهَٰرُونَ إِلَىٰ فِرۡعَوۡنَ وَمَلَإِيْهِۦ بِـَٔايَٰتِنَا فَٱسۡتَكۡبَرُواْ وَكَانُواْ قَوۡمٗا مُّجۡرِمِينَ",
+      "bangla": "অতঃপর তাদের পেছনে পাঠিয়েছি আমি মূসা ও হারুনকে, ফেরাউন ও তার সর্দারের প্রতি স্বীয় নির্দেশাবলী সহকারে। অথচ তারা অহংকার করতে আরম্ভ করেছে।",
+      "topic": "জাদু",
+      "relevance": "STRONG_CONTEXT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা ইউনুস) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "matched_concepts": [
+        "10:75-82"
+      ],
+      "found_by": [
+        "narrative"
+      ],
+      "confidence": 0.75,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 10,
+      "surah_name_ar": "يونس",
+      "surah_name_transliteration": "Yunus",
+      "surah_name_bn": "নবী ইউনুস",
+      "ayah_number": 78,
+      "arabic": "قَالُوٓاْ أَجِئۡتَنَا لِتَلۡفِتَنَا عَمَّا وَجَدۡنَا عَلَيۡهِ ءَابَآءَنَا وَتَكُونَ لَكُمَا ٱلۡكِبۡرِيَآءُ فِي ٱلۡأَرۡضِ وَمَا نَحۡنُ لَكُمَا بِمُؤۡمِنِينَ",
+      "bangla": "তারা বলল, তুমি কি আমাদেরকে সে পথ থেকে ফিরিয়ে দিতে এসেছ যাতে আমরা পেয়েছি আমাদের বাপ-দাদাদেরকে? আর যাতে তোমরা দুইজন এদেশের সর্দারী পেয়ে যেতে পার? আমরা তোমাদেরকে কিছুতেই মানব না।",
+      "topic": "জাদু",
+      "relevance": "STRONG_CONTEXT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা ইউনুস) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "matched_concepts": [
+        "10:75-82"
+      ],
+      "found_by": [
+        "narrative"
+      ],
+      "confidence": 0.75,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 10,
+      "surah_name_ar": "يونس",
+      "surah_name_transliteration": "Yunus",
+      "surah_name_bn": "নবী ইউনুস",
+      "ayah_number": 82,
+      "arabic": "وَيُحِقُّ ٱللَّهُ ٱلۡحَقَّ بِكَلِمَٰتِهِۦ وَلَوۡ كَرِهَ ٱلۡمُجۡرِمُونَ",
+      "bangla": "আল্লাহ সত্যকে সত্যে পরিণত করেন স্বীয় নির্দেশে যদিও পাপীদের তা মনঃপুত নয়।",
+      "topic": "জাদু",
+      "relevance": "STRONG_CONTEXT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা ইউনুস) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "matched_concepts": [
+        "10:75-82"
+      ],
+      "found_by": [
+        "narrative"
+      ],
+      "confidence": 0.75,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 20,
+      "surah_name_ar": "طه",
+      "surah_name_transliteration": "Taha",
+      "surah_name_bn": "ত়া হা",
+      "ayah_number": 56,
+      "arabic": "وَلَقَدۡ أَرَيۡنَٰهُ ءَايَٰتِنَا كُلَّهَا فَكَذَّبَ وَأَبَىٰ",
+      "bangla": "আমি ফেরাউনকে আমার সব নিদর্শন দেখিয়ে দিয়েছি, অতঃপর সে মিথ্যা আরোপ করেছে এবং অমান্য করেছে।",
+      "topic": "জাদু",
+      "relevance": "STRONG_CONTEXT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা ত্বা-হা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "matched_concepts": [
+        "20:56-76"
+      ],
+      "found_by": [
+        "narrative"
+      ],
+      "confidence": 0.75,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 20,
+      "surah_name_ar": "طه",
+      "surah_name_transliteration": "Taha",
+      "surah_name_bn": "ত়া হা",
+      "ayah_number": 59,
+      "arabic": "قَالَ مَوۡعِدُكُمۡ يَوۡمُ ٱلزِّينَةِ وَأَن يُحۡشَرَ ٱلنَّاسُ ضُحٗى",
+      "bangla": "মূসা বললঃ তোমাদের ওয়াদার দিন উৎসবের দিন এবং পূর্বাহেߠলোকজন সমবেত হবে।",
+      "topic": "জাদু",
+      "relevance": "STRONG_CONTEXT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা ত্বা-হা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "matched_concepts": [
+        "20:56-76"
+      ],
+      "found_by": [
+        "narrative"
+      ],
+      "confidence": 0.75,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 20,
+      "surah_name_ar": "طه",
+      "surah_name_transliteration": "Taha",
+      "surah_name_bn": "ত়া হা",
+      "ayah_number": 60,
+      "arabic": "فَتَوَلَّىٰ فِرۡعَوۡنُ فَجَمَعَ كَيۡدَهُۥ ثُمَّ أَتَىٰ",
+      "bangla": "অতঃপর ফেরাউন প্রস্থান করল এবং তার সব কলাকৌশল জমা করল অতঃপর উপস্থিত হল।",
+      "topic": "জাদু",
+      "relevance": "STRONG_CONTEXT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা ত্বা-হা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "matched_concepts": [
+        "20:56-76"
+      ],
+      "found_by": [
+        "narrative"
+      ],
+      "confidence": 0.75,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 20,
+      "surah_name_ar": "طه",
+      "surah_name_transliteration": "Taha",
+      "surah_name_bn": "ত়া হা",
+      "ayah_number": 61,
+      "arabic": "قَالَ لَهُم مُّوسَىٰ وَيۡلَكُمۡ لَا تَفۡتَرُواْ عَلَى ٱللَّهِ كَذِبٗا فَيُسۡحِتَكُم بِعَذَابٖۖ وَقَدۡ خَابَ مَنِ ٱفۡتَرَىٰ",
+      "bangla": "মূসা (আঃ) তাদেরকে বললেনঃ দুর্ভাগ্য তোমাদের; তোমরা আল্লাহর প্রতি মিথ্যা আরোপ করো না। তাহলে তিনি তোমাদেরকে আযাব দ্বারা ধবংস করে দেবেন। যে মিথ্যা উদভাবন করে, সেই বিফল মনোরথ হয়েছে।",
+      "topic": "জাদু",
+      "relevance": "STRONG_CONTEXT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা ত্বা-হা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "matched_concepts": [
+        "20:56-76"
+      ],
+      "found_by": [
+        "narrative"
+      ],
+      "confidence": 0.75,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 20,
+      "surah_name_ar": "طه",
+      "surah_name_transliteration": "Taha",
+      "surah_name_bn": "ত়া হা",
+      "ayah_number": 62,
+      "arabic": "فَتَنَٰزَعُوٓاْ أَمۡرَهُم بَيۡنَهُمۡ وَأَسَرُّواْ ٱلنَّجۡوَىٰ",
+      "bangla": "অতঃপর তারা তাদের কাজে নিজেদের মধ্যে বিতর্ক করল এবং গোপনে পরামর্শ করল।",
+      "topic": "জাদু",
+      "relevance": "STRONG_CONTEXT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা ত্বা-হা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "matched_concepts": [
+        "20:56-76"
+      ],
+      "found_by": [
+        "narrative"
+      ],
+      "confidence": 0.75,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 20,
+      "surah_name_ar": "طه",
+      "surah_name_transliteration": "Taha",
+      "surah_name_bn": "ত়া হা",
+      "ayah_number": 64,
+      "arabic": "فَأَجۡمِعُواْ كَيۡدَكُمۡ ثُمَّ ٱئۡتُواْ صَفّٗاۚ وَقَدۡ أَفۡلَحَ ٱلۡيَوۡمَ مَنِ ٱسۡتَعۡلَىٰ",
+      "bangla": "অতএব, তোমরা তোমাদের কলাকৌশল সুসংহত কর, অতঃপর সারিবদ্ধ হয়ে আস। আজ যে জয়ী হবে, সেই সফলকাম হবে।",
+      "topic": "জাদু",
+      "relevance": "STRONG_CONTEXT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা ত্বা-হা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "matched_concepts": [
+        "20:56-76"
+      ],
+      "found_by": [
+        "narrative"
+      ],
+      "confidence": 0.75,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 20,
+      "surah_name_ar": "طه",
+      "surah_name_transliteration": "Taha",
+      "surah_name_bn": "ত়া হা",
+      "ayah_number": 65,
+      "arabic": "قَالُواْ يَٰمُوسَىٰٓ إِمَّآ أَن تُلۡقِيَ وَإِمَّآ أَن نَّكُونَ أَوَّلَ مَنۡ أَلۡقَىٰ",
+      "bangla": "তারা বললঃ হে মূসা, হয় তুমি নিক্ষেপ কর, না হয় আমরা প্রথমে নিক্ষেপ করি।",
+      "topic": "জাদু",
+      "relevance": "STRONG_CONTEXT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা ত্বা-হা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "matched_concepts": [
+        "20:56-76"
+      ],
+      "found_by": [
+        "narrative"
+      ],
+      "confidence": 0.75,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 20,
+      "surah_name_ar": "طه",
+      "surah_name_transliteration": "Taha",
+      "surah_name_bn": "ত়া হা",
+      "ayah_number": 67,
+      "arabic": "فَأَوۡجَسَ فِي نَفۡسِهِۦ خِيفَةٗ مُّوسَىٰ",
+      "bangla": "অতঃপর মূসা মনে মনে কিছুটা ভীতি অনুভব করলেন।",
+      "topic": "জাদু",
+      "relevance": "STRONG_CONTEXT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা ত্বা-হা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "matched_concepts": [
+        "20:56-76"
+      ],
+      "found_by": [
+        "narrative"
+      ],
+      "confidence": 0.75,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 20,
+      "surah_name_ar": "طه",
+      "surah_name_transliteration": "Taha",
+      "surah_name_bn": "ত়া হা",
+      "ayah_number": 68,
+      "arabic": "قُلۡنَا لَا تَخَفۡ إِنَّكَ أَنتَ ٱلۡأَعۡلَىٰ",
+      "bangla": "আমি বললামঃ ভয় করো না, তুমি বিজয়ী হবে।",
+      "topic": "জাদু",
+      "relevance": "STRONG_CONTEXT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা ত্বা-হা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "matched_concepts": [
+        "20:56-76"
+      ],
+      "found_by": [
+        "narrative"
+      ],
+      "confidence": 0.75,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 20,
+      "surah_name_ar": "طه",
+      "surah_name_transliteration": "Taha",
+      "surah_name_bn": "ত়া হা",
+      "ayah_number": 72,
+      "arabic": "قَالُواْ لَن نُّؤۡثِرَكَ عَلَىٰ مَا جَآءَنَا مِنَ ٱلۡبَيِّنَٰتِ وَٱلَّذِي فَطَرَنَاۖ فَٱقۡضِ مَآ أَنتَ قَاضٍۖ إِنَّمَا تَقۡضِي هَٰذِهِ ٱلۡحَيَوٰةَ ٱلدُّنۡيَآ",
+      "bangla": "যাদুকররা বললঃ আমাদের কাছে যে, সুস্পষ্ট প্রমাণ এসেছে তার উপর এবং যিনি আমাদের কে সৃষ্টি করেছেন, তাঁর উপর আমরা কিছুতেই তোমাকে প্রাধান্য দেব না। অতএব, তুমি যা ইচ্ছা করতে পার। তুমি তো শুধু এই পার্থিব জীবনেই যা করার করবে।",
+      "topic": "জাদু",
+      "relevance": "STRONG_CONTEXT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা ত্বা-হা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "matched_concepts": [
+        "20:56-76"
+      ],
+      "found_by": [
+        "narrative"
+      ],
+      "confidence": 0.75,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 20,
+      "surah_name_ar": "طه",
+      "surah_name_transliteration": "Taha",
+      "surah_name_bn": "ত়া হা",
+      "ayah_number": 74,
+      "arabic": "إِنَّهُۥ مَن يَأۡتِ رَبَّهُۥ مُجۡرِمٗا فَإِنَّ لَهُۥ جَهَنَّمَ لَا يَمُوتُ فِيهَا وَلَا يَحۡيَىٰ",
+      "bangla": "নিশ্চয়ই যে তার পালনকর্তার কাছে অপরাধী হয়ে আসে, তার জন্য রয়েছে জাহান্নাম। সেখানে সে মরবে না এবং বাঁচবেও না।",
+      "topic": "জাদু",
+      "relevance": "STRONG_CONTEXT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা ত্বা-হা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "matched_concepts": [
+        "20:56-76"
+      ],
+      "found_by": [
+        "narrative"
+      ],
+      "confidence": 0.75,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 20,
+      "surah_name_ar": "طه",
+      "surah_name_transliteration": "Taha",
+      "surah_name_bn": "ত়া হা",
+      "ayah_number": 75,
+      "arabic": "وَمَن يَأۡتِهِۦ مُؤۡمِنٗا قَدۡ عَمِلَ ٱلصَّـٰلِحَٰتِ فَأُوْلَـٰٓئِكَ لَهُمُ ٱلدَّرَجَٰتُ ٱلۡعُلَىٰ",
+      "bangla": "আর যারা তাঁর কাছে আসে এমন ঈমানদার হয়ে যায় সৎকর্ম সম্পাদন করেছে, তাদের জন্যে রয়েছে সুউচ্চ মর্তবা।",
+      "topic": "জাদু",
+      "relevance": "STRONG_CONTEXT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা ত্বা-হা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "matched_concepts": [
+        "20:56-76"
+      ],
+      "found_by": [
+        "narrative"
+      ],
+      "confidence": 0.75,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 20,
+      "surah_name_ar": "طه",
+      "surah_name_transliteration": "Taha",
+      "surah_name_bn": "ত়া হা",
+      "ayah_number": 76,
+      "arabic": "جَنَّـٰتُ عَدۡنٖ تَجۡرِي مِن تَحۡتِهَا ٱلۡأَنۡهَٰرُ خَٰلِدِينَ فِيهَاۚ وَذَٰلِكَ جَزَآءُ مَن تَزَكَّىٰ",
+      "bangla": "বসবাসের এমন পুষ্পোদ্যান রয়েছে যার তলদেশে দিয়ে নির্ঝরিণীসমূহ প্রবাহিত হয়। সেখানে তারা চিরকাল থাকবে এটা তাদেরই পুরস্কার, যারা পবিত্র হয়।",
+      "topic": "জাদু",
+      "relevance": "STRONG_CONTEXT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা ত্বা-হা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "matched_concepts": [
+        "20:56-76"
+      ],
+      "found_by": [
+        "narrative"
+      ],
+      "confidence": 0.75,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 26,
+      "surah_name_ar": "الشعراء",
+      "surah_name_transliteration": "Ash-Shu'ara",
+      "surah_name_bn": "কবি",
+      "ayah_number": 36,
+      "arabic": "قَالُوٓاْ أَرۡجِهۡ وَأَخَاهُ وَٱبۡعَثۡ فِي ٱلۡمَدَآئِنِ حَٰشِرِينَ",
+      "bangla": "তারা বলল, তাকে ও তার ভাইকে কিছু অবকাশ দিন এবং শহরে শহরে ঘোষক প্রেরণ করুন।",
+      "topic": "জাদু",
+      "relevance": "STRONG_CONTEXT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আশ-শুআরা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "matched_concepts": [
+        "26:34-51"
+      ],
+      "found_by": [
+        "narrative"
+      ],
+      "confidence": 0.75,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 26,
+      "surah_name_ar": "الشعراء",
+      "surah_name_transliteration": "Ash-Shu'ara",
+      "surah_name_bn": "কবি",
+      "ayah_number": 37,
+      "arabic": "يَأۡتُوكَ بِكُلِّ سَحَّارٍ عَلِيمٖ",
+      "bangla": "তারা যেন আপনার কাছে প্রত্যেকটি দক্ষ জাদুকর কে উপস্থিত করে।",
+      "topic": "জাদু",
+      "relevance": "STRONG_CONTEXT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আশ-শুআরা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "matched_concepts": [
+        "26:34-51"
+      ],
+      "found_by": [
+        "narrative"
+      ],
+      "confidence": 0.75,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 26,
+      "surah_name_ar": "الشعراء",
+      "surah_name_transliteration": "Ash-Shu'ara",
+      "surah_name_bn": "কবি",
+      "ayah_number": 39,
+      "arabic": "وَقِيلَ لِلنَّاسِ هَلۡ أَنتُم مُّجۡتَمِعُونَ",
+      "bangla": "এবং জনগণের মধ্যে ঘোষণা করা হল, তোমরাও সমবেত হও।",
+      "topic": "জাদু",
+      "relevance": "STRONG_CONTEXT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আশ-শুআরা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "matched_concepts": [
+        "26:34-51"
+      ],
+      "found_by": [
+        "narrative"
+      ],
+      "confidence": 0.75,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 26,
+      "surah_name_ar": "الشعراء",
+      "surah_name_transliteration": "Ash-Shu'ara",
+      "surah_name_bn": "কবি",
+      "ayah_number": 42,
+      "arabic": "قَالَ نَعَمۡ وَإِنَّكُمۡ إِذٗا لَّمِنَ ٱلۡمُقَرَّبِينَ",
+      "bangla": "ফেরাউন বলল, হঁ্যা এবং তখন তোমরা আমার নৈকট্যশীলদের অন্তর্ভুক্ত হবে।",
+      "topic": "জাদু",
+      "relevance": "STRONG_CONTEXT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আশ-শুআরা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "matched_concepts": [
+        "26:34-51"
+      ],
+      "found_by": [
+        "narrative"
+      ],
+      "confidence": 0.75,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 26,
+      "surah_name_ar": "الشعراء",
+      "surah_name_transliteration": "Ash-Shu'ara",
+      "surah_name_bn": "কবি",
+      "ayah_number": 43,
+      "arabic": "قَالَ لَهُم مُّوسَىٰٓ أَلۡقُواْ مَآ أَنتُم مُّلۡقُونَ",
+      "bangla": "মূসা (আঃ) তাদেরকে বললেন, নিক্ষেপ কর তোমরা যা নিক্ষেপ করবে।",
+      "topic": "জাদু",
+      "relevance": "STRONG_CONTEXT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আশ-শুআরা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "matched_concepts": [
+        "26:34-51"
+      ],
+      "found_by": [
+        "narrative"
+      ],
+      "confidence": 0.75,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 26,
+      "surah_name_ar": "الشعراء",
+      "surah_name_transliteration": "Ash-Shu'ara",
+      "surah_name_bn": "কবি",
+      "ayah_number": 44,
+      "arabic": "فَأَلۡقَوۡاْ حِبَالَهُمۡ وَعِصِيَّهُمۡ وَقَالُواْ بِعِزَّةِ فِرۡعَوۡنَ إِنَّا لَنَحۡنُ ٱلۡغَٰلِبُونَ",
+      "bangla": "অতঃপর তারা তাদের রশি ও লাঠি নিক্ষেপ করল এবং বলল, ফেরাউনের ইযযতের কসম, আমরাই বিজয়ী হব।",
+      "topic": "জাদু",
+      "relevance": "STRONG_CONTEXT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আশ-শুআরা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "matched_concepts": [
+        "26:34-51"
+      ],
+      "found_by": [
+        "narrative"
+      ],
+      "confidence": 0.75,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 26,
+      "surah_name_ar": "الشعراء",
+      "surah_name_transliteration": "Ash-Shu'ara",
+      "surah_name_bn": "কবি",
+      "ayah_number": 45,
+      "arabic": "فَأَلۡقَىٰ مُوسَىٰ عَصَاهُ فَإِذَا هِيَ تَلۡقَفُ مَا يَأۡفِكُونَ",
+      "bangla": "অতঃপর মূসা তাঁর লাঠি নিক্ষেপ করল, হঠাৎ তা তাদের অলীক কীর্তিগুলোকে গ্রাস করতে লাগল।",
+      "topic": "জাদু",
+      "relevance": "STRONG_CONTEXT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আশ-শুআরা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "matched_concepts": [
+        "26:34-51"
+      ],
+      "found_by": [
+        "narrative"
+      ],
+      "confidence": 0.75,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 26,
+      "surah_name_ar": "الشعراء",
+      "surah_name_transliteration": "Ash-Shu'ara",
+      "surah_name_bn": "কবি",
+      "ayah_number": 47,
+      "arabic": "قَالُوٓاْ ءَامَنَّا بِرَبِّ ٱلۡعَٰلَمِينَ",
+      "bangla": "তারা বলল, আমরা রাব্বুল আলামীনের প্রতি বিশ্বাস স্থাপন করলাম।",
+      "topic": "জাদু",
+      "relevance": "STRONG_CONTEXT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আশ-শুআরা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "matched_concepts": [
+        "26:34-51"
+      ],
+      "found_by": [
+        "narrative"
+      ],
+      "confidence": 0.75,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 26,
+      "surah_name_ar": "الشعراء",
+      "surah_name_transliteration": "Ash-Shu'ara",
+      "surah_name_bn": "কবি",
+      "ayah_number": 48,
+      "arabic": "رَبِّ مُوسَىٰ وَهَٰرُونَ",
+      "bangla": "যিনি মূসা ও হারুনের রব।",
+      "topic": "জাদু",
+      "relevance": "STRONG_CONTEXT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আশ-শুআরা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "matched_concepts": [
+        "26:34-51"
+      ],
+      "found_by": [
+        "narrative"
+      ],
+      "confidence": 0.75,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 26,
+      "surah_name_ar": "الشعراء",
+      "surah_name_transliteration": "Ash-Shu'ara",
+      "surah_name_bn": "কবি",
+      "ayah_number": 50,
+      "arabic": "قَالُواْ لَا ضَيۡرَۖ إِنَّآ إِلَىٰ رَبِّنَا مُنقَلِبُونَ",
+      "bangla": "তারা বলল, কোন ক্ষতি নেই। আমরা আমাদের পালনকর্তার কাছে প্রত্যাবর্তন করব।",
+      "topic": "জাদু",
+      "relevance": "STRONG_CONTEXT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আশ-শুআরা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "matched_concepts": [
+        "26:34-51"
+      ],
+      "found_by": [
+        "narrative"
+      ],
+      "confidence": 0.75,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    },
+    {
+      "surah_number": 26,
+      "surah_name_ar": "الشعراء",
+      "surah_name_transliteration": "Ash-Shu'ara",
+      "surah_name_bn": "কবি",
+      "ayah_number": 51,
+      "arabic": "إِنَّا نَطۡمَعُ أَن يَغۡفِرَ لَنَا رَبُّنَا خَطَٰيَٰنَآ أَن كُنَّآ أَوَّلَ ٱلۡمُؤۡمِنِينَ",
+      "bangla": "আমরা আশা করি, আমাদের পালনকর্তা আমাদের ক্রটি-বিচ্যুতি মার্জনা করবেন। কারণ, আমরা বিশ্বাস স্থাপনকারীদের মধ্যে অগ্রণী।",
+      "topic": "জাদু",
+      "relevance": "STRONG_CONTEXT",
+      "decision": "include",
+      "reason_bn": "এই আয়াতটি মূসা (আ.) ও ফিরআউনের জাদুকরদের প্রতিযোগিতার ঘটনা (সূরা আশ-শুআরা) এই ঘটনার অংশ; সরাসরি \"জাদু\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "matched_concepts": [
+        "26:34-51"
+      ],
+      "found_by": [
+        "narrative"
+      ],
+      "confidence": 0.75,
+      "review_required": false,
+      "quran_source": "Uthmani script, The Noble Qur'an Encyclopedia (quranenc.com)",
+      "translation_source": "Bangla translation by Dr. Muhiuddin Khan (via tanzil.net)",
+      "dataset_version": "quran-json@3.1.2 / merged 2026"
+    }
+  ],
+  "related": [],
+  "completeness_report": {
+    "topic": "জাদু",
+    "generated_at": "2026-09-15T00:09:25.130Z",
+    "total_ayahs_scanned": 6236,
+    "keyword_candidates": 51,
+    "narrative_candidates": 68,
+    "total_candidates_before_dedup": 119,
+    "total_candidates_after_dedup": 94,
+    "final_direct": 51,
+    "final_strong_context": 43,
+    "final_related": 0,
+    "rejected": 0,
+    "needs_human_review": 0,
+    "audit_checklist": [
+      {
+        "question": "Direct Arabic keywords কি সব search করেছি?",
+        "answer": "হ্যাঁ — টপিক ম্যাপের verified arabic_terms লিস্ট অনুযায়ী সম্পূর্ণ ৬২৩৬ আয়াতের কর্পাসে exact/whole-word search করা হয়েছে।"
+      },
+      {
+        "question": "Morphological variations (root surface forms) কি search করেছি?",
+        "answer": "হ্যাঁ — arabic_terms লিস্টে root-এর একাধিক surface form (উপসর্গ/প্রত্যয়সহ) অন্তর্ভুক্ত, প্রতিটি scripts/discover-forms.ts দিয়ে কর্পাসে verify করে নেওয়া হয়েছে।"
+      },
+      {
+        "question": "Synonyms/concepts কি search করেছি?",
+        "answer": "এই টপিকের জন্য কোনো পৃথক concept/synonym root কনফিগার করা হয়নি (শুধুমাত্র primary root-ই যথেষ্ট প্রাসঙ্গিক বিবেচিত হয়েছে)।"
+      },
+      {
+        "question": "Narrative/event context কি search করেছি?",
+        "answer": "হ্যাঁ — curated narrative_refs passage range অনুযায়ী সংশ্লিষ্ট ঘটনার সব আয়াত পরীক্ষা করা হয়েছে।"
+      },
+      {
+        "question": "কোনো আয়াত শুধু keyword না থাকার কারণে বাদ পড়েছে কি?",
+        "answer": "না — keyword ছাড়াও concept ও narrative layer সমান্তরালে সম্পূর্ণ কর্পাসে চালানো হয়েছে, তাই কোনো layer অন্য layer-কে \"শর্টসার্কিট\" করে বাদ দেয়নি।"
+      },
+      {
+        "question": "কোনো weak association ভুল করে include হয়েছে কি?",
+        "answer": "0 টি candidate confidence threshold-এর নিচে থাকায় REVIEW_REQUIRED হিসেবে চিহ্নিত হয়েছে এবং চূড়ান্ত DIRECT/STRONG_CONTEXT তালিকায় স্বয়ংক্রিয়ভাবে রাখা হয়নি।"
+      }
+    ]
+  }
+}

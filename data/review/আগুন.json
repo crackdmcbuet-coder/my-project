@@ -1,0 +1,1972 @@
+{
+  "topic": "আগুন",
+  "generated_at": "2026-09-15T00:09:28.184Z",
+  "review_queue": [],
+  "excluded_candidates": [],
+  "audit_trail": [
+    {
+      "surah_number": 2,
+      "ayah_number": 17,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "نارا"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نارا\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 2,
+      "ayah_number": 24,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 2,
+      "ayah_number": 39,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 2,
+      "ayah_number": 80,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 2,
+      "ayah_number": 81,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 2,
+      "ayah_number": 126,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 2,
+      "ayah_number": 167,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 2,
+      "ayah_number": 174,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 2,
+      "ayah_number": 175,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 2,
+      "ayah_number": 201,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 2,
+      "ayah_number": 217,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 2,
+      "ayah_number": 221,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 2,
+      "ayah_number": 257,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 2,
+      "ayah_number": 266,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "نار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 2,
+      "ayah_number": 275,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 3,
+      "ayah_number": 10,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 3,
+      "ayah_number": 16,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 3,
+      "ayah_number": 24,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 3,
+      "ayah_number": 103,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 3,
+      "ayah_number": 116,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 3,
+      "ayah_number": 131,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 3,
+      "ayah_number": 151,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 3,
+      "ayah_number": 183,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 3,
+      "ayah_number": 185,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 3,
+      "ayah_number": 191,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 3,
+      "ayah_number": 192,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 4,
+      "ayah_number": 10,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "نارا"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نارا\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 4,
+      "ayah_number": 14,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "نارا"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نارا\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 4,
+      "ayah_number": 30,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "نارا"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نارا\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 4,
+      "ayah_number": 56,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "نارا"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نارا\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 4,
+      "ayah_number": 145,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 5,
+      "ayah_number": 29,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 5,
+      "ayah_number": 37,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 5,
+      "ayah_number": 64,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "نارا"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نارا\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 5,
+      "ayah_number": 72,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 6,
+      "ayah_number": 27,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 6,
+      "ayah_number": 128,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 7,
+      "ayah_number": 12,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "نار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 7,
+      "ayah_number": 36,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 7,
+      "ayah_number": 38,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 7,
+      "ayah_number": 44,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 7,
+      "ayah_number": 47,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 7,
+      "ayah_number": 50,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 8,
+      "ayah_number": 14,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 9,
+      "ayah_number": 17,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 9,
+      "ayah_number": 35,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "نار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 9,
+      "ayah_number": 63,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "نار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 9,
+      "ayah_number": 68,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "نار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 9,
+      "ayah_number": 81,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "نار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 9,
+      "ayah_number": 109,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "نار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 10,
+      "ayah_number": 8,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 10,
+      "ayah_number": 27,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 11,
+      "ayah_number": 16,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 11,
+      "ayah_number": 17,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "فالنار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"فالنار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 11,
+      "ayah_number": 98,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 11,
+      "ayah_number": 106,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 11,
+      "ayah_number": 113,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 13,
+      "ayah_number": 5,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 13,
+      "ayah_number": 17,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 13,
+      "ayah_number": 35,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 14,
+      "ayah_number": 30,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 14,
+      "ayah_number": 50,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 15,
+      "ayah_number": 27,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "نار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 16,
+      "ayah_number": 62,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 18,
+      "ayah_number": 29,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "نارا"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نارا\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 18,
+      "ayah_number": 53,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 18,
+      "ayah_number": 96,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "نارا"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نارا\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 20,
+      "ayah_number": 10,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار",
+        "نارا"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\", \"نارا\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 21,
+      "ayah_number": 39,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 21,
+      "ayah_number": 68,
+      "found_by": [
+        "narrative"
+      ],
+      "matched_concepts": [
+        "21:68-70"
+      ],
+      "decision": "include",
+      "relevance": "STRONG_CONTEXT",
+      "reason_bn": "এই আয়াতটি ইবরাহীম (আ.)-কে আগুনে নিক্ষেপ করার ঘটনা ও আগুনকে শীতল হওয়ার নির্দেশ (সূরা আল-আম্বিয়া)। ২১:৬৯ ইতিমধ্যে সরাসরি কীওয়ার্ড দ্বারা DIRECT হিসেবে ধরা পড়ে; ৬৮ ও ৭০ প্রাসঙ্গিক STRONG_CONTEXT। এই ঘটনার অংশ; সরাসরি \"আগুন\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "confidence": 0.75
+    },
+    {
+      "surah_number": 21,
+      "ayah_number": 69,
+      "found_by": [
+        "keyword",
+        "narrative"
+      ],
+      "matched_concepts": [
+        "يانار",
+        "21:68-70"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"يانار\")। এই আয়াতটি ইবরাহীম (আ.)-কে আগুনে নিক্ষেপ করার ঘটনা ও আগুনকে শীতল হওয়ার নির্দেশ (সূরা আল-আম্বিয়া)। ২১:৬৯ ইতিমধ্যে সরাসরি কীওয়ার্ড দ্বারা DIRECT হিসেবে ধরা পড়ে; ৬৮ ও ৭০ প্রাসঙ্গিক STRONG_CONTEXT। এই ঘটনার অংশ; সরাসরি \"আগুন\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "confidence": 0.98
+    },
+    {
+      "surah_number": 21,
+      "ayah_number": 70,
+      "found_by": [
+        "narrative"
+      ],
+      "matched_concepts": [
+        "21:68-70"
+      ],
+      "decision": "include",
+      "relevance": "STRONG_CONTEXT",
+      "reason_bn": "এই আয়াতটি ইবরাহীম (আ.)-কে আগুনে নিক্ষেপ করার ঘটনা ও আগুনকে শীতল হওয়ার নির্দেশ (সূরা আল-আম্বিয়া)। ২১:৬৯ ইতিমধ্যে সরাসরি কীওয়ার্ড দ্বারা DIRECT হিসেবে ধরা পড়ে; ৬৮ ও ৭০ প্রাসঙ্গিক STRONG_CONTEXT। এই ঘটনার অংশ; সরাসরি \"আগুন\" শব্দ না থাকলেও এটি ঘটনার গুরুত্বপূর্ণ প্রাসঙ্গিক অংশ (STRONG_CONTEXT)।",
+      "confidence": 0.75
+    },
+    {
+      "surah_number": 22,
+      "ayah_number": 19,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "نار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 22,
+      "ayah_number": 72,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 23,
+      "ayah_number": 104,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 24,
+      "ayah_number": 35,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "نار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 24,
+      "ayah_number": 57,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 27,
+      "ayah_number": 7,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "نارا"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نارا\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 27,
+      "ayah_number": 8,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 27,
+      "ayah_number": 90,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 28,
+      "ayah_number": 29,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار",
+        "نارا"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\", \"نارا\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 28,
+      "ayah_number": 41,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 29,
+      "ayah_number": 24,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 29,
+      "ayah_number": 25,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 32,
+      "ayah_number": 20,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 33,
+      "ayah_number": 66,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 34,
+      "ayah_number": 42,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 35,
+      "ayah_number": 36,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "نار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 36,
+      "ayah_number": 80,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "نارا"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نارا\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 38,
+      "ayah_number": 27,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 38,
+      "ayah_number": 59,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 38,
+      "ayah_number": 61,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 38,
+      "ayah_number": 64,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 38,
+      "ayah_number": 76,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "نار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 39,
+      "ayah_number": 8,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 39,
+      "ayah_number": 16,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 39,
+      "ayah_number": 19,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 40,
+      "ayah_number": 6,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 40,
+      "ayah_number": 41,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 40,
+      "ayah_number": 43,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 40,
+      "ayah_number": 46,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 40,
+      "ayah_number": 47,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 40,
+      "ayah_number": 49,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 40,
+      "ayah_number": 72,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 41,
+      "ayah_number": 19,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 41,
+      "ayah_number": 24,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "فالنار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"فالنار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 41,
+      "ayah_number": 28,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 41,
+      "ayah_number": 40,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 45,
+      "ayah_number": 34,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 46,
+      "ayah_number": 20,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 46,
+      "ayah_number": 34,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 47,
+      "ayah_number": 12,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "والنار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"والنار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 47,
+      "ayah_number": 15,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 51,
+      "ayah_number": 13,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 52,
+      "ayah_number": 13,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "نار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 52,
+      "ayah_number": 14,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 54,
+      "ayah_number": 48,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 55,
+      "ayah_number": 15,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "نار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 55,
+      "ayah_number": 35,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "نار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 56,
+      "ayah_number": 71,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 57,
+      "ayah_number": 15,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 58,
+      "ayah_number": 17,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 59,
+      "ayah_number": 3,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 59,
+      "ayah_number": 17,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 59,
+      "ayah_number": 20,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 64,
+      "ayah_number": 10,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 66,
+      "ayah_number": 6,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "نارا"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نارا\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 66,
+      "ayah_number": 10,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 71,
+      "ayah_number": 25,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "نارا"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نارا\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 72,
+      "ayah_number": 23,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "نار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 74,
+      "ayah_number": 31,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 85,
+      "ayah_number": 5,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 87,
+      "ayah_number": 12,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "النار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"النار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 88,
+      "ayah_number": 4,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "نارا"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نارا\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 90,
+      "ayah_number": 20,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "نار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 92,
+      "ayah_number": 14,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "نارا"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نارا\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 98,
+      "ayah_number": 6,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "نار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 101,
+      "ayah_number": 11,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "نار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 104,
+      "ayah_number": 6,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "نار"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نار\")।",
+      "confidence": 0.95
+    },
+    {
+      "surah_number": 111,
+      "ayah_number": 3,
+      "found_by": [
+        "keyword"
+      ],
+      "matched_concepts": [
+        "نارا"
+      ],
+      "decision": "include",
+      "relevance": "DIRECT",
+      "reason_bn": "এই আয়াতে সরাসরি \"আগুন\" সম্পর্কিত আরবি শব্দ ব্যবহৃত হয়েছে (\"نارا\")।",
+      "confidence": 0.95
+    }
+  ]
+}
