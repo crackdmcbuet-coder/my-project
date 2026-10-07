@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+# your book files stay local; reviewed data/dreams.json is yours to commit or not
+data/books/*
+!data/books/.gitkeep
+data/dreams.generated.json

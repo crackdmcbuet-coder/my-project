@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>স্বপ্নের ব্যাখ্যা</title>
+<style>
+  :root { --bg:#fafaf7; --fg:#1d2420; --muted:#5b665f; --card:#fff; --line:#dfe4de; --accent:#1f6b4a; --warn:#8a5a00; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#141a16; --fg:#e7ede9; --muted:#9aa89f; --card:#1c241f; --line:#2c3730; --accent:#5fc496; --warn:#e0b45a; }
+  }
+  body { margin:0; background:var(--bg); color:var(--fg); font:17px/1.7 system-ui, "Noto Sans Bengali", sans-serif; }
+  main { max-width:640px; margin:0 auto; padding:24px 16px 48px; }
+  h1 { font-size:1.5rem; margin:0 0 4px; }
+  p.sub { color:var(--muted); margin:0 0 20px; }
+  textarea { width:100%; box-sizing:border-box; min-height:120px; padding:12px; font:inherit; color:inherit;
+             background:var(--card); border:1px solid var(--line); border-radius:10px; resize:vertical; }
+  button { margin-top:12px; padding:10px 22px; font:inherit; font-weight:600; color:#fff; background:var(--accent);
+           border:0; border-radius:10px; cursor:pointer; }
+  button:disabled { opacity:.6; cursor:wait; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:14px 16px; margin-top:16px; }
+  .card h2 { font-size:1.05rem; margin:0 0 6px; }
+  .card .src { color:var(--muted); font-size:.85rem; margin-top:8px; }
+  .note { color:var(--muted); font-size:.9rem; margin-top:16px; }
+  .err { color:var(--warn); margin-top:16px; }
+  .interp { white-space:pre-wrap; }
+</style>
+</head>
+<body>
+<main>
+  <h1>স্বপ্নের ব্যাখ্যা</h1>
+  <p class="sub">আপনার স্বপ্নটি নিজের ভাষায় লিখুন। বইয়ে মিল থাকলে হুবহু ব্যাখ্যা দেখানো হবে।</p>
+  <form id="f">
+    <textarea id="t" maxlength="1000" placeholder="যেমন: স্বপ্নে দেখলাম একটা সাপ আমার দিকে আসছে..." required></textarea>
+    <button id="b" type="submit">ব্যাখ্যা দেখুন</button>
+  </form>
+  <div id="out" aria-live="polite"></div>
+</main>
+<script>
+  const f = document.getElementById("f"), t = document.getElementById("t"),
+        b = document.getElementById("b"), out = document.getElementById("out");
+
+  function el(tag, cls, text) {
+    const n = document.createElement(tag);
+    if (cls) n.className = cls;
+    if (text !== undefined) n.textContent = text;   // textContent only: never inject HTML
+    return n;
+  }
+
+  f.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    b.disabled = true; out.replaceChildren();
+    try {
+      const r = await fetch("/api/dream", {
+        method: "POST", headers: {"content-type": "application/json"},
+        body: JSON.stringify({text: t.value.trim()}),
+      });
+      const data = await r.json();
+      if (!r.ok) { out.append(el("p", "err", data.detail || "কিছু একটা সমস্যা হয়েছে।")); return; }
+      if (data.status === "not_found") { out.append(el("p", "card", data.message)); return; }
+      for (const m of data.matches) {
+        const card = el("div", "card");
+        card.append(el("h2", "", m.dream), el("div", "interp", m.interpretation));
+        if (m.source) card.append(el("div", "src", m.source));
+        out.append(card);
+      }
+      out.append(el("p", "note", data.message));
+    } catch (err) {
+      out.append(el("p", "err", "সংযোগে সমস্যা হয়েছে। আবার চেষ্টা করুন।"));
+    } finally { b.disabled = false; }
+  });
+</script>
+</body>
+</html>
