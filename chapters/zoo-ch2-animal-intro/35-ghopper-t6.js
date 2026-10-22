@@ -11,15 +11,15 @@ CHAPTER.sections.push({
 <path d="M12 42 H400 V80 H12 V118 H400 V150 H12 V190 H300" fill="none" stroke="#bdbdbd" stroke-dasharray="4 4"/>
 <text class="t" x="8" y="16">অগ্রান্ত্র</text>
 <rect x="6" y="22" width="408" height="40" rx="8" fill="#ffe0b2" stroke="#e65100"/>
-<g class="c" fill="#fff" stroke="#bf360c"><rect x="14" y="28" width="70" height="28" rx="5" fill="#fff"/><rect x="96" y="28" width="64" height="28" rx="5" fill="#fff"/><rect x="172" y="28" width="72" height="28" rx="5" fill="#fff"/><rect x="256" y="28" width="56" height="28" rx="5" fill="#fff"/><rect x="324" y="28" width="72" height="28" rx="5" fill="#fff"/></g>
+<g class="c" fill="#fff" stroke="#bf360c"><rect x="14" y="28" width="70" height="28" rx="5" fill="#fff"/><rect data-p="fore pharynx" x="96" y="28" width="64" height="28" rx="5" fill="#fff"/><rect x="172" y="28" width="72" height="28" rx="5" fill="#fff"/><rect x="256" y="28" width="56" height="28" rx="5" fill="#fff"/><rect x="324" y="28" width="72" height="28" rx="5" fill="#fff"/></g>
 <g class="c"><text x="20" y="47">মুখছিদ্র</text><text x="106" y="47">গলবিল</text><text x="182" y="47">গ্রাসনালি</text><text x="270" y="47">ক্রপ</text><text x="334" y="47">গিজার্ড</text></g>
 <text class="t" x="8" y="92">মধ্যান্ত্র (মেসেন্টেরন)</text>
 <rect x="6" y="98" width="408" height="40" rx="8" fill="#c8e6c9" stroke="#2e7d32"/>
 <g stroke="#1b5e20" fill="#fff"><rect x="14" y="104" width="92" height="28" rx="5"/><rect x="116" y="104" width="170" height="28" rx="5"/><rect x="296" y="104" width="110" height="28" rx="5"/></g>
 <g class="c"><text x="22" y="123">মেসেন্টেরন</text><text x="124" y="123">১২টি হেপাটিক সিকা = ৬ জোড়া</text><text x="302" y="123">পেরিট্রফিক পর্দা</text></g>
 <text class="t" x="8" y="164">পশ্চাদন্ত্র (প্রোক্টোডিয়াম)</text>
-<rect x="6" y="170" width="408" height="40" rx="8" fill="#bbdefb" stroke="#1565c0"/>
-<g stroke="#0d47a1" fill="#fff"><rect x="14" y="176" width="80" height="28" rx="5"/><rect x="108" y="176" width="80" height="28" rx="5"/><rect x="202" y="176" width="80" height="28" rx="5"/></g>
+<rect data-p="hind" x="6" y="170" width="408" height="40" rx="8" fill="#bbdefb" stroke="#1565c0"/>
+<g stroke="#0d47a1" fill="#fff"><rect data-p="hind ileum" x="14" y="176" width="80" height="28" rx="5"/><rect x="108" y="176" width="80" height="28" rx="5"/><rect data-p="hind rectum" x="202" y="176" width="80" height="28" rx="5"/></g>
 <g class="c"><text x="30" y="195">ইলিয়াম</text><text x="128" y="195">কোলন</text><text x="220" y="195">রেক্টাম</text></g>
 <text class="s" x="8" y="232">পেরিট্রফিক পর্দা মেসেন্টেরন ও হেপাটিক সিকার ভেতরের দেয়াল ঢাকে।</text>
 <circle r="6" fill="#d84315"><animateMotion dur="11s" repeatCount="indefinite" path="M12 42 H400 V80 H12 V118 H400 V150 H12 V190 H300"/></circle>
@@ -54,12 +54,12 @@ CHAPTER.sections.push({
 .h1{animation-delay:0s}.h2{animation-delay:.15s}.h3{animation-delay:.3s}.h4{animation-delay:.45s}.h5{animation-delay:.6s}.h6{animation-delay:.75s}.h7{animation-delay:.9s}
 </style>
 <rect width="420" height="250" fill="#fafafa"/>
-<rect x="130" y="10" width="160" height="30" rx="8" fill="#e1bee7" stroke="#6a1b9a"/><text class="t" x="140" y="30">গ্যাংলিওন → বিভব তৈরি</text>
+<rect data-p="gang" x="130" y="10" width="160" height="30" rx="8" fill="#e1bee7" stroke="#6a1b9a"/><text class="t" x="140" y="30">গ্যাংলিওন → বিভব তৈরি</text>
 <path d="M210 40 V78" stroke="#6a1b9a" stroke-width="2"/>
 <g stroke="#b71c1c" stroke-width="1.5">
 <rect class="ch h1" x="30" y="80" width="48" height="40" rx="8" fill="#ef9a9a"/><rect class="ch h2" x="82" y="80" width="48" height="40" rx="8" fill="#ef9a9a"/><rect class="ch h3" x="134" y="80" width="48" height="40" rx="8" fill="#ef9a9a"/><rect class="ch h4" x="186" y="80" width="48" height="40" rx="8" fill="#ef9a9a"/><rect class="ch h5" x="238" y="80" width="48" height="40" rx="8" fill="#ef9a9a"/><rect class="ch h6" x="290" y="80" width="48" height="40" rx="8" fill="#ef9a9a"/><rect class="ch h7" x="342" y="80" width="48" height="40" rx="8" fill="#ef9a9a"/></g>
 <g class="c" text-anchor="middle"><text x="54" y="105">১</text><text x="106" y="105">২</text><text x="158" y="105">৩</text><text x="210" y="105">৪</text><text x="262" y="105">৫</text><text x="314" y="105">৬</text><text x="366" y="105">৭</text></g>
-<g fill="#ffcc80" stroke="#e65100"><path d="M30 160 L78 160 L54 124Z"/><path d="M82 160 L130 160 L106 124Z"/><path d="M134 160 L182 160 L158 124Z"/><path d="M186 160 L234 160 L210 124Z"/><path d="M238 160 L286 160 L262 124Z"/><path d="M290 160 L338 160 L314 124Z"/><path d="M342 160 L390 160 L366 124Z"/></g>
+<g data-p="alary" fill="#ffcc80" stroke="#e65100"><path d="M30 160 L78 160 L54 124Z"/><path d="M82 160 L130 160 L106 124Z"/><path d="M134 160 L182 160 L158 124Z"/><path d="M186 160 L234 160 L210 124Z"/><path d="M238 160 L286 160 L262 124Z"/><path d="M290 160 L338 160 L314 124Z"/><path d="M342 160 L390 160 L366 124Z"/></g>
 <text class="s" x="30" y="176">অ্যালারি পেশি = ত্রিকোণা পাখা</text>
 <text class="t" x="30" y="203">৭টি প্রকোষ্ঠ · হিমোসিল ভর্তি হিমোলিম্ফ (কণিকা = হিমোসাইট)</text>
 <text class="t" x="30" y="226">পুরো দেহে একবার রক্ত ঘুরতে ৩০–৬০ মিনিট</text>
@@ -95,7 +95,7 @@ CHAPTER.sections.push({
 <rect width="420" height="250" fill="#fafafa"/>
 <line x1="208" y1="8" x2="208" y2="206" stroke="#cfd8dc" stroke-dasharray="3 4"/>
 <rect x="10" y="22" width="75" height="16" fill="#ffe0b2" stroke="#e65100"/><rect x="105" y="22" width="90" height="16" fill="#ffe0b2" stroke="#e65100"/>
-<circle cx="95" cy="30" r="14" fill="none" stroke="#6a1b9a" stroke-width="3"/>
+<circle data-p="perit" cx="95" cy="30" r="14" fill="none" stroke="#6a1b9a" stroke-width="3"/>
 <text class="t" x="30" y="14">স্পাইরাকল</text><text class="p" x="114" y="34">পেরিট্রিম</text>
 <rect x="90" y="38" width="10" height="70" fill="#bbdefb" stroke="#1565c0"/>
 <text class="s" x="106" y="72">ট্রাকিয়া</text>
@@ -107,7 +107,7 @@ CHAPTER.sections.push({
 <circle r="3.5" fill="#0277bd"><animateMotion dur="3s" begin="2s" repeatCount="indefinite" path="M95 14 V108 L145 168 L150 180"/></circle>
 <rect x="302" y="24" width="26" height="150" rx="10" fill="#ffe0b2" stroke="#e65100"/>
 <text class="t" x="340" y="46">মধ্যান্ত্র</text><text class="t" x="340" y="130">পশ্চাদন্ত্র</text>
-<g stroke="#2e7d32" stroke-width="2.5" fill="none"><path d="M302 82 q-20 -18 -40 0 t-40 0 t-12 0"/><path d="M328 90 q20 18 40 0 t30 0"/></g>
+<g data-p="malp" stroke="#2e7d32" stroke-width="2.5" fill="none"><path d="M302 82 q-20 -18 -40 0 t-40 0 t-12 0"/><path d="M328 90 q20 18 40 0 t30 0"/></g>
 <text class="s" x="212" y="38" font-size="10">ম্যালপিজিয়ান নালিকা</text><text class="s" x="212" y="52" font-size="10">(প্রায় ২৫ মিমি)</text>
 <circle r="3.5" fill="#6d4c41"><animateMotion dur="4s" repeatCount="indefinite" path="M210 82 q20 -18 40 0 t40 0 L315 82 V160"/></circle>
 <text class="s" x="332" y="172">রেক্টাম → বাইরে</text>
@@ -143,12 +143,12 @@ CHAPTER.sections.push({
 @keyframes fl{to{stroke-dashoffset:-24}}
 </style>
 <rect width="420" height="250" fill="#fafafa"/>
-<path d="M158 44 Q190 6 222 44Z" fill="#b3e5fc" stroke="#0277bd" stroke-width="1.5"/>
+<path data-p="cornea" d="M158 44 Q190 6 222 44Z" fill="#b3e5fc" stroke="#0277bd" stroke-width="1.5"/>
 <rect x="160" y="44" width="10" height="16" fill="#ffe082" stroke="#f9a825"/><rect x="210" y="44" width="10" height="16" fill="#ffe082" stroke="#f9a825"/>
-<path d="M172 44 H208 L190 92Z" fill="#fff9c4" stroke="#827717"/>
+<path data-p="cone" d="M172 44 H208 L190 92Z" fill="#fff9c4" stroke="#827717"/>
 <rect x="160" y="60" width="8" height="92" fill="#6d4c41"/><rect x="212" y="60" width="8" height="92" fill="#6d4c41"/>
 <rect x="170" y="92" width="40" height="62" fill="#f8bbd0" stroke="#ad1457"/>
-<rect x="184" y="96" width="12" height="58" fill="#c62828"/>
+<rect data-p="rhab" x="184" y="96" width="12" height="58" fill="#c62828"/>
 <path d="M190 154 V212" stroke="#555" stroke-width="2"/>
 <path class="ray" d="M110 2 L180 30 L190 62 L190 150" fill="none" stroke="#f9a825" stroke-width="3"/>
 <text class="t" x="232" y="26">কর্নিয়া (লেন্স, প্রতিসরণ)</text><line x1="214" y1="26" x2="228" y2="23" stroke="#555"/>

@@ -12,8 +12,8 @@ CHAPTER.sections.push({
 <rect x="0" y="0" width="420" height="250" fill="#fafafa"/>
 <path d="M165 62 Q150 22 118 10" stroke="#6d4c41" stroke-width="2.5" fill="none"/>
 <path d="M195 62 Q210 22 242 10" stroke="#6d4c41" stroke-width="2.5" fill="none"/>
-<rect class="b1" x="110" y="28" width="140" height="40" rx="18" fill="#fff59d" stroke="#827717"/>
-<rect class="b2" x="135" y="68" width="90" height="58" fill="#c8e6c9" stroke="#2e7d32"/>
+<rect data-p="vertex" class="b1" x="110" y="28" width="140" height="40" rx="18" fill="#fff59d" stroke="#827717"/>
+<rect data-p="frons" class="b2" x="135" y="68" width="90" height="58" fill="#c8e6c9" stroke="#2e7d32"/>
 <rect class="b3" x="135" y="126" width="90" height="30" fill="#b3e5fc" stroke="#0277bd"/>
 <rect class="b4" x="135" y="156" width="90" height="30" rx="8" fill="#ffccbc" stroke="#d84315"/>
 <rect class="b5" x="110" y="96" width="25" height="90" rx="8" fill="#d1c4e9" stroke="#512da8"/>
@@ -61,18 +61,18 @@ CHAPTER.sections.push({
 <rect width="420" height="250" fill="#fafafa"/>
 <g class="r1"><rect x="6" y="6" width="408" height="34" rx="6" fill="#ffe0b2" stroke="#e65100"/><text class="t" x="14" y="28">১. ল্যাব্রাম = উপরের ঠোঁট</text></g>
 <g class="r2"><rect x="6" y="48" width="408" height="34" rx="6" fill="#ffcdd2" stroke="#c62828"/><text class="t" x="14" y="70">২. ম্যান্ডিবল = শক্ত চোয়াল (১ জোড়া), খাবার কাটে</text></g>
-<g class="r3"><rect x="6" y="90" width="408" height="52" rx="6" fill="#c8e6c9" stroke="#2e7d32"/><text class="t" x="14" y="110">৩. ম্যাক্সিলা</text>
+<g class="r3"><rect data-p="maxilla" x="6" y="90" width="408" height="52" rx="6" fill="#c8e6c9" stroke="#2e7d32"/><text class="t" x="14" y="110">৩. ম্যাক্সিলা</text>
 <rect x="120" y="96" width="52" height="22" rx="4" fill="#fff"/><text class="c" x="127" y="111">কার্ডো</text>
 <rect x="176" y="96" width="52" height="22" rx="4" fill="#fff"/><text class="c" x="183" y="111">স্টাইপ</text>
 <rect x="232" y="96" width="62" height="22" rx="4" fill="#fff"/><text class="c" x="239" y="111">গ্যালিয়া</text>
-<rect x="298" y="96" width="70" height="22" rx="4" fill="#fff"/><text class="c" x="304" y="111">ল্যাসিনিয়া</text>
+<rect data-p="maxilla lacinia" x="298" y="96" width="70" height="22" rx="4" fill="#fff"/><text class="c" x="304" y="111">ল্যাসিনিয়া</text>
 <rect x="372" y="96" width="38" height="22" rx="4" fill="#fff"/><text class="c" x="377" y="111">পাল্প</text>
 <text class="s" x="14" y="135">অ্যান্টেনা পরিষ্কারে অংশ নেয়</text></g>
 <g class="r4"><rect x="6" y="150" width="408" height="30" rx="6" fill="#b3e5fc" stroke="#0277bd"/><text class="t" x="14" y="170">৪. হাইপোফ্যারিংক্স = জিহ্বার মতো</text></g>
-<g class="r5"><rect x="6" y="188" width="408" height="56" rx="6" fill="#e1bee7" stroke="#6a1b9a"/><text class="t" x="14" y="208">৫. ল্যাবিয়াম</text>
-<rect x="120" y="194" width="60" height="22" rx="4" fill="#fff"/><text class="c" x="130" y="209">মেন্টাম</text>
-<rect x="184" y="194" width="52" height="22" rx="4" fill="#fff"/><text class="c" x="192" y="209">গ্লোসা</text>
-<rect x="240" y="194" width="72" height="22" rx="4" fill="#fff"/><text class="c" x="246" y="209">প্যারাগ্লোসা</text>
+<g class="r5"><rect data-p="labium" x="6" y="188" width="408" height="56" rx="6" fill="#e1bee7" stroke="#6a1b9a"/><text class="t" x="14" y="208">৫. ল্যাবিয়াম</text>
+<rect data-p="labium mentum" x="120" y="194" width="60" height="22" rx="4" fill="#fff"/><text class="c" x="130" y="209">মেন্টাম</text>
+<rect data-p="labium gloss" x="184" y="194" width="52" height="22" rx="4" fill="#fff"/><text class="c" x="192" y="209">গ্লোসা</text>
+<rect data-p="labium gloss" x="240" y="194" width="72" height="22" rx="4" fill="#fff"/><text class="c" x="246" y="209">প্যারাগ্লোসা</text>
 <rect x="316" y="194" width="40" height="22" rx="4" fill="#fff"/><text class="c" x="322" y="209">পাল্প</text>
 <path d="M186 222 H310" stroke="#4527a0" stroke-width="2"/><text class="s" x="196" y="238">গ্লোসা + প্যারাগ্লোসা = লিগুলা</text></g>
 </svg>`,
@@ -118,7 +118,7 @@ CHAPTER.sections.push({
 <text class="n" x="60" y="52">প্রো</text><text class="n" x="90" y="52">মেসো</text><text class="n" x="120" y="52">মেটা</text>
 <text class="t" x="76" y="22">বক্ষ (৩ খণ্ড)</text>
 <g fill="#ffe0b2" stroke="#e65100">
-<rect x="150" y="30" width="22" height="36"/><rect x="172" y="30" width="22" height="36"/><rect x="194" y="30" width="22" height="36"/><rect x="216" y="30" width="22" height="36"/><rect x="238" y="30" width="22" height="36"/><rect x="260" y="30" width="22" height="36"/><rect x="282" y="30" width="22" height="36"/><rect x="304" y="30" width="22" height="36"/><rect x="326" y="30" width="22" height="36"/><rect x="348" y="30" width="22" height="36"/><rect x="370" y="30" width="22" height="36"/></g>
+<rect data-p="seg1" x="150" y="30" width="22" height="36"/><rect x="172" y="30" width="22" height="36"/><rect x="194" y="30" width="22" height="36"/><rect x="216" y="30" width="22" height="36"/><rect x="238" y="30" width="22" height="36"/><rect x="260" y="30" width="22" height="36"/><rect x="282" y="30" width="22" height="36"/><rect x="304" y="30" width="22" height="36"/><rect x="326" y="30" width="22" height="36"/><rect x="348" y="30" width="22" height="36"/><rect x="370" y="30" width="22" height="36"/></g>
 <g class="n" text-anchor="middle"><text x="161" y="52">১</text><text x="183" y="52">২</text><text x="205" y="52">৩</text><text x="227" y="52">৪</text><text x="249" y="52">৫</text><text x="271" y="52">৬</text><text x="293" y="52">৭</text><text x="315" y="52">৮</text><text x="337" y="52">৯</text><text x="359" y="52">১০</text><text x="381" y="52">১১</text></g>
 <text class="t" x="215" y="22">উদর (১১ খণ্ডক)</text>
 <circle class="w1" cx="161" cy="60" r="6" fill="none" stroke="#c62828" stroke-width="2"/><circle class="w2" cx="161" cy="60" r="6" fill="none" stroke="#c62828" stroke-width="2"/>
@@ -127,7 +127,7 @@ CHAPTER.sections.push({
 <text class="n" x="12" y="110">প্রতি খণ্ডে ওপরে টার্গাম (পৃষ্ঠ), নিচে স্টার্নাম, পাশে প্লুরাইট।</text>
 <text class="t" x="8" y="140">পায়ের অংশ, গোড়া থেকে আগা:</text>
 <g stroke="#455a64" fill="#fff">
-<rect class="l1" x="6" y="152" width="64" height="34" rx="6"/><rect class="l2" x="88" y="152" width="82" height="34" rx="6"/><rect class="l3" x="188" y="152" width="62" height="34" rx="6"/><rect class="l4" x="268" y="152" width="60" height="34" rx="6"/><rect class="l5" x="346" y="152" width="64" height="34" rx="6"/></g>
+<rect data-p="coxa" class="l1" x="6" y="152" width="64" height="34" rx="6"/><rect data-p="trochanter" class="l2" x="88" y="152" width="82" height="34" rx="6"/><rect class="l3" x="188" y="152" width="62" height="34" rx="6"/><rect class="l4" x="268" y="152" width="60" height="34" rx="6"/><rect class="l5" x="346" y="152" width="64" height="34" rx="6"/></g>
 <g class="c"><text x="20" y="173">কক্সা</text><text x="95" y="173">ট্রোক্যান্টার</text><text x="203" y="173">ফিমার</text><text x="284" y="173">টিবিয়া</text><text x="362" y="173">টার্সাস</text></g>
 <g fill="#455a64" font-size="14"><text x="73" y="173">›</text><text x="173" y="173">›</text><text x="253" y="173">›</text><text x="331" y="173">›</text></g>
 <text class="n" x="8" y="206">গোড়ার অংশ = কক্সা; তার পরেরটা = ট্রোক্যান্টার।</text>

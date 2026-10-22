@@ -883,8 +883,8 @@ CHAPTER.sections.push({
 <rect x="0" y="0" width="420" height="250" fill="#fafafa"/>
 <path d="M165 62 Q150 22 118 10" stroke="#6d4c41" stroke-width="2.5" fill="none"/>
 <path d="M195 62 Q210 22 242 10" stroke="#6d4c41" stroke-width="2.5" fill="none"/>
-<rect class="b1" x="110" y="28" width="140" height="40" rx="18" fill="#fff59d" stroke="#827717"/>
-<rect class="b2" x="135" y="68" width="90" height="58" fill="#c8e6c9" stroke="#2e7d32"/>
+<rect data-p="vertex" class="b1" x="110" y="28" width="140" height="40" rx="18" fill="#fff59d" stroke="#827717"/>
+<rect data-p="frons" class="b2" x="135" y="68" width="90" height="58" fill="#c8e6c9" stroke="#2e7d32"/>
 <rect class="b3" x="135" y="126" width="90" height="30" fill="#b3e5fc" stroke="#0277bd"/>
 <rect class="b4" x="135" y="156" width="90" height="30" rx="8" fill="#ffccbc" stroke="#d84315"/>
 <rect class="b5" x="110" y="96" width="25" height="90" rx="8" fill="#d1c4e9" stroke="#512da8"/>
@@ -932,18 +932,18 @@ CHAPTER.sections.push({
 <rect width="420" height="250" fill="#fafafa"/>
 <g class="r1"><rect x="6" y="6" width="408" height="34" rx="6" fill="#ffe0b2" stroke="#e65100"/><text class="t" x="14" y="28">১. ল্যাব্রাম = উপরের ঠোঁট</text></g>
 <g class="r2"><rect x="6" y="48" width="408" height="34" rx="6" fill="#ffcdd2" stroke="#c62828"/><text class="t" x="14" y="70">২. ম্যান্ডিবল = শক্ত চোয়াল (১ জোড়া), খাবার কাটে</text></g>
-<g class="r3"><rect x="6" y="90" width="408" height="52" rx="6" fill="#c8e6c9" stroke="#2e7d32"/><text class="t" x="14" y="110">৩. ম্যাক্সিলা</text>
+<g class="r3"><rect data-p="maxilla" x="6" y="90" width="408" height="52" rx="6" fill="#c8e6c9" stroke="#2e7d32"/><text class="t" x="14" y="110">৩. ম্যাক্সিলা</text>
 <rect x="120" y="96" width="52" height="22" rx="4" fill="#fff"/><text class="c" x="127" y="111">কার্ডো</text>
 <rect x="176" y="96" width="52" height="22" rx="4" fill="#fff"/><text class="c" x="183" y="111">স্টাইপ</text>
 <rect x="232" y="96" width="62" height="22" rx="4" fill="#fff"/><text class="c" x="239" y="111">গ্যালিয়া</text>
-<rect x="298" y="96" width="70" height="22" rx="4" fill="#fff"/><text class="c" x="304" y="111">ল্যাসিনিয়া</text>
+<rect data-p="maxilla lacinia" x="298" y="96" width="70" height="22" rx="4" fill="#fff"/><text class="c" x="304" y="111">ল্যাসিনিয়া</text>
 <rect x="372" y="96" width="38" height="22" rx="4" fill="#fff"/><text class="c" x="377" y="111">পাল্প</text>
 <text class="s" x="14" y="135">অ্যান্টেনা পরিষ্কারে অংশ নেয়</text></g>
 <g class="r4"><rect x="6" y="150" width="408" height="30" rx="6" fill="#b3e5fc" stroke="#0277bd"/><text class="t" x="14" y="170">৪. হাইপোফ্যারিংক্স = জিহ্বার মতো</text></g>
-<g class="r5"><rect x="6" y="188" width="408" height="56" rx="6" fill="#e1bee7" stroke="#6a1b9a"/><text class="t" x="14" y="208">৫. ল্যাবিয়াম</text>
-<rect x="120" y="194" width="60" height="22" rx="4" fill="#fff"/><text class="c" x="130" y="209">মেন্টাম</text>
-<rect x="184" y="194" width="52" height="22" rx="4" fill="#fff"/><text class="c" x="192" y="209">গ্লোসা</text>
-<rect x="240" y="194" width="72" height="22" rx="4" fill="#fff"/><text class="c" x="246" y="209">প্যারাগ্লোসা</text>
+<g class="r5"><rect data-p="labium" x="6" y="188" width="408" height="56" rx="6" fill="#e1bee7" stroke="#6a1b9a"/><text class="t" x="14" y="208">৫. ল্যাবিয়াম</text>
+<rect data-p="labium mentum" x="120" y="194" width="60" height="22" rx="4" fill="#fff"/><text class="c" x="130" y="209">মেন্টাম</text>
+<rect data-p="labium gloss" x="184" y="194" width="52" height="22" rx="4" fill="#fff"/><text class="c" x="192" y="209">গ্লোসা</text>
+<rect data-p="labium gloss" x="240" y="194" width="72" height="22" rx="4" fill="#fff"/><text class="c" x="246" y="209">প্যারাগ্লোসা</text>
 <rect x="316" y="194" width="40" height="22" rx="4" fill="#fff"/><text class="c" x="322" y="209">পাল্প</text>
 <path d="M186 222 H310" stroke="#4527a0" stroke-width="2"/><text class="s" x="196" y="238">গ্লোসা + প্যারাগ্লোসা = লিগুলা</text></g>
 </svg>`,
@@ -989,7 +989,7 @@ CHAPTER.sections.push({
 <text class="n" x="60" y="52">প্রো</text><text class="n" x="90" y="52">মেসো</text><text class="n" x="120" y="52">মেটা</text>
 <text class="t" x="76" y="22">বক্ষ (৩ খণ্ড)</text>
 <g fill="#ffe0b2" stroke="#e65100">
-<rect x="150" y="30" width="22" height="36"/><rect x="172" y="30" width="22" height="36"/><rect x="194" y="30" width="22" height="36"/><rect x="216" y="30" width="22" height="36"/><rect x="238" y="30" width="22" height="36"/><rect x="260" y="30" width="22" height="36"/><rect x="282" y="30" width="22" height="36"/><rect x="304" y="30" width="22" height="36"/><rect x="326" y="30" width="22" height="36"/><rect x="348" y="30" width="22" height="36"/><rect x="370" y="30" width="22" height="36"/></g>
+<rect data-p="seg1" x="150" y="30" width="22" height="36"/><rect x="172" y="30" width="22" height="36"/><rect x="194" y="30" width="22" height="36"/><rect x="216" y="30" width="22" height="36"/><rect x="238" y="30" width="22" height="36"/><rect x="260" y="30" width="22" height="36"/><rect x="282" y="30" width="22" height="36"/><rect x="304" y="30" width="22" height="36"/><rect x="326" y="30" width="22" height="36"/><rect x="348" y="30" width="22" height="36"/><rect x="370" y="30" width="22" height="36"/></g>
 <g class="n" text-anchor="middle"><text x="161" y="52">১</text><text x="183" y="52">২</text><text x="205" y="52">৩</text><text x="227" y="52">৪</text><text x="249" y="52">৫</text><text x="271" y="52">৬</text><text x="293" y="52">৭</text><text x="315" y="52">৮</text><text x="337" y="52">৯</text><text x="359" y="52">১০</text><text x="381" y="52">১১</text></g>
 <text class="t" x="215" y="22">উদর (১১ খণ্ডক)</text>
 <circle class="w1" cx="161" cy="60" r="6" fill="none" stroke="#c62828" stroke-width="2"/><circle class="w2" cx="161" cy="60" r="6" fill="none" stroke="#c62828" stroke-width="2"/>
@@ -998,7 +998,7 @@ CHAPTER.sections.push({
 <text class="n" x="12" y="110">প্রতি খণ্ডে ওপরে টার্গাম (পৃষ্ঠ), নিচে স্টার্নাম, পাশে প্লুরাইট।</text>
 <text class="t" x="8" y="140">পায়ের অংশ, গোড়া থেকে আগা:</text>
 <g stroke="#455a64" fill="#fff">
-<rect class="l1" x="6" y="152" width="64" height="34" rx="6"/><rect class="l2" x="88" y="152" width="82" height="34" rx="6"/><rect class="l3" x="188" y="152" width="62" height="34" rx="6"/><rect class="l4" x="268" y="152" width="60" height="34" rx="6"/><rect class="l5" x="346" y="152" width="64" height="34" rx="6"/></g>
+<rect data-p="coxa" class="l1" x="6" y="152" width="64" height="34" rx="6"/><rect data-p="trochanter" class="l2" x="88" y="152" width="82" height="34" rx="6"/><rect class="l3" x="188" y="152" width="62" height="34" rx="6"/><rect class="l4" x="268" y="152" width="60" height="34" rx="6"/><rect class="l5" x="346" y="152" width="64" height="34" rx="6"/></g>
 <g class="c"><text x="20" y="173">কক্সা</text><text x="95" y="173">ট্রোক্যান্টার</text><text x="203" y="173">ফিমার</text><text x="284" y="173">টিবিয়া</text><text x="362" y="173">টার্সাস</text></g>
 <g fill="#455a64" font-size="14"><text x="73" y="173">›</text><text x="173" y="173">›</text><text x="253" y="173">›</text><text x="331" y="173">›</text></g>
 <text class="n" x="8" y="206">গোড়ার অংশ = কক্সা; তার পরেরটা = ট্রোক্যান্টার।</text>
@@ -1090,15 +1090,15 @@ CHAPTER.sections.push({
 <path d="M12 42 H400 V80 H12 V118 H400 V150 H12 V190 H300" fill="none" stroke="#bdbdbd" stroke-dasharray="4 4"/>
 <text class="t" x="8" y="16">অগ্রান্ত্র</text>
 <rect x="6" y="22" width="408" height="40" rx="8" fill="#ffe0b2" stroke="#e65100"/>
-<g class="c" fill="#fff" stroke="#bf360c"><rect x="14" y="28" width="70" height="28" rx="5" fill="#fff"/><rect x="96" y="28" width="64" height="28" rx="5" fill="#fff"/><rect x="172" y="28" width="72" height="28" rx="5" fill="#fff"/><rect x="256" y="28" width="56" height="28" rx="5" fill="#fff"/><rect x="324" y="28" width="72" height="28" rx="5" fill="#fff"/></g>
+<g class="c" fill="#fff" stroke="#bf360c"><rect x="14" y="28" width="70" height="28" rx="5" fill="#fff"/><rect data-p="fore pharynx" x="96" y="28" width="64" height="28" rx="5" fill="#fff"/><rect x="172" y="28" width="72" height="28" rx="5" fill="#fff"/><rect x="256" y="28" width="56" height="28" rx="5" fill="#fff"/><rect x="324" y="28" width="72" height="28" rx="5" fill="#fff"/></g>
 <g class="c"><text x="20" y="47">মুখছিদ্র</text><text x="106" y="47">গলবিল</text><text x="182" y="47">গ্রাসনালি</text><text x="270" y="47">ক্রপ</text><text x="334" y="47">গিজার্ড</text></g>
 <text class="t" x="8" y="92">মধ্যান্ত্র (মেসেন্টেরন)</text>
 <rect x="6" y="98" width="408" height="40" rx="8" fill="#c8e6c9" stroke="#2e7d32"/>
 <g stroke="#1b5e20" fill="#fff"><rect x="14" y="104" width="92" height="28" rx="5"/><rect x="116" y="104" width="170" height="28" rx="5"/><rect x="296" y="104" width="110" height="28" rx="5"/></g>
 <g class="c"><text x="22" y="123">মেসেন্টেরন</text><text x="124" y="123">১২টি হেপাটিক সিকা = ৬ জোড়া</text><text x="302" y="123">পেরিট্রফিক পর্দা</text></g>
 <text class="t" x="8" y="164">পশ্চাদন্ত্র (প্রোক্টোডিয়াম)</text>
-<rect x="6" y="170" width="408" height="40" rx="8" fill="#bbdefb" stroke="#1565c0"/>
-<g stroke="#0d47a1" fill="#fff"><rect x="14" y="176" width="80" height="28" rx="5"/><rect x="108" y="176" width="80" height="28" rx="5"/><rect x="202" y="176" width="80" height="28" rx="5"/></g>
+<rect data-p="hind" x="6" y="170" width="408" height="40" rx="8" fill="#bbdefb" stroke="#1565c0"/>
+<g stroke="#0d47a1" fill="#fff"><rect data-p="hind ileum" x="14" y="176" width="80" height="28" rx="5"/><rect x="108" y="176" width="80" height="28" rx="5"/><rect data-p="hind rectum" x="202" y="176" width="80" height="28" rx="5"/></g>
 <g class="c"><text x="30" y="195">ইলিয়াম</text><text x="128" y="195">কোলন</text><text x="220" y="195">রেক্টাম</text></g>
 <text class="s" x="8" y="232">পেরিট্রফিক পর্দা মেসেন্টেরন ও হেপাটিক সিকার ভেতরের দেয়াল ঢাকে।</text>
 <circle r="6" fill="#d84315"><animateMotion dur="11s" repeatCount="indefinite" path="M12 42 H400 V80 H12 V118 H400 V150 H12 V190 H300"/></circle>
@@ -1133,12 +1133,12 @@ CHAPTER.sections.push({
 .h1{animation-delay:0s}.h2{animation-delay:.15s}.h3{animation-delay:.3s}.h4{animation-delay:.45s}.h5{animation-delay:.6s}.h6{animation-delay:.75s}.h7{animation-delay:.9s}
 </style>
 <rect width="420" height="250" fill="#fafafa"/>
-<rect x="130" y="10" width="160" height="30" rx="8" fill="#e1bee7" stroke="#6a1b9a"/><text class="t" x="140" y="30">গ্যাংলিওন → বিভব তৈরি</text>
+<rect data-p="gang" x="130" y="10" width="160" height="30" rx="8" fill="#e1bee7" stroke="#6a1b9a"/><text class="t" x="140" y="30">গ্যাংলিওন → বিভব তৈরি</text>
 <path d="M210 40 V78" stroke="#6a1b9a" stroke-width="2"/>
 <g stroke="#b71c1c" stroke-width="1.5">
 <rect class="ch h1" x="30" y="80" width="48" height="40" rx="8" fill="#ef9a9a"/><rect class="ch h2" x="82" y="80" width="48" height="40" rx="8" fill="#ef9a9a"/><rect class="ch h3" x="134" y="80" width="48" height="40" rx="8" fill="#ef9a9a"/><rect class="ch h4" x="186" y="80" width="48" height="40" rx="8" fill="#ef9a9a"/><rect class="ch h5" x="238" y="80" width="48" height="40" rx="8" fill="#ef9a9a"/><rect class="ch h6" x="290" y="80" width="48" height="40" rx="8" fill="#ef9a9a"/><rect class="ch h7" x="342" y="80" width="48" height="40" rx="8" fill="#ef9a9a"/></g>
 <g class="c" text-anchor="middle"><text x="54" y="105">১</text><text x="106" y="105">২</text><text x="158" y="105">৩</text><text x="210" y="105">৪</text><text x="262" y="105">৫</text><text x="314" y="105">৬</text><text x="366" y="105">৭</text></g>
-<g fill="#ffcc80" stroke="#e65100"><path d="M30 160 L78 160 L54 124Z"/><path d="M82 160 L130 160 L106 124Z"/><path d="M134 160 L182 160 L158 124Z"/><path d="M186 160 L234 160 L210 124Z"/><path d="M238 160 L286 160 L262 124Z"/><path d="M290 160 L338 160 L314 124Z"/><path d="M342 160 L390 160 L366 124Z"/></g>
+<g data-p="alary" fill="#ffcc80" stroke="#e65100"><path d="M30 160 L78 160 L54 124Z"/><path d="M82 160 L130 160 L106 124Z"/><path d="M134 160 L182 160 L158 124Z"/><path d="M186 160 L234 160 L210 124Z"/><path d="M238 160 L286 160 L262 124Z"/><path d="M290 160 L338 160 L314 124Z"/><path d="M342 160 L390 160 L366 124Z"/></g>
 <text class="s" x="30" y="176">অ্যালারি পেশি = ত্রিকোণা পাখা</text>
 <text class="t" x="30" y="203">৭টি প্রকোষ্ঠ · হিমোসিল ভর্তি হিমোলিম্ফ (কণিকা = হিমোসাইট)</text>
 <text class="t" x="30" y="226">পুরো দেহে একবার রক্ত ঘুরতে ৩০–৬০ মিনিট</text>
@@ -1174,7 +1174,7 @@ CHAPTER.sections.push({
 <rect width="420" height="250" fill="#fafafa"/>
 <line x1="208" y1="8" x2="208" y2="206" stroke="#cfd8dc" stroke-dasharray="3 4"/>
 <rect x="10" y="22" width="75" height="16" fill="#ffe0b2" stroke="#e65100"/><rect x="105" y="22" width="90" height="16" fill="#ffe0b2" stroke="#e65100"/>
-<circle cx="95" cy="30" r="14" fill="none" stroke="#6a1b9a" stroke-width="3"/>
+<circle data-p="perit" cx="95" cy="30" r="14" fill="none" stroke="#6a1b9a" stroke-width="3"/>
 <text class="t" x="30" y="14">স্পাইরাকল</text><text class="p" x="114" y="34">পেরিট্রিম</text>
 <rect x="90" y="38" width="10" height="70" fill="#bbdefb" stroke="#1565c0"/>
 <text class="s" x="106" y="72">ট্রাকিয়া</text>
@@ -1186,7 +1186,7 @@ CHAPTER.sections.push({
 <circle r="3.5" fill="#0277bd"><animateMotion dur="3s" begin="2s" repeatCount="indefinite" path="M95 14 V108 L145 168 L150 180"/></circle>
 <rect x="302" y="24" width="26" height="150" rx="10" fill="#ffe0b2" stroke="#e65100"/>
 <text class="t" x="340" y="46">মধ্যান্ত্র</text><text class="t" x="340" y="130">পশ্চাদন্ত্র</text>
-<g stroke="#2e7d32" stroke-width="2.5" fill="none"><path d="M302 82 q-20 -18 -40 0 t-40 0 t-12 0"/><path d="M328 90 q20 18 40 0 t30 0"/></g>
+<g data-p="malp" stroke="#2e7d32" stroke-width="2.5" fill="none"><path d="M302 82 q-20 -18 -40 0 t-40 0 t-12 0"/><path d="M328 90 q20 18 40 0 t30 0"/></g>
 <text class="s" x="212" y="38" font-size="10">ম্যালপিজিয়ান নালিকা</text><text class="s" x="212" y="52" font-size="10">(প্রায় ২৫ মিমি)</text>
 <circle r="3.5" fill="#6d4c41"><animateMotion dur="4s" repeatCount="indefinite" path="M210 82 q20 -18 40 0 t40 0 L315 82 V160"/></circle>
 <text class="s" x="332" y="172">রেক্টাম → বাইরে</text>
@@ -1222,12 +1222,12 @@ CHAPTER.sections.push({
 @keyframes fl{to{stroke-dashoffset:-24}}
 </style>
 <rect width="420" height="250" fill="#fafafa"/>
-<path d="M158 44 Q190 6 222 44Z" fill="#b3e5fc" stroke="#0277bd" stroke-width="1.5"/>
+<path data-p="cornea" d="M158 44 Q190 6 222 44Z" fill="#b3e5fc" stroke="#0277bd" stroke-width="1.5"/>
 <rect x="160" y="44" width="10" height="16" fill="#ffe082" stroke="#f9a825"/><rect x="210" y="44" width="10" height="16" fill="#ffe082" stroke="#f9a825"/>
-<path d="M172 44 H208 L190 92Z" fill="#fff9c4" stroke="#827717"/>
+<path data-p="cone" d="M172 44 H208 L190 92Z" fill="#fff9c4" stroke="#827717"/>
 <rect x="160" y="60" width="8" height="92" fill="#6d4c41"/><rect x="212" y="60" width="8" height="92" fill="#6d4c41"/>
 <rect x="170" y="92" width="40" height="62" fill="#f8bbd0" stroke="#ad1457"/>
-<rect x="184" y="96" width="12" height="58" fill="#c62828"/>
+<rect data-p="rhab" x="184" y="96" width="12" height="58" fill="#c62828"/>
 <path d="M190 154 V212" stroke="#555" stroke-width="2"/>
 <path class="ray" d="M110 2 L180 30 L190 62 L190 150" fill="none" stroke="#f9a825" stroke-width="3"/>
 <text class="t" x="232" y="26">কর্নিয়া (লেন্স, প্রতিসরণ)</text><line x1="214" y1="26" x2="228" y2="23" stroke="#555"/>
@@ -2974,6 +2974,145 @@ CHAPTER.visuals = Object.assign(CHAPTER.visuals || {}, {
         why: "হালদা (চট্টগ্রাম): প্রধান প্রাকৃতিক প্রজনন ক্ষেত্র", hook: "চট্টগ্রামের ছোট নদী, পরে কর্ণফুলীতে গিয়ে মেশে", cap: "রুই মাছের প্রধান প্রাকৃতিক প্রজনন ক্ষেত্র: হালদা"},
 });
 
+/* 🖼️ ছবি-কার্ড: ঘাসফড়িং (প্রশ্ন ৭৩–১২৪ ও ১৩৪–১৩৭; ১২৫–১৩৩ পাইলটে আছে)।
+   CHAPTER.visuals[n] = {t, …}: visual.js এগুলো আঁকে। hook = ছবি-হিন্টের লাইন (উত্তর না বলে), cap = উত্তরের পরের লাইন। */
+CHAPTER.visuals = Object.assign(CHAPTER.visuals || {}, {
+  // ---------- ঘাসফড়িং: পরিচিতি ও মস্তক ----------
+  73: {t: "scene", h: 156,
+       art: [["🦗", 90, 90, 50, "bob"], ["🦋", 210, 84, 36, "bob"], ["🐜", 320, 94, 36, "bob"]],
+       lines: [["ঘাসফড়িং = Arthropoda পর্ব", 210, 26, 16], ["arthro = জোড়া · poda = পা", 210, 130, 12], ["জোড়া-পা ওয়ালা: পতঙ্গ, কাঁকড়া, মাকড়সা", 210, 148, 12]],
+       key: "Arthropoda", hook: "জোড়া-জোড়া পা (arthro + poda) যাদের, ছবির তিনজনই সেই দলের", cap: "ঘাসফড়িং = Arthropoda (জোড়া-পা) পর্ব"},
+  74: {t: "scene", h: 156,
+       art: [["🦗", 90, 92, 50, "bob"], ["📖", 330, 92, 42]],
+       lines: [["অরথোপটেরোলজি", 210, 30, 18], ["ortho = সোজা · pteron = ডানা", 210, 130, 12], ["সোজা-ডানার পতঙ্গ (Orthoptera) নিয়ে পড়া", 210, 148, 12]],
+       key: "অরথোপটেরোলজি", hook: "ortho (সোজা) + pteron (ডানা): নামেই ঘাসফড়িংয়ের বিদ্যা", cap: "অরথোপটেরোলজি = ঘাসফড়িংয়ের বিদ্যা"},
+  75: {t: "scale", max: 25, step: 5, unit: "প্রজাতি", marks: [{v: 20, l: "বাংলাদেশে"}],
+       hook: "হাজার নয়, ছোট একটা রুলারেই ধরে যায়", cap: "বাংলাদেশে ঘাসফড়িংয়ের প্রজাতি ২০টি"},
+  76: {t: "pin", el: "frons",
+       hook: "মাথার সামনের দিকের সবুজ ফলকটা কোনটা?", cap: "ফ্রন্স = মাথার সামনের স্ক্লেরাইট"},
+  79: {t: "pin", el: "vertex",
+       hook: "মাথার ঠিক চূড়ায় বসা হলুদ ফলকটার নাম কী?", cap: "ভার্টেক্স = মাথার ওপরের (পৃষ্ঠীয়) অংশ"},
+  85: {t: "odd", odd: 0, good: true, group: "কোনটা মাথার স্ক্লেরাইট (ফলক)?",
+       why: "বাকি তিনটা: দেহখণ্ডের আবরণ বা মুখোপাঙ্গ", hook: "চারটার মধ্যে মাত্র একটাই মাথার চূড়ার ফলক", cap: "ভার্টেক্স = মাথার স্ক্লেরাইট"},
+  90: {t: "pin", sec: "gh-eye", el: "rhab",
+       hook: "একটা ওমাটিডিয়ামের ভেতরে কোন দণ্ডে ছবি ওঠে?", cap: "র‍্যাবডোমে প্রতিবিম্ব তৈরি হয়"},
+  92: {t: "chain", steps: ["আলো ☀️", "কর্নিয়া", "ক্রিস্টালাইন", "র‍্যাবডোম"], hide: [3], on: [3],
+       note: "র‍্যাবডোম = আলো গ্রহণ ও প্রতিবিম্ব",
+       hook: "আলো ঢুকে কর্নিয়া আর কোণ পার হয়ে শেষ ধাপে পৌঁছে: সেখানেই ধরা পড়ে", cap: "আলো গ্রহণ করে র‍্যাবডোম"},
+  93: {t: "odd", odd: 2, group: "চারটার তিনটা মাথার ফলক (স্ক্লেরাইট), একটা নয়",
+       why: "ওসেলি = সরল চোখ (সংবেদী অঙ্গ)", hook: "কে ফলক নয়, বরং দেখার কাজ করে?", cap: "ওসেলি মাথার বহিঃকঙ্কালের অংশ নয়"},
+  97: {t: "pin", sec: "gh-eye", el: "cornea",
+       hook: "ওমাটিডিয়ামের মাথায় যে স্বচ্ছ গম্বুজ, সে কাচের লেন্সের মতো কাজ করে", cap: "কর্নিয়া = লেন্স, আলো বাঁকায়"},
+
+  // ---------- মুখোপাঙ্গ ----------
+  77: {t: "pin", el: "maxilla",
+       hook: "পাঁচ অংশের মধ্যে যেটার ভেতরে কার্ডো-স্টাইপ-গ্যালিয়া-ল্যাসিনিয়ার সারি", cap: "ল্যাসিনিয়া ম্যাক্সিলার অংশ"},
+  78: {t: "odd", odd: 1, group: "চারটার তিনটা খাওয়ার অঙ্গ, একটা নয়",
+       why: "অ্যান্টেনা = মাথার সংবেদী উপাঙ্গ", hook: "কে খাবার ধরে না, শুধু টের পায়?", cap: "অ্যান্টেনা মুখোপাঙ্গ নয়"},
+  80: {t: "odd", odd: 3, group: "তিনটা ম্যাক্সিলার অংশ, একটা ল্যাবিয়ামের",
+       why: "লিগুলা = গ্লোসা + প্যারাগ্লোসা (ল্যাবিয়াম)", hook: "প্রশ্নে ম্যান্ডিবল ছাপা, বই আসলে ম্যাক্সিলার তালিকা ধরেছে", cap: "লিগুলা ম্যাক্সিলার নয়, ল্যাবিয়ামের (বই)"},
+  81: {t: "pin", el: "labium",
+       hook: "সবচেয়ে নিচের (পাঁচ নম্বর) সারিতে মেন্টাম-গ্লোসা-প্যারাগ্লোসা-পাল্প", cap: "গ্লোসা + প্যারাগ্লোসা = ল্যাবিয়ামের"},
+  86: {t: "scene", h: 150,
+       art: [["🦗", 100, 90, 52, "bob"], ["🧹", 230, 86, 36, "swim"], ["✨", 320, 80, 28, "bob"]],
+       lines: [["ম্যাক্সিলা = অ্যান্টেনা-পরিষ্কারক", 210, 26, 14], ["maxilla = চোয়াল; পাল্প ঝাড়ুর মতো", 210, 132, 12]],
+       key: "ম্যাক্সিলা", hook: "যে অঙ্গের পাল্প অ্যান্টেনা ঝাড়ে, তার চোয়ালেও গ্যালিয়া-ল্যাসিনিয়া", cap: "ম্যাক্সিলা অ্যান্টেনা পরিষ্কারে অংশ নেয়"},
+  91: {same: 77},
+  88: {t: "pin", el: "mentum",
+       hook: "ল্যাবিয়ামের সারিতে সবচেয়ে বামের ঘরটা কোনটা?", cap: "মেন্টাম = ল্যাবিয়ামের অংশ"},
+
+  // ---------- বক্ষ, উদর, পা ----------
+  82: {t: "pin", el: "coxa",
+       hook: "পাঁচ ঘরের পায়ের সারিতে একদম বামের ঘরটা, দেহের সবচেয়ে কাছে", cap: "পায়ের গোড়া = কক্সা"},
+  83: {t: "scene", h: 150,
+       art: [["🦗", 210, 90, 58, "bob"], ["🌿", 90, 100, 34], ["🌿", 330, 100, 34]],
+       lines: [["টার্গাম = পিঠের (পৃষ্ঠদেশীয়) আবরণ", 210, 26, 15], ["⬆️ টার্গাম = পিঠ · ⬇️ স্টার্নাম = পেট", 210, 136, 12]],
+       key: "টার্গাম", hook: "ওপরের দিকে ঢাল, পিঠের ওপরে ছাতার মতো", cap: "টার্গাম = দেহের ওপরের আবরণ"},
+  84: {t: "count", n: 11, icon: "🔶", label: "উদরের খণ্ডক",
+       hook: "দশ আঙুল গুনে এক আঙুল বেশি", cap: "উদরে ১১টি খণ্ডক (১ম টি অসম্পূর্ণ)"},
+  87: {same: 82},
+  89: {t: "pin", el: "seg1",
+       hook: "উদরের একদম প্রথম খণ্ডকের পাশে পর্দা (লাল বিন্দু)", cap: "টিমপেনাম ১ম উদরীয় খণ্ডকে (বই)"},
+  94: {t: "chain", steps: ["কক্সা", "ট্রোক্যান্টার", "ফিমার", "টিবিয়া", "টার্সাস"], note: "গোড়া থেকে আগা: কক্সা সবার আগে",
+       hook: "গোড়ায় কক্সা, আগায় টার্সাস; মাঝের তিনটা সাজাও", cap: "কক্সা→ট্রোক্যান্টার→ফিমার→টিবিয়া→টার্সাস"},
+  95: {t: "pin", el: "trochanter",
+       hook: "কক্সার ঠিক পাশের ঘর (দ্বিতীয় ঘর) কোনটা?", cap: "কক্সার পরেই ট্রোক্যান্টার"},
+  96: {t: "pin", sec: "gh-gut", el: "ileum",
+       hook: "নালির তিন ভাগের সবচেয়ে নিচের (নীল) ভাগে প্রথম ঘর", cap: "ইলিয়াম = পশ্চাদন্ত্রের (প্রোক্টোডিয়াম) অংশ"},
+
+  // ---------- পৌষ্টিকনালি ----------
+  98: {t: "pin", el: "pharynx",
+       hook: "মুখছিদ্রের ঠিক পরের ধাপ, যেটা খাবার ঠেলে গ্রাসনালিতে পাঠায়", cap: "গলবিল খাবার ঠেলে গ্রাসনালিতে দেয়"},
+  99: {t: "count", n: 6, icon: "🧪", unit: " জোড়া", label: "হেপাটিক সিকা (মোট ১২টি)",
+       hook: "জোড়ায় জোড়ায় গুনতে হবে: ছয়ের কাছাকাছি", cap: "হেপাটিক সিকা ৬ জোড়া"},
+  100: {t: "scene", h: 156,
+        art: [["🌯", 110, 90, 52, "bob"], ["🦗", 310, 90, 46, "bob"]],
+        lines: [["পেরিট্রফিক পর্দা", 210, 28, 18], ["peri = চারপাশ · trophe = খাদ্য", 210, 130, 12], ["খাবার মোড়ানো: মেসেন্টেরন ও সিকার ভেতরে", 210, 148, 12]],
+        key: "পেরিট্রফিক", hook: "peri (চারপাশ) + trophe (খাদ্য): খাবারকে ঘিরে থাকা পর্দা", cap: "মধ্যান্ত্রের ভেতর ঢাকে পেরিট্রফিক পর্দা"},
+  101: {t: "count", n: 12, icon: "🧪", label: "হেপাটিক সিকা (৬ জোড়া)",
+        hook: "ছয় জোড়া = এক ডজন", cap: "মধ্যান্ত্রে ১২টি হেপাটিক সিকা"},
+  102: {same: 101},
+  103: {same: 96},
+  104: {t: "pin", el: "rectum",
+        hook: "পশ্চাদন্ত্রের শেষ (তৃতীয়) ঘরটা, মলদ্বারের আগে", cap: "রেক্টাম পশ্চাদন্ত্রের অংশ"},
+
+  // ---------- সংবহন ----------
+  105: {t: "pin", el: "alary",
+        hook: "হৃৎযন্ত্রের নিচে সারি ধরে কমলা ত্রিভুজগুলো কী?", cap: "অ্যালারি পেশি = ত্রিকোণা পাখা"},
+  106: {t: "scale", max: 70, step: 10, unit: "মিনিট", marks: [{v: [30, 60], l: "একবার রক্তপ্রবাহ"}],
+        hook: "এক ঘণ্টার আগেই, আধা ঘণ্টা থেকে শুরু", cap: "একবার রক্তপ্রবাহে ৩০–৬০ মিনিট"},
+  108: {t: "scene", h: 156,
+        art: [["🦗", 90, 94, 50, "bob"], ["🩸", 210, 90, 40, "bob"], ["🩸", 290, 100, 28, "bob"]],
+        lines: [["হিমোসিল = রক্তে ভরা দেহগহ্বর", 210, 26, 16], ["haima = রক্ত · koilos = গহ্বর", 210, 130, 12], ["রক্ত বন্ধ নালিতে নয়, গহ্বরে ছড়ানো", 210, 148, 12]],
+        key: "হিমোসিল", hook: "haima (রক্ত) + koilos (গহ্বর): রক্তের গহ্বর", cap: "রক্তপূর্ণ দেহগহ্বর = হিমোসিল"},
+  109: {t: "scene", h: 156,
+        art: [["🩸", 110, 94, 50, "bob"], ["🔬", 310, 94, 44]],
+        lines: [["হিমোসাইট = পতঙ্গের রক্তকণিকা", 210, 26, 16], ["haima = রক্ত · cyte = কোষ", 210, 130, 12], ["এরিথ্রো-, লিউকো-, থ্রম্বো-সাইট = মানুষের", 210, 148, 12]],
+        key: "হিমোসাইট", hook: "haima (রক্ত) + cyte (কোষ): পতঙ্গের নিজস্ব নাম", cap: "ঘাসফড়িংয়ের রক্তকণিকা = হিমোসাইট"},
+  110: {t: "odd", odd: 1, group: "চারটার তিনটা রক্তের কাজ, একটা নয়",
+        why: "গ্যাস পরিবহন = ট্রাকিয়ার কাজ", hook: "ঘাসফড়িংয়ে বাতাস পৌঁছে দেয় নালি, রক্ত নয়", cap: "রক্ত শ্বসন গ্যাস বহন করে না"},
+  112: {t: "odd", odd: 2, group: "চারটার তিনটা ঘাসফড়িংয়ের সংবহনতন্ত্রে আছে",
+        why: "অ্যাট্রিয়াল প্রকোষ্ঠ = মানুষের হৃৎপিণ্ডের", hook: "কে আসলে মানুষের হৃৎপিণ্ডের ঘর?", cap: "অ্যাট্রিয়াল প্রকোষ্ঠ সংবহনতন্ত্রের অংশ নয়"},
+  113: {t: "count", n: 7, icon: "❤️", label: "প্রকোষ্ঠ (হৃৎযন্ত্রে)",
+        hook: "সপ্তাহের দিনের সমান", cap: "হৃৎযন্ত্রে ৭টি প্রকোষ্ঠ"},
+  115: {t: "pin", el: "gang",
+        hook: "ওপরের বেগুনি বাক্সটা হৃৎযন্ত্রে কী পাঠায়?", cap: "হৃদবিভব বানায় গ্যাংলিওন"},
+  116: {same: 109},
+  117: {t: "odd", odd: 1, group: "চারটার তিনটা বইয়ের সংবহন-তালিকায় আছে",
+        why: "সম্মুখ বাহিকা = তালিকায় নেই", hook: "তালিকায় আছে পৃষ্ঠীয়; সামনের বাহিকা কি আছে?", cap: "সম্মুখ বাহিকা সংবহনতন্ত্রের অংশ নয়"},
+  119: {same: 113},
+
+  // ---------- শ্বসন ও রেচন ----------
+  107: {t: "count", n: 2, icon: "⭕", unit: " জোড়া", label: "শ্বাসরন্ধ্র বক্ষে",
+        extra: {n: 8, icon: "🔵", label: "শ্বাসরন্ধ্র উদরে (মোট ১০ জোড়া)"},
+        hook: "বক্ষে অল্প, উদরে অনেক বেশি", cap: "বক্ষে ২ জোড়া, উদরে ৮ জোড়া"},
+  111: {t: "odd", odd: 1, group: "চারটার তিনটা শ্বসনতন্ত্রের অংশ",
+        why: "Omatidium = চোখের অংশ", hook: "কে বাতাস নয়, আলোর সাথে কাজ করে?", cap: "Omatidium শ্বসনতন্ত্রের অংশ নয়"},
+  114: {t: "odd", odd: 3, good: true, group: "ইন্টিমা কোথায় থাকে? (বইয়ের উত্তর)",
+        why: "বইয়ের উত্তর (⚠ স্যারকে জিজ্ঞেস করো)", hook: "বইয়ের উত্তর অন্যরকম: শেষ অপশনটা", cap: "ইন্টিমা: প্রান্তীয় থলিতে (বই)"},
+  118: {t: "pin", el: "perit",
+        hook: "স্পাইরাকলের চারপাশে বেগুনি আংটিটার নাম কী? peri = চারপাশ", cap: "পেরিট্রিম স্পাইরাকলকে ঘিরে থাকে"},
+  120: {t: "scale", max: 30, step: 5, unit: "মিমি", marks: [{v: 25, l: "নালিকা"}],
+        hook: "রুলারের একদম শেষ মাথার কাছে", cap: "ম্যালপিজিয়ান নালিকা প্রায় ২৫ মিমি"},
+  121: {t: "pin", el: "malp",
+        hook: "মধ্যান্ত্র আর পশ্চাদন্ত্রের মাঝের সবুজ সরু নালিগুলো কী কাজ করে?", cap: "ম্যালপিজিয়ান নালিকা = রেচন অঙ্গ"},
+
+  // ---------- পুঞ্জাক্ষি (ওমাটিডিয়াম) ----------
+  122: {same: 92},
+  123: {t: "pin", el: "cone",
+        hook: "কর্নিয়ার নিচের হলুদ ফানেলটা আলোকে কী করতে দেয়?", cap: "ক্রিস্টালাইন কোণ আলো ঢুকতে দেয়"},
+  124: {same: 97},
+
+  // ---------- জননতন্ত্র ও রূপান্তর ----------
+  134: {t: "chain", steps: ["উওগোনিয়া", "উওসাইট", "উওটিড", "ডিম্বাণু"], note: "গোনিয়া → সাইট → টিড → গ্যামেট",
+        hook: "গোনিয়া সবার আগে, গ্যামেট সবার শেষে", cap: "উওগোনিয়া → উওসাইট → উওটিড → ডিম্বাণু"},
+  135: {same: 130},
+  136: {t: "pin", el: "seg9",
+        hook: "জ্বলজ্বলে খণ্ডকের স্টার্নাম লম্বা হয়ে প্লেট বানায়", cap: "৯ম খণ্ডকের স্টার্নাম = সাবজেনিটাল প্লেট"},
+  137: {t: "chain", steps: ["ডিম", "লার্ভা", "পিউপা", "ইমাগো"], note: "সম্পূর্ণ রূপান্তর: মশা, মাছি, প্রজাপতি",
+        hook: "ডিম প্রথমে, ইমাগো (পূর্ণাঙ্গ) সবার শেষে", cap: "ডিম → লার্ভা → পিউপা → ইমাগো"},
+});
+
 /* Shared by every version. Runs after the chapter data (CHAPTER) is defined. */
 CHAPTER.questions.forEach(q => {
   q.options = q.o; q.answer = q.a; q.marked = !!q.m; q.section = q.s; q.why = q.w || ""; q.elim = q.e || "";
@@ -3153,7 +3292,7 @@ figure.vz [data-vzpin]{stroke:#d84315 !important;stroke-width:3px !important;ani
 
   // 🔢 count: n icons (emoji) popping in one by one; v.extra = a second, contrasting group
   function count(v, q, mode) {
-    const per = Math.min(10, Math.max(v.n, (v.extra || {}).n || 0)), sz = per > 6 ? 30 : 38, gap = Math.min(70, (W - 40) / per);
+    const per = Math.min(12, Math.max(v.n, (v.extra || {}).n || 0)), sz = per > 10 ? 26 : per > 6 ? 30 : 38, gap = Math.min(70, (W - 40) / per);
     const unit = n => `${BN(n)}${v.unit === undefined ? "টি" : v.unit}`;
     // each row is centred, so one egg sits in the middle instead of the left edge
     const row = (n, icon, y, start) => Array.from({ length: n }, (_, i) =>

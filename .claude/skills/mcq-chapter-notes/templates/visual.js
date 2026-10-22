@@ -60,7 +60,7 @@ figure.vz [data-vzpin]{stroke:#d84315 !important;stroke-width:3px !important;ani
 
   // 🔢 count: n icons (emoji) popping in one by one; v.extra = a second, contrasting group
   function count(v, q, mode) {
-    const per = Math.min(10, Math.max(v.n, (v.extra || {}).n || 0)), sz = per > 6 ? 30 : 38, gap = Math.min(70, (W - 40) / per);
+    const per = Math.min(12, Math.max(v.n, (v.extra || {}).n || 0)), sz = per > 10 ? 26 : per > 6 ? 30 : 38, gap = Math.min(70, (W - 40) / per);
     const unit = n => `${BN(n)}${v.unit === undefined ? "টি" : v.unit}`;
     // each row is centred, so one egg sits in the middle instead of the left edge
     const row = (n, icon, y, start) => Array.from({ length: n }, (_, i) =>
