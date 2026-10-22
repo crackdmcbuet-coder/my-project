@@ -21,8 +21,17 @@ function markCue(text, cue) {
   return text.replace(cue, `<mark class="cue">${cue}</mark>`);
 }
 // Inline <style> in an SVG is global; prefix its selectors with the figure's id so classes
-// like .t/.s in one diagram don't restyle another (or the page). @keyframes are copied as is.
+// like .t/.s in one diagram don't restyle another (or the page). @keyframes names are global too,
+// so each one gets the figure's id appended, along with every animation that uses it.
+function scopeKeyframes(svg, id) {
+  const names = [...svg.matchAll(/@keyframes\s+([\w-]+)/g)].map(m => m[1]);
+  if (!names.length) return svg;
+  const re = new RegExp(`\\b(${names.join("|")})\\b(?![\\w-])`, "g");
+  return svg.replace(/@keyframes\s+([\w-]+)/g, `@keyframes $1-${id}`)
+    .replace(/(animation(?:-name)?\s*:\s*)([^;}"]+)/g, (m, prop, val) => prop + val.replace(re, `$1-${id}`));
+}
 function scopeSvg(svg, id) {
+  svg = scopeKeyframes(svg, id);
   const scoped = svg.replace(/<style>([\s\S]*?)<\/style>/, (m, css) => {
     let out = "", i = 0;
     while (i < css.length) {

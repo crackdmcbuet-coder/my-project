@@ -1,0 +1,541 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>শব্দমূল অভিধান</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f7f5f0; --card:#ffffff; --ink:#1f2328; --muted:#5f6670; --line:#e4e0d8;
+  --accent:#0f766e; --accent-soft:#e6f4f2;
+  --err:#c62828; --err-soft:#fdecec;
+  --ok:#2e7d32; --ok-soft:#e8f5e9;
+  --warn:#b26a00; --warn-soft:#fff4e0;
+  --mn:#6a1b9a; --mn-soft:#f4ecfa;
+  --fig:#ffffff;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#15171a; --card:#1e2125; --ink:#e8e6e1; --muted:#a3a9b1; --line:#30343a;
+    --accent:#4fd1c5; --accent-soft:#163633;
+    --err:#ff6b6b; --err-soft:#3a1d1f;
+    --ok:#66bb6a; --ok-soft:#1b2e1d;
+    --warn:#ffb74d; --warn-soft:#352a17;
+    --mn:#ce93d8; --mn-soft:#2c2033;
+    --fig:#f4f1ea;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#15171a; --card:#1e2125; --ink:#e8e6e1; --muted:#a3a9b1; --line:#30343a;
+  --accent:#4fd1c5; --accent-soft:#163633;
+  --err:#ff6b6b; --err-soft:#3a1d1f;
+  --ok:#66bb6a; --ok-soft:#1b2e1d;
+  --warn:#ffb74d; --warn-soft:#352a17;
+  --mn:#ce93d8; --mn-soft:#2c2033;
+  --fig:#f4f1ea;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:"Hind Siliguri","Noto Sans Bengali","Kalpurush",system-ui,sans-serif;
+  font-size:17px;line-height:1.75}
+.wrap{max-width:860px;margin:0 auto;padding:0 16px 80px}
+header{padding:18px 0 6px}
+header h1{font-size:1.5rem;line-height:1.3;margin:0 0 2px}
+header .sub{color:var(--muted);font-size:.9rem}
+.versions{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px;font-size:.85rem}
+.versions a{color:var(--accent);text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:2px 10px;background:var(--card)}
+.versions a.cur{background:var(--accent);color:#fff;border-color:var(--accent)}
+.stats{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px;font-size:.82rem}
+.pill{border:1px solid var(--line);background:var(--card);border-radius:999px;padding:1px 9px;white-space:nowrap}
+.chips{display:flex;gap:6px;overflow-x:auto;padding:6px 0;scrollbar-width:none}
+.chips::-webkit-scrollbar{display:none}
+.chip,button.btn{font:inherit;font-size:.85rem;border:1px solid var(--line);background:var(--card);
+  color:var(--ink);border-radius:999px;padding:4px 12px;cursor:pointer;white-space:nowrap;flex:0 0 auto}
+.chip[aria-pressed="true"]{background:var(--accent-soft);border-color:var(--accent);color:var(--accent);font-weight:600}
+button.primary{background:var(--accent);color:#fff;border-color:var(--accent);font-weight:600}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;margin:14px 0}
+.card h2{font-size:1.15rem;margin:0 0 8px;line-height:1.45}
+.topic-h{margin:28px 0 4px;font-size:1.3rem}
+figure{margin:10px 0;text-align:center}
+figure svg{width:100%;max-width:560px;height:auto;border-radius:10px;background:var(--fig)}
+figure svg text{fill-opacity:1}
+figcaption{font-size:.82rem;color:var(--muted);margin-top:4px}
+.err{color:var(--err);background:var(--err-soft);border-radius:4px;padding:0 3px;font-weight:600}
+.k{font-weight:600;color:var(--accent)}
+.err .k{color:inherit}
+body.recall .k{background:var(--ink);color:transparent;border-radius:4px;cursor:pointer;user-select:none}
+body.recall .k.show{background:transparent;color:var(--accent)}
+.box{border-radius:10px;padding:10px 12px;margin:10px 0;font-size:.95rem}
+.box b.t{display:block;font-size:.82rem;margin-bottom:2px}
+.why{background:var(--accent-soft)} .why b.t{color:var(--accent)}
+.mn{background:var(--mn-soft)} .mn b.t{color:var(--mn)}
+.story{border:1px dashed var(--mn)} .story b.t{color:var(--mn)}
+.trap{background:var(--warn-soft)} .trap b.t{color:var(--warn)}
+.trap ul{margin:4px 0 0;padding-left:20px}
+table{width:100%;border-collapse:collapse;font-size:.92rem}
+th,td{border-bottom:1px solid var(--line);padding:5px 6px;text-align:left;vertical-align:top}
+th{color:var(--muted);font-weight:600}
+td.err,b.err{display:table-cell}
+b.err{display:inline}
+mark.cue{background:transparent;color:inherit;border-bottom:3px solid #f9a825;padding:0 1px}
+.showcue mark.cue{background:#fff59d;color:#1f2328;border-radius:3px}
+.hintbox{background:#fff8e1;color:#5d4037;border-left:4px solid #f9a825}
+.hintbox b.t{color:#e65100}
+.empty{color:var(--muted);text-align:center;padding:30px 0}
+.muted{color:var(--muted)}
+[hidden]{display:none!important}
+@media (prefers-reduced-motion: reduce){ svg *{animation:none!important} }
+
+.search{width:100%;font:inherit;font-size:1rem;padding:8px 12px;border:1px solid var(--line);border-radius:12px;background:var(--card);color:var(--ink)}
+.root{border:1px solid var(--line);border-radius:12px;padding:10px 12px;margin:8px 0;background:var(--card)}
+.root .head{display:flex;flex-wrap:wrap;gap:8px;align-items:baseline}
+.root .w{font-weight:700;font-size:1.1rem}
+.root .lang{font-size:.75rem;color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:0 8px}
+.root .m{font-weight:600;color:var(--accent)}
+body.quizmode .root .m,body.quizmode .root .det{filter:blur(6px);cursor:pointer}
+body.quizmode .root.show .m,body.quizmode .root.show .det{filter:none}
+.root .det{font-size:.88rem;margin-top:4px}
+.root .det div{margin:2px 0}
+.inbook a{color:var(--accent);text-decoration:none;border-bottom:1px dotted}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>🔤 শব্দমূল অভিধান</h1>
+    <div class="sub">গ্রিক, ল্যাটিন আর সংস্কৃত মূল। একবার শিখলে সব অধ্যায়ে আর মেডিকেলে কাজে লাগবে। নতুন অধ্যায় যোগ হলে এই তালিকাও বড় হবে।</div>
+    <div class="chips"><button class="chip" data-v="roots" aria-pressed="true">মূল (root)</button><button class="chip" data-v="terms" aria-pressed="false">বইয়ের শব্দ ভাঙা</button>
+      <button class="chip" id="quizBtn" aria-pressed="false">🙈 মানে লুকাও (নিজেকে যাচাই)</button></div>
+    <input class="search" id="q" placeholder="খোঁজো: lysis, আলো, cyto, স্বেদ…" autocomplete="off">
+    <div class="muted" id="count" style="font-size:.85rem;margin-top:4px"></div>
+  </header>
+  <div id="out"></div>
+</div>
+<script>
+/* 🔤 শব্দমূল অভিধান: সব অধ্যায়ে শেয়ার করা।
+   key: {w: মূল রূপ, lang, m: মানে, also: সাধারণ শব্দে, med: মেডিকেলে/অন্য অধ্যায়ে}
+   নতুন অধ্যায়ে নতুন মূল লাগলে এখানেই যোগ করো; পুরনোগুলো আবার ব্যবহার হবে। */
+const ROOTS = {
+  // ---------- আলো, রং ----------
+  photo:   {w:"phōs, phōtos", lang:"গ্রিক", m:"আলো", also:["photograph","photon"], med:["photophobia: আলো সহ্য না হওয়া (মেনিনজাইটিস, মাইগ্রেন)","phototherapy: নবজাতকের জন্ডিসে নীল আলো"]},
+  phor:    {w:"phoros", lang:"গ্রিক", m:"বহনকারী", also:["semaphore"], med:["phosphorus = phōs + phoros = আলো-বহনকারী (অন্ধকারে জ্বলে)"]},
+  chloro:  {w:"chlōros", lang:"গ্রিক", m:"হালকা সবুজ / হলদে-সবুজ", also:["chlorine (হলদে-সবুজ গ্যাস)"], med:["chloroma: সবুজাভ টিউমার (লিউকেমিয়ায়)","hypochloremia: রক্তে Cl⁻ কম"]},
+  xantho:  {w:"xanthos", lang:"গ্রিক", m:"হলুদ", also:["xanthophyll"], med:["xanthelasma: চোখের পাতায় হলুদ চর্বির দাগ","xanthochromia: CSF হলুদ হওয়া"]},
+  leuko:   {w:"leukos", lang:"গ্রিক", m:"সাদা", also:["leucoplast"], med:["leukocyte: শ্বেত রক্তকণিকা","leukemia: রক্তে সাদা কণিকার ক্যানসার"]},
+  erythro: {w:"erythros", lang:"গ্রিক", m:"লাল", also:[], med:["erythrocyte: লোহিত রক্তকণিকা","erythema: ত্বক লাল হওয়া"]},
+  cyan:    {w:"kyanos", lang:"গ্রিক", m:"গাঢ় নীল", also:["cyan রং","cyanide"], med:["cyanosis: O₂ কম হলে ঠোঁট-নখ নীল"]},
+  chroma:  {w:"chrōma", lang:"গ্রিক", m:"রং", also:["chromosome (রঙে রাঙানো দেহ)","chromoplast"], med:["hypochromic anemia: ফ্যাকাশে RBC"]},
+  flav:    {w:"flavus", lang:"ল্যাটিন", m:"হলুদ", also:["riboflavin (ভিটামিন B₂, হলুদ)"], med:["flavivirus: ইয়েলো ফিভার/ডেঙ্গুর ভাইরাস পরিবার"]},
+  carot:   {w:"carota", lang:"ল্যাটিন", m:"গাজর", also:["carrot","β-carotene"], med:["carotenemia: বেশি গাজর খেলে ত্বক কমলা"]},
+  phyco:   {w:"phykos", lang:"গ্রিক", m:"সামুদ্রিক শৈবাল", also:["phycology (শৈবালবিদ্যা)"], med:[]},
+  bili:    {w:"bilis", lang:"ল্যাটিন", m:"পিত্ত", also:["bilin রঞ্জক"], med:["bilirubin: পিত্তের লাল রঞ্জক (জন্ডিস)","biliary colic"]},
+
+  // ---------- জোড়া, ভাঙা, কাজ ----------
+  syn:     {w:"syn", lang:"গ্রিক", m:"একসাথে", also:["synonym","synchronize","synthase"], med:["syndrome: একসাথে চলা উপসর্গ","synapse"]},
+  thesis:  {w:"thesis", lang:"গ্রিক", m:"বসানো / স্থাপন", also:["thesis","synthesis = একসাথে বসানো = তৈরি"], med:["prosthesis: কৃত্রিম অঙ্গ বসানো"]},
+  lysis:   {w:"lysis", lang:"গ্রিক", m:"ভাঙা / খুলে ফেলা", also:["analysis","catalysis"], med:["hemolysis: RBC ভাঙা","lysosome: ভাঙার থলি","thrombolysis: রক্তজমাট গলানো"]},
+  kine:    {w:"kinein", lang:"গ্রিক", m:"নড়ানো / সরানো", also:["kinetic","cinema"], med:["creatine kinase (CK): হার্ট অ্যাটাকে বাড়ে","dyskinesia"]},
+  ase:     {w:"-ase", lang:"ইংরেজি প্রত্যয়", m:"এনজাইমের নামের শেষ অংশ", also:["amylase","lipase"], med:["ALT/AST, lipase: রক্ত পরীক্ষার এনজাইম"]},
+  zyme:    {w:"zymē", lang:"গ্রিক", m:"খামির / ইস্ট", also:["enzyme = en + zymē = ইস্টের ভেতরে","zymase"], med:["lysozyme: চোখের পানির এনজাইম"]},
+  en:      {w:"en", lang:"গ্রিক", m:"ভেতরে", also:["enzyme","energy"], med:["endemic"]},
+  iso:     {w:"isos", lang:"গ্রিক", m:"সমান / একই", also:["isotope","isomer"], med:["isotonic saline: রক্তের সমান ঘনত্বের স্যালাইন"]},
+  mer:     {w:"meros", lang:"গ্রিক", m:"অংশ", also:["polymer","isomer = একই অংশ, ভিন্ন সাজ"], med:["telomere"]},
+  de:      {w:"de", lang:"ল্যাটিন", m:"সরানো / বাদ দেওয়া", also:["dehydrate","defrost"], med:["dehydration: পানি বেরিয়ে যাওয়া"]},
+  hydro:   {w:"hydōr", lang:"গ্রিক", m:"পানি", also:["hydrogen (পানি-উৎপাদক)","hydrant"], med:["hydrocephalus: মাথায় পানি","hydronephrosis"]},
+  gen:     {w:"-genēs", lang:"গ্রিক", m:"উৎপাদক / জন্মদাতা", also:["hydrogen","oxygen","gene"], med:["pathogen: রোগ-উৎপাদক","carcinogen"]},
+  oxy:     {w:"oxys", lang:"গ্রিক", m:"টক / ধারালো", also:["oxygen (ভাবা হতো এসিড বানায়)","oxalis (টক শাক)"], med:["oxytocin: দ্রুত (oxys) প্রসব (tokos)"]},
+  carb:    {w:"carbo", lang:"ল্যাটিন", m:"কয়লা (কার্বন)", also:["carbon","carboxyl (–COOH)"], med:["carbohydrate","carboxyhemoglobin (CO বিষক্রিয়া)"]},
+  lig:     {w:"ligare", lang:"ল্যাটিন", m:"বাঁধা / জোড়া", also:["ligase","ligand"], med:["ligament: হাড়-হাড় বাঁধে","ligature: সেলাইয়ের বাঁধন"]},
+  hexa:    {w:"hex", lang:"গ্রিক", m:"ছয়", also:["hexagon","hexose (৬C চিনি)"], med:[]},
+  tri:     {w:"tri", lang:"গ্রিক/ল্যাটিন", m:"তিন", also:["triangle","tricarboxylic"], med:["triceps: তিন মাথার পেশি","triglyceride"]},
+  bis:     {w:"bis / di", lang:"ল্যাটিন/গ্রিক", m:"দুই", also:["bisphosphate","diphosphate (একই মানে)","bicycle"], med:["biceps: দুই মাথার পেশি"]},
+  mono:    {w:"monos", lang:"গ্রিক", m:"এক", also:["monomer"], med:["mononucleosis"]},
+
+  // ---------- কোষ, গঠন ----------
+  cyto:    {w:"kytos", lang:"গ্রিক", m:"ফাঁপা পাত্র → কোষ", also:["cytoplasm","cytosol"], med:["cytology: কোষ পরীক্ষা","leukocyte, erythrocyte, -cyte = কোষ"]},
+  plast:   {w:"plastos", lang:"গ্রিক", m:"গড়া / ছাঁচে তৈরি", also:["plastic","chloroplast","plasma"], med:["plastic surgery: গড়ে দেওয়া","hyperplasia: বেশি গড়ে ওঠা"]},
+  sol:     {w:"solutio", lang:"ল্যাটিন", m:"দ্রবণ / তরল", also:["solution","cytosol = কোষের তরল"], med:["solute"]},
+  mito:    {w:"mitos", lang:"গ্রিক", m:"সুতা", also:["mitosis (ক্রোমোজোম সুতার মতো দেখায়)"], med:["mitotic figure: ক্যানসার কোষে বেশি"]},
+  chondr:  {w:"chondros", lang:"গ্রিক", m:"দানা / তরুণাস্থি", also:["mitochondria = সুতা + দানা"], med:["chondrocyte: তরুণাস্থির কোষ","osteochondroma"]},
+  thylak:  {w:"thylakos", lang:"গ্রিক", m:"থলি / বস্তা", also:["thylakoid = থলির মতো"], med:[]},
+  oid:     {w:"-oeidēs", lang:"গ্রিক", m:"এর মতো দেখতে", also:["thylakoid","carotenoid","android"], med:["thyroid: ঢালের মতো","adenoid","rheumatoid"]},
+  stroma:  {w:"strōma", lang:"গ্রিক", m:"বিছানা / বিছিয়ে রাখা আস্তরণ", also:["ক্লোরোপ্লাস্টের তরল বিছানা"], med:["stroma: অঙ্গের ভেতরের কাঠামো-কলা (ovarian stroma)"]},
+  granum:  {w:"granum", lang:"ল্যাটিন", m:"দানা", also:["grain","grana = দানার স্তূপ"], med:["granulocyte: দানাওয়ালা WBC","granuloma (TB)"]},
+  meso:    {w:"mesos", lang:"গ্রিক", m:"মাঝখান", also:["mesophyll","Mesopotamia (দুই নদীর মাঝে)"], med:["mesoderm","mesentery"]},
+  phyll:   {w:"phyllon", lang:"গ্রিক", m:"পাতা", also:["chlorophyll","mesophyll","xanthophyll"], med:[]},
+  phyte:   {w:"phyton", lang:"গ্রিক", m:"উদ্ভিদ", also:["xerophyte","hydrophyte"], med:["dermatophyte: ত্বকের ছত্রাক","osteophyte: হাড়ে কাঁটা"]},
+  stoma:   {w:"stoma, stomata", lang:"গ্রিক", m:"মুখ", also:["পাতার মুখ = পত্ররন্ধ্র"], med:["stomatitis: মুখে ঘা","colostomy: পেটে কৃত্রিম মুখ"]},
+  cutis:   {w:"cutis → cuticula", lang:"ল্যাটিন", m:"চামড়া → ছোট চামড়া", also:["cuticle","cutin"], med:["subcutaneous: চামড়ার নিচে (s.c. ইনজেকশন)"]},
+  lens:    {w:"lens, lentis", lang:"ল্যাটিন", m:"মসুর ডাল", also:["lenticel (মসুর দানার মতো ছিদ্র)","চোখের lens (মসুর দানার আকার)"], med:["lenticular"]},
+  hodos:   {w:"hodos", lang:"গ্রিক", m:"পথ", also:["hydathode = পানির পথ","electrode","method"], med:["anode/cathode"]},
+  kranz:   {w:"Kranz", lang:"জার্মান", m:"মালা / পুষ্পমাল্য", also:["Kranz anatomy: বান্ডলশীথকে ঘিরে মেসোফিলের মালা"], med:[]},
+
+  // ---------- চলাচল, পানি ----------
+  trans:   {w:"trans", lang:"ল্যাটিন", m:"পার হয়ে / এপার-ওপার", also:["transport","transfer"], med:["transfusion: রক্ত এক দেহ থেকে আরেক দেহে","transplant"]},
+  spir:    {w:"spirare", lang:"ল্যাটিন", m:"শ্বাস নেওয়া / ফুঁ দেওয়া", also:["transpiration","respiration","inspire","spirit"], med:["spirometry: শ্বাস মাপা","inspiration/expiration"]},
+  re:      {w:"re", lang:"ল্যাটিন", m:"আবার / বারবার", also:["respiration = বারবার শ্বাস","return"], med:["relapse"]},
+  osmo:    {w:"ōsmos", lang:"গ্রিক", m:"ধাক্কা / ঠেলা", also:["osmosis","osmotic pressure"], med:["osmotic diuresis: ডায়াবেটিসে বেশি প্রস্রাব","hyperosmolar"]},
+  diffund: {w:"dis + fundere", lang:"ল্যাটিন", m:"চারদিকে ঢেলে দেওয়া", also:["diffusion","fuse"], med:["diffusion capacity: ফুসফুসে O₂ ছড়ানো","infusion: শিরায় ঢালা"]},
+  imbibe:  {w:"in + bibere", lang:"ল্যাটিন", m:"ভেতরে পান করা / চুষে নেওয়া", also:["imbibition","beverage (bibere থেকে)"], med:[]},
+  turgor:  {w:"turgere", lang:"ল্যাটিন", m:"ফুলে ওঠা", also:["turgid","turgor pressure"], med:["skin turgor: ডায়রিয়ায় পানিশূন্যতা পরীক্ষা (চামড়া টেনে ছাড়া)"]},
+  xero:    {w:"xēros", lang:"গ্রিক", m:"শুকনো", also:["xerophyte","Xerox (শুকনো কপি)"], med:["xerophthalmia: ভিটামিন A-র অভাবে শুকনো চোখ","xerostomia: শুকনো মুখ"]},
+  ion:     {w:"ion (ienai)", lang:"গ্রিক", m:"যে যায় / যাত্রী", also:["ion"], med:["ionizing radiation"]},
+  kata:    {w:"kata", lang:"গ্রিক", m:"নিচে", also:["cation = নিচে (ক্যাথোডে) যায়","catalyst"], med:["catabolism: ভেঙে নিচে নামানো","cataract"]},
+  ana:     {w:"ana", lang:"গ্রিক", m:"উপরে", also:["anion = উপরে (অ্যানোডে) যায়","anabolism"], med:["anaphylaxis","anabolic steroid"]},
+  macro:   {w:"makros", lang:"গ্রিক", m:"বড়", also:["macronutrient","macro lens"], med:["macrocytic anemia: বড় RBC (B₁₂ অভাব)","macrophage: বড় খাদক কোষ"]},
+  micro:   {w:"mikros", lang:"গ্রিক", m:"ছোট", also:["micronutrient","microscope"], med:["microcytic anemia: ছোট RBC (আয়রন অভাব)","microbe"]},
+  nutri:   {w:"nutrire", lang:"ল্যাটিন", m:"পুষ্টি দেওয়া", also:["nutrient","nutrition"], med:["malnutrition","nurse (একই মূল)"]},
+
+  // ---------- শ্বসন, এসিড ----------
+  aer:     {w:"aēr", lang:"গ্রিক", m:"বাতাস", also:["aerobic","aeroplane","aerosol"], med:["aerobic bacteria","aerophagia: বাতাস গেলা"]},
+  bios:    {w:"bios", lang:"গ্রিক", m:"জীবন", also:["biology","aerobic = বাতাসে জীবন"], med:["biopsy: জীবন্ত টিস্যু দেখা","antibiotic: জীবনের বিরুদ্ধে (জীবাণুর)"]},
+  an:      {w:"an- / a-", lang:"গ্রিক", m:"না / ছাড়া", also:["anaerobic = বাতাস ছাড়া জীবন"], med:["anemia: রক্ত (কম)","anesthesia: অনুভূতি ছাড়া","anuria"]},
+  ferv:    {w:"fervere", lang:"ল্যাটিন", m:"ফোটা / বুদবুদ তোলা", also:["ferment (বুদবুদ ওঠে বলে)","fervent"], med:[]},
+  glyco:   {w:"glykys", lang:"গ্রিক", m:"মিষ্টি", also:["glucose","glycolysis","glycogen"], med:["glycosuria: প্রস্রাবে চিনি","HbA1c = glycated hemoglobin"]},
+  pyr:     {w:"pyr", lang:"গ্রিক", m:"আগুন", also:["pyruvic acid = আগুন + আঙুর","pyre"], med:["pyrexia: জ্বর","antipyretic: জ্বর কমানোর ওষুধ (প্যারাসিটামল)"]},
+  uva:     {w:"uva", lang:"ল্যাটিন", m:"আঙুর", also:["pyruvic (আঙুরের এসিড গরম করে প্রথম পাওয়া)"], med:["uvula: আলজিভ (ছোট আঙুরের মতো)","uvea: চোখের আঙুর-রঙা স্তর"]},
+  citrus:  {w:"citrus", lang:"ল্যাটিন", m:"লেবু জাতীয় ফল", also:["citric acid","citrate"], med:["citrate: রক্ত জমাট ঠেকায় (ব্লাড ব্যাগে)"]},
+  malum:   {w:"malum", lang:"ল্যাটিন", m:"আপেল", also:["malic acid (কাঁচা আপেলের টক)","Malus (আপেল গাছ)"], med:[]},
+  lact:    {w:"lac, lactis", lang:"ল্যাটিন", m:"দুধ", also:["lactic acid","lactose","Streptococcus lactis"], med:["lactation: দুধ নিঃসরণ","lactic acidosis"]},
+  succin:  {w:"succinum", lang:"ল্যাটিন", m:"অ্যাম্বার (গাছের জীবাশ্ম রজন)", also:["succinic acid (অ্যাম্বার পুড়িয়ে প্রথম পাওয়া)"], med:["succinylcholine: অজ্ঞানে পেশি শিথিলকারী"]},
+  fumus:   {w:"fumus", lang:"ল্যাটিন", m:"ধোঁয়া", also:["fumaric acid (Fumaria বা ধোঁয়া-লতা গাছ থেকে)","fume"], med:["fumigation"]},
+  oxalis:  {w:"oxalis", lang:"গ্রিক", m:"টক শাক (oxys = টক)", also:["oxalic acid","oxaloacetic acid"], med:["calcium oxalate stone: কিডনির পাথর"]},
+  aconit:  {w:"Aconitum", lang:"ল্যাটিন (গাছের নাম)", m:"একোনাইট বিষগাছ", also:["aconitic acid","aconitase"], med:["aconite poisoning"]},
+  acet:    {w:"acetum", lang:"ল্যাটিন", m:"ভিনেগার", also:["acetic acid","acetyl"], med:["acetone breath: DKA-তে","acetylcholine"]},
+  ferrum:  {w:"ferrum", lang:"ল্যাটিন", m:"লোহা", also:["ferredoxin","Fe প্রতীক"], med:["ferritin: লোহার ভাণ্ডার","ferrous sulphate ট্যাবলেট"]},
+  quina:   {w:"quina", lang:"কেচুয়া/স্প্যানিশ", m:"সিনকোনা গাছের ছাল", also:["quinone","quinine"], med:["quinine: ম্যালেরিয়ার ওষুধ (একই ছাল)"]},
+  quot:    {w:"quotiens", lang:"ল্যাটিন", m:"কতবার", also:["quotient (ভাগফল)","Respiratory Quotient"], med:["IQ = Intelligence Quotient"]},
+  oleum:   {w:"oleum", lang:"ল্যাটিন", m:"তেল (জলপাইয়ের)", also:["oleic acid","olive","petroleum (পাথরের তেল)"], med:["oleic acid: চর্বির প্রধান ফ্যাটি এসিড"]},
+  gutta:   {w:"gutta", lang:"ল্যাটিন", m:"ফোঁটা", also:["guttation"], med:["প্রেসক্রিপশনে gtt. = ফোঁটা (চোখের ড্রপ)"]},
+  molasses:{w:"mel → mellaceus", lang:"ল্যাটিন", m:"মধু → মধুর মতো", also:["molasses = চিটাগুড়"], med:["diabetes mellitus: মধুর মতো (মিষ্টি) প্রস্রাব!"]},
+
+  // ---------- বৈজ্ঞানিক নাম ----------
+  sacchar: {w:"sakcharon", lang:"গ্রিক", m:"চিনি", also:["Saccharum (আখ)","saccharin"], med:["polysaccharide","monosaccharide"]},
+  officin: {w:"officina", lang:"ল্যাটিন", m:"কর্মশালা / ওষুধের দোকান", also:["officinarum = দোকানের (কাজের) জিনিস"], med:["officinal: ফার্মাকোপিয়ার ওষুধ"]},
+  oryza:   {w:"oryza", lang:"গ্রিক", m:"ধান", also:["Oryza sativa","rice"], med:[]},
+  sativa:  {w:"sativus", lang:"ল্যাটিন", m:"চাষ করা / বোনা", also:["Oryza sativa","Cannabis sativa"], med:[]},
+  fera:    {w:"ferre", lang:"ল্যাটিন", m:"বহন করা / ধরা", also:["Mangifera = আম ধরে যে গাছ","transfer"], med:["afferent / efferent: স্নায়ু ভেতরে/বাইরে বহন"]},
+  indica:  {w:"indicus", lang:"ল্যাটিন", m:"ভারতবর্ষের", also:["Mangifera indica","Tamarindus indica"], med:[]},
+  tritic:  {w:"triticum (tritus)", lang:"ল্যাটিন", m:"গম (মাড়াই করা শস্য)", also:["Triticum aestivum"], med:[]},
+  aestiv:  {w:"aestivus", lang:"ল্যাটিন", m:"গ্রীষ্মের", also:["aestivation (গ্রীষ্মনিদ্রা)"], med:[]},
+  colon:   {w:"kolon", lang:"গ্রিক", m:"বৃহদন্ত্র", also:["E. coli = কোলনের ব্যাকটেরিয়া"], med:["colitis","colonoscopy"]},
+  strepto: {w:"streptos", lang:"গ্রিক", m:"পাকানো / শিকলের মতো", also:["Streptococcus = শিকলে গাঁথা দানা"], med:["Streptococcus pyogenes: গলা ব্যথা, বাতজ্বর","streptomycin"]},
+  coccus:  {w:"kokkos", lang:"গ্রিক", m:"দানা / বেরি", also:["coccus = গোল ব্যাকটেরিয়া"], med:["Staphylococcus: আঙুরের থোকার মতো দানা","pneumococcus"]},
+
+  // ---------- মানুষের নাম / সংক্ষেপ ----------
+  krebs:   {w:"Krebs", lang:"জার্মান (বিজ্ঞানী Hans Krebs)", m:"জার্মান ভাষায় কাঁকড়া!", also:["Krebs cycle"], med:["জার্মানে Krebs মানে ক্যানসারও (cancer = ল্যাটিনে কাঁকড়া)"]},
+  rubisco: {w:"RuBisCO", lang:"সংক্ষেপ", m:"Ribulose-1,5-bisphosphate Carboxylase/Oxygenase", also:["RuBP + কার্বক্সিলেজ = CO₂ জোড়া দেয়"], med:[]},
+  emp:     {w:"EMP", lang:"বিজ্ঞানীর নাম", m:"Embden-Meyerhof-Parnas (তিন বিজ্ঞানী)", also:["গ্লাইকোলাইসিসের অপর নাম"], med:[]},
+
+  // ---------- বাংলা (সংস্কৃত) মূল ----------
+  bn_sa:   {w:"স / সহ", lang:"সংস্কৃত", m:"সাথে / সহ", also:["সালোক = আলোর সাথে","সবাত = বাতাসের সাথে"], med:["সক্রিয়, সজীব"]},
+  bn_a:    {w:"অ", lang:"সংস্কৃত", m:"না", also:["অবাত = বাতাস ছাড়া (an-aerobic এর হুবহু অনুবাদ)"], med:["অজ্ঞান"]},
+  bn_bat:  {w:"বাত", lang:"সংস্কৃত", m:"বায়ু / বাতাস", also:["বাতাস","সবাত, অবাত"], med:["বাতজ্বর (পুরনো ধারণা: শরীরে বায়ু)"]},
+  bn_swed: {w:"স্বেদ", lang:"সংস্কৃত", m:"ঘাম", also:["প্রস্বেদন = গাছের ঘাম","স্বেদগ্রন্থি = ঘর্মগ্রন্থি"], med:["sweat gland"]},
+  bn_rondhro:{w:"রন্ধ্র", lang:"সংস্কৃত", m:"ছিদ্র / ফুটো", also:["পত্ররন্ধ্র = পাতার ফুটো","নাসারন্ধ্র"], med:["নাসারন্ধ্র (nostril)"]},
+  bn_srab: {w:"স্রব / স্রাব", lang:"সংস্কৃত", m:"ক্ষরণ / বয়ে যাওয়া", also:["অভিস্রবণ = দিকে বয়ে যাওয়া","নিঃস্রাবণ = বাইরে ক্ষরণ"], med:["রক্তস্রাব, স্রাব"]},
+  bn_shlesh:{w:"শ্লেষ", lang:"সংস্কৃত", m:"জড়ানো / জোড়া লাগা", also:["সংশ্লেষণ = synthesis","বিশ্লেষণ = analysis (খুলে ফেলা)"], med:["শ্লেষ্মা (আঠালো জিনিস = mucus)"]},
+
+  // ---------- ch10-plant-reproduction ----------
+  "gamos": {"w":"gamos","lang":"গ্রিক","m":"বিয়ে / মিলন","also":["gamete","syngamy","monogamy"],"med":["gamete: যৌন কোষ (শুক্রাণু বা ডিম্বাণু)","polygamy"]},
+  "spora": {"w":"spora","lang":"গ্রিক","m":"বীজ বোনা / বীজ","also":["spore","sporophyte","sporadic"],"med":["sporadic: ছড়িয়ে-ছিটিয়ে হওয়া রোগ","anthrax spore: অ্যানথ্রাক্সের টিকে-থাকা বীজ"]},
+  "tapetum": {"w":"tapētum, tapēs","lang":"ল্যাটিন","m":"কার্পেট / গালিচা","also":["tapestry"],"med":["tapetum lucidum: কিছু প্রাণীর চোখের পেছনে আলো ফেরানো কার্পেট-স্তর"]},
+  "exo": {"w":"exō","lang":"গ্রিক","m":"বাইরে","also":["exotic","exine = বাইরের স্তর"],"med":["exocrine gland: বাইরে ঢালে","exotoxin: ব্যাকটেরিয়া বাইরে ছাড়া বিষ","exophthalmos: চোখ বাইরে ঠেলে ওঠা"]},
+  "intus": {"w":"intus, intra","lang":"ল্যাটিন","m":"ভেতরে","also":["internal","intra-","intine = ভেতরের স্তর"],"med":["intravenous (IV): শিরার ভেতরে","intramuscular (IM): পেশির ভেতরে"]},
+  "endo": {"w":"endon","lang":"গ্রিক","m":"ভেতরে","also":["endosperm","endoderm"],"med":["endocrine: ভেতরে ঢালে","endoscopy: ভেতরে দেখা","endometrium: জরায়ুর ভেতরের স্তর"]},
+  "andros": {"w":"anēr, andros","lang":"গ্রিক","m":"পুরুষ","also":["android","androecium"],"med":["androgen: পুরুষ-হরমোন","andrology: পুরুষের রোগবিদ্যা"]},
+  "gyne": {"w":"gynē","lang":"গ্রিক","m":"নারী","also":["gynoecium"],"med":["gynecology: নারীরোগবিদ্যা","gynecomastia: পুরুষের স্তনবৃদ্ধি"]},
+  "oikos": {"w":"oikos","lang":"গ্রিক","m":"ঘর / বাসস্থান","also":["ecology","economy","monoecious = এক ঘর"],"med":["ecology: বাসস্থানের বিজ্ঞান"]},
+  "placenta": {"w":"placenta","lang":"ল্যাটিন","m":"চ্যাপ্টা কেক / পিঠা","also":["গাছের অমরা"],"med":["placenta previa: প্ল্যাসেন্টা নিচে বসা","retained placenta: প্রসবের পর আটকে থাকা প্ল্যাসেন্টা"]},
+  "ovum": {"w":"ōvum, ōvulum","lang":"ল্যাটিন","m":"ডিম / ছোট ডিম","also":["ovary","oval"],"med":["ovary: ডিম্বাশয়","ovulation: ডিম্বপাত"]},
+  "ortho": {"w":"orthos","lang":"গ্রিক","m":"সোজা / ঠিক","also":["orthodox","orthography"],"med":["orthopedics: সোজা করা (শিশুর বাঁকা পা সোজা করা)","orthostatic hypotension: সোজা দাঁড়ালে চাপ কমা"]},
+  "tropos": {"w":"tropos, tropē","lang":"গ্রিক","m":"ঘোরা / বাঁক নেওয়া","also":["tropism","tropical","orthotropous"],"med":["gonadotropin: গোনাডের দিকে ঘুরে কাজ করা হরমোন"]},
+  "campylo": {"w":"kampylos","lang":"গ্রিক","m":"বাঁকা","also":["Campylobacter = বাঁকা ব্যাকটেরিয়া"],"med":["Campylobacter jejuni: বাঁকা দণ্ড জীবাণু, পেটের সংক্রমণ"]},
+  "amphi": {"w":"amphi","lang":"গ্রিক","m":"দুই দিকে / চারপাশে","also":["amphibian = দুই জীবন","amphitheatre"],"med":["amphiarthrosis: আধা-নড়া সন্ধি"]},
+  "mega": {"w":"megas","lang":"গ্রিক","m":"বড়","also":["megaphone","megabyte"],"med":["megaloblastic anemia: বড় অপরিণত RBC (B₁₂ অভাব)","acromegaly: হাত-পা-মুখ বড় হওয়া"]},
+  "pyle": {"w":"pylē","lang":"গ্রিক","m":"দরজা / ফটক","also":["pylon"],"med":["pylorus: পাকস্থলীর দারোয়ান (pylē + ouros)"]},
+  "chalaza": {"w":"chalaza","lang":"গ্রিক","m":"শিলা / ছোট গাঁট","also":["hailstone"],"med":["chalazion: চোখের পাতার ছোট গাঁট"]},
+  "funis": {"w":"fūnis, funiculus","lang":"ল্যাটিন","m":"দড়ি / ছোট দড়ি","also":["funicular"],"med":["funiculus umbilicalis: নাভির নাড়ী","funiculus spermaticus: শুক্রাণু-রজ্জু"]},
+  "tegere": {"w":"tegere, integumentum","lang":"ল্যাটিন","m":"ঢাকা / আবরণ","also":["protect","detect (ঢাকনা সরানো)"],"med":["integumentary system: ত্বক-ব্যবস্থা"]},
+  "nux": {"w":"nux, nucis; nucella","lang":"ল্যাটিন","m":"বাদাম / ছোট বাদাম","also":["nucleus = বাদামের শাঁস","nut"],"med":["nuclear medicine","nucleolus"]},
+  "ergon": {"w":"ergon","lang":"গ্রিক","m":"কাজ","also":["energy (en + ergon)","ergonomics","synergy"],"med":["synergist muscle: একসাথে কাজ করা পেশি","allergy: অন্য রকম কাজ (allos + ergon)"]},
+  "anti": {"w":"anti","lang":"গ্রিক","m":"উল্টো / বিপরীত","also":["antonym","Antarctic = Arctic-এর উল্টো"],"med":["antibiotic","antidote","antibody"]},
+  "pous": {"w":"pous, podos","lang":"গ্রিক","m":"পা","also":["antipodes = উল্টো পা","tripod"],"med":["podiatry: পায়ের চিকিৎসা","podocyte: কিডনির পা-ওয়ালা কোষ"]},
+  "karyon": {"w":"karyon","lang":"গ্রিক","m":"বাদাম / শাঁস → নিউক্লিয়াস","also":["karyogamy","eukaryote = সত্যিকারের শাঁসওয়ালা"],"med":["karyotype: ক্রোমোসোমের ছবি","karyorrhexis: নিউক্লিয়াস ভেঙে টুকরো হওয়া"]},
+  "zygon": {"w":"zygon, zygōtos","lang":"গ্রিক","m":"জোয়াল / জোড়া লাগানো","also":["zygote = জোড়া-লাগা কোষ"],"med":["zygomatic bone: গালের হাড় (জোড়া লাগানো হাড়)","monozygotic twins: এক জাইগোটের যমজ"]},
+  "oon": {"w":"ōon","lang":"গ্রিক","m":"ডিম","also":["oogenesis","oospore"],"med":["oocyte: ডিম্বাণু-কোষ","oophorectomy: ডিম্বাশয় কেটে ফেলা"]},
+  "poros": {"w":"poros","lang":"গ্রিক","m":"ছিদ্র / পথ","also":["pore","porous"],"med":["osteoporosis: হাড়ে ছিদ্র","porosity"]},
+  "sperma": {"w":"sperma","lang":"গ্রিক","m":"বীজ","also":["gymnosperm","angiosperm","endosperm"],"med":["spermatozoa: শুক্রাণু","azoospermia: শুক্রাণু না থাকা"]},
+  "gymnos": {"w":"gymnos","lang":"গ্রিক","m":"নগ্ন / খোলা","also":["gymnasium = নগ্ন হয়ে ব্যায়ামের জায়গা"],"med":[]},
+  "angeion": {"w":"angeion","lang":"গ্রিক","m":"পাত্র / আধার","also":["angiosperm = পাত্রে ঢাকা বীজ"],"med":["angiography: রক্তনালির ছবি","angioma: রক্তনালির টিউমার"]},
+  "testa": {"w":"testa","lang":"ল্যাটিন","m":"মাটির পাত্র / শক্ত খোলস","also":["test (মূলত মাটির পাত্রে পরীক্ষা)"],"med":[]},
+  "bryo": {"w":"bryein","lang":"গ্রিক","m":"ফুলে ওঠা / বেড়ে ওঠা","also":["embryo = ভেতরে বেড়ে ওঠা"],"med":["embryology: ভ্রূণবিদ্যা","embryo transfer (IVF)"]},
+  "haplo": {"w":"haploos","lang":"গ্রিক","m":"একক / সরল","also":["haploid"],"med":["haplotype: একসাথে আসা জিনের একক সেট","haploinsufficiency"]},
+  "ploid": {"w":"-ploos (-ploid)","lang":"গ্রিক","m":"ভাঁজ / সেট","also":["diploid","triploid","polyploid"],"med":["aneuploidy: ক্রোমোসোম সংখ্যা ঠিক নেই (Down syndrome)","euploid: ঠিক সংখ্যার সেট"]},
+  "bulbus": {"w":"bulbus","lang":"ল্যাটিন","m":"পেঁয়াজ / কন্দ","also":["bulb","bulbil"],"med":["bulbar palsy: ব্রেইনস্টেমের নিচের অংশের প্যারালাইসিস","bulbus oculi: চোখের গোলক"]},
+  "tuber": {"w":"tūber","lang":"ল্যাটিন","m":"ফুলে ওঠা গাঁট","also":["tuberous"],"med":["tuberculosis: গোল গোল গুটি (tubercle) থেকে","tuberosity: হাড়ের ফোলা অংশ"]},
+  "rhiza": {"w":"rhiza","lang":"গ্রিক","m":"মূল / শিকড়","also":["rhizome","mycorrhiza"],"med":["rhizotomy: স্নায়ুমূল কাটা"]},
+  "klados": {"w":"klados","lang":"গ্রিক","m":"ডাল / শাখা","also":["cladogram","phylloclade"],"med":[]},
+  "anthos": {"w":"anthos, anthemon","lang":"গ্রিক","m":"ফুল","also":["anther","anthology","chrysanthemum"],"med":["anthocyanin: ফুলের নীল রঞ্জক"]},
+  "chrysos": {"w":"chrysos","lang":"গ্রিক","m":"সোনা","also":["chrysanthemum = সোনালি ফুল"],"med":["chrysotherapy: সোনার লবণ দিয়ে বাতের চিকিৎসা"]},
+  "klon": {"w":"klōn","lang":"গ্রিক","m":"কচি ডাল / শাখা","also":["clone"],"med":["clonal expansion: একই কোষ থেকে বংশবৃদ্ধি","monoclonal antibody"]},
+  "partheno": {"w":"parthenos","lang":"গ্রিক","m":"কুমারী","also":["Parthenon মন্দির (এথেন্সের কুমারী দেবী Athena Parthenos)"],"med":[]},
+  "genesis": {"w":"genesis","lang":"গ্রিক","m":"উৎপত্তি / জন্ম","also":["Genesis","pathogenesis"],"med":["pathogenesis: রোগ কীভাবে জন্মায়","angiogenesis: নতুন রক্তনালি তৈরি"]},
+  "karpos": {"w":"karpos","lang":"গ্রিক","m":"ফল","also":["carpel","pericarp","parthenocarpy"],"med":["endocarp, epicarp: ফলের ভেতর-বাইরের স্তর"]},
+  "apo": {"w":"apo","lang":"গ্রিক","m":"থেকে দূরে / ছাড়া","also":["apostle","apology"],"med":["apoptosis: কোষের নিজে ঝরে পড়া","aponeurosis: পেশির পাতলা আবরণ"]},
+  "ex": {"w":"ex, e-","lang":"ল্যাটিন","m":"বাইরে / বের করা","also":["exit","exhale","emigrate"],"med":["excretion: বের করা","expiration: শ্বাস বের","excision: কেটে বের করা"]},
+  "masculus": {"w":"masculus (mas)","lang":"ল্যাটিন","m":"পুরুষ","also":["masculine","male","emasculate"],"med":[]},
+  "hybrida": {"w":"hybrida","lang":"ল্যাটিন","m":"মিশ্র জাতের সন্তান (গৃহপালিত ও বন্য শূকরের)","also":["hybrid"],"med":["hybridoma: দুই কোষ জুড়ে অ্যান্টিবডি কারখানা"]},
+
+  // ---------- ch11-biotechnology ----------
+  "techne": {"w":"technē","lang":"গ্রিক","m":"কারুকাজ / দক্ষতা","also":["technique","technology = দক্ষতার বিদ্যা"],"med":["technician"]},
+  "logos": {"w":"logos","lang":"গ্রিক","m":"কথা / বিদ্যা","also":["biology = জীবনের বিদ্যা","-logy"],"med":["pathology: রোগের বিদ্যা","cardiology"]},
+  "vitro": {"w":"vitrum","lang":"ল্যাটিন","m":"কাচ","also":["in vitro = কাচের ভেতরে","vitreous"],"med":["in vitro fertilization (IVF): টেস্টটিউব বেবি","vitreous humor: চোখের কাচের মতো স্বচ্ছ রস"]},
+  "plant": {"w":"plantare","lang":"ল্যাটিন","m":"রোপণ করা / চারা","also":["plant","plantation"],"med":["transplant: এক জায়গা থেকে তুলে আরেক জায়গায় বসানো","implant"]},
+  "callus": {"w":"callus","lang":"ল্যাটিন","m":"শক্ত চামড়া / কড়া","also":["callous"],"med":["callus: ভাঙা হাড় জোড়া লাগার সময় গড়ে ওঠা শক্ত গাঁট","skin callus: হাতের কড়া"]},
+  "meristo": {"w":"meristos","lang":"গ্রিক","m":"ভাগ করা যায় এমন","also":["meristem = ভাগ হতে থাকা টিস্যু"],"med":[]},
+  "toti": {"w":"totus","lang":"ল্যাটিন","m":"সম্পূর্ণ / সব","also":["total"],"med":["totipotent stem cell: সব রকম কোষে পরিণত হতে পারে"]},
+  "potent": {"w":"potens","lang":"ল্যাটিন","m":"ক্ষমতাবান","also":["potential","potent"],"med":["pluripotent stem cell","impotence"]},
+  "soma": {"w":"sōma","lang":"গ্রিক","m":"দেহ","also":["somatic = দেহের (বংশের নয়)","chromosome (রঙিন দেহ)"],"med":["psychosomatic: মনজাত দৈহিক রোগ","somatostatin"]},
+  "embryo": {"w":"embryon","lang":"গ্রিক","m":"ভ্রূণ (en + bryein = ভেতরে ফুলে ওঠা)","also":["embryo"],"med":["embryology","embryonic stem cell"]},
+  "diplo": {"w":"diploos","lang":"গ্রিক","m":"দ্বিগুণ","also":["diploid = 2n","diplomat (ভাঁজ করা কাগজ)"],"med":["diplopia: দ্বিদৃষ্টি","Diplococcus: জোড়া কোকাস"]},
+  "andro": {"w":"anēr, andros","lang":"গ্রিক","m":"পুরুষ","also":["android","androgenic = পুরুষ থেকে উৎপন্ন"],"med":["androgen: পুরুষ হরমোন","androgenic alopecia: পুরুষালি টাক"]},
+  "colchi": {"w":"Colchicum (Colchis)","lang":"ল্যাটিন (স্থান নাম)","m":"কলচিস অঞ্চলের উদ্ভিদ","also":["colchicine = Colchicum গাছের ক্ষারীয় পদার্থ"],"med":["colchicine: গাউট রোগের ওষুধ (কোষবিভাজনের সুতা আটকে দেয়)"]},
+  "homo": {"w":"homos","lang":"গ্রিক","m":"একই / সমান","also":["homogeneous","homonym"],"med":["homozygous: দুই জিন একই","homeostasis: একই অবস্থা ধরে রাখা"]},
+  "zygo": {"w":"zygon","lang":"গ্রিক","m":"জোয়াল / জোড়া লাগানো","also":["zygote = জোড়া লেগে তৈরি কোষ"],"med":["heterozygous","dizygotic twins: দুই ডিম্বাণু থেকে যমজ"]},
+  "hybrid": {"w":"hybrida","lang":"ল্যাটিন","m":"পোষা শূকরী ও বুনো শূকরের সন্তান → মিশ্র সন্তান","also":["hybrid car","hybridoma"],"med":["DNA hybridization: দুই DNA সুতা জোড়া লাগানো"]},
+  "proto": {"w":"prōtos","lang":"গ্রিক","m":"প্রথম / আদি","also":["prototype","protein (প্রথম গুরুত্বের পদার্থ)"],"med":["protozoa: আদি প্রাণী","proton"]},
+  "fus": {"w":"fundere, fusus","lang":"ল্যাটিন","m":"ঢালা / গলিয়ে মেশানো","also":["fusion","confusion","diffund (ব্যাপন) একই মূল"],"med":["transfusion: রক্ত ঢেলে দেওয়া","cell fusion"]},
+  "alga": {"w":"alga","lang":"ল্যাটিন","m":"সামুদ্রিক শৈবাল","also":["algae","alginate = শৈবাল থেকে পাওয়া"],"med":["alginate dressing: ক্ষতের ড্রেসিং"]},
+  "propag": {"w":"propagare","lang":"ল্যাটিন","m":"ডাল পুঁতে বংশ বাড়ানো","also":["propagation","propaganda (ছড়িয়ে দেওয়া)"],"med":[]},
+  "restring": {"w":"restringere","lang":"ল্যাটিন","m":"বেঁধে সীমিত করা","also":["restrict","restriction"],"med":["restrictive lung disease: ফুসফুস ফুলতে পারে না"]},
+  "nucle": {"w":"nucleus (nux)","lang":"ল্যাটিন","m":"বাদামের শাঁস / কেন্দ্র","also":["nucleus","nucleotide"],"med":["nucleic acid: DNA, RNA","mononuclear cell"]},
+  "liga": {"w":"ligare","lang":"ল্যাটিন","m":"বাঁধা","also":["ligament","ligature"],"med":["ligament: হাড়কে হাড়ের সাথে বাঁধে","ligation: রক্তনালী সুতা দিয়ে বেঁধে দেওয়া"]},
+  "plasma": {"w":"plasma","lang":"গ্রিক","m":"গড়া জিনিস / ছাঁচে ঢালা বস্তু","also":["cytoplasm","plasmid = plasma + -id (ছোট)"],"med":["blood plasma","plasmodium"]},
+  "combin": {"w":"combinare (com + bini)","lang":"ল্যাটিন","m":"দুটো দুটো করে জোড়া লাগানো","also":["combine","combination"],"med":["combination therapy: একসাথে একাধিক ওষুধ"]},
+  "poly": {"w":"polys","lang":"গ্রিক","m":"অনেক","also":["polygon","polymer = অনেক অংশ"],"med":["polyuria: বেশি প্রস্রাব","polycythemia: বেশি RBC","polydipsia"]},
+  "agro": {"w":"agros","lang":"গ্রিক","m":"মাঠ / জমি","also":["agriculture","agronomy"],"med":[]},
+  "bacter": {"w":"baktērion","lang":"গ্রিক","m":"ছোট লাঠি","also":["bacterium = ছোট লাঠির মতো জীবাণু"],"med":["bacteremia: রক্তে ব্যাকটেরিয়া","antibacterial"]},
+  "tumor": {"w":"tumor","lang":"ল্যাটিন","m":"ফোলা / গাঁট","also":["tumor"],"med":["tumor: অস্বাভাবিক কোষের ফোলা গাঁট","tumefaction: ফুলে ওঠা"]},
+  "facio": {"w":"facere","lang":"ল্যাটিন","m":"তৈরি করা","also":["factory","fact","manufacture"],"med":["tumefaciens = ফোলা তৈরি করে যে","artifact"]},
+  "vect": {"w":"vehere, vectus","lang":"ল্যাটিন","m":"বয়ে নেওয়া","also":["vehicle","vector"],"med":["vector: রোগ বহনকারী (যেমন মশা)","vector in gene therapy"]},
+  "inter": {"w":"inter","lang":"ল্যাটিন","m":"মাঝখানে","also":["international","interfere (মাঝখানে ঢুকে বাধা দেওয়া)"],"med":["intercostal: পাঁজরের মাঝখানের","interstitial"]},
+  "insula": {"w":"insula","lang":"ল্যাটিন","m":"দ্বীপ","also":["insulate","island"],"med":["insulin: অগ্ন্যাশয়ের আইলেটস (ছোট দ্বীপ) থেকে নিঃসৃত","insular cortex"]},
+  "bacill": {"w":"bacillum","lang":"ল্যাটিন","m":"ছোট লাঠি","also":["Bacillus = লাঠির মতো ব্যাকটেরিয়া"],"med":["bacillary dysentery","Bacillus anthracis: অ্যানথ্রাক্স"]},
+  "pseudo": {"w":"pseudēs","lang":"গ্রিক","m":"মিথ্যা / নকল","also":["pseudonym = ছদ্মনাম"],"med":["pseudocyst: নকল সিস্ট","pseudogout"]},
+  "monas": {"w":"monas","lang":"গ্রিক","m":"একক","also":["monad","Pseudomonas = নকল একক"],"med":["Pseudomonas aeruginosa: ক্ষতের নীলচে-সবুজ পুঁজ"]},
+  "aerugo": {"w":"aerugo","lang":"ল্যাটিন","m":"তামার মরচে (নীলচে-সবুজ)","also":["aeruginosa = মরচে-রঙা"],"med":["Pseudomonas aeruginosa: নীলচে-সবুজ রঞ্জক তৈরি করে"]},
+  "ome": {"w":"-ōma","lang":"গ্রিক","m":"সমগ্র / পুরোটা মিলিয়ে","also":["genome","biome"],"med":["microbiome: দেহের সব অণুজীব","proteome"]},
+  "sequi": {"w":"sequi","lang":"ল্যাটিন","m":"অনুসরণ করা / পরপর আসা","also":["sequence = পরপর সাজানো","consequence"],"med":["sequela: রোগের পরের জটিলতা","DNA sequencing"]},
+  "pharmak": {"w":"pharmakon","lang":"গ্রিক","m":"ওষুধ","also":["pharmacy","pharmacist"],"med":["pharmacology: ওষুধের বিদ্যা","pharmacokinetics"]},
+
+  // ---------- ch12-environment ----------
+  "species": {"w":"species (specere = দেখা)","lang":"ল্যাটিন","m":"চেহারা / ধরন","also":["special","spectacle"],"med":["specimen: পরীক্ষার নমুনা","speculum: ভেতর দেখার যন্ত্র"]},
+  "popul": {"w":"populus","lang":"ল্যাটিন","m":"জনগণ","also":["popular","public"],"med":["population genetics","epidemic = epi + demos (জনগণের উপর)"]},
+  "auto": {"w":"autos","lang":"গ্রিক","m":"নিজে","also":["automatic","autograph"],"med":["autoimmune: নিজের দেহের বিরুদ্ধে","autopsy: নিজের চোখে দেখা"]},
+  "hetero": {"w":"heteros","lang":"গ্রিক","m":"অন্য / ভিন্ন","also":["heterogeneous"],"med":["heterozygous: ভিন্ন অ্যালিল","heterochromia: দুই চোখের রং ভিন্ন"]},
+  "troph": {"w":"trophē","lang":"গ্রিক","m":"পুষ্টি / খাদ্য","also":["trophic level","autotroph = নিজে খাদ্য তৈরি"],"med":["atrophy: পুষ্টি ছাড়া → শুকিয়ে যাওয়া","hypertrophy: বেশি পুষ্টি → ফুলে যাওয়া","dystrophy"]},
+  "sapro": {"w":"sapros","lang":"গ্রিক","m":"পচা","also":["saprophyte = পচা জিনিসে বাঁচা উদ্ভিদ/ছত্রাক"],"med":["sapremia: পচা টিস্যুর বিষ রক্তে"]},
+  "sphaira": {"w":"sphaira","lang":"গ্রিক","m":"গোলক","also":["sphere","atmosphere","biosphere = জীবনের গোলক"],"med":["hemisphere: মস্তিষ্কের অর্ধগোলক","spherocytosis: গোল RBC"]},
+  "oma": {"w":"-ōma","lang":"গ্রিক","m":"পিণ্ড / সমষ্টি","also":["genome","biome = জীবনের সমষ্টি"],"med":["carcinoma","lymphoma","hematoma: রক্তের জমাট পিণ্ড"]},
+  "divers": {"w":"diversus (di- + vertere)","lang":"ল্যাটিন","m":"ভিন্ন দিকে ঘোরা → নানা রকম","also":["diverse","divert"],"med":["diverticulum: অন্ত্র থেকে পাশে বেরোনো থলি"]},
+  "litt": {"w":"litus, litoris","lang":"ল্যাটিন","m":"তীর / সৈকত","also":["littoral zone = তীরের অঞ্চল"],"med":[]},
+  "limn": {"w":"limnē","lang":"গ্রিক","m":"হ্রদ / জলাশয়","also":["limnology = হ্রদবিদ্যা","limnetic = খোলা পানির"],"med":[]},
+  "profund": {"w":"profundus (pro + fundus = তলা)","lang":"ল্যাটিন","m":"গভীর","also":["profound"],"med":["profunda femoris: উরুর গভীর ধমনী"]},
+  "halo": {"w":"hals, halos","lang":"গ্রিক","m":"লবণ","also":["halogen = লবণ-উৎপাদক (Cl, Br, I)","halite"],"med":["halophilic bacteria: লবণ-প্রেমী জীবাণু"]},
+  "ephemer": {"w":"ephēmeros (epi + hēmera = দিন)","lang":"গ্রিক","m":"এক দিনের","also":["ephemeral = ক্ষণস্থায়ী"],"med":["hemeralopia: দিনে দেখতে না পারা (hēmera + ops)"]},
+  "skler": {"w":"sklēros","lang":"গ্রিক","m":"শক্ত","also":["sclerenchyma = শক্ত টিস্যু"],"med":["sclerosis: শক্ত হয়ে যাওয়া","atherosclerosis","sclera: চোখের সাদা শক্ত আবরণ"]},
+  "chyma": {"w":"-chyma (chein = ঢালা)","lang":"গ্রিক","m":"ঢালা রস / টিস্যু","also":["parenchyma","aerenchyma","collenchyma"],"med":["parenchyma: অঙ্গের আসল কাজের কোষ","mesenchyme"]},
+  "pneuma": {"w":"pneuma","lang":"গ্রিক","m":"বাতাস / শ্বাস","also":["pneumatic tyre = বাতাস-ভরা টায়ার"],"med":["pneumonia: ফুসফুসের প্রদাহ","pneumothorax: বুকে বাতাস"]},
+  "viv": {"w":"vivus, vivere","lang":"ল্যাটিন","m":"জীবন্ত / বেঁচে থাকা","also":["vivid","survive"],"med":["in vivo: জীবন্ত দেহে","vivisection"]},
+  "par": {"w":"parere","lang":"ল্যাটিন","m":"জন্ম দেওয়া","also":["parent"],"med":["primipara: প্রথমবার জন্মদানকারী","multipara","oviparous / viviparous"]},
+  "aka": {"w":"akakia ← akē (কাঁটা, ধার)","lang":"গ্রিক","m":"কাঁটাওয়ালা গাছ","also":["Acacia = কাঁটা-বাবলা"],"med":[]},
+  "nymph": {"w":"nymphē","lang":"গ্রিক","m":"জলপরী / কন্যা","also":["nymph","Nymphaea = জলপরীর ফুল"],"med":[]},
+  "fomes": {"w":"fomes, fomitis","lang":"ল্যাটিন","m":"শুকনো কাঠ / জ্বালানি","also":["Heritiera fomes"],"med":["fomite: যে জড় বস্তু (তোয়ালে, দরজার হাতল) রোগজীবাণু বহন করে"]},
+  "petal": {"w":"petalon","lang":"গ্রিক","m":"পাতলা পাতা → পাপড়ি","also":["petal","apetala = পাপড়িহীন (a + petalon)"],"med":[]},
+  "caec": {"w":"caecus","lang":"ল্যাটিন","m":"অন্ধ","also":["Excoecaria = ex + caecare = অন্ধ করে দেওয়া"],"med":["caecum: অন্ধনালী (এক মুখ বন্ধ)","caecal volvulus"]},
+  "opsis": {"w":"opsis, ops","lang":"গ্রিক","m":"দৃষ্টি / চেহারা","also":["optic","Chloropsis = সবুজ-চেহারা"],"med":["autopsy: নিজ চোখে দেখা","biopsy: জীবন্ত টিস্যু দেখা","myopia"]},
+  "pavo": {"w":"pavo","lang":"ল্যাটিন","m":"ময়ূর","also":["Pavo cristatus (ভারতীয় ময়ূর)","Pavo muticus (সবুজ ময়ূর)"],"med":[]},
+  "crist": {"w":"crista","lang":"ল্যাটিন","m":"ঝুঁটি / চূড়া","also":["crest","cristatus = ঝুঁটিওয়ালা"],"med":["crista galli: মোরগের ঝুঁটির মতো হাড় (ethmoid)","iliac crest: নিতম্বের হাড়ের চূড়া"]},
+  "marsup": {"w":"marsupium","lang":"ল্যাটিন","m":"থলি","also":["marsupial = থলিওয়ালা প্রাণী"],"med":["marsupialization: সিস্ট কেটে থলির মুখ খুলে রাখার অস্ত্রোপচার"]},
+  "platy": {"w":"platys","lang":"গ্রিক","m":"চ্যাপ্টা / চওড়া","also":["platypus","Platyhelminthes = চ্যাপ্টা কৃমি"],"med":["platysma: গলার চ্যাপ্টা পেশি"]},
+  "armat": {"w":"armatus ← arma (অস্ত্র)","lang":"ল্যাটিন (স্প্যানিশ হয়ে)","m":"অস্ত্র-বর্ম পরানো","also":["armour","army","armadillo = স্প্যানিশে \"ছোট্ট বর্মধারী\""],"med":["armamentarium: ডাক্তারের যন্ত্রপাতির ভাণ্ডার"]},
+  "tupi_pira": {"w":"pirá (তুপি ভাষা)","lang":"তুপি (দক্ষিণ আমেরিকার আদিবাসী)","m":"মাছ","also":["piranha = দাঁতের মাছ (পর্তুগিজ হয়ে এসেছে)"],"med":[]},
+  "orient": {"w":"oriens","lang":"ল্যাটিন","m":"উদীয়মান (সূর্য) → পূর্ব","also":["Orient","orientation = পূর্বমুখী করা"],"med":["orientation to time, place, person: রোগীর চেতনা পরীক্ষা"]},
+  "neo": {"w":"neos","lang":"গ্রিক","m":"নতুন","also":["neolithic","neon"],"med":["neonate: নবজাতক","neoplasm: নতুন গড়ন = টিউমার"]},
+  "arkt": {"w":"arktos","lang":"গ্রিক","m":"ভালুক (উত্তরের ভালুক-তারা)","also":["Arctic = উত্তর","Antarctic = উত্তরের বিপরীত"],"med":[]},
+  "ghara": {"w":"ghaṛā","lang":"হিন্দি / বাংলা","m":"মাটির কলসি","also":["gharial = ঘড়িয়াল, নাকের ডগায় ঘড়ার মতো ফোলা"],"med":[]},
+  "demos": {"w":"dēmos","lang":"গ্রিক","m":"জনগণ","also":["democracy","demography"],"med":["endemic: জনগণের ভেতরেই থাকে","epidemic","pandemic"]},
+  "psil": {"w":"psilos","lang":"গ্রিক","m":"ন্যাড়া / খালি","also":["Psilotum = পাতাহীন ন্যাড়া ডালের ফার্ন"],"med":["psilocybin: ন্যাড়া-মাথা (Psilocybe) ছত্রাকের মাদক যৌগ"]},
+  "koryph": {"w":"koryphē","lang":"গ্রিক","m":"চূড়া / শীর্ষ","also":["Corypha = মাথায় বিশাল মুকুটওয়ালা পাম","coryphée = দলের শীর্ষ নর্তকী"],"med":[]},
+  "humus": {"w":"humus","lang":"ল্যাটিন","m":"মাটি","also":["human = মাটির মানুষ","humble"],"med":["exhumation: কবর থেকে মাটি খুঁড়ে তোলা"]},
+  "cad": {"w":"cadere","lang":"ল্যাটিন","m":"পড়ে যাওয়া / ঝরা","also":["deciduous = de + cad = ঝরে পড়া","cascade","accident"],"med":["cadaver: যা পড়ে গেছে = লাশ","decidua: গর্ভাবস্থার যে স্তর প্রসবে ঝরে যায়"]},
+  "di": {"w":"di-","lang":"গ্রিক","m":"দুই","also":["dioxide","dilemma"],"med":["diplopia: দুটো দেখা","diploid"]},
+  "pteron": {"w":"pteron","lang":"গ্রিক","m":"ডানা","also":["helicopter","pterodactyl = ডানা-আঙুল"],"med":["pterygoid: ডানার মতো হাড়ের প্রবর্ধন","pterygium: চোখে ডানার মতো ঝিল্লি"]},
+  "karp": {"w":"karpos","lang":"গ্রিক","m":"ফল","also":["pericarp (ফলের খোসা)","carpel"],"med":[]},
+  "nykt": {"w":"nyx, nyktos","lang":"গ্রিক","m":"রাত","also":["nocturnal (ল্যাটিন nox)"],"med":["nyctalopia: রাতকানা (ভিটামিন A-র অভাব)","nocturia: রাতে প্রস্রাব"]},
+  "kebos": {"w":"kēbos","lang":"গ্রিক","m":"লম্বা লেজের বানর","also":["Nycticebus = রাতের বানর"],"med":[]},
+  "akantha": {"w":"akantha","lang":"গ্রিক","m":"কাঁটা","also":["Acanthus = কাঁটাওয়ালা গাছ"],"med":["acanthocyte: কাঁটাওয়ালা RBC","acanthosis nigricans: ত্বকে কালো ভেলভেটের মতো পুরু দাগ"]},
+  "foli": {"w":"folium","lang":"ল্যাটিন","m":"পাতা","also":["foliage","folio","ilicifolius = হলি-পাতার মতো"],"med":["folic acid: পালংশাকের পাতা থেকে প্রথম পাওয়া"]},
+  "rota": {"w":"rota","lang":"ল্যাটিন","m":"চাকা","also":["rotate","Rotala = চাকার মতো পাতা সাজানো গাছ"],"med":["rotavirus: চাকার মতো দেখতে, শিশুর ডায়রিয়া","rotator cuff: কাঁধ ঘোরানোর পেশি"]},
+  "con": {"w":"con- / com-","lang":"ল্যাটিন","m":"একসাথে / পুরোপুরি","also":["connect","conserve"],"med":["congenital: জন্মের সাথে","concentric"]},
+  "serv": {"w":"servare","lang":"ল্যাটিন","m":"রক্ষা করা / রাখা","also":["reserve = আলাদা করে রাখা","preserve","observe"],"med":["conservative treatment: অস্ত্রোপচার ছাড়া রক্ষণশীল চিকিৎসা"]},
+  "sanct": {"w":"sanctus","lang":"ল্যাটিন","m":"পবিত্র","also":["saint","sanctuary = পবিত্র আশ্রয়"],"med":[]},
+  "bn_abhoy": {"w":"অভয় (সংস্কৃত a + bhaya)","lang":"সংস্কৃত","m":"ভয় নেই","also":["অভয়ারণ্য","অভয় দেওয়া"],"med":[]},
+  "bn_aronno": {"w":"অরণ্য","lang":"সংস্কৃত","m":"বন","also":["অভয়ারণ্য","আরণ্যক"],"med":[]},
+  "calx": {"w":"calx, calcis → recalcitrare (লাথি মারা)","lang":"ল্যাটিন","m":"গোড়ালি","also":["recalcitrant = লাথি মেরে ফিরিয়ে দেয়, বেয়াড়া"],"med":["calcaneus: গোড়ালির হাড়"]},
+  "doxa": {"w":"doxa","lang":"গ্রিক","m":"মত / বিশ্বাস","also":["orthodox","paradox = উল্টো মত"],"med":[]},
+  "safar": {"w":"safar (আরবি) → safari (সোয়াহিলি)","lang":"আরবি","m":"ভ্রমণ / সফর","also":["safari park = ভ্রমণের পার্ক","সফর মাস","সফরে নামাজ কসর"],"med":[]},
+  "situs": {"w":"situs","lang":"ল্যাটিন","m":"অবস্থান / জায়গা","also":["site","situation","in situ = নিজের জায়গায়"],"med":["situs inversus: অঙ্গ উল্টো দিকে বসা"]},
+  "in_": {"w":"in","lang":"ল্যাটিন","m":"ভেতরে / মধ্যে","also":["inside","in situ","in vitro","in vivo"],"med":["in situ carcinoma: নিজের জায়গাতেই আছে, ছড়ায়নি"]},
+  // ---------- প্রাণীর পরিচিতি (প্রাণিবিজ্ঞান অধ্যায় ২) ----------
+  hydra: {"w":"hydra","lang":"গ্রিক","m":"জলসাপ (গ্রিক পুরাণের বহুমাথা জলসাপ)","also":["Lernaean Hydra: একটা মাথা কাটলে আবার গজাত"],"med":["Hydra (প্রাণী): কাটলে আবার গজায় বলে এই নাম"]},
+  knide: {"w":"knidē","lang":"গ্রিক","m":"বিছুটি পাতা (জ্বালা ধরানো হুল)","also":["Cnidaria = হুল-কোষওয়ালা প্রাণী"],"med":["cnidocyte: হুল-কোষ"]},
+  nema: {"w":"nēma","lang":"গ্রিক","m":"সুতো","also":["nematode = সুতোর মতো কৃমি","nematocyst = সুতো-থলি"],"med":["Nematoda: গোলকৃমি (Ascaris)"]},
+  kystis: {"w":"kystis","lang":"গ্রিক","m":"থলি / মূত্রথলি","also":["cyst","cystitis"],"med":["cystitis: মূত্রথলির প্রদাহ","cholecystitis: পিত্তথলির প্রদাহ"]},
+  blastos: {"w":"blastos","lang":"গ্রিক","m":"অঙ্কুর / কুঁড়ি / নতুন গড়ে ওঠা কোষ","also":["blastula","osteoblast"],"med":["osteoblast: হাড় গড়ার কোষ","neuroblastoma: স্নায়ু-কুঁড়ির টিউমার"]},
+  koilos: {"w":"koilos","lang":"গ্রিক","m":"ফাঁপা / গহ্বর","also":["coelom","coelenterate = ফাঁপা-অন্ত্র প্রাণী"],"med":["coelom: দেহগহ্বর","koilonychia: চামচের মতো ফাঁপা নখ (আয়রনের অভাবে)"]},
+  enteron: {"w":"enteron","lang":"গ্রিক","m":"অন্ত্র / নাড়ি","also":["enteric","dysentery"],"med":["gastroenteritis: পাকস্থলী-অন্ত্রের প্রদাহ","enteric fever: টাইফয়েড"]},
+  derma: {"w":"derma","lang":"গ্রিক","m":"ত্বক","also":["dermatology","epidermis"],"med":["dermatitis: ত্বকের প্রদাহ","hypodermic: ত্বকের নিচে (সুই)"]},
+  epi: {"w":"epi","lang":"গ্রিক","m":"উপরে / ওপরের","also":["epidermis","epicentre"],"med":["epidural: ডিউরার ওপরে","epigastric: পেটের ওপরের অংশ"]},
+  gaster: {"w":"gastēr","lang":"গ্রিক","m":"পাকস্থলী / পেট","also":["gastric","gastropod = পেটে হাঁটা প্রাণী"],"med":["gastritis: পাকস্থলীর প্রদাহ","gastroscopy"]},
+  gloia: {"w":"gloia","lang":"গ্রিক","m":"আঠালো জেলি","also":["mesoglea = মাঝের জেলি","neuroglia = স্নায়ুর আঠা"],"med":["glioma: গ্লিয়াল কোষের টিউমার"]},
+  sistere: {"w":"sistere","lang":"ল্যাটিন","m":"দাঁড়ানো / বসানো","also":["interstitial = মাঝখানে বসা","persist = টিকে থাকা"],"med":["interstitial lung disease: ফুসফুসের কোষের ফাঁকের রোগ"]},
+  hypnos: {"w":"hypnos","lang":"গ্রিক","m":"ঘুম","also":["hypnosis","hypnotic"],"med":["hypnotic drug: ঘুমের ওষুধ"]},
+  toxikon: {"w":"toxikon","lang":"গ্রিক","m":"বিষ (তীরের বিষ)","also":["toxin","intoxication"],"med":["toxemia","antitoxin: বিষের প্রতিষেধক"]},
+  penetrare: {"w":"penetrare","lang":"ল্যাটিন","m":"ভেদ করে ঢোকা","also":["penetrate","penetrant"],"med":["penetrating injury: ভেদ করা আঘাত"]},
+  volvere: {"w":"volvere","lang":"ল্যাটিন","m":"গড়ানো / পেঁচানো","also":["revolve","volume = গোটানো পুঁথি"],"med":["volvulus: অন্ত্র পেঁচিয়ে যাওয়া"]},
+  gluten: {"w":"gluten","lang":"ল্যাটিন","m":"আঠা","also":["glue","glutinous rice = আঠালো চাল"],"med":["gluten-sensitive enteropathy (coeliac): আটার আঠা-প্রোটিনে অসহ্যতা"]},
+  stereos: {"w":"stereos","lang":"গ্রিক","m":"শক্ত / নিরেট","also":["stereo","stereotype"],"med":["stereocilia","stereotaxis"]},
+  hypo: {"w":"hypo","lang":"গ্রিক","m":"নিচে / কম","also":["hypothesis","hypocrite"],"med":["hypodermic","hypotension: নিম্ন রক্তচাপ"]},
+  myo: {"w":"mys, myos","lang":"গ্রিক","m":"পেশি","also":["myoneme = পেশি-সুতো"],"med":["myocardium: হৃদপেশি","myalgia: পেশিব্যথা","myoglobin"]},
+  viridis: {"w":"viridis","lang":"ল্যাটিন","m":"সবুজ","also":["viridian green","verdant"],"med":["viridans streptococci: সবুজ হিমোলাইসিস করা স্ট্রেপ্টোককাস"]},
+  oligos: {"w":"oligos","lang":"গ্রিক","m":"অল্প / কম","also":["oligarchy = অল্প লোকের শাসন"],"med":["oliguria: কম প্রস্রাব","oligospermia: কম শুক্রাণু"]},
+  aktis: {"w":"aktis, aktinos","lang":"গ্রিক","m":"রশ্মি / রশ্মির মতো বাহু","also":["actinium","Actinomyces"],"med":["actinic keratosis: রোদের রশ্মিতে ত্বকের পরিবর্তন"]},
+  pelma: {"w":"pelma","lang":"গ্রিক","m":"পায়ের তলা / বৃন্ত","also":["Pelmatohydra = বৃন্তওয়ালা Hydra"],"med":[]},
+  vulgus: {"w":"vulgus","lang":"ল্যাটিন","m":"সাধারণ জনতা","also":["vulgar","vulgaris = সাধারণ"],"med":["acne vulgaris: সাধারণ ব্রণ","psoriasis vulgaris"]},
+  morum: {"w":"morum","lang":"ল্যাটিন","m":"তুঁত ফল","also":["morula = ছোট তুঁত","mulberry"],"med":["morula: ভ্রূণের ১৬ কোষের গোল ধাপ"]},
+  gonos: {"w":"gonos","lang":"গ্রিক","m":"সন্তান / বীজ / জন্ম","also":["gonad","gonorrhea"],"med":["gonadotropin (FSH, LH)","gonorrhoea"]},
+  tentare: {"w":"tentare","lang":"ল্যাটিন","m":"হাতড়ানো / ছুঁয়ে দেখা","also":["tentacle = হাতড়ে ফেরা বাহু","attempt"],"med":[]},
+  bn_mukul: {"w":"মুকুল","lang":"সংস্কৃত","m":"কুঁড়ি / অঙ্কুর","also":["আমের মুকুল","মুকুলিত = কুঁড়ি ধরা"],"med":[]},
+  bn_udgam: {"w":"উদ্গম","lang":"সংস্কৃত","m":"উপরে ওঠা / বেরিয়ে আসা","also":["অঙ্কুরোদ্গম = বীজ থেকে চারা বেরোনো"],"med":[]},
+  bn_mar: {"w":"মর (মৃ)","lang":"সংস্কৃত","m":"মরণশীল / মরা","also":["অমর = যার মরণ নেই","মড়ক"],"med":[]},
+  poikilos: {"w":"poikilos","lang":"গ্রিক","m":"বিচিত্র / নানা রঙের","also":["poikilothermic = তাপমাত্রা বদলায় (ঠান্ডা রক্তের প্রাণী)"],"med":["poikilocytosis: লোহিত কণিকার আকার নানা রকম"]},
+  keras: {"w":"keras","lang":"গ্রিক","m":"শিং","also":["rhinoceros = নাকে শিং","Triceratops = তিন শিংওয়ালা মুখ"],"med":["keratin (একই মূল-পরিবার: শিংয়ের উপাদান)"]},
+  pictus: {"w":"pictus (pingere)","lang":"ল্যাটিন","m":"আঁকা / রং করা","also":["picture = আঁকা ছবি","pigment"],"med":[]},
+  arthron: {"w":"arthron","lang":"গ্রিক","m":"জোড়া / সন্ধি","also":["arthropod = জোড়াপা","arthritis"],"med":["arthritis: জোড়ার প্রদাহ","arthroscopy: জোড়ার ভেতরে দেখা"]},
+  hemo: {"w":"haima, haimatos","lang":"গ্রিক","m":"রক্ত","also":["hemoglobin","hemolymph"],"med":["hematoma: রক্ত জমে পিণ্ড","hemolysis: রক্তকণিকা ভাঙা","hematuria: প্রস্রাবে রক্ত"]},
+  hepar: {"w":"hēpar, hēpatos","lang":"গ্রিক","m":"যকৃত","also":["hepatic caeca = যকৃতের অন্ধ থলি"],"med":["hepatitis: যকৃতের প্রদাহ","hepatomegaly: যকৃত বড় হওয়া"]},
+  tympanon: {"w":"tympanon","lang":"গ্রিক","m":"ঢাক / ঢোল","also":["timpani (ঢাক-বাদ্য)"],"med":["tympanic membrane: কানের পর্দা (ঢাকের চামড়ার মতো)","tympanites: পেট ঢাকের মতো ফোলা"]},
+  omma: {"w":"omma","lang":"গ্রিক","m":"চোখ","also":["ommatidium = ছোট চোখ"],"med":[]},
+  idion: {"w":"-idion","lang":"গ্রিক","m":"ছোট (ছোট করার প্রত্যয়)","also":["ommatidium = ছোট চোখ"],"med":[]},
+  rhabdos: {"w":"rhabdos","lang":"গ্রিক","m":"দণ্ড / কাঠি","also":["rhabdom = কাঠির সমষ্টি"],"med":["rhabdomyolysis: কাঠির মতো (রেখাযুক্ত) পেশি ভাঙা","rhabdovirus: কাঠির মতো ভাইরাস (জলাতঙ্ক)"]},
+  peri: {"w":"peri","lang":"গ্রিক","m":"চারপাশে","also":["perimeter = চারপাশের মাপ","periscope"],"med":["pericardium: হৃৎপিণ্ডের চারপাশের আবরণ","peritoneum","perineum"]},
+  trema: {"w":"trēma","lang":"গ্রিক","m":"ছিদ্র","also":["Trematoda = ছিদ্র (চোষক)-ওয়ালা কৃমি","peritreme = ছিদ্রের চারপাশ"],"med":[]},
+  meta: {"w":"meta","lang":"গ্রিক","m":"পরে / বদলে","also":["metaphor","method"],"med":["metastasis: জায়গা বদল (ক্যানসার ছড়ানো)","metabolism: বদলানো","metacarpal"]},
+  morph: {"w":"morphē","lang":"গ্রিক","m":"রূপ / আকার","also":["morphology = রূপের বিদ্যা","polymorphic"],"med":["polymorphonuclear (PMN) কোষ: নানা-আকারের নিউক্লিয়াস","dysmorphic"]},
+  neuro: {"w":"neuron","lang":"গ্রিক","m":"স্নায়ু (আসলে: রগ / দড়ি)","also":["neuron"],"med":["neurology: স্নায়ুবিদ্যা","neuralgia: স্নায়ুর ব্যথা"]},
+  labium: {"w":"labium, labrum","lang":"ল্যাটিন","m":"ঠোঁট","also":["lip-এর ল্যাটিন প্রতিশব্দ"],"med":["labia: ঠোঁট-সদৃশ ভাঁজ","labial: ঠোঁট-সংক্রান্ত"]},
+  maxilla: {"w":"maxilla","lang":"ল্যাটিন","m":"চোয়াল (ওপরের)","also":["maxillary"],"med":["maxillary sinus: ওপরের চোয়ালের সাইনাস","maxillofacial surgery"]},
+  positor: {"w":"ponere → positor","lang":"ল্যাটিন","m":"রাখা / স্থাপনকারী","also":["position","deposit = নিচে রাখা","ovipositor = ডিম-স্থাপনকারী"],"med":["suppository: নিচে বসানোর ওষুধ"]},
+  bn_rohit: {"w":"রোহিত","lang":"সংস্কৃত","m":"লাল / লালচে","also":["রোহিত মাছ = রুই (লালচে আভা)","রোহিতাশ্ব = লাল ঘোড়া"],"med":[]},
+  cyprin: {"w":"kyprinos","lang":"গ্রিক","m":"কার্প মাছ","also":["Cyprinus carpio = কমন কার্প","Cypriniformes = কার্প-গোষ্ঠী"],"med":[]},
+  idae: {"w":"-idae","lang":"ল্যাটিন প্রত্যয়","m":"প্রাণীর গোত্র (family) নামের শেষ অংশ","also":["Cyprinidae, Bagridae, Anguillidae, Cynoglossidae: সবই গোত্র"],"med":["Hominidae: মানুষ-বানরের গোত্র"]},
+  actino: {"w":"aktis, aktinos","lang":"গ্রিক","m":"রশ্মি","also":["actinium (তেজস্ক্রিয় মৌল, রশ্মি ছড়ায়)"],"med":["actinic keratosis: রোদের রশ্মিতে ত্বকের ক্ষত","actinomycosis: রশ্মির মতো দানাযুক্ত ইনফেকশন"]},
+  pter: {"w":"pteron, pteryx","lang":"গ্রিক","m":"ডানা / পাখনা","also":["helicopter","pterodactyl = ডানা-আঙুল"],"med":["pterygium: চোখের ওপর ডানার মতো পর্দা","pterygoid পেশি: ডানার মতো আকার"]},
+  cycl: {"w":"kyklos","lang":"গ্রিক","m":"বৃত্ত / চক্র","also":["cycle","bicycle","cyclone"],"med":["cycloplegic eye drops: চোখের ciliary পেশি অবশ করে"]},
+  cerc: {"w":"kerkos","lang":"গ্রিক","m":"লেজ","also":["homocercal = সমান-লেজ","heterocercal = অসমান-লেজ"],"med":["cercaria: লেজওয়ালা ফ্লুক লার্ভা (Schistosoma)"]},
+  cauda: {"w":"cauda","lang":"ল্যাটিন","m":"লেজ","also":["coda (সংগীতের শেষ অংশ)"],"med":["cauda equina: ঘোড়ার লেজের মতো স্নায়ুগুচ্ছ","caudal: লেজের দিকের"]},
+  pectus: {"w":"pectus, pectoris","lang":"ল্যাটিন","m":"বুক","also":["expectorate = বুক থেকে বের করা (কফ)"],"med":["pectoralis major: বুকের পেশি","angina pectoris: বুকের ব্যথা"]},
+  ad: {"w":"ad-","lang":"ল্যাটিন","m":"দিকে / কাছে","also":["advance","adhere (গায়ে লেগে থাকা)"],"med":["adduction: দেহের দিকে টানা","adrenal: কিডনির কাছে"]},
+  branchia: {"w":"branchia","lang":"গ্রিক","m":"ফুলকা","also":["branchial arch = ফুলকা-খিলান"],"med":["branchial cleft cyst: ঘাড়ে জন্মগত সিস্ট (ভ্রূণের ফুলকা-খাঁজের অবশেষ)"]},
+  duct: {"w":"ducere, ductus","lang":"ল্যাটিন","m":"চালানো / নালি","also":["conduct","produce","aqueduct"],"med":["bile duct: পিত্তনালি","thoracic duct: বুকের লসিকানালি"]},
+  rete: {"w":"rete","lang":"ল্যাটিন","m":"জাল","also":["retina = জালের মতো পর্দা"],"med":["rete testis: শুক্রাশয়ের নালিজাল","retiform: জালের মতো"]},
+  mira: {"w":"mirari, mirabilis","lang":"ল্যাটিন","m":"অবাক হওয়া → আশ্চর্য","also":["miracle","admire"],"med":[]},
+  arteria: {"w":"arteria","lang":"গ্রিক/ল্যাটিন","m":"ধমনি (প্রাচীনেরা ভাবত বাতাস বহন করে)","also":["artery"],"med":["arteriosclerosis: ধমনি শক্ত হওয়া","arteriole: ছোট ধমনি"]},
+  sinus: {"w":"sinus","lang":"ল্যাটিন","m":"বাঁক / ফাঁপা গর্ত","also":["sinuous = আঁকাবাঁকা"],"med":["sinusitis: সাইনাসের প্রদাহ","coronary sinus: হৃৎপিণ্ডের শিরার ফাঁপা নালি"]},
+  vena: {"w":"vena","lang":"ল্যাটিন","m":"শিরা","also":["venous"],"med":["venipuncture: শিরায় সুঁই","vena cava: ফাঁপা বড় শিরা","intravenous (IV): শিরার ভেতরে"]},
+  fecund: {"w":"fecundus","lang":"ল্যাটিন","m":"উর্বর / ফলবান","also":[],"med":["fecundity: একবারে কত ডিম/সন্তান দেওয়ার ক্ষমতা","infecund: বন্ধ্যা"]},
+  sub: {"w":"sub","lang":"ল্যাটিন","m":"নিচে","also":["submarine","subway"],"med":["subcutaneous: ত্বকের নিচে","sublingual: জিভের নিচে"]},
+  clav: {"w":"clavis, clavicula","lang":"ল্যাটিন","m":"চাবি / ছোট চাবি (কণ্ঠাস্থি)","also":["clef (সুরের চাবি)","conclave"],"med":["clavicle: কণ্ঠাস্থি","subclavian artery/vein: কণ্ঠাস্থির নিচের ধমনি/শিরা"]},
+  oper: {"w":"operculum (operire)","lang":"ল্যাটিন","m":"ঢাকনা / ঢাকা","also":["operire = ঢাকা","cover"],"med":["operculum: মাড়ির ঢাকনা (pericoronitis-এ ফোলে)"]},
+};
+
+const TERMS = [{"t": "Hydra", "bn": "হাইড্রা", "s": "hy-id", "p": ["hydra"], "lit": "জলসাপ (যে সাপের মাথা কাটলে আবার গজায়)", "fact": "কাটলে আবার গজায় = পুনরুৎপত্তি; আবিষ্কারক ট্রেম্বলে (Q8, Q9)।", "chapter": "প্রাণীর পরিচিতি (প্রাণিবিজ্ঞান অধ্যায় ২)", "chapterId": "zoo-ch2-animal-intro"}, {"t": "Cnidaria", "bn": "নিডারিয়া (পর্ব)", "s": "hy-id", "p": ["knide"], "lit": "বিছুটির মতো জ্বালা-ধরানো হুলওয়ালা প্রাণী", "fact": "হুল-কোষ (নিডোসাইট) এই পর্বেই; তাই Hydra Cnidaria, Taenia নয় (Q3, Q29)।", "chapter": "প্রাণীর পরিচিতি (প্রাণিবিজ্ঞান অধ্যায় ২)", "chapterId": "zoo-ch2-animal-intro"}, {"t": "Chlorohydra viridissima", "bn": "সবুজ হাইড্রা", "s": "hy-id", "p": ["chloro", "hydra", "viridis"], "lit": "সবুজ জলসাপ, সবচেয়ে সবুজ (chloro ও viridis দুটোই সবুজ)", "fact": "নামে দুবার সবুজ: সবুজ বর্ণের ও মিথোজীবী প্রজাতি এটাই (Q4, Q70, Q72)।", "chapter": "প্রাণীর পরিচিতি (প্রাণিবিজ্ঞান অধ্যায় ২)", "chapterId": "zoo-ch2-animal-intro"}, {"t": "totipotent", "bn": "টটিপটেন্ট", "s": "hy-life", "p": ["toti", "potent"], "lit": "সবকিছুতে সক্ষম (toti = সব, potent = ক্ষমতাবান)", "fact": "যে কোষ যেকোনো কোষ হতে পারে: ইন্টারস্থিশিয়াল কোষ (Q6, Q11, Q23, Q24)।", "chapter": "প্রাণীর পরিচিতি (প্রাণিবিজ্ঞান অধ্যায় ২)", "chapterId": "zoo-ch2-animal-intro"}, {"t": "interstitial cell", "bn": "ইন্টারস্থিশিয়াল কোষ", "s": "hy-ic", "p": ["inter", "sistere", "cyto"], "lit": "মাঝখানে বসা কোষ", "fact": "কোষের ফাঁকে বসে থাকা সংরক্ষিত আদি-কোষ: অমর, মুকুল ও জননাঙ্গ বানায় (Q7, Q22, Q25, Q27, Q69)।", "chapter": "প্রাণীর পরিচিতি (প্রাণিবিজ্ঞান অধ্যায় ২)", "chapterId": "zoo-ch2-animal-intro"}, {"t": "myoneme", "bn": "মায়োনিম তন্তু", "s": "hy-epi", "p": ["myo", "nema"], "lit": "পেশি-সুতো", "fact": "myo = পেশি, তাই মায়োনিম পেশি কোষের গোড়ায় (Q20)।", "chapter": "প্রাণীর পরিচিতি (প্রাণিবিজ্ঞান অধ্যায় ২)", "chapterId": "zoo-ch2-animal-intro"}, {"t": "cnidoblast", "bn": "নিডোব্লাস্ট", "s": "hy-nido", "p": ["knide", "blastos"], "lit": "হুলের অঙ্কুর (গড়ে ওঠা হুল-কোষ)", "fact": "পরিস্ফুটনরত নিমাটোসাইট; বহিঃত্বকের কোষ, কর্ষিকায় সবচেয়ে বেশি; পরিপাক এর কাজ নয় (Q19, Q40, Q44)।", "chapter": "প্রাণীর পরিচিতি (প্রাণিবিজ্ঞান অধ্যায় ২)", "chapterId": "zoo-ch2-animal-intro"}, {"t": "nematocyst", "bn": "নেমাটোসিস্ট", "s": "hy-nido", "p": ["nema", "kystis"], "lit": "সুতো-থলি", "fact": "থলির ভেতরে গোটানো সূত্রক ও বিষ; ব্যাটারি কর্ষিকার বহিঃপ্রাচীরে (Q16, Q36)।", "chapter": "প্রাণীর পরিচিতি (প্রাণিবিজ্ঞান অধ্যায় ২)", "chapterId": "zoo-ch2-animal-intro"}, {"t": "hypnotoxin", "bn": "হিপনোটক্সিন", "s": "hy-nido", "p": ["hypnos", "toxikon"], "lit": "ঘুম-পাড়ানি বিষ", "fact": "শিকারকে অবশ করা বিষ; নেমাটোসিস্টের ভেতরে, পেনিট্র্যান্টে (Q17, Q32, Q39)।", "chapter": "প্রাণীর পরিচিতি (প্রাণিবিজ্ঞান অধ্যায় ২)", "chapterId": "zoo-ch2-animal-intro"}, {"t": "penetrant", "bn": "পেনিট্র্যান্ট", "s": "hy-types", "p": ["penetrare"], "lit": "ভেদ করে ঢোকে এমন (penetrare = ভেদ করা)", "fact": "ভেদ করার জন্য বড় বার্ব ও বার্বিউল, বিষ হিপনোটক্সিন-ফেনল; সবচেয়ে বড় (Q31, Q32, Q34, Q35)।", "chapter": "প্রাণীর পরিচিতি (প্রাণিবিজ্ঞান অধ্যায় ২)", "chapterId": "zoo-ch2-animal-intro"}, {"t": "mesoglea", "bn": "মেসোগ্লিয়া", "s": "hy-gastro", "p": ["meso", "gloia"], "lit": "মাঝের জেলি", "fact": "বহিঃ ও অন্তঃত্বকের মাঝে কোষহীন জেলি স্তর; Hydra-র দেহে আছে (Q46)।", "chapter": "প্রাণীর পরিচিতি (প্রাণিবিজ্ঞান অধ্যায় ২)", "chapterId": "zoo-ch2-animal-intro"}, {"t": "coelenteron", "bn": "সিলেন্টেরন", "s": "hy-gastro", "p": ["koilos", "enteron"], "lit": "ফাঁপা অন্ত্র", "fact": "ফাঁপা গহ্বর = ব্লাইন্ড স্যাক; বহিঃকোষীয় পরিপাক এখানে (Q47, Q48, Q50)।", "chapter": "প্রাণীর পরিচিতি (প্রাণিবিজ্ঞান অধ্যায় ২)", "chapterId": "zoo-ch2-animal-intro"}, {"t": "gastrodermis", "bn": "গ্যাস্ট্রোডার্মিস", "s": "hy-gastro", "p": ["gaster", "derma"], "lit": "পাকস্থলীর ত্বক (পাকস্থলীর দিকের স্তর)", "fact": "অন্তঃত্বকের নাম; এখানকার কোষ: পুষ্টি, গ্রন্থি, স্নায়ু, সংবেদী (Q44, Q45)।", "chapter": "প্রাণীর পরিচিতি (প্রাণিবিজ্ঞান অধ্যায় ২)", "chapterId": "zoo-ch2-animal-intro"}, {"t": "symbiosis", "bn": "মিথোজীবিতা", "s": "hy-symb", "p": ["syn", "bios"], "lit": "একসাথে জীবন", "fact": "Hydra ও শৈবাল একসাথে থেকে দুজনেই লাভবান: Chlorohydra viridissima (Q70, Q71)।", "chapter": "প্রাণীর পরিচিতি (প্রাণিবিজ্ঞান অধ্যায় ২)", "chapterId": "zoo-ch2-animal-intro"}, {"t": "morula", "bn": "মরুলা", "s": "hy-repro", "p": ["morum"], "lit": "ছোট তুঁত ফল", "fact": "জাইগোটের পরের ধাপ: তুঁতের মতো কোষের ঝাঁক, ব্লাস্টুলার আগে (Q67)।", "chapter": "প্রাণীর পরিচিতি (প্রাণিবিজ্ঞান অধ্যায় ২)", "chapterId": "zoo-ch2-animal-intro"}, {"t": "Poekilocerus pictus", "bn": "ঘাসফড়িং (বৈজ্ঞানিক নাম)", "s": "gh-head", "p": ["poikilos", "keras", "pictus"], "lit": "বিচিত্র + শিং + আঁকা/রঙিন = বিচিত্র-শিংওয়ালা, রঙিন (প্রাণী)", "fact": "এটাই বইয়ের ঘাসফড়িংয়ের নাম; রঙিন, শিঙের মতো অ্যান্টেনা (keras)।", "chapter": "প্রাণীর পরিচিতি (প্রাণিবিজ্ঞান অধ্যায় ২)", "chapterId": "zoo-ch2-animal-intro"}, {"t": "Orthoptera / Orthopterology", "bn": "বর্গ / ঘাসফড়িং-বিদ্যা", "s": "gh-head", "p": ["ortho", "pteron", "logos"], "lit": "সোজা + ডানা + বিদ্যা = সোজা-ডানাওয়ালাদের বিদ্যা", "fact": "ঘাসফড়িং নিয়ে পড়ার নাম অরথোপটেরোলজি (প্রশ্ন ৭৪); এনটোমোলজি নয়।", "chapter": "প্রাণীর পরিচিতি (প্রাণিবিজ্ঞান অধ্যায় ২)", "chapterId": "zoo-ch2-animal-intro"}, {"t": "Arthropoda", "bn": "পর্ব", "s": "gh-head", "p": ["arthron", "pous"], "lit": "জোড়া + পা = জোড়া-পা-ওয়ালা (পর্ব)", "fact": "ঘাসফড়িং Arthropoda; Annelida/Mollusca/Cnidaria নয় (প্রশ্ন ৭৩)।", "chapter": "প্রাণীর পরিচিতি (প্রাণিবিজ্ঞান অধ্যায় ২)", "chapterId": "zoo-ch2-animal-intro"}, {"t": "Labium", "bn": "নিচের ঠোঁট", "s": "gh-mouth", "p": ["labium"], "lit": "ঠোঁট (ল্যাব্রাম = উপরের, ল্যাবিয়াম = নিচের)", "fact": "মেন্টাম, গ্লোসা-প্যারাগ্লোসা (লিগুলা) ল্যাবিয়ামের অংশ (প্রশ্ন ৮১, ৮৮)।", "chapter": "প্রাণীর পরিচিতি (প্রাণিবিজ্ঞান অধ্যায় ২)", "chapterId": "zoo-ch2-animal-intro"}, {"t": "Maxilla", "bn": "ম্যাক্সিলা", "s": "gh-mouth", "p": ["maxilla"], "lit": "(ওপরের) চোয়াল", "fact": "কার্ডো, স্টাইপ, গ্যালিয়া, ল্যাসিনিয়া ম্যাক্সিলার অংশ; অ্যান্টেনা সাফ করে (প্রশ্ন ৭৭, ৮৬, ৯১)।", "chapter": "প্রাণীর পরিচিতি (প্রাণিবিজ্ঞান অধ্যায় ২)", "chapterId": "zoo-ch2-animal-intro"}, {"t": "Ovipositor", "bn": "ওভিপজিটর", "s": "gh-repro", "p": ["ovum", "positor"], "lit": "ডিম + স্থাপনকারী = ডিম বসানোর যন্ত্র", "fact": "এটাই ডিম পাড়ার অঙ্গ, স্ত্রীর বৈশিষ্ট্য, ৯ম খণ্ডকে (প্রশ্ন ১২৮, ১৩০, ১৩৫)।", "chapter": "প্রাণীর পরিচিতি (প্রাণিবিজ্ঞান অধ্যায় ২)", "chapterId": "zoo-ch2-animal-intro"}, {"t": "Tympanum", "bn": "টিমপেনাম", "s": "gh-body", "p": ["tympanon"], "lit": "ঢাক = ঢাকের চামড়ার মতো পর্দা", "fact": "১ম উদরীয় খণ্ডকের দুই পাশে শোনার পর্দা (প্রশ্ন ৮৯)।", "chapter": "প্রাণীর পরিচিতি (প্রাণিবিজ্ঞান অধ্যায় ২)", "chapterId": "zoo-ch2-animal-intro"}, {"t": "Ommatidium", "bn": "ওমাটিডিয়াম", "s": "gh-head", "p": ["omma", "idion"], "lit": "চোখ + ছোট = ছোট চোখ", "fact": "পুঞ্জাক্ষি অনেক ছোট চোখ দিয়ে তৈরি; এটা চোখের অংশ, শ্বসনের নয় (প্রশ্ন ১১১)।", "chapter": "প্রাণীর পরিচিতি (প্রাণিবিজ্ঞান অধ্যায় ২)", "chapterId": "zoo-ch2-animal-intro"}, {"t": "Rhabdom", "bn": "র‍্যাবডোম", "s": "gh-eye", "p": ["rhabdos", "oma"], "lit": "দণ্ড + সমষ্টি = দণ্ডের সমষ্টি (আলো-সংবেদী)", "fact": "আলো গ্রহণ ও প্রতিবিম্ব গঠন র‍্যাবডোমে (প্রশ্ন ৯০, ৯২, ১২২)।", "chapter": "প্রাণীর পরিচিতি (প্রাণিবিজ্ঞান অধ্যায় ২)", "chapterId": "zoo-ch2-animal-intro"}, {"t": "Haemocoel", "bn": "হিমোসিল", "s": "gh-circ", "p": ["hemo", "koilos"], "lit": "রক্ত + গহ্বর = রক্তের গহ্বর", "fact": "রক্তপূর্ণ দেহগহ্বর = হিমোসিল (প্রশ্ন ১০৮)।", "chapter": "প্রাণীর পরিচিতি (প্রাণিবিজ্ঞান অধ্যায় ২)", "chapterId": "zoo-ch2-animal-intro"}, {"t": "Hepatic caeca", "bn": "হেপাটিক সিকা", "s": "gh-gut", "p": ["hepar", "caec"], "lit": "যকৃত + অন্ধ = যকৃতের মতো কাজের অন্ধ-নালিকা", "fact": "মধ্যান্ত্রে ১২টি = ৬ জোড়া (প্রশ্ন ৯৯-১০২)।", "chapter": "প্রাণীর পরিচিতি (প্রাণিবিজ্ঞান অধ্যায় ২)", "chapterId": "zoo-ch2-animal-intro"}, {"t": "Peritrophic membrane", "bn": "পেরিট্রফিক পর্দা", "s": "gh-gut", "p": ["peri", "troph"], "lit": "চারপাশ + খাদ্য = খাদ্যের চারপাশের পর্দা", "fact": "মেসেন্টেরন ও সিকার অন্তঃপ্রাচীর ঢাকে (প্রশ্ন ১০০)।", "chapter": "প্রাণীর পরিচিতি (প্রাণিবিজ্ঞান অধ্যায় ২)", "chapterId": "zoo-ch2-animal-intro"}, {"t": "Peritreme", "bn": "পেরিট্রিম", "s": "gh-resp", "p": ["peri", "trema"], "lit": "চারপাশ + ছিদ্র = ছিদ্রের চারপাশ", "fact": "স্পাইরাকলকে ঘিরে থাকে (প্রশ্ন ১১৮)।", "chapter": "প্রাণীর পরিচিতি (প্রাণিবিজ্ঞান অধ্যায় ২)", "chapterId": "zoo-ch2-animal-intro"}, {"t": "Metamorphosis", "bn": "রূপান্তর", "s": "gh-meta", "p": ["meta", "morph"], "lit": "বদল + রূপ = রূপ বদলানো", "fact": "ঘাসফড়িং: ডিম → নিম্ফ → পূর্ণাঙ্গ; সম্পূর্ণ: ডিম → লার্ভা → পিউপা → ইমাগো (প্রশ্ন ১২৯-১৩১, ১৩৭)।", "chapter": "প্রাণীর পরিচিতি (প্রাণিবিজ্ঞান অধ্যায় ২)", "chapterId": "zoo-ch2-animal-intro"}, {"t": "Neurogenic heart", "bn": "নিউরোজেনিক হৃৎযন্ত্র", "s": "gh-circ", "p": ["neuro", "gen"], "lit": "স্নায়ু + উৎপন্ন = স্নায়ু থেকে উৎপন্ন (স্পন্দন)", "fact": "বিভব গ্যাংলিওন (স্নায়ুকোষ) তৈরি করে (প্রশ্ন ১১৫)।", "chapter": "প্রাণীর পরিচিতি (প্রাণিবিজ্ঞান অধ্যায় ২)", "chapterId": "zoo-ch2-animal-intro"}, {"t": "Labeo rohita", "bn": "রুই মাছ", "s": "ru-scale", "p": ["labium", "bn_rohit"], "lit": "মোটা ঠোঁটওয়ালা (Labeo) + রোহিত/লালচে (rohita)", "bnp": "রোহিত = লাল; রুই নামটা রোহিত থেকেই এসেছে।", "fact": "Labeo = ঠোঁট, rohita = লালচে: প্রশ্নে বৈজ্ঞানিক নাম এলে সংবহনের প্রশ্নে (১৭৪) এটাই একচক্রী প্রাণী।", "chapter": "প্রাণীর পরিচিতি (প্রাণিবিজ্ঞান অধ্যায় ২)", "chapterId": "zoo-ch2-animal-intro"}, {"t": "Cyprinidae", "bn": "কার্প গোত্র", "s": "ru-scale", "p": ["cyprin", "idae"], "lit": "কার্প মাছ + গোত্রের নামের শেষ", "fact": "-idae মানে গোত্র (family), বর্গ নয়: ১৪৫ নম্বরে প্রশ্নে 'বর্গ' লেখা থাকলেও Cyprinidae গোত্রের নাম, রুই কার্প।", "chapter": "প্রাণীর পরিচিতি (প্রাণিবিজ্ঞান অধ্যায় ২)", "chapterId": "zoo-ch2-animal-intro"}, {"t": "Actinopterygii", "bn": "রশ্মি-পাখনা শ্রেণি", "s": "ru-scale", "p": ["actino", "pter"], "lit": "রশ্মি + পাখনা", "fact": "রশ্মি-পাখনা: পাখনায় রশ্মি থাকে (১৪৮, ১৬০)। এই শ্রেণির মাছের আঁইশ সাইক্লয়েড (১৪০)।", "chapter": "প্রাণীর পরিচিতি (প্রাণিবিজ্ঞান অধ্যায় ২)", "chapterId": "zoo-ch2-animal-intro"}, {"t": "Cycloid scale", "bn": "সাইক্লয়েড আঁইশ", "s": "ru-scale", "p": ["cycl", "oid"], "lit": "বৃত্ত + আকার = বৃত্তের মতো আকার", "fact": "রুইয়ের আঁইশ গোল, তাই সাইক্লয়েড বা সার্কুলার (১৪২, ১৬১)।", "chapter": "প্রাণীর পরিচিতি (প্রাণিবিজ্ঞান অধ্যায় ২)", "chapterId": "zoo-ch2-animal-intro"}, {"t": "Homocercal", "bn": "হোমোসার্কাল লেজ", "s": "ru-fin", "p": ["homo", "cerc"], "lit": "সমান + লেজ = সমান-লেজ", "fact": "রুইয়ের পুচ্ছ পাখনার দুই ভাগ সমান: হোমোসার্কাল (১৫৫); heterocercal হলে অসমান।", "chapter": "প্রাণীর পরিচিতি (প্রাণিবিজ্ঞান অধ্যায় ২)", "chapterId": "zoo-ch2-animal-intro"}, {"t": "Caudal fin", "bn": "পুচ্ছ পাখনা", "s": "ru-fin", "p": ["cauda"], "lit": "লেজের (পাখনা)", "fact": "লেজের পাখনা প্রধান চলন-পাখনা (১৪৯); কডাল ধমনি লেজে রক্ত দেয় (১৬৮)।", "chapter": "প্রাণীর পরিচিতি (প্রাণিবিজ্ঞান অধ্যায় ২)", "chapterId": "zoo-ch2-animal-intro"}, {"t": "Pectoral fin", "bn": "বক্ষ পাখনা", "s": "ru-fin", "p": ["pectus"], "lit": "বুকের (পাখনা)", "fact": "বুকের পাখনা কানকোর পেছনে (১৩৮), জোড়া (১৫২)।", "chapter": "প্রাণীর পরিচিতি (প্রাণিবিজ্ঞান অধ্যায় ২)", "chapterId": "zoo-ch2-animal-intro"}, {"t": "Subclavian artery", "bn": "সাবক্ল্যাভিয়ান ধমনি", "s": "ru-arteries", "p": ["sub", "clav", "arteria"], "lit": "নিচে + (ছোট) চাবি = কণ্ঠাস্থি + ধমনি = কণ্ঠার নিচের ধমনি", "fact": "বুকের দিকে, কণ্ঠার নিচে; রক্ত দেয় বক্ষ পাখনায় (১৬৫)।", "chapter": "প্রাণীর পরিচিতি (প্রাণিবিজ্ঞান অধ্যায় ২)", "chapterId": "zoo-ch2-animal-intro"}, {"t": "Afferent / Efferent", "bn": "আফারেন্ট / ইফারেন্ট", "s": "ru-heartpath", "p": ["ad", "ex", "fera"], "lit": "ad + ferre = দিকে বহন করে; ex + ferre = বাইরে বহন করে", "fact": "আফারেন্ট ব্র্যাঙ্কিয়াল ধমনি হৃৎপিণ্ড থেকে ফুলকায় CO₂-যুক্ত রক্ত আনে (১৭০, ১৭৩); ইফারেন্ট ফুলকা থেকে বের করে।", "chapter": "প্রাণীর পরিচিতি (প্রাণিবিজ্ঞান অধ্যায় ২)", "chapterId": "zoo-ch2-animal-intro"}, {"t": "Sinus venosus", "bn": "সাইনাস ভেনোসাস", "s": "ru-heartpath", "p": ["sinus", "vena"], "lit": "ফাঁপা গর্ত + শিরার = শিরার ফাঁপা গর্ত", "fact": "শিরার রক্ত প্রথমে এখানে ঢোকে (১৬৯); ডাক্টাস কুভেরি এখানেই রক্ত ঢালে (১৬৩)।", "chapter": "প্রাণীর পরিচিতি (প্রাণিবিজ্ঞান অধ্যায় ২)", "chapterId": "zoo-ch2-animal-intro"}, {"t": "Bulbus arteriosus", "bn": "বাল্বাস আর্টারিওসাস", "s": "ru-heartpath", "p": ["bulbus", "arteria"], "lit": "কন্দ/ফোলা অংশ + ধমনির = ধমনির ফোলা অংশ", "fact": "ধমনির শুরুর ফোলা অংশ, রক্তপথের শেষ ধাপ (১৬৯); কোনাস নয় (১৬২)।", "chapter": "প্রাণীর পরিচিতি (প্রাণিবিজ্ঞান অধ্যায় ২)", "chapterId": "zoo-ch2-animal-intro"}, {"t": "Ductus pneumaticus", "bn": "ডাক্টাস নিউমেটিকাস", "s": "ru-resp", "p": ["duct", "pneuma"], "lit": "নালি + বাতাসের = বাতাসের নালি", "fact": "গ্রাসনালি ও বায়ুথলিকে জুড়ে (১৭৭), সন্তরণ থলিতে থাকে (১৮০)।", "chapter": "প্রাণীর পরিচিতি (প্রাণিবিজ্ঞান অধ্যায় ২)", "chapterId": "zoo-ch2-animal-intro"}, {"t": "Rete mirabile", "bn": "রেটি মিরাবিলি", "s": "ru-resp", "p": ["rete", "mira"], "lit": "জাল + আশ্চর্য = আশ্চর্য-জাল", "fact": "রক্তনালির জাল বায়ুথলিতে (১৭৮), গ্যাস আদান-প্রদানের জায়গা।", "chapter": "প্রাণীর পরিচিতি (প্রাণিবিজ্ঞান অধ্যায় ২)", "chapterId": "zoo-ch2-animal-intro"}, {"t": "Operculum", "bn": "কানকো / ফুলকা আবরণী", "s": "ru-resp", "p": ["oper"], "lit": "ঢাকনা", "fact": "ফুলকার ঢাকনা; কিন্তু অক্সিজেন নেয় ফিলামেন্ট, আবরণী নয় (১৮৩)।", "chapter": "প্রাণীর পরিচিতি (প্রাণিবিজ্ঞান অধ্যায় ২)", "chapterId": "zoo-ch2-animal-intro"}, {"t": "Fecundity", "bn": "ফিকানডিটি", "s": "ru-breed", "p": ["fecund"], "lit": "উর্বরতা / ফলবান হওয়া", "fact": "একবারে কত ডিম দেওয়ার ক্ষমতা: রুইয়ের ১-৪ লক্ষ/কেজি (১৮৮)।", "chapter": "প্রাণীর পরিচিতি (প্রাণিবিজ্ঞান অধ্যায় ২)", "chapterId": "zoo-ch2-animal-intro"}];
+/* 🔤 Word-root rendering, shared by every page (needs ROOTS). */
+const isBn = k => k.startsWith("bn_");
+function rootChip(k) {
+  const r = ROOTS[k]; if (!r) return "";
+  return `<span class="rc${isBn(k) ? " bn" : ""}"><b>${r.w}</b><small>${r.lang}</small><i>${r.m}</i></span>`;
+}
+function termHTML(t, id) {
+  const fx = t.p.filter(k => !isBn(k)), bn = t.p.filter(isBn);
+  const extra = t.p.filter(k => ROOTS[k] && (ROOTS[k].med.length || ROOTS[k].also.length));
+  return `<div class="term" ${id ? `id="${id}"` : ""}>
+    <div class="tt">${t.t} <span class="bnname">${t.bn}</span></div>
+    ${fx.length ? `<div class="eq">${fx.map(rootChip).join('<span class="plus">+</span>')}</div>` : ""}
+    <div class="lit">= “${t.lit}”</div>
+    ${t.bnp || bn.length ? `<div class="bnp">🇧🇩 ${t.bnp || ""} ${bn.map(rootChip).join(" ")}</div>` : ""}
+    <div class="fact">💡 তাই মনে রাখো: ${t.fact}</div>
+    ${extra.length ? `<details><summary>এই মূলগুলো আর কোথায় পাবে (মেডিকেলেও)</summary><ul>${extra.map(k => {
+      const r = ROOTS[k]; return `<li><b>${r.w}</b> (${r.m}): ${r.also.concat(r.med.map(m => "🩺 " + m)).join(" · ")}</li>`; }).join("")}</ul></details>` : ""}
+  </div>`;
+}
+const TERM_CSS = `
+.term{border:1px solid var(--line);border-radius:12px;padding:12px;margin:10px 0;background:var(--card)}
+.term .tt{font-weight:700;font-size:1.08rem}
+.term .bnname{font-weight:500;color:var(--muted);font-size:.92rem}
+.eq{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin:8px 0}
+.plus{font-weight:700;color:var(--muted)}
+.rc{display:inline-flex;flex-direction:column;align-items:center;border-radius:10px;padding:4px 10px;background:#e3f2fd;color:#0d47a1;line-height:1.25;text-align:center}
+.rc.bn{background:#fce4ec;color:#880e4f}
+.rc b{font-size:.98rem}.rc small{font-size:.66rem;opacity:.75}.rc i{font-style:normal;font-size:.8rem;font-weight:600}
+.lit{font-weight:600;color:var(--accent)}
+.bnp{margin-top:6px;font-size:.92rem}
+.fact{margin-top:6px;font-size:.92rem;background:var(--accent-soft);border-radius:8px;padding:6px 8px}
+.term details{margin-top:6px;font-size:.85rem;color:var(--muted)}
+.term summary{cursor:pointer}
+.termchips{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.termchips .chip{font-size:.8rem}
+`;
+document.head.insertAdjacentHTML("beforeend", `<style>${TERM_CSS}</style>`);
+
+(function(){
+  const $ = s => document.querySelector(s);
+  let view = "roots";
+  const usedIn = k => TERMS.filter(t => t.p.includes(k));
+  function rootCard(k) {
+    const r = ROOTS[k], u = usedIn(k);
+    return `<div class="root" data-k="${k}"><div class="head"><span class="w">${r.w}</span><span class="lang">${r.lang}</span><span class="m">= ${r.m}</span></div>
+      <div class="det">
+        ${u.length ? `<div class="inbook">📘 বইয়ে: ${u.map(t => `<a href="${t.chapterId}-study.html">${t.t}</a>`).join(", ")}</div>` : ""}
+        ${r.also.length ? `<div>🔁 আরও: ${r.also.join(" · ")}</div>` : ""}
+        ${r.med.length ? `<div>🩺 মেডিকেলে: ${r.med.join(" · ")}</div>` : ""}
+      </div></div>`;
+  }
+  function render() {
+    const q = $("#q").value.trim().toLowerCase();
+    const hit = s => !q || s.toLowerCase().includes(q);
+    if (view === "roots") {
+      const ks = Object.keys(ROOTS).filter(k => { const r = ROOTS[k]; return hit([r.w, r.m, r.lang, ...r.also, ...r.med].join(" ")); });
+      $("#count").textContent = `${ks.length}টি মূল`;
+      $("#out").innerHTML = ks.map(rootCard).join("") || `<div class="empty">কিছু পাওয়া যায়নি</div>`;
+    } else {
+      const ts = TERMS.filter(t => hit([t.t, t.bn, t.lit, t.fact, t.bnp || ""].join(" ")));
+      $("#count").textContent = `${ts.length}টি শব্দ`;
+      $("#out").innerHTML = ts.map(t => termHTML(t) .replace('<div class="tt">', `<div class="muted" style="font-size:.75rem">${t.chapter}</div><div class="tt">`)).join("") || `<div class="empty">কিছু পাওয়া যায়নি</div>`;
+    }
+  }
+  document.querySelectorAll("[data-v]").forEach(b => b.onclick = () => {
+    view = b.dataset.v; document.querySelectorAll("[data-v]").forEach(x => x.setAttribute("aria-pressed", x === b)); render(); });
+  $("#quizBtn").onclick = function () { const on = document.body.classList.toggle("quizmode"); this.setAttribute("aria-pressed", on); };
+  $("#out").addEventListener("click", e => { const r = e.target.closest(".root"); if (r && document.body.classList.contains("quizmode")) r.classList.toggle("show"); });
+  $("#q").oninput = render;
+  render();
+})();
+</script>
+</body>
+</html>
