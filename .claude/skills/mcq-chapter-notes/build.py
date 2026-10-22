@@ -41,6 +41,11 @@ const NEED = {pin: ["el"], count: ["n", "icon", "label"], chain: ["steps"], scal
 for (const [n, v] of Object.entries(CHAPTER.visuals || {})) {
   const q = CHAPTER.questions.find(x => x.n === +n);
   if (!q) { errs.push(`visual for unknown question ${n}`); continue; }
+  if (v.same !== undefined) {
+    const tv = (CHAPTER.visuals || {})[v.same];
+    if (!tv || tv.same !== undefined) errs.push(`visual ${n}: same → ${v.same}, which has no picture of its own`);
+    continue;
+  }
   if (!NEED[v.t]) { errs.push(`visual ${n}: unknown kind "${v.t}"`); continue; }
   for (const k of NEED[v.t]) if (v[k] === undefined) errs.push(`visual ${n}: ${v.t} needs "${k}"`);
   if (v.t === "pin") {

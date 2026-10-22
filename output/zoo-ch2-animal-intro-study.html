@@ -125,10 +125,11 @@ nav.tabs button[aria-selected="true"]{background:var(--accent);color:#fff;border
 .q .hintbox{display:none}
 .q.hinted .hintbox,.q.open .hintbox{display:block}
 .q.hinted .hintbtn,.q.open .hintbtn{display:none}
-.vzbtn{margin-top:8px;margin-left:6px}
-.q .vzhint{display:none}
-.q.vzon .vzhint{display:block}
-.q.vzon .vzbtn,.q.open .vzbtn,.q.open .vzhint{display:none}
+.vzgal{display:grid;gap:10px;grid-template-columns:repeat(auto-fill,minmax(min(100%,320px),1fr));margin:14px 0 10px}
+.vzgal-h{grid-column:1/-1;font-weight:700;font-size:.95rem;color:var(--accent)}
+.vzcard{min-width:0}
+.vzcard figure.vz{margin:0}
+.vzq{font-size:.78rem;color:var(--muted);text-align:center;margin-top:3px}
 .clue{display:grid;grid-template-columns:1fr auto 1fr;gap:8px;align-items:start;padding:8px 0;border-bottom:1px solid var(--line)}
 .clue .c{font-weight:600}
 .clue .c mark{background:#fff59d;color:#1f2328;border-radius:3px;padding:0 3px}
@@ -2908,7 +2909,7 @@ CHAPTER.visuals = Object.assign(CHAPTER.visuals || {}, {
        hook: "মুকুল থেকে নতুন বাচ্চা আসে, বাবা লাগে না", cap: "মুকুল = অযৌন প্রজননের অঙ্গ"},
   69: {t: "pin", sec: "hy-ic", el: "ic",
        hook: "জননাঙ্গের বাক্সে তীরটা কোন কোষ থেকে আসছে?", cap: "ইন্টারস্থিশিয়াল কোষ (টটিপটেন্ট) → জননাঙ্গ"},
-  70: {t: "scene", h: 150,
+  70: {t: "scene", h: 160,
        art: [["💚", 90, 96, 52, "bob"], ["🫧", 150, 70, 24, "bob"], ["🌿", 330, 96, 46, "bob"]],
        lines: [["Chlorohydra viridissima", 210, 26, 16], ["chloro = সবুজ · viridis = সবুজ", 210, 128, 13], ["ভেতরে সবুজ শৈবাল থাকে = মিথোজীবিতা", 210, 146, 12]],
        key: "Chlorohydra viridissima", hook: "যার নামে দু'বার \"সবুজ\" লেখা, তার ভেতরেই সবুজ শৈবাল", cap: "Chlorohydra viridissima: সবুজ হাইড্রা, শৈবালের সাথে মিথোজীবী"},
@@ -2976,7 +2977,9 @@ CHAPTER.visuals = Object.assign(CHAPTER.visuals || {}, {
 /* Shared by every version. Runs after the chapter data (CHAPTER) is defined. */
 CHAPTER.questions.forEach(q => {
   q.options = q.o; q.answer = q.a; q.marked = !!q.m; q.section = q.s; q.why = q.w || ""; q.elim = q.e || "";
-  q.v = (CHAPTER.visuals || {})[q.n];  // 🖼️ ছবি-কার্ড data, drawn by visual.js
+  // 🖼️ ছবি-কার্ড data, drawn by visual.js; {same: n} reuses question n's picture (same fact asked twice)
+  const V = CHAPTER.visuals || {};
+  q.v = V[q.n] && V[q.n].same ? V[V[q.n].same] : V[q.n];
 });
 CHAPTER.questions.sort((a, b) => a.n - b.n);
 // 🔴 marks the student adds on the phone (no rebuild needed), merged with marks from the data
@@ -3303,10 +3306,23 @@ figure.vz [data-vzpin]{stroke:#d84315 !important;stroke-width:3px !important;ani
     $("#notes").innerHTML = grouped(s => `
       <article class="card" id="n-${s.id}">
         <h2>${s.heading}</h2>${fig(s.figure)}<p>${s.note}</p>
+        ${pictures(s.id)}
         ${termChips(s.id)}
         <button class="chip goq" data-sec="${s.id}">❓ এই অংশের ${qCount(s.id)}টি প্রশ্ন →</button>
       </article>`);
   }
+  // 🖼️ every question's picture card, in the notes where its fact is taught; questions sharing a picture share a card
+  function pictures(sid) {
+    const groups = new Map();
+    CHAPTER.questions.filter(q => q.section === sid && q.v).forEach(q => {
+      if (!groups.has(q.v)) groups.set(q.v, []);
+      groups.get(q.v).push(q);
+    });
+    if (!groups.size) return "";
+    return `<div class="vzgal"><div class="vzgal-h">🖼️ ছবিতে মনে রাখো</div>${[...groups.values()].map(qs =>
+      `<div class="vzcard">${VIS.render(qs[0], "full")}<div class="vzq">প্রশ্ন ${qs.map(q => BN(q.n)).join(", ")}</div></div>`).join("")}</div>`;
+  }
+  const BN = n => String(n).replace(/\d/g, d => "০১২৩৪৫৬৭৮৯"[d]);
   const TERMS = CHAPTER.terms || [];
   function termChips(sid) {
     const ts = TERMS.map((t, i) => [t, i]).filter(([t]) => t.s === sid);
@@ -3342,10 +3358,8 @@ figure.vz [data-vzpin]{stroke:#d84315 !important;stroke-width:3px !important;ani
       <div class="qtext">${markCue(q.q, q.cue)}</div>
       <ol class="opts">${q.options.map((o, j) => `<li data-j="${j}">(${LETTERS[j]}) ${q.q.includes(q.cue) ? o : markCue(o, q.cue)}</li>`).join("")}</ol>
       ${q.hint ? `<button class="chip hintbtn" data-hint>💡 হিন্ট দাও (উত্তর না)</button><div class="box hintbox"><b class="t">🔑 ক্লু: হলুদ শব্দটা দেখো</b>${q.hint}</div>` : ""}
-      ${q.v ? `<button class="chip vzbtn" data-vz>🖼️ ছবি-হিন্ট</button><div class="vzhint">${VIS.render(q, "hint")}</div>` : ""}
       <div class="hint">👆 অপশনে বা প্রশ্নে ট্যাপ করলে উত্তর দেখাবে</div>
       <div class="ans">
-        ${q.v ? VIS.render(q, "full") : ""}
         ${q.why ? `<div class="box why"><b class="t">✅ কেন</b>${q.why}</div>` : ""}
         ${q.elim ? `<div class="box trap"><b class="t">✂️ এলিমিনেশন</b>${q.elim}</div>` : ""}
         <div class="selfmark"><button data-mark="ok" class="${state[q.n] === "ok" ? "on-ok" : ""}">✅ পেরেছি</button><button data-mark="bad" class="${state[q.n] === "bad" ? "on-bad" : ""}">❌ পারিনি</button></div>
@@ -3416,7 +3430,6 @@ figure.vz [data-vzpin]{stroke:#d84315 !important;stroke-width:3px !important;ani
       renderPractice(); renderMistakes(); return;
     }
     if (e.target.closest("[data-hint]")) { card.classList.add("hinted", "showcue"); return; }
-    if (e.target.closest("[data-vz]")) { card.classList.add("vzon"); return; }
     const mb = e.target.closest("[data-mark]");
     if (mb) {
       state[n] = mb.dataset.mark; STORE.save(state);

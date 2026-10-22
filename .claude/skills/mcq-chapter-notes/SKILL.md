@@ -93,10 +93,13 @@ Section: `{id, topic, heading, figure:{svg, caption}, note, why, mnemonic, story
 Question (compact keys): `{n, s:sectionId, src:"MAT 21-22"|"অনুশীলনী (আলীম স্যার)", m:1?, q, o:[...], a:0-based, w:why, e:elimination}`.
 Cheat: `{topic, title, html}` (a small `<table>`; put `class="err"` on cells the student got wrong).
 
-## 🖼️ Picture cards (optional, pilot in zoo ch2)
-The student remembers pictures better than text. `NN-visuals.js` does
-`CHAPTER.visuals = Object.assign(CHAPTER.visuals || {}, { n: {t, …, hook, cap} })`, and the practice tab shows a
-"🖼️ ছবি-হিন্ট" (answer hidden) before the answer and the full picture after it. `hook` = the hint line, `cap` = the line under the full picture.
+## 🖼️ Picture cards (student's request: "ছবি বসবে মূল স্টাডি মেটেরিয়ালে")
+The student remembers pictures, not text, so EVERY question gets one. `NN-visuals.js` does
+`CHAPTER.visuals = Object.assign(CHAPTER.visuals || {}, { n: {t, …, cap} })`. The pictures sit in the 📘 notes tab,
+under the section's note ("🖼️ ছবিতে মনে রাখো"), NOT in practice (the student said that placement was wrong).
+`cap` = the one-line fact under the picture. The same fact asked twice → `{same: n}` (one shared card).
+`hook` (optional) = an answer-hiding hint line, used only by `VIS.render(q, "hint")`.
+Writer brief for the data: `chapters/raw/VISUALS-BRIEF.md` in the zoo project.
 Kinds: `pin {el, sec?}` (glow a part of a section figure; mark it with `data-p="el"` in the SVG) ·
 `count {n, icon, label, unit?, extra?}` · `chain {steps, hide?, on?, note?}` · `scale {max, step, unit, marks:[{v|[a,b], l}], hl?}` ·
 `cal {on?:[1-12], seasons?, season?, label}` · `odd {odd, group, why, good?, items?}` (`good`: the odd one is the right pick) ·

@@ -2904,7 +2904,7 @@ CHAPTER.visuals = Object.assign(CHAPTER.visuals || {}, {
        hook: "মুকুল থেকে নতুন বাচ্চা আসে, বাবা লাগে না", cap: "মুকুল = অযৌন প্রজননের অঙ্গ"},
   69: {t: "pin", sec: "hy-ic", el: "ic",
        hook: "জননাঙ্গের বাক্সে তীরটা কোন কোষ থেকে আসছে?", cap: "ইন্টারস্থিশিয়াল কোষ (টটিপটেন্ট) → জননাঙ্গ"},
-  70: {t: "scene", h: 150,
+  70: {t: "scene", h: 160,
        art: [["💚", 90, 96, 52, "bob"], ["🫧", 150, 70, 24, "bob"], ["🌿", 330, 96, 46, "bob"]],
        lines: [["Chlorohydra viridissima", 210, 26, 16], ["chloro = সবুজ · viridis = সবুজ", 210, 128, 13], ["ভেতরে সবুজ শৈবাল থাকে = মিথোজীবিতা", 210, 146, 12]],
        key: "Chlorohydra viridissima", hook: "যার নামে দু'বার \"সবুজ\" লেখা, তার ভেতরেই সবুজ শৈবাল", cap: "Chlorohydra viridissima: সবুজ হাইড্রা, শৈবালের সাথে মিথোজীবী"},
@@ -2972,7 +2972,9 @@ CHAPTER.visuals = Object.assign(CHAPTER.visuals || {}, {
 /* Shared by every version. Runs after the chapter data (CHAPTER) is defined. */
 CHAPTER.questions.forEach(q => {
   q.options = q.o; q.answer = q.a; q.marked = !!q.m; q.section = q.s; q.why = q.w || ""; q.elim = q.e || "";
-  q.v = (CHAPTER.visuals || {})[q.n];  // 🖼️ ছবি-কার্ড data, drawn by visual.js
+  // 🖼️ ছবি-কার্ড data, drawn by visual.js; {same: n} reuses question n's picture (same fact asked twice)
+  const V = CHAPTER.visuals || {};
+  q.v = V[q.n] && V[q.n].same ? V[V[q.n].same] : V[q.n];
 });
 CHAPTER.questions.sort((a, b) => a.n - b.n);
 // 🔴 marks the student adds on the phone (no rebuild needed), merged with marks from the data
