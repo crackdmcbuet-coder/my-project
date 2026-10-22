@@ -1,6 +1,7 @@
 /* Shared by every version. Runs after the chapter data (CHAPTER) is defined. */
 CHAPTER.questions.forEach(q => {
   q.options = q.o; q.answer = q.a; q.marked = !!q.m; q.section = q.s; q.why = q.w || ""; q.elim = q.e || "";
+  q.v = (CHAPTER.visuals || {})[q.n];  // 🖼️ ছবি-কার্ড data, drawn by visual.js
 });
 CHAPTER.questions.sort((a, b) => a.n - b.n);
 // 🔴 marks the student adds on the phone (no rebuild needed), merged with marks from the data
@@ -48,7 +49,7 @@ function scopeSvg(svg, id) {
   });
   return scoped.replace("<svg ", `<svg id="${id}" `);
 }
-CHAPTER.sections.forEach(s => { if (s.figure && s.figure.svg) s.figure.svg = scopeSvg(s.figure.svg, "fig-" + s.id); });
+CHAPTER.sections.forEach(s => { if (s.figure && s.figure.svg) { s.figure.raw = s.figure.svg; s.figure.svg = scopeSvg(s.figure.svg, "fig-" + s.id); } });
 const SEC = Object.fromEntries(CHAPTER.sections.map(s => [s.id, s]));
 const TOPIC = Object.fromEntries(CHAPTER.topics.map(t => [t.id, t]));
 CHAPTER.questions.forEach(q => { q.topic = SEC[q.section] ? SEC[q.section].topic : ""; });

@@ -18,6 +18,7 @@ rest. Recall from memory is not required. Every note, story and trap serves MCQ 
 <skill>/templates/cheatsheet.html  📄 tables + red points + clue table + root table + mnemonics, printable
 <skill>/templates/roots.html  🔤 shared word-root dictionary (all chapters)
 <skill>/templates/terms.js    term/root rendering shared by all pages
+<skill>/templates/visual.js   🖼️ per-question picture cards (CHAPTER.visuals), drawn from data
 <skill>/roots-seed.js         starter dictionary for a new project
 <project>/roots/roots.js      the project's growing dictionary
 <project>/chapters/<id>/*.js  one chapter's data (00-meta.js first, then one file per topic)
@@ -91,6 +92,15 @@ Section: `{id, topic, heading, figure:{svg, caption}, note, why, mnemonic, story
 
 Question (compact keys): `{n, s:sectionId, src:"MAT 21-22"|"অনুশীলনী (আলীম স্যার)", m:1?, q, o:[...], a:0-based, w:why, e:elimination}`.
 Cheat: `{topic, title, html}` (a small `<table>`; put `class="err"` on cells the student got wrong).
+
+## 🖼️ Picture cards (optional, pilot in zoo ch2)
+The student remembers pictures better than text. `NN-visuals.js` does
+`CHAPTER.visuals = Object.assign(CHAPTER.visuals || {}, { n: {t, …, hook, cap} })`, and the practice tab shows a
+"🖼️ ছবি-হিন্ট" (answer hidden) before the answer and the full picture after it. `hook` = the hint line, `cap` = the line under the full picture.
+Kinds: `pin {el, sec?}` (glow a part of a section figure; mark it with `data-p="el"` in the SVG) ·
+`count {n, icon, label, unit?, extra?}` · `chain {steps, hide?, on?, note?}` · `scale {max, step, unit, marks:[{v|[a,b], l}], hl?}` ·
+`cal {on?:[1-12], seasons?, season?, label}` · `odd {odd, group, why, good?, items?}` (`good`: the odd one is the right pick) ·
+`scene {art:[[emoji,x,y,size,anim]], lines:[[text,x,y,size]], key?, ground?, h?}`. build.py checks the kind, the fields and the pin target.
 
 ## Step 4: Build + verify
 1. Run build.py. It refuses bad answer indexes, unknown sections, and duplicate numbers.

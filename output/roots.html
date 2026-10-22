@@ -89,6 +89,11 @@ mark.cue{background:transparent;color:inherit;border-bottom:3px solid #f9a825;pa
 [hidden]{display:none!important}
 @media (prefers-reduced-motion: reduce){ svg *{animation:none!important} }
 
+/* long unbroken words (arrow chains, exam-tag lists) wrap instead of widening the page */
+.opts li,.pill,.qtext,.box,figcaption,td,th{overflow-wrap:anywhere}
+.qhead .pill{white-space:normal}
+.clue>*{min-width:0;overflow-wrap:anywhere}
+
 .search{width:100%;font:inherit;font-size:1rem;padding:8px 12px;border:1px solid var(--line);border-radius:12px;background:var(--card);color:var(--ink)}
 .root{border:1px solid var(--line);border-radius:12px;padding:10px 12px;margin:8px 0;background:var(--card)}
 .root .head{display:flex;flex-wrap:wrap;gap:8px;align-items:baseline}

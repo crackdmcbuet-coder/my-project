@@ -35,8 +35,24 @@ for (const t of CHAPTER.terms || []) {
   for (const k of t.p) if (!R[k]) errs.push(`term ${t.t}: root "${k}" missing in roots.js`);
 }
 for (const s of CHAPTER.sections) if (!CHAPTER.topics.some(t => t.id === s.topic)) errs.push(`unknown topic in ${s.id}`);
+// 🖼️ ছবি-কার্ড (optional per question): known kind, required fields, pin target exists in the figure
+const NEED = {pin: ["el"], count: ["n", "icon", "label"], chain: ["steps"], scale: ["max", "marks", "unit"],
+  cal: [], odd: ["odd", "group"], scene: ["art"]};
+for (const [n, v] of Object.entries(CHAPTER.visuals || {})) {
+  const q = CHAPTER.questions.find(x => x.n === +n);
+  if (!q) { errs.push(`visual for unknown question ${n}`); continue; }
+  if (!NEED[v.t]) { errs.push(`visual ${n}: unknown kind "${v.t}"`); continue; }
+  for (const k of NEED[v.t]) if (v[k] === undefined) errs.push(`visual ${n}: ${v.t} needs "${k}"`);
+  if (v.t === "pin") {
+    const sec = CHAPTER.sections.find(s => s.id === (v.sec || q.s));
+    const svg = sec && sec.figure ? sec.figure.svg : "";
+    if (!new RegExp(`data-p="[^"]*\\b${v.el}\\b`).test(svg)) errs.push(`visual ${n}: no data-p="${v.el}" in the figure of ${v.sec || q.s}`);
+  }
+  if (v.t === "odd" && !((v.items || q.o)[v.odd])) errs.push(`visual ${n}: odd index out of range`);
+  if (v.t === "cal" && !v.on && !v.seasons) errs.push(`visual ${n}: cal needs "on" or "seasons"`);
+}
 console.log(JSON.stringify({errs, q: CHAPTER.questions.length, s: CHAPTER.sections.length,
-  marked: CHAPTER.questions.filter(q => q.m).length, id: CHAPTER.id, title: CHAPTER.title,
+  marked: CHAPTER.questions.filter(q => q.m).length, vis: Object.keys(CHAPTER.visuals || {}).length, id: CHAPTER.id, title: CHAPTER.title,
   terms: (CHAPTER.terms || []).map(t => Object.assign({}, t, {chapter: CHAPTER.title, chapterId: CHAPTER.id}))}));
 """
     out = subprocess.run(["node", "-"], input=probe, capture_output=True, text=True)
@@ -45,7 +61,7 @@ console.log(JSON.stringify({errs, q: CHAPTER.questions.length, s: CHAPTER.sectio
     r = json.loads(out.stdout)
     if r["errs"]:
         sys.exit("data errors:\n  " + "\n  ".join(r["errs"]))
-    print(f"ok: {r['q']} questions, {r['s']} sections, {r['marked']} marked, {len(r['terms'])} terms")
+    print(f"ok: {r['q']} questions, {r['s']} sections, {r['marked']} marked, {len(r['terms'])} terms, {r['vis']} visuals")
     return r
 
 
@@ -61,7 +77,7 @@ def main() -> None:
     data = roots + "\n" + "\n".join(p.read_text() for p in sorted(src.glob("*.js")))
     info = check(data)
     css = (TPL / "base.css").read_text()
-    common = (TPL / "common.js").read_text() + "\n" + (TPL / "terms.js").read_text()
+    common = "\n".join((TPL / f).read_text() for f in ("common.js", "terms.js", "visual.js"))
     dst.mkdir(parents=True, exist_ok=True)
     for v in VERSIONS:
         html = (TPL / f"{v}.html").read_text()

@@ -13,7 +13,7 @@ CHAPTER.sections.push({
 </style>
 <rect width="420" height="250" fill="#fafafa"/>
 <text class="t" x="20" y="14">উদরের ১১ খণ্ডক</text>
-<g stroke="#e65100" fill="#ffe0b2"><rect x="20" y="20" width="34" height="26"/><rect x="54" y="20" width="34" height="26"/><rect x="88" y="20" width="34" height="26"/><rect x="122" y="20" width="34" height="26"/><rect x="156" y="20" width="34" height="26"/><rect x="190" y="20" width="34" height="26"/><rect x="224" y="20" width="34" height="26"/><rect x="258" y="20" width="34" height="26"/><rect class="p9" x="292" y="20" width="34" height="26"/><rect x="326" y="20" width="34" height="26"/><rect x="360" y="20" width="34" height="26"/></g>
+<g stroke="#e65100" fill="#ffe0b2"><rect x="20" y="20" width="34" height="26"/><rect x="54" y="20" width="34" height="26"/><rect x="88" y="20" width="34" height="26"/><rect x="122" y="20" width="34" height="26"/><rect x="156" y="20" width="34" height="26"/><rect x="190" y="20" width="34" height="26"/><rect x="224" y="20" width="34" height="26"/><rect x="258" y="20" width="34" height="26"/><rect data-p="seg9" class="p9" x="292" y="20" width="34" height="26"/><rect x="326" y="20" width="34" height="26"/><rect x="360" y="20" width="34" height="26"/></g>
 <g class="n" text-anchor="middle"><text x="37" y="38">১</text><text x="71" y="38">২</text><text x="105" y="38">৩</text><text x="139" y="38">৪</text><text x="173" y="38">৫</text><text x="207" y="38">৬</text><text x="241" y="38">৭</text><text x="275" y="38">৮</text><text x="309" y="38" fill="#b71c1c">৯</text><text x="343" y="38">১০</text><text x="377" y="38">১১</text></g>
 <path d="M309 48 V60" stroke="#b71c1c" stroke-width="2"/>
 <text class="r" x="20" y="74">৯ম খণ্ডক: স্ত্রীতে ওভিপজিটর; স্টার্নাম লম্বা হয়ে সাবজেনিটাল প্লেট;</text>

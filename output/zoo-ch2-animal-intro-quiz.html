@@ -89,6 +89,11 @@ mark.cue{background:transparent;color:inherit;border-bottom:3px solid #f9a825;pa
 [hidden]{display:none!important}
 @media (prefers-reduced-motion: reduce){ svg *{animation:none!important} }
 
+/* long unbroken words (arrow chains, exam-tag lists) wrap instead of widening the page */
+.opts li,.pill,.qtext,.box,figcaption,td,th{overflow-wrap:anywhere}
+.qhead .pill{white-space:normal}
+.clue>*{min-width:0;overflow-wrap:anywhere}
+
 .row{margin:10px 0}
 .row > .lbl{font-weight:600;font-size:.92rem;margin-bottom:2px}
 .chips.wrap{flex-wrap:wrap;overflow:visible}
@@ -633,7 +638,7 @@ CHAPTER.sections.push({
  "topic": "t2",
  "heading": "ইন্টারস্থিশিয়াল কোষ: সংরক্ষিত ও টটিপটেন্ট",
  "figure": {
-  "svg": "<svg viewBox=\"0 0 420 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"ইন্টারস্থিশিয়াল কোষ থেকে অন্য কোষ ও মুকুল তৈরি\">\n<style>\n.bg{fill:#f4faf4}\n.l{font:13px sans-serif;fill:#1b2733}\n.sm{font:12px sans-serif;fill:#1b2733}\n.ctr{fill:#ffcc80;stroke:#e65100;stroke-width:2.5;animation:hy4p 2.5s ease-in-out infinite;transform-origin:210px 125px}\n@keyframes hy4p{0%,100%{transform:scale(1)}50%{transform:scale(1.06)}}\n.bx{fill:#c8e6c9;stroke:#2e7d32;stroke-width:1.8}\n.ar{stroke:#e65100;stroke-width:2.5;stroke-dasharray:7 5;fill:none;animation:hy4d 1.2s linear infinite}\n@keyframes hy4d{to{stroke-dashoffset:-24}}\n</style>\n<rect class=\"bg\" width=\"420\" height=\"250\" rx=\"10\"/>\n<line class=\"ar\" x1=\"190\" y1=\"90\" x2=\"85\" y2=\"46\"/>\n<line class=\"ar\" x1=\"210\" y1=\"82\" x2=\"210\" y2=\"46\"/>\n<line class=\"ar\" x1=\"230\" y1=\"90\" x2=\"335\" y2=\"46\"/>\n<line class=\"ar\" x1=\"190\" y1=\"160\" x2=\"85\" y2=\"204\"/>\n<line class=\"ar\" x1=\"210\" y1=\"168\" x2=\"210\" y2=\"204\"/>\n<line class=\"ar\" x1=\"230\" y1=\"160\" x2=\"335\" y2=\"204\"/>\n<rect class=\"bx\" x=\"30\" y=\"14\" width=\"110\" height=\"32\" rx=\"8\"/><text class=\"l\" x=\"85\" y=\"35\" text-anchor=\"middle\">নিডোব্লাস্ট</text>\n<rect class=\"bx\" x=\"155\" y=\"14\" width=\"110\" height=\"32\" rx=\"8\"/><text class=\"l\" x=\"210\" y=\"35\" text-anchor=\"middle\">সংবেদী কোষ</text>\n<rect class=\"bx\" x=\"280\" y=\"14\" width=\"110\" height=\"32\" rx=\"8\"/><text class=\"l\" x=\"335\" y=\"35\" text-anchor=\"middle\">স্নায়ু কোষ</text>\n<rect class=\"bx\" x=\"30\" y=\"204\" width=\"110\" height=\"32\" rx=\"8\"/><text class=\"l\" x=\"85\" y=\"225\" text-anchor=\"middle\">গ্রন্থি কোষ</text>\n<rect class=\"bx\" x=\"155\" y=\"204\" width=\"110\" height=\"32\" rx=\"8\"/><text class=\"l\" x=\"210\" y=\"225\" text-anchor=\"middle\">জননাঙ্গ</text>\n<rect class=\"bx\" x=\"280\" y=\"204\" width=\"110\" height=\"32\" rx=\"8\"/><text class=\"l\" x=\"335\" y=\"225\" text-anchor=\"middle\">মুকুল</text>\n<ellipse class=\"ctr\" cx=\"210\" cy=\"125\" rx=\"58\" ry=\"40\"/>\n<text class=\"sm\" x=\"210\" y=\"121\" text-anchor=\"middle\">ইন্টারস্থিশিয়াল</text>\n<text class=\"sm\" x=\"210\" y=\"138\" text-anchor=\"middle\">(টটিপটেন্ট)</text>\n</svg>",
+  "svg": "<svg viewBox=\"0 0 420 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"ইন্টারস্থিশিয়াল কোষ থেকে অন্য কোষ ও মুকুল তৈরি\">\n<style>\n.bg{fill:#f4faf4}\n.l{font:13px sans-serif;fill:#1b2733}\n.sm{font:12px sans-serif;fill:#1b2733}\n.ctr{fill:#ffcc80;stroke:#e65100;stroke-width:2.5;animation:hy4p 2.5s ease-in-out infinite;transform-origin:210px 125px}\n@keyframes hy4p{0%,100%{transform:scale(1)}50%{transform:scale(1.06)}}\n.bx{fill:#c8e6c9;stroke:#2e7d32;stroke-width:1.8}\n.ar{stroke:#e65100;stroke-width:2.5;stroke-dasharray:7 5;fill:none;animation:hy4d 1.2s linear infinite}\n@keyframes hy4d{to{stroke-dashoffset:-24}}\n</style>\n<rect class=\"bg\" width=\"420\" height=\"250\" rx=\"10\"/>\n<line class=\"ar\" x1=\"190\" y1=\"90\" x2=\"85\" y2=\"46\"/>\n<line class=\"ar\" x1=\"210\" y1=\"82\" x2=\"210\" y2=\"46\"/>\n<line class=\"ar\" x1=\"230\" y1=\"90\" x2=\"335\" y2=\"46\"/>\n<line class=\"ar\" x1=\"190\" y1=\"160\" x2=\"85\" y2=\"204\"/>\n<line class=\"ar\" x1=\"210\" y1=\"168\" x2=\"210\" y2=\"204\"/>\n<line class=\"ar\" x1=\"230\" y1=\"160\" x2=\"335\" y2=\"204\"/>\n<rect class=\"bx\" x=\"30\" y=\"14\" width=\"110\" height=\"32\" rx=\"8\"/><text class=\"l\" x=\"85\" y=\"35\" text-anchor=\"middle\">নিডোব্লাস্ট</text>\n<rect class=\"bx\" x=\"155\" y=\"14\" width=\"110\" height=\"32\" rx=\"8\"/><text class=\"l\" x=\"210\" y=\"35\" text-anchor=\"middle\">সংবেদী কোষ</text>\n<rect class=\"bx\" x=\"280\" y=\"14\" width=\"110\" height=\"32\" rx=\"8\"/><text class=\"l\" x=\"335\" y=\"35\" text-anchor=\"middle\">স্নায়ু কোষ</text>\n<rect class=\"bx\" x=\"30\" y=\"204\" width=\"110\" height=\"32\" rx=\"8\"/><text class=\"l\" x=\"85\" y=\"225\" text-anchor=\"middle\">গ্রন্থি কোষ</text>\n<rect data-p=\"ic-gonad\" class=\"bx\" x=\"155\" y=\"204\" width=\"110\" height=\"32\" rx=\"8\"/><text class=\"l\" x=\"210\" y=\"225\" text-anchor=\"middle\">জননাঙ্গ</text>\n<rect class=\"bx\" x=\"280\" y=\"204\" width=\"110\" height=\"32\" rx=\"8\"/><text class=\"l\" x=\"335\" y=\"225\" text-anchor=\"middle\">মুকুল</text>\n<ellipse data-p=\"ic\" class=\"ctr\" cx=\"210\" cy=\"125\" rx=\"58\" ry=\"40\"/>\n<text class=\"sm\" x=\"210\" y=\"121\" text-anchor=\"middle\">ইন্টারস্থিশিয়াল</text>\n<text class=\"sm\" x=\"210\" y=\"138\" text-anchor=\"middle\">(টটিপটেন্ট)</text>\n</svg>",
   "caption": "ইন্টারস্থিশিয়াল কোষ থেকে নিডোব্লাস্ট, সংবেদী, স্নায়ু, গ্রন্থি কোষ এবং জননাঙ্গ ও মুকুল তৈরি হয়।"
  },
  "note": "<p><span class=\"k\">ইন্টারস্থিশিয়াল কোষ</span> বহিঃত্বকের ফাঁকে ফাঁকে থাকা ছোট গোল কোষ। এর নানা নাম একই কোষের:</p>\n<ul>\n<li><b>টটিপটেন্ট</b> কোষ: যেকোনো ধরনের কোষে পরিণত হতে পারে। এন্ডোডার্মিসের (অন্তঃত্বকের) যেকোনো কোষও এ-ই তৈরি করতে পারে (বইয়ের তথ্য)।</li>\n<li><b>সংরক্ষিত কোষ</b> (reserve cell): জমানো ভাণ্ডারের মতো।</li>\n<li>এর কারণেই Hydra <b>অমর প্রাণী</b>।</li>\n<li>এই কোষ <b>মুকুল</b> তৈরি করে এবং <b>জননাঙ্গ</b> সৃষ্টি করে।</li>\n</ul>\n<p>নিডোসাইট, পেশি-আবরণী, জনন, সংবেদী, স্নায়ু, গ্রন্থি বা পুষ্টি কোষ এই ক্ষমতার অধিকারী নয়।</p>",
@@ -1321,7 +1326,7 @@ CHAPTER.sections.push({
 </style>
 <rect width="420" height="250" fill="#fafafa"/>
 <text class="t" x="20" y="14">উদরের ১১ খণ্ডক</text>
-<g stroke="#e65100" fill="#ffe0b2"><rect x="20" y="20" width="34" height="26"/><rect x="54" y="20" width="34" height="26"/><rect x="88" y="20" width="34" height="26"/><rect x="122" y="20" width="34" height="26"/><rect x="156" y="20" width="34" height="26"/><rect x="190" y="20" width="34" height="26"/><rect x="224" y="20" width="34" height="26"/><rect x="258" y="20" width="34" height="26"/><rect class="p9" x="292" y="20" width="34" height="26"/><rect x="326" y="20" width="34" height="26"/><rect x="360" y="20" width="34" height="26"/></g>
+<g stroke="#e65100" fill="#ffe0b2"><rect x="20" y="20" width="34" height="26"/><rect x="54" y="20" width="34" height="26"/><rect x="88" y="20" width="34" height="26"/><rect x="122" y="20" width="34" height="26"/><rect x="156" y="20" width="34" height="26"/><rect x="190" y="20" width="34" height="26"/><rect x="224" y="20" width="34" height="26"/><rect x="258" y="20" width="34" height="26"/><rect data-p="seg9" class="p9" x="292" y="20" width="34" height="26"/><rect x="326" y="20" width="34" height="26"/><rect x="360" y="20" width="34" height="26"/></g>
 <g class="n" text-anchor="middle"><text x="37" y="38">১</text><text x="71" y="38">২</text><text x="105" y="38">৩</text><text x="139" y="38">৪</text><text x="173" y="38">৫</text><text x="207" y="38">৬</text><text x="241" y="38">৭</text><text x="275" y="38">৮</text><text x="309" y="38" fill="#b71c1c">৯</text><text x="343" y="38">১০</text><text x="377" y="38">১১</text></g>
 <path d="M309 48 V60" stroke="#b71c1c" stroke-width="2"/>
 <text class="r" x="20" y="74">৯ম খণ্ডক: স্ত্রীতে ওভিপজিটর; স্টার্নাম লম্বা হয়ে সাবজেনিটাল প্লেট;</text>
@@ -2877,9 +2882,97 @@ CHAPTER.terms = (CHAPTER.terms || []).concat([
  }
 ]);
 
+/* 🖼️ ছবি-কার্ড (নমুনা: ৩০টি প্রশ্ন — হাইড্রার জনন, ঘাসফড়িংয়ের জনন, রুই মাছের প্রজনন)।
+   CHAPTER.visuals[n] = {t, …}: visual.js এগুলো আঁকে। hook = ছবি-হিন্টের লাইন (উত্তর না বলে), cap = উত্তরের পরের লাইন। */
+CHAPTER.visuals = Object.assign(CHAPTER.visuals || {}, {
+  // ---------- হাইড্রা: জনন ও মিথোজীবিতা ----------
+  63: {t: "scene", h: 150, ground: ["#e6f4f2", 34],
+       art: [["🌱", 110, 92, 46, "bob"], ["➕", 210, 84, 28], ["🥚", 310, 92, 42, "bob"]],
+       lines: [["হাইড্রা: দুই রকম জননই পারে", 210, 26, 16], ["মুকুল (অযৌন)", 110, 136, 13], ["জননাঙ্গ (যৌন)", 310, 136, 13]],
+       key: "হাইড্রা", hook: "কে একইসাথে 🌱 মুকুল আর 🥚 ডিম্বাণু দুটোই বানায়?", cap: "হাইড্রা = মুকুল (অযৌন) + জননাঙ্গ (যৌন)"},
+  64: {t: "scale", max: 7, step: 1, unit: "দিন", marks: [{v: [2, 3], l: "মুকুল পূর্ণ"}],
+       hook: "এক সপ্তাহের রুলারে মুকুলটা অনেক আগেই পূর্ণ হয়ে যায়", cap: "মুকুল পূর্ণ হতে ২–৩ দিন (⚠ আজমল স্যার: ৩ সপ্তাহ)"},
+  65: {t: "cal", seasons: ["গ্রীষ্ম"], label: "মুকুলোদগম ☀️ গ্রীষ্মে; জননাঙ্গ হেমন্ত-শীতে",
+       hook: "গরমে পুকুরে খাবার বেশি, তাই হাইড্রা তাড়াতাড়ি মুকুল ছাড়ে", cap: "গ্রীষ্ম = মুকুল (অযৌন); শীত = জননাঙ্গ (যৌন)"},
+  66: {t: "count", n: 1, icon: "🥚", label: "ডিম্বাণু", extra: {n: 3, icon: "⚪", label: "পোলার বডি (ঝরে যায়)"},
+       hook: "মা সব খাবার একজনকেই দেয়, বাকিরা ছোট হয়ে ঝরে যায়", cap: "একটি উওসাইট → মিয়োসিস → একটিই ডিম্বাণু"},
+  67: {t: "chain", steps: ["জাইগোট", "মরুলা", "ব্লাস্টুলা", "গ্যাস্ট্রুলা", "হাইডুলা", "পূর্ণাঙ্গ"],
+       note: "ম → ব → গ → হ: \"মরু বালিতে গরম হাওয়া\"",
+       hook: "মাঝের চারটা: ম-ব-গ-হ (\"মরু বালিতে গরম হাওয়া\")", cap: "জাইগোট → মরুলা → ব্লাস্টুলা → গ্যাস্ট্রুলা → হাইডুলা → পূর্ণাঙ্গ"},
+  68: {t: "chain", steps: ["মা হাইড্রা", "মুকুল 🌱", "ছিঁড়ে আলাদা", "নতুন হাইড্রা"], on: [1],
+       note: "শুক্রাণু-ডিম্বাণু লাগে না = অযৌন জনন",
+       hook: "মুকুল থেকে নতুন বাচ্চা আসে, বাবা লাগে না", cap: "মুকুল = অযৌন প্রজননের অঙ্গ"},
+  69: {t: "pin", sec: "hy-ic", el: "ic",
+       hook: "জননাঙ্গের বাক্সে তীরটা কোন কোষ থেকে আসছে?", cap: "ইন্টারস্থিশিয়াল কোষ (টটিপটেন্ট) → জননাঙ্গ"},
+  70: {t: "scene", h: 150,
+       art: [["💚", 90, 96, 52, "bob"], ["🫧", 150, 70, 24, "bob"], ["🌿", 330, 96, 46, "bob"]],
+       lines: [["Chlorohydra viridissima", 210, 26, 16], ["chloro = সবুজ · viridis = সবুজ", 210, 128, 13], ["ভেতরে সবুজ শৈবাল থাকে = মিথোজীবিতা", 210, 146, 12]],
+       key: "Chlorohydra viridissima", hook: "যার নামে দু'বার \"সবুজ\" লেখা, তার ভেতরেই সবুজ শৈবাল", cap: "Chlorohydra viridissima: সবুজ হাইড্রা, শৈবালের সাথে মিথোজীবী"},
+  71: {t: "chain", steps: ["হাইড্রার N₂-বর্জ্য", "শৈবাল টেনে নেয়", "প্রোটিন তৈরি"], hide: [2],
+       note: "N (নাইট্রোজেন) থাকে অ্যামিনো অ্যাসিডে, শর্করা-লিপিডে নয়",
+       hook: "N কোন খাদ্য-উপাদানের ভেতরে থাকে? শর্করা আর লিপিডে N নেই", cap: "হাইড্রার N₂-বর্জ্য → শৈবালের প্রোটিন"},
+  72: {t: "odd", odd: 3, good: true, group: "চারটা হাইড্রা, শুধু একটা সবুজ শৈবাল পোষে",
+       why: "Chloro = সবুজ → শৈবাল সঙ্গী = মিথোজীবী", hook: "নামের শুরুতে রং লেখা আছে কার?", cap: "Chlorohydra viridissima = মিথোজীবী প্রজাতি"},
+
+  // ---------- ঘাসফড়িং: জনন ও রূপান্তর ----------
+  125: {t: "pin", el: "seg9",
+        hook: "পেটের ১১টা খণ্ডের কোনটাতে পুরুষের নালি দুটো এসে মেলে?", cap: "ভাসা ডিফারেন্সিয়া ৯ম খণ্ডকে মিলিত হয়"},
+  126: {t: "odd", odd: 0, group: "চারটার তিনটা পুং জননতন্ত্রের অংশ, একটা না",
+        why: "শুক্রধানী = স্ত্রীর অঙ্গ (ধানী = রাখার পাত্র)", hook: "\"ধানী\" মানে জমা রাখার পাত্র: কে শুক্রাণু জমা রাখে, পুরুষ না স্ত্রী?", cap: "শুক্রধানী স্ত্রী জননতন্ত্রের অংশ, তাই এটাই 'নয়'"},
+  127: {t: "count", n: 5, icon: "👕", unit: " বার", label: "খোলস ছাড়ে (নিম্ফ → পূর্ণাঙ্গ)",
+        hook: "এক হাতের সবগুলো আঙুল ✋", cap: "নিম্ফ পাঁচ বার খোলস ছেড়ে পূর্ণাঙ্গ হয়"},
+  128: {t: "scene", h: 150, ground: ["#d7ccc8", 36],
+        art: [["🦗", 150, 80, 54, "bob"], ["🥚", 230, 132, 18], ["🥚", 252, 136, 18], ["🥚", 274, 132, 18]],
+        lines: [["ওভিপজিটর", 300, 34, 18], ["ovi = ডিম · positor = যে রাখে", 300, 60, 12]],
+        key: "ওভিপজিটর", hook: "ovi (ডিম) + positor (যে রাখে): নামেই কাজটা লেখা", cap: "ওভিপজিটর = ডিম পাড়ার অঙ্গ (স্ত্রী, ৯ম খণ্ডক)"},
+  129: {t: "odd", odd: 2, good: true, group: "চারজনের মধ্যে একজনের পিউপা দশা নেই",
+        why: "ঘাসফড়িং: ডিম → নিম্ফ → পূর্ণাঙ্গ (অসম্পূর্ণ)", hook: "কে খোলসে ঢুকে ঘুমায় না, সরাসরি বড় হয়?", cap: "ঘাসফড়িংয়ে অসম্পূর্ণ রূপান্তর; মশা-মাছি-প্রজাপতিতে সম্পূর্ণ"},
+  130: {t: "pin", el: "seg9",
+        hook: "স্ত্রী ঘাসফড়িংয়ের ৯ম খণ্ডে কী থাকে? জ্বলজ্বলে খণ্ডটা দেখো", cap: "স্ত্রী: ৯ম খণ্ডকে ওভিপজিটর থাকে"},
+  131: {t: "chain", steps: ["ডিম", "নিম্ফ", "পূর্ণাঙ্গ"], note: "লার্ভা নেই, পিউপা নেই: মাত্র ৩ ধাপ",
+        hook: "মাত্র ৩টা ধাপ; মাঝেরটা দেখতে ছোট ডানাহীন বাচ্চা ঘাসফড়িং", cap: "ডিম → নিম্ফ → পূর্ণাঙ্গ"},
+  132: {t: "scene", h: 150,
+        art: [["🧠", 80, 84, 46], ["➡️", 165, 80, 30], ["📈", 250, 84, 46, "bob"]],
+        lines: [["করপোরা কার্ডিয়াকা → গ্রোথ হরমোন (বই)", 210, 26, 14], ["⚠ ওয়েব: আসলে PTTH/AKH ছাড়ে; স্যারকে জিজ্ঞেস করো", 210, 132, 11]],
+        key: "গ্রোথ হরমোন", hook: "বইয়ের উত্তর: যে হরমোনে 📈 বাড়ে", cap: "বইয়ের উত্তর: গ্রোথ হরমোন (⚠ যাচাই করো)"},
+  133: {t: "odd", odd: 2, good: true, group: "চারটার মধ্যে শুধু একটা স্ত্রী জননতন্ত্রের অংশ",
+        why: "শুক্রধানি = স্ত্রীর শুক্রাণু জমা রাখার থলি", hook: "আবার \"ধানী\" = জমা রাখার পাত্র", cap: "শুক্রধানি স্ত্রী জননতন্ত্রের অংশ"},
+
+  // ---------- রুই মাছ: প্রজনন ও হালদা ----------
+  184: {t: "scale", max: 35, step: 5, unit: "মিমি", marks: [{v: 7, l: "রেণু"}, {v: 30, l: "২৫ দিনের পোনা"}], hl: 1,
+        hook: "রুলারের প্রায় শেষ মাথায়, ৩ সেন্টিমিটারের কাছে", cap: "২৫ দিনের পোনা ≈ ৩০ মিমি"},
+  185: {t: "scale", max: 60, step: 10, unit: "মিনিট (নিষেকের পর)", marks: [{v: [30, 45], l: "ক্লিভেজ শুরু"}],
+        hook: "এক ঘণ্টা পুরো হওয়ার আগেই, আধা ঘণ্টার পর থেকে", cap: "নিষেকের ৩০–৪৫ মিনিট পর ক্লিভেজ শুরু"},
+  186: {t: "cal", on: [6, 7], season: "বর্ষা", label: "প্রজনন: জুন–জুলাই (বর্ষা)",
+        hook: "🌧️ বর্ষার পানিতে নদী ভরলে রুই ডিম ছাড়ে", cap: "রুই মাছের প্রজনন সময় জুন–জুলাই"},
+  187: {t: "scale", max: 100, step: 10, unit: "সেমি", marks: [{v: [51, 70], l: "যৌন পরিপক্ব স্ত্রী"}],
+        hook: "আধা মিটারের একটু বেশি থেকে শুরু", cap: "যৌন পরিপক্ব স্ত্রী রুই: ৫১–৭০ সেমি"},
+  188: {t: "scene", h: 150,
+        art: [["🐟", 90, 86, 54, "swim"], ["🥚", 230, 70, 20], ["🥚", 262, 92, 20], ["🥚", 294, 70, 20], ["🥚", 326, 92, 20], ["🥚", 358, 70, 20]],
+        lines: [["১ কেজি মা-মাছ = ১–৪ লক্ষ ডিম", 210, 26, 15], ["fecundus = উর্বর → ফিকানডিটি = ডিম দেওয়ার ক্ষমতা", 210, 138, 11]],
+        key: "১–৪ লক্ষ", hook: "হাজার নয়, লাখের ঘরে; আর শুরু ১ থেকে", cap: "ফিকানডিটি: প্রতি কেজিতে ১–৪ লক্ষ ডিম"},
+  189: {t: "scale", max: 30, step: 5, unit: "দিন বয়স", marks: [{v: [3, 8], l: "ধানী পোনা"}],
+        hook: "৭২ ঘণ্টা = ৩ দিন থেকে শুরু, এক সপ্তাহের একটু পরে শেষ", cap: "ধানী পোনা: ৭২ ঘণ্টা (৩ দিন) থেকে ৮ দিন"},
+  190: {t: "scale", max: 35, step: 5, unit: "মিমি", marks: [{v: 7, l: "রেণু পোনা"}, {v: 30, l: "২৫ দিনের পোনা"}], hl: 0,
+        hook: "রুলারের একদম শুরুর দিকে: সপ্তাহের দিনের সংখ্যার সমান", cap: "রেণু পোনা ৭ মিমি পর্যন্ত"},
+  191: {t: "cal", on: [6, 7, 8], season: "বর্ষা", label: "ডিম পাড়ে: জুন–আগস্ট",
+        hook: "🌧️ পুরো বর্ষা জুড়ে, তার সাথে আরেকটু", cap: "স্ত্রী রুই জুন–আগস্টে ডিম পাড়ে"},
+  192: {t: "scene", h: 170, ground: ["#bbdefb", 60],
+        art: [["⛰️", 60, 92, 40], ["🐟", 160, 140, 30, "swim"], ["🐟", 270, 150, 26, "swim"], ["🥚", 220, 128, 16, "bob"], ["🥚", 320, 134, 16, "bob"]],
+        lines: [["হালদা নদী (চট্টগ্রাম)", 230, 30, 16], ["এশিয়ায় কার্প মাছের সবচেয়ে বড় প্রাকৃতিক প্রজনন কেন্দ্র", 230, 56, 11]],
+        key: "হালদা", hook: "চট্টগ্রামের পাহাড়ি নদী, যেখানে মানুষ নৌকায় বসে ডিম তোলে", cap: "হালদা নদী: এশিয়ার কার্প-প্রজননের সবচেয়ে বড় প্রাকৃতিক কেন্দ্র"},
+  193: {t: "scene", h: 150,
+        art: [["💎", 90, 90, 48, "bob"], ["⛏️", 150, 70, 28], ["🐟", 300, 90, 46, "swim"]],
+        lines: [["হালদা = মৎস্যখনি", 210, 28, 17], ["প্রাকৃতিক জিন ব্যাংক: খাঁটি রুই-কাতলার ডিম", 210, 136, 12]],
+        key: "হালদা", hook: "খনি থেকে হীরা ওঠে, এই নদী থেকে ওঠে খাঁটি মাছের ডিম", cap: "হালদা নদীকে 'মৎস্যখনি' বলা হয়"},
+  194: {t: "odd", odd: 3, good: true, group: "রুই মাছ ডিম পাড়তে কোন নদীতে যায়?",
+        why: "হালদা (চট্টগ্রাম): প্রধান প্রাকৃতিক প্রজনন ক্ষেত্র", hook: "চট্টগ্রামের ছোট নদী, পরে কর্ণফুলীতে গিয়ে মেশে", cap: "রুই মাছের প্রধান প্রাকৃতিক প্রজনন ক্ষেত্র: হালদা"},
+});
+
 /* Shared by every version. Runs after the chapter data (CHAPTER) is defined. */
 CHAPTER.questions.forEach(q => {
   q.options = q.o; q.answer = q.a; q.marked = !!q.m; q.section = q.s; q.why = q.w || ""; q.elim = q.e || "";
+  q.v = (CHAPTER.visuals || {})[q.n];  // 🖼️ ছবি-কার্ড data, drawn by visual.js
 });
 CHAPTER.questions.sort((a, b) => a.n - b.n);
 // 🔴 marks the student adds on the phone (no rebuild needed), merged with marks from the data
@@ -2927,7 +3020,7 @@ function scopeSvg(svg, id) {
   });
   return scoped.replace("<svg ", `<svg id="${id}" `);
 }
-CHAPTER.sections.forEach(s => { if (s.figure && s.figure.svg) s.figure.svg = scopeSvg(s.figure.svg, "fig-" + s.id); });
+CHAPTER.sections.forEach(s => { if (s.figure && s.figure.svg) { s.figure.raw = s.figure.svg; s.figure.svg = scopeSvg(s.figure.svg, "fig-" + s.id); } });
 const SEC = Object.fromEntries(CHAPTER.sections.map(s => [s.id, s]));
 const TOPIC = Object.fromEntries(CHAPTER.topics.map(t => [t.id, t]));
 CHAPTER.questions.forEach(q => { q.topic = SEC[q.section] ? SEC[q.section].topic : ""; });
@@ -2990,6 +3083,200 @@ const TERM_CSS = `
 .termchips .chip{font-size:.8rem}
 `;
 document.head.insertAdjacentHTML("beforeend", `<style>${TERM_CSS}</style>`);
+
+/* 🖼️ ছবি-কার্ড: one small picture per question, drawn from data (CHAPTER.visuals[n] = {t, …}).
+   VIS.render(q, "hint" | "full") returns a <figure>. "hint" points the way without giving the
+   answer away; "full" shows it. Kinds: pin, count, chain, scale, cal, odd, scene (see SKILL.md). */
+const VIS = (() => {
+  const W = 420;
+  const BN = s => String(s).replace(/\d/g, d => "০১২৩৪৫৬৭৮৯"[d]);
+  const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
+  // rough width of a label so long words shrink instead of spilling out of their box
+  const fit = (s, w, size = 13) => Math.max(9, Math.min(size, Math.floor(w / (String(s).length * 0.56))));
+  const svg = (h, body) => `<svg viewBox="0 0 ${W} ${h}" xmlns="http://www.w3.org/2000/svg" role="img">${body}</svg>`;
+  const txt = (x, y, s, size = 13, cls = "", anchor = "middle") =>
+    `<text x="${x}" y="${y}" font-size="${size}" text-anchor="${anchor}" class="${cls}">${esc(s)}</text>`;
+  const delay = i => `style="animation-delay:${(i * 0.35).toFixed(2)}s"`;
+
+  let styled = false;
+  function addStyle() {
+    if (styled || typeof document === "undefined") return;
+    styled = true;
+    const st = document.createElement("style");
+    st.textContent = `
+figure.vz{margin:10px 0;background:var(--fig);border:1px solid var(--line);border-radius:12px;padding:8px 8px 6px;color:#1f2328}
+figure.vz svg{display:block;width:100%;height:auto;font-family:inherit}
+figure.vz figcaption{font-size:.85rem;line-height:1.5;margin-top:4px;color:#37474f;text-align:center}
+figure.vz.hint figcaption{color:#8a4b00}
+figure.vz text{fill:#1f2328}
+figure.vz .mut{fill:#5f6670}
+figure.vz .hl{fill:#bf360c;font-weight:700}
+figure.vz .bx{fill:#ffffff;stroke:#b0bec5;stroke-width:1.2}
+figure.vz .bx.on{fill:#ffe0b2;stroke:#e65100;stroke-width:2}
+figure.vz .bx.q{fill:#fff8e1;stroke:#f9a825;stroke-dasharray:4 3}
+figure.vz .bx.ok{fill:#e8f5e9;stroke:#2e7d32}
+figure.vz .bx.no{fill:#fdecec;stroke:#c62828}
+figure.vz .ln{stroke:#78909c;stroke-width:1.5;fill:none}
+figure.vz .ar{fill:#78909c}
+figure.vz .band{fill:#e6f4f2}
+figure.vz .band.on{fill:#ffcc80}
+figure.vz .x{stroke:#c62828;stroke-width:4;stroke-linecap:round}
+figure.vz .in{animation:vzin .5s ease-out both}
+figure.vz .bob{animation:vzbob 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+figure.vz .swim{animation:vzswim 4s ease-in-out infinite alternate;transform-box:fill-box}
+figure.vz .pulse{animation:vzpulse 1.4s ease-in-out infinite}
+figure.vz [data-vzpin]{stroke:#d84315 !important;stroke-width:3px !important;animation:vzpulse 1.2s ease-in-out infinite}
+@keyframes vzin{from{opacity:.15;transform:translateY(6px)}to{opacity:1;transform:none}}
+@keyframes vzbob{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+@keyframes vzswim{from{transform:translateX(-14px)}to{transform:translateX(14px)}}
+@keyframes vzpulse{0%,100%{opacity:1}50%{opacity:.45}}
+@media (prefers-reduced-motion: reduce){figure.vz *{animation:none !important}}`;
+    document.head.appendChild(st);
+  }
+
+  // 📍 pin: the section's own figure (or v.sec's) with one part glowing. Mark parts with data-p="name".
+  function pin(v, q, mode) {
+    const sec = CHAPTER.sections.find(s => s.id === (v.sec || q.section));
+    const raw = sec && sec.figure && (sec.figure.raw || sec.figure.svg);
+    if (!raw) return "";
+    let s = scopeSvg(raw, `vz-${q.n}-${mode}`);
+    if (mode === "full") s = s.replace(new RegExp(`data-p="([^"]*\\b${v.el}\\b[^"]*)"`, "g"), 'data-p="$1" data-vzpin');
+    return s;
+  }
+
+  // 🔢 count: n icons (emoji) popping in one by one; v.extra = a second, contrasting group
+  function count(v, q, mode) {
+    const per = Math.min(10, Math.max(v.n, (v.extra || {}).n || 0)), sz = per > 6 ? 30 : 38, gap = Math.min(70, (W - 40) / per);
+    const unit = n => `${BN(n)}${v.unit === undefined ? "টি" : v.unit}`;
+    // each row is centred, so one egg sits in the middle instead of the left edge
+    const row = (n, icon, y, start) => Array.from({ length: n }, (_, i) =>
+      `<text x="${(W - gap * Math.min(n - Math.floor(i / per) * per, per)) / 2 + gap * (i % per) + gap / 2}" y="${y + Math.floor(i / per) * (sz + 8)}" font-size="${sz}" text-anchor="middle" class="in" ${delay(start + i)}>${icon}</text>`).join("");
+    if (mode === "hint")
+      return svg(90, `<text x="150" y="60" font-size="44" text-anchor="middle" class="bob">${v.icon}</text>` +
+        txt(250, 58, "× ?", 30, "hl") + txt(W / 2, 84, v.label, 13, "mut"));
+    const rows1 = Math.ceil(v.n / per), y1 = sz + 6, h1 = rows1 * (sz + 8);
+    let body = row(v.n, v.icon, y1, 0) + txt(W / 2, h1 + 26, `${unit(v.n)} ${v.label}`, 16, "hl");
+    let h = h1 + 40;
+    if (v.extra) {
+      const rows2 = Math.ceil(v.extra.n / per);
+      body += row(v.extra.n, v.extra.icon, h + sz, v.n) + txt(W / 2, h + rows2 * (sz + 8) + 22, `${unit(v.extra.n)} ${v.extra.label}`, 13, "mut");
+      h += rows2 * (sz + 8) + 34;
+    }
+    return svg(h, body);
+  }
+
+  // ➡️ chain: steps in order (two rows when long). Hint hides the middle steps (or v.hide).
+  function chain(v, q, mode) {
+    const n = v.steps.length, per = n <= 4 ? n : Math.ceil(n / 2), rows = Math.ceil(n / per);
+    const gap = 22, bw = (W - 16 - gap * (per - 1)) / per, bh = 40, rh = 74;
+    const hide = v.hide || v.steps.map((_, i) => i).filter(i => i > 0 && i < n - 1);
+    let body = "";
+    v.steps.forEach((s, i) => {
+      const r = Math.floor(i / per), c = i % per, x = 8 + c * (bw + gap), y = 14 + r * rh;
+      const hidden = mode === "hint" && hide.includes(i), label = hidden ? "?" : s;
+      const cls = hidden ? "bx q" : (v.on || []).includes(i) && mode === "full" ? "bx on" : "bx";
+      body += `<g class="in" ${delay(i)}><rect class="${cls}" x="${x}" y="${y}" width="${bw}" height="${bh}" rx="9"/>` +
+        txt(x + bw / 2, y + bh / 2 + 5, label, hidden ? 18 : fit(label, bw - 8), hidden ? "hl" : "") + `</g>`;
+      if (i < n - 1) {
+        if (c < per - 1) body += `<path class="ar" d="M${x + bw + 4} ${y + bh / 2 - 5} l${gap - 8} 5 l${-(gap - 8)} 5z"/>`;
+        else body += `<path class="ln" d="M${x + bw / 2} ${y + bh + 2} V${y + bh + 14} H${8 + bw / 2} V${y + rh - 4}"/><path class="ar" d="M${8 + bw / 2 - 5} ${y + rh - 6} l5 6 l5 -6z"/>`;
+      }
+    });
+    let h = 14 + rows * rh - 18;
+    if (v.note) { body += txt(W / 2, h + 14, v.note, 13, mode === "full" ? "hl" : "mut"); h += 24; }
+    return svg(h, body);
+  }
+
+  // 📏 scale: a ruler 0..max with marks {v: number | [from, to], l: label}; v.hl = the asked mark
+  function scale(v, q, mode) {
+    const x0 = 24, x1 = W - 24, X = n => x0 + (x1 - x0) * n / v.max, y = 70;
+    let body = `<line class="ln" x1="${x0}" y1="${y}" x2="${x1}" y2="${y}" stroke-width="3"/>`;
+    const step = v.step || Math.ceil(v.max / 10);
+    for (let t = 0; t <= v.max; t += step)
+      body += `<line class="ln" x1="${X(t)}" y1="${y - 6}" x2="${X(t)}" y2="${y + 6}"/>` + txt(X(t), y + 22, BN(t), 11, "mut");
+    body += txt(x1, y + 40, v.unit, 12, "mut", "end");
+    v.marks.forEach((m, i) => {
+      const asked = i === (v.hl || 0), hideVal = mode === "hint" && asked;
+      const [a, b] = Array.isArray(m.v) ? m.v : [m.v, m.v];
+      const val = hideVal ? "?" : BN(a === b ? a : `${a}–${b}`), top = i % 2 ? 50 : 26;
+      body += `<g class="in" ${delay(i)}>` + (a === b
+        ? `<circle cx="${X(a)}" cy="${y}" r="${asked ? 8 : 6}" class="${asked ? "bx on" : "bx"}"/>`
+        : `<rect x="${X(a)}" y="${y - 7}" width="${Math.max(6, X(b) - X(a))}" height="14" rx="5" class="${asked ? "bx on" : "bx"}"/>`) +
+        txt(Math.min(x1 - 20, Math.max(x0 + 20, X((a + b) / 2))), top, `${m.l}: ${val}`, asked ? 14 : 12, asked ? "hl" : "") + `</g>`;
+    });
+    return svg(118, body);
+  }
+
+  // 📅 cal: 12 months with the Bangla six seasons above (each season starts mid-month).
+  // v.on = month numbers 1–12 (hint hides them, shows v.season if given); v.seasons = season names to light up
+  const MON = ["জানু", "ফেব্রু", "মার্চ", "এপ্রি", "মে", "জুন", "জুলা", "আগ", "সেপ্টে", "অক্টো", "নভে", "ডিসে"];
+  const SEA = [["গ্রীষ্ম", "☀️", 3.5], ["বর্ষা", "🌧️", 5.5], ["শরৎ", "☁️", 7.5], ["হেমন্ত", "🌾", 9.5], ["শীত", "❄️", 11.5], ["বসন্ত", "🌸", 1.5]];
+  function cal(v, q, mode) {
+    const cw = (W - 16) / 12, x = m => 8 + m * cw;
+    let body = "";
+    SEA.forEach(([name, icon, start], i) => {
+      const on = mode === "full" ? (v.seasons || []).includes(name) : v.season === name;
+      const parts = start + 2 > 12 ? [[start, 12], [0, start + 2 - 12]] : [[start, start + 2]];
+      parts.forEach(([a, b]) => body += `<rect class="band${on ? " on" : ""}" x="${x(a) + 1}" y="10" width="${(b - a) * cw - 2}" height="40" rx="6"/>`);
+      const mid = start + 1 > 12 ? start + 1 - 12 : start + 1;
+      body += txt(x(mid), 28, icon, 15) + txt(x(mid), 45, name, 11, on ? "hl" : "mut");
+    });
+    MON.forEach((m, i) => {
+      const on = mode === "full" && (v.on || []).includes(i + 1), on2 = mode === "full" && (v.on2 || []).includes(i + 1);
+      body += `<g class="${on ? "in" : ""}" ${delay(i % 4)}><rect class="bx${on ? " on" : on2 ? " ok" : ""}" x="${x(i) + 1}" y="58" width="${cw - 2}" height="34" rx="5"/>` +
+        txt(x(i) + cw / 2, 80, m, fit(m, cw - 2, 11), on ? "hl" : "") + `</g>`;
+    });
+    let h = 100;
+    const lab = mode === "full" ? v.label : v.season ? `কোন মাস? ঋতুটা দেখো` : "";
+    if (lab) { body += txt(W / 2, h + 14, lab, 13, mode === "full" ? "hl" : "mut"); h += 22; }
+    if (mode === "full" && v.label2) { body += txt(W / 2, h + 12, v.label2, 12, "mut"); h += 20; }
+    return svg(h + 4, body);
+  }
+
+  // ❌ odd: four tiles that belong together except one (v.odd = index; items default to the options).
+  // v.good = the odd one is the RIGHT pick ("কোনটি স্ত্রী জননতন্ত্রের অংশ?"): it gets ✓ instead of ✗.
+  function odd(v, q, mode) {
+    const items = v.items || q.options, tw = (W - 30) / 2, th = 46;
+    let body = txt(W / 2, 18, v.group, 13, "mut");
+    items.forEach((s, i) => {
+      const x = 10 + (i % 2) * (tw + 10), y = 28 + Math.floor(i / 2) * (th + 10), isOdd = i === v.odd;
+      const cls = mode !== "full" ? "bx" : v.good ? (isOdd ? "bx on" : "bx") : isOdd ? "bx no" : "bx ok";
+      const mark = mode !== "full" ? "" : v.good ? (isOdd ? txt(x + tw - 14, y + 18, "✓", 16, "hl") : "")
+        : isOdd ? `<path class="x" d="M${x + 10} ${y + 10} l${tw - 20} ${th - 20} M${x + tw - 10} ${y + 10} l${-(tw - 20)} ${th - 20}"/>` : txt(x + tw - 14, y + 18, "✓", 14, "");
+      body += `<g class="in" ${delay(i)}><rect class="${cls}" x="${x}" y="${y}" width="${tw}" height="${th}" rx="10"/>` +
+        txt(x + tw / 2, y + th / 2 + 5, s, fit(s, tw - 34, 14), mode === "full" && v.good && !isOdd ? "mut" : "") + mark + `</g>`;
+    });
+    let h = 28 + 2 * (th + 10);
+    if (mode === "full" && v.why) { body += txt(W / 2, h + 12, v.why, 13, "hl"); h += 22; }
+    return svg(h + 2, body);
+  }
+
+  // 🎬 scene: emoji placed on a small stage — art: [[emoji, x, y, size?, anim?]], lines: [[text, x, y, size?]].
+  // v.key is blanked out ("____") in the hint.
+  function scene(v, q, mode) {
+    const h = v.h || 170;
+    let body = v.ground ? `<rect x="0" y="${h - (v.ground[1] || 40)}" width="${W}" height="${v.ground[1] || 40}" rx="10" fill="${v.ground[0]}"/>` : "";
+    v.art.forEach(([e, x, y, size = 40, anim = ""], i) =>
+      body += `<g class="${anim}" ${anim ? `style="animation-delay:${(i * 0.3).toFixed(1)}s"` : ""}><text x="${x}" y="${y}" font-size="${size}" text-anchor="middle">${e}</text></g>`);
+    (v.lines || []).forEach(([s, x, y, size = 13], i) => {
+      const shown = mode === "hint" && v.key ? s.split(v.key).join("____") : s;
+      body += txt(x, y, shown, size, i === 0 ? "hl" : "");
+    });
+    return svg(h, body);
+  }
+
+  const T = { pin, count, chain, scale, cal, odd, scene };
+  function render(q, mode) {
+    const v = q.v;
+    if (!v || !T[v.t]) return "";
+    addStyle();
+    const art = T[v.t](v, q, mode);
+    if (!art) return "";
+    const cap = mode === "hint" ? (v.hook || "ছবিটা দেখে উত্তরটা চোখে ভাসাও") : v.cap;
+    return `<figure class="vz vz-${v.t} ${mode}">${art}${cap ? `<figcaption>${mode === "hint" ? "🔍 " : "🖼️ "}${cap}</figcaption>` : ""}</figure>`;
+  }
+  return { render, kinds: Object.keys(T) };
+})();
 
 (function(){
   let state = STORE.load();

@@ -79,3 +79,8 @@ mark.cue{background:transparent;color:inherit;border-bottom:3px solid #f9a825;pa
 .muted{color:var(--muted)}
 [hidden]{display:none!important}
 @media (prefers-reduced-motion: reduce){ svg *{animation:none!important} }
+
+/* long unbroken words (arrow chains, exam-tag lists) wrap instead of widening the page */
+.opts li,.pill,.qtext,.box,figcaption,td,th{overflow-wrap:anywhere}
+.qhead .pill{white-space:normal}
+.clue>*{min-width:0;overflow-wrap:anywhere}
