@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{TITLE}} · মক টেস্ট</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+{{BASE_CSS}}
+.row{margin:10px 0}
+.row > .lbl{font-weight:600;font-size:.92rem;margin-bottom:2px}
+.chips.wrap{flex-wrap:wrap;overflow:visible}
+.bar{height:6px;background:var(--line);border-radius:6px;overflow:hidden;margin:6px 0}
+.bar > i{display:block;height:100%;background:var(--accent);transition:width .3s}
+.timer{font-variant-numeric:tabular-nums;font-weight:700}
+.timer.low{color:var(--err)}
+.qtext{font-weight:600;font-size:1.08rem;margin:6px 0 10px}
+.opts{list-style:none;padding:0;margin:0;display:grid;gap:8px}
+.opts li{border:1px solid var(--line);border-radius:12px;padding:10px 12px;cursor:pointer;background:var(--card)}
+.opts li.sel{border-color:var(--accent);background:var(--accent-soft);font-weight:600}
+.opts li.right{background:var(--ok-soft);border-color:var(--ok);color:var(--ok);font-weight:600}
+.opts li.wrong{background:var(--err-soft);border-color:var(--err);color:var(--err)}
+.nav{display:flex;gap:8px;justify-content:space-between;margin-top:14px}
+.big{font-size:2.2rem;font-weight:700;line-height:1.1}
+.flash{min-height:280px;display:flex;flex-direction:column;justify-content:center;cursor:pointer;text-align:center}
+.flash .back{display:none}
+.flash.flipped .front-hint{display:none}
+.flash.flipped .back{display:block}
+.res-q{border-left:4px solid var(--err);padding-left:10px;margin:12px 0}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1 id="title"></h1>
+    <div class="sub" id="subtitle"></div>
+    <div id="vnav"></div>
+  </header>
+
+  <section id="setup" class="card">
+    <h2>⏱️ মক টেস্ট / 🃏 ফ্ল্যাশকার্ড</h2>
+    <div class="row"><div class="lbl">মোড</div><div class="chips wrap" id="mode">
+      <button class="chip" data-v="test" aria-pressed="true">⏱️ মক টেস্ট (পরীক্ষার মতো)</button>
+      <button class="chip" data-v="flash" aria-pressed="false">🃏 ফ্ল্যাশকার্ড</button>
+      <button class="chip" data-v="roots" aria-pressed="false">🔤 শব্দমূল কার্ড</button></div></div>
+    <div class="row"><div class="lbl">অংশ</div><div class="chips wrap" id="topicSel"></div></div>
+    <div class="row"><div class="lbl">কোন প্রশ্ন</div><div class="chips wrap" id="pool">
+      <button class="chip" data-v="all" aria-pressed="true">সব</button>
+      <button class="chip" data-v="marked" aria-pressed="false">🔴 দাগানো</button>
+      <button class="chip" data-v="bad" aria-pressed="false">❌ আগে পারিনি</button>
+      <button class="chip" data-v="weak" aria-pressed="false">🔴+❌ দুটোই</button></div></div>
+    <div class="row"><div class="lbl">কয়টা</div><div class="chips wrap" id="count">
+      <button class="chip" data-v="10" aria-pressed="false">১০</button>
+      <button class="chip" data-v="25" aria-pressed="true">২৫</button>
+      <button class="chip" data-v="50" aria-pressed="false">৫০</button>
+      <button class="chip" data-v="999" aria-pressed="false">সব</button></div></div>
+    <div class="row" id="timeRow"><div class="lbl">সময়</div><div class="chips wrap" id="time">
+      <button class="chip" data-v="36" aria-pressed="true">৩৬ সে./প্রশ্ন (ভর্তি পরীক্ষার গতি)</button>
+      <button class="chip" data-v="60" aria-pressed="false">৬০ সে./প্রশ্ন</button>
+      <button class="chip" data-v="0" aria-pressed="false">সময় ছাড়া</button></div></div>
+    <p class="muted" id="poolInfo" style="font-size:.88rem"></p>
+    <button class="btn primary" id="start">শুরু করো →</button>
+    <p class="muted" style="font-size:.82rem">মক টেস্টে প্রতিটা ভুলে −০.২৫ কাটা যায়, মেডিকেল ভর্তি পরীক্ষার মতো। ফলাফল পড়ার পেজের ✅/❌ এর সাথে যোগ হয়।</p>
+  </section>
+
+  <section id="run" hidden>
+    <div class="card">
+      <div style="display:flex;justify-content:space-between;font-size:.9rem"><span id="progress"></span><span class="timer" id="timer"></span></div>
+      <div class="bar"><i id="pbar"></i></div>
+      <div class="qhead muted" id="qmeta" style="font-size:.8rem"></div>
+      <div class="qtext" id="qtext"></div>
+      <ol class="opts" id="opts"></ol>
+      <button class="btn" id="hintBtn" style="margin-top:10px">💡 হিন্ট (প্রশ্নের ক্লু)</button>
+      <div class="box hintbox" id="hintBox" hidden></div>
+      <div class="nav"><button class="btn" id="prev">← আগের</button><button class="btn" id="skip">বাদ দাও</button><button class="btn primary" id="next">পরের →</button></div>
+      <div style="text-align:center;margin-top:10px"><button class="btn" id="finish">✋ শেষ করো</button></div>
+    </div>
+  </section>
+
+  <section id="flash" hidden>
+    <div style="display:flex;justify-content:space-between;font-size:.9rem"><span id="fprog"></span><span class="muted">ট্যাপ করে উল্টাও</span></div>
+    <div class="bar"><i id="fbar"></i></div>
+    <div class="card flash" id="fcard">
+      <div class="muted" id="fmeta" style="font-size:.8rem"></div>
+      <div class="qtext" id="fq"></div>
+      <div class="front-hint muted">🤔 উত্তরটা মনে মনে ভাবো, তারপর ট্যাপ করো</div>
+      <div class="front-hint"><button class="btn" id="fhintBtn">💡 হিন্ট</button><div class="box hintbox" id="fhint" hidden style="text-align:left"></div></div>
+      <div class="back"><div class="big" id="fa" style="font-size:1.4rem;color:var(--ok)"></div><div class="box why" id="fw" style="text-align:left"></div></div>
+    </div>
+    <div class="nav"><button class="btn" id="fbad">❌ মনে ছিল না</button><button class="btn primary" id="fok">✅ মনে ছিল</button></div>
+    <div style="text-align:center;margin-top:10px"><button class="btn" id="fquit">✋ থামো</button></div>
+  </section>
+
+  <section id="result" hidden></section>
+</div>
+
+<script>
+{{DATA_JS}}
+{{COMMON_JS}}
+(function(){
+  let state = STORE.load();
+  const opt = { mode: "test", topic: "all", pool: "all", count: 25, time: 36 };
+  $("#title").textContent = CHAPTER.title;
+  $("#subtitle").textContent = CHAPTER.subtitle;
+  $("#vnav").innerHTML = versionNav("quiz");
+  $("#topicSel").innerHTML = topicChips("all");
+
+  function pick(groupSel, key, cast) {
+    $(groupSel).addEventListener("click", e => {
+      const b = e.target.closest(".chip"); if (!b) return;
+      $$(groupSel + " .chip").forEach(x => x.setAttribute("aria-pressed", x === b));
+      opt[key] = cast ? cast(b.dataset.v ?? b.dataset.topic) : (b.dataset.v ?? b.dataset.topic);
+      $("#timeRow").hidden = opt.mode !== "test";
+      info();
+    });
+  }
+  pick("#mode", "mode"); pick("#topicSel", "topic"); pick("#pool", "pool"); pick("#count", "count", Number); pick("#time", "time", Number);
+
+  function poolList() {
+    return CHAPTER.questions.filter(q => (opt.topic === "all" || q.topic === opt.topic) &&
+      (opt.pool === "all" || (opt.pool === "marked" && q.marked) || (opt.pool === "bad" && state[q.n] === "bad") ||
+       (opt.pool === "weak" && (q.marked || state[q.n] === "bad"))));
+  }
+  const termPool = () => (CHAPTER.terms || []).filter(t => opt.topic === "all" || (SEC[t.s] && SEC[t.s].topic === opt.topic));
+  function info() { const n = opt.mode === "roots" ? termPool().length : poolList().length; $("#poolInfo").textContent = `এই বাছাইয়ে ${n}টি প্রশ্ন আছে।`; $("#start").disabled = !n; }
+  info();
+
+  const shuffle = a => { for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
+  let hinted = [];
+  let qs = [], ans = [], cur = 0, tLeft = 0, tick = null, t0 = 0;
+
+  $("#start").onclick = () => {
+    state = STORE.load();
+    qs = shuffle(opt.mode === "roots" ? termPool() : poolList()).slice(0, opt.count);
+    $("#setup").hidden = true;
+    if (opt.mode === "roots") return startFlash();
+    if (opt.mode === "flash") return startFlash();
+    ans = qs.map(() => -1); hinted = qs.map(() => false); cur = 0; t0 = Date.now();
+    tLeft = opt.time ? opt.time * qs.length : 0;
+    $("#run").hidden = false; show();
+    if (tLeft) tick = setInterval(() => { tLeft--; drawTimer(); if (tLeft <= 0) finish(); }, 1000);
+    drawTimer();
+  };
+  function drawTimer() {
+    if (!opt.time) { $("#timer").textContent = ""; return; }
+    const m = Math.floor(tLeft / 60), s = tLeft % 60;
+    $("#timer").textContent = `⏱ ${m}:${String(s).padStart(2, "0")}`;
+    $("#timer").classList.toggle("low", tLeft < 60);
+  }
+  function show() {
+    const q = qs[cur];
+    $("#progress").textContent = `প্রশ্ন ${cur + 1} / ${qs.length} · উত্তর দিয়েছ ${ans.filter(a => a >= 0).length}`;
+    $("#pbar").style.width = ((cur + 1) / qs.length * 100) + "%";
+    $("#qmeta").textContent = `#${q.n} · ${q.src}${q.marked ? " · 🔴 আগে ভুল" : ""}`;
+    $("#run .card").classList.toggle("showcue", hinted[cur]);
+    $("#qtext").innerHTML = markCue(q.q, q.cue);
+    $("#opts").innerHTML = q.options.map((o, j) => `<li data-j="${j}" class="${ans[cur] === j ? "sel" : ""}">(${LETTERS[j]}) ${q.q.includes(q.cue) ? o : markCue(o, q.cue)}</li>`).join("");
+    $("#hintBtn").hidden = !q.hint || hinted[cur];
+    $("#hintBox").hidden = !hinted[cur];
+    $("#hintBox").innerHTML = `<b class="t">🔑 হলুদ শব্দটা দেখো</b>${q.hint}`;
+    $("#prev").disabled = cur === 0;
+    $("#next").textContent = cur === qs.length - 1 ? "ফলাফল →" : "পরের →";
+  }
+  $("#opts").addEventListener("click", e => {
+    const li = e.target.closest("li"); if (!li) return;
+    const j = +li.dataset.j; ans[cur] = ans[cur] === j ? -1 : j; show();
+  });
+  $("#hintBtn").onclick = () => { hinted[cur] = true; show(); };
+  $("#prev").onclick = () => { if (cur > 0) { cur--; show(); } };
+  $("#next").onclick = () => { if (cur < qs.length - 1) { cur++; show(); } else finish(); };
+  $("#skip").onclick = () => { ans[cur] = -1; $("#next").onclick(); };
+  $("#finish").onclick = () => { if (confirm("এখনই শেষ করবে?")) finish(); };
+
+  function finish() {
+    clearInterval(tick); $("#run").hidden = true;
+    let right = 0, wrong = 0, skip = 0;
+    qs.forEach((q, i) => {
+      if (ans[i] < 0) { skip++; return; }
+      if (ans[i] === q.answer) { right++; state[q.n] = "ok"; } else { wrong++; state[q.n] = "bad"; }
+    });
+    STORE.save(state);
+    const score = right - wrong * 0.25, secs = Math.round((Date.now() - t0) / 1000);
+    const wrongList = qs.map((q, i) => ({ q, a: ans[i] })).filter(x => x.a !== x.q.answer);
+    $("#result").hidden = false;
+    $("#result").innerHTML = `
+      <div class="card" style="text-align:center">
+        <div class="muted">স্কোর (নেগেটিভ মার্কিং সহ)</div>
+        <div class="big">${score.toFixed(2)} / ${qs.length}</div>
+        <div class="stats" style="justify-content:center"><span class="pill">✅ ${right}</span><span class="pill">❌ ${wrong}</span><span class="pill">⬜ ${skip}</span><span class="pill">⏱ ${Math.floor(secs / 60)} মি. ${secs % 60} সে.</span><span class="pill">💡 হিন্ট ${hinted.filter(Boolean).length}</span></div>
+        <p>${right / qs.length >= .8 ? "দারুণ! 🎉" : right / qs.length >= .6 ? "ভালো, আরেকটু বাকি 💪" : "ভুলগুলো নিচে দেখো, তারপর আবার দাও 🔁"}</p>
+        <button class="btn primary" onclick="location.reload()">🔁 আবার</button>
+      </div>
+      ${wrongList.length ? `<div class="card"><h2>❌ ভুল / বাদ দেওয়া প্রশ্ন (${wrongList.length})</h2>${wrongList.map(({ q, a }) => `
+        <div class="res-q"><div class="muted" style="font-size:.8rem">#${q.n} · ${q.src}</div><b>${q.q}</b><br>
+        ${a >= 0 ? `<span style="color:var(--err)">তোমার উত্তর: (${LETTERS[a]}) ${q.options[a]}</span><br>` : `<span class="muted">বাদ দিয়েছিলে</span><br>`}
+        <span style="color:var(--ok)">✅ সঠিক: (${LETTERS[q.answer]}) ${q.options[q.answer]}</span>
+        ${q.hint ? `<div class="box hintbox">🔑 ক্লু: "<b>${q.cue}</b>": ${q.hint}</div>` : ""}${q.why ? `<div class="box why">${q.why}</div>` : ""}${q.elim ? `<div class="box trap">✂️ ${q.elim}</div>` : ""}</div>`).join("")}</div>` : ""}`;
+    window.scrollTo({ top: 0 });
+  }
+
+  // Flashcards: unknown cards go back into the deck
+  let deck = [], known = 0;
+  function startFlash() { deck = qs.slice(); known = 0; $("#flash").hidden = false; drawFlash(); }
+  function drawFlash() {
+    if (!deck.length) { $("#flash").hidden = true; $("#result").hidden = false;
+      $("#result").innerHTML = `<div class="card" style="text-align:center"><div class="big">🎉</div><p>সব কার্ড শেষ! ${qs.length}টা কার্ড মনে রাখা হয়েছে।</p><button class="btn primary" onclick="location.reload()">🔁 আবার</button></div>`; return; }
+    const q = deck[0];
+    $("#fcard").classList.remove("flipped");
+    if (opt.mode === "roots") {
+      $("#fprog").textContent = `বাকি ${deck.length} · মনে ছিল ${known}`;
+      $("#fbar").style.width = (known / qs.length * 100) + "%";
+      $("#fmeta").textContent = "🔤 শব্দটা ভাঙলে কী মানে দাঁড়ায়?";
+      $("#fq").innerHTML = `${q.t}<div class="muted" style="font-size:.9rem;font-weight:500">${q.bn}</div>`;
+      $("#fhintBtn").hidden = true; $("#fhint").hidden = true;
+      $("#fa").textContent = "“" + q.lit + "”";
+      $("#fw").innerHTML = termHTML(q);
+      return;
+    }
+    $("#fprog").textContent = `বাকি ${deck.length} · মনে ছিল ${known}`;
+    $("#fbar").style.width = (known / qs.length * 100) + "%";
+    $("#fmeta").textContent = `#${q.n} · ${q.src}${q.marked ? " · 🔴" : ""}`;
+    $("#fq").innerHTML = markCue(q.q, q.cue);
+    $("#fcard").classList.remove("showcue"); $("#fhint").hidden = true; $("#fhintBtn").hidden = !q.hint;
+    $("#fhint").innerHTML = q.hint;
+    $("#fa").textContent = q.options[q.answer];
+    $("#fw").innerHTML = q.why + (q.elim ? `<br><br>✂️ ${q.elim}` : "");
+  }
+  $("#fcard").onclick = e => {
+    if (e.target.id === "fhintBtn") { $("#fcard").classList.add("showcue"); $("#fhint").hidden = false; e.target.hidden = true; return; }
+    $("#fcard").classList.toggle("flipped"); $("#fcard").classList.add("showcue");
+  };
+  $("#fok").onclick = () => { const q = deck.shift(); if (q.n) state[q.n] = "ok"; STORE.save(state); known++; drawFlash(); };
+  $("#fbad").onclick = () => { const q = deck.shift(); if (q.n) state[q.n] = "bad"; STORE.save(state); deck.splice(Math.min(3, deck.length), 0, q); drawFlash(); };
+  $("#fquit").onclick = () => location.reload();
+})();
+</script>
+</body>
+</html>

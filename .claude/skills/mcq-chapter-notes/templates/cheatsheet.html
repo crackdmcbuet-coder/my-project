@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{TITLE}} · এক পাতার রিভিশন</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+{{BASE_CSS}}
+body{font-size:15.5px;line-height:1.6}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px}
+.grid .card{margin:0}
+.card h3{margin:0 0 6px;font-size:1rem}
+td.err{color:var(--err);background:var(--err-soft);font-weight:600}
+.mnl li{margin:6px 0}
+.card{overflow-x:auto}
+td{overflow-wrap:anywhere}
+.redlist{columns:2 280px;column-gap:24px}
+.redlist li{break-inside:avoid;margin:4px 0}
+@media print{
+  body{background:#fff;font-size:11px}
+  .versions,.noprint{display:none!important}
+  .card{border:1px solid #bbb;break-inside:avoid;padding:8px}
+  .grid{grid-template-columns:repeat(3,1fr);gap:6px}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1 id="title"></h1>
+    <div class="sub" id="subtitle"></div>
+    <div id="vnav"></div>
+    <div class="chips noprint" id="topics"></div>
+    <div class="chips noprint"><button class="chip" onclick="print()">🖨️ প্রিন্ট / PDF</button></div>
+  </header>
+  <div id="out"></div>
+</div>
+<script>
+{{DATA_JS}}
+{{COMMON_JS}}
+(function(){
+  let topic = "all";
+  $("#title").textContent = CHAPTER.title + " · এক পাতার রিভিশন";
+  $("#subtitle").textContent = "পরীক্ষার হলে ঢোকার আগে চোখ বুলানোর জন্য। লাল = আগে ভুল করেছ।";
+  $("#vnav").innerHTML = versionNav("cheatsheet");
+  $("#topics").innerHTML = topicChips("all");
+  function render() {
+    const tps = CHAPTER.topics.filter(t => topic === "all" || t.id === topic);
+    $("#out").innerHTML = tps.map(t => {
+      const secs = CHAPTER.sections.filter(s => s.topic === t.id);
+      const reds = secs.flatMap(s => { const d = document.createElement("div"); d.innerHTML = s.note;
+        return $$(".err", d).filter(e => !e.parentElement.closest(".err")).map(e => e.textContent.trim()); });
+      return `<h2 class="topic-h">${t.icon} ${t.name}</h2>
+        <div class="grid">${CHAPTER.cheats.filter(c => c.topic === t.id).map(c => `<div class="card"><h3>${c.title}</h3>${c.html}</div>`).join("")}</div>
+        <div class="card"><h3>🔴 লাল পয়েন্ট (আগে ভুল করেছ)</h3><ul class="redlist">${reds.map(r => `<li class="err" style="display:list-item;background:none">${r}</li>`).join("")}</ul></div>
+        <div class="card"><h3>🔑 প্রশ্নে এই শব্দ দেখলেই → উত্তর</h3><table>${CHAPTER.questions.filter(q => q.topic === t.id && q.cue).map(q => `<tr><td>"<b>${q.cue}</b>"</td><td${q.marked ? ' class="err"' : ''}>${q.options[q.answer]}</td></tr>`).join("")}</table></div>
+        <div class="card"><h3>🔤 শব্দ ভাঙলেই মানে</h3><table>${(CHAPTER.terms || []).filter(x => SEC[x.s] && SEC[x.s].topic === t.id).map(x => `<tr><td><b>${x.t}</b><br><span class="muted">${x.bn}</span></td><td>${x.p.filter(k => !k.startsWith("bn_") && ROOTS[k]).map(k => `${ROOTS[k].w} = ${ROOTS[k].m}`).join("<br>")}</td><td>“${x.lit}”</td></tr>`).join("")}</table></div>
+        <div class="card"><h3>🧠 মনে রাখার কৌশল</h3><ul class="mnl">${secs.map(s => `<li><b>${s.heading.split(":")[0]}:</b> ${s.mnemonic.split("<br>").slice(0, 3).join(" · ")}</li>`).join("")}</ul></div>`;
+    }).join("");
+  }
+  $("#topics").addEventListener("click", e => {
+    const b = e.target.closest("[data-topic]"); if (!b) return;
+    topic = b.dataset.topic; $$("#topics [data-topic]").forEach(x => x.setAttribute("aria-pressed", x === b)); render();
+  });
+  render();
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>শব্দমূল অভিধান</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+{{BASE_CSS}}
+.search{width:100%;font:inherit;font-size:1rem;padding:8px 12px;border:1px solid var(--line);border-radius:12px;background:var(--card);color:var(--ink)}
+.root{border:1px solid var(--line);border-radius:12px;padding:10px 12px;margin:8px 0;background:var(--card)}
+.root .head{display:flex;flex-wrap:wrap;gap:8px;align-items:baseline}
+.root .w{font-weight:700;font-size:1.1rem}
+.root .lang{font-size:.75rem;color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:0 8px}
+.root .m{font-weight:600;color:var(--accent)}
+body.quizmode .root .m,body.quizmode .root .det{filter:blur(6px);cursor:pointer}
+body.quizmode .root.show .m,body.quizmode .root.show .det{filter:none}
+.root .det{font-size:.88rem;margin-top:4px}
+.root .det div{margin:2px 0}
+.inbook a{color:var(--accent);text-decoration:none;border-bottom:1px dotted}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>🔤 শব্দমূল অভিধান</h1>
+    <div class="sub">গ্রিক, ল্যাটিন আর সংস্কৃত মূল। একবার শিখলে সব অধ্যায়ে আর মেডিকেলে কাজে লাগবে। নতুন অধ্যায় যোগ হলে এই তালিকাও বড় হবে।</div>
+    <div class="chips"><button class="chip" data-v="roots" aria-pressed="true">মূল (root)</button><button class="chip" data-v="terms" aria-pressed="false">বইয়ের শব্দ ভাঙা</button>
+      <button class="chip" id="quizBtn" aria-pressed="false">🙈 মানে লুকাও (নিজেকে যাচাই)</button></div>
+    <input class="search" id="q" placeholder="খোঁজো: lysis, আলো, cyto, স্বেদ…" autocomplete="off">
+    <div class="muted" id="count" style="font-size:.85rem;margin-top:4px"></div>
+  </header>
+  <div id="out"></div>
+</div>
+<script>
+{{ROOTS_JS}}
+const TERMS = {{TERMS_JSON}};
+{{TERMS_UI}}
+(function(){
+  const $ = s => document.querySelector(s);
+  let view = "roots";
+  const usedIn = k => TERMS.filter(t => t.p.includes(k));
+  function rootCard(k) {
+    const r = ROOTS[k], u = usedIn(k);
+    return `<div class="root" data-k="${k}"><div class="head"><span class="w">${r.w}</span><span class="lang">${r.lang}</span><span class="m">= ${r.m}</span></div>
+      <div class="det">
+        ${u.length ? `<div class="inbook">📘 বইয়ে: ${u.map(t => `<a href="${t.chapterId}-study.html">${t.t}</a>`).join(", ")}</div>` : ""}
+        ${r.also.length ? `<div>🔁 আরও: ${r.also.join(" · ")}</div>` : ""}
+        ${r.med.length ? `<div>🩺 মেডিকেলে: ${r.med.join(" · ")}</div>` : ""}
+      </div></div>`;
+  }
+  function render() {
+    const q = $("#q").value.trim().toLowerCase();
+    const hit = s => !q || s.toLowerCase().includes(q);
+    if (view === "roots") {
+      const ks = Object.keys(ROOTS).filter(k => { const r = ROOTS[k]; return hit([r.w, r.m, r.lang, ...r.also, ...r.med].join(" ")); });
+      $("#count").textContent = `${ks.length}টি মূল`;
+      $("#out").innerHTML = ks.map(rootCard).join("") || `<div class="empty">কিছু পাওয়া যায়নি</div>`;
+    } else {
+      const ts = TERMS.filter(t => hit([t.t, t.bn, t.lit, t.fact, t.bnp || ""].join(" ")));
+      $("#count").textContent = `${ts.length}টি শব্দ`;
+      $("#out").innerHTML = ts.map(t => termHTML(t) .replace('<div class="tt">', `<div class="muted" style="font-size:.75rem">${t.chapter}</div><div class="tt">`)).join("") || `<div class="empty">কিছু পাওয়া যায়নি</div>`;
+    }
+  }
+  document.querySelectorAll("[data-v]").forEach(b => b.onclick = () => {
+    view = b.dataset.v; document.querySelectorAll("[data-v]").forEach(x => x.setAttribute("aria-pressed", x === b)); render(); });
+  $("#quizBtn").onclick = function () { const on = document.body.classList.toggle("quizmode"); this.setAttribute("aria-pressed", on); };
+  $("#out").addEventListener("click", e => { const r = e.target.closest(".root"); if (r && document.body.classList.contains("quizmode")) r.classList.toggle("show"); });
+  $("#q").oninput = render;
+  render();
+})();
+</script>
+</body>
+</html>
