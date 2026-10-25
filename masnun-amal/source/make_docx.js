@@ -170,19 +170,24 @@ function cover() {
     sp(900),
     P(arRuns('وَاذۡكُرُوا اللّٰهَ كَثِيۡرًا لَّعَلَّكُمۡ تُفۡلِحُوۡنَ', { size: 42 }), { bidirectional: true, alignment: AlignmentType.CENTER }),
     P(bnRuns('«আর আল্লাহকে বেশি বেশি স্মরণ করো, যাতে তোমরা সফল হও।» (সূরা জুমুআ ৬২:১০)', { size: 20, color: MUT }), { alignment: AlignmentType.CENTER }),
-    sp(1200),
-    P(bnRuns('সংকলন: অক্টোবর ২০২৬', { size: 20, color: MUT }), { alignment: AlignmentType.CENTER }),
+    sp(700),
+    P(bnRuns('সংকলন ও বিন্যাস', { size: 20, color: MUT }), { alignment: AlignmentType.CENTER, border: { top: box(GOLD, 8) }, indent: { left: 2200, right: 2200 } }),
+    P(bnRuns(c.author, { size: 34, bold: true, color: G }), { alignment: AlignmentType.CENTER }),
+    P(bnRuns(c.org, { size: 27, bold: true, color: '7A5A17' }), { alignment: AlignmentType.CENTER }),
+    P(bnRuns('অক্টোবর ২০২৬', { size: 20, color: MUT }), { alignment: AlignmentType.CENTER }),
   ];
 }
 
 const footer = new Footer({ children: [P([
-  ...bnRuns('সকাল-সন্ধ্যা ও রাতের মাসনূন আমল   •   পৃষ্ঠা ', { size: 16, color: '6B756F' }),
+  ...bnRuns(`সকাল-সন্ধ্যা ও রাতের মাসনূন আমল   •   ${B[0].org}   •   পৃষ্ঠা `, { size: 16, color: '6B756F' }),
   new TextRun({ children: [PageNumber.CURRENT], font: f(BN), size: 16, color: '6B756F' }),
 ], { alignment: AlignmentType.CENTER })] });
 
 const page = { size: { width: 11906, height: 16838 }, margin: { top: 850, bottom: 900, left: 850, right: 850 } };
 const doc = new Document({
   title: 'সকাল-সন্ধ্যা ও রাতের মাসনূন আমল',
+  creator: B[0].author,
+  description: B[0].org,
   styles: {
     default: { document: { run: { font: f(BN), size: 22 }, paragraph: { spacing: { line: 300 } } } },
     paragraphStyles: [

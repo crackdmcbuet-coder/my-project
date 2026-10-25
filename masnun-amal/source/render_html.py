@@ -110,7 +110,7 @@ def cover():
 <p class="csub3">{esc(c["sub3"])}</p>
 <p class="ar cayah">وَاذۡكُرُوا اللّٰهَ كَثِيۡرًا لَّعَلَّكُمۡ تُفۡلِحُوۡنَ</p>
 <p class="caref">«আর আল্লাহকে বেশি বেশি স্মরণ করো, যাতে তোমরা সফল হও।» (সূরা জুমুআ ৬২:১০)</p>
-<p class="cdate">সংকলন: অক্টোবর ২০২৬</p>
+<div class="byline"><div class="bl1">সংকলন ও বিন্যাস</div><div class="bname">{esc(c["author"])}</div><div class="borg">{esc(c["org"])}</div><div class="cdate">অক্টোবর ২০২৬</div></div>
 </div></section>'''
 
 CSS = f"""
@@ -196,7 +196,11 @@ p.disc{{margin-top:1.2em;background:var(--gl);border:1px solid #c5d9cd;padding:.
 .csub2,.csub3{{font-size:11.5pt;color:#33413a;margin:.25em 0}}
 .cayah{{font-size:21pt;margin-top:1.6em;color:#14231c}}
 .caref{{font-size:10pt;color:var(--mut);margin:0}}
-.cdate{{margin-top:2.2em;font-size:10pt;color:var(--mut)}}
+.byline{{margin-top:2em;padding-top:.9em;border-top:1.5px solid var(--gold);min-width:55%}}
+.bl1{{font-size:10pt;color:var(--mut)}}
+.bname{{font-size:17pt;font-weight:700;color:var(--g);letter-spacing:.02em}}
+.borg{{font-size:13pt;font-weight:600;color:#7a5a17}}
+.cdate{{margin-top:.4em;font-size:10pt;color:var(--mut)}}
 """
 
 def page(inner):

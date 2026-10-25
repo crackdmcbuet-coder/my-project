@@ -88,7 +88,7 @@ def make_item(d, no):
 
 def build():
     B = [{"t": "cover", "title": C.TITLE, "sub": C.SUBTITLE, "sub2": C.SUBTITLE2, "sub3": C.SUBTITLE3,
-          "bismillah": BISMILLAH}]
+          "bismillah": BISMILLAH, "author": C.AUTHOR, "org": C.ORG}]
     toc = [("ভূমিকা", "intro"),
            ("অংশ ১: সকাল-সন্ধ্যার মাসনূন যিকির (সহীহ ও হাসান)", "p1"),
            ("অংশ ২: সকাল-সন্ধ্যার আরও কিছু যিকির (সনদে মতভেদপূর্ণ) ও সতর্কতা", "p2"),
