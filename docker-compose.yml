@@ -1,0 +1,7 @@
+services:
+  assistant:
+    build: .
+    env_file: .env
+    restart: always        # 24/7, auto-restart on crash/reboot
+    ports: ["8000:8000"]
+    volumes: ["./data:/app/data", "./credentials.json:/app/credentials.json:ro"]
