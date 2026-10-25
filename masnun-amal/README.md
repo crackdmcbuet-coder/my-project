@@ -8,6 +8,7 @@
 | ফাইল | বিবরণ |
 |---|---|
 | `sokal-sondha-rater-masnun-amal.pdf` | প্রিন্ট ও মোবাইলে পড়ার জন্য (A4, ৫২ পৃষ্ঠা, বুকমার্কসহ) |
+| `masnun-amal.html` | ওয়েবসাইটের জন্য এক-ফাইল HTML (ফন্টসহ সব ভেতরে, মোবাইল-উপযোগী, ডার্ক মোড সমর্থিত) |
 | `sokal-sondha-rater-masnun-amal.docx` | Word-এ সম্পাদনার জন্য। আরবি ও বাংলা ফন্ট ফাইলের ভেতরেই এমবেড করা |
 
 ## বিষয়সূচি
@@ -22,7 +23,7 @@
 
 ## নতুন করে তৈরি করা (`source/`)
 `content.py`-এ সব লেখা আছে। `blocks.py` আরবিকে ইন্দো-পাক রীতিতে রূপান্তর করে এবং `blocks.json` তৈরি করে।
-তারপর `render_html.py` + `make_pdf.js` + `merge.py` দিয়ে PDF, এবং `make_docx.js` + `embed_fonts.py` দিয়ে DOCX তৈরি হয়।
+তারপর `render_html.py` + `make_pdf.js` + `merge.py` দিয়ে PDF, এবং `make_docx.js` + `embed_fonts.py` দিয়ে DOCX, এবং `render_web.py` দিয়ে ওয়েবসাইটের HTML তৈরি হয়।
 ফন্টগুলো `../fonts/` ফোল্ডারে রাখতে হবে:
 - `IndoPak.ttf`: quran.com-এর ইন্দো-পাক নাস্তালিক ফন্ট
 - Hind Siliguri, Tiro Bangla, Amiri: Google Fonts থেকে
