@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="Raqi Faisal Ahmed Sabit">
+<title>তিলাওয়াত ও জিকিরের পদ্ধতি</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f7f4ec; --paper:#fffdf7; --ink:#1f2a24; --muted:#5d6b63;
+  --green:#1d6b4f; --green-soft:#e3f0e9; --gold:#b8862b; --gold-soft:#f6ecd6;
+  --blue:#2d5f8a; --blue-soft:#e4edf5; --red:#a5442f; --red-soft:#f6e3de;
+  --line:#ddd6c4;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#121815; --paper:#1a221e; --ink:#e8ebe6; --muted:#a3b0a8;
+    --green:#5cbf93; --green-soft:#1d3329; --gold:#e0b25a; --gold-soft:#332a17;
+    --blue:#7fb0db; --blue-soft:#1b2a38; --red:#e08a74; --red-soft:#3a221c; --line:#2f3a34;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#121815; --paper:#1a221e; --ink:#e8ebe6; --muted:#a3b0a8;
+  --green:#5cbf93; --green-soft:#1d3329; --gold:#e0b25a; --gold-soft:#332a17;
+  --blue:#7fb0db; --blue-soft:#1b2a38; --red:#e08a74; --red-soft:#3a221c; --line:#2f3a34;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Hind Siliguri",sans-serif;font-size:17px;line-height:1.75}
+.wrap{max-width:860px;margin:0 auto;padding:32px 16px 48px}
+header.cover{background:var(--green);color:#fff;border-radius:18px;padding:40px 28px;text-align:center;position:relative;overflow:hidden}
+header.cover .bism{font-family:Amiri,serif;font-size:30px;margin-bottom:10px;opacity:.95}
+header.cover h1{margin:0;font-size:32px;line-height:1.35}
+header.cover p.sub{margin:10px 0 0;opacity:.9}
+header.cover .author{margin-top:22px;display:inline-block;border-top:1px solid rgba(255,255,255,.4);padding-top:12px;font-size:15px;letter-spacing:.3px}
+header.cover .author b{font-size:18px;display:block}
+section{background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:26px 24px;margin-top:22px}
+h2{margin:0 0 12px;font-size:23px;color:var(--green);display:flex;align-items:center;gap:10px}
+h2 .num{background:var(--green);color:#fff;border-radius:50%;width:34px;height:34px;display:inline-flex;align-items:center;justify-content:center;font-size:17px;flex:none}
+h3{margin:18px 0 6px;font-size:18px}
+.ar{font-family:Amiri,serif;font-size:22px;direction:rtl;text-align:right;line-height:1.9;margin:6px 0 2px;color:var(--ink)}
+.quote{border-right:4px solid var(--gold);background:var(--gold-soft);border-radius:10px;padding:12px 16px;margin:12px 0}
+.quote .tr{font-size:16px}
+.ref{font-size:14px;color:var(--muted)}
+.note{background:var(--blue-soft);border-radius:10px;padding:12px 16px;margin:12px 0}
+.warn{background:var(--red-soft);border-radius:10px;padding:12px 16px;margin:12px 0}
+.tag{display:inline-block;font-size:14px;font-weight:600;border-radius:20px;padding:2px 12px;margin-bottom:6px}
+.tag.no{background:var(--red-soft);color:var(--red)}
+.tag.yes{background:var(--green-soft);color:var(--green)}
+
+/* infographic: ladder */
+.ladder{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;align-items:end;margin-top:8px}
+.step{border-radius:14px;padding:16px 14px;text-align:center;color:var(--ink)}
+.step .ico{width:60px;height:60px;margin:0 auto 6px}
+.step b{display:block;font-size:17px}
+.step span{font-size:14px;color:var(--muted)}
+.s1{background:var(--blue-soft);min-height:190px}
+.s2{background:var(--green-soft);min-height:230px}
+.s3{background:var(--gold-soft);min-height:270px}
+.step .lvl{font-size:13px;font-weight:600;margin-top:8px;display:inline-block;padding:2px 10px;border-radius:12px;background:var(--paper)}
+
+/* comparison table */
+table{width:100%;border-collapse:collapse;margin-top:8px;font-size:16px}
+th,td{border-bottom:1px solid var(--line);padding:10px 8px;text-align:left;vertical-align:top}
+th{background:var(--green-soft);color:var(--green)}
+.meter{display:inline-flex;gap:3px;vertical-align:middle}
+.meter i{width:12px;height:12px;border-radius:3px;background:var(--line)}
+.meter i.on{background:var(--gold)}
+
+/* flow */
+.flow{display:flex;flex-direction:column;align-items:center;gap:0;margin-top:10px}
+.box{border:2px solid var(--green);border-radius:12px;padding:10px 16px;text-align:center;background:var(--paper);max-width:420px;width:100%}
+.box.q{border-color:var(--gold);background:var(--gold-soft);font-weight:600}
+.arrow{width:2px;height:22px;background:var(--muted);position:relative}
+.arrow:after{content:"";position:absolute;bottom:-2px;left:-5px;border:6px solid transparent;border-top-color:var(--muted)}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:14px;width:100%;max-width:560px}
+.split .col{display:flex;flex-direction:column;align-items:center}
+.split .lbl{font-size:14px;font-weight:600;color:var(--muted)}
+
+.tips{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.tip{background:var(--green-soft);border-radius:12px;padding:14px;font-size:15.5px}
+.tip b{display:block;color:var(--green);margin-bottom:4px}
+footer{text-align:center;color:var(--muted);font-size:14px;margin-top:28px}
+
+@media (max-width:640px){
+  .ladder,.tips{grid-template-columns:1fr}
+  .s1,.s2,.s3{min-height:0}
+  header.cover h1{font-size:25px}
+  table{font-size:14.5px}
+}
+@media print{
+  body{background:#fff;font-size:14.5px}
+  .wrap{padding:0}
+  section{break-inside:avoid;page-break-inside:avoid;margin-top:14px;padding:18px 20px}
+  header.cover{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  *{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="cover">
+  <div class="bism">بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ</div>
+  <h1>মনে মনে, ঠোঁট নেড়ে, নাকি শব্দ করে?</h1>
+  <p class="sub">কুরআন তিলাওয়াত ও জিকিরের তিন পদ্ধতি: আলেমদের মত, দলিল ও ফজিলত</p>
+  <div class="author">সংকলন ও উপস্থাপনা<b>Raqi Faisal Ahmed Sabit</b></div>
+</header>
+
+<section>
+  <h2>শুরুর কথা</h2>
+  <p>আমরা অনেকেই রাস্তায় হাঁটতে হাঁটতে, কাজের ফাঁকে বা শুয়ে শুয়ে জিকির করি, কুরআনের সূরা পড়ি। প্রশ্ন জাগে, শুধু মনে মনে পড়লেই কি তিলাওয়াতের সওয়াব হবে? নাকি ঠোঁট নাড়াতে হবে? শব্দ করে পড়া ভালো, নাকি আস্তে?</p>
+  <p>এই লেখায় সহজ ভাষায় তিনটি পদ্ধতি ধাপে ধাপে বোঝানোর চেষ্টা করেছি, সাথে কুরআন-হাদিস ও ফিকহের কিতাবের রেফারেন্স।</p>
+</section>
+
+<section>
+  <h2>এক নজরে তিন পদ্ধতি</h2>
+  <div class="ladder">
+    <div class="step s1">
+      <svg class="ico" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><path d="M32 52c-11 0-20-8-20-19S21 12 32 12s20 9 20 21"/><path d="M26 30c0-4 3-7 6-7s6 3 6 7-6 6-6 11"/><circle cx="32" cy="47" r="1.5" fill="currentColor"/></svg>
+      <b>মনে মনে</b>
+      <span>জিহ্বা-ঠোঁট নড়ে না</span><br>
+      <span class="lvl">অন্তরের জিকির</span>
+    </div>
+    <div class="step s2">
+      <svg class="ico" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><path d="M12 32c6-8 14-10 20-6 6-4 14-2 20 6-6 8-14 10-20 10S18 40 12 32z"/><path d="M14 32h36"/></svg>
+      <b>ঠোঁট নেড়ে আস্তে</b>
+      <span>নিজের কানে শোনা যায়</span><br>
+      <span class="lvl">তিলাওয়াত শুরু এখান থেকে</span>
+    </div>
+    <div class="step s3">
+      <svg class="ico" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><path d="M10 26h10l12-10v32L20 38H10z"/><path d="M40 24c4 4 4 12 0 16"/><path d="M46 18c8 8 8 20 0 28"/></svg>
+      <b>শব্দ করে</b>
+      <span>অন্যরাও শুনতে পায়</span><br>
+      <span class="lvl">পূর্ণ তিলাওয়াত</span>
+    </div>
+  </div>
+  <p class="ref" style="margin-top:12px">ছবিতে সিঁড়ির উচ্চতা শুধু বোঝায় কোনটি "তিলাওয়াত" হিসেবে গণ্য হয়। কোনটি উত্তম, তা অবস্থাভেদে বদলায় (নিচে দেখুন)।</p>
+</section>
+
+<section>
+  <h2><span class="num">১</span>শুধু মনে মনে পড়া</h2>
+  <span class="tag no">তিলাওয়াত হিসেবে গণ্য নয়</span>
+  <p>চোখ বন্ধ করে বা মুসহাফের দিকে তাকিয়ে মনে মনে আয়াত আওড়ালেন, কিন্তু জিহ্বা বা ঠোঁট একটুও নড়ল না। অধিকাংশ আলেমের মতে এটা শরিয়তের ভাষায় "কিরাআত" বা পড়া নয়। তাই <b>প্রতি হরফে ১০ নেকি</b>র যে ঘোষণা, তা এতে পাওয়া যায় না।</p>
+  <div class="note">
+    <b>ইমাম নববী (রহ.)</b> তাঁর <i>আল-আযকার</i> কিতাবে লিখেছেন: কোনো জিকির বা তিলাওয়াত ততক্ষণ গণ্য হয় না, যতক্ষণ না মুখে উচ্চারণ করা হয় এবং (সুস্থ কানের) মানুষ নিজে তা শুনতে পায়।<br>
+    <b>হানাফি মাযহাব</b> (<i>রদ্দুল মুহতার</i>, ইবনে আবিদীন): নামাজে শুধু মনে মনে কিরাআত করলে কিরাআত আদায় হয় না।
+  </div>
+  <p><b>একটা সহজ উদাহরণ:</b> যার ওপর গোসল ফরজ, তার জন্য কুরআন তিলাওয়াত নিষেধ। কিন্তু মনে মনে আয়াত ভাবা তার জন্যও জায়েজ। এ থেকেই বোঝা যায়, মনে মনে ভাবাকে "পড়া" ধরা হয় না।</p>
+  <h3>তাহলে কি এর কোনো সওয়াব নেই?</h3>
+  <p>অবশ্যই আছে! এটা <b>জিকরে কলবি</b> (অন্তরের জিকির) এবং তাদাব্বুর (আয়াত নিয়ে চিন্তা)। এর আলাদা মর্যাদা আছে:</p>
+  <div class="quote">
+    <div class="ar">وَاذْكُر رَّبَّكَ فِي نَفْسِكَ تَضَرُّعًا وَخِيفَةً</div>
+    <div class="tr">"তোমার রবকে মনে মনে স্মরণ করো, বিনয় ও ভয়ের সাথে।"</div>
+    <div class="ref">সূরা আল-আ'রাফ ৭:২০৫</div>
+  </div>
+  <div class="quote">
+    <div class="ar">فَإِنْ ذَكَرَنِي فِي نَفْسِهِ ذَكَرْتُهُ فِي نَفْسِي</div>
+    <div class="tr">"বান্দা যদি আমাকে মনে মনে স্মরণ করে, আমিও তাকে মনে মনে স্মরণ করি।" (হাদিসে কুদসি)</div>
+    <div class="ref">সহিহ বুখারি ৭৪০৫, সহিহ মুসলিম ২৬৭৫</div>
+  </div>
+</section>
+
+<section>
+  <h2><span class="num">২</span>ঠোঁট নেড়ে আস্তে পড়া</h2>
+  <span class="tag yes">পূর্ণ তিলাওয়াত</span>
+  <p>জিহ্বা ও ঠোঁট নড়ছে, হরফগুলো উচ্চারিত হচ্ছে, পাশের লোক হয়তো শুনছে না, কিন্তু আপনি নিজে শুনতে পাচ্ছেন। এটাই <b>তিলাওয়াতের সর্বনিম্ন সঠিক স্তর।</b> এখান থেকেই পূর্ণ সওয়াব শুরু।</p>
+  <div class="note">
+    হানাফি আলেমদের মধ্যে দুটি মত আছে। <b>ইমাম কারখি</b>র মতে হরফ ঠিকভাবে উচ্চারণ করলেই যথেষ্ট। <b>ইমাম হিন্দুয়ানি</b>র মতে নিজের কানে শোনা শর্ত। সাবধানতার জন্য এমনভাবে পড়ুন যাতে নিজে শুনতে পান।
+  </div>
+  <div class="quote">
+    <div class="ar">مَنْ قَرَأَ حَرْفًا مِنْ كِتَابِ اللَّهِ فَلَهُ بِهِ حَسَنَةٌ، وَالْحَسَنَةُ بِعَشْرِ أَمْثَالِهَا</div>
+    <div class="tr">"যে আল্লাহর কিতাবের একটি হরফ পড়ে, সে একটি নেকি পায়, আর প্রতিটি নেকি দশ গুণ।"</div>
+    <div class="ref">জামে তিরমিজি ২৯১০</div>
+  </div>
+  <div class="quote">
+    <div class="ar">الْمُسِرُّ بِالْقُرْآنِ كَالْمُسِرِّ بِالصَّدَقَةِ</div>
+    <div class="tr">"যে চুপিসারে কুরআন পড়ে, সে গোপনে দান করা ব্যক্তির মতো।"</div>
+    <div class="ref">সুনানে আবু দাউদ ১৩৩৩, জামে তিরমিজি ২৯১৯</div>
+  </div>
+  <div class="quote">
+    <div class="ar">لَا يَزَالُ لِسَانُكَ رَطْبًا مِنْ ذِكْرِ اللَّهِ</div>
+    <div class="tr">"তোমার জিহ্বা যেন সবসময় আল্লাহর জিকিরে সিক্ত থাকে।"</div>
+    <div class="ref">জামে তিরমিজি ৩৩৭৫</div>
+  </div>
+  <p><b>বিশেষ সুবিধা:</b> লোক দেখানো (রিয়া) থেকে সবচেয়ে নিরাপদ। রাস্তায়, অফিসে, যানবাহনে, যেকোনো জায়গায় করা যায়।</p>
+</section>
+
+<section>
+  <h2><span class="num">৩</span>শব্দ করে পড়া</h2>
+  <span class="tag yes">পূর্ণ তিলাওয়াত</span>
+  <p>এমনভাবে পড়া যে আশপাশের লোকও শুনতে পায়। নবী ﷺ সুন্দর কণ্ঠে কুরআন পড়া খুব পছন্দ করতেন।</p>
+  <div class="quote">
+    <div class="ar">مَا أَذِنَ اللَّهُ لِشَيْءٍ مَا أَذِنَ لِنَبِيٍّ حَسَنِ الصَّوْتِ يَتَغَنَّى بِالْقُرْآنِ يَجْهَرُ بِهِ</div>
+    <div class="tr">"আল্লাহ কোনো কিছু এত মনোযোগ দিয়ে শোনেন না, যতটা শোনেন সুকণ্ঠ নবীর শব্দ করে সুর দিয়ে কুরআন পড়া।"</div>
+    <div class="ref">সহিহ বুখারি ৫০২৪, সহিহ মুসলিম ৭৯২</div>
+  </div>
+  <div class="quote">
+    <div class="ar">الْجَاهِرُ بِالْقُرْآنِ كَالْجَاهِرِ بِالصَّدَقَةِ</div>
+    <div class="tr">"যে শব্দ করে কুরআন পড়ে, সে প্রকাশ্যে দান করা ব্যক্তির মতো।"</div>
+    <div class="ref">সুনানে আবু দাউদ ১৩৩৩, জামে তিরমিজি ২৯১৯</div>
+  </div>
+  <p><b>উপকার:</b> মনোযোগ ধরে রাখা সহজ হয়, ঘুম ও অলসতা দূর হয়, আর যারা শোনে তারাও উপকৃত হয়।</p>
+  <div class="warn">
+    <b>তবে খেয়াল রাখুন:</b> কেউ ঘুমাচ্ছে, নামাজ পড়ছে বা পড়াশোনা করছে, এমন অবস্থায় জোরে পড়বেন না। অতিরিক্ত চিৎকার করেও নয়। নবী ﷺ বলেছেন:
+    <div class="ar">ارْبَعُوا عَلَى أَنْفُسِكُمْ، فَإِنَّكُمْ لَا تَدْعُونَ أَصَمَّ وَلَا غَائِبًا</div>
+    "নিজেদের প্রতি সদয় হও, তোমরা কোনো বধির বা অনুপস্থিত কাউকে ডাকছ না।" <span class="ref">সহিহ বুখারি ২৯৯২</span>
+  </div>
+</section>
+
+<section>
+  <h2>তুলনামূলক চার্ট</h2>
+  <table>
+    <tr><th>বিষয়</th><th>মনে মনে</th><th>ঠোঁট নেড়ে আস্তে</th><th>শব্দ করে</th></tr>
+    <tr><td>তিলাওয়াত হিসেবে গণ্য?</td><td>না</td><td>হ্যাঁ</td><td>হ্যাঁ</td></tr>
+    <tr><td>হরফপ্রতি ১০ নেকি</td><td>না</td><td>হ্যাঁ</td><td>হ্যাঁ</td></tr>
+    <tr><td>অন্তরের জিকিরের সওয়াব</td><td>হ্যাঁ</td><td>হ্যাঁ (মন থাকলে)</td><td>হ্যাঁ (মন থাকলে)</td></tr>
+    <tr><td>রিয়া থেকে নিরাপত্তা</td>
+      <td><span class="meter"><i class="on"></i><i class="on"></i><i class="on"></i></span></td>
+      <td><span class="meter"><i class="on"></i><i class="on"></i><i class="on"></i></span></td>
+      <td><span class="meter"><i class="on"></i><i></i><i></i></span></td></tr>
+    <tr><td>মনোযোগ ধরে রাখা</td>
+      <td><span class="meter"><i class="on"></i><i></i><i></i></span></td>
+      <td><span class="meter"><i class="on"></i><i class="on"></i><i></i></span></td>
+      <td><span class="meter"><i class="on"></i><i class="on"></i><i class="on"></i></span></td></tr>
+    <tr><td>অন্যের উপকার</td>
+      <td><span class="meter"><i></i><i></i><i></i></span></td>
+      <td><span class="meter"><i></i><i></i><i></i></span></td>
+      <td><span class="meter"><i class="on"></i><i class="on"></i><i class="on"></i></span></td></tr>
+  </table>
+</section>
+
+<section>
+  <h2>কখন কোনটা পড়বেন?</h2>
+  <p>ইমাম নববী (রহ.) <i>আত-তিবইয়ান</i> ও <i>আল-আযকার</i>-এ দুই ধরনের হাদিসের মধ্যে সমন্বয় করে যে নীতি দিয়েছেন, তা এই ছকে:</p>
+  <div class="flow">
+    <div class="box q">কুরআন বা জিকির পড়তে চাইছেন</div>
+    <div class="arrow"></div>
+    <div class="box q">লোক দেখানোর ভয় আছে, বা জোরে পড়লে কারও কষ্ট হবে?</div>
+    <div class="arrow"></div>
+    <div class="split">
+      <div class="col"><span class="lbl">হ্যাঁ</span><div class="arrow"></div><div class="box">ঠোঁট নেড়ে আস্তে পড়ুন</div></div>
+      <div class="col"><span class="lbl">না</span><div class="arrow"></div><div class="box">শব্দ করে পড়া উত্তম</div></div>
+    </div>
+    <div class="arrow"></div>
+    <div class="box" style="border-color:var(--blue)">আর সারাদিন অন্তরে আল্লাহর স্মরণ রাখুন</div>
+  </div>
+  <div class="note" style="margin-top:16px">
+    জিকিরের ব্যাপারে ইমাম নববী বলেন: <b>অন্তর ও জিহ্বা একসাথে</b> থাকা সবচেয়ে উত্তম। যদি একটিই হয়, তবে শুধু মুখে (মন অন্যদিকে) বলার চেয়ে অন্তরের জিকির শ্রেষ্ঠ।
+  </div>
+</section>
+
+<section>
+  <h2>বাস্তব জীবনে আমল</h2>
+  <div class="tips">
+    <div class="tip"><b>নামাজ ও তিলাওয়াত</b>অন্তত ঠোঁট নেড়ে, নিজে শুনতে পান এমনভাবে পড়ুন।</div>
+    <div class="tip"><b>সকাল-সন্ধ্যার আযকার</b>গুনে পড়া দোয়া ও তাসবিহ মুখে উচ্চারণ করুন, শুধু মনে মনে নয়।</div>
+    <div class="tip"><b>সারাদিনের স্মরণ</b>যখন মুখ ব্যস্ত, তখন মনে মনে আল্লাহকে স্মরণ করুন। এটাও ইবাদত।</div>
+  </div>
+</section>
+
+<section>
+  <h2>রেফারেন্স তালিকা</h2>
+  <ul>
+    <li>আল-কুরআন: সূরা আল-আ'রাফ ৭:৫৫, ৭:২০৫</li>
+    <li>সহিহ বুখারি: ২৯৯২, ৫০২৪, ৭৪০৫</li>
+    <li>সহিহ মুসলিম: ৭৯২, ২৬৭৫</li>
+    <li>জামে তিরমিজি: ২৯১০, ২৯১৯, ৩৩৭৫</li>
+    <li>সুনানে আবু দাউদ: ১৩৩৩</li>
+    <li>ইমাম নববী: <i>আল-আযকার</i>, <i>আত-তিবইয়ান ফি আদাবি হামালাতিল কুরআন</i></li>
+    <li>ইবনে আবিদীন: <i>রদ্দুল মুহতার আলাদ দুররিল মুখতার</i> (কিরাআত অধ্যায়)</li>
+  </ul>
+  <p class="ref">হাদিস নম্বর প্রকাশনাভেদে সামান্য ভিন্ন হতে পারে। কোনো বিষয়ে সংশয় হলে নির্ভরযোগ্য মুফতির কাছে জেনে নিন।</p>
+</section>
+
+<footer>সংকলন: Raqi Faisal Ahmed Sabit<br>وَاللّٰهُ أَعْلَمُ</footer>
+</div>
+</body>
+</html>
