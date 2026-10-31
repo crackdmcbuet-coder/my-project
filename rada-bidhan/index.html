@@ -1,0 +1,563 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>দুধ-সম্পর্কের বিধান</title>
+<meta name="description" content="দুধ মা, দুধ বাবা ও দুধ ভাই-বোন (রাদাআত) সম্পর্কে ইসলামি বিধান, মাহরাম তালিকা, দায়িত্ব ও তথ্যসূত্র।">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400;600;700&family=Noto+Serif+Bengali:wght@600;700&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f7f4ec;
+    --paper: #fffdf8;
+    --ink: #1f2a26;
+    --muted: #5b6a64;
+    --line: #e2dccd;
+    --accent: #1f6b53;
+    --accent-soft: #e5f1eb;
+    --gold: #a77b2c;
+    --gold-soft: #f6eedc;
+    --ok: #1f6b53;
+    --ok-soft: #e5f1eb;
+    --no: #a33a2f;
+    --no-soft: #f8e7e4;
+    --warn: #8a5a00;
+    --warn-soft: #fbf0d6;
+    --th: #eef3ef;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #121715;
+      --paper: #18201d;
+      --ink: #e7ece9;
+      --muted: #a2b0aa;
+      --line: #2c3833;
+      --accent: #6cc3a0;
+      --accent-soft: #1d2f28;
+      --gold: #d9b06a;
+      --gold-soft: #2b2619;
+      --ok: #6cc3a0;
+      --ok-soft: #1d2f28;
+      --no: #f08b7f;
+      --no-soft: #33201d;
+      --warn: #e8bf63;
+      --warn-soft: #2e2716;
+      --th: #1f2a26;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #121715; --paper: #18201d; --ink: #e7ece9; --muted: #a2b0aa; --line: #2c3833;
+    --accent: #6cc3a0; --accent-soft: #1d2f28; --gold: #d9b06a; --gold-soft: #2b2619;
+    --ok: #6cc3a0; --ok-soft: #1d2f28; --no: #f08b7f; --no-soft: #33201d;
+    --warn: #e8bf63; --warn-soft: #2e2716; --th: #1f2a26;
+  }
+
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: "Noto Sans Bengali", "Hind Siliguri", "SolaimanLipi", sans-serif;
+    font-size: 16.5px;
+    line-height: 1.75;
+  }
+  .wrap { max-width: 860px; margin: 0 auto; padding: 24px 16px 64px; }
+
+  header.cover {
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-top: 6px solid var(--accent);
+    border-radius: 14px;
+    padding: 32px 28px 26px;
+    text-align: center;
+  }
+  .bismillah { font-family: "Amiri", serif; font-size: 28px; color: var(--accent); margin: 0 0 8px; direction: rtl; }
+  h1 {
+    font-family: "Noto Serif Bengali", serif;
+    font-size: 32px; line-height: 1.35; margin: 6px 0 6px;
+  }
+  .subtitle { color: var(--muted); margin: 0 0 14px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; }
+  .chip { font-size: 13.5px; padding: 3px 12px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); font-weight: 600; }
+
+  nav.toc {
+    margin-top: 18px;
+    background: var(--paper); border: 1px solid var(--line); border-radius: 14px;
+    padding: 18px 24px;
+  }
+  nav.toc h2 { margin: 0 0 8px; font-size: 18px; border: 0; padding: 0; }
+  nav.toc ol { margin: 0; padding-left: 22px; columns: 2; column-gap: 28px; }
+  nav.toc li { break-inside: avoid; }
+  nav.toc a { color: var(--ink); text-decoration: none; }
+  nav.toc a:hover { color: var(--accent); text-decoration: underline; }
+
+  section {
+    margin-top: 18px;
+    background: var(--paper); border: 1px solid var(--line); border-radius: 14px;
+    padding: 22px 26px;
+  }
+  h2 {
+    font-family: "Noto Serif Bengali", serif;
+    font-size: 23px; line-height: 1.4; margin: 0 0 12px;
+    color: var(--accent);
+    padding-bottom: 8px; border-bottom: 2px solid var(--accent-soft);
+  }
+  h2 .num {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 34px; height: 34px; border-radius: 50%;
+    background: var(--accent); color: var(--paper);
+    font-size: 17px; margin-right: 8px; vertical-align: 2px;
+  }
+  h3 { font-size: 18px; margin: 20px 0 8px; color: var(--ink); }
+  p { margin: 8px 0; }
+  ul, ol { margin: 8px 0; padding-left: 24px; }
+  li { margin: 4px 0; }
+  strong { font-weight: 700; }
+  .muted { color: var(--muted); }
+  .small { font-size: 14px; }
+
+  .ayah {
+    margin: 12px 0;
+    border-right: 4px solid var(--gold);
+    background: var(--gold-soft);
+    border-radius: 10px;
+    padding: 12px 16px;
+  }
+  .ar {
+    font-family: "Amiri", serif; direction: rtl; text-align: right;
+    font-size: 23px; line-height: 1.9; margin: 0 0 4px; color: var(--ink);
+  }
+  .ar-inline { font-family: "Amiri", serif; font-size: 19px; direction: rtl; unicode-bidi: isolate; }
+  .ayah .tr { margin: 0; }
+  .ayah .ref { margin: 4px 0 0; font-size: 14px; color: var(--gold); font-weight: 600; }
+
+  .table-wrap { overflow-x: auto; margin: 10px 0; border: 1px solid var(--line); border-radius: 10px; }
+  table { width: 100%; border-collapse: collapse; font-size: 15px; }
+  th, td { padding: 9px 12px; text-align: left; vertical-align: top; border-bottom: 1px solid var(--line); }
+  th { background: var(--th); font-weight: 700; white-space: nowrap; }
+  tr:last-child td { border-bottom: 0; }
+  td.ref { white-space: nowrap; color: var(--muted); font-size: 14px; }
+
+  .callout {
+    margin: 14px 0; padding: 12px 16px; border-radius: 10px;
+    border-left: 4px solid var(--accent); background: var(--accent-soft);
+  }
+  .callout.warn { border-color: var(--warn); background: var(--warn-soft); }
+  .callout.no { border-color: var(--no); background: var(--no-soft); }
+  .callout p:first-child { margin-top: 0; }
+  .callout p:last-child { margin-bottom: 0; }
+
+  .tag { display: inline-block; font-size: 12.5px; font-weight: 700; padding: 1px 9px; border-radius: 999px; vertical-align: 1px; }
+  .tag.ok { background: var(--ok-soft); color: var(--ok); }
+  .tag.no { background: var(--no-soft); color: var(--no); }
+  .tag.weak { background: var(--warn-soft); color: var(--warn); }
+
+  /* Relationship diagram */
+  .diagram { margin: 14px 0 6px; display: grid; gap: 10px; }
+  .row { display: grid; gap: 10px; }
+  .row.cols-2 { grid-template-columns: 1fr 1fr; }
+  .row.cols-3 { grid-template-columns: repeat(3, 1fr); }
+  .node {
+    border-radius: 10px; padding: 9px 10px; text-align: center; font-size: 14.5px; line-height: 1.5;
+    border: 1.5px solid var(--ok); background: var(--ok-soft);
+  }
+  .node b { display: block; font-size: 15.5px; }
+  .node.child { border-color: var(--gold); background: var(--gold-soft); border-width: 2.5px; }
+  .node.out { border-color: var(--no); background: var(--no-soft); border-style: dashed; }
+  .arrow { text-align: center; color: var(--muted); font-size: 18px; line-height: 1; }
+  .legend { display: flex; flex-wrap: wrap; gap: 14px; font-size: 13.5px; color: var(--muted); margin-top: 6px; }
+  .legend span::before { content: ""; display: inline-block; width: 12px; height: 12px; border-radius: 3px; margin-right: 6px; vertical-align: -1px; }
+  .legend .l-ok::before { background: var(--ok-soft); border: 1.5px solid var(--ok); }
+  .legend .l-ch::before { background: var(--gold-soft); border: 2px solid var(--gold); }
+  .legend .l-no::before { background: var(--no-soft); border: 1.5px dashed var(--no); }
+
+  .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .box { border: 1px solid var(--line); border-radius: 10px; padding: 12px 16px; }
+  .box h4 { margin: 0 0 6px; font-size: 16px; }
+  .box.ok h4 { color: var(--ok); }
+  .box.no h4 { color: var(--no); }
+  .box ul { margin: 0; }
+
+  .formula {
+    text-align: center; font-weight: 600; font-size: 17px;
+    border: 2px solid var(--accent); border-radius: 12px; padding: 16px 18px; background: var(--accent-soft);
+  }
+  .refs li { margin: 6px 0; }
+  footer { text-align: center; color: var(--muted); font-size: 13.5px; margin-top: 22px; }
+
+  @media (max-width: 640px) {
+    body { font-size: 15.5px; }
+    h1 { font-size: 25px; }
+    h2 { font-size: 20px; }
+    header.cover, section, nav.toc { padding: 18px 16px; }
+    nav.toc ol { columns: 1; }
+    .grid-2, .row.cols-3 { grid-template-columns: 1fr; }
+    .row.cols-2 { grid-template-columns: 1fr 1fr; }
+    .ar { font-size: 20px; }
+    th { white-space: normal; }
+  }
+
+  @page { size: A4; margin: 14mm 13mm 16mm; }
+  @media print {
+    :root, :root[data-theme="dark"] {
+      --bg: #ffffff; --paper: #ffffff; --ink: #1f2a26; --muted: #5b6a64; --line: #ddd6c6;
+      --accent: #1f6b53; --accent-soft: #e8f2ed; --gold: #9a7129; --gold-soft: #f7f0e1;
+      --ok: #1f6b53; --ok-soft: #e8f2ed; --no: #a33a2f; --no-soft: #f9eae7;
+      --warn: #8a5a00; --warn-soft: #fbf2dc; --th: #eef3ef;
+    }
+    * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    body { font-size: 12.2pt; line-height: 1.7; }
+    .wrap { max-width: none; padding: 0; }
+    header.cover, section, nav.toc { border-radius: 8px; padding: 14px 18px; margin-top: 10px; }
+    section { break-inside: auto; }
+    h2, h3 { break-after: avoid; }
+    tr, .ayah, .callout, .node, .box, .formula, .diagram { break-inside: avoid; }
+    .table-wrap { overflow: visible; }
+    nav.toc a { color: var(--ink); }
+    .grid-2 { grid-template-columns: 1fr 1fr; }
+    .row.cols-3 { grid-template-columns: repeat(3, 1fr); }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="cover">
+  <p class="bismillah">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</p>
+  <h1>দুধ মা, দুধ বাবা ও দুধ ভাই-বোন<br>ইসলামি বিধান (রাদাআত)</h1>
+  <p class="subtitle">দলিল, শর্ত, মাহরামের তালিকা, করণীয়-বর্জনীয়, দায়িত্ব ও তথ্যসূত্র</p>
+  <div class="chips">
+    <span class="chip">কুরআন</span>
+    <span class="chip">সহিহ হাদিস</span>
+    <span class="chip">চার মাযহাবের তুলনা</span>
+    <span class="chip">হানাফি মত বিশেষভাবে</span>
+  </div>
+</header>
+
+<nav class="toc" aria-label="সূচিপত্র">
+  <h2>সূচিপত্র</h2>
+  <ol>
+    <li><a href="#s1">মূল দলিল: কুরআন ও হাদিস</a></li>
+    <li><a href="#s2">দুধ-সম্পর্ক হওয়ার শর্ত</a></li>
+    <li><a href="#s3">কারা কারা মাহরাম</a></li>
+    <li><a href="#s4">কারা মাহরাম নয়</a></li>
+    <li><a href="#s5">যেসব বিধান প্রযোজ্য</a></li>
+    <li><a href="#s6">যেসব বিধান প্রযোজ্য নয়</a></li>
+    <li><a href="#s7">দায়িত্ব ও আদব</a></li>
+    <li><a href="#s8">বিয়ের পর জানা গেলে</a></li>
+    <li><a href="#s9">সংক্ষেপে মনে রাখার সূত্র</a></li>
+    <li><a href="#s10">তথ্যসূত্র</a></li>
+  </ol>
+</nav>
+
+<!-- ১ -->
+<section id="s1">
+  <h2><span class="num">১</span>মূল দলিল: কুরআন ও হাদিস</h2>
+
+  <h3>কুরআনুল কারিম</h3>
+  <div class="ayah">
+    <p class="ar">حُرِّمَتْ عَلَيْكُمْ أُمَّهَاتُكُمْ ... وَأُمَّهَاتُكُمُ اللَّاتِي أَرْضَعْنَكُمْ وَأَخَوَاتُكُم مِّنَ الرَّضَاعَةِ</p>
+    <p class="tr">"তোমাদের জন্য হারাম করা হয়েছে তোমাদের মায়েদের ... এবং তোমাদের সেই মায়েদের, যারা তোমাদের দুধ পান করিয়েছে, আর তোমাদের দুধ-বোনদের।"</p>
+    <p class="ref">সূরা আন-নিসা ৪:২৩</p>
+  </div>
+  <div class="ayah">
+    <p class="ar">وَالْوَالِدَاتُ يُرْضِعْنَ أَوْلَادَهُنَّ حَوْلَيْنِ كَامِلَيْنِ ۖ لِمَنْ أَرَادَ أَن يُتِمَّ الرَّضَاعَةَ</p>
+    <p class="tr">"মায়েরা তাদের সন্তানদের পূর্ণ দুই বছর দুধ পান করাবে, যে দুধপানের মেয়াদ পূর্ণ করতে চায় তার জন্য।" একই আয়াতে আছে, পারিশ্রমিক ঠিকমতো দিলে অন্য নারী দিয়ে দুধ খাওয়ানোও জায়েজ।</p>
+    <p class="ref">সূরা আল-বাকারা ২:২৩৩</p>
+  </div>
+  <ul>
+    <li><strong>সূরা আত-তালাক ৬৫:৬</strong>: "যদি তারা তোমাদের সন্তানকে দুধ পান করায়, তবে তাদের পারিশ্রমিক দাও।"</li>
+    <li><strong>সূরা লুকমান ৩১:১৪</strong> ও <strong>সূরা আল-আহকাফ ৪৬:১৫</strong>: গর্ভধারণ ও দুধ ছাড়ানোর সময়কাল (৩০ মাস)। ইমাম আবু হানিফা (রহ.) এখান থেকে আড়াই বছরের মত নিয়েছেন।</li>
+  </ul>
+
+  <h3>হাদিস</h3>
+  <div class="table-wrap">
+  <table>
+    <thead><tr><th>বিষয়</th><th>সূত্র</th></tr></thead>
+    <tbody>
+      <tr><td>বংশের কারণে যারা হারাম, দুধের কারণেও তারা হারাম<br><span class="ar-inline">«يَحْرُمُ مِنَ الرَّضَاعِ مَا يَحْرُمُ مِنَ النَّسَبِ»</span></td><td class="ref">বুখারি ২৬৪৫<br>মুসলিম ১৪৪৭</td></tr>
+      <tr><td>জন্ম যা হারাম করে, দুধপানও তা হারাম করে<br><span class="ar-inline">«إِنَّ الرَّضَاعَةَ تُحَرِّمُ مَا تُحَرِّمُ الْوِلَادَةُ»</span></td><td class="ref">বুখারি ২৬৪৬, ৫০৯৯<br>মুসলিম ১৪৪৪</td></tr>
+      <tr><td>হামজা (রা.)-এর মেয়ের সঙ্গে বিয়ের প্রস্তাব এলে নবীজি ﷺ বললেন, "সে আমার জন্য হালাল নয়, সে আমার দুধ-ভাইয়ের মেয়ে।"</td><td class="ref">বুখারি ২৬৪৫, ৫১০০<br>মুসলিম ১৪৪৬-১৪৪৭</td></tr>
+      <tr><td>উম্মে হাবিবা (রা.)-কে নবীজি ﷺ বললেন, "আমাকে ও আবু সালামাকে সুওয়াইবা দুধ খাইয়েছেন, তাই তোমাদের মেয়ে বা বোনদের আমার কাছে (বিয়ের জন্য) পেশ করো না।"</td><td class="ref">বুখারি ৫১০১<br>মুসলিম ১৪৪৯</td></tr>
+      <tr><td><strong>দুধ চাচা আফলাহ</strong>: আয়েশা (রা.) তাঁর সামনে পর্দা করতে চাইলে নবীজি ﷺ বললেন, "তাকে ঢুকতে দাও, সে তোমার চাচা।" এ থেকে দুধ বাবার দিকের আত্মীয়তাও প্রমাণিত হয় (লাবানুল ফাহল)।<br><span class="ar-inline">«ائْذَنِي لَهُ فَإِنَّهُ عَمُّكِ»</span></td><td class="ref">বুখারি ৪৭৯৬, ৫১০৩<br>মুসলিম ১৪৪৫</td></tr>
+      <tr><td>ক্ষুধা মেটানোর বয়সের দুধপানই গণ্য<br><span class="ar-inline">«فَإِنَّمَا الرَّضَاعَةُ مِنَ الْمَجَاعَةِ»</span></td><td class="ref">বুখারি ৫১০২<br>মুসলিম ১৪৫৫</td></tr>
+      <tr><td>শুধু সেই দুধপানই হারাম করে যা পাকস্থলীতে পৌঁছে এবং দুধ ছাড়ার আগে হয়<br><span class="ar-inline">«لَا يُحَرِّمُ مِنَ الرَّضَاعَةِ إِلَّا مَا فَتَقَ الْأَمْعَاءَ ... وَكَانَ قَبْلَ الْفِطَامِ»</span></td><td class="ref">তিরমিজি ১১৫২<br><span class="tag ok">সহিহ</span></td></tr>
+      <tr><td>এক-দুই চোষণ হারাম করে না<br><span class="ar-inline">«لَا تُحَرِّمُ الْمَصَّةُ وَالْمَصَّتَانِ»</span></td><td class="ref">মুসলিম ১৪৫০, ১৪৫১</td></tr>
+      <tr><td>পাঁচবার দুধপানের বর্ণনা (আয়েশা রা.)</td><td class="ref">মুসলিম ১৪৫২</td></tr>
+      <tr><td><strong>উকবা ইবনুল হারিস (রা.)</strong>: বিয়ের পর এক নারী জানালেন, তিনি দুজনকেই দুধ খাইয়েছেন। নবীজি ﷺ বললেন, "এ কথা বলা হয়ে যাওয়ার পর কীভাবে (একসাথে থাকবে)?" এরপর তাঁরা আলাদা হয়ে যান।<br><span class="ar-inline">«كَيْفَ وَقَدْ قِيلَ»</span></td><td class="ref">বুখারি ৮৮, ২৬৪০, ৫১০৪</td></tr>
+      <tr><td>সালিম মাওলা আবু হুজাইফার প্রাপ্তবয়সে দুধপানের ঘটনা</td><td class="ref">মুসলিম ১৪৫৩</td></tr>
+    </tbody>
+  </table>
+  </div>
+</section>
+
+<!-- ২ -->
+<section id="s2">
+  <h2><span class="num">২</span>দুধ-সম্পর্ক সাব্যস্ত হওয়ার শর্ত</h2>
+
+  <h3>(ক) বয়স</h3>
+  <ul>
+    <li><strong>জুমহুর (শাফেয়ি, হাম্বলি, মালিকি) এবং হানাফি মাযহাবের ইমাম আবু ইউসুফ ও ইমাম মুহাম্মাদ (রহ.)</strong>: শিশুর বয়স <strong>২ চান্দ্র বছরের</strong> মধ্যে হতে হবে (২:২৩৩; তিরমিজি ১১৫২)।</li>
+    <li><strong>ইমাম আবু হানিফা (রহ.)</strong>: <strong>৩০ মাস (আড়াই বছর)</strong> পর্যন্ত (৪৬:১৫)।</li>
+  </ul>
+  <div class="callout">
+    <p><strong>উপমহাদেশের হানাফি ফতোয়া:</strong> অনেক মুফতি ২ বছরের মতকে প্রাধান্য দেন। তবে <strong>বিয়ের ক্ষেত্রে সতর্কতা হিসেবে আড়াই বছরের মধ্যে দুধপানকেও হারামের কারণ ধরা হয়।</strong></p>
+  </div>
+  <p><strong>প্রাপ্তবয়স্কের দুধপান:</strong> চার মাযহাবের মতে এতে কোনো সম্পর্ক তৈরি হয় না। সালিমের ঘটনা (মুসলিম ১৪৫৩) জুমহুরের মতে তাঁর জন্য খাস বা নির্দিষ্ট ছিল। নবীজি ﷺ-এর অন্য স্ত্রীরা এবং অধিকাংশ সাহাবি এটাকে খাস মনে করতেন। ইবনে তাইমিয়া (রহ.) বিশেষ প্রয়োজনের ক্ষেত্রে ভিন্ন মত দিয়েছেন।</p>
+  <p><strong>স্বামী যদি স্ত্রীর দুধ মুখে নেয় বা পান করে:</strong> বিয়ে নষ্ট হয় না, কোনো হারাম সম্পর্কও তৈরি হয় না। তবে জেনেশুনে দুধ পান করা অনুচিত বা মাকরুহ (আল-হিদায়া; রাদ্দুল মুহতার)।</p>
+
+  <h3>(খ) পরিমাণ: মাযহাবভিত্তিক মতভেদ</h3>
+  <div class="table-wrap">
+  <table>
+    <thead><tr><th>মাযহাব</th><th>মত</th><th>দলিল</th></tr></thead>
+    <tbody>
+      <tr><td><strong>হানাফি</strong> ও <strong>মালিকি</strong></td><td>অল্প হোক বা বেশি, <strong>এক ঢোকও</strong> পেটে গেলে সম্পর্ক সাব্যস্ত</td><td>৪:২৩ আয়াতে পরিমাণের শর্ত নেই</td></tr>
+      <tr><td><strong>শাফেয়ি</strong> ও <strong>হাম্বলি</strong></td><td><strong>পাঁচবার পৃথক ও পরিতৃপ্ত দুধপান</strong> লাগবে</td><td>মুসলিম ১৪৫২</td></tr>
+      <tr><td>জাহেরি ও আবু সাওর</td><td>তিনবার</td><td>মুসলিম ১৪৫০</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <div class="callout">
+    <p>বাংলাদেশে প্রচলিত হানাফি মত অনুযায়ী: <strong>শর্তকালের মধ্যে এক ফোঁটা দুধও শিশুর পেটে নিশ্চিতভাবে পৌঁছালে দুধ-সম্পর্ক সাব্যস্ত হয়ে যায়।</strong></p>
+  </div>
+
+  <h3>(গ) পদ্ধতি</h3>
+  <ul>
+    <li>স্তন থেকে সরাসরি না খেলেও চলবে। দুধ বের করে চামচ, বোতল বা কাপে খাওয়ালে, অথবা নাক দিয়ে দিলেও চার মাযহাবেই তা গণ্য হয় (আল-মুগনি; রাদ্দুল মুহতার)।</li>
+    <li>দুধ অন্য খাবারের সঙ্গে মেশানো হলে হানাফি মতে দুধের অংশ বেশি থাকলে তা গণ্য। আর আগুনে রান্না করা খাবারে দুধ মিশে গেলে গণ্য নয়।</li>
+    <li><strong>হিউম্যান মিল্ক ব্যাংক:</strong> ইসলামি ফিকহ একাডেমি (OIC, দ্বিতীয় অধিবেশন, জেদ্দা, ১৯৮৫, প্রস্তাব নং ৬) মুসলিম দেশে মিল্ক ব্যাংক প্রতিষ্ঠা নিষেধ করেছে, কারণ এতে বংশ ও বিয়ের সম্পর্ক অজানা থেকে যায়। ইউরোপিয়ান ফতোয়া কাউন্সিল শর্তসাপেক্ষে ভিন্ন মত দিয়েছে।</li>
+  </ul>
+
+  <h3>(ঘ) প্রমাণ</h3>
+  <ul>
+    <li><strong>হানাফি:</strong> দুই জন পুরুষ, অথবা এক পুরুষ ও দুই নারীর সাক্ষ্য লাগবে। শুধু এক নারীর কথায় বিচারিকভাবে প্রমাণ হয় না। তবে সে বিশ্বস্ত হলে <strong>তাকওয়ার দাবি হলো বিয়ে থেকে বিরত থাকা বা আলাদা হয়ে যাওয়া</strong> (উকবার হাদিস)।</li>
+    <li><strong>হাম্বলি:</strong> একজন বিশ্বস্ত নারীর সাক্ষ্যই যথেষ্ট (বুখারি ৫১০৪)।</li>
+    <li><strong>শুধু সন্দেহ হলে</strong> (দুধ খাইয়েছিল কিনা, বা কতবার খাইয়েছিল জানা নেই): মূল নীতি হলো সন্দেহ দিয়ে হারাম সাব্যস্ত হয় না। তবে বিয়ের মতো বিষয়ে সতর্কতা অবলম্বন উত্তম।</li>
+  </ul>
+  <div class="ayah">
+    <p class="ar">«دَعْ مَا يَرِيبُكَ إِلَى مَا لَا يَرِيبُكَ»</p>
+    <p class="tr">"যা সন্দেহে ফেলে তা ছেড়ে দাও, যা সন্দেহমুক্ত তা গ্রহণ করো।"</p>
+    <p class="ref">তিরমিজি ২৫১৮; নাসাঈ ৫৭১১</p>
+  </div>
+</section>
+
+<!-- ৩ -->
+<section id="s3">
+  <h2><span class="num">৩</span>কারা কারা মাহরাম (বিয়ে চিরতরে হারাম)</h2>
+  <p>ধরা যাক, শিশু <strong>"ক"</strong> নারী <strong>"ম"</strong>-এর দুধ পান করেছে। "ম"-এর যে স্বামীর কারণে দুধ এসেছে (গর্ভ বা সন্তানের কারণে), তিনি <strong>"ব"</strong>।</p>
+
+  <div class="diagram" role="img" aria-label="দুধ-সম্পর্কের চিত্র: দুধ-পরিবারের সবাই শিশুর মাহরাম, শিশুর আপন পরিবার দুধ-পরিবারের মাহরাম নয়">
+    <div class="row cols-2">
+      <div class="node"><b>দুধ নানা-নানি</b>"ম"-এর বাবা-মা</div>
+      <div class="node"><b>দুধ দাদা-দাদি</b>"ব"-এর বাবা-মা</div>
+    </div>
+    <div class="row cols-2">
+      <div class="node"><b>দুধ মা "ম"</b>ও তার ভাই-বোন<br>(দুধ মামা-খালা)</div>
+      <div class="node"><b>দুধ বাবা "ব"</b>ও তার ভাই-বোন<br>(দুধ চাচা-ফুফু)</div>
+    </div>
+    <div class="arrow">▼</div>
+    <div class="row cols-3">
+      <div class="node"><b>দুধ ভাই-বোন</b>"ম" ও "ব"-এর সব সন্তান এবং তাদের সন্তান</div>
+      <div class="node child"><b>শিশু "ক"</b>যে দুধ পান করেছে<br>ও তার সন্তান-সন্ততি</div>
+      <div class="node out"><b>"ক"-এর আপন বাবা-মা ও ভাই-বোন</b>দুধ-পরিবারের সঙ্গে মাহরাম সম্পর্ক নেই</div>
+    </div>
+    <div class="legend">
+      <span class="l-ok">"ক"-এর মাহরাম</span>
+      <span class="l-ch">দুধপানকারী শিশু</span>
+      <span class="l-no">দুধ-সম্পর্কের বাইরে</span>
+    </div>
+  </div>
+
+  <h3>"ক"-এর জন্য মাহরাম</h3>
+  <div class="table-wrap">
+  <table>
+    <thead><tr><th>#</th><th>সম্পর্ক</th><th>কে</th></tr></thead>
+    <tbody>
+      <tr><td>১</td><td><strong>দুধ মা</strong></td><td>"ম" নিজে</td></tr>
+      <tr><td>২</td><td><strong>দুধ বাবা</strong></td><td>"ব" (দলিল: আফলাহর হাদিস)</td></tr>
+      <tr><td>৩</td><td><strong>দুধ ভাই-বোন</strong></td><td>"ম"-এর <strong>সব</strong> সন্তান: আগে বা পরে জন্ম নেওয়া, যেকোনো স্বামীর ঘরের</td></tr>
+      <tr><td>৪</td><td><strong>দুধ ভাই-বোন (বৈমাত্রেয়)</strong></td><td>"ব"-এর অন্য স্ত্রীর ঘরের সন্তানরা</td></tr>
+      <tr><td>৫</td><td><strong>দুধ ভাই-বোন</strong></td><td>"ম" যে অন্য শিশুদের দুধ খাইয়েছে তারা, এমনকি ভিন্ন সময়ে খেয়ে থাকলেও</td></tr>
+      <tr><td>৬</td><td><strong>দুধ নানা-নানি</strong></td><td>"ম"-এর বাবা-মা ও তাদের ঊর্ধ্বতনরা</td></tr>
+      <tr><td>৭</td><td><strong>দুধ দাদা-দাদি</strong></td><td>"ব"-এর বাবা-মা ও তাদের ঊর্ধ্বতনরা</td></tr>
+      <tr><td>৮</td><td><strong>দুধ মামা-খালা</strong></td><td>"ম"-এর ভাই-বোন</td></tr>
+      <tr><td>৯</td><td><strong>দুধ চাচা-ফুফু</strong></td><td>"ব"-এর ভাই-বোন</td></tr>
+      <tr><td>১০</td><td><strong>দুধ ভাতিজা/ভাতিজি, ভাগ্নে/ভাগ্নি</strong></td><td>দুধ ভাই-বোনদের সন্তান ও তাদের অধস্তনরা</td></tr>
+      <tr><td>১১</td><td><strong>"ক"-এর নিজের সন্তানরা</strong></td><td>এরাও "ম" ও "ব"-এর দুধ-নাতি-নাতনি। সম্পর্ক শিশুর <strong>অধস্তনদের</strong> মধ্যে ছড়ায়</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <h3>বৈবাহিক সূত্রে দুধ-সম্পর্ক (চার মাযহাবের মত)</h3>
+  <ul>
+    <li><strong>দুধ শাশুড়ি</strong>: স্ত্রীর দুধ মা</li>
+    <li><strong>দুধ পুত্রবধূ</strong>: দুধ ছেলের স্ত্রী</li>
+    <li><strong>দুধ সৎমা</strong>: দুধ বাবার অন্য স্ত্রী</li>
+    <li><strong>স্ত্রীর দুধ মেয়ে</strong>: স্ত্রীর সঙ্গে সহবাস হয়ে থাকলে</li>
+    <li><strong>একসঙ্গে বিয়ে করা যাবে না</strong>: দুই দুধ-বোনকে, অথবা কোনো নারী ও তার দুধ খালা বা দুধ ফুফুকে একসঙ্গে স্ত্রী হিসেবে রাখা হারাম</li>
+  </ul>
+</section>
+
+<!-- ৪ -->
+<section id="s4">
+  <h2><span class="num">৪</span>যারা মাহরাম <em>নয়</em>: প্রচলিত ভুল ধারণা</h2>
+  <div class="callout no">
+    <p>দুধ-সম্পর্ক <strong>শুধু দুধপানকারী শিশু ও তার অধস্তনদের</strong> মধ্যে ছড়ায়। শিশুর বাবা-মা বা ভাই-বোনের মধ্যে ছড়ায় না।</p>
+  </div>
+  <ul>
+    <li>"ক"-এর <strong>আপন ভাই-বোনরা</strong> "ম"-এর সন্তানদের বিয়ে করতে <strong>পারবে</strong>।</li>
+    <li>"ক"-এর <strong>আপন বাবা-মার</strong> সঙ্গে দুধ-পরিবারের কোনো মাহরাম সম্পর্ক নেই।</li>
+    <li><strong>দুধ ভাইয়ের মা</strong>: যদি "ক" ও "খ" অন্য এক নারীর দুধ খেয়ে দুধ-ভাই হয়, তাহলে "খ"-এর আপন মা "ক"-এর মাহরাম নন।</li>
+    <li><strong>দুধ ছেলের বোন</strong>: দুধ ছেলের আপন বোন আপনার মাহরাম নয়।</li>
+    <li><strong>দুধ ভাইয়ের আপন বোন</strong>: যদি সে আপনার দুধ মায়ের মেয়ে না হয় এবং তার দুধও না খেয়ে থাকে, তাহলে সে মাহরাম নয়।</li>
+  </ul>
+  <p class="muted small">হানাফি কিতাবগুলোতে এগুলোকে "বংশে হারাম কিন্তু দুধে হারাম নয়" এমন ব্যতিক্রম হিসেবে উল্লেখ করা হয়েছে। দেখুন: আদ-দুররুল মুখতার ও রাদ্দুল মুহতার, বাবুর রাদা।</p>
+</section>
+
+<!-- ৫ ও ৬ -->
+<section id="s5">
+  <h2><span class="num">৫</span>দুধ-সম্পর্কের ফলে যেসব বিধান প্রযোজ্য</h2>
+  <div class="table-wrap">
+  <table>
+    <thead><tr><th>বিষয়</th><th>বিধান</th></tr></thead>
+    <tbody>
+      <tr><td>বিয়ে</td><td><span class="tag no">চিরতরে হারাম</span></td></tr>
+      <tr><td>দেখা ও পর্দা</td><td>রক্তের মাহরামের মতোই। শরীরের যে অংশ সাধারণত খোলা থাকে (মাথা, চুল, হাত, মুখ, পা ইত্যাদি) তা দেখা যাবে (আফলাহর হাদিস)</td></tr>
+      <tr><td>একান্তে থাকা (খালওয়াত)</td><td><span class="tag ok">জায়েজ</span></td></tr>
+      <tr><td>সফর ও হজ</td><td>দুধ-মাহরামকে সঙ্গী করে সফর ও হজে যাওয়া জায়েজ (জুমহুরের মত)</td></tr>
+      <tr><td>হাত মেলানো বা স্পর্শ</td><td>ফিতনার আশঙ্কা না থাকলে জায়েজ। আশঙ্কা থাকলে বিরত থাকা জরুরি</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <div class="callout warn">
+    <p><strong>সতর্কতা:</strong> রক্তের সম্পর্কে যেমন স্বাভাবিক দূরত্ব ও লজ্জাবোধ থাকে, দুধ-সম্পর্কে সবসময় তা থাকে না। তাই ফকিহগণ বিশেষ করে যুবক-যুবতী দুধ ভাই-বোনের ক্ষেত্রে একান্তে থাকা ও অবাধ মেলামেশায় বাড়তি সাবধানতার পরামর্শ দিয়েছেন।</p>
+  </div>
+</section>
+
+<section id="s6">
+  <h2><span class="num">৬</span>যেসব বিধান প্রযোজ্য নয় (ইজমা বা সর্বসম্মত মত)</h2>
+  <div class="grid-2">
+    <div class="box no">
+      <h4>প্রযোজ্য নয়</h4>
+      <ul>
+        <li><strong>মিরাস (উত্তরাধিকার):</strong> দুধ মা, দুধ বাবা বা দুধ ভাই-বোন একে অন্যের ওয়ারিস হয় না।</li>
+        <li><strong>ভরণপোষণ (নাফাকা):</strong> আইনগতভাবে বাধ্যতামূলক নয়।</li>
+        <li><strong>বিয়ের অভিভাবকত্ব (ওয়ালি):</strong> দুধ বাবা বা দুধ ভাই ওয়ালি হতে পারে না।</li>
+      </ul>
+    </div>
+    <div class="box ok">
+      <h4>যা করা যায়</h4>
+      <ul>
+        <li><strong>জাকাত দেওয়া যায়:</strong> দুধ মা, দুধ বাবা বা দুধ ভাই-বোন গরিব হলে তাদের জাকাত দেওয়া জায়েজ। আপন বাবা-মা বা সন্তানকে দেওয়া জায়েজ নয়, কিন্তু দুধ-সম্পর্কে এই নিষেধ নেই।</li>
+        <li>পরস্পরের পক্ষে সাক্ষ্য দেওয়া গ্রহণযোগ্য।</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ৭ -->
+<section id="s7">
+  <h2><span class="num">৭</span>দুধ মা-বাবা ও ভাই-বোনের প্রতি দায়িত্ব ও আদব</h2>
+  <p>আইনগত বাধ্যবাধকতা কম হলেও, <strong>ইহসান, কৃতজ্ঞতা ও আত্মীয়তার সদাচরণ</strong> ইসলামে অত্যন্ত গুরুত্বপূর্ণ।</p>
+
+  <div class="ayah">
+    <p class="ar">هَلْ جَزَاءُ الْإِحْسَانِ إِلَّا الْإِحْسَانُ</p>
+    <p class="tr">"উপকারের প্রতিদান উপকার ছাড়া আর কী হতে পারে?"</p>
+    <p class="ref">সূরা আর-রহমান ৫৫:৬০</p>
+  </div>
+
+  <h3>নবীজি ﷺ-এর আদর্শ</h3>
+  <ul>
+    <li>এক নারী এলে নবীজি ﷺ নিজের চাদর বিছিয়ে তাঁকে বসান। জিজ্ঞেস করা হলে বলা হলো, ইনি তাঁর দুধ মা। প্রসিদ্ধ মতে তিনি <strong>হালিমা সাদিয়া (রা.)</strong>। (আবু দাউদ ৫১৪৪) <span class="tag weak">সনদে আপত্তি আছে</span></li>
+    <li>হুনাইনের যুদ্ধের পর দুধ বোন <strong>শায়মা (রা.)</strong> এলে নবীজি ﷺ তাঁকে চিনে চাদর বিছিয়ে বসান এবং সম্মানের সঙ্গে উপহার দিয়ে বিদায় দেন। (সিরাতে ইবনে হিশাম; আল-ইসাবা, ইবনে হাজার)</li>
+    <li>হাওয়াজিন গোত্র ছিল তাঁর দুধ-আত্মীয়দের গোত্র। তাদের বন্দীদের তিনি ফেরত দেন। (বুখারি ২৩০৭-২৩০৮; দুধ-সম্পর্কের প্রসঙ্গটি সিরাতগ্রন্থে বর্ণিত)</li>
+    <li>আরেক দুধ মা <strong>সুওয়াইবা</strong>র খোঁজখবর তিনি রাখতেন এবং মদিনা থেকে তাঁর জন্য উপহার পাঠাতেন বলে বর্ণিত আছে। (তাবাকাতে ইবনে সাদ)</li>
+  </ul>
+
+  <h3>দুধ মায়ের হক আদায়</h3>
+  <p>এক সাহাবি জিজ্ঞেস করেছিলেন, দুধপানের হক কীভাবে আদায় হবে? নবীজি ﷺ বললেন, "একটি দাস বা দাসী (উপহার) দিয়ে।" (আবু দাউদ ২০৬৪; তিরমিজি ১১৫৩। তিরমিজি একে হাসান সহিহ বলেছেন, কেউ কেউ দুর্বল বলেছেন।) এর শিক্ষা হলো, <strong>দুধ মাকে মূল্যবান উপহার দিয়ে সম্মান করা মুস্তাহাব।</strong></p>
+
+  <div class="grid-2">
+    <div class="box ok">
+      <h4>দুধ সন্তানের করণীয়</h4>
+      <ul>
+        <li>সম্মান ও কৃতজ্ঞতা প্রকাশ</li>
+        <li>খোঁজখবর রাখা, অসুস্থ হলে দেখতে যাওয়া</li>
+        <li>অভাবে সাহায্য করা (জাকাত বা সাদকা দিয়েও)</li>
+        <li>উপহার দেওয়া ও দোয়া করা</li>
+        <li>ধাত্রী ভাড়া করা হলে পারিশ্রমিক ঠিকমতো ও সম্মানের সঙ্গে পরিশোধ করা ফরজ (২:২৩৩; ৬৫:৬)</li>
+      </ul>
+    </div>
+    <div class="box ok">
+      <h4>দুধ খাওয়ানো মা ও পরিবারের করণীয়</h4>
+      <ul>
+        <li>কোন শিশুকে, কখন, কতবার দুধ খাওয়ানো হয়েছে, <strong>তা মনে রাখা, পরিবারে জানানো, সম্ভব হলে লিখে রাখা</strong></li>
+        <li>বিনা প্রয়োজনে বা না জানিয়ে অন্যের শিশুকে দুধ খাওয়ানো এড়ানো</li>
+        <li>ধাত্রী নির্বাচনে দ্বীনদার ও ভালো চরিত্রের নারী বেছে নেওয়া উত্তম (আল-মুগনি)</li>
+      </ul>
+    </div>
+  </div>
+  <p class="muted small">না জানার কারণে হারাম বিয়ে হয়ে যাওয়ার ঝুঁকি নবীজি ﷺ-এর যুগেই দেখা গিয়েছিল, যেমন উকবা ইবনুল হারিস (রা.)-এর ঘটনা। তাই দুধপানের তথ্য সংরক্ষণ করা অত্যন্ত জরুরি।</p>
+</section>
+
+<!-- ৮ -->
+<section id="s8">
+  <h2><span class="num">৮</span>বিয়ের পর দুধ-সম্পর্ক জানা গেলে</h2>
+  <ul>
+    <li>বিয়েটি <strong>বাতিল বা ফাসিদ</strong>। সঙ্গে সঙ্গে আলাদা হয়ে যাওয়া <strong>ফরজ</strong>, এর জন্য তালাকের প্রয়োজন নেই।</li>
+    <li>সহবাস হয়ে থাকলে স্ত্রী মোহর পাবে এবং ইদ্দত পালন করবে।</li>
+    <li>সন্তান থাকলে তারা <strong>বৈধ সন্তান</strong>, বংশ পিতার সঙ্গেই সাব্যস্ত হবে, কারণ সম্পর্কটি না জেনে হয়েছিল (শুবহা)।</li>
+    <li>দলিল: উকবা ইবনুল হারিস (রা.)-এর ঘটনা (বুখারি ৮৮, ৫১০৪)।</li>
+  </ul>
+</section>
+
+<!-- ৯ -->
+<section id="s9">
+  <h2><span class="num">৯</span>সংক্ষেপে মনে রাখার সূত্র</h2>
+  <div class="formula">
+    যে দুধ খেয়েছে, সে আর তার বংশধররা দুধ-পরিবারের সন্তানের মতো। আর দুধ-পরিবারের সবাই (দুধ মা ও দুধ বাবার ঊর্ধ্বতন, অধস্তন ও পাশের আত্মীয়রা) তার রক্তের আত্মীয়ের মতো। কিন্তু শিশুর নিজের বাবা-মা ও ভাই-বোন এই সম্পর্কের বাইরে।
+  </div>
+</section>
+
+<!-- ১০ -->
+<section id="s10">
+  <h2><span class="num">১০</span>বিস্তারিত পড়ার জন্য তথ্যসূত্র</h2>
+  <h3>হাদিসগ্রন্থ</h3>
+  <ul class="refs">
+    <li><strong>সহিহ বুখারি</strong>: কিতাবুন নিকাহ (হাদিস ৫০৯৯-৫১০৪), কিতাবুশ শাহাদাত (২৬৪৫-২৬৪৭)</li>
+    <li><strong>সহিহ মুসলিম</strong>: কিতাবুর রাদা (হাদিস ১৪৪৪-১৪৫৫), সঙ্গে ইমাম নববির শরহ</li>
+    <li><strong>জামে তিরমিজি</strong>: আবওয়াবুর রাদা (১১৪৬-১১৫৩)</li>
+    <li><strong>মুয়াত্তা ইমাম মালিক</strong>: কিতাবুর রাদা</li>
+    <li><strong>ফাতহুল বারি</strong> (ইবনে হাজার আসকালানি): কিতাবুন নিকাহের সংশ্লিষ্ট অধ্যায়</li>
+  </ul>
+  <h3>ফিকহগ্রন্থ</h3>
+  <ul class="refs">
+    <li><strong>আল-হিদায়া</strong> (মারগিনানি): কিতাবুর রাদা (হানাফি)</li>
+    <li><strong>রাদ্দুল মুহতার আলাদ দুররিল মুখতার</strong> (ইবনে আবিদিন): বাবুর রাদা (হানাফি)</li>
+    <li><strong>ফাতাওয়া আলমগিরি (হিন্দিয়া)</strong>: কিতাবুর রাদা</li>
+    <li><strong>আল-মুগনি</strong> (ইবনে কুদামা): কিতাবুর রাদা (হাম্বলি, তুলনামূলক আলোচনা)</li>
+    <li><strong>যাদুল মাআদ</strong> (ইবনুল কাইয়িম), ৫ম খণ্ড: দুধপানের বিধান</li>
+    <li><strong>আল-ফিকহুল ইসলামি ওয়া আদিল্লাতুহু</strong> (ড. ওয়াহবা যুহাইলি): চার মাযহাবের তুলনা</li>
+  </ul>
+  <h3>বাংলায়</h3>
+  <ul class="refs">
+    <li>ইসলামিক ফাউন্ডেশন প্রকাশিত বুখারি ও মুসলিমের অনুবাদ</li>
+    <li>দেশের নির্ভরযোগ্য দারুল ইফতাগুলোর ফতোয়া সংকলন</li>
+  </ul>
+  <p class="muted small">হাদিস নম্বর প্রচলিত আন্তর্জাতিক নম্বর অনুযায়ী (বুখারি: ফাতহুল বারি; মুসলিম: মুহাম্মদ ফুয়াদ আব্দুল বাকি)। বিভিন্ন প্রকাশনায় নম্বর কিছুটা ভিন্ন হতে পারে।</p>
+
+  <div class="callout warn">
+    <p><strong>শেষ কথা:</strong> এখানে সাধারণ নীতিমালা দেওয়া হয়েছে। নির্দিষ্ট কোনো পরিস্থিতিতে, বিশেষ করে বিয়ের সিদ্ধান্ত বা দুধপানের সংখ্যা ও বয়স নিয়ে সন্দেহ থাকলে, <strong>নির্ভরযোগ্য স্থানীয় মুফতির কাছে পুরো ঘটনা জানিয়ে ফতোয়া নিন।</strong></p>
+  </div>
+</section>
+
+<footer>
+  <p>وَاللَّهُ أَعْلَمُ · আল্লাহই সর্বাধিক জ্ঞাত</p>
+</footer>
+
+</div>
+</body>
+</html>
