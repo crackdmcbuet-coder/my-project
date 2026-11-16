@@ -1,0 +1,2722 @@
+<!doctype html>
+<html lang="bn"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"><title>ঘুম কমানো বিজ্ঞান ও ইসলামি উৎস</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Anek+Bangla:wght@500;700&family=Noto+Sans+Bengali:wght@400;600&family=Noto+Serif+Bengali:wght@400;700&display=swap">
+<style>/* Layout: night-ledger reading room — sticky contents rail at left on wide screens, one measured reading column; Arabic set larger, right-to-left. */
+:root {
+  --bg: #f4f5f8;
+  --surface: #ffffff;
+  --ink: #18202e;
+  --muted: #586273;
+  --rule: #d9dee7;
+  --accent: #9a5210;
+  --night: #24304d;
+  --dawn: #d9893a;
+  --quote-bg: #eef1f6;
+  --mark-bg: #fbf1e4;
+  --font-display: "Anek Bangla", "Noto Sans Bengali", system-ui, sans-serif;
+  --font-body: "Noto Serif Bengali", "Noto Sans Bengali", Georgia, serif;
+  --font-ui: "Noto Sans Bengali", system-ui, sans-serif;
+  --font-ar: "Amiri", "Noto Naskh Arabic", "Traditional Arabic", serif;
+  --measure: 70ch;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0e131c; --surface: #151c28; --ink: #e3e7ee; --muted: #9ba5b6; --rule: #273145;
+    --accent: #e3a35e; --night: #7d93cf; --dawn: #e3a35e; --quote-bg: #182234; --mark-bg: #2a2216;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0e131c; --surface: #151c28; --ink: #e3e7ee; --muted: #9ba5b6; --rule: #273145;
+  --accent: #e3a35e; --night: #7d93cf; --dawn: #e3a35e; --quote-bg: #182234; --mark-bg: #2a2216;
+  color-scheme: dark;
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 17px;
+  line-height: 1.8;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+a { color: var(--accent); text-underline-offset: 2px; text-decoration-thickness: 1px; word-break: break-word; }
+a:focus-visible, summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 2px; }
+
+.page { max-width: 1180px; margin: 0 auto; padding-block: 32px 64px; }
+
+/* Hero */
+.hero { display: grid; gap: 20px; padding-block: 8px 28px; border-bottom: 1px solid var(--rule); margin-bottom: 28px; }
+.eyebrow { font-family: var(--font-ui); font-size: 13px; letter-spacing: 0.06em; color: var(--muted); margin: 0; }
+.hero h1 { font-family: var(--font-display); font-weight: 700; font-size: clamp(30px, 5vw, 48px); line-height: 1.25; margin: 0; text-wrap: balance; }
+.hero .lede { margin: 0; max-width: var(--measure); color: var(--muted); font-size: 17px; }
+
+/* Night division figure */
+.night { display: grid; gap: 10px; max-width: 720px; margin: 0; }
+.night-cap { font-family: var(--font-ui); font-size: 14px; color: var(--muted); margin: 0; }
+.night-bar { display: grid; grid-template-columns: 3fr 2fr 1fr; height: 46px; border-radius: 4px; overflow: hidden; border: 1px solid var(--rule); }
+.night-bar > div { display: flex; align-items: center; justify-content: center; font-family: var(--font-ui); font-size: 13px; line-height: 1.2; text-align: center; padding: 0 6px; }
+.seg-sleep { background: var(--night); color: var(--bg); }
+.seg-qiyam { background: var(--dawn); color: #1b1408; }
+.seg-sleep2 { background: color-mix(in srgb, var(--night) 70%, var(--bg)); color: var(--bg); }
+.night-ends { display: flex; justify-content: space-between; font-family: var(--font-ui); font-size: 12px; color: var(--muted); }
+
+/* Two-column layout */
+.layout { display: grid; grid-template-columns: 1fr; gap: 32px; }
+@media (min-width: 1100px) { .layout { grid-template-columns: 260px minmax(0, 1fr); } }
+
+.toc { font-family: var(--font-ui); font-size: 14px; line-height: 1.5; min-width: 0; }
+.toc details { border: 1px solid var(--rule); border-radius: 6px; background: var(--surface); padding: 10px 14px; }
+.toc summary { cursor: pointer; font-weight: 600; }
+.toc ul { list-style: none; margin: 8px 0 0; padding: 0; display: grid; gap: 6px; }
+.toc ul ul { margin: 6px 0 4px; padding-left: 12px; border-left: 1px solid var(--rule); font-size: 13px; }
+.toc a { color: var(--ink); text-decoration: none; }
+.toc a:hover { color: var(--accent); text-decoration: underline; }
+@media (min-width: 1100px) {
+  .toc { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 16px); align-self: start; max-height: calc(100vh - 32px); overflow-y: auto; }
+  .toc details { border: 0; background: transparent; padding: 0; }
+}
+
+/* Reading column */
+main { min-width: 0; }
+.doc { max-width: var(--measure); }
+.doc h1 { display: none; }
+.doc h2, .doc h3, .doc h4 { font-family: var(--font-display); line-height: 1.35; text-wrap: balance; scroll-margin-top: 16px; }
+.doc h2 { font-size: 28px; font-weight: 700; margin: 56px 0 14px; padding-top: 18px; border-top: 1px solid var(--rule); }
+.doc h3 { font-size: 21px; font-weight: 700; margin: 36px 0 10px; }
+.doc h4 { font-size: 18px; font-weight: 500; margin: 26px 0 8px; color: var(--muted); }
+.doc p, .doc ul, .doc ol { margin: 0 0 14px; }
+.doc ul, .doc ol { padding-left: 1.4em; }
+.doc li { margin-bottom: 6px; }
+.doc li > ul, .doc li > ol { margin-top: 6px; }
+.doc strong { font-weight: 700; }
+.doc hr { border: 0; border-top: 1px solid var(--rule); margin: 32px 0; }
+.doc code { font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 0.88em; background: var(--quote-bg); padding: 1px 4px; border-radius: 3px; }
+
+.doc blockquote { margin: 16px 0; padding: 12px 18px; background: var(--quote-bg); border-radius: 6px; }
+.doc blockquote p:last-child { margin-bottom: 0; }
+
+/* Arabic */
+.ar { font-family: var(--font-ar); font-size: 1.22em; line-height: 1.9; unicode-bidi: isolate; }
+.ar-block { direction: rtl; text-align: right; font-family: var(--font-ar); font-size: 1.2em; line-height: 2; }
+.ar-block .ar { font-size: 1em; }
+
+/* Tables */
+.table-wrap { overflow-x: auto; margin: 18px 0 22px; border: 1px solid var(--rule); border-radius: 6px; background: var(--surface); }
+.doc table { border-collapse: collapse; width: 100%; font-family: var(--font-ui); font-size: 14.5px; line-height: 1.6; }
+.doc th, .doc td { padding: 8px 12px; border-bottom: 1px solid var(--rule); vertical-align: top; text-align: left; }
+.doc th { font-weight: 600; background: var(--quote-bg); white-space: nowrap; }
+.doc tr:last-child td { border-bottom: 0; }
+.doc td .ar { font-size: 1.15em; }
+.doc table { min-width: 560px; }
+
+.colophon { margin-top: 56px; padding-top: 16px; border-top: 1px solid var(--rule); font-family: var(--font-ui); font-size: 13px; color: var(--muted); max-width: var(--measure); }
+
+@media (max-width: 480px) {
+  body { font-size: 16px; }
+  .doc h2 { font-size: 24px; }
+  .doc h3 { font-size: 19px; }
+  .night-bar > div { font-size: 11.5px; }
+}
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; } }
+
+@media print { 
+@page { size: A4; margin: 16mm 15mm 18mm; }
+html, body { background: #ffffff !important; }
+body { font-size: 11pt; line-height: 1.7; padding: 0 !important; }
+.page { max-width: none; padding: 0; }
+.layout { display: block; }
+.toc { position: static; max-height: none; overflow: visible; break-after: page; margin-bottom: 0; }
+.toc details { border: 0; padding: 0; background: transparent; }
+.toc summary { list-style: none; font-family: var(--font-display); font-size: 20pt; font-weight: 700; margin-bottom: 8pt; }
+.toc summary::-webkit-details-marker { display: none; }
+.toc ul ul { display: none; }
+.doc { max-width: none; }
+.doc h2 { break-before: page; border-top: 0; margin-top: 0; padding-top: 0; font-size: 19pt; }
+.doc h3 { font-size: 14pt; }
+.doc h2, .doc h3, .doc h4 { break-after: avoid; }
+.table-wrap { overflow: visible; border-radius: 0; }
+.doc table { min-width: 0; font-size: 9pt; }
+.doc th { white-space: normal; }
+.doc tr, .doc blockquote, .night { break-inside: avoid; }
+.hero { break-after: page; border-bottom: 0; padding-top: 60mm; }
+.hero h1 { font-size: 30pt; }
+a { color: #24304d; }
+ }</style></head><body>
+<div class="page">
+
+<header class="hero">
+  <p class="eyebrow">গবেষণা রিপোর্ট · বিজ্ঞান, মনোবিজ্ঞান, কুরআন-হাদীস ও সালাফদের কিতাব</p>
+  <h1>বিজ্ঞান ও সুন্নাহ ঘুম কমাতে নয়, সাজাতে বলে</h1>
+  <p class="lede">অতিরিক্ত ঘুম কমানো, কম সময়ে ভালো ঘুম, আর শেষ রাতে জাগার জন্য বৈজ্ঞানিক গবেষণা, বই, কুরআন-হাদীস, ক্লাসিক কিতাব ও সালাফদের উক্তি: মূল আরবি, সূত্র, নির্ভরযোগ্যতা আর বাংলা অনুবাদের খোঁজসহ।</p>
+  <figure class="night" aria-label="দাউদ আলাইহিস সালামের রাত্রি বিভাজন">
+    <p class="night-cap">দাউদ (আ.)-এর নিয়ম: রাতের অর্ধেক ঘুম, এক-তৃতীয়াংশ নামাজ, এক-ষষ্ঠাংশ আবার ঘুম (বুখারী ১১৩১, মুসলিম ১১৫৯)</p>
+    <div class="night-bar">
+      <div class="seg-sleep">ঘুম · ১/২</div>
+      <div class="seg-qiyam">কিয়াম · ১/৩</div>
+      <div class="seg-sleep2">ঘুম · ১/৬</div>
+    </div>
+    <div class="night-ends"><span>এশা</span><span>ফজর</span></div>
+  </figure>
+</header>
+
+<div class="layout">
+
+<nav class="toc" aria-label="সূচিপত্র">
+  <details open><summary>সূচিপত্র</summary><ul>
+<li><a href="#s1">মান-চিহ্ন ও এই গবেষণার সীমা</a></li>
+<li><a href="#s2">দুই সপ্তাহ ছয়
+ঘণ্টা ঘুম এক রাত না-ঘুমানোর সমান ক্ষতি করে</a>
+<ul>
+<li><a href="#s3">ঐকমত্য: প্রাপ্তবয়স্কের দরকার
+অন্তত ৭ ঘণ্টা</a></li>
+<li><a href="#s4">কম ঘুমে "অভ্যস্ত" হওয়া
+মানে ক্ষতি টের না পাওয়া</a></li>
+<li><a href="#s5">জিনগত স্বল্প-ঘুমের
+মানুষ আছেন, কিন্তু তাঁরা অতি বিরল</a></li>
+<li><a href="#s6">বেশি ঘুমও বিপদসংকেত,
+তবে প্রায়ই অসুখের উপসর্গ</a></li>
+</ul></li>
+<li><a href="#s7">পলিফেজিক
+ঘুমের প্রমাণ নেই, বিভক্ত ঘুম আর ছোট ন্যাপের আছে</a>
+<ul>
+<li><a href="#s8">৪০,৬৭২টি নথি ঘেঁটে
+পলিফেজিকের কোনো উপকার মেলেনি</a></li>
+<li><a href="#s9">সেগমেন্টেড
+ঘুম লম্বা রাতের প্রতিক্রিয়া, ঘুম কমানোর কৌশল নয়</a></li>
+<li><a href="#s10">একই মোট ঘুম দুই
+ভাগে নিলে ক্ষতি নেই, কিছু সুবিধাও আছে</a></li>
+<li><a href="#s11">দশ থেকে বিশ মিনিটের ন্যাপ
+সবচেয়ে দক্ষ</a></li>
+<li><a href="#s12">ঘুমের দক্ষতা
+মানে বিছানায় অপচয় কমানো, ঘুমের চাহিদা নয়</a></li>
+<li><a href="#s13">রমযান
+দেখায়: সময় সরে গেলেও মোট ঘুম রক্ষা করলে সতর্কতা কমে না</a></li>
+</ul></li>
+<li><a href="#s14">ঘুমের বইগুলো "ভালো ঘুম" শেখায়,
+"কম ঘুম" নয়</a>
+<ul>
+<li><a href="#s15">একাডেমিক ও গবেষক-লেখকের বই</a></li>
+<li><a href="#s16">জনপ্রিয়, পলিফেজিক ও মনোবৈজ্ঞানিক
+বই</a></li>
+<li><a href="#s17">অভ্যাস,
+ভোরে ওঠা ও প্রোডাক্টিভিটি: যেগুলো বাংলায় পাওয়া যায়</a></li>
+</ul></li>
+<li><a href="#s18">কুরআন-হাদীস রাতের
+কিছু অংশ জাগতে বলে, পুরো রাত নয়</a>
+<ul>
+<li><a href="#s19">কুরআন
+একসঙ্গে স্বল্প ঘুমের প্রশংসা করে এবং ঘুমকে নিয়ামত বলে</a></li>
+<li><a href="#s20">«مَا يَهْجَعُونَ»: মুফাসসিররা
+ঘুমের ঘণ্টা বেঁধে দেননি</a></li>
+<li><a href="#s21">সহীহ
+হাদীসের আদর্শ: রাতের দুই-তৃতীয়াংশ ঘুম, শেষ ভাগে কিয়াম</a></li>
+<li><a href="#s22">নবী ﷺ-এর ঘুম: ঘণ্টার
+হিসাব নেই, ধরনটা দুই ভাগের</a></li>
+<li><a href="#s23">ঘুমের আদব:
+এশার আগে না ঘুমানো, ভোরের বরকত, কায়লূলা, ডান কাত</a></li>
+<li><a href="#s24">প্রচলিত দুর্বল, জাল ও অযাচাইকৃত
+বর্ণনা</a></li>
+</ul></li>
+<li><a href="#s25">ক্লাসিক
+কিতাবগুলো আট ঘণ্টাকে ঊর্ধ্বসীমা ধরেছে, ঘুম-বর্জনকেও ক্ষতিকর বলেছে</a>
+<ul>
+<li><a href="#s26">আট ঘণ্টার
+নিয়ম: গাযালী থেকে ইবনু জামা'আ ও ইবনুল কাইয়্যিম</a></li>
+<li><a href="#s27">কিয়াম
+সহজ করার কৌশল: কম খাওয়া, দিনে অতি-ক্লান্তি এড়ানো, কায়লূলা</a></li>
+<li><a href="#s28">ইবনুল
+জাওযীর রায়: সারারাত জাগা শরীয়ত ও বিবেক দুটোরই অজ্ঞতা</a></li>
+<li><a href="#s29">মাওয়ারদী,
+ইবনু মুফলিহ ও ইবনু সীনা: ভারসাম্য, দুপুরের ঘুম ও মস্তিষ্কের যত্ন</a></li>
+<li><a href="#s30">তালিবুল ইলমের রাত: আগে ঘুম,
+সাহারে মুখস্থ</a></li>
+<li><a href="#s31">কিতাব-তালিকা:
+কোন গ্রন্থে কী আছে, আর কোনটি বাংলায় আছে</a></li>
+</ul></li>
+<li><a href="#s32">সালাফের যে
+ঘটনাগুলো সবচেয়ে প্রচলিত, সেগুলোই সবচেয়ে দুর্বল</a>
+<ul>
+<li><a href="#s33">সহীহ সূত্রে
+সাহাবীদের আমল: ভাগ করা রাত, শেষ রাতে ওঠা</a></li>
+<li><a href="#s34">ইমামদের
+নির্ভরযোগ্য বর্ণনা: ঘুম ছিল, তবে ভাঙা ও ভাগ করা</a></li>
+<li><a href="#s35">"চল্লিশ বছর এশার
+ওযুতে ফজর": সনদ পরীক্ষায় ভেঙে পড়ে</a></li>
+<li><a href="#s36">আলেমরা নিজেরাই
+বাড়াবাড়ির সমালোচনা করেছেন</a></li>
+<li><a href="#s37">সময়
+বাঁচানোর প্রামাণিক দৃষ্টান্ত ঘুম কমানো নয়, খাওয়া ও আড্ডা কমানো</a></li>
+<li><a href="#s38">সারণি: প্রচলিত উক্তি ও ঘটনার
+মান</a></li>
+</ul></li>
+<li><a href="#s39">বাংলায় ইসলামি
+ক্লাসিক অনেক, ঘুম-বিজ্ঞান প্রায় নেই</a>
+<ul>
+<li><a href="#s40">বাংলায় অনূদিত ইসলামি উৎস</a></li>
+<li><a href="#s41">বাংলায় যা পাওয়া যায়নি</a></li>
+<li><a href="#s42">বিনামূল্যে ও বৈধভাবে পড়া
+যায় এমন বাংলা উৎস</a></li>
+</ul></li>
+<li><a href="#s43">সুন্নাহ ও বিজ্ঞান
+মিলিয়ে অতিরিক্ত ঘুম কমানোর পরিকল্পনা</a>
+<ul>
+<li><a href="#s44">ধাপে ধাপে
+পরিকল্পনা</a></li>
+<li><a href="#s45">একটি
+উদাহরণ-সূচি</a></li>
+</ul></li>
+<li><a href="#s46">উপসংহার</a></li>
+</ul></details>
+</nav>
+
+<main><article class="doc">
+
+<p>আধুনিক ঘুম-বিজ্ঞান আর বিশুদ্ধ ইসলামি উৎস একই সিদ্ধান্তে পৌঁছায়: একজন সুস্থ
+প্রাপ্তবয়স্কের মোট ঘুম প্রায় ৭ থেকে ৮ ঘণ্টার নিচে নিয়মিত নামিয়ে আনা নিরাপদও
+নয়, সুন্নাহও নয়। যা কমানো দরকার, তা হলো প্রয়োজনের অতিরিক্ত ঘুম, বিছানায় জেগে
+বা ঝিমিয়ে কাটানো সময়, আর ভুল সময়ের ঘুম। সেই সঙ্গে ঘুমকে ভাগ করে নিতে হবে:
+রাতের প্রথম ভাগে মূল ঘুম, শেষ রাতে কিয়াম, দরকারে ফজরের আগে অল্প ঘুম, আর দুপুরে
+ছোট কায়লূলা। বিজ্ঞানের দিকে আমেরিকান একাডেমি অব স্লিপ মেডিসিন প্রাপ্তবয়স্কের
+জন্য <strong>৭ ঘণ্টা বা তার বেশি</strong> এবং ন্যাশনাল স্লিপ ফাউন্ডেশন
+<strong>৭ থেকে ৯ ঘণ্টা</strong> সুপারিশ করে (<a href="https://www.aasm.org/resources/pdf/adultsleepdurationconsensus.pdf" rel="noopener">AASM</a>;
+<a href="https://www.eurekalert.org/news-releases/554948" rel="noopener">NSF</a>)।
+ল্যাব-গবেষণায় টানা দুই সপ্তাহ ৬ ঘণ্টা ঘুমানোর পর মনোযোগের ক্ষতি <strong>এক রাত
+পুরো না ঘুমানোর সমান</strong> হয়েছে, অথচ অংশগ্রহণকারীরা তা প্রায় টেরই পাননি
+(<a href="https://www.gwern.net/doc/melatonin/2003-vandongen.pdf" rel="noopener">Van
+Dongen 2003</a>)। ২০২১ সালের একটি কনসেনসাস প্যানেল পলিফেজিক ঘুমের
+<strong>কোনো উপকারের প্রমাণ পায়নি</strong> (<a href="https://pubmed.ncbi.nlm.nih.gov/33795195/" rel="noopener">Weaver 2021</a>)।
+ইসলামি দিকে, আল্লাহর কাছে সবচেয়ে প্রিয় দাঊদ (আ.)-এর নামাযে <strong>রাতের
+দুই-তৃতীয়াংশই ঘুম</strong> (<a href="https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-bukhari/1131.json" rel="noopener">বুখারী
+১১৩১</a>)। আয়িশা (রা.) জানান, নবী <span class="ar" dir="rtl" lang="ar">ﷺ</span> কখনো সকাল পর্যন্ত সারারাত নামায পড়েননি
+(<a href="https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-muslim/1739.json" rel="noopener">মুসলিম
+৭৪৬</a>)। গাযালী, ইবনু জামা'আ ও ইবনুল কাইয়্যিম দিনে-রাতে <strong>আট
+ঘণ্টাকে</strong> ঘুমের ঊর্ধ্বসীমা বা সবচেয়ে ভারসাম্যপূর্ণ মাত্রা বলেছেন, আর ইবনুল
+কাইয়্যিম অতিরিক্ত ঘুম ও ঘুম-বর্জন দুটোকেই ক্ষতিকর বলেছেন (<a href="https://shamela.ws/book/199/828" rel="noopener">মাদারিজুস সালিকীন</a>)। বাংলা ওয়াজ
+ও বইয়ে সালাফের যেসব নাটকীয় ঘটনা সবচেয়ে বেশি প্রচলিত, যেমন "চল্লিশ বছর এশার
+ওযুতে ফজর" বা "দিনরাতে হাজার রাকআত", সেগুলোর বড় অংশ সনদ-বিচারে দুর্বল বা
+অতিরঞ্জিত; ইবনে তাইমিয়া নিজেই লিখেছেন এ ধরনের বর্ণনার <span class="ar" dir="rtl" lang="ar">«كثيرا من المنقول من
+ذلك ضعيف»</span> (অনেকগুলোই দুর্বল) (<a href="https://shamela.ws/book/7289/11340" rel="noopener">মাজমূউল ফাতাওয়া ২২/৩০৩</a>)।
+বাংলায় ইসলামি ক্লাসিকের অনুবাদ প্রচুর, যেমন এহইয়াউ উলুমিদ্দীন, মাদারিজুস
+সালিকীন, তালবীসে ইবলীস, সাইদুল খাতির, ইবনু আবিদ দুনইয়ার তাহাজ্জুদ-গ্রন্থ ও আবু
+গুদ্দাহর সময়ের মূল্য; কিন্তু ঘুম-বিজ্ঞান বা ঘুমের মনোবিজ্ঞানের (CBT-I) কোনো
+প্রামাণিক বইয়ের বাংলা অনুবাদ এই অনুসন্ধানে মেলেনি, পাওয়া যায় মূলত অভ্যাস ও
+প্রোডাক্টিভিটির বই। যিনি ৯ থেকে ১০ ঘণ্টা ঘুমিয়েও ক্লান্ত থাকেন, তাঁর প্রথম কাজ
+ঘুম কাটা নয়, ডাক্তার দেখানো; কারণ বিষণ্ণতা, স্লিপ অ্যাপনিয়া বা থাইরয়েডের মতো
+অসুখ প্রায়ই এর পেছনে থাকে (<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3755488" rel="noopener">Grandner &amp;
+Drummond</a>)।</p>
+<h2 id="s1">মান-চিহ্ন ও এই গবেষণার সীমা</h2>
+<p>এই রিপোর্টে প্রতিটি হাদীস, আসার ও বৈজ্ঞানিক দাবির পাশে তার নির্ভরযোগ্যতা
+লেখা আছে, যাতে প্রেরণাদায়ী গল্প আর প্রমাণিত তথ্য আলাদা করে চেনা যায়।
+বৈজ্ঞানিক তথ্যের ক্ষেত্রে <strong>শক্তিশালী</strong> মানে কনসেনসাস বিবৃতি, বড়
+মেটা-অ্যানালাইসিস বা পুনরাবৃত্ত ল্যাব-গবেষণা; <strong>মাঝারি</strong> মানে
+একটি সুনিয়ন্ত্রিত গবেষণা বা কয়েকটি ছোট কিন্তু সামঞ্জস্যপূর্ণ গবেষণা;
+<strong>দুর্বল</strong> মানে ছোট, পর্যবেক্ষণমূলক বা কেবল অভিজ্ঞতাভিত্তিক তথ্য।
+ইসলামি বর্ণনার জন্য নিচের চিহ্নগুলো ব্যবহার করা হয়েছে।</p>
+<div class="table-wrap"><table>
+<thead>
+<tr class="header">
+<th>চিহ্ন</th>
+<th>অর্থ</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>সহীহ / হাসান</td>
+<td>সহীহ হাদীসগ্রন্থে আছে, অথবা কোনো ইমাম বা মুহাক্কিক সনদকে স্পষ্টভাবে সহীহ
+বা হাসান বলেছেন</td>
+</tr>
+<tr class="even">
+<td>নির্ভরযোগ্য আরোপ</td>
+<td>প্রত্যক্ষদর্শী ছাত্র বা পরিবারের সদস্যের সনদসহ বর্ণনা, অথবা লেখকের নিজের
+গ্রন্থ থেকে সরাসরি পাঠ</td>
+</tr>
+<tr class="odd">
+<td>সনদসহ, পূর্ণ যাচাই হয়নি</td>
+<td>প্রাথমিক গ্রন্থে সনদ আছে, কিন্তু প্রত্যেক বর্ণনাকারীর মান আলাদা করে যাচাই
+হয়নি</td>
+</tr>
+<tr class="even">
+<td>সনদহীন</td>
+<td>কেবল সনদবিহীন সংকলনে পাওয়া গেছে, যেমন কূতুল কুলূব, ইহইয়া, আদব-সাহিত্য বা
+তাফসীরের উদ্ধৃতি</td>
+</tr>
+<tr class="odd">
+<td>যঈফ / খুবই দুর্বল / জাল</td>
+<td>মুহাদ্দিসদের রায় বা সনদের প্রমাণিত ত্রুটির কারণে দলিল হিসেবে
+অগ্রহণযোগ্য</td>
+</tr>
+<tr class="even">
+<td>অতিরঞ্জিত</td>
+<td>সংখ্যা বা দাবি অস্বাভাবিক, অথবা আলেমরা নিজেরাই এর সমালোচনা করেছেন</td>
+</tr>
+<tr class="odd">
+<td>অযাচাইকৃত</td>
+<td>এই গবেষণায় মূল উৎসে মেলানো যায়নি</td>
+</tr>
+</tbody>
+</table></div>
+<p>কয়েকটি সীমা মাথায় রাখা দরকার। dorar.net ও sunnah.com এই গবেষণা-পরিবেশ
+থেকে সরাসরি খোলা যায়নি; তাই হাদীসের আরবি পাঠ, নম্বর এবং আলবানী, শু'আইব
+আল-আরনাঊত, আহমাদ শাকির প্রমুখের গ্রেডিং মেলানো হয়েছে sunnah.com-ভিত্তিক একটি
+উন্মুক্ত ডেটাসেট থেকে (<a href="https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-bukhari/1131.json" rel="noopener">hadith-api</a>)।
+ক্লাসিক কিতাবের প্রায় সব আরবি উদ্ধৃতি শামেলার মূল পৃষ্ঠা খুলে মেলানো। বুখারী ও
+মুসলিমের নম্বর মুহাম্মাদ ফুআদ আবদুল বাকী পদ্ধতির; বাংলা মুদ্রণে নম্বর আলাদা হতে
+পারে, যেমন বুখারী ১১৩১ আধুনিক প্রকাশনীর সংস্করণে ১০৬০। কুরআনের বাংলা অর্থ ড.
+আবু বকর মুহাম্মাদ যাকারিয়ার অনুবাদ থেকে নেওয়া, মূল অনুবাদের টীকা-চিহ্ন বাদ দিয়ে
+(<a href="https://cdn.jsdelivr.net/gh/fawazahmed0/quran-api@1/editions/ben-abubakrzakaria/51/15.json" rel="noopener">quran-api</a>)।
+রকমারি ও ওয়াফিলাইফ স্বয়ংক্রিয়ভাবে খোলা যায়নি, তাই কিছু বাংলা বইয়ের
+অনুবাদক-প্রকাশকের তথ্য সার্চ-স্নিপেট থেকে নেওয়া; কেনার আগে মিলিয়ে নেওয়া ভালো।
+কোনো বইয়ের ক্ষেত্রে "বাংলায় পাওয়া যায়নি" লেখার অর্থ এই অনুসন্ধানে মেলেনি,
+বইটির অস্তিত্ব নেই এমন প্রমাণ নয়।</p>
+<h2 id="s2">দুই সপ্তাহ ছয়
+ঘণ্টা ঘুম এক রাত না-ঘুমানোর সমান ক্ষতি করে</h2>
+<h3 id="s3">ঐকমত্য: প্রাপ্তবয়স্কের দরকার
+অন্তত ৭ ঘণ্টা</h3>
+<p>২০১৫ সালে দুটি বড় বিশেষজ্ঞ প্যানেল আলাদাভাবে প্রায় একই সিদ্ধান্তে পৌঁছেছিল।
+আমেরিকান একাডেমি অব স্লিপ মেডিসিন ও স্লিপ রিসার্চ সোসাইটির ১৫ সদস্যের যৌথ
+প্যানেল লিখেছে, "Adults should sleep 7 or more hours per night on a
+regular basis to promote optimal health", অর্থাৎ সর্বোত্তম স্বাস্থ্যের জন্য
+প্রাপ্তবয়স্কদের নিয়মিত রাতে ৭ ঘণ্টা বা তার বেশি ঘুমানো উচিত। প্যানেলের মতে
+<strong>৬ ঘণ্টা বা তার কম ঘুম স্বাস্থ্য ও নিরাপত্তা রক্ষায় অপর্যাপ্ত</strong>।
+কোনো ঊর্ধ্বসীমা তারা বেঁধে দেয়নি; তরুণ, ঘুম-ঋণ পূরণে থাকা বা অসুস্থ মানুষের জন্য ৯
+ঘণ্টার বেশিও "উপযুক্ত হতে পারে" বলেছে (<a href="https://www.aasm.org/resources/pdf/adultsleepdurationconsensus.pdf" rel="noopener">AASM
+consensus</a>)। ন্যাশনাল স্লিপ ফাউন্ডেশনের ১৮ সদস্যের প্যানেল ১৮ থেকে ৬৪ বছর
+বয়সীদের জন্য <strong>৭ থেকে ৯ ঘণ্টা</strong>, ৬৫-ঊর্ধ্বদের জন্য ৭ থেকে ৮ ঘণ্টা
+এবং কিশোরদের জন্য ৮ থেকে ১০ ঘণ্টা সুপারিশ করেছে। প্যানেলটি আরও বলেছে,
+অভ্যাসগতভাবে এই সীমার বাইরে ঘুমানো গুরুতর স্বাস্থ্যসমস্যার লক্ষণ হতে পারে (<a href="https://www.eurekalert.org/news-releases/554948" rel="noopener">EurekAlert</a>;
+<a href="https://profiles.wustl.edu/en/publications/national-sleep-foundations-sleep-time-duration-recommendations-me/" rel="noopener">WashU</a>)।
+মান: <strong>শক্তিশালী</strong>।</p>
+<h3 id="s4">কম ঘুমে "অভ্যস্ত" হওয়া
+মানে ক্ষতি টের না পাওয়া</h3>
+<p>যারা নিজেকে ধীরে ধীরে কম ঘুমে "ট্রেনিং" দিতে চান, তাঁদের জন্য সবচেয়ে
+গুরুত্বপূর্ণ গবেষণাটি ২০০৩ সালের। ভ্যান ডঙ্গেন ও সহকর্মীরা ২১ থেকে ৩৮ বছর বয়সী
+৪৮ জন সুস্থ মানুষকে টানা ১৪ দিন ৪, ৬ বা ৮ ঘণ্টা বিছানায় থাকতে দেন এবং ল্যাবে
+নিরবচ্ছিন্নভাবে পর্যবেক্ষণ করেন। ৪ ও ৬ ঘণ্টার দলে সব পরীক্ষায় ক্রমবর্ধমান ও
+মাত্রানির্ভর ক্ষতি দেখা গেছে। <strong>দুই সপ্তাহ ৬ ঘণ্টা ঘুমের পর মনোযোগের
+বিচ্যুতি ও কর্মস্মৃতির ঘাটতি এক রাত পুরো না ঘুমানোর সমান</strong>, আর ৪ ঘণ্টার
+দলে দুই রাত না ঘুমানোর সমান হয়েছে। সবচেয়ে চিন্তার কথা, নিজের ঘুমঘুম ভাব প্রথমে
+বেড়ে প্রায় স্থির হয়ে গিয়েছিল এবং গবেষকদের ভাষায় অংশগ্রহণকারীরা "largely
+unaware of these increasing cognitive deficits", অর্থাৎ বাড়তে থাকা ক্ষতি
+সম্পর্কে প্রায় অজ্ঞ ছিলেন। গবেষকদের মডেল অনুযায়ী, এই নমুনায় ক্ষতি জমা না হতে
+দিতে গড়ে দৈনিক প্রায় <strong>৮.১৬ ঘণ্টা</strong> ঘুম দরকার ছিল (<a href="https://www.gwern.net/doc/melatonin/2003-vandongen.pdf" rel="noopener">Van Dongen
+2003</a>; <a href="https://pubmed.ncbi.nlm.nih.gov/12683469/" rel="noopener">PubMed</a>)। মান:
+<strong>শক্তিশালী</strong>।</p>
+<p>একই বছর ওয়াল্টার রিড আর্মি ইনস্টিটিউটের বেলেনকি ও সহকর্মীরা ৩, ৫, ৭ ও ৯
+ঘণ্টার দলকে সাত দিন পর্যবেক্ষণ করেন। ৫ ও ৭ ঘণ্টার দলের কর্মক্ষমতা প্রথমে কমে,
+তারপর একটি নিচু স্তরে স্থির হয়; তিন রাত ৮ ঘণ্টা ঘুমিয়েও তারা আগের অবস্থায়
+ফেরেনি। শুধু ৯ ঘণ্টার দল স্বাভাবিক ছিল। গবেষকদের সিদ্ধান্ত: মস্তিষ্ক দীর্ঘ
+ঘুম-সংকোচনে "মানিয়ে নেয়" ঠিকই, কিন্তু স্বাভাবিক কর্মক্ষমতা ফিরিয়ে এনে নয়, বরং
+<strong>নিচু স্তরে স্থির হয়ে</strong> (<a href="https://pubmed.ncbi.nlm.nih.gov/12603781/" rel="noopener">Belenky 2003</a>)।
+ক্লারম্যান ও ডাইক (২০০৫) দেখিয়েছেন, যারা অভ্যাসগতভাবে কম ঘুমান তাঁদের বেশি
+ঘুমের সুযোগ দিলে তাঁরাই বেশি ঘুমান; অর্থাৎ ব্যক্তিভেদে ঘুমের পার্থক্যের বড় অংশ কম
+চাহিদা নয়, বরং <strong>নিজে বেছে নেওয়া ঘুম-ঘাটতি</strong> (<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC1351048" rel="noopener">Klerman &amp;
+Dijk 2005</a>)। ১৯৭৭ সালে ধীরে ধীরে ঘুম কমানোর কিছু ছোট গবেষণা হয়েছিল (<a href="https://scilit.net/publications/366cced32bdff1f72094be9a428f4c67" rel="noopener">Scilit</a>),
+তবে সেগুলোর ফল এই গবেষণায় মূল প্রবন্ধ থেকে যাচাই হয়নি
+(<strong>অযাচাইকৃত</strong>)। প্রাপ্তবয়স্কদের দীর্ঘমেয়াদে "ঘুমের চাহিদা কমিয়ে
+আনার প্রশিক্ষণ" নিয়ে কোনো নিয়ন্ত্রিত ট্রায়াল পাওয়া যায়নি। এই তিনটি গবেষণা
+মিলিয়ে বড় শিক্ষাটি হলো: <strong>"আমার তো কোনো সমস্যা হচ্ছে না" অনুভূতিটি
+অভিযোজনের প্রমাণ নয়।</strong></p>
+<h3 id="s5">জিনগত স্বল্প-ঘুমের
+মানুষ আছেন, কিন্তু তাঁরা অতি বিরল</h3>
+<p>কিছু পরিবারে বিরল জিন-পরিবর্তন পাওয়া গেছে, যার বাহকেরা প্রায় ৪ থেকে ৬.৫
+ঘণ্টা ঘুমিয়েই সতেজ বোধ করেন এবং কোনো স্পষ্ট ক্ষতি দেখা যায় না। ২০০৯ সালে DEC2
+(BHLHE41) জিনের P385R পরিবর্তনের দুই বাহক গড়ে <strong>৬.২৫ ঘণ্টা</strong>
+ঘুমাতেন, অথচ পরিবারের অন্যরা ৮.০৬ ঘণ্টা (<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2884988" rel="noopener">He et al.
+2009</a>)। পরে ADRB1 (<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6763376" rel="noopener">Shi et al.
+2019</a>), NPSR1 (<a href="https://ucsf.edu/news/2019/10/415706/new-gene-helps-explain-why-some-people-need-less-sleep" rel="noopener">UCSF
+2019</a>), GRM1 (<a href="https://knowablemagazine.org/content/article/mind/2024/genetics-of-people-who-need-little-sleep" rel="noopener">Knowable
+Magazine</a>) ও ২০২৫ সালে SIK3 (<a href="https://www.nationalgeographic.com/health/article/natural-short-sleepers-genetics-sleep-need" rel="noopener">National
+Geographic</a>) জিনও যুক্ত হয়েছে। NPSR1-এর একটি পরিবর্তন আনুমানিক
+<strong>প্রতি ৪০ লাখে একজনের</strong> মধ্যে থাকে বলে জানানো হয়েছে (<a href="https://ucsf.edu/news/2019/10/415706/new-gene-helps-explain-why-some-people-need-less-sleep" rel="noopener">UCSF
+2019</a>)। "আমেরিকানদের ৩ শতাংশ স্বাভাবিক স্বল্প-ঘুমের" জাতীয় যে সংখ্যা
+প্রচলিত, তার কোনো উৎস নেই (<a href="https://www.scientificamerican.com/article/why-do-some-people-need-just-four-to-six-hours-of-sleep/" rel="noopener">Scientific
+American</a>)। গবেষকদের সংজ্ঞায় এঁরা আজীবন ৪ থেকে ৬ ঘণ্টা ঘুমিয়ে নিজে থেকে
+সতেজ অবস্থায় জেগে ওঠেন (<a href="https://www.nationalgeographic.com/health/article/natural-short-sleepers-genetics-sleep-need" rel="noopener">National
+Geographic</a>)। এ থেকে অনুমান করা যায়, কেউ এই দলের কি না তা বোঝার একমাত্র
+ব্যবহারিক উপায় হলো শৈশব থেকে একই ধারা, ছুটির দিনে অ্যালার্ম ছাড়া একই সময়ে
+জাগা, সপ্তাহান্তে "ঘুম পুষিয়ে নেওয়া" না লাগা এবং দিনে কোনো ঝিমুনি না থাকা।
+মান: জিন-আবিষ্কার <strong>মাঝারি</strong> (খুব ছোট নমুনা, তবে প্রাণী-মডেলে
+সমর্থিত)।</p>
+<h3 id="s6">বেশি ঘুমও বিপদসংকেত,
+তবে প্রায়ই অসুখের উপসর্গ</h3>
+<p>জনসংখ্যাভিত্তিক মেটা-অ্যানালাইসিসে কম ও বেশি দুই রকম ঘুমই বেশি মৃত্যুঝুঁকির
+সঙ্গে যুক্ত। ১৬টি গবেষণার প্রায় ১৩.৮ লাখ মানুষের তথ্যে কম ঘুমের আপেক্ষিক ঝুঁকি
+<strong>১.১২</strong> এবং দীর্ঘ ঘুমের <strong>১.৩০</strong> পাওয়া গেছে (<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2864873/" rel="noopener">Cappuccio
+2010</a>)। শুধু দীর্ঘ ঘুম নিয়ে ১৩৭টি কোহর্ট ও প্রায় ৫১ লাখ মানুষের বিশ্লেষণে
+মৃত্যুঝুঁকি <strong>১.৩৯</strong> (<a href="https://pubmed.ncbi.nlm.nih.gov/28890167/" rel="noopener">Jike 2018</a>)। তবে
+এগুলো পর্যবেক্ষণমূলক তথ্য। গ্র্যান্ডনার ও ড্রামন্ডের পর্যালোচনা দেখায়, দীর্ঘ ঘুমের
+সঙ্গে মৃত্যুর সম্পর্কের পেছনে বিষণ্ণতা, স্লিপ অ্যাপনিয়া, হৃদরোগ ও সাধারণ অসুস্থতা
+থাকতে পারে; অর্থাৎ দীর্ঘ ঘুম প্রায়ই <strong>কারণ নয়, উপসর্গ</strong> (<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3755488" rel="noopener">Grandner &amp;
+Drummond 2007</a>)। মান: সম্পর্ক <strong>শক্তিশালী</strong>, কার্যকারণ
+<strong>অনিশ্চিত</strong>।</p>
+<p>"বেশি ঘুমানো মানুষ" আর "হাইপারসমনিয়া" এক নয়। স্বভাবগতভাবে বেশি ঘুমানো
+মানুষ লম্বা ঘুমের পর সতেজ থাকেন; হাইপারসমনিয়ায় যত ঘুমানোই হোক, ক্লান্তি যায়
+না। কারণের তালিকায় আছে দীর্ঘস্থায়ী অপর্যাপ্ত ঘুম, স্লিপ অ্যাপনিয়া, নারকোলেপসি,
+ওষুধ, বিষণ্ণতা, অনিয়মিত সময়সূচি, হাইপোথাইরয়েডিজম, রক্তস্বল্পতা এবং আয়রন, বি১২
+বা ভিটামিন ডি-র ঘাটতি; কোনো কারণ না পেলে এবং উপসর্গ তিন মাসের বেশি থাকলে
+ইডিওপ্যাথিক হাইপারসমনিয়া ধরা হয় (<a href="https://www.sleepfoundation.org/sleep-disorders/excessive-sleepiness" rel="noopener">Sleep
+Foundation</a>; <a href="https://www.sleepfoundation.org/hypersomnia/tests-and-diagnosis" rel="noopener">Sleep
+Foundation: diagnosis</a>; <a href="https://www.mymlc.com/health-information/definitions/h/hypersomnia/" rel="noopener">Mayo
+Clinic Care Network</a>)। মেজর ডিপ্রেশনের <strong>প্রায় ৩০ শতাংশ</strong>
+রোগীর হাইপারসমনিয়া থাকে, এবং তা দীর্ঘতর ও চিকিৎসা-প্রতিরোধী বিষণ্ণতার সঙ্গে
+যুক্ত (<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4564254" rel="noopener">PMC4564254</a>)।
+অতিরিক্ত ঘুমসহ "অ্যাটিপিক্যাল ডিপ্রেশন" বিষণ্ণতার রোগীদের ১৫ থেকে ৪০ শতাংশের
+মধ্যে দেখা যায় (<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3361575" rel="noopener">PMC3361575</a>),
+আর সাধারণ জনগোষ্ঠীতে দিনের অতিরিক্ত ঘুমঘুম ভাব সংজ্ঞাভেদে ৪ থেকে ৩০ শতাংশ (<a href="https://www.biomedcentral.com/1741-7015/11/78" rel="noopener">BMC Medicine
+2013</a>)। এখান থেকেই এই রিপোর্টের প্রথম ব্যবহারিক শিক্ষা আসে: বেশি ঘুম প্রায়ই
+চরিত্রের দুর্বলতা নয়, চিকিৎসাযোগ্য অবস্থার লক্ষণ।</p>
+<h2 id="s7">পলিফেজিক
+ঘুমের প্রমাণ নেই, বিভক্ত ঘুম আর ছোট ন্যাপের আছে</h2>
+<h3 id="s8">৪০,৬৭২টি নথি ঘেঁটে
+পলিফেজিকের কোনো উপকার মেলেনি</h3>
+<p>"উবারম্যান" (প্রতি চার ঘণ্টায় একটি ছোট ন্যাপ, দিনে মোট প্রায় ২ থেকে ৩
+ঘণ্টা) ও "এভরিম্যান" (প্রায় ৩ ঘণ্টার মূল ঘুম আর তিনটি ২০ মিনিটের ন্যাপ, মোট
+প্রায় ৪ ঘণ্টা) পদ্ধতি ইন্টারনেটে "কম ঘুমে বেশি কাজ"-এর প্রতীক (<a href="https://en.wikipedia.org/wiki/Polyphasic_sleep" rel="noopener">Wikipedia:
+Polyphasic sleep</a>; <a href="https://sleep.com/sleep-health/polyphasic-sleep" rel="noopener">Sleep.com</a>)।
+ন্যাশনাল স্লিপ ফাউন্ডেশনের কনসেনসাস প্যানেল ২০২১ সালে ৪০,৬৭২টি নথি যাচাই
+করে, ২,০২৩টি পূর্ণপাঠে পড়ে, ২২টি প্রাসঙ্গিক গবেষণা রাখে। তাদের সিদ্ধান্ত:
+পলিফেজিক সূচির <strong>কোনো উপকারের প্রমাণ নেই</strong>, বরং এসব সূচি এবং
+"এর মধ্যে অন্তর্নিহিত ঘুম-ঘাটতি" শারীরিক, মানসিক ও কর্মক্ষমতার নানা ক্ষতির সঙ্গে
+যুক্ত; ২৪ ঘণ্টায় ঘুম উল্লেখযোগ্যভাবে কমানো বা অনেক টুকরোয় ভাগ করার চেষ্টা "not
+recommended" (<a href="https://pubmed.ncbi.nlm.nih.gov/33795195/" rel="noopener">Weaver
+2021</a>)। লক্ষণীয়, প্যানেল দুপুরের ন্যাপ ও সিয়েস্তাকে পলিফেজিকের সংজ্ঞা থেকে
+বাদ রেখেছে। মান: <strong>শক্তিশালী (নেতিবাচক)</strong>।</p>
+<p>এই ধারার একমাত্র প্রকৃত বিজ্ঞানী ক্লদিও স্ট্যাম্পি একা সমুদ্রযাত্রী নাবিক ও দীর্ঘ
+সামরিক অভিযানে অনিবার্য ঘুম-ঘাটতির ক্ষতি কমাতে ছোট ন্যাপ নিয়ে কাজ করেছেন;
+তিনি একে জীবনযাপনের পদ্ধতি হিসেবে প্রচার করেননি (<a href="https://en.wikipedia.org/wiki/Polyphasic_sleep" rel="noopener">Wikipedia:
+Polyphasic sleep</a>; <a href="https://en.wikipedia.org/wiki/Why_We_Nap" rel="noopener">Wikipedia: Why We
+Nap</a>)। গবেষকদের সতর্কতা হিসেবে উদ্ধৃত হয়েছে, স্বাভাবিক ঘুমের বদলে আল্ট্রাশর্ট
+ঘুম দিয়ে চললে কর্মক্ষমতা পূর্ণ বিশ্রামপ্রাপ্তদের চেয়ে "always well below" থাকে
+(<a href="https://wikipedia.com/wiki/Bimodal_sleep" rel="noopener">Wikipedia</a>)।
+স্ট্যাম্পি আরও সতর্ক করেছেন, ৫০ মিনিটের ন্যাপে ২০ বা ৮০ মিনিটের চেয়ে বেশি
+ঘুমজড়তা হয় (<a href="https://sailmagazine.com/cruising/sleep-and-seamanship/" rel="noopener">Sail
+Magazine</a>)। সবচেয়ে আলোচিত ব্যক্তিগত পরীক্ষাটি ব্লগার স্টিভ পাভলিনার; প্রায়
+পাঁচ-ছয় মাস উবারম্যান অনুসরণ করে তিনি ছেড়ে দেন, আর এক বছর পর লেখেন তাঁর ঘুম
+আগের মতো "wasn't quite the same" (<a href="https://stevepavlina.com/blog/2006/04/polyphasic-sleep-the-return-to-monophasic/" rel="noopener">Pavlina
+2006</a>; <a href="https://stevepavlina.com/blog/2007/03/polyphasic-sleep-one-year-later/" rel="noopener">Pavlina
+2007</a>)। সুপারমেমো-স্রষ্টা পিওতর ভোজনিয়াকের বহুল-পঠিত সমালোচনা উবারম্যানকে
+দেহঘড়ি ও ঘুমের চাপ-নিয়ন্ত্রণের সঙ্গে সাংঘর্ষিক দীর্ঘস্থায়ী ঘুম-বঞ্চনা বলেছে (<a href="https://www.supermemo.com/en/blog/polyphasic" rel="noopener">SuperMemo</a>)।</p>
+<h3 id="s9">সেগমেন্টেড
+ঘুম লম্বা রাতের প্রতিক্রিয়া, ঘুম কমানোর কৌশল নয়</h3>
+<p>মুসলিম লেখকেরা প্রায়ই "প্রথম ঘুম ও দ্বিতীয় ঘুম"-এর ইতিহাস টেনে তাহাজ্জুদকে
+স্বাভাবিক জাগরণ হিসেবে দেখান; তাই এই গবেষণাগুলো সঠিকভাবে বোঝা দরকার। ১৯৯২
+সালে টমাস ওয়েহরের পরীক্ষায় স্বেচ্ছাসেবকদের ১৪ ঘণ্টা অন্ধকারে রাখলে ঘুম লম্বা হয়
+এবং সাধারণত মাঝে ১ থেকে ৩ ঘণ্টা জাগরণসহ দুই ভাগে ভাগ হয়ে যায় (<a href="https://pubmed.ncbi.nlm.nih.gov/10607034/" rel="noopener">Wehr 1992</a>)।
+ইতিহাসবিদ রজার একার্চ প্রাক-শিল্পযুগের ইউরোপে "প্রথম ঘুম" ও "দ্বিতীয় ঘুম"-এর বহু
+সাক্ষ্য সংগ্রহ করেছেন (<a href="https://sites.google.com/vt.edu/roger-ekirch/sleep-research" rel="noopener">Ekirch</a>)।
+কিন্তু ২০২৩ সালে নিয়াল বয়েস তত্ত্বটি পুনর্বিবেচনার দাবি তোলেন (<a href="https://resolve.cambridge.org/core/services/aop-cambridge-core/content/view/B70D0BFF8E77CFB81A839E9B72240CF2/S0025727323000145a.pdf/have-we-lost-sleep-a-reconsideration-of-segmented-sleep-in-early-modern-england.pdf" rel="noopener">Boyce
+2023</a>), আর একার্চ ২০২৪ সালের জবাবে মেনে নেন যে একটানা ঘুমে রূপান্তর তাঁর
+আগের ধারণার চেয়ে দেরিতে ও অসমভাবে ঘটেছিল (<a href="https://www.cambridge.org/core/services/aop-cambridge-core/content/view/85ACD24ADCEEA5725E3CADC63DB58922/S0025727324000206a.pdf/reflections-on-have-we-lost-sleep.pdf" rel="noopener">Ekirch
+2024</a>)। তানজানিয়া, নামিবিয়া ও বলিভিয়ার তিনটি শিল্পপূর্ব সমাজে
+অ্যাক্টিগ্রাফি দিয়ে মাপা ঘুম ছিল গড়ে <strong>৫.৭ থেকে ৭.১ ঘণ্টা</strong>,
+ঘুমের পরিসর ৬.৯ থেকে ৮.৫ ঘণ্টা; রাতে নিয়মিত জাগরণ ছিল না, যা "দ্বিতীয়
+ঘুম"-এর অনুপস্থিতির সঙ্গে সামঞ্জস্যপূর্ণ; দুপুরের ঘুম ছিল বিরল; আর নিয়মিত অনিদ্রার
+হার মাত্র ১.৫ থেকে ২.৫ শতাংশ (<a href="https://gurven.anth.ucsb.edu/sites/secure.lsit.ucsb.edu.anth.d7_gurven/files/sitefiles/papers/yetishetal2015.pdf" rel="noopener">Yetish
+2015</a>)। এর সারকথা: বিভক্ত ঘুম লম্বা অন্ধকার রাতের একটি সম্ভাব্য প্রতিক্রিয়া,
+সব মানুষের "প্রাকৃতিক" ধরন নয়; আর এর কোনো গবেষণাই দেখায় না যে মোট ঘুম কমানো
+যায়, বরং ওয়েহরের অংশগ্রহণকারীরা বেশি ঘুমিয়েছিলেন। তবে এটুকু স্পষ্ট যে রাতে
+একবার জেগে আবার ঘুমিয়ে পড়া, যদি সকালে সতেজ লাগে, কোনো অসুখ নয়। মান: ওয়েহর
+ও ইয়েটিশ <strong>মাঝারি</strong>, একার্চের শারীরবৃত্তীয় ব্যাখ্যা
+<strong>বিতর্কিত</strong>।</p>
+<h3 id="s10">একই মোট ঘুম দুই
+ভাগে নিলে ক্ষতি নেই, কিছু সুবিধাও আছে</h3>
+<p>সিঙ্গাপুরের ডিউক-এনইউএস ল্যাবের দুটি গবেষণা কিশোরদের নিয়ে। ১১৮ জন ১৫ থেকে
+১৯ বছর বয়সীর মধ্যে যারা রাতে ৫ ঘণ্টা আর দুপুরে ১.৫ ঘণ্টা ঘুমিয়েছিল (মোট ৬.৫
+ঘণ্টা), তাদের একটি স্মৃতি-পরীক্ষার ফল ৯ ঘণ্টা ঘুমানো দলের সমান ছিল, অথচ টানা
+৬.৫ ঘণ্টার দল পিছিয়ে ছিল (<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6448285" rel="noopener">Cousins
+2019</a>)। আরেকটি গবেষণায় পাঁচ রাত ধরে বিভক্ত ঘুমের দলে মনোযোগের বিচ্যুতি কম,
+কর্মস্মৃতি ও মেজাজ ভালো ছিল, তবে গ্লুকোজ খাওয়ার পর রক্তে শর্করা বেশি বেড়েছিল
+(<a href="https://www.duke-nus.edu.sg/nbd/sleeplab/publication/publications/detail/index/differential-effects-of-split-and-continuous-sleep-on-vigilance-and-glucose-tolerance-in-sleep-restricted-adolescents" rel="noopener">Lo
+2019</a>)। দুই দলই সতর্ক করেছে, এটি পর্যাপ্ত রাতের ঘুমের বিকল্প নয়। মান:
+<strong>মাঝারি</strong>, আর প্রাপ্তবয়স্কদের নিয়ে এমন গবেষণা এই অনুসন্ধানে
+পর্যালোচনা হয়নি। রাতের মূল ঘুম আর দুপুরের বিশ্রাম মিলিয়ে মোট ৭ থেকে ৮ ঘণ্টা
+রাখা তাই বৈজ্ঞানিকভাবে গ্রহণযোগ্য বিকল্প; এটি ঘুম কমায় না, ঘুম পুনর্বণ্টন
+করে।</p>
+<h3 id="s11">দশ থেকে বিশ মিনিটের ন্যাপ
+সবচেয়ে দক্ষ</h3>
+<p>নাসার ১৯৯৪ সালের গবেষণায় দূরপাল্লার বিমানচালকদের ককপিটে ৪০ মিনিট
+বিশ্রামের সুযোগ দেওয়া হয়; তাঁরা গড়ে ৫.৬ মিনিটে ঘুমিয়ে পড়েন, ঘুমান ২৫.৮ মিনিট,
+এবং অবতরণ পর্যন্ত সতর্কতা ও কর্মক্ষমতা ভালো থাকে (<a href="https://ntrs.nasa.gov/citations/19950006379" rel="noopener">NASA NTRS</a>)।
+জনপ্রিয় "২৬ মিনিটের আদর্শ ন্যাপ" এই ২৫.৮ মিনিট থেকেই এসেছে, আর "৩৪ শতাংশ
+ভালো কর্মক্ষমতা, ৫৪ শতাংশ বেশি সতর্কতা" সংখ্যাগুলো পরের একটি প্রবন্ধের নামে
+প্রচলিত, যা মূল পাঠে যাচাই হয়নি (<strong>অযাচাইকৃত</strong>) (<a href="https://www.sleepfoundation.org/sleep-hygiene/nasa-nap" rel="noopener">Sleep
+Foundation</a>)। রাতে ৫ ঘণ্টা ঘুমানোর পর বিকেল ৩টার দিকে ০, ৫, ১০, ২০ ও ৩০
+মিনিটের ন্যাপ তুলনা করে দেখা গেছে <strong>১০ মিনিটের ন্যাপ সামগ্রিকভাবে
+সবচেয়ে কার্যকর</strong>; ৩০ মিনিটের পর প্রথমে ঘুমজড়তা আসে, তারপর ১৫৫ মিনিট
+পর্যন্ত উপকার থাকে; ৫ মিনিটে প্রায় কোনো লাভ নেই (<a href="https://pubmed.ncbi.nlm.nih.gov/16796222/" rel="noopener">Brooks &amp; Lack
+2006</a>)। ৬০ থেকে ৯০ মিনিটের ন্যাপে গভীর ঘুম ও REM দুটোই থাকলে একটি
+দৃশ্য-শিক্ষার পরীক্ষায় পুরো রাতের ঘুমের সমান উন্নতি দেখা গেছে, তবে ফলটি একটি
+কাজের মধ্যেই সীমিত (<a href="https://www.nature.com/articles/nn1078" rel="noopener">Mednick 2003</a>)। ঝিমিয়ে
+পড়া চালকদের ২০০ মিলিগ্রাম ক্যাফেইন খেয়ে ১৫ মিনিটের কম ঘুমালে সিমুলেটরে
+দুর্ঘটনা-ঘটনা প্লাসেবোর মাত্র ৯ শতাংশে নেমেছে (<a href="https://pubmed.ncbi.nlm.nih.gov/9401427/" rel="noopener">Reyner &amp; Horne
+1997</a>)। উল্টো দিকে, পর্যবেক্ষণমূলক মেটা-অ্যানালাইসিসে <strong>৬০ মিনিটের
+বেশি নিয়মিত দিবানিদ্রা</strong> হৃদরোগ (আপেক্ষিক হার ১.৮২) ও মৃত্যুঝুঁকির (১.২২)
+সঙ্গে যুক্ত, কিন্তু প্রায় ৩০ মিনিট পর্যন্ত ঝুঁকি বাড়েনি (<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4431364" rel="noopener">Yamada 2015</a>;
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11482734/" rel="noopener">Wang
+2024</a>)। মান: ন্যাপের উপকার <strong>মাঝারি</strong>; লম্বা ন্যাপের ঝুঁকি
+পর্যবেক্ষণমূলক, অসুস্থতার প্রভাব থাকতে পারে।</p>
+<h3 id="s12">ঘুমের দক্ষতা
+মানে বিছানায় অপচয় কমানো, ঘুমের চাহিদা নয়</h3>
+<p>"কম সময় বিছানায় থেকে একই উপকার" পাওয়ার একমাত্র বৈজ্ঞানিকভাবে প্রমাণিত
+পদ্ধতি হলো <strong>স্লিপ রেস্ট্রিকশন থেরাপি</strong>, যা ১৯৮৭ সালে স্পিলম্যান
+ও সহকর্মীরা প্রবর্তন করেন: প্রথমে বিছানার সময় প্রকৃত ঘুমের সময়ের সমান করা হয়,
+তারপর ঘুমের দক্ষতা (মোট ঘুম ÷ বিছানায় থাকার সময়) বাড়লে বিছানার সময় বাড়ানো
+হয় (<a href="https://typeset.io/pdf/treatment-of-chronic-insomnia-by-restriction-of-time-in-bed-57ei4marvv.pdf" rel="noopener">Spielman
+1987</a>)। প্রচলিত ক্লিনিক্যাল নিয়মে সাপ্তাহিক দক্ষতা ৮৫ শতাংশের নিচে হলে
+বিছানার সময় ১৫ মিনিট কমানো হয়, ৮৫ থেকে ৯০ শতাংশে সময় অপরিবর্তিত থাকে, ৯০
+শতাংশের বেশি হলে ১৫ মিনিট বাড়ানো হয়; বিছানার সময় সাধারণত ৫ থেকে ৫.৫
+ঘণ্টার নিচে নামানো হয় না (<a href="https://www.sleepfoundation.org/insomnia/sleep-restriction" rel="noopener">Sleep
+Foundation</a>; <a href="https://www.sleepfoundation.org/insomnia/treatment/sleep-restriction-therapy" rel="noopener">Sleep
+Foundation: SRT</a>)। ১,৩৪৪টি গবেষণার মধ্যে মানসম্মত মাত্র ৪টি ট্রায়াল
+বিশ্লেষণ করে দেখা গেছে, দীর্ঘস্থায়ী অনিদ্রায় এটি ঘুম-ডায়েরির মাপে কার্যকর, তবে
+বস্তুনিষ্ঠ মাপে প্রমাণ অপর্যাপ্ত (<a href="https://em-consulte.com/article/921542/the-evidence-base-of-sleep-restriction-therapy-for" rel="noopener">Miller
+2014</a>)। প্রথম ১ থেকে ৩ সপ্তাহ দিনে হালকা থেকে মাঝারি ঝিমুনি হয় (<a href="https://open-exam-prep.com/study-guides/brpt-ccsh/insomnia-circadian-disorders/cbt-i-principles" rel="noopener">CBT-I
+principles</a>)। আমেরিকান কলেজ অব ফিজিশিয়ানস (২০১৬) ও এএএসএম (২০২১)
+দীর্ঘস্থায়ী অনিদ্রায় প্রথম চিকিৎসা হিসেবে বহু-উপাদানের CBT-I সুপারিশ করে, আর
+বলে কেবল "স্লিপ হাইজিন" একক চিকিৎসা হিসেবে ব্যবহার করা উচিত নয় (<a href="https://sleepreviewmag.com/uncategorized/acp-recommends-cognitive-behavioral-therapy-initial-treatment-chronic-insomnia/" rel="noopener">Sleep
+Review</a>; <a href="https://aasm.org/new-guideline-supports-behavioral-psychological-treatments-for-insomnia/" rel="noopener">AASM
+2021</a>)। গুরুত্বপূর্ণ কথা: এই পদ্ধতি <strong>শরীরের ঘুমের চাহিদা কমায়
+না</strong>, শুধু বিছানায় জেগে বা ঝিমিয়ে কাটানো অপচয় সরিয়ে ঘুমকে ঘন করে; আর
+এর প্রমাণ অনিদ্রার রোগীদের নিয়ে, সুস্থ মানুষের বাড়তি জাগ্রত সময়ের জন্য নয়।</p>
+<p>ঘুমের মান বাড়ানোর আরও কয়েকটি উপাদানের প্রমাণ আছে। ৬৬টি গবেষণার
+মেটা-অ্যানালাইসিসে নিয়মিত ব্যায়াম মোট ঘুম ও দক্ষতায় ছোট, আর ঘুমের মানে মাঝারি
+উপকার দেখিয়েছে (<a href="https://pubmed.ncbi.nlm.nih.gov/25596964/" rel="noopener">Kredlow 2015</a>)।
+ঘুমানোর ১ থেকে ২ ঘণ্টা আগে (আদর্শ প্রায় ৯০ মিনিট) ৪০ থেকে ৪৩ ডিগ্রি
+সেলসিয়াসের গরম পানিতে গোসল ঘুম আসার সময় গড়ে প্রায় ১০ মিনিট কমায় (<a href="https://cockrell.utexas.edu/?p=23504" rel="noopener">UT Austin</a>)। ঘুমানোর
+<strong>৬ ঘণ্টা আগে খাওয়া ক্যাফেইনও</strong> বস্তুনিষ্ঠভাবে মাপা ঘুম প্রায় এক
+ঘণ্টা কমিয়েছে, অথচ অংশগ্রহণকারীরা তা টের পাননি (<a href="https://aasm.org/late-afternoon-and-early-evening-caffeine-can-disrupt-sleep-at-night/" rel="noopener">AASM:
+Drake 2013</a>)। অ্যালকোহল রাতের প্রথম ভাগে গভীর ঘুম বাড়ালেও দ্বিতীয় ভাগ
+এলোমেলো করে ও REM কমায় (<a href="https://www.livescience.com/26489-alcohol-sleep.html" rel="noopener">Live
+Science</a>)। শিল্পপূর্ব সমাজে ঘুম এসেছে রাতের তাপমাত্রা কমার সময়ে, আর সকালে
+আলো ছিল সবচেয়ে বেশি (<a href="https://gurven.anth.ucsb.edu/sites/secure.lsit.ucsb.edu.anth.d7_gurven/files/sitefiles/papers/yetishetal2015.pdf" rel="noopener">Yetish
+2015</a>)। ক্রোনোবায়োলজিস্ট টিল রোনেনবার্গের মতে দেহঘড়ি ও সামাজিক সময়সূচির
+অমিল ("সোশ্যাল জেটল্যাগ") দীর্ঘস্থায়ী ঘুম-ঘাটতির বড় কারণ, আর বেশি দিনের আলো
+ঘড়িকে মেলাতে সাহায্য করে (<a href="https://www.themarginalian.org/2012/05/11/internal-time-till-roenneber/" rel="noopener">The
+Marginalian</a>)। তবে এগুলো একই ঘুমকে বেশি আরামদায়ক করে; মোট ঘুমের চাহিদা
+কয়েক ঘণ্টা কমিয়ে দেয় এমন কোনো প্রমাণ নেই। "শুধু গভীর ঘুমই আসল" ধরনের দাবিও
+প্রতিষ্ঠিত নয়।</p>
+<h3 id="s13">রমযান
+দেখায়: সময় সরে গেলেও মোট ঘুম রক্ষা করলে সতর্কতা কমে না</h3>
+<p>রমযানের ঘুম নিয়ে সবচেয়ে বেশি কাজ করেছেন সৌদি গবেষক আহমাদ বাহাম্মাম ও
+সহকর্মীরা। তাঁদের পর্যালোচনা অনুযায়ী, দৈনন্দিন জীবনে মাপা গবেষণায় রমযানে প্রায়
+এক ঘণ্টা কম ঘুম দেখা গেলেও জীবনযাপন নিয়ন্ত্রিত গবেষণায় মোট ঘুমে পরিবর্তন পাওয়া
+যায়নি; শোয়া ও ওঠার সময় পিছিয়ে যায়; একমাত্র ধারাবাহিক পরিবর্তন <strong>REM
+ঘুম কমে যাওয়া</strong>; আর বস্তুনিষ্ঠভাবে মাপা দিনের ঘুমঘুম ভাব (MSLT)
+নিয়ন্ত্রিত গবেষণায় বাড়েনি। পরিবর্তনগুলো মূলত রোযা থেকে নয়, বরং দেরিতে খাওয়া,
+রাতে আলো ও কাজের সময় বদলের মতো জীবনযাপনের কারণে। ঘুমের ৩০ মিনিট আগে খাবার
+খেলে ঘুম আসতে দেরি হয়েছে, কিন্তু ৩ থেকে ৩.৫ ঘণ্টা আগে খেলে হয়নি (<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6292409" rel="noopener">Almeneessier
+&amp; BaHammam 2018</a>)। গবেষণাগুলো ছোট (প্রায়ই ৮ থেকে ১৬ জন), তাই মান
+<strong>মাঝারি</strong>। তবু ইঙ্গিতটি স্পষ্ট: শেষ রাতে উঠে সাহরি আর দুপুরের
+বিশ্রাম মিলিয়ে মোট ঘুম রক্ষা করলে সতর্কতা বজায় থাকে; এটি ঘুমের চাহিদা কমার
+প্রমাণ নয়।</p>
+<h2 id="s14">ঘুমের বইগুলো "ভালো ঘুম" শেখায়,
+"কম ঘুম" নয়</h2>
+<p>ঘুম, ঘুমের দক্ষতা ও ভোরে ওঠা নিয়ে ইংরেজিতে যত বই আছে, সেগুলোকে চার ভাগে
+ভাগ করা যায়: একাডেমিক ও গবেষক-লেখকের বই, জনপ্রিয় পারফরম্যান্স ও ক্রোনোটাইপের
+বই, পলিফেজিক "কম ঘুম"-এর বই, আর অনিদ্রার মনোবৈজ্ঞানিক চিকিৎসা (CBT-I) ও
+অভ্যাস-গঠনের বই। একাডেমিক বইগুলোর মধ্যে "মানুষ যতটা ভাবে তার চেয়ে কম ঘুমেও
+চলতে পারে" এই মতকে গুরুত্বের সঙ্গে নিয়েছেন কেবল লাফবরো স্লিপ রিসার্চ সেন্টারের
+জিম হর্ন, আর সংকীর্ণ জরুরি-অবস্থার অর্থে ক্লদিও স্ট্যাম্পি। হর্নের যুক্তিও প্রয়োজনের
+অতিরিক্ত "ঐচ্ছিক" ঘুম নিয়ে, ২ থেকে ৪ ঘণ্টার পলিফেজিক সূচি নিয়ে নয় (<a href="https://nature.com/articles/333408a0.pdf" rel="noopener">Nature review</a>; <a href="https://www.pri.org/stories/2008-10-17/why-we-can-relax-about-sleep" rel="noopener">PRI</a>)।
+বাকি লেখকেরা মূলত ঘুমের সময় ও মান ঠিক করার কথা বলেন, আর রিচার্ড ওয়াইজম্যান ও
+ম্যাথিউ ওয়াকার স্পষ্টভাবে ঘুম কাটার বিপক্ষে। পলিফেজিক বইগুলো সবচেয়ে অনির্ভরযোগ্য
+শ্রেণি, আর CBT-I বইগুলো সবচেয়ে প্রমাণভিত্তিক। নিচের টেবিলে বইয়ের শিরোনাম মূল
+ভাষায় রাখা হয়েছে, পাশে বাংলায় বক্তব্য ও বাংলা অনুবাদের অবস্থা।</p>
+<h3 id="s15">একাডেমিক ও গবেষক-লেখকের বই</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr class="header">
+<th>বই (মূল শিরোনাম)</th>
+<th>লেখক, প্রকাশ</th>
+<th>কী বলে</th>
+<th>নির্ভরযোগ্যতা</th>
+<th>বাংলা অনুবাদ</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><em>Principles and Practice of Sleep Medicine</em> (৭ম সংস্করণ)</td>
+<td>Kryger, Roth, Goldstein (সম্পাদিত), Elsevier, ২০২২</td>
+<td>ঘুমের চাহিদা, ঘুম-বঞ্চনা, হাইপারসমনিয়াসহ ঘুম-চিকিৎসার প্রামাণ্য পাঠ্যবই (<a href="https://shop.elsevier.com/books/principles-and-practice-of-sleep-medicine-2-volume-set/kryger/978-0-323-66189-8" rel="noopener">Elsevier</a>)</td>
+<td>খুব উচ্চ</td>
+<td>খোঁজা হয়নি</td>
+</tr>
+<tr class="even">
+<td><em>Why We Nap: Evolution, Chronobiology, and Functions of
+Polyphasic and Ultrashort Sleep</em></td>
+<td>Claudio Stampi (সম্পাদিত), Birkhäuser, ১৯৯২</td>
+<td>অনিবার্য ঘুম-ঘাটতিতে (একা নাবিক, সামরিক অভিযান) ছোট ন্যাপ দিয়ে ক্ষতি
+সীমিত রাখা; জীবনযাপনের পদ্ধতি হিসেবে নয় (<a href="https://en.wikipedia.org/wiki/Why_We_Nap" rel="noopener">Wikipedia</a>; <a href="https://link.springer.com/book/10.1007/978-1-4757-2210-9?page=1" rel="noopener">Springer</a>)</td>
+<td>উচ্চ কিন্তু পুরোনো; পলিফেজিক প্রচারকেরা প্রায়ই ভুলভাবে উদ্ধৃত করেন</td>
+<td>পাওয়া যায়নি</td>
+</tr>
+<tr class="odd">
+<td><em>Why We Sleep: The Functions of Sleep in Humans and Other
+Mammals</em></td>
+<td>Jim Horne, Oxford University Press, ১৯৮৮</td>
+<td>ঘুমের প্রথম কয়েক ঘণ্টার "core sleep" অপরিহার্য, বাকিটা অনেকটা "optional"
+(<a href="https://nature.com/articles/333408a0.pdf" rel="noopener">Nature
+review</a>)</td>
+<td>একাডেমিক, তবে বিতর্কিত ও পুরোনো</td>
+<td>খোঁজা হয়নি</td>
+</tr>
+<tr class="even">
+<td><em>Sleepfaring: A Journey Through the Science of Sleep</em></td>
+<td>Jim Horne, Oxford University Press, ২০০৬</td>
+<td>"ঘুম-ঋণ মহামারী" ধারণা নিয়ে সংশয়; প্রচলিত ঘুম-চাহিদার হিসাব প্রশ্নবিদ্ধ
+(<a href="https://openlibrary.org/works/OL7998608W" rel="noopener">Open Library</a>; <a href="https://www.pri.org/stories/2008-10-17/why-we-can-relax-about-sleep" rel="noopener">PRI</a>)</td>
+<td>ভালো (বিশেষজ্ঞ লেখক), সংখ্যালঘু মত</td>
+<td>খোঁজা হয়নি</td>
+</tr>
+<tr class="odd">
+<td><em>At Day's Close: Night in Times Past</em></td>
+<td>A. Roger Ekirch, W.W. Norton, ২০০৫</td>
+<td>প্রাক-শিল্প ইউরোপে "প্রথম ঘুম" ও "দ্বিতীয় ঘুম" (<a href="https://sites.google.com/vt.edu/roger-ekirch/sleep-research" rel="noopener">Ekirch</a>)</td>
+<td>ইতিহাস হিসেবে উচ্চ; শারীরবৃত্তীয় ব্যাখ্যা বিতর্কিত</td>
+<td>পাওয়া যায়নি</td>
+</tr>
+<tr class="even">
+<td><em>Internal Time: Chronotypes, Social Jet Lag, and Why You're So
+Tired</em></td>
+<td>Till Roenneberg, Harvard University Press, ২০১২</td>
+<td>দেহঘড়ি ও সামাজিক সময়ের অমিল দীর্ঘস্থায়ী ক্লান্তির কারণ; দিনের আলো সাহায্য
+করে (<a href="https://www.degruyterbrill.com/document/doi/10.4159/harvard.9780674065482/html" rel="noopener">De
+Gruyter</a>)</td>
+<td>ভালো (মূল গবেষক)</td>
+<td>পাওয়া যায়নি</td>
+</tr>
+<tr class="odd">
+<td><em>Life Time: The New Science of the Body Clock</em></td>
+<td>Russell Foster, Penguin, ২০২২</td>
+<td>ক্রোনোটাইপ, আলো ও ঘুমের সময়; ঘুমের চাহিদা জিন, পরিবেশ ও বয়সভেদে ভিন্ন
+(<a href="https://www.penguin.co.uk/books/321815/life-time-by-foster-russell/9780241993392" rel="noopener">Penguin</a>)</td>
+<td>ভালো</td>
+<td>খোঁজা হয়নি</td>
+</tr>
+<tr class="even">
+<td><em>The Secret World of Sleep</em></td>
+<td>Penelope A. Lewis, Palgrave Macmillan, ২০১৩</td>
+<td>ঘুম ও স্মৃতি, স্বপ্ন, ঘুম উন্নত করার অধ্যায় (<a href="https://us.macmillan.com/books/9781137386977" rel="noopener">Macmillan</a>)</td>
+<td>ভালো (গবেষক-লেখক)</td>
+<td>খোঁজা হয়নি</td>
+</tr>
+<tr class="odd">
+<td><em>Why We Sleep: Unlocking the Power of Sleep and Dreams</em></td>
+<td>Matthew Walker, Scribner, ২০১৭</td>
+<td>৭ থেকে ৯ ঘণ্টার পক্ষে জোরালো যুক্তি; কম ঘুমকে অত্যন্ত ক্ষতিকর বলে</td>
+<td>মিশ্র: মূল বার্তা ঐকমত্যের সঙ্গে মেলে, কিন্তু অ্যালেক্সি গুজে বহু তথ্যগত ভুল
+দেখিয়েছেন (<a href="https://guzey.com/books/why-we-sleep/" rel="noopener">Guzey</a>; <a href="https://statmodeling.stat.columbia.edu/2019/11/18/is-matthew-walkers-why-we-sleep-riddled-with-scientific-and-factual-errors/" rel="noopener">Gelman</a>)</td>
+<td>পাওয়া যায়নি; রকমারিতে শুধু ইংরেজি সংস্করণ (<a href="https://www.rokomari.com/book/340756/why-we-sleep" rel="noopener">Rokomari</a>)</td>
+</tr>
+<tr class="even">
+<td><em>Take a Nap! Change Your Life</em> ও <em>The Power of the
+Downstate</em></td>
+<td>Sara C. Mednick, Workman ২০০৬; Hachette Go ২০২২</td>
+<td>কখন ও কতক্ষণ ন্যাপ নিলে ঝিমুনি ছাড়া উপকার; বিশ্রাম ও ঘুমকে "ডাউনস্টেট"
+হিসেবে কাজে লাগানো (<a href="https://www.goodreads.com/book/show/26322" rel="noopener">Goodreads</a>; <a href="https://publishersweekly.com/978-0-306-92579-5" rel="noopener">Publishers
+Weekly</a>)</td>
+<td>ভালো (ন্যাপ-গবেষক)</td>
+<td>পাওয়া যায়নি</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="s16">জনপ্রিয়, পলিফেজিক ও মনোবৈজ্ঞানিক
+বই</h3>
+<p>এই টেবিলের "প্রমাণের মান" কলামে চারটি স্তর ব্যবহার করা হয়েছে:
+<strong>ক</strong> মানে পদ্ধতিটি ক্লিনিক্যাল গাইডলাইন বা র‍্যান্ডমাইজড ট্রায়ালে
+সমর্থিত; <strong>খ</strong> মানে বিজ্ঞানী বা চিকিৎসকের লেখা, মোটামুটি
+বিজ্ঞানভিত্তিক, তবে কিছু দাবি অতিরঞ্জিত; <strong>গ</strong> মানে মূলত অভিজ্ঞতা
+বা অনুপ্রেরণাভিত্তিক; <strong>ঘ</strong> মানে মূল দাবি বৈজ্ঞানিক প্রমাণের
+বিপরীত।</p>
+<div class="table-wrap"><table>
+<thead>
+<tr class="header">
+<th>বই (মূল শিরোনাম)</th>
+<th>লেখক, প্রকাশ</th>
+<th>মূল পদ্ধতি বা দাবি</th>
+<th>প্রমাণের মান ও সমালোচনা</th>
+<th>বাংলা অনুবাদ</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><em>Ubersleep: Nap-Based Sleep Schedules and the Polyphasic
+Lifestyle</em></td>
+<td>"PureDoxyk", ২য় সংস্করণ ২০১৩ (<a href="https://www.lulu.com/shop/pure-doxyk/ubersleep-nap-based-sleep-schedules-and-the-polyphasic-lifestyle-second-edition/ebook/product-14m8wvkq.html" rel="noopener">Lulu</a>)</td>
+<td>উবারম্যান, এভরিম্যানসহ ন্যাপভিত্তিক সূচি</td>
+<td>গ/ঘ; ২০২১-এর কনসেনসাস প্যানেল উপকারের প্রমাণ পায়নি</td>
+<td>পাওয়া যায়নি</td>
+</tr>
+<tr class="even">
+<td><em>The 4-Hour Body</em>, অধ্যায় "Becoming Uberman"</td>
+<td>Tim Ferriss, ২০১০ (<a href="https://tim.blog/2010/12/06/four-hour-body-review/" rel="noopener">tim.blog</a>)</td>
+<td>পলিফেজিক ঘুমে কম ঘুমানোর আত্ম-পরীক্ষা</td>
+<td>গ; পলিফেজিক চর্চাকারীরাও সবাই মোট ঘুম কমানোর দাবি মানেন না (<a href="https://robbwolf.com/2011/11/30/polyphasic-sleep-part-1/" rel="noopener">Robb
+Wolf</a>)</td>
+<td>পাওয়া যায়নি</td>
+</tr>
+<tr class="odd">
+<td>স্টিভ পাভলিনার ব্লগ-সিরিজ (বই নয়)</td>
+<td>Steve Pavlina, ২০০৫-২০০৬ (<a href="https://stevepavlina.com/blog/2006/04/polyphasic-sleep-the-return-to-monophasic/" rel="noopener">Pavlina</a>)</td>
+<td>উবারম্যানের দৈনিক লগ</td>
+<td>গ (একজনের অভিজ্ঞতা); পাঁচ-ছয় মাস পর ছেড়ে দেন</td>
+<td>প্রযোজ্য নয়</td>
+</tr>
+<tr class="even">
+<td>"Polyphasic Sleep: Facts and Myths" (প্রবন্ধ)</td>
+<td>Piotr Woźniak, ২০০৫ (<a href="https://www.supermemo.com/en/blog/polyphasic" rel="noopener">SuperMemo</a>)</td>
+<td>উবারম্যান দীর্ঘস্থায়ী ঘুম-বঞ্চনা</td>
+<td>বিশেষজ্ঞের মত, পিয়ার-রিভিউড নয়</td>
+<td>প্রযোজ্য নয়</td>
+</tr>
+<tr class="odd">
+<td><em>Sleep: The Myth of 8 Hours, the Power of Naps...</em></td>
+<td>Nick Littlehales (<a href="https://www.goodreads.com/book/show/31566948" rel="noopener">Goodreads</a>)</td>
+<td>"R90": ৯০ মিনিটের চক্রে ঘুম, নির্দিষ্ট জাগার সময়, সপ্তাহে চক্র গোনা; ছোট
+রাত দিনের ন্যাপে পুষিয়ে নেওয়া (<a href="https://metapsychology.net/?p=8079" rel="noopener">Metapsychology</a>)</td>
+<td>খ-/গ; নির্দিষ্ট ৯০ মিনিটের চক্র সর্বজনস্বীকৃত নয়</td>
+<td>পাওয়া যায়নি</td>
+</tr>
+<tr class="even">
+<td><em>Sleep Smarter</em></td>
+<td>Shawn Stevenson (<a href="https://goodreads.com/book/show/26114128" rel="noopener">Goodreads</a>)</td>
+<td>আলো, স্ক্রিন, সাপ্লিমেন্টসহ ২১টি কৌশল</td>
+<td>গ/খ-; কিছু দাবি অতিরঞ্জিত (<a href="https://mindwobble.pages.dev/books/sleep-smarter/" rel="noopener">Mind
+Wobble</a>)</td>
+<td>পাওয়া যায়নি</td>
+</tr>
+<tr class="odd">
+<td><em>The Power of When</em></td>
+<td>Michael Breus (<a href="https://www.cbsnews.com/news/chronotype-michael-breus-perfect-time-to-do-anything" rel="noopener">CBS
+News</a>)</td>
+<td>সিংহ, ভালুক, নেকড়ে, ডলফিন: চার ক্রোনোটাইপ</td>
+<td>খ-/গ; চার-প্রাণী পদ্ধতির পিয়ার-রিভিউড যাচাই পাওয়া যায়নি</td>
+<td>পাওয়া যায়নি</td>
+</tr>
+<tr class="even">
+<td><em>The Sleep Revolution</em></td>
+<td>Arianna Huffington, ২০১৬ (<a href="https://getabstract.com/en/summary/the-sleep-revolution/26917" rel="noopener">getAbstract</a>)</td>
+<td>প্রায় সবাই কম ঘুমায়, বেশি ঘুমানো দরকার</td>
+<td>গ/খ- (সাংবাদিকতাধর্মী)</td>
+<td>পাওয়া যায়নি</td>
+</tr>
+<tr class="odd">
+<td><em>Night School: Wake Up to the Power of Sleep</em></td>
+<td>Richard Wiseman (মনোবিজ্ঞানী), ২০১৪ (<a href="https://www.scotsman.com/arts-and-culture/book-review-night-school-richard-wiseman-1539831" rel="noopener">Scotsman</a>)</td>
+<td>আট ঘণ্টার কমে চলা যায় এই ধারণা প্রত্যাখ্যান; বিরল জিনগত ব্যতিক্রম
+স্বীকার</td>
+<td>খ</td>
+<td>পাওয়া যায়নি</td>
+</tr>
+<tr class="even">
+<td><em>When: The Scientific Secrets of Perfect Timing</em></td>
+<td>Daniel H. Pink, ২০১৮ (<a href="https://www.shortform.com/blog/when-daniel-pink/" rel="noopener">Shortform</a>)</td>
+<td>ভোরের পাখি, রাতজাগা পেঁচা ও মাঝামাঝি "তৃতীয় পাখি"; ক্রোনোটাইপ অনেকটা
+জিন ও বয়সনির্ভর</td>
+<td>খ (গবেষণার সাংবাদিকতাধর্মী সংকলন)</td>
+<td>পাওয়া যায়নি</td>
+</tr>
+<tr class="odd">
+<td><em>Say Good Night to Insomnia</em></td>
+<td>Gregg D. Jacobs (হার্ভার্ড), ছয় সপ্তাহের প্রোগ্রাম (<a href="https://www.powells.com/book/say-good-night-to-insomnia-the-six-week-drug-free-program-developed-at-harvard-medical-school-9780805055481" rel="noopener">Powell's</a>)</td>
+<td>CBT-I: ঘুমের সময়সূচি, অভ্যাস, নেতিবাচক চিন্তা বদল</td>
+<td>ক (পদ্ধতি); বিপণনের সংখ্যাগুলো প্রচারমূলক</td>
+<td>পাওয়া যায়নি</td>
+</tr>
+<tr class="even">
+<td><em>Quiet Your Mind and Get to Sleep</em></td>
+<td>Colleen E. Carney ও Rachel Manber, New Harbinger, ২০০৯ (<a href="https://www.hachette.co.uk/titles/colleen-e-carney/quiet-your-mind-get-to-sleep-solutions-to-insomnia-for-those-with-depression-anxiety-or-chronic-pain/9781572246270/" rel="noopener">Hachette
+UK</a>)</td>
+<td>বিষণ্ণতা, উদ্বেগ বা ব্যথাসহ অনিদ্রার জন্য CBT-I</td>
+<td>ক</td>
+<td>পাওয়া যায়নি</td>
+</tr>
+<tr class="odd">
+<td><em>Mindfulness-Based Therapy for Insomnia</em></td>
+<td>Jason C. Ong, APA, ২০১৬ (<a href="https://www.lovereading.co.uk/book/9781433822414/isbn/Mindfulness-Based-Therapy-for-Insomnia-by-Jason-C-Ong.html" rel="noopener">LoveReading</a>)</td>
+<td>মাইন্ডফুলনেস ও স্লিপ রেস্ট্রিকশন মিলিয়ে ৮ সেশনের প্রোগ্রাম (চিকিৎসকদের
+জন্য)</td>
+<td>ক-/খ+</td>
+<td>পাওয়া যায়নি</td>
+</tr>
+<tr class="even">
+<td><em>The Sleep Book: How to Sleep Well Every Night</em></td>
+<td>Guy Meadows, Hachette UK, ২০১৪ (<a href="https://www.hachette.co.uk/titles/guy-meadows/the-sleep-book/9781409157618/" rel="noopener">Hachette
+UK</a>)</td>
+<td>ACT-ভিত্তিক পাঁচ সপ্তাহের পরিকল্পনা: ঘুমের জন্য লড়াই ছেড়ে দেওয়া</td>
+<td>খ+</td>
+<td>পাওয়া যায়নি</td>
+</tr>
+<tr class="odd">
+<td><em>The Effortless Sleep Method</em></td>
+<td>Sasha Stephens (সাবেক অনিদ্রা-রোগী), ২০১০-১১ (<a href="https://www.goodreads.com/book/show/18119690" rel="noopener">Goodreads</a>)</td>
+<td>ঘুমের নিয়ম ও মানসিকতা বদল</td>
+<td>গ (সাক্ষ্যভিত্তিক)</td>
+<td>পাওয়া যায়নি</td>
+</tr>
+<tr class="even">
+<td><em>Set It &amp; Forget It</em> ও অন্যান্য</td>
+<td>Daniel Erichsen (<a href="https://www.nbcwashington.com/news/business/money-report/insomnia-is-a-5-billion-business-and-this-former-sleep-doctor-thinks-its-time-for-a-new-approach/3240557/" rel="noopener">NBC
+Washington</a>)</td>
+<td>অনিদ্রাকে ঘুম-না-হওয়ার ভয় হিসেবে দেখা; "ঘুমের চেষ্টা" কমানো</td>
+<td>গ (লেখক নিজেই পদ্ধতিটিকে নতুন বলেছেন)</td>
+<td>পাওয়া যায়নি</td>
+</tr>
+<tr class="odd">
+<td><em>Hello Sleep</em></td>
+<td>Jade Wu (ডিউক, আচরণগত ঘুম-চিকিৎসা) (<a href="https://psychiatry.duke.edu/news/jade-wus-new-book-why-you-should-treat-sleep-friend" rel="noopener">Duke
+Psychiatry</a>)</td>
+<td>ঘুম-ডায়েরি দিয়ে দক্ষতা মেপে CBT-I</td>
+<td>ক</td>
+<td>পাওয়া যায়নি</td>
+</tr>
+<tr class="even">
+<td>"The Nature of Procrastination" (মেটা-অ্যানালাইসিস)</td>
+<td>Piers Steel, <em>Psychological Bulletin</em>, ২০০৭ (<a href="https://prism.ucalgary.ca/handle/1880/47914" rel="noopener">U Calgary</a>)</td>
+<td>দীর্ঘসূত্রতার প্রধান কারণ কাজের প্রতি অনীহা, আবেগপ্রবণতা, নিম্ন
+আত্মবিশ্বাস</td>
+<td>শক্তিশালী (মেটা-অ্যানালাইসিস)</td>
+<td>প্রযোজ্য নয়</td>
+</tr>
+<tr class="odd">
+<td><em>Feeling Good: The New Mood Therapy</em></td>
+<td>David D. Burns (<a href="https://en.wikipedia.org/wiki/Feeling_Good:_The_New_Mood_Therapy" rel="noopener">Wikipedia</a>)</td>
+<td>বিষণ্ণতার জন্য CBT-ভিত্তিক বিবলিওথেরাপি</td>
+<td>ক-/খ (CBT)</td>
+<td>পাওয়া যায়নি; ৩০টির বেশি ভাষায় অনূদিত, বাংলা নেই</td>
+</tr>
+</tbody>
+</table></div>
+<p>পিয়ার্স স্টিলের মডেল "আর পাঁচ মিনিট" সিদ্ধান্তটি ব্যাখ্যা করে: বাড়তি ঘুমের
+পুরস্কার তাৎক্ষণিক, আর নামায বা কাজের পুরস্কার দূরের মনে হয়; তাই প্রেরণা =
+(প্রত্যাশা × মূল্য) ÷ (আবেগপ্রবণতা × বিলম্ব) (<a href="https://www.eurekalert.org/news-releases/578816" rel="noopener">EurekAlert</a>)।
+এর ব্যবহারিক অর্থ হলো অ্যালার্ম বিছানা থেকে দূরে রাখা, আগে থেকে প্রতিশ্রুতি
+দেওয়া এবং ফজরের জন্য কাউকে জাগাতে বলা।</p>
+<h3 id="s17">অভ্যাস,
+ভোরে ওঠা ও প্রোডাক্টিভিটি: যেগুলো বাংলায় পাওয়া যায়</h3>
+<p>এই শ্রেণির বই সরাসরি ঘুমের বিজ্ঞান নয়, কিন্তু নির্দিষ্ট সময়ে জাগার অভ্যাস
+গড়তে কাজে লাগে; আর বাংলা পাঠকের জন্য এগুলোরই অনুবাদ সবচেয়ে বেশি।</p>
+<div class="table-wrap"><table>
+<thead>
+<tr class="header">
+<th>বই (মূল শিরোনাম)</th>
+<th>লেখক, প্রকাশ</th>
+<th>ঘুম ও জাগরণ প্রসঙ্গে মূল কথা</th>
+<th>প্রমাণের মান</th>
+<th>বাংলা অনুবাদ</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><em>The Miracle Morning</em></td>
+<td>Hal Elrod, ২০১২ (<a href="https://www.success.com/the-miracle-morning-hal-elrod" rel="noopener">Success.com</a>)</td>
+<td>সকালের SAVERS রুটিন: নীরবতা, ইতিবাচক উক্তি, কল্পনা, ব্যায়াম, পড়া,
+লেখা</td>
+<td>গ</td>
+<td><strong>দ্য মিরাকল মর্নিং</strong>: অন্তত পাঁচ-ছয়টি অনুবাদ, যেমন সাম্য
+শরিফ (সূচীপত্র, ২০২০), রাওয়াইফ জানান (প্রিয়মুখ, ২০২০, ভাবানুবাদ), প্লাবন কুমার
+(রচনা প্রকাশ, ২০২১) (<a href="https://www.rokomari.com/book/554680/the-miracle-morning" rel="noopener">Rokomari</a>;
+<a href="https://www.wafilife.com/shop/books/the-miracle-morning3/" rel="noopener">Wafilife</a>);
+কোন লিংকে কোন অনুবাদক তা স্নিপেট-নির্ভর</td>
+</tr>
+<tr class="even">
+<td><em>The 5AM Club</em></td>
+<td>Robin Sharma, ২০১৮ (<a href="https://en.wikipedia.org/wiki/The_5am_Club" rel="noopener">Wikipedia</a>)</td>
+<td>ভোর ৫টায় ওঠা; প্রথম ঘণ্টা ২০/২০/২০ ভাগে ব্যায়াম, চিন্তা ও শেখা</td>
+<td>গ (উপন্যাসধর্মী)</td>
+<td><strong>দ্য 5 এ এম ক্লাব</strong>: শাওন আরাফাত, রুশদা প্রকাশ, ২০২৩ (<a href="https://www.rokomari.com/book/332991/the-5-am-club" rel="noopener">Rokomari</a>;
+<a href="https://www.wafilife.com/the-5-am-club/dp/741913" rel="noopener">Wafilife</a>)</td>
+</tr>
+<tr class="odd">
+<td><em>Atomic Habits</em></td>
+<td>James Clear, Avery, ২০১৮ (<a href="https://en.wikipedia.org/wiki/Atomic_Habits" rel="noopener">Wikipedia</a>)</td>
+<td>সংকেত স্পষ্ট করা, ছোট পদক্ষেপ, পরিচয়ভিত্তিক অভ্যাস</td>
+<td>খ</td>
+<td><strong>এটমিক হ্যাবিটস</strong>: ইমপ্রেস বুকস, ২০২০ (<a href="https://pbs.com.bd/book/2101951/atomic-habits" rel="noopener">PBS</a>); মঞ্জুল
+পাবলিশিং (ভারত), ২০২৫ (<a href="https://www.amazon.in/Atomic-Habits-Bengali-James-Clear/dp/B0DYK329WD" rel="noopener">Amazon.in</a>)</td>
+</tr>
+<tr class="even">
+<td><em>The Power of Habit</em></td>
+<td>Charles Duhigg</td>
+<td>সংকেত-রুটিন-পুরস্কার চক্র, "কীস্টোন" অভ্যাস</td>
+<td>খ</td>
+<td><strong>দ্য পাওয়ার অব হ্যাবিট</strong>: কে. পি. ইমন (নালন্দা) (<a href="https://baatighar.com/shop/product/9789849318705-27953" rel="noopener">Baatighar</a>);
+শহীদুল ইসলাম নাহিদ ও মনজুর রহমান শান্তর অনুবাদও তালিকাভুক্ত (<a href="https://www.rokomari.com/book/521867/the-power-of-habit" rel="noopener">Rokomari</a>)</td>
+</tr>
+<tr class="odd">
+<td><em>Deep Work</em></td>
+<td>Cal Newport</td>
+<td>মনোযোগী কাজের নির্দিষ্ট সময়-খণ্ড; বাঁচানো সময়ের সদ্ব্যবহার</td>
+<td>খ/গ</td>
+<td><strong>ডীপ ওয়ার্ক</strong>: মাসুদ আনোয়ার, চর্চা গ্রন্থ প্রকাশ, ২০২১ (<a href="https://www.rokomari.com/book/220533/deep-work" rel="noopener">Rokomari</a>; <a href="https://pbs.com.bd/book/2303771/deep-work" rel="noopener">PBS</a>)</td>
+</tr>
+<tr class="even">
+<td><em>Eat That Frog!</em></td>
+<td>Brian Tracy</td>
+<td>সবচেয়ে কঠিন কাজ সকালে আগে</td>
+<td>গ</td>
+<td><strong>ইট দ্যাট ফ্রগ</strong>: ইরফানুর রহমান রিফাত, অনুজ প্রকাশন (<a href="https://pbs.com.bd/book/2203196/eat-that-frog" rel="noopener">PBS</a>)</td>
+</tr>
+<tr class="odd">
+<td><em>The Willpower Instinct</em></td>
+<td>Kelly McGonigal, Avery, ২০১২ (<a href="https://books.google.com/books/about/The_Willpower_Instinct.html?id=evc6jaibNd8C" rel="noopener">Google
+Books</a>)</td>
+<td>ইচ্ছাশক্তি অনুশীলনযোগ্য "থামো-ও-পরিকল্পনা করো" প্রতিক্রিয়া</td>
+<td>খ</td>
+<td>পাওয়া যায়নি</td>
+</tr>
+<tr class="even">
+<td><em>Willpower: Rediscovering the Greatest Human Strength</em></td>
+<td>Roy Baumeister ও John Tierney</td>
+<td>ইচ্ছাশক্তি ফুরিয়ে যাওয়া সম্পদ ("ইগো ডিপ্লিশন")</td>
+<td>খ-/ঘ (মূল প্রক্রিয়া): ২০১৬ সালের বহু-ল্যাব প্রতিলিপিতে প্রভাব প্রায় শূন্য, d =
+০.০৪ (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4971805/" rel="noopener">PMC4971805</a>)</td>
+<td>পাওয়া যায়নি</td>
+</tr>
+<tr class="odd">
+<td><em>The Productive Muslim: Where Faith Meets Productivity</em></td>
+<td>Mohammed Faris, Claritas Books (<a href="https://www.claritasbooks.com/books/the-productive-muslim" rel="noopener">Claritas</a>)</td>
+<td>আধ্যাত্মিক, শারীরিক ও সামাজিক উৎপাদনশীলতা; ঘুম নিয়ন্ত্রণ; লেখকের কোর্সে
+কায়লূলা দিয়ে ছোট রাত পূরণ (<a href="https://programs.productivemuslim.com/barakah-in-sleep" rel="noopener">ProductiveMuslim</a>)</td>
+<td>গ/খ-</td>
+<td><strong>প্রোডাক্টিভ মুসলিম</strong>: মিরাজ রহমান ও হামিদ সিরাজী,
+গার্ডিয়ান পাবলিকেশনস, ২০২০ (<a href="https://pbs.com.bd/book/2102452/the-productive-muslim" rel="noopener">PBS</a>);
+<strong>দ্য প্রোডাক্টিভ মুসলিম</strong>: মোহাম্মদ আবদুল লতিফ, উৎস প্রকাশন (<a href="https://www.kitabghor.com/products/details/a7a19caf3cdf11eea35e2a6c60b8696b/the-productive-muslim.html" rel="noopener">Kitabghor</a>)</td>
+</tr>
+<tr class="even">
+<td><em>Productive Ramadan</em></td>
+<td>Ali Hammuda ও Mohammed Faris</td>
+<td>রমযানে সময় ও শক্তির ব্যবস্থাপনা</td>
+<td>গ</td>
+<td><strong>প্রোডাক্টিভ রামাদান</strong>: মাকতাবাতুল আসলাফ, ২০২১ (<a href="https://www.kitabghor.com/products/details/a4a418d0a22411ec84496ec427268214/productive-ramadan.html" rel="noopener">Kitabghor</a>)</td>
+</tr>
+<tr class="odd">
+<td><em>Time Management</em></td>
+<td>Ismail Kamdar</td>
+<td>মুসলিম আলেমদের জীবনের আলোকে সময় ব্যবস্থাপনা</td>
+<td>গ</td>
+<td><strong>টাইম ম্যানেজমেন্ট</strong>: সিয়ান পাবলিকেশন, ২০২০ (<a href="https://www.rokomari.com/book/194575/time-management" rel="noopener">Rokomari</a>)</td>
+</tr>
+<tr class="even">
+<td><em>The 5 Second Rule</em></td>
+<td>Mel Robbins</td>
+<td>৫-৪-৩-২-১ গুনে উঠে পড়া; প্রথম আলোর একটি লেখায় ফজরে ওঠার কৌশল হিসেবে
+উল্লিখিত (<a href="https://www.prothomalo.com/religion/islam/5n5pevv0px" rel="noopener">Prothom
+Alo</a>)</td>
+<td>গ</td>
+<td>আলাদাভাবে খোঁজা হয়নি</td>
+</tr>
+</tbody>
+</table></div>
+<p>সারকথা, একজন বাংলাভাষী পাঠক অভ্যাস ও শৃঙ্খলার স্তরটি (এটমিক হ্যাবিটস,
+পাওয়ার অব হ্যাবিট, প্রোডাক্টিভ মুসলিম) বাংলায় পাবেন, কিন্তু ঘুমের বিজ্ঞানের
+স্তরটি (স্লিপ রেস্ট্রিকশন, ক্রোনোটাইপ, ন্যাপের সময়) বাংলা বই আকারে প্রায়
+অনুপস্থিত। মৌলিক বাংলায় "ঘুম নিয়ে কিছু কথা" (হুমায়ুন কবির, স্টুডেন্ট ওয়েজ, ২০১৬)
+ও "ঘুম The Sleep" (নাঈম হোসেন ফারুকী, বইবাজার, ২০২৩) নামে দুটি বই তালিকাভুক্ত
+আছে, কিন্তু এগুলোর বিষয়বস্তু ও মান যাচাই হয়নি (<a href="https://www.rokomari.com/book/188597/ghum-niye-kichu-kotha" rel="noopener">Rokomari</a>;
+<a href="https://www.rokomari.com/book/278545/ghum-the-sleep" rel="noopener">Rokomari</a>)।
+এ কারণে এই রিপোর্টের শেষ অংশে ঘুম-সংকোচন ও ন্যাপের নিয়ম সরাসরি বাংলায়
+ব্যাখ্যা করা হয়েছে।</p>
+<h2 id="s18">কুরআন-হাদীস রাতের
+কিছু অংশ জাগতে বলে, পুরো রাত নয়</h2>
+<h3 id="s19">কুরআন
+একসঙ্গে স্বল্প ঘুমের প্রশংসা করে এবং ঘুমকে নিয়ামত বলে</h3>
+<p>কুরআন মুত্তাকীদের প্রশংসায় তাদের রাতের স্বল্প ঘুম আর শেষ রাতের ইস্তিগফারের
+কথা বলেছে:</p>
+<blockquote>
+<p class="ar-block" dir="rtl"><span class="ar" dir="rtl" lang="ar">﴿كَانُواْ قَلِيلًا مِّنَ ٱلَّيۡلِ مَا يَهۡجَعُونَ﴾ ﴿وَبِٱلۡأَسۡحَارِ هُمۡ يَسۡتَغۡفِرُونَ﴾</span></p>
+<p>"তারা রাতের সামান্য অংশই অতিবাহিত করত নিদ্রায়, আর রাতের শেষ প্রহরে তারা
+ক্ষমা প্রার্থনা করত।" (সূরা আয-যারিয়াত ৫১:১৭-১৮)</p>
+</blockquote>
+<p>সূত্র: (<a href="https://cdn.jsdelivr.net/gh/fawazahmed0/quran-api@1/editions/ara-quranuthmanihaf/51/15.json" rel="noopener">quran-api</a>;
+<a href="https://quran.com/51/15-18" rel="noopener">quran.com</a>)</p>
+<blockquote>
+<p class="ar-block" dir="rtl"><span class="ar" dir="rtl" lang="ar">﴿تَتَجَافَىٰ جُنُوبُهُمۡ عَنِ ٱلۡمَضَاجِعِ يَدۡعُونَ رَبَّهُمۡ خَوۡفًا وَطَمَعًا وَمِمَّا رَزَقۡنَٰهُمۡ
+يُنفِقُونَ﴾</span></p>
+<p>"তাদের পার্শ্বদেশ শয্যা হতে দূরে থাকে, তারা তাদের রবকে ডাকে আশংকা ও আশায়
+এবং আমরা তাদেরকে যে রিযিক দান করেছি তা থেকে তারা ব্যয় করে।" (সূরা আস-সাজদা
+৩২:১৬)</p>
+</blockquote>
+<p>সূত্র: (<a href="https://quran.com/32/16-17" rel="noopener">quran.com</a>)। একই সুরে
+সূরা আল-ফুরকানে 'ইবাদুর রাহমানের গুণ: <span class="ar" dir="rtl" lang="ar">﴿وَٱلَّذِينَ يَبِيتُونَ لِرَبِّهِمۡ سُجَّدًا وَقِيَٰمًا﴾</span>, "এবং
+তারা রাত অতিবাহিত করে তাদের রবের উদ্দেশ্যে সিজদাবনত হয়ে ও দাঁড়িয়ে থেকে"
+(২৫:৬৪) (<a href="https://quran.com/25/63-64" rel="noopener">quran.com</a>); আর নবী
+<span class="ar" dir="rtl" lang="ar">ﷺ</span>-কে নির্দেশ: <span class="ar" dir="rtl" lang="ar">﴿وَمِنَ ٱلَّيۡلِ فَتَهَجَّدۡ بِهِۦ نَافِلَةً لَّكَ عَسَىٰٓ أَن يَبۡعَثَكَ رَبُّكَ مَقَامًا
+مَّحۡمُودًا﴾</span>, "আর রাতের কিছু অংশে তাহাজ্জুদ আদায় করুন, এটা আপনার জন্য অতিরিক্ত। আশা
+করা যায় আপনার রব আপনাকে প্রতিষ্ঠিত করবেন প্রশংসিত স্থানে" (১৭:৭৯) (<a href="https://quran.com/17/78-79" rel="noopener">quran.com</a>)।</p>
+<p>সূরা আল-মুযযাম্মিলের শুরুতে রাত্রিজাগরণের সর্বোচ্চ পরিমাপও অর্ধরাতের আশেপাশে
+বাঁধা:</p>
+<blockquote>
+<p class="ar-block" dir="rtl"><span class="ar" dir="rtl" lang="ar">﴿قُمِ ٱلَّيۡلَ إِلَّا قَلِيلًا﴾ ﴿نِّصۡفَهُۥٓ أَوِ ٱنقُصۡ مِنۡهُ قَلِيلًا﴾ ﴿أَوۡ زِدۡ عَلَيۡهِ وَرَتِّلِ
+ٱلۡقُرۡءَانَ تَرۡتِيلًا﴾ … ﴿إِنَّ نَاشِئَةَ ٱلَّيۡلِ هِيَ أَشَدُّ وَطۡـًٔا وَأَقۡوَمُ قِيلًا﴾</span></p>
+<p>"রাতে সালাতে দাঁড়ান, কিছু অংশ ছাড়া; আধা-রাত বা তার চেয়েও কিছু কম; অথবা
+তার চেয়েও একটু বাড়ান। আর কুরআন তিলাওয়াত করুন ধীরে ধীরে সুস্পষ্টভাবে। … নিশ্চয়
+রাতের বেলার উঠা প্রবৃত্তি দলনে প্রবলতর এবং বাকস্ফুরণে অধিক উপযোগী।" (৭৩:২-৪,
+৬)</p>
+</blockquote>
+<p>সূত্র: (<a href="https://quran.com/73/1-6" rel="noopener">quran.com</a>)। তারপর সূরার
+শেষ আয়াত এই পরিমাপ শিথিল করেছে, আর কারণ হিসেবে অসুস্থতা, জীবিকার সফর ও
+জিহাদের কথা স্পষ্ট বলেছে:</p>
+<blockquote>
+<p class="ar-block" dir="rtl"><span class="ar" dir="rtl" lang="ar">﴿إِنَّ رَبَّكَ يَعۡلَمُ أَنَّكَ تَقُومُ أَدۡنَىٰ مِن ثُلُثَيِ ٱلَّيۡلِ وَنِصۡفَهُۥ وَثُلُثَهُۥ … عَلِمَ أَن لَّن
+تُحۡصُوهُ فَتَابَ عَلَيۡكُمۡۖ فَٱقۡرَءُواْ مَا تَيَسَّرَ مِنَ ٱلۡقُرۡءَانِۚ عَلِمَ أَن سَيَكُونُ مِنكُم مَّرۡضَىٰ
+وَءَاخَرُونَ يَضۡرِبُونَ فِي ٱلۡأَرۡضِ يَبۡتَغُونَ مِن فَضۡلِ ٱللَّهِ …﴾</span></p>
+<p>"নিশ্চয় আপনার রব জানেন যে, আপনি সালাতে দাঁড়ান কখনও রাতের প্রায়
+দুই-তৃতীয়াংশ, কখনও অর্ধাংশ এবং কখনও এক-তৃতীয়াংশ … তিনি জানেন যে, তোমরা এটা
+পুরোপুরি পালন করতে পারবে না, তাই আল্লাহ্ তোমাদের ক্ষমা করলেন। কাজেই কুরআন থেকে
+যতটুকু সহজ ততটুকু পড়, আল্লাহ্ জানেন যে, তোমাদের মধ্যে কেউ কেউ অসুস্থ হয়ে পড়বে, আর
+কেউ কেউ আল্লাহর অনুগ্রহ সন্ধানে দেশ ভ্ৰমন করবে …" (৭৩:২০)</p>
+</blockquote>
+<p>সূত্র: (<a href="https://quran.com/73/20" rel="noopener">quran.com</a>)। আয়িশা (রা.)
+এর পটভূমি জানিয়েছেন: সূরার শুরুতে কিয়ামুল লাইল ফরয ছিল, নবী <span class="ar" dir="rtl" lang="ar">ﷺ</span> ও সাহাবীরা এক
+বছর কিয়াম করেন, তারপর লাঘব নাযিল হলে <span class="ar" dir="rtl" lang="ar">«فَصَارَ قِيَامُ اللَّيْلِ تَطَوُّعًا بَعْدَ فَرِيضَةٍ»</span>,
+"রাতের কিয়াম ফরযের পর নফল হয়ে গেল" (<a href="https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-muslim/1739.json" rel="noopener">মুসলিম
+৭৪৬</a>)। মান: <strong>সহীহ</strong>।</p>
+<p>অন্যদিকে একই কুরআন ঘুমকে বিশ্রাম ও আল্লাহর নিদর্শন বলেছে: <span class="ar" dir="rtl" lang="ar">﴿وَجَعَلۡنَا نَوۡمَكُمۡ
+سُبَاتًا﴾</span>, "আর তোমাদের ঘুমকে করেছি বিশ্ৰাম" (৭৮:৯) (<a href="https://quran.com/78/9-11" rel="noopener">quran.com</a>); <span class="ar" dir="rtl" lang="ar">﴿وَمِنۡ ءَايَٰتِهِۦ مَنَامُكُم
+بِٱلَّيۡلِ وَٱلنَّهَارِ وَٱبۡتِغَآؤُكُم مِّن فَضۡلِهِۦٓۚ إِنَّ فِي ذَٰلِكَ لَأٓيَٰتٍ لِّقَوۡمٍ يَسۡمَعُونَ﴾</span>, "আর তাঁর
+নিদর্শনাবলীর মধ্যে রয়েছে রাতে ও দিনে তোমাদের নিদ্রা এবং তোমাদের অন্বেষণ তাঁর
+অনুগ্রহ হতে। নিশ্চয় এতে বহু নিদর্শন রয়েছে সে সম্প্রদায়ের জন্য, যারা শোনে"
+(৩০:২৩) (<a href="https://quran.com/30/23" rel="noopener">quran.com</a>); আর আয়াতুল
+কুরসীতে আল্লাহর গুণ <span class="ar" dir="rtl" lang="ar">﴿لَا تَأۡخُذُهُۥ سِنَةٌ وَلَا نَوۡمٌۚ﴾</span>, "তাঁকে তন্দ্রাও স্পর্শ করতে পারে
+না, নিদ্রাও নয়" (২:২৫৫) (<a href="https://quran.com/2/255" rel="noopener">quran.com</a>), যা বোঝায় ঘুম সৃষ্টির প্রয়োজন,
+দোষ নয়। ৩০:২৩-এ দিনের ঘুমকেও নিদর্শন বলা হয়েছে, যা কায়লূলার পক্ষে একটি
+ইঙ্গিত। কুরআনের সমষ্টিগত বার্তা তাই "ঘুম না-যাওয়া" নয়, বরং "রাতের কিছু অংশ
+জেগে ইবাদত করা", আর সেটিও "যতটুকু সহজ" পর্যন্ত শিথিল।</p>
+<h3 id="s20"><span class="ar" dir="rtl" lang="ar">«مَا يَهْجَعُونَ»</span>: মুফাসসিররা
+ঘুমের ঘণ্টা বেঁধে দেননি</h3>
+<p>সূরা যারিয়াতের ৫১:১৭ আয়াত "কম ঘুম"-এর প্রধান দলিল হিসেবে ব্যবহৃত হয়, তাই
+এর তাফসীর জানা দরকার। ইবনে কাসীর দুটি মত এনেছেন: <span class="ar" dir="rtl" lang="ar">«اختلف المفسرون في ذلك
+على قولين: أحدهما: أن "ما" نافية … والقول الثاني: أن "ما" مصدرية،
+تقديره: كانوا قليلا من الليل هجوعهم ونومهم. واختاره ابن جرير</span>.» প্রথম মতে
+অর্থ: খুব কম রাতই এমন যেত যার কিছু অংশে তারা নামায পড়তেন না; ইবনে আব্বাস
+বলেছেন <span class="ar" dir="rtl" lang="ar">«لم تكن تمضي عليهم ليلة إلا يأخذون منها ولو شيئا»</span>, "এমন কোনো রাত
+যেত না যার কিছু অংশ, অল্প হলেও, তারা (ইবাদতে) নিতেন না"। আনাস ও আবুল আলিয়ার
+মতে এর অর্থ মাগরিব-এশার মাঝে নামায। দ্বিতীয় মতে অর্থ: তাদের ঘুমই ছিল রাতের
+অল্প অংশ (<a href="https://quran.ksu.edu.sa/tafseer/katheer/sura51-aya17.html" rel="noopener">ইবনে
+কাসীর</a>)। তাবারী দ্বিতীয় মতকে <span class="ar" dir="rtl" lang="ar">«وأولى الأقوال بالصحة»</span>, অর্থাৎ সবচেয়ে সঠিক
+বলেছেন, কারণ আয়াতটি প্রশংসার জন্য (<a href="https://quran.ksu.edu.sa/tafseer/tabary/sura51-aya17.html" rel="noopener">তাবারী</a>)।
+কুরতুবী শব্দার্থ দিয়েছেন: <span class="ar" dir="rtl" lang="ar">«والهجوع النوم ليلا، والتهجاع النومة الخفيفة»</span>,
+"হুজূ' মানে রাতের ঘুম, আর তাহজা' মানে হালকা ঘুম", এবং আতা থেকে এনেছেন যে এটি
+ছিল কিয়ামুল লাইল ফরয থাকার সময়ের কথা (<a href="https://quran.ksu.edu.sa/tafseer/qortobi/sura51-aya17.html" rel="noopener">কুরতুবী</a>)।</p>
+<p>ইবনে কাসীর এখানে যায়দ ইবনে আসলামের একটি ভারসাম্যপূর্ণ উক্তিও এনেছেন। বনু
+তামীমের এক ব্যক্তি অভিযোগ করল, "আল্লাহর কসম, আমরা রাতের সামান্যই কিয়াম করি";
+তিনি বললেন: <span class="ar" dir="rtl" lang="ar">«طوبى لمن رقد إذا نعس، واتقى الله إذا استيقظ»</span>, "সুসংবাদ তার
+জন্য, যে তন্দ্রা এলে ঘুমিয়ে পড়ে, আর জেগে উঠলে আল্লাহকে ভয় করে" (<a href="https://quran.ksu.edu.sa/tafseer/katheer/sura51-aya17.html" rel="noopener">ইবনে
+কাসীর</a>)। তাবেয়ী আহনাফ ইবনে কায়স এই আয়াত পড়ে বলতেন <span class="ar" dir="rtl" lang="ar">«لست من أهل هذه
+الآية»</span>, "আমি এই আয়াতের লোক নই" (একই উৎস)। সবচেয়ে কঠোর পাঠেও আয়াতটি কোনো
+নির্দিষ্ট ঘণ্টা বা ন্যূনতম-ঘুমের নিয়ম বেঁধে দেয় না।</p>
+<h3 id="s21">সহীহ
+হাদীসের আদর্শ: রাতের দুই-তৃতীয়াংশ ঘুম, শেষ ভাগে কিয়াম</h3>
+<p>ঘুম কমানোর প্রশ্নে সবচেয়ে কেন্দ্রীয় হাদীস হলো দাঊদ (আ.)-এর নামায:</p>
+<blockquote>
+<p class="ar-block" dir="rtl"><span class="ar" dir="rtl" lang="ar">«أَحَبُّ الصَّلاَةِ إِلَى اللَّهِ صَلاَةُ دَاوُدَ ـ عَلَيْهِ السَّلاَمُ ـ وَأَحَبُّ الصِّيَامِ إِلَى اللَّهِ
+صِيَامُ دَاوُدَ، وَكَانَ يَنَامُ نِصْفَ اللَّيْلِ وَيَقُومُ ثُلُثَهُ وَيَنَامُ سُدُسَهُ، وَيَصُومُ يَوْمًا وَيُفْطِرُ
+يَوْمًا»</span></p>
+<p>"আল্লাহর নিকট সর্বাধিক প্রিয় সালাত হল দাঊদ (আ.)-এর সালাত এবং সর্বাধিক
+প্রিয় সাওম দাঊদ (আ.)-এর সাওম। তিনি অর্ধরাত পর্যন্ত ঘুমাতেন, এক তৃতীয়াংশ সালাত
+আদায় করতেন এবং রাতের এক ষষ্ঠাংশ ঘুমাতেন; আর একদিন সাওম পালন করতেন, একদিন
+করতেন না।"</p>
+</blockquote>
+<p>সূত্র: সহীহ বুখারী ১১৩১ (আধুনিক প্রকাশনী ১০৬০), সহীহ মুসলিম ১১৫৯; মান:
+<strong>সহীহ</strong> (<a href="https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-bukhari/1131.json" rel="noopener">বুখারী
+১১৩১</a>; <a href="https://sunnah.com/bukhari:1131" rel="noopener">sunnah.com</a>)। এই
+ধরনে রাতের ১/২ + ১/৬ = <strong>২/৩ অংশ ঘুম</strong>, দুই ভাগে। গবেষকের
+নিজস্ব হিসাব হলো, সূর্যাস্ত থেকে ফজর পর্যন্ত রাত ১১ থেকে ১২ ঘণ্টা ধরলে ঘুম দাঁড়ায়
+প্রায় ৭.৫ থেকে ৮ ঘণ্টা; এটি কোনো হাদীস বা ব্যাখ্যাকারের উক্তি নয়, আর ঋতু ও
+অক্ষাংশভেদে রাতের দৈর্ঘ্য বদলায়। তবে ইবনুল কাইয়্যিম নিজেই এই "প্রথম অর্ধেক ও
+শেষ ষষ্ঠাংশ"-এর ঘুমকে প্রায় আট ঘণ্টা বলে হিসাব করেছেন (পরের অংশে দেখুন)।</p>
+<p>সারারাত জাগার সংকল্পকে নবী <span class="ar" dir="rtl" lang="ar">ﷺ</span> সরাসরি নিজের সুন্নাহ থেকে বিচ্যুতি বলেছেন।
+তিন ব্যক্তির একজন বলেছিল <span class="ar" dir="rtl" lang="ar">«أَمَّا أَنَا فَإِنِّي أُصَلِّي اللَّيْلَ أَبَدًا»</span>, "আমি সারা জীবন
+রাতভর সালাত আদায় করতে থাকব"; উত্তরে তিনি বলেন:</p>
+<blockquote>
+<p class="ar-block" dir="rtl"><span class="ar" dir="rtl" lang="ar">«أَمَا وَاللَّهِ إِنِّي لأَخْشَاكُمْ لِلَّهِ وَأَتْقَاكُمْ لَهُ، لَكِنِّي أَصُومُ وَأُفْطِرُ، وَأُصَلِّي وَأَرْقُدُ
+وَأَتَزَوَّجُ النِّسَاءَ، فَمَنْ رَغِبَ عَنْ سُنَّتِي فَلَيْسَ مِنِّي»</span></p>
+<p>"আল্লাহর কসম! আমি আল্লাহকে তোমাদের চেয়ে বেশি ভয় করি এবং তোমাদের চেয়ে
+বেশি তাকওয়া রাখি; অথচ আমি সাওম পালন করি, আবার বিরতও থাকি; সালাত আদায় করি
+এবং নিদ্রা যাই; আর নারীদের বিয়েও করি। যে আমার সুন্নাত থেকে মুখ ফিরিয়ে নেবে,
+সে আমার দলভুক্ত নয়।"</p>
+</blockquote>
+<p>সূত্র: সহীহ বুখারী ৫০৬৩; মান: <strong>সহীহ</strong> (<a href="https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-bukhari/5063.json" rel="noopener">বুখারী
+৫০৬৩</a>)। প্রচলিত শব্দরূপ <span class="ar" dir="rtl" lang="ar">«أُصَلِّي وَأَنَامُ»</span> আসলে সহীহ মুসলিম ১৪০১-এর, যেখানে
+একজন বলেছিল <span class="ar" dir="rtl" lang="ar">«لاَ أَنَامُ عَلَى فِرَاشٍ»</span>, "আমি বিছানায় ঘুমাব না" (<a href="https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-muslim/3403.json" rel="noopener">মুসলিম
+১৪০১</a>)।</p>
+<p>আবদুল্লাহ ইবনে আমর (রা.)-কে নবী <span class="ar" dir="rtl" lang="ar">ﷺ</span> বলেছিলেন:</p>
+<blockquote>
+<p class="ar-block" dir="rtl"><span class="ar" dir="rtl" lang="ar">«فَلاَ تَفْعَلْ، صُمْ وَأَفْطِرْ، وَقُمْ وَنَمْ، فَإِنَّ لِجَسَدِكَ عَلَيْكَ حَقًّا، وَإِنَّ لِعَيْنِكَ عَلَيْكَ حَقًّا،
+وَإِنَّ لِزَوْجِكَ عَلَيْكَ حَقًّا»</span></p>
+<p>"এমন কোরো না; সাওম পালন কর, আবার ছেড়েও দাও; (রাতে) সালাত আদায় কর,
+আবার ঘুমাও। কেননা তোমার উপর তোমার শরীরের হক রয়েছে, তোমার চোখের হক রয়েছে,
+তোমার স্ত্রীর হক রয়েছে।"</p>
+</blockquote>
+<p>সূত্র: সহীহ বুখারী ১৯৭৫ (৫১৯৯ ও ৬১৩৪-এও); মান: <strong>সহীহ</strong> (<a href="https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-bukhari/1975.json" rel="noopener">বুখারী
+১৯৭৫</a>)। বৃদ্ধ বয়সে আবদুল্লাহ আক্ষেপ করতেন: <span class="ar" dir="rtl" lang="ar">«يَا لَيْتَنِي قَبِلْتُ رُخْصَةَ النَّبِيِّ صلى
+الله عليه وسلم»</span>, "হায়, যদি নবী <span class="ar" dir="rtl" lang="ar">ﷺ</span>-এর দেওয়া ছাড় গ্রহণ করতাম!" (একই উৎস)। আর
+আয়িশা (রা.) সাক্ষ্য দিয়েছেন: <span class="ar" dir="rtl" lang="ar">«وَلاَ أَعْلَمُ نَبِيَّ اللَّهِ صلى الله عليه وسلم قَرَأَ
+الْقُرْآنَ كُلَّهُ فِي لَيْلَةٍ وَلاَ صَلَّى لَيْلَةً إِلَى الصُّبْحِ»</span>, "আমি জানি না যে নবী <span class="ar" dir="rtl" lang="ar">ﷺ</span> এক
+রাতে পুরো কুরআন পড়েছেন, বা কোনো রাত সকাল পর্যন্ত নামায পড়েছেন" (<a href="https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-muslim/1739.json" rel="noopener">মুসলিম
+৭৪৬</a>)।</p>
+<p>ভারসাম্য ও কিয়ামের ফযীলত বিষয়ে আরও কয়েকটি গুরুত্বপূর্ণ হাদীস নিচে দেওয়া
+হলো।</p>
+<div class="table-wrap"><table>
+<thead>
+<tr class="header">
+<th>বিষয়</th>
+<th>আরবি (মূল অংশ)</th>
+<th>বাংলা অর্থ</th>
+<th>সূত্র ও মান</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>সালমান ও আবুদ দারদা</td>
+<td class="ar-block" dir="rtl"><span class="ar" dir="rtl" lang="ar">«إِنَّ لِرَبِّكَ عَلَيْكَ حَقًّا، وَلِنَفْسِكَ عَلَيْكَ حَقًّا، وَلأَهْلِكَ عَلَيْكَ حَقًّا، فَأَعْطِ كُلَّ ذِي حَقٍّ
+حَقَّهُ»</span> … <span class="ar" dir="rtl" lang="ar">«صَدَقَ سَلْمَانُ»</span></td>
+<td>রাতের শুরুতে সালমান বললেন "ঘুমাও", শেষ ভাগে বললেন "এখন ওঠো"; তোমার
+রবের, তোমার নিজের ও পরিবারের হক আছে; প্রত্যেককে তার হক দাও। নবী <span class="ar" dir="rtl" lang="ar">ﷺ</span> বললেন:
+সালমান সত্য বলেছে</td>
+<td>বুখারী ১৯৬৮; সহীহ (<a href="https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-bukhari/1968.json" rel="noopener">লিংক</a>)</td>
+</tr>
+<tr class="even">
+<td>তন্দ্রা এলে ঘুমাও</td>
+<td class="ar-block" dir="rtl"><span class="ar" dir="rtl" lang="ar">«إِذَا نَعَسَ أَحَدُكُمْ وَهُوَ يُصَلِّي فَلْيَرْقُدْ حَتَّى يَذْهَبَ عَنْهُ النَّوْمُ»</span></td>
+<td>সালাতরত অবস্থায় তন্দ্রা এলে ঘুমের আমেজ চলে না যাওয়া পর্যন্ত ঘুমিয়ে নাও;
+নইলে হয়তো ইস্তিগফারের বদলে নিজেকে গালি দেবে</td>
+<td>বুখারী ২১২ (আধুনিক ২০৬), মুসলিম ৭৮৬; সহীহ (<a href="https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-bukhari/212.json" rel="noopener">লিংক</a>)</td>
+</tr>
+<tr class="odd">
+<td>যায়নাবের রশি</td>
+<td class="ar-block" dir="rtl"><span class="ar" dir="rtl" lang="ar">«لاَ، حُلُّوهُ، لِيُصَلِّ أَحَدُكُمْ نَشَاطَهُ، فَإِذَا فَتَرَ فَلْيَقْعُدْ»</span></td>
+<td>ক্লান্ত হলে ঝুলে থাকার রশি খুলে ফেলো; যতক্ষণ সতেজ থাকো পড়ো, ক্লান্ত হলে বসে
+পড়ো</td>
+<td>বুখারী ১১৫০ (আধুনিক ১০৭৯), মুসলিম ৭৮৪; সহীহ (<a href="https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-bukhari/1150.json" rel="noopener">লিংক</a>)</td>
+</tr>
+<tr class="even">
+<td>যে মহিলা রাতে ঘুমায় না</td>
+<td class="ar-block" dir="rtl"><span class="ar" dir="rtl" lang="ar">«مَهْ عَلَيْكُمْ مَا تُطِيقُونَ مِنَ الأَعْمَالِ، فَإِنَّ اللَّهَ لاَ يَمَلُّ حَتَّى تَمَلُّوا»</span></td>
+<td>থামো; সাধ্যমতো আমল করো; তোমরা ক্লান্ত না হওয়া পর্যন্ত আল্লাহ (সওয়াব দিতে)
+ক্লান্ত হন না</td>
+<td>বুখারী ১১৫১; সহীহ (<a href="https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-bukhari/1151.json" rel="noopener">লিংক</a>)</td>
+</tr>
+<tr class="odd">
+<td>অল্প হলেও নিয়মিত</td>
+<td class="ar-block" dir="rtl"><span class="ar" dir="rtl" lang="ar">«أَدْوَمُهَا وَإِنْ قَلَّ»</span> … <span class="ar" dir="rtl" lang="ar">«اكْلَفُوا مِنَ الأَعْمَالِ مَا تُطِيقُونَ»</span></td>
+<td>আল্লাহর কাছে প্রিয় আমল যা নিয়মিত, যদিও অল্প; সাধ্যের অতিরিক্ত চাপিয়ো
+না</td>
+<td>বুখারী ৬৪৬৫, মুসলিম ৭৮২; সহীহ (<a href="https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-bukhari/6465.json" rel="noopener">লিংক</a>)</td>
+</tr>
+<tr class="even">
+<td>দ্বীন সহজ</td>
+<td class="ar-block" dir="rtl"><span class="ar" dir="rtl" lang="ar">«إِنَّ الدِّينَ يُسْرٌ … وَاسْتَعِينُوا بِالْغَدْوَةِ وَالرَّوْحَةِ وَشَىْءٍ مِنَ الدُّلْجَةِ»</span></td>
+<td>দ্বীন সহজ; বাড়াবাড়ি করলে দ্বীন তাকে পরাস্ত করে; সকাল-সন্ধ্যা ও রাতের কিছু
+অংশের সাহায্য নাও</td>
+<td>বুখারী ৩৯; সহীহ (<a href="https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-bukhari/39.json" rel="noopener">লিংক</a>)</td>
+</tr>
+<tr class="odd">
+<td>ঘুমে ছুটে গেলে</td>
+<td class="ar-block" dir="rtl"><span class="ar" dir="rtl" lang="ar">«مَنْ نَامَ عَنْ حِزْبِهِ أَوْ عَنْ شَىْءٍ مِنْهُ فَقَرَأَهُ فِيمَا بَيْنَ صَلاَةِ الْفَجْرِ وَصَلاَةِ الظُّهْرِ
+كُتِبَ لَهُ كَأَنَّمَا قَرَأَهُ مِنَ اللَّيْلِ»</span></td>
+<td>রাতের নির্ধারিত অংশ ঘুমের কারণে ছুটে গেলে ফজর থেকে যোহরের মধ্যে পড়ে নিলে
+রাতে পড়ার মতোই লেখা হয়</td>
+<td>মুসলিম ৭৪৭; সহীহ (<a href="https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-muslim/1745.json" rel="noopener">লিংক</a>)</td>
+</tr>
+<tr class="even">
+<td>দিনে কাযা</td>
+<td class="ar-block" dir="rtl"><span class="ar" dir="rtl" lang="ar">«وَكَانَ إِذَا غَلَبَهُ نَوْمٌ أَوْ وَجَعٌ عَنْ قِيَامِ اللَّيْلِ صَلَّى مِنَ النَّهَارِ ثِنْتَىْ عَشْرَةَ
+رَكْعَةً»</span></td>
+<td>ঘুম বা ব্যথায় রাতের কিয়াম ছুটে গেলে তিনি দিনে বারো রাকআত পড়তেন</td>
+<td>মুসলিম ৭৪৬; সহীহ (<a href="https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-muslim/1739.json" rel="noopener">লিংক</a>)</td>
+</tr>
+<tr class="odd">
+<td>ফরযের পর শ্রেষ্ঠ নামায</td>
+<td class="ar-block" dir="rtl"><span class="ar" dir="rtl" lang="ar">«وَأَفْضَلُ الصَّلاَةِ بَعْدَ الْفَرِيضَةِ صَلاَةُ اللَّيْلِ»</span></td>
+<td>ফরয সালাতের পর সর্বোত্তম সালাত রাতের সালাত</td>
+<td>মুসলিম ১১৬৩ (ইসলামিক ফাউন্ডেশন ২৬২২); সহীহ (<a href="https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-muslim/2755.json" rel="noopener">লিংক</a>)</td>
+</tr>
+<tr class="even">
+<td>শেষ তৃতীয়াংশে অবতরণ</td>
+<td class="ar-block" dir="rtl"><span class="ar" dir="rtl" lang="ar">«يَنْزِلُ رَبُّنَا تَبَارَكَ وَتَعَالَى كُلَّ لَيْلَةٍ إِلَى السَّمَاءِ الدُّنْيَا حِينَ يَبْقَى ثُلُثُ اللَّيْلِ
+الآخِرُ»</span></td>
+<td>প্রতি রাতে শেষ তৃতীয়াংশে আমাদের রব নিকটবর্তী আসমানে অবতরণ করে ডাকেন: কে
+আমাকে ডাকবে, আমি সাড়া দেব</td>
+<td>বুখারী ১১৪৫ (আধুনিক ১০৭৪), মুসলিম ৭৫৮; সহীহ (<a href="https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-bukhari/1145.json" rel="noopener">লিংক</a>)</td>
+</tr>
+<tr class="odd">
+<td>শয়তানের তিন গিঁট</td>
+<td class="ar-block" dir="rtl"><span class="ar" dir="rtl" lang="ar">«يَعْقِدُ الشَّيْطَانُ عَلَى قَافِيَةِ رَأْسِ أَحَدِكُمْ إِذَا هُوَ نَامَ ثَلاَثَ عُقَدٍ … عَلَيْكَ لَيْلٌ
+طَوِيلٌ فَارْقُدْ»</span></td>
+<td>ঘুমালে শয়তান ঘাড়ে তিন গিঁট দিয়ে বলে "লম্বা রাত, ঘুমাও"; জেগে যিকির, ওযু ও
+নামাযে একে একে গিঁট খোলে, সকাল হয় উৎফুল্ল মনে</td>
+<td>বুখারী ১১৪২ (আধুনিক ১০৭১), মুসলিম ৭৭৬; সহীহ (<a href="https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-bukhari/1142.json" rel="noopener">লিংক</a>)</td>
+</tr>
+<tr class="even">
+<td>সকাল পর্যন্ত ঘুম</td>
+<td class="ar-block" dir="rtl"><span class="ar" dir="rtl" lang="ar">«بَالَ الشَّيْطَانُ فِي أُذُنِهِ»</span></td>
+<td>যে সকাল পর্যন্ত ঘুমিয়ে সালাতে ওঠেনি, শয়তান তার কানে পেশাব করেছে</td>
+<td>বুখারী ১১৪৪ (আধুনিক ১০৭৩), মুসলিম ৭৭৪; সহীহ (<a href="https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-bukhari/1144.json" rel="noopener">লিংক</a>)</td>
+</tr>
+<tr class="odd">
+<td>মানুষ যখন ঘুমায়</td>
+<td class="ar-block" dir="rtl"><span class="ar" dir="rtl" lang="ar">«وَصَلُّوا وَالنَّاسُ نِيَامٌ تَدْخُلُونَ الْجَنَّةَ بِسَلاَمٍ»</span></td>
+<td>মানুষ যখন ঘুমিয়ে থাকে তখন সালাত পড়ো, নিরাপদে জান্নাতে প্রবেশ করবে</td>
+<td>তিরমিযী ২৪৮৫ (তিরমিযী: সহীহ; আলবানী: সহীহ), ইবনে মাজাহ ১৩৩৪ (<a href="https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-tirmidhi/2485.json" rel="noopener">লিংক</a>)</td>
+</tr>
+<tr class="even">
+<td>শেষ রাতে রব নিকটতম</td>
+<td class="ar-block" dir="rtl"><span class="ar" dir="rtl" lang="ar">«أَقْرَبُ مَا يَكُونُ الرَّبُّ مِنَ الْعَبْدِ فِي جَوْفِ اللَّيْلِ الآخِرِ»</span></td>
+<td>শেষ রাতে রব বান্দার সবচেয়ে নিকটে; পারলে তখন যিকিরকারীদের দলে
+থাকো</td>
+<td>তিরমিযী ৩৫৭৯; তিরমিযী: হাসান সহীহ গরীব; আলবানী: সহীহ (<a href="https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-tirmidhi/3579.json" rel="noopener">লিংক</a>)</td>
+</tr>
+<tr class="odd">
+<td>স্বামী-স্ত্রী একে অপরকে জাগানো</td>
+<td class="ar-block" dir="rtl"><span class="ar" dir="rtl" lang="ar">«رَحِمَ اللَّهُ رَجُلاً قَامَ مِنَ اللَّيْلِ فَصَلَّى وَأَيْقَظَ امْرَأَتَهُ»</span></td>
+<td>আল্লাহ রহম করুন সেই পুরুষের প্রতি যে রাতে উঠে নামায পড়ে ও স্ত্রীকে জাগায়,
+এবং সেই নারীর প্রতি যে স্বামীকে জাগায়</td>
+<td>আবু দাউদ ১৩০৮; আলবানী: হাসান সহীহ; আরনাঊত: সহীহ (<a href="https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-abudawud/1308.json" rel="noopener">লিংক</a>)</td>
+</tr>
+<tr class="even">
+<td>ইবনে উমরের পরিবর্তন</td>
+<td class="ar-block" dir="rtl"><span class="ar" dir="rtl" lang="ar">«نِعْمَ الرَّجُلُ عَبْدُ اللَّهِ، لَوْ كَانَ يُصَلِّي مِنَ اللَّيْلِ»</span></td>
+<td>"আবদুল্লাহ কতই ভালো লোক, যদি রাতে সালাত পড়ত!" এরপর থেকে তিনি রাতে অল্পই
+ঘুমাতেন</td>
+<td>বুখারী ১১২২; সহীহ (<a href="https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-bukhari/1122.json" rel="noopener">লিংক</a>)</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="s22">নবী <span class="ar" dir="rtl" lang="ar">ﷺ</span>-এর ঘুম: ঘণ্টার
+হিসাব নেই, ধরনটা দুই ভাগের</h3>
+<p>নবী <span class="ar" dir="rtl" lang="ar">ﷺ</span> কত ঘণ্টা ঘুমাতেন, এমন কোনো সংখ্যাভিত্তিক সহীহ বর্ণনা এই গবেষণায়
+পাওয়া যায়নি; অনলাইনে প্রচলিত "নবী ৪-৫ ঘণ্টা ঘুমাতেন" জাতীয় দাবি তাই
+<strong>সূত্রহীন</strong> বলে গণ্য করা উচিত। সহীহ বর্ণনাগুলো ঘুমের পরিমাণ নয়,
+ধরন জানায়। আসওয়াদ আয়িশা (রা.)-কে নবী <span class="ar" dir="rtl" lang="ar">ﷺ</span>-এর রাতের নামায সম্পর্কে জিজ্ঞেস করলে
+তিনি বলেন:</p>
+<blockquote>
+<p class="ar-block" dir="rtl"><span class="ar" dir="rtl" lang="ar">«كَانَ يَنَامُ أَوَّلَهُ وَيَقُومُ آخِرَهُ، فَيُصَلِّي ثُمَّ يَرْجِعُ إِلَى فِرَاشِهِ، فَإِذَا أَذَّنَ الْمُؤَذِّنُ
+وَثَبَ»</span></p>
+<p>"তিনি রাতের প্রথমাংশে ঘুমাতেন, শেষাংশে জেগে সালাত আদায় করতেন, অতঃপর
+শয্যায় ফিরে যেতেন; মুআয্যিন আযান দিলে দ্রুত উঠে পড়তেন।"</p>
+</blockquote>
+<p>সূত্র: বুখারী ১১৪৬ (আধুনিক ১০৭৫), মুসলিম ৭৩৯; মান: <strong>সহীহ</strong>
+(<a href="https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-bukhari/1146.json" rel="noopener">বুখারী
+১১৪৬</a>)। মাসরূককে আয়িশা বলেছেন, তিনি উঠতেন <span class="ar" dir="rtl" lang="ar">«إِذَا سَمِعَ الصَّارِخَ»</span>, "যখন
+মোরগের ডাক শুনতেন" (<a href="https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-bukhari/1132.json" rel="noopener">বুখারী
+১১৩২</a>); আর <span class="ar" dir="rtl" lang="ar">«مَا أَلْفَاهُ السَّحَرُ عِنْدِي إِلاَّ نَائِمًا»</span>, "সাহরের সময় তাঁকে আমার
+কাছে সবসময় ঘুমন্তই পেয়েছি" (<a href="https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-bukhari/1133.json" rel="noopener">বুখারী
+১১৩৩</a>)। আনাস (রা.) বলেছেন, রাতের যে কোনো সময় তাঁকে নামাযরত বা ঘুমন্ত দুই
+অবস্থাতেই দেখা যেত, অর্থাৎ কোনো যান্ত্রিক রুটিন ছিল না (<a href="https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-bukhari/1141.json" rel="noopener">বুখারী
+১১৪১</a>)। এই তিনটি বর্ণনা মিলিয়ে বোঝা যায়, নবী <span class="ar" dir="rtl" lang="ar">ﷺ</span>-এর রাতের ঘুম ছিল দুই ভাগে
+বিভক্ত (বাইফেজিক): প্রথম ভাগে মূল ঘুম, তারপর কিয়াম, তারপর ফজরের আগে আবার অল্প
+ঘুম। কিয়ামের দৈর্ঘ্যও স্থির ছিল না; কুরআন অনুযায়ী কখনো প্রায় দুই-তৃতীয়াংশ, কখনো
+অর্ধেক, কখনো এক-তৃতীয়াংশ (৭৩:২০)।</p>
+<p>ইবনুল কাইয়্যিম যাদুল মা'আদের চিকিৎসা-অংশে এই ধরনকে ব্যাখ্যা করেছেন:</p>
+<blockquote>
+<p class="ar-block" dir="rtl"><span class="ar" dir="rtl" lang="ar">«من تدبر نومه ويقظته صلى الله عليه وسلم وجده أعدل نوم، وأنفعه للبدن
+والأعضاء والقوى، فإنه كان ينام أول الليل، ويستيقظ في أول النصف الثاني …
+ولم يكن يأخذ من النوم فوق القدر المحتاج إليه، ولا يمنع نفسه من القدر
+المحتاج إليه منه»</span></p>
+<p>"যে তাঁর ঘুম ও জাগরণ নিয়ে ভাববে, সে দেখবে এটি সবচেয়ে ভারসাম্যপূর্ণ ঘুম এবং
+শরীর, অঙ্গপ্রত্যঙ্গ ও শক্তির জন্য সবচেয়ে উপকারী। তিনি রাতের প্রথমভাগে ঘুমাতেন,
+দ্বিতীয়ার্ধের শুরুতে জাগতেন … তিনি প্রয়োজনের বেশি ঘুমাতেন না, আবার প্রয়োজনীয়
+পরিমাণ থেকে নিজেকে বঞ্চিতও করতেন না।"</p>
+</blockquote>
+<p>সূত্র: যাদুল মা'আদ, খণ্ড ৪, <span class="ar" dir="rtl" lang="ar">«فصل في تدبيره صلى الله عليه وسلم لأمر النوم
+واليقظة»</span> (ঘুম ও জাগরণ বিষয়ে নবী <span class="ar" dir="rtl" lang="ar">ﷺ</span>-এর ব্যবস্থাপনা অধ্যায়) (<a href="https://ar.wikisource.org/wiki/%D8%B2%D8%A7%D8%AF_%D8%A7%D9%84%D9%85%D8%B9%D8%A7%D8%AF/%D8%A7%D9%84%D9%85%D8%AC%D9%84%D8%AF_%D8%A7%D9%84%D8%B1%D8%A7%D8%A8%D8%B9" rel="noopener">উইকিসোর্স</a>;
+<a href="https://shamela.ws/book/197/2595" rel="noopener">শামেলা ১৯৭</a>)। মান:
+<strong>আলেমের ব্যাখ্যা, সরাসরি পাঠ</strong>। মনে রাখা দরকার, এই অধ্যায়ের
+চিকিৎসা-অংশ (কোন কাতে শুলে পাকস্থলী বা লিভারের কী হয়) তৎকালীন গ্রিক-আরব
+চিকিৎসাবিদ্যার ভিত্তিতে লেখা, ওহী নয়।</p>
+<h3 id="s23">ঘুমের আদব:
+এশার আগে না ঘুমানো, ভোরের বরকত, কায়লূলা, ডান কাত</h3>
+<p>ঘুমের সময় ও আদব নিয়ে কয়েকটি বর্ণনা সহীহ সূত্রে প্রমাণিত, এবং এগুলো আধুনিক
+"নির্দিষ্ট সময়ে শোয়া ও ওঠা"-র পরামর্শের সঙ্গে স্বাভাবিকভাবে মেলে। নবী <span class="ar" dir="rtl" lang="ar">ﷺ</span> <span class="ar" dir="rtl" lang="ar">«كَانَ
+يَكْرَهُ النَّوْمَ قَبْلَ الْعِشَاءِ وَالْحَدِيثَ بَعْدَهَا»</span>, "এশার পূর্বে নিদ্রা যাওয়া এবং পরে
+কথাবার্তা বলা অপছন্দ করতেন" (<a href="https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-bukhari/568.json" rel="noopener">বুখারী
+৫৬৮</a>; আধুনিক ৫৩৫; মান: <strong>সহীহ</strong>)। তিনি দু'আ করেছেন <span class="ar" dir="rtl" lang="ar">«اللَّهُمَّ
+بَارِكْ لأُمَّتِي فِي بُكُورِهَا»</span>, "হে আল্লাহ! আমার উম্মতকে ভোরের বরকত দান করুন" (<a href="https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-abudawud/2606.json" rel="noopener">আবু
+দাউদ ২৬০৬</a>; <a href="https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-tirmidhi/1212.json" rel="noopener">তিরমিযী
+১২১২</a>); মান: আলবানী সহীহ, তিরমিযী হাসান, আরনাঊত সহীহ লি-গাইরিহী।
+ডেটাসেটে ইবনে মাজাহ ২২৩৬-এ একই হাদীসের পাশে আলবানীর "যঈফ" লেখা আছে, যা
+অন্য গ্রেডিংয়ের সঙ্গে সাংঘর্ষিক; তাই আবু দাউদ ও তিরমিযীকেই মূল হাওয়ালা ধরা
+নিরাপদ।</p>
+<p>সাহাবীদের কায়লূলার অভ্যাস সহীহ সূত্রে প্রমাণিত: <span class="ar" dir="rtl" lang="ar">«مَا كُنَّا نَقِيلُ وَلاَ نَتَغَدَّى إِلاَّ
+بَعْدَ الْجُمُعَةِ»</span>, "জুমু'আর (সালাতের) পরই আমরা কায়লূলা (দুপুরের শয়ন ও হালকা নিদ্রা)
+এবং দুপুরের আহার গ্রহণ করতাম" (<a href="https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-bukhari/939.json" rel="noopener">বুখারী
+৯৩৯</a>; মুসলিম ৮৫৯; মান: <strong>সহীহ</strong>)। মৌখিক নির্দেশ <span class="ar" dir="rtl" lang="ar">«قِيلُوا فَإِنَّ
+الشَّيَاطِينَ لاَ تَقِيلُ»</span>, "তোমরা দুপুরে বিশ্রাম নাও, কারণ শয়তানরা দুপুরে বিশ্রাম নেয়
+না", আলবানী সহীহুল জামি' ৪৪৩১-এ <strong>হাসান</strong> বলেছেন (<a href="https://en.tohed.com/hadith/sahih-al-jami-al-saghir/4431/" rel="noopener">tohed</a>);
+কিন্তু ইমাম আহমাদকে জিজ্ঞেস করা হলে তিনি বলেছিলেন <span class="ar" dir="rtl" lang="ar">«لا أعرفه؛ إنما هذا: عن
+منصور، عن مجاهد»</span> (আমি এটি চিনি না; এটি তো মানসূর থেকে, মুজাহিদ থেকে
+বর্ণিত), অর্থাৎ তাঁর মতে এটি নবী <span class="ar" dir="rtl" lang="ar">ﷺ</span>-এর বাণী নয়, তাবেয়ী মুজাহিদের উক্তি (<a href="https://shamela.ws/book/26075/29" rel="noopener">আল-মুনতাখাব মিন ইলালিল
+খাল্লাল</a>)। তাই মারফূ' হিসেবে এটি <strong>মতভেদপূর্ণ</strong>; কায়লূলার মূল
+ভিত্তি হিসেবে বুখারী ৯৩৯-ই যথেষ্ট।</p>
+<p>ঘুমের আগে ওযু করে ডান কাতে শোয়ার নির্দেশ: <span class="ar" dir="rtl" lang="ar">«إِذَا أَتَيْتَ مَضْجَعَكَ فَتَوَضَّأْ وُضُوءَكَ
+لِلصَّلاَةِ، ثُمَّ اضْطَجِعْ عَلَى شِقِّكَ الأَيْمَنِ»</span>, "যখন তুমি বিছানায় যাবে তখন সালাতের উযূর
+মতো উযূ করে নেবে, তারপর ডান পাশে শোবে" (<a href="https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-bukhari/247.json" rel="noopener">বুখারী
+২৪৭</a>; মান: <strong>সহীহ</strong>)। ফজরের দুই রাকআত সুন্নতের পর ডান কাতে
+শোয়া (<a href="https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-bukhari/1160.json" rel="noopener">বুখারী
+১১৬০</a>)। খাদেমের বদলে আলী ও ফাতিমা (রা.)-কে শেখানো ঘুমের আগের যিকির:
+<span class="ar" dir="rtl" lang="ar">«إِذَا أَخَذْتُمَا مَضَاجِعَكُمَا تُكَبِّرَا أَرْبَعًا وَثَلاَثِينَ، وَتُسَبِّحَا ثَلاَثًا وَثَلاَثِينَ، وَتَحْمَدَا
+ثَلاَثَةً وَثَلاَثِينَ، فَهْوَ خَيْرٌ لَكُمَا مِنْ خَادِمٍ»</span>, "বিছানায় গেলে ৩৪ বার আল্লাহু আকবার,
+৩৩ বার সুবহানাল্লাহ ও ৩৩ বার আলহামদুলিল্লাহ পড়বে; এটি তোমাদের জন্য খাদেমের
+চেয়ে উত্তম" (<a href="https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-bukhari/3705.json" rel="noopener">বুখারী
+৩৭০৫</a>; মান: <strong>সহীহ</strong>)। উপুড় হয়ে শোয়া সম্পর্কে <span class="ar" dir="rtl" lang="ar">«إِنَّ هَذِهِ ضَجْعَةٌ
+لاَ يُحِبُّهَا اللَّهُ»</span>, "আল্লাহ এ রকম শোয়া পছন্দ করেন না" (<a href="https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-tirmidhi/2768.json" rel="noopener">তিরমিযী
+২৭৬৮</a>; আলবানী ও আহমাদ শাকির: হাসান সহীহ)।</p>
+<h3 id="s24">প্রচলিত দুর্বল, জাল ও অযাচাইকৃত
+বর্ণনা</h3>
+<p>ঘুম ও ভোর নিয়ে বাংলায় বহুল প্রচলিত বেশ কয়েকটি "হাদীস" দুর্বল, খুবই দুর্বল বা
+জালের কাছাকাছি। এগুলো দলিল হিসেবে ব্যবহার করা যাবে না; উল্লেখ করতে হলে
+মান-চিহ্নসহ করতে হবে।</p>
+<div class="table-wrap"><table>
+<thead>
+<tr class="header">
+<th>প্রচলিত বর্ণনা</th>
+<th>আরবি পাঠ</th>
+<th>উৎস</th>
+<th>মান ও কারণ</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>সুলাইমান (আ.)-এর মায়ের উপদেশ: রাতে বেশি ঘুম কিয়ামতে নিঃস্ব করে</td>
+<td class="ar-block" dir="rtl"><span class="ar" dir="rtl" lang="ar">«يَا بُنَىَّ لاَ تُكْثِرِ النَّوْمَ بِاللَّيْلِ فَإِنَّ كَثْرَةَ النَّوْمِ بِاللَّيْلِ تَتْرُكُ الرَّجُلَ فَقِيرًا
+يَوْمَ الْقِيَامَةِ»</span></td>
+<td>ইবনে মাজাহ ১৩৩২ (<a href="https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-ibnmajah/1332.json" rel="noopener">লিংক</a>)</td>
+<td><strong>যঈফ</strong>: আলবানী, ফুআদ আবদুল বাকী ও যুবাইর আলী যাঈ; সনদে
+সুনাইদ ইবনে দাউদ ও ইউসুফ ইবনে মুহাম্মাদ</td>
+</tr>
+<tr class="even">
+<td>ফাতিমা (রা.)-কে ভোরে জাগিয়ে "রিযিক বণ্টন দেখো"</td>
+<td class="ar-block" dir="rtl"><span class="ar" dir="rtl" lang="ar">«قومي اشهدي رزق ربك»</span></td>
+<td>বায়হাকী, শু'আবুল ঈমান ৪৪০৫ (<a href="https://dorar.net/h/P7iThgJ3" rel="noopener">dorar</a>)</td>
+<td><strong>খুবই দুর্বল</strong>: সনদে আবদুল মালিক ইবনে হারূন ইবনে আনতারা,
+যাকে মু'আল্লিমী <span class="ar" dir="rtl" lang="ar">«ساقط»</span> (পরিত্যক্ত) বলেছেন; সুয়ূতীর বর্ণনামতে বায়হাকী নিজেই দুর্বল
+বলেছেন (তথ্য সার্চ-স্নিপেট থেকে)</td>
+</tr>
+<tr class="odd">
+<td>ভোরের ঘুম রিযিক আটকায়</td>
+<td class="ar-block" dir="rtl"><span class="ar" dir="rtl" lang="ar">«الصُّبْحَةُ تَمْنَعُ الرِّزْقَ»</span></td>
+<td>মুসনাদ আহমাদ ৫৩০, আবদুল্লাহ ইবনে আহমাদের যাওয়াইদ (<a href="https://hadithprophet.com/hadith-5089.html" rel="noopener">hadithprophet</a>)</td>
+<td><strong>খুবই দুর্বল, জালের কাছাকাছি</strong>: <span class="ar" dir="rtl" lang="ar">«إسناده ضعيف جدا شبه
+موضوع»</span> (সনদ খুবই দুর্বল, জালের মতো); ইবনুল জাওযী মাওযূ'আতে এনে বলেছেন <span class="ar" dir="rtl" lang="ar">«هذا
+حديث لا يصح»</span> (এ হাদীস সহীহ নয়); সনদের ইবনে আবী ফারওয়া পরিত্যক্ত</td>
+</tr>
+<tr class="even">
+<td>আসরের পর ঘুমালে বুদ্ধি লোপ পায়</td>
+<td class="ar-block" dir="rtl"><span class="ar" dir="rtl" lang="ar">«من نام بعد العصر فاختلس عقله فلا يلومن إلا نفسه»</span></td>
+<td>আলবানী, আস-সিলসিলাতুয যঈফা ৩৯ (<a href="https://fiqh.islamonline.net/%D8%AD%D9%83%D9%85-%D8%A7%D9%84%D9%86%D9%88%D9%85-%D8%A8%D8%B9%D8%AF-%D8%A7%D9%84%D8%B9%D8%B5%D8%B1/" rel="noopener">islamonline</a>)</td>
+<td><strong>যঈফ বা জাল</strong>: এক সূত্রে খালিদ ইবনুল কাসিম, অন্য সূত্রে আমর
+ইবনুল হুসাইন, দুজনই মিথ্যাবাদী হিসেবে চিহ্নিত; যাদুল মা'আদে এটি "কোনো সালাফ
+বলেছেন" আকারে এসেছে</td>
+</tr>
+<tr class="odd">
+<td>কিয়ামুল লাইল "দেহ থেকে রোগ দূর করে"</td>
+<td class="ar-block" dir="rtl"><span class="ar" dir="rtl" lang="ar">«عَلَيْكُمْ بِقِيَامِ اللَّيْلِ فَإِنَّهُ دَأْبُ الصَّالِحِينَ قَبْلَكُمْ … وَمَطْرَدَةٌ لِلدَّاءِ عَنِ
+الْجَسَدِ»</span></td>
+<td>তিরমিযী ৩৫৪৯ (<a href="https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-tirmidhi/3549.json" rel="noopener">লিংক</a>)</td>
+<td><strong>জটিল</strong>: বিলালের সূত্রকে তিরমিযী নিজে <span class="ar" dir="rtl" lang="ar">«وَلاَ يَصِحُّ مِنْ قِبَلِ
+إِسْنَادِهِ»</span> (সনদের দিক থেকে সহীহ নয়) বলেছেন, আলবানীও এই সূত্রকে যঈফ বলেছেন;
+তিরমিযীর মতে অধিক বিশুদ্ধ আবু উমামার সূত্রে "রোগ দূর করে" অংশটি নেই; আলবানী সব
+সূত্র মিলিয়ে সহীহুল জামি' ৪০৭৯-এ সহীহ বলেছেন (<a href="https://en.tohed.com/hadith/sahih-al-jami-al-saghir/4079/" rel="noopener">tohed</a>)।
+স্বাস্থ্য-দাবির প্রমাণ হিসেবে এই অংশ ব্যবহারে সতর্কতা দরকার</td>
+</tr>
+<tr class="even">
+<td>উপুড় হয়ে শোয়া "জাহান্নামী ঘুম"</td>
+<td class="ar-block" dir="rtl"><span class="ar" dir="rtl" lang="ar">«نَوْمَةٌ جَهَنَّمِيَّةٌ»</span></td>
+<td>ইবনে মাজাহ ৩৭২৫ (<a href="https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-ibnmajah/3725.json" rel="noopener">লিংক</a>)</td>
+<td><strong>যঈফ</strong> (আলবানী ও আরনাঊত); তবে নিষেধের অর্থ তিরমিযী ২৭৬৮
+ও ইবনে মাজাহ ৩৭২৪-এ প্রমাণিত</td>
+</tr>
+<tr class="odd">
+<td>বৃহস্পতিবারের ভোরে বরকত</td>
+<td class="ar-block" dir="rtl"><span class="ar" dir="rtl" lang="ar">«بُكُورِهَا يَوْمَ الْخَمِيسِ»</span></td>
+<td>ইবনে মাজাহ ২২৩৭ (<a href="https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-ibnmajah/2237.json" rel="noopener">লিংক</a>)</td>
+<td><strong>যঈফ</strong> (আলবানী), <strong>খুবই দুর্বল</strong>
+(আরনাঊত)</td>
+</tr>
+<tr class="even">
+<td>"এ শোয়া আল্লাহ ঘৃণা করেন"</td>
+<td class="ar-block" dir="rtl"><span class="ar" dir="rtl" lang="ar">«إِنَّ هَذِهِ ضِجْعَةٌ يُبْغِضُهَا اللَّهُ»</span></td>
+<td>আবু দাউদ ৫০৪০ (<a href="https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-abudawud/5040.json" rel="noopener">লিংক</a>)</td>
+<td><strong>মতভেদপূর্ণ</strong>: আলবানী যঈফ, যুবাইর আলী যাঈ সহীহ</td>
+</tr>
+<tr class="odd">
+<td>"আল্লাহ বেকার যুবককে অপছন্দ করেন"</td>
+<td class="ar-block" dir="rtl"><span class="ar" dir="rtl" lang="ar">«إن الله يبغض الشاب الفارغ»</span></td>
+<td>তাখরীজু আহাদীসিল ইহইয়া (<a href="https://shamela.ws/book/38171/2104" rel="noopener">শামেলা</a>)</td>
+<td><strong>ভিত্তিহীন</strong>: ইরাকী <span class="ar" dir="rtl" lang="ar">«غريب لم أجده»</span> (অপরিচিত, আমি খুঁজে
+পাইনি), ইবনুস সুবকী <span class="ar" dir="rtl" lang="ar">«لم أجد له إسنادا»</span> (এর কোনো সনদ পাইনি); এটি ইবনে
+মাসউদের উক্তি হিসেবেই পরিচিত</td>
+</tr>
+<tr class="even">
+<td>দুপুরের ঘুম দিয়ে কিয়ামে সাহায্য নাও (মারফূ')</td>
+<td class="ar-block" dir="rtl"><span class="ar" dir="rtl" lang="ar">«اسْتَعِينُوا بِقَائِلَةِ النَّهَارِ عَلَى قِيَامِ اللَّيْلِ وَبِأَكْلَةِ السَّحَرِ عَلَى صِيَامِ
+النَّهَارِ»</span></td>
+<td>মারওয়াযী-মাকরীযী, মুখতাসার কিয়ামিল লাইল (<a href="https://shamela.ws/book/12872/133" rel="noopener">শামেলা</a>)</td>
+<td><strong>অযাচাইকৃত</strong>: সনদে যাম'আ ইবনে সালিহ; মান এই গবেষণায়
+যাচাই হয়নি</td>
+</tr>
+<tr class="odd">
+<td>ভোরের ঘুম সম্পর্কে ইবনে আব্বাসের তিরস্কার</td>
+<td class="ar-block" dir="rtl"><span class="ar" dir="rtl" lang="ar">«أتنام في الساعة التي تقسم فيها الأرزاق؟»</span></td>
+<td>যাদুল মা'আদ, খণ্ড ৪ (<a href="https://ar.wikisource.org/wiki/%D8%B2%D8%A7%D8%AF_%D8%A7%D9%84%D9%85%D8%B9%D8%A7%D8%AF/%D8%A7%D9%84%D9%85%D8%AC%D9%84%D8%AF_%D8%A7%D9%84%D8%B1%D8%A7%D8%A8%D8%B9" rel="noopener">উইকিসোর্স</a>)</td>
+<td><strong>সনদহীন</strong>: যাদুল মা'আদে সনদ ছাড়া এসেছে; মূল সনদ পাওয়া
+যায়নি</td>
+</tr>
+<tr class="even">
+<td>"নবী <span class="ar" dir="rtl" lang="ar">ﷺ</span> ৪-৫ ঘণ্টা ঘুমাতেন"</td>
+<td>(কোনো আরবি পাঠ পাওয়া যায়নি)</td>
+<td>কোনো সহীহ বর্ণনা পাওয়া যায়নি</td>
+<td><strong>সূত্রহীন</strong></td>
+</tr>
+</tbody>
+</table></div>
+<p>এখানে একটি সূক্ষ্মতা জরুরি: ইবনুল কাইয়্যিম যাদুল মা'আদে ভোরের ঘুম ও আসরের
+পরের ঘুমকে ক্ষতিকর বলেছেন, কিন্তু তা নিজের চিকিৎসা-মত হিসেবে, অথবা ইবনে
+আব্বাসের নামে, "কোনো সালাফ বলেছেন" বা "বলা হয়" আকারে; মারফূ' হাদীস হিসেবে
+নয় (<a href="https://ar.wikisource.org/wiki/%D8%B2%D8%A7%D8%AF_%D8%A7%D9%84%D9%85%D8%B9%D8%A7%D8%AF/%D8%A7%D9%84%D9%85%D8%AC%D9%84%D8%AF_%D8%A7%D9%84%D8%B1%D8%A7%D8%A8%D8%B9" rel="noopener">উইকিসোর্স</a>)।
+তাই "ফজরের পর ঘুম রিযিক আটকায়" বা "আসরের পর ঘুমে পাগল হয়" কথাগুলোকে নবী
+<span class="ar" dir="rtl" lang="ar">ﷺ</span>-এর বাণী হিসেবে উপস্থাপন করা ভুল। ফজরের পর জেগে থাকা নিঃসন্দেহে উত্তম
+অভ্যাস, এবং ভোরের বরকতের দু'আ সহীহ; কিন্তু নির্দিষ্ট শাস্তি বা ক্ষতির হুমকিগুলো
+দুর্বল সূত্রের।</p>
+<h2 id="s25">ক্লাসিক
+কিতাবগুলো আট ঘণ্টাকে ঊর্ধ্বসীমা ধরেছে, ঘুম-বর্জনকেও ক্ষতিকর বলেছে</h2>
+<h3 id="s26">আট ঘণ্টার
+নিয়ম: গাযালী থেকে ইবনু জামা'আ ও ইবনুল কাইয়্যিম</h3>
+<p>ক্লাসিক আরবি সাহিত্যে ঘুমের সংখ্যাভিত্তিক সীমার সবচেয়ে পুরোনো যে উৎস পাওয়া
+গেছে, তা ইমাম গাযালীর (মৃ. ৫০৫ হি.) <span class="ar" dir="rtl" lang="ar">«بداية الهداية»</span> (বিদায়াতুল হিদায়া,
+"হিদায়াতের সূচনা")। "ঘুমের আদব" অধ্যায়ে তিনি লিখেছেন:</p>
+<blockquote>
+<p class="ar-block" dir="rtl"><span class="ar" dir="rtl" lang="ar">«واعلم أن الليل والنهار أربع وعشرون ساعة، فلا يكن نومك بالليل والنهار
+أكثر من ثماني ساعات، فيكفيك إن عشت مثلا ستين سنة أن تضيع منها عشرين سنة
+وهو ثلث عمرك</span>.»</p>
+<p>"জেনে রাখো, রাত-দিন মিলে চব্বিশ ঘণ্টা; তাই রাত-দিন মিলিয়ে তোমার ঘুম যেন
+আট ঘণ্টার বেশি না হয়। ধরো তুমি ষাট বছর বাঁচলে, তার মধ্যে বিশ বছর নষ্ট হওয়াই
+যথেষ্ট, যা তোমার জীবনের এক-তৃতীয়াংশ।"</p>
+</blockquote>
+<p>সূত্র: বিদায়াতুল হিদায়া, পৃ. ৪৩, তাহকীক মুহাম্মাদ যাইনুহুম আযাব, মাকতাবাতু
+মাদবূলী, ১৯৯৩ (<a href="https://shamela.ws/book/12718/19" rel="noopener">শামেলা
+১২৭১৮</a>); মান: <strong>লেখকের নিজের গ্রন্থ, সরাসরি পাঠ</strong>। একই
+অধ্যায়ে তিনি নরম বিছানা পেতে কৃত্রিমভাবে ঘুম ডেকে আনতে নিষেধ করেছেন, আর
+বলেছেন ঘুমানোর সময় মিসওয়াক ও ওযুর পানি প্রস্তুত রেখে রাতের কিয়াম বা অন্তত
+ফজরের আগে ওঠার দৃঢ় সংকল্প করতে: <span class="ar" dir="rtl" lang="ar">«فركعتان في جوف الليل كنز من كنوز البر»</span>,
+"মধ্যরাতের দুই রাকআত নেকির ভাণ্ডারের এক ভাণ্ডার" (একই উৎস)।</p>
+<p>প্রায় সোয়া দুই শতাব্দী পর বদরুদ্দীন ইবনু জামা'আ (মৃ. ৭৩৩ হি.) তালিবুল ইলমের
+আদব নিয়ে লেখা <span class="ar" dir="rtl" lang="ar">«تذكرة السامع والمتكلم في أدب العالم والمتعلم»</span> (তাযকিরাতুস
+সামি' ওয়াল মুতাকাল্লিম)-এ একই সংখ্যা দিয়েছেন, তবে একটি গুরুত্বপূর্ণ শর্তসহ:</p>
+<blockquote>
+<p class="ar-block" dir="rtl">«[<span class="ar" dir="rtl" lang="ar">التاسع] أن يقلل نومه ما لم يلحقه ضرر في بدنه وذهنه، ولا يزيد في
+نومه في اليوم والليلة على ثمان ساعات وهو ثلث الزمان، فإن احتمل حاله أقل
+منها فعل</span>.»</p>
+<p>"নবম আদব: সে তার ঘুম কমাবে, যতক্ষণ না তার দেহ ও মেধার ক্ষতি হয়;
+দিনে-রাতে আট ঘণ্টার বেশি ঘুমাবে না, যা সময়ের এক-তৃতীয়াংশ; তার অবস্থা যদি এর
+চেয়ে কম সহ্য করতে পারে, তবে তাই করবে।"</p>
+</blockquote>
+<p>সূত্র: তাযকিরাতুস সামি', পৃ. ৭৭-৭৮, তাহকীক মুহাম্মাদ হাশিম আন-নাদভী,
+দাইরাতুল মা'আরিফ, হায়দরাবাদ (<a href="https://shamela.ws/book/151180/78" rel="noopener">শামেলা ১৫১১৮০</a>); মান:
+<strong>সরাসরি পাঠ</strong>। একাদশ হিজরি শতকের আল-হুসাইন ইবনুল মানসূর
+আল-ইয়ামানী তাঁর <span class="ar" dir="rtl" lang="ar">«آداب العلماء والمتعلمين»</span>-এ এই বাক্য প্রায় হুবহু নিয়ে যোগ
+করেছেন যে মন, মেধা বা দৃষ্টি ক্লান্ত হলে বিনোদন-ভ্রমণে বিশ্রাম নিতে দোষ নেই
+(<a href="https://shamela.ws/book/649/13" rel="noopener">শামেলা ৬৪৯</a>)। লক্ষণীয়, দুটি
+পাঠ প্রায় অভিন্ন হওয়ায় সহজেই গুলিয়ে যায়; শামেলার ৬৪৯ নম্বর বইয়ের লেখক
+আল-ইয়ামানী, ইবনু জামা'আ নন।</p>
+<p>তৃতীয় এবং সবচেয়ে গুরুত্বপূর্ণ পাঠটি ইবনুল কাইয়্যিমের (মৃ. ৭৫১ হি.) <span class="ar" dir="rtl" lang="ar">«مدارج
+السالكين»</span> (মাদারিজুস সালিকীন)-এ, অন্তরের পাঁচটি বিনষ্টকারীর আলোচনায়। "আট
+ঘণ্টা" সংক্রান্ত উক্তিটি যাদুল মা'আদে নেই; এর প্রকৃত স্থান মাদারিজ:</p>
+<blockquote>
+<p class="ar-block" dir="rtl"><span class="ar" dir="rtl" lang="ar">«المفسد الخامس: كثرة النوم، فإنَّه يُميت القلب، ويثقِّل البدن، ويضيع
+الوقت، ويورث كثرة الغفلة والكسل. ومنه المكروه جدًّا، ومنه الضّارُّ غير النافع
+للبدن. وأنفع النَّوم ما كان عند شدَّة الحاجة إليه، ونومُ أوَّل الليل أحمدُ وأنفعُ
+من آخره، ونومُ وسط النهار أنفعُ من طَرَفيه»</span></p>
+<p>"পঞ্চম বিনষ্টকারী: অতিরিক্ত ঘুম; তা অন্তরকে মেরে ফেলে, দেহকে ভারী করে, সময়
+নষ্ট করে, আর প্রচুর উদাসীনতা ও অলসতা জন্মায়। এর কিছু অত্যন্ত অপছন্দনীয়, কিছু
+দেহের জন্য ক্ষতিকর ও অনুপকারী। সবচেয়ে উপকারী ঘুম হলো তীব্র প্রয়োজনের সময়ের ঘুম;
+প্রথম রাতের ঘুম শেষ রাতের চেয়ে প্রশংসনীয় ও উপকারী, আর দিনের মাঝামাঝি ঘুম
+দিনের দুই প্রান্তের চেয়ে উপকারী।"</p>
+</blockquote>
+<blockquote>
+<p class="ar-block" dir="rtl"><span class="ar" dir="rtl" lang="ar">«وبالجملة فأعدل النوم وأنفعه نوم نصف اللَّيل الأوَّل وسدسه الأخير، وهو
+مقدار ثمان ساعاتٍ، وهذا أعدل النوم عند الأطبَّاء، فما زاد عليه أو نقص منه
+أثَّر عندهم في الطبيعة انحرافًا بحسبه</span>.»</p>
+<p>"সারকথা, সবচেয়ে ভারসাম্যপূর্ণ ও উপকারী ঘুম হলো রাতের প্রথম অর্ধেক ও শেষ
+ষষ্ঠাংশের ঘুম, যার পরিমাণ প্রায় আট ঘণ্টা। চিকিৎসকদের মতেও এটিই সবচেয়ে
+ভারসাম্যপূর্ণ ঘুম; এর চেয়ে বেশি বা কম হলে, তাদের মতে, সেই অনুপাতে দেহ-প্রকৃতিতে
+বিচ্যুতি ঘটে।"</p>
+</blockquote>
+<blockquote>
+<p class="ar-block" dir="rtl"><span class="ar" dir="rtl" lang="ar">«وكما أنَّ كثرة النوم مُورثةٌ لهذه الآفات، فمدافعته وهَجره مورثٌ لآفاتٍ أخرى
+عظامٍ من سوء المزاج ويبسه، وانحراف النفس، وجفاف الرطوبات المُعِينة على
+الفهم والعمل، ويورث أمراضًا متلفةً لا ينتفع صاحبها بقلبه ولا بدنه معها.
+وما قام الوجود إلَّا بالعدل»</span></p>
+<p>"অতিরিক্ত ঘুম যেমন এসব বিপদ আনে, তেমনি ঘুম ঠেকিয়ে রাখা ও বর্জন করাও অন্য
+বড় বিপদ আনে: মেজাজের বিকৃতি ও শুষ্কতা, মনের ভারসাম্যহীনতা, বোঝা ও কাজে সহায়ক
+আর্দ্রতা শুকিয়ে যাওয়া; আর এমন প্রাণঘাতী রোগ, যার ফলে মানুষ তার অন্তর বা দেহ
+কোনোটিই কাজে লাগাতে পারে না। সৃষ্টিজগৎ ভারসাম্যের উপরই প্রতিষ্ঠিত।"</p>
+</blockquote>
+<p>সূত্র: মাদারিজুস সালিকীন, খণ্ড ২, পৃ. ৯৬-৯৮, দারু আতাআতিল ইলম, ২০১৯ (<a href="https://shamela.ws/book/199/827" rel="noopener">শামেলা ১৯৯/৮২৭</a>; <a href="https://shamela.ws/book/199/828" rel="noopener">১৯৯/৮২৮</a>); মুহাক্কিকের টীকা
+অনুযায়ী এটিই দাঊদ (আ.)-এর নামাযের হাদীসে প্রশংসিত পদ্ধতি; মান:
+<strong>সরাসরি পাঠ</strong>। ইবনুল কাইয়্যিম "চিকিৎসকদের মতে আট ঘণ্টা"
+বলেছেন, কিন্তু কোন চিকিৎসকের মত তা এই গবেষণায় শনাক্ত হয়নি; ইবনু সীনার কানূনে
+নির্দিষ্ট ঘণ্টা পাওয়া যায়নি।</p>
+<p>তিনটি পাঠ মিলিয়ে দেখলে ক্লাসিক অবস্থান স্পষ্ট: আট ঘণ্টা হলো
+<strong>ঊর্ধ্বসীমা বা ভারসাম্যের মাত্রা</strong>, এর কম সম্ভব হলে কম, তবে
+<strong>শর্ত হলো দেহ ও মেধার ক্ষতি না হওয়া</strong>; আর ঘুম-বর্জন অতিরিক্ত
+ঘুমের মতোই ক্ষতিকর। গাযালী ও ইবনু জামা'আর যুক্তি সময়ের হিসাব (জীবনের
+এক-তৃতীয়াংশ), ইবনুল কাইয়্যিমের যুক্তি দাঊদী ছক ও তৎকালীন চিকিৎসাবিদ্যা। ইবনুল
+জাওযী তাঁর ছেলের প্রতি উপদেশ <span class="ar" dir="rtl" lang="ar">«لفتة الكبد إلى نصيحة الولد»</span>-এ লিখেছেন <span class="ar" dir="rtl" lang="ar">«فرضنا
+ستين سنة مثلا فإنه يمضي منها ثلاثون في النوم»</span>, "ধরো ষাট বছর, তার ত্রিশ
+বছর কাটে ঘুমে" (<a href="https://raw.githubusercontent.com/OpenITI/0600AH/master/data/0597IbnJawzi/0597IbnJawzi.LaftatKabad/0597IbnJawzi.LaftatKabad.ShamAY0034818-ara1" rel="noopener">OpenITI</a>);
+এটি দিনে প্রায় বারো ঘণ্টা, যা নিয়ম নয়, বরং সময় অপচয়ের সমালোচনামূলক অতিরঞ্জন
+হিসেবে পড়া উচিত।</p>
+<h3 id="s27">কিয়াম
+সহজ করার কৌশল: কম খাওয়া, দিনে অতি-ক্লান্তি এড়ানো, কায়লূলা</h3>
+<p>এই বিষয়ের কেন্দ্রীয় পাঠ গাযালীর <span class="ar" dir="rtl" lang="ar">«إحياء علوم الدين»</span> (ইহইয়াউ উলূমিদ্দীন),
+<span class="ar" dir="rtl" lang="ar">«كتاب ترتيب الأوراد وتفصيل إحياء الليل»</span> (ওযীফা বিন্যাস ও রাত্রিজাগরণের
+বিবরণ)-এর দ্বিতীয় অধ্যায়। সেখানে তিনি কিয়াম সহজ করার চারটি বাহ্যিক উপায়
+বলেছেন:</p>
+<blockquote>
+<p class="ar-block" dir="rtl"><span class="ar" dir="rtl" lang="ar">«فأما الظاهرة فأربعة أمور الأول أَنْ لَا يُكْثِرَ الْأَكْلَ فَيُكْثِرَ الشُّرْبَ فَيَغْلِبَهُ
+النوم ويثقل عليه القيام … الثاني أن لا يتعب نفسه بالنهار في الأعمال التي
+تعيا بها الجوارح وتضعف بها الأعصاب فإن ذلك أيضاً مجلبة للنوم الثالث أَنْ لَا
+يَتْرُكَ الْقَيْلُولَةَ بِالنَّهَارِ فَإِنَّهَا سُنَّةُ للاستعانة على قيام الليل الرابع أن لا
+يحتقب الأوزار بالنهار فإن ذلك مما يقسي القلب»</span></p>
+<p>"বাহ্যিক উপায় চারটি: (১) বেশি না খাওয়া, যাতে বেশি পান করে ঘুম কাবু না
+করে ও কিয়াম ভারী না হয়; (২) দিনে এমন কাজে নিজেকে ক্লান্ত না করা যাতে অঙ্গ
+অবসন্ন ও স্নায়ু দুর্বল হয়, কারণ তাও ঘুম টেনে আনে; (৩) দিনের কায়লূলা না ছাড়া,
+কারণ তা রাতের কিয়ামে সহায়তার সুন্নাত; (৪) দিনে গুনাহের বোঝা না চাপানো, কারণ
+তা অন্তরকে কঠিন করে।"</p>
+</blockquote>
+<p>সূত্র: ইহইয়া, খণ্ড ১, পৃ. ৩৫৬, দারুল মা'রিফা (<a href="https://shamela.ws/book/9472/356" rel="noopener">শামেলা ৯৪৭২</a>)। অভ্যন্তরীণ চার
+উপায় হলো মুসলমানদের প্রতি বিদ্বেষ ও দুনিয়ার বাড়তি দুশ্চিন্তা থেকে অন্তরের মুক্তি,
+প্রবল আল্লাহভীতি, কিয়ামের ফযীলত জানা, আর সবচেয়ে শ্রেষ্ঠ প্রেরণা আল্লাহর
+ভালোবাসা (<a href="https://shamela.ws/book/9472/357" rel="noopener">শামেলা
+৯৪৭২/৩৫৭</a>)। গাযালী রাত জাগার পরিমাণের সাতটি স্তরও বর্ণনা করেছেন, যার
+পঞ্চম স্তর আধুনিক বিভক্ত ঘুমের মতো: ঘুম কাবু না করা পর্যন্ত দাঁড়ানো, ঘুম এলে ঘুমানো,
+জাগলে আবার দাঁড়ানো, <span class="ar" dir="rtl" lang="ar">«فيكون له في الليل نومتان وقومتان»</span>, "এভাবে রাতে তার
+দুটি ঘুম ও দুটি কিয়াম হয়" (<a href="https://shamela.ws/book/9472/359" rel="noopener">শামেলা ৯৪৭২/৩৫৯</a>)। গাযালী
+নিজেই জানিয়েছেন, এই স্তরবিন্যাস আবু তালিব আল-মাক্কীর <span class="ar" dir="rtl" lang="ar">«قوت القلوب»</span> (কূতুল কুলূব)
+থেকে নেওয়া। কূতুল কুলূবে আছে: <span class="ar" dir="rtl" lang="ar">«فيستحب من قيام الليل ثلثاه وأقل الاستحباب من
+القيام سدسه، لأنا روينا أن النبي صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ لم يقم ليلة قط حتى
+أصبح، بل كان ينام منها، ولم ينم ليلة حتى يصبح بل كان يقوم منها»</span>, "রাতের
+দুই-তৃতীয়াংশ কিয়াম মুস্তাহাব, আর মুস্তাহাবের সর্বনিম্ন এক-ষষ্ঠাংশ; কারণ বর্ণিত
+আছে, নবী <span class="ar" dir="rtl" lang="ar">ﷺ</span> কখনো ভোর পর্যন্ত গোটা রাত কিয়াম করেননি, বরং কিছু অংশ ঘুমাতেন;
+আবার কখনো ভোর পর্যন্ত গোটা রাত ঘুমাননি, বরং কিছু অংশ কিয়াম করতেন" (<a href="https://shamela.ws/book/482/64" rel="noopener">শামেলা ৪৮২</a>)। কূতুল কুলূবের এ ধরনের
+বর্ণনা সাধারণত সনদহীন।</p>
+<p>ইহইয়ার সংক্ষেপ হিসেবে প্রসিদ্ধ নাজমুদ্দীন ইবনু কুদামা আল-মাকদিসীর (মৃ. ৬৮৯
+হি.) <span class="ar" dir="rtl" lang="ar">«مختصر منهاج القاصدين»</span> এই উপদেশকে আরও সংক্ষিপ্ত করেছে। সেখানে এক
+বুযুর্গের উক্তি: <span class="ar" dir="rtl" lang="ar">«يا معشر المريدين لا تأكلوا كثيراً فتشربوا كثيراً فتناموا
+كثيراً، فتخسروا كثيراً»</span>, "হে মুরীদগণ, বেশি খেয়ো না; তাহলে বেশি পান করবে,
+বেশি ঘুমাবে, আর বেশি ক্ষতিগ্রস্ত হবে"। অর্ধেক রাত কিয়ামের সর্বোত্তম পদ্ধতি
+হিসেবে বলা হয়েছে <span class="ar" dir="rtl" lang="ar">«أن ينام الثلث الأول من الليل، والسدس الأخير منه»</span>,
+"রাতের প্রথম তৃতীয়াংশ ও শেষ ষষ্ঠাংশ ঘুমানো"। আর আলেমের রাত-বণ্টনে ইমাম শাফেঈর
+পদ্ধতি: <span class="ar" dir="rtl" lang="ar">«فانه كان يقسمه ثلاثة أجزاء: الثلث الأول لكتابة العلم، والثاني
+للصلاة، والثالث للنوم»</span>, "তিনি রাতকে তিন ভাগ করতেন: প্রথম তৃতীয়াংশ ইলম
+লেখার জন্য, দ্বিতীয়টি নামাযের জন্য, তৃতীয়টি ঘুমের জন্য"; সঙ্গে বাস্তব সতর্কতা:
+<span class="ar" dir="rtl" lang="ar">«فأما الصيف، فربما لا يحتمل ذلك، إلا إذا كان أكثر النوم بالنهار»</span>,
+"গ্রীষ্মে (ছোট রাতে) হয়তো তা সম্ভব হয় না, যদি না ঘুমের বেশিরভাগ দিনে হয়" (<a href="https://shamela.ws/book/98087/66" rel="noopener">শামেলা ৯৮০৮৭</a>; <a href="https://shamela.ws/book/98087/67" rel="noopener">৯৮০৮৭/৬৭</a>; <a href="https://shamela.ws/book/98087/68" rel="noopener">৯৮০৮৭/৬৮</a>)। ক্লাসিক আলেমরা
+অর্থাৎ ঋতুভেদে রাতের দৈর্ঘ্যের সমস্যাটি জানতেন, আর এর সমাধান দিয়েছেন দিনে ঘুম
+সরিয়ে নিয়ে, মোট ঘুম কেটে নয়।</p>
+<p>এর অনেক আগে মুহাম্মাদ ইবনু নাসর আল-মারওয়াযীর (মৃ. ২৯৪ হি.) <span class="ar" dir="rtl" lang="ar">«قيام الليل»</span>
+গ্রন্থে, যা এখন মাকরীযীর সংক্ষেপে টিকে আছে, একটি স্বতন্ত্র অধ্যায়ই ছিল <span class="ar" dir="rtl" lang="ar">«باب
+الاستعانة بقائلة النهار على قيام الليل»</span>, "দিনের কায়লূলা দিয়ে রাতের কিয়ামে
+সাহায্য নেওয়ার অধ্যায়"। সেখানে হাসান বসরী বাজারের লোকদের হইচই দেখে বলেছেন:
+<span class="ar" dir="rtl" lang="ar">«أَمَا يَقِيلُ هَؤُلَاءِ؟ … إِنِّي لَأَرَى لَيْلَهُمْ لَيْلَ سُوءٍ»</span>, "এরা কি দুপুরে বিশ্রাম নেয় না?
+তাহলে আমি দেখছি এদের রাত খারাপ রাত" (<a href="https://shamela.ws/book/12872/133" rel="noopener">শামেলা ১২৮৭২</a>)। এই উক্তিটি
+ইমাম আহমাদের <span class="ar" dir="rtl" lang="ar">«الزهد»</span>-এ সনদসহ আছে (<strong>সনদসহ, পূর্ণ যাচাই
+হয়নি</strong>) (<a href="https://shamela.ws/book/8494/1605" rel="noopener">আয-যুহদ</a>)।
+প্রাথমিক যুগ থেকেই তাই কিয়ামের কৌশল ছিল মোট ঘুম কমানোর চেয়ে ঘুমকে রাত ও দুপুরে
+ভাগ করা।</p>
+<h3 id="s28">ইবনুল
+জাওযীর রায়: সারারাত জাগা শরীয়ত ও বিবেক দুটোরই অজ্ঞতা</h3>
+<p>ইবনুল জাওযী (মৃ. ৫৯৭ হি.) তাঁর <span class="ar" dir="rtl" lang="ar">«تلبيس إبليس»</span> (তালবীসু ইবলীস, "ইবলীসের
+ধোঁকা")-এ ইবাদতকারীদের অতিরিক্ত রাত্রিজাগরণকে সরাসরি শয়তানের ধোঁকা
+বলেছেন:</p>
+<blockquote>
+<p class="ar-block" dir="rtl"><span class="ar" dir="rtl" lang="ar">«وقد لبّس إبليس على جماعة من المتعبّدين، فأكثروا من صلاة اللّيل، وفيهم
+من يسهره كلّه، ويفرح بقيام اللّيل، وصلاة الضّحى أكثر ممّا يفرح بأداء
+الفرائض، ثمّ يقع قبيل الفجر، فتفوته الفريضة. أو يقوم فيتهيّأ لها، فتفوته
+الجماعة، أو يصبح كسلان فلا يقدر على الكسب لعائلته»</span></p>
+<p>"ইবলীস একদল ইবাদতকারীকে বিভ্রান্ত করেছে: তারা রাতের নামায বাড়িয়ে
+দিয়েছে, কেউ সারা রাত জাগে, আর ফরয আদায়ের চেয়ে কিয়ামুল লাইল ও চাশতের
+নামাযে বেশি আনন্দ পায়; তারপর ফজরের ঠিক আগে ঘুমিয়ে পড়ে ফরযই ছুটে যায়, বা উঠে
+প্রস্তুত হতে গিয়ে জামাআত ছুটে যায়, অথবা সকালে অলস হয়ে পরিবারের জন্য রোজগারও
+করতে পারে না।"</p>
+</blockquote>
+<p>এক আবিদকে ঘুম তাড়াতে দিনভর মসজিদে হাঁটতে দেখে তিনি বলেন: <span class="ar" dir="rtl" lang="ar">«هذا جهل
+بمقتضى الشّرع والعقل»</span>, "এটা শরীয়ত ও বিবেক উভয়ের দাবি সম্পর্কে অজ্ঞতা";
+বিবেকের যুক্তি: <span class="ar" dir="rtl" lang="ar">«فإنّ النّوم يجدّد القوى الّتي كلّت بالسّهر، فمتى دفعه الإنسان
+وقت الحاجة إليه، أثّر في بدنه وعقله»</span>, "ঘুম রাতজাগায় ক্লান্ত শক্তিগুলোকে নবায়ন
+করে; প্রয়োজনের সময় কেউ ঘুম ঠেকালে তা তার দেহ ও বুদ্ধিতে প্রভাব ফেলে"। সালাফের
+সারারাত জাগার বর্ণনার জবাবে তিনি বলেন:</p>
+<blockquote>
+<p class="ar-block" dir="rtl"><span class="ar" dir="rtl" lang="ar">«أولئك تدرّجوا حتّى قدروا على ذلك، وكانوا على ثقة من حفظ صلاة الفجر في
+الجماعة، وكانوا يستعينون بالقائلة مع قلّة المطعم … ثمّ لم يبلغنا أنّ رسول
+الله ﷺ سهر ليلة لم ينم فيها، فسنّته هي المتبوعة</span>.»</p>
+<p>"তাঁরা ধাপে ধাপে অভ্যস্ত হয়ে সক্ষম হয়েছিলেন, ফজর জামাআতে রক্ষার ব্যাপারে
+নিশ্চিত ছিলেন, আর কম খাওয়ার সাথে কায়লূলার সাহায্য নিতেন … তাছাড়া আমাদের
+কাছে পৌঁছায়নি যে রাসূলুল্লাহ <span class="ar" dir="rtl" lang="ar">ﷺ</span> কোনো রাত একটুও না ঘুমিয়ে কাটিয়েছেন; তাঁর সুন্নাতই
+অনুসরণীয়।"</p>
+</blockquote>
+<p>সূত্র: তালবীসু ইবলীস, দারুল মিনহাজ সংস্করণ পৃ. ২০৫-২০৬ (<a href="https://shamela.ws/book/11407/201" rel="noopener">শামেলা ১১৪০৭/২০১</a>; <a href="https://shamela.ws/book/11407/202" rel="noopener">১১৪০৭/২০২</a>); অন্য সংস্করণে পৃ.
+১৫৭-১৫৮ (<a href="https://shamela.ws/book/30085/153" rel="noopener">শামেলা ৩০০৮৫</a>);
+মান: <strong>সরাসরি পাঠ</strong>। দিনে উচ্চস্বরে তিলাওয়াত করে ঘুম তাড়াতে
+চাওয়া আরেক আবিদকে তিনি বলেছেন: <span class="ar" dir="rtl" lang="ar">«ومتى غلبك النّوم، فنم، فإنّ للنّفس عليك
+حقّا»</span>, "ঘুম কাবু করলে ঘুমাও, কারণ তোমার উপর নফসের হক আছে" (একই উৎস)। তাঁর
+<span class="ar" dir="rtl" lang="ar">«صيد الخاطر»</span> (সাইদুল খাতির)-এ আরও আছে: <span class="ar" dir="rtl" lang="ar">«فإن البدن كالراحلة، إن لم يرفق
+بها، لم تصل بالراكب»</span>, "দেহ বাহনের মতো, তার প্রতি কোমল না হলে সে আরোহীকে
+গন্তব্যে পৌঁছাবে না"; আর নিজের অভিজ্ঞতা: <span class="ar" dir="rtl" lang="ar">«فلما ابتدأت في التقلل وهجر
+المشتهى، أثر معي مرضًا، قطعني عن كثير من التعبد»</span>, "যখন আমি কৃচ্ছ্রতা শুরু
+করলাম, তা আমার মধ্যে রোগ সৃষ্টি করল এবং অনেক ইবাদত থেকে আমাকে বিচ্ছিন্ন করল"
+(<a href="https://shamela.ws/book/12028/752" rel="noopener">শামেলা ১২০২৮/৭৫২</a>; <a href="https://shamela.ws/book/12028/753" rel="noopener">১২০২৮/৭৫৩</a>)।</p>
+<h3 id="s29">মাওয়ারদী,
+ইবনু মুফলিহ ও ইবনু সীনা: ভারসাম্য, দুপুরের ঘুম ও মস্তিষ্কের যত্ন</h3>
+<p>আবুল হাসান আল-মাওয়ারদীর (মৃ. ৪৫০ হি.) <span class="ar" dir="rtl" lang="ar">«أدب الدنيا والدين»</span> ঘুমকে একটি
+সময়-নির্ভর ভারসাম্য হিসেবে দেখে: <span class="ar" dir="rtl" lang="ar">«فَإِنَّ لَهُمَا قَدْرًا مَحْدُودًا وَزَمَانًا مَخْصُوصًا يَضُرُّ
+بِالنَّفْسِ مُجَاوَزَةُ أَحَدِهِمَا، وَتَغَيُّرُ زَمَانِهِمَا»</span>, অর্থাৎ বিশ্রাম ও কর্ম দুই অবস্থারই
+"নির্দিষ্ট পরিমাণ ও নির্দিষ্ট সময় আছে; কোনো একটির সীমা অতিক্রম বা সময় বদলানো
+নফসের ক্ষতি করে"। সেখানে উমর ইবনে আবদুল আযীযের উক্তি <span class="ar" dir="rtl" lang="ar">«يَا بُنَيَّ نَفْسِي مَطِيَّتِي
+وَأَكْرَهُ أَنْ أُتْعِبَهَا فَلَا تَقُومَ بِي»</span>, "বৎস, আমার নফস আমার বাহন; একে এমন ক্লান্ত
+করতে চাই না যে আমাকে আর বহন করতে পারবে না", আর প্রবাদ <span class="ar" dir="rtl" lang="ar">«مَنْ لَزِمَ الرُّقَادَ عَدِمَ
+الْمُرَادَ»</span>, "যে ঘুম আঁকড়ে থাকে, সে লক্ষ্য হারায়" (<a href="https://shamela.ws/book/765/339" rel="noopener">শামেলা ৭৬৫/৩৩৯</a>; <a href="https://shamela.ws/book/765/340" rel="noopener">৭৬৫/৩৪০</a>)। একই স্থানে ইবনে
+আব্বাসের নামে উক্তি: <span class="ar" dir="rtl" lang="ar">«النَّوْمُ ثَلَاثَةٌ: نَوْمُ خَرَقٍ وَهِيَ الصُّبْحَةُ، وَنَوْمُ خَلَقٍ وَهِيَ
+الْقَائِلَةُ، وَنَوْمُ حُمْقٍ وَهُوَ الْعَشِيُّ»</span>, "ঘুম তিন প্রকার: নির্বুদ্ধিতার ঘুম ভোরের পরের
+ঘুম, উত্তম স্বভাবের ঘুম দুপুরের কায়লূলা, আর বোকামির ঘুম বিকেল বা সন্ধ্যার ঘুম";
+মাওয়ারদী এটি সনদ ছাড়া এনেছেন (<strong>সনদহীন</strong>), আর যাদুল মা'আদে
+একই কথা "বলা হয়" আকারে আছে।</p>
+<p>ইবনু মুফলিহ আল-মাকদিসীর (মৃ. ৭৬৩ হি.) <span class="ar" dir="rtl" lang="ar">«الآداب الشرعية»</span>-এ <span class="ar" dir="rtl" lang="ar">«فصل في استحباب
+القيلولة»</span> (কায়লূলা মুস্তাহাব হওয়ার অধ্যায়)-এ আবদুল্লাহ ইবনে শুবরুমার উক্তি: <span class="ar" dir="rtl" lang="ar">«نَوْمُ
+نِصْفَ النَّهَارِ يَعْدِلُ شَرْبَةَ دَوَاءٍ يَعْنِي فِي الصَّيْفِ»</span>, "দুপুরের ঘুম এক ঢোক ওষুধের সমান,
+অর্থাৎ গ্রীষ্মে"; আর দাঊদ (আ.) ও লুকমানের নামে অতিরিক্ত ঘুমের বিরুদ্ধে উপদেশ,
+যেগুলো সেখানে সনদ ছাড়া এসেছে (<strong>সনদহীন</strong>) (<a href="https://shamela.ws/book/21582/1078" rel="noopener">শামেলা ২১৫৮২</a>)।
+চিকিৎসাশাস্ত্রে ইবনু সীনা (মৃ. ৪২৮ হি.) <span class="ar" dir="rtl" lang="ar">«القانون في الطب»</span>-এ লিখেছেন: <span class="ar" dir="rtl" lang="ar">«فَيجب
+على الأصحاء أَن يراعوا أَمر النّوم وليكونوا مِنْهُ على اعْتِدَال وَفِي وقته وَلَا
+يفرطوا فِيهِ وليتقوا ضَرَر السهر بأدمغتهم وبقواهم كلهَا»</span>, "সুস্থ মানুষের কর্তব্য
+ঘুমের প্রতি যত্নবান হওয়া: পরিমিত পরিমাণে ও সঠিক সময়ে ঘুমানো, বাড়াবাড়ি না
+করা, এবং রাতজাগার ক্ষতি থেকে তাদের মস্তিষ্ক ও সকল শক্তিকে রক্ষা করা" (<a href="https://shamela.ws/book/10706/231" rel="noopener">শামেলা ১০৭০৬/২৩১</a>)। যাদুল
+মা'আদের ঘুম-অধ্যায়ের কিছু বাক্য ইবনু সীনার কানূনের সঙ্গে প্রায় হুবহু মেলে, যা
+দেখায় যে এই অংশ তৎকালীন চিকিৎসাশাস্ত্র থেকে নেওয়া (<a href="https://shamela.ws/book/10706/230" rel="noopener">শামেলা ১০৭০৬/২৩০</a>; <a href="https://shamela.ws/book/197/2599" rel="noopener">শামেলা ১৯৭/২৫৯৯</a>)।</p>
+<h3 id="s30">তালিবুল ইলমের রাত: আগে ঘুম,
+সাহারে মুখস্থ</h3>
+<p>তালিবুল ইলমের আদব-সাহিত্যে রাত্রিজাগরণের প্রশংসা আছে, কিন্তু সেটি সময়
+বণ্টনের একটি কাঠামোর মধ্যে। খতীব বাগদাদী (মৃ. ৪৬৩ হি.) <span class="ar" dir="rtl" lang="ar">«الفقيه والمتفقه»</span>-এ
+লিখেছেন: <span class="ar" dir="rtl" lang="ar">«فَأَجْوَدُ الْأَوْقَاتِ: الْأَسْحَارُ، ثُمَّ بَعْدَهَا وَقْتُ انْتِصَافِ النَّهَارِ، وَبَعْدَهَا
+الْغَدَوَاتُ دُونَ الْعَشِيَّاتِ، وَحِفْظُ اللَّيْلِ أَصْلَحُ مِنْ حِفْظِ النَّهَارِ»</span>, "মুখস্থের সেরা সময়
+সাহার, তারপর মধ্যদিন, তারপর সকাল, সন্ধ্যা নয়; আর রাতের মুখস্থ দিনের চেয়ে
+উত্তম" (<a href="https://shamela.ws/book/13048/1066" rel="noopener">শামেলা ১৩০৪৮</a>)।
+ইবনু জামা'আ এটি খতীবের নামে উদ্ধৃত করে যোগ করেছেন: <span class="ar" dir="rtl" lang="ar">«ومن رام الفلاح في العلم
+وتحصيله البغية منه مع كثرة الأكل والشرب والنوم فقد رام مستحيلاً في
+العادة»</span>, "যে বেশি খাওয়া, পান ও ঘুমের সাথে ইলমে সফলতা চায়, সে স্বাভাবিক
+নিয়মে অসম্ভব কিছু চায়" (<a href="https://shamela.ws/book/151180/74" rel="noopener">শামেলা
+১৫১১৮০/৭৪</a>)। খতীবের <span class="ar" dir="rtl" lang="ar">«الجامع لأخلاق الراوي»</span>-এ ইসমাঈল ইবনে আবী উওয়াইসের
+পরামর্শ: <span class="ar" dir="rtl" lang="ar">«إِذَا هَمَمْتَ أَنْ تَحْفَظَ شَيْئًا فَنَمْ وَقُمْ عِنْدَ السَّحَرِ فَأَسْرِجْ وَانْظُرْ فِيهِ»</span>, "কিছু
+মুখস্থ করতে চাইলে আগে ঘুমাও, তারপর সাহারে উঠে বাতি জ্বালিয়ে তাতে মনোযোগ দাও"
+(<a href="https://shamela.ws/book/13012/2090" rel="noopener">শামেলা ১৩০১২/২০৯০</a>; পাঠ
+সার্চ-স্নিপেট থেকে)। ইবনুল জাওযী <span class="ar" dir="rtl" lang="ar">«الحث على حفظ العلم»</span>-এ বলেছেন মুখস্থ থেকে
+এক-দুই দিন বিরতি নেওয়া উচিত, <span class="ar" dir="rtl" lang="ar">«لِيَكُونَ ذَلِكَ كَالْبِنَاءِ الَّذِي يُرَاحُ لِيَسْتَقِرَّ»</span>, "যেন
+তা এমন ইমারতের মতো হয় যাকে জমে বসার জন্য রেখে দেওয়া হয়" (<a href="https://shamela.ws/book/22340/13" rel="noopener">শামেলা ২২৩৪০</a>)।</p>
+<p>বুরহানুদ্দীন আয-যারনূজীর <span class="ar" dir="rtl" lang="ar">«تعليم المتعلم طريق التعلم»</span> (তা'লীমুল মুতাআল্লিম)
+উপমহাদেশের মাদরাসায় পঠিত; এতে রাত জাগার প্রসিদ্ধ কবিতা আছে: <span class="ar" dir="rtl" lang="ar">«بقدر الكد
+تكتسب المعالى … ومن طلب العلى سهر الليالى»</span>, "পরিশ্রমের পরিমাণেই উচ্চ
+মর্যাদা অর্জিত হয়; যে উচ্চতা চায়, সে রাত জাগে"। কিন্তু একই অধ্যায়ের পরের পৃষ্ঠায়
+ভারসাম্যের কথাও আছে: <span class="ar" dir="rtl" lang="ar">«ألا إن هذا الدين متين فأوغل فيه برفق، ولا تبغض نفسك
+فى عبادة الله تعالى فإن المنبت لا أرضا قطع ولا ظهرا أبقى. وقال عليه
+السلام: نفسك مطيتك فارفق بها</span>.», "এই দ্বীন মজবুত; কোমলতার সাথে এর গভীরে
+প্রবেশ করো, আল্লাহর ইবাদতে নিজের প্রতি বিরক্তি সৃষ্টি করো না; যে বাহনকে
+অতিরিক্ত তাড়িয়ে পথে আটকে পড়ে, সে না পথ অতিক্রম করে, না বাহনকে বাঁচিয়ে রাখে।
+আর তোমার নফস তোমার বাহন, তার প্রতি কোমল হও" (<a href="https://ketabonline.com/ar/books/93084/read?part=1&amp;page=33" rel="noopener">ketabonline
+পৃ. ৩৩</a>; <a href="https://ketabonline.com/ar/books/93084/read?part=1&amp;page=34" rel="noopener">পৃ.
+৩৪</a>)। এখানে নবী <span class="ar" dir="rtl" lang="ar">ﷺ</span>-এর নামে আনা দুটি বাক্যের মান এই গবেষণায় যাচাই হয়নি
+(<strong>অযাচাইকৃত</strong>)। কবিতাটি প্রায়ই ইমাম শাফেঈর নামে চলে, কিন্তু
+দেখা ক্লাসিক উৎসগুলো একে বেনামি বা "কেউ কেউ আবৃত্তি করেছেন" বলে এনেছে;
+শাফেঈর নামে আরোপ <strong>অপ্রমাণিত</strong> (<a href="https://shamela.ws/book/21660/6140" rel="noopener">ফাইদুল কাদীর</a>)।</p>
+<h3 id="s31">কিতাব-তালিকা:
+কোন গ্রন্থে কী আছে, আর কোনটি বাংলায় আছে</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr class="header">
+<th>গ্রন্থ (আরবি নাম ও বাংলা উচ্চারণ)</th>
+<th>লেখক (মৃত্যু হি./খ্রি.)</th>
+<th>ঘুম-প্রাসঙ্গিক অংশ ও বক্তব্য</th>
+<th>উৎস</th>
+<th>বাংলা অনুবাদ</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span class="ar" dir="rtl" lang="ar">«التهجد وقيام الليل»</span> (আত-তাহাজ্জুদ ওয়া কিয়ামুল লাইল)</td>
+<td>ইবনু আবিদ দুনইয়া (২৮১/৮৯৪)</td>
+<td>সাহাবী-তাবেয়ীদের রাত্রিজাগরণের সনদসহ বর্ণনা; ঘুমের মাত্রা নিয়ে আলোচনা
+নেই; হাম্মামের দু'আ <span class="ar" dir="rtl" lang="ar">«اشفني من النوم باليسير، واجعل سهري في طاعتك»</span>, "অল্প
+ঘুমেই আমাকে তৃপ্ত রাখো, আর রাত-জাগাকে তোমার আনুগত্যে লাগাও"</td>
+<td><a href="https://raw.githubusercontent.com/OpenITI/0300AH/master/data/0281IbnAbiDunya/0281IbnAbiDunya.Tahajjud/0281IbnAbiDunya.Tahajjud.ShamAY0038106-ara1" rel="noopener">OpenITI</a>;
+<a href="https://ketabonline.com/ar/books/10617" rel="noopener">ketabonline</a></td>
+<td>আছে, অন্তত তিনটি সংস্করণ (পরের অংশে)</td>
+</tr>
+<tr class="even">
+<td class="ar-block" dir="rtl"><span class="ar" dir="rtl" lang="ar">«مختصر قيام الليل وقيام رمضان وكتاب الوتر»</span></td>
+<td>মারওয়াযী (২৯৪/৯০৬), সংক্ষেপক মাকরীযী (৮৪৫/১৪৪২)</td>
+<td><span class="ar" dir="rtl" lang="ar">«باب الاستعانة بقائلة النهار على قيام الليل»</span> (দিনের কায়লূলা দিয়ে
+রাতের কিয়ামে সাহায্য নেওয়ার অধ্যায়); মূল গ্রন্থ হারিয়ে গেছে</td>
+<td><a href="https://shamela.ws/book/12872" rel="noopener">শামেলা ১২৮৭২</a></td>
+<td>পাওয়া যায়নি</td>
+</tr>
+<tr class="odd">
+<td><span class="ar" dir="rtl" lang="ar">«فضل قيام الليل والتهجد»</span> (ফাদলু কিয়ামিল লাইল)</td>
+<td>আল-আজুররী (৩৬০/৯৭০)</td>
+<td><span class="ar" dir="rtl" lang="ar">«فَوَصَفَهُمْ جلَّ ذِكْرُهُ بِقِلَّةِ النَّوْمِ»</span>, আল্লাহ তাদের স্বল্প-নিদ্রার গুণে ভূষিত
+করেছেন; কিছু দুর্বল হাদীস থাকার অভিযোগ আছে</td>
+<td><a href="https://shamela.ws/book/12746/3" rel="noopener">শামেলা ১২৭৪৬</a></td>
+<td>আছে</td>
+</tr>
+<tr class="even">
+<td><span class="ar" dir="rtl" lang="ar">«قوت القلوب»</span> (কূতুল কুলূব)</td>
+<td>আবু তালিব আল-মাক্কী (৩৮৬/৯৯৬)</td>
+<td><span class="ar" dir="rtl" lang="ar">«الفصل الرابع عشر في ذكر تقسيم قيام الليل ونومه»</span> (রাতের কিয়াম ও ঘুম
+বণ্টনের অধ্যায়): দুই-তৃতীয়াংশ থেকে এক-ষষ্ঠাংশ কিয়াম; বর্ণনাগুলো সাধারণত
+সনদহীন</td>
+<td><a href="https://shamela.ws/book/482/64" rel="noopener">শামেলা ৪৮২</a></td>
+<td>এই অনুসন্ধানে খোঁজা হয়নি</td>
+</tr>
+<tr class="odd">
+<td><span class="ar" dir="rtl" lang="ar">«القانون في الطب»</span> (আল-কানূন ফিত-তিব্ব)</td>
+<td>ইবনু সীনা (৪২৮/১০৩৭)</td>
+<td><span class="ar" dir="rtl" lang="ar">«الفصل التاسع: النوم واليقظة»</span> (ঘুম ও জাগরণ অধ্যায়): পরিমিত ঘুম, রাতজাগা
+থেকে মস্তিষ্ক রক্ষা</td>
+<td><a href="https://shamela.ws/book/10706/231" rel="noopener">শামেলা ১০৭০৬</a></td>
+<td>খোঁজা হয়নি</td>
+</tr>
+<tr class="even">
+<td><span class="ar" dir="rtl" lang="ar">«أدب الدنيا والدين»</span> (আদাবুদ দুনইয়া ওয়াদ দীন)</td>
+<td>মাওয়ারদী (৪৫০/১০৫৮)</td>
+<td>বিশ্রাম ও কর্মের নির্দিষ্ট পরিমাণ ও সময়; তিন প্রকার দিনের ঘুম</td>
+<td><a href="https://shamela.ws/book/765/339" rel="noopener">শামেলা ৭৬৫</a></td>
+<td>খোঁজা হয়নি</td>
+</tr>
+<tr class="odd">
+<td class="ar-block" dir="rtl"><span class="ar" dir="rtl" lang="ar">«الفقيه والمتفقه»</span> ও <span class="ar" dir="rtl" lang="ar">«الجامع لأخلاق الراوي»</span></td>
+<td>খতীব বাগদাদী (৪৬৩/১০৭১)</td>
+<td>মুখস্থের সেরা সময় সাহার; রাতে হাদীস-মুযাকারা</td>
+<td><a href="https://shamela.ws/book/13048/1066" rel="noopener">শামেলা ১৩০৪৮</a>; <a href="https://shamela.ws/book/13012/2085" rel="noopener">শামেলা ১৩০১২</a></td>
+<td>খোঁজা হয়নি</td>
+</tr>
+<tr class="even">
+<td><span class="ar" dir="rtl" lang="ar">«إحياء علوم الدين»</span> (ইহইয়াউ উলূমিদ্দীন)</td>
+<td>গাযালী (৫০৫/১১১১)</td>
+<td>কিয়াম সহজ করার ৪+৪ উপায়; রাত জাগার সাত স্তর; "দুই ঘুম, দুই কিয়াম"</td>
+<td><a href="https://shamela.ws/book/9472/356" rel="noopener">শামেলা ৯৪৭২</a></td>
+<td>আছে (মুহিউদ্দীন খান; ২য় খণ্ড, ১০ম অধ্যায়)</td>
+</tr>
+<tr class="odd">
+<td><span class="ar" dir="rtl" lang="ar">«بداية الهداية»</span> (বিদায়াতুল হিদায়া)</td>
+<td>গাযালী</td>
+<td>দিনে-রাতে আট ঘণ্টার বেশি নয়</td>
+<td><a href="https://shamela.ws/book/12718/19" rel="noopener">শামেলা ১২৭১৮</a></td>
+<td>এই অনুসন্ধানে খোঁজা হয়নি</td>
+</tr>
+<tr class="even">
+<td><span class="ar" dir="rtl" lang="ar">«تعليم المتعلم طريق التعلم»</span> (তা'লীমুল মুতাআল্লিম)</td>
+<td>যারনূজী (আনু. ৫৯১/১১৯৫)</td>
+<td>রাত জাগার কবিতা, সাথে "নফস তোমার বাহন, কোমল হও"</td>
+<td><a href="https://ketabonline.com/ar/books/93084/read?part=1&amp;page=33" rel="noopener">ketabonline</a></td>
+<td>আছে, একাধিক সংস্করণ</td>
+</tr>
+<tr class="odd">
+<td><span class="ar" dir="rtl" lang="ar">«تلبيس إبليس»</span> (তালবীসু ইবলীস)</td>
+<td>ইবনুল জাওযী (৫৯৭/১২০১)</td>
+<td>সারারাত জাগার সমালোচনা; "সুন্নাতই অনুসরণীয়"</td>
+<td><a href="https://shamela.ws/book/11407/201" rel="noopener">শামেলা ১১৪০৭</a></td>
+<td>আছে</td>
+</tr>
+<tr class="even">
+<td><span class="ar" dir="rtl" lang="ar">«صيد الخاطر»</span> (সাইদুল খাতির)</td>
+<td>ইবনুল জাওযী</td>
+<td>দেহ বাহন; কৃচ্ছ্রতায় নিজের অসুস্থতা; সময়ের মূল্য</td>
+<td><a href="https://shamela.ws/book/12028/752" rel="noopener">শামেলা ১২০২৮</a></td>
+<td>আছে (সম্ভবত নির্বাচিত অনুবাদ)</td>
+</tr>
+<tr class="odd">
+<td class="ar-block" dir="rtl"><span class="ar" dir="rtl" lang="ar">«الحث على حفظ العلم»</span> ও <span class="ar" dir="rtl" lang="ar">«لفتة الكبد إلى نصيحة الولد»</span></td>
+<td>ইবনুল জাওযী</td>
+<td>মুখস্থের সময়; ফজরে জাগা বাধ্যতামূলক করো</td>
+<td><a href="https://shamela.ws/book/22340/13" rel="noopener">শামেলা ২২৩৪০</a>; <a href="https://raw.githubusercontent.com/OpenITI/0600AH/master/data/0597IbnJawzi/0597IbnJawzi.LaftatKabad/0597IbnJawzi.LaftatKabad.ShamAY0034818-ara1" rel="noopener">OpenITI</a></td>
+<td>নিশ্চিত নয়; "সময়ের হেফাযত, জীবনের হেফাযত" ইবনুল জাওযীর একটি সময়-বিষয়ক
+পুস্তিকার অনুবাদ</td>
+</tr>
+<tr class="even">
+<td><span class="ar" dir="rtl" lang="ar">«رياض الصالحين»</span> (রিয়াদুস সালিহীন) ও <span class="ar" dir="rtl" lang="ar">«الأذكار»</span></td>
+<td>নববী (৬৭৬/১২৭৭)</td>
+<td><span class="ar" dir="rtl" lang="ar">«باب فضل قيام الليل»</span> (কিয়ামুল লাইলের ফযীলত অধ্যায়); ঘুমের দু'আর
+অধ্যায়</td>
+<td><a href="https://shamela.ws/book/2348/1289" rel="noopener">শামেলা ২৩৪৮</a>; <a href="https://shamela.ws/book/10639" rel="noopener">শামেলা ১০৬৩৯</a></td>
+<td>রিয়াদুস সালিহীন আছে</td>
+</tr>
+<tr class="odd">
+<td><span class="ar" dir="rtl" lang="ar">«مختصر منهاج القاصدين»</span> (মুখতাসারু মিনহাজিল কাসিদীন)</td>
+<td>নাজমুদ্দীন ইবনু কুদামা (৬৮৯/১২৯০)</td>
+<td>কিয়াম সহজ করার উপায়; শাফেঈর রাত-বণ্টন; গ্রীষ্মে সমন্বয়</td>
+<td><a href="https://shamela.ws/book/98087/67" rel="noopener">শামেলা ৯৮০৮৭</a></td>
+<td>পূর্ণ অনুবাদ পাওয়া যায়নি</td>
+</tr>
+<tr class="even">
+<td><span class="ar" dir="rtl" lang="ar">«تذكرة السامع والمتكلم»</span> (তাযকিরাতুস সামি')</td>
+<td>ইবনু জামা'আ (৭৩৩/১৩৩৩)</td>
+<td>ক্ষতি না হলে ঘুম কমাও, আট ঘণ্টার বেশি নয়</td>
+<td><a href="https://shamela.ws/book/151180/78" rel="noopener">শামেলা ১৫১১৮০</a></td>
+<td>পাওয়া যায়নি</td>
+</tr>
+<tr class="odd">
+<td><span class="ar" dir="rtl" lang="ar">«مدارج السالكين»</span> (মাদারিজুস সালিকীন)</td>
+<td>ইবনুল কাইয়্যিম (৭৫১/১৩৫০)</td>
+<td>অতিরিক্ত ঘুম পঞ্চম বিনষ্টকারী; আট ঘণ্টা ভারসাম্যপূর্ণ; ঘুম-বর্জনও ক্ষতিকর</td>
+<td><a href="https://shamela.ws/book/199/828" rel="noopener">শামেলা ১৯৯</a></td>
+<td>আছে</td>
+</tr>
+<tr class="even">
+<td><span class="ar" dir="rtl" lang="ar">«زاد المعاد»</span> (যাদুল মা'আদ)</td>
+<td>ইবনুল কাইয়্যিম</td>
+<td>নবী <span class="ar" dir="rtl" lang="ar">ﷺ</span>-এর ঘুম "সবচেয়ে ভারসাম্যপূর্ণ"; দিনের ঘুমের প্রকারভেদ</td>
+<td><a href="https://shamela.ws/book/197/2595" rel="noopener">শামেলা ১৯৭</a></td>
+<td>আছে (খণ্ডিত ও সংক্ষিপ্ত)</td>
+</tr>
+<tr class="odd">
+<td><span class="ar" dir="rtl" lang="ar">«الآداب الشرعية»</span> (আল-আদাবুশ শার'ইয়্যাহ)</td>
+<td>ইবনু মুফলিহ (৭৬৩/১৩৬২)</td>
+<td>কায়লূলার মুস্তাহাব হওয়া</td>
+<td><a href="https://shamela.ws/book/21582/1078" rel="noopener">শামেলা ২১৫৮২</a></td>
+<td>খোঁজা হয়নি</td>
+</tr>
+<tr class="even">
+<td><span class="ar" dir="rtl" lang="ar">«لطائف المعارف»</span> (লাতাইফুল মা'আরিফ)</td>
+<td>ইবনু রজব (৭৯৫/১৩৯৩)</td>
+<td><span class="ar" dir="rtl" lang="ar">«فتركُ النَّومِ معَ ميلِ النَّفسِ إليهِ مجاهدةٌ عظيمةٌ»</span>, নফসের ঝোঁক সত্ত্বেও ঘুম
+ছাড়া মহা মুজাহাদা</td>
+<td><a href="https://shamela.ws/book/1151/93" rel="noopener">শামেলা ১১৫১</a></td>
+<td>খোঁজা হয়নি</td>
+</tr>
+<tr class="odd">
+<td class="ar-block" dir="rtl"><span class="ar" dir="rtl" lang="ar">«قيمة الزمن عند العلماء»</span> ও <span class="ar" dir="rtl" lang="ar">«صفحات من صبر العلماء»</span></td>
+<td>আবদুল ফাত্তাহ আবু গুদ্দাহ (১৪১৭/১৯৯৭)</td>
+<td>আলেমদের সময়-সংরক্ষণ; <span class="ar" dir="rtl" lang="ar">«الأكل والنوم والاستراحة لطالب العلم بقدر
+الضرورة»</span> (তালিবুল ইলমের খাওয়া, ঘুম ও বিশ্রাম প্রয়োজন পরিমাণে); আলেমদের ঘুম
+বর্জনের ঘটনা</td>
+<td><a href="https://shamela.ws/book/96882" rel="noopener">শামেলা ৯৬৮৮২</a>; <a href="https://raw.githubusercontent.com/OpenITI/1425AH/master/data/1417CabdFattahAbuGhudda/1417CabdFattahAbuGhudda.SafahatMinSabr/1417CabdFattahAbuGhudda.SafahatMinSabr.ShamAY0033769-ara1" rel="noopener">OpenITI</a></td>
+<td>আছে, একাধিক অনুবাদ</td>
+</tr>
+<tr class="even">
+<td><span class="ar" dir="rtl" lang="ar">«الوقت في حياة المسلم»</span> (আল-ওয়াক্ত ফী হায়াতিল মুসলিম)</td>
+<td>ইউসুফ আল-কারযাভী (১৪৪৪/২০২২)</td>
+<td>মুসলিম জীবনে সময়</td>
+<td><a href="https://www.goodreads.com/work/editions/15571767" rel="noopener">Goodreads</a></td>
+<td>সম্ভবত আছে ("মুমিন জীবনে সময়")</td>
+</tr>
+<tr class="odd">
+<td class="ar-block" dir="rtl"><span class="ar" dir="rtl" lang="ar">«قيام الليل: فضله، وآدابه، والأسباب المعينة عليه»</span></td>
+<td>সাঈদ ইবনু ওয়াহফ আল-কাহতানী (সমকালীন)</td>
+<td><span class="ar" dir="rtl" lang="ar">«الحرص على النوم مبكرا؛ ليأخذ قوة ونشاطا»</span>, শক্তি ও সতেজতার জন্য আগে
+ঘুমানো; তন্দ্রা প্রবল হলে নামায ছেড়ে ঘুমানো</td>
+<td><a href="https://shamela.ws/book/96515" rel="noopener">শামেলা ৯৬৫১৫</a></td>
+<td>আছে, বিনামূল্যে</td>
+</tr>
+</tbody>
+</table></div>
+<p>উপমহাদেশীয় উর্দু ক্লাসিক, যেমন শাইখুল হাদীস যাকারিয়া কান্ধলভীর <span class="ar" dir="rtl" lang="ar">«آپ بیتی»</span>
+(আপবীতি) ও <span class="ar" dir="rtl" lang="ar">«اکابر کا رمضان»</span> (আকাবির কা রমযান), বুযুর্গদের ঘুম ও তাহাজ্জুদের
+রুটিনের উৎস হিসেবে পরিচিত (<a href="https://archive.org/download/EnglishislamicBooks_MAE/385RamzanOfTheSaintlyElders.pdf" rel="noopener">archive.org</a>);
+কিন্তু এগুলোর মূল পাঠ এই গবেষণায় যাচাই হয়নি, তাই নির্দিষ্ট উদ্ধৃতি দেওয়া হচ্ছে
+না।</p>
+<h2 id="s32">সালাফের যে
+ঘটনাগুলো সবচেয়ে প্রচলিত, সেগুলোই সবচেয়ে দুর্বল</h2>
+<h3 id="s33">সহীহ সূত্রে
+সাহাবীদের আমল: ভাগ করা রাত, শেষ রাতে ওঠা</h3>
+<p>সাহাবীদের রাত্রি-ইবাদতের সবচেয়ে মজবুত বর্ণনাগুলো ঘুম-বর্জন নয়, বরং রাত ভাগ
+করার ছবি দেখায়। মুআয ইবনে জাবাল (রা.) আবু মূসাকে বলেছিলেন: <span class="ar" dir="rtl" lang="ar">«أما أنا فأنام
+وأقوم، فأحتسب نومتي كما أحتسب قومتي»</span>, "আমি ঘুমাই, আবার উঠি; আমার দাঁড়ানোতে
+যেমন সওয়াব আশা করি, ঘুমের মধ্যেও তেমনি সওয়াব আশা করি" (<a href="https://shamela.ws/book/1681/6368" rel="noopener">বুখারী, কিতাবুল মাগাযী</a>; মান:
+<strong>সহীহ</strong>)। ব্যাখ্যাকারেরা বলেছেন, কারণ ঘুম ইবাদতের সহায়ক (<a href="https://shamela.ws/book/18103/5550" rel="noopener">আল-লামিউস সাবীহ</a>)। আবু উসমান
+আন-নাহদী সাত দিন আবু হুরায়রা (রা.)-র মেহমান ছিলেন: <span class="ar" dir="rtl" lang="ar">«فكان هو وامرأته وخادمه
+يعتقبون الليل أثلاثا، يصلي هذا، ثم يوقظ هذا»</span>, "তিনি, তাঁর স্ত্রী ও খাদেম
+রাতকে তিন ভাগে ভাগ করে পালা করতেন; একজন নামায পড়ে পরেরজনকে জাগিয়ে দিতেন"
+(<a href="https://shamela.ws/book/1681/8133" rel="noopener">বুখারী ৫৪৪১</a>; মান:
+<strong>সহীহ</strong>)। অর্থাৎ পরিবারের প্রত্যেকে ঘুমিয়েছেন, আর সবাই মিলে
+রাতকে জীবন্ত রেখেছেন। উমর (রা.) রাতে যতটুকু আল্লাহ চাইতেন নামায পড়তেন, আর
+শেষ রাতে পরিবারকে জাগিয়ে বলতেন <span class="ar" dir="rtl" lang="ar">«الصلاة الصلاة»</span> (<a href="https://shamela.ws/book/28107/806" rel="noopener">মুয়াত্তা মালিক ৩৮৯</a>; মান:
+<strong>সহীহ</strong>, সনদ মালিক থেকে যায়দ ইবনে আসলাম থেকে উমরের আযাদকৃত
+দাস আসলাম)। উসমান (রা.) এক রাকআতে পুরো কুরআন পড়ে রাত কাটিয়েছেন, এর বর্ণনাকে
+ইবনে কাসীর <span class="ar" dir="rtl" lang="ar">«إسناد صحيح»</span> (সহীহ সনদ) ও <span class="ar" dir="rtl" lang="ar">«حسن»</span> (হাসান) বলেছেন (<a href="https://shamela.ws/book/22800/245" rel="noopener">ফাদাইলুল কুরআন</a>); তবে এটি এক
+বা কয়েক রাতের ঘটনা হিসেবে প্রমাণিত, "সারাজীবন প্রতি রাতে" এমন দাবি প্রমাণিত
+নয়। ইয়াহইয়া ইবনে আবী কাসীরের উক্তি <span class="ar" dir="rtl" lang="ar">«لا يستطاع العلم براحة الجسم»</span>, "শরীরকে
+আরামে রেখে ইলম অর্জন সম্ভব নয়", ইমাম মুসলিম তাঁর সহীহের ভেতরে সনদসহ এনেছেন;
+এটি হাদীস নয়, তাবেয়ীর উক্তি, তবে সনদ <strong>সহীহ</strong> (<a href="https://shamela.ws/book/711/1642" rel="noopener">সহীহ মুসলিম</a>)।</p>
+<h3 id="s34">ইমামদের
+নির্ভরযোগ্য বর্ণনা: ঘুম ছিল, তবে ভাঙা ও ভাগ করা</h3>
+<p>চার ইমাম ও পরবর্তী মুহাদ্দিসদের সবচেয়ে বিশ্বস্ত বর্ণনাগুলো এসেছে পরিবার বা
+সরাসরি ছাত্রের মাধ্যমে, আর এগুলোর কোনোটিই দীর্ঘ মেয়াদে একেবারে না ঘুমানো
+প্রমাণ করে না। ইমাম শাফেঈর ছাত্র রাবী' ইবনে সুলাইমান জানিয়েছেন: <span class="ar" dir="rtl" lang="ar">«كان
+الشافعي قد جزأ الليل ثلاثة أجزاء: الثلث الأول يكتب، والثلث الثاني يصلي،
+والثلث الثالث ينام»</span>, "শাফেঈ রাতকে তিন ভাগ করেছিলেন: প্রথম তৃতীয়াংশে
+লিখতেন, দ্বিতীয় তৃতীয়াংশে নামায পড়তেন, শেষ তৃতীয়াংশে ঘুমাতেন"। ইমাম যাহাবী
+এর উপর মন্তব্য করেছেন: <span class="ar" dir="rtl" lang="ar">«أفعاله الثلاثة عبادة بالنية»</span>, "তাঁর তিনটি কাজই
+নিয়তের কারণে ইবাদত", অর্থাৎ ঘুমও (<a href="https://shamela.ws/book/10906/6284" rel="noopener">সিয়ার ১০/৩৫</a>; <a href="https://shamela.ws/book/10495/3224" rel="noopener">হিলইয়া ৯/১৩৫</a>; মান:
+<strong>নির্ভরযোগ্য আরোপ</strong>)। একই পৃষ্ঠায় হুসাইন আল-কারাবীসী বলেছেন,
+তিনি শাফেঈর সঙ্গে এক রাত থেকেছেন, শাফেঈ রাতের প্রায় এক-তৃতীয়াংশ নামায
+পড়েছেন, পঞ্চাশ আয়াতের বেশি পড়েননি, খুব বেশি হলে একশো।</p>
+<p>ইমাম আহমাদ ইবনে হাম্বলের পুত্র আবদুল্লাহ জানিয়েছেন, তাঁর পিতা দিনরাতে তিনশো
+রাকআত পড়তেন, চাবুকের আঘাতে দুর্বল হওয়ার পর দেড়শো; আর <span class="ar" dir="rtl" lang="ar">«وكان ساعة يصلي عشاء
+الآخرة ينام نومة خفيفة، ثم يقوم إلى الصباح يصلي ويدعو»</span>, "এশা পড়ে অল্প একটু
+ঘুমাতেন, তারপর উঠে সকাল পর্যন্ত নামায ও দু'আয় থাকতেন" (<a href="https://shamela.ws/book/10495/3270" rel="noopener">হিলইয়া ৯/১৮১</a>; মান:
+<strong>নির্ভরযোগ্য আরোপ</strong>, যদিও তিনশো রাকআতের সময়-হিসাব নিয়ে প্রশ্ন
+তোলা যায়)। আহমাদ এক ছাত্রকে সকালে ওযুর পানি অব্যবহৃত দেখে বলেছিলেন: <span class="ar" dir="rtl" lang="ar">«سبحان
+الله! رجل يطلب العلم لا يكون له ورد بالليل</span>!», "সুবহানাল্লাহ! ইলম
+অন্বেষণকারী, অথচ রাতে তার কোনো ওযীফা নেই!" (<a href="https://shamela.ws/book/13061/428" rel="noopener">বায়হাকী, আল-মাদখাল</a>)।</p>
+<p>ইমাম বুখারীর ব্যক্তিগত সচিব মুহাম্মাদ ইবনে আবী হাতিম আল-ওয়াররাক বলেছেন:
+<span class="ar" dir="rtl" lang="ar">«فكنت أراه يقوم في ليلة واحدة خمس عشرة مرة إلى عشرين مرة، في كل ذلك يأخذ
+القداحة فيوري نارا ويسرج، ثم يخرج أحاديث فيعلم عليها، ثم يضع رأسه»</span>,
+"দেখতাম তিনি এক রাতে পনেরো থেকে বিশবার উঠতেন; প্রতিবার চকমকি ঠুকে বাতি
+জ্বালিয়ে হাদীস বের করে চিহ্ন দিতেন, তারপর আবার মাথা রাখতেন"। ওয়াররাক
+জিজ্ঞেস করলেন কেন তাঁকে জাগান না; বুখারী বললেন: <span class="ar" dir="rtl" lang="ar">«أنت شاب فلا أحب أن أفسد
+عليك نومك»</span>, "তুমি যুবক, তোমার ঘুম নষ্ট করতে চাই না" (<a href="https://shamela.ws/book/1224/476" rel="noopener">হাদয়ুস সারী</a>; <a href="https://shamela.ws/book/10906/7893" rel="noopener">সিয়ার ১২/৪০৪</a>; মান:
+<strong>নির্ভরযোগ্য আরোপ</strong>)। এটি একটানা জাগরণ নয়, বরং ঘুম-ভাঙা চক্র;
+আর বুখারী অন্যের ঘুমের প্রতি যত্নশীল ছিলেন। ইমাম নববী নিজের ছাত্রজীবন সম্পর্কে
+বলেছেন <span class="ar" dir="rtl" lang="ar">«وبقيت نحو سنتين لم أضع جنبي إلى الأرض»</span>, "প্রায় দুই বছর মাটিতে পিঠ
+লাগাইনি" (<a href="https://shamela.ws/book/6736/426" rel="noopener">তাবাকাতুশ
+শাফিইয়্যা</a>; মান: <strong>নির্ভরযোগ্য আরোপ</strong>, নিজের ভাষ্য ছাত্র ইবনুল
+আত্তারের মাধ্যমে)। "পিঠ না লাগানো" সম্ভবত বসে বা হেলান দিয়ে ঘুমানো বোঝায়,
+পুরো ঘুমহীনতা নয়; আর এটি সীমিত সময়ের ছাত্রজীবনের কৃচ্ছ্রতা। নববী মাত্র ৪৫ বছর
+বয়সে মারা যান, কিন্তু এর সঙ্গে স্বাস্থ্যের সম্পর্ক টানা অনুমাননির্ভর। ইবনে তাইমিয়া
+সম্পর্কে ইবনুল কাইয়্যিম প্রত্যক্ষ সাক্ষ্য দিয়েছেন যে তিনি বলতেন: <span class="ar" dir="rtl" lang="ar">«لا أترك الذكر
+إلا بنية إجمام نفسي وإراحتها؛ لأستعد بتلك الراحة لذكر آخر»</span>, "আমি যিকির
+ছাড়ি কেবল নিজেকে বিশ্রাম দেওয়ার নিয়তে, যাতে সেই বিশ্রাম দিয়ে পরের যিকিরের
+জন্য প্রস্তুত হতে পারি" (<a href="https://shamela.ws/book/18128/145" rel="noopener">আল-ওয়াবিলুস সাইয়্যিব</a>), যা
+মুআযের <span class="ar" dir="rtl" lang="ar">«أحتسب نومتي»</span> নীতির সঙ্গে মেলে।</p>
+<p>তাবেয়ী ও প্রাথমিক যুগের আবিদদের কয়েকটি উক্তিও ছাত্র বা সমসাময়িকদের সনদে
+এসেছে। ফুদাইল ইবনে ইয়াদ: <span class="ar" dir="rtl" lang="ar">«خصلتان تقسيان القلب: كثرة النوم، وكثرة الأكل»</span>,
+"দুটি অভ্যাস হৃদয়কে কঠিন করে: বেশি ঘুম ও বেশি খাওয়া" (<a href="https://shamela.ws/book/13025/425" rel="noopener">বায়হাকী, আয-যুহদুল কাবীর</a>;
+<strong>সনদসহ, পূর্ণ যাচাই হয়নি</strong>); তবে তাঁর নিজের অভ্যাস ছিল রাতের
+শুরুতে কিছুক্ষণ নামায পড়া, ঘুম চেপে এলে চাটাইয়ে অল্প ঘুমিয়ে আবার ওঠা (<a href="https://shamela.ws/book/12406/3082" rel="noopener">আল-মুনতাযাম</a>)। আবু সুলাইমান
+আদ-দারানী: <span class="ar" dir="rtl" lang="ar">«أهل الليل في ليلهم ألذ من أهل اللهو في لهوهم»</span>, "রাত-জাগা
+ইবাদতকারীরা তাদের রাতে এমন স্বাদ পায়, যা খেল-তামাশার লোকেরা তাদের খেলায়
+পায় না" (<a href="https://shamela.ws/book/9948/166" rel="noopener">আল-মুজালাসা</a>;
+<strong>নির্ভরযোগ্য আরোপ</strong>)। সুফিয়ান সাওরী: <span class="ar" dir="rtl" lang="ar">«حرمت قيام الليل بذنب
+أحدثته خمسة أشهر»</span>, "একটি গুনাহর কারণে পাঁচ মাস কিয়ামুল লাইল থেকে বঞ্চিত
+ছিলাম" (<a href="https://shamela.ws/book/10495/2328" rel="noopener">হিলইয়া ৭/১৭</a>;
+<strong>সনদসহ, পূর্ণ যাচাই হয়নি</strong>)। ইবনে মাসউদ: <span class="ar" dir="rtl" lang="ar">«لا ألفين أحدكم
+جيفة ليل، قطرب نهار»</span>, "আমি যেন তোমাদের কাউকে এমন না পাই যে রাতে মড়ার মতো
+পড়ে থাকে আর দিনে অস্থির পোকার মতো গল্পগুজবে ছোটে" (<a href="https://shamela.ws/book/8215/188" rel="noopener">আয-যুহদ লি আবী দাউদ</a>;
+<strong>সনদসহ, পূর্ণ যাচাই হয়নি</strong>)। এই উক্তিগুলোর মূল বার্তা প্রায়ই ঘুমের
+পরিমাণ নয়, বরং গুনাহ, খাদ্য ও উদাসীনতার সঙ্গে রাত-ইবাদতের সম্পর্ক।</p>
+<h3 id="s35">"চল্লিশ বছর এশার
+ওযুতে ফজর": সনদ পরীক্ষায় ভেঙে পড়ে</h3>
+<p>বাংলা ওয়াজে সবচেয়ে প্রচলিত দৃষ্টান্ত সম্ভবত ইমাম আবু হানিফার "চল্লিশ বছর
+এশার ওযুতে ফজর পড়া"। খতীব বাগদাদীর <span class="ar" dir="rtl" lang="ar">«تاريخ بغداد»</span>-এ এর পাঠ: <span class="ar" dir="rtl" lang="ar">«صلى أبو حنيفة
+فيما حفظ عليه صلاة الفجر بوضوء صلاة العشاء أربعين سنة … وحفظ عليه أنه
+ختم القرآن في الموضع الذي توفي فيه سبعة آلاف مرة»</span>, "আবু হানিফা চল্লিশ বছর
+এশার ওযু দিয়ে ফজর পড়েছেন … যে স্থানে মারা যান সেখানে সাত হাজার বার কুরআন
+খতম করেছেন" (<a href="https://shamela.ws/book/736/8683" rel="noopener">তারীখু
+বাগদাদ</a>)। কিন্তু এর একমাত্র উল্লিখিত সনদে আছেন আবদুল্লাহ ইবনে মুহাম্মাদ
+আল-হারিসী ("আল-উসতায"), যাঁর সম্পর্কে আবু সাঈদ আর-রাওয়াস বলেছেন <span class="ar" dir="rtl" lang="ar">«يتهم بوضع
+الحديث»</span>, "হাদীস জাল করার অভিযোগে অভিযুক্ত", আর আবু যুর'আ বলেছেন <span class="ar" dir="rtl" lang="ar">«ضعيف»</span>
+(দুর্বল) (<a href="https://shamela.ws/book/36357/2413" rel="noopener">লিসানুল মীযান</a>)।
+মান: <strong>দুর্বল ও অতিরঞ্জিত</strong>। সবচেয়ে উল্লেখযোগ্য হলো, যাহাবী
+সিয়ারে আবু হানিফার নিজের মুখের কথা এনেছেন: কেউ বলছিল "ইনি আবু হানিফা,
+সারারাত ঘুমান না"; তিনি বললেন <span class="ar" dir="rtl" lang="ar">«والله لا يتحدث عني بما لم أفعل»</span>, "আল্লাহর
+কসম, যা আমি করি না তা আমার নামে বলাবলি হবে না" (<a href="https://shamela.ws/book/10906/4649" rel="noopener">সিয়ার ৬/৩৯৯</a>)। তিনি রাতে
+প্রচুর ইবাদত করতেন, এ কথা বহু সূত্রে প্রসিদ্ধ; কিন্তু নির্দিষ্ট সংখ্যাগুলো প্রমাণিত
+নয়। হানাফি আলেমদের আল-হারিসীর পক্ষের জবাব এই গবেষণায় দেখা হয়নি, তাই
+মূল্যায়নটি একপাক্ষিক হওয়ার ঝুঁকি আছে।</p>
+<p>সাঈদ ইবনুল মুসাইয়্যিবের "পঞ্চাশ বছর এশার ওযুতে ফজর" বর্ণনার রাবী আবদুল মুন'ইম
+ইবনে ইদরীস সম্পর্কে ইমাম আহমাদ বলেছেন <span class="ar" dir="rtl" lang="ar">«كان يكذب على وهب بن منبه»</span> (ওয়াহব
+ইবনে মুনাব্বিহের নামে মিথ্যা বলতেন), ইবনে মাঈন <span class="ar" dir="rtl" lang="ar">«الكذاب يجتنب»</span> (মিথ্যুক,
+বর্জনীয়), আর তাঁর পিতা যখন মারা যান তখন তিনি দুগ্ধপোষ্য শিশু ছিলেন (<a href="https://shamela.ws/book/36357/2703" rel="noopener">লিসানুল মীযান</a>; <a href="https://shamela.ws/book/10438/5629" rel="noopener">আল-জামি' লি কুতুবিদ দু'আফা</a>)।
+মান: <strong>অত্যন্ত দুর্বল, মিথ্যুকের বর্ণনা</strong>। তবে তাঁর "পঞ্চাশ বছর
+তাকবীরে উলা ছোটেনি" উক্তিটি সম্পর্কে ইবনুল মুলাক্কিন বলেছেন <span class="ar" dir="rtl" lang="ar">«روي عن السلف من
+طرق حسان»</span> (সালাফ থেকে হাসান সূত্রে বর্ণিত) (<a href="https://shamela.ws/book/5922/2225" rel="noopener">আল-বাদরুল মুনীর</a>)। সুলাইমান
+আত-তাইমির "চল্লিশ বছর" বর্ণনাটি তাঁর নির্ভরযোগ্য পুত্র মু'তামিরের সূত্রে
+(<strong>সনদসহ</strong>) (<a href="https://shamela.ws/book/10906/4447" rel="noopener">সিয়ার ৬/১৯৭</a>)। তামীম
+আদ-দারী (রা.)-র "এক রাত তাহাজ্জুদ ছুটে যাওয়ায় শাস্তি হিসেবে এক বছর না ঘুমানো"
+বর্ণনার রাবী আল-মুনকাদির ইবনে মুহাম্মাদ সম্পর্কে মতভেদ আছে: আহমাদ তাঁকে
+নির্ভরযোগ্য বলেছেন, কিন্তু ইজলী ও সা'দী দুর্বল এবং আলবানী <span class="ar" dir="rtl" lang="ar">«لين الحديث»</span> (হাদীসে
+দুর্বলতা আছে) বলেছেন (<strong>দুর্বল</strong>) (<a href="https://shamela.ws/book/10906/2425" rel="noopener">সিয়ার ২/৪৪৫</a>; <a href="https://shamela.ws/book/12762/3376" rel="noopener">সিলসিলাতুয যঈফা</a>); অথচ তাঁর
+এক রাত একটি আয়াত বারবার পড়ে প্রায় সকাল করার বর্ণনার রাবীরা নির্ভরযোগ্য বলে
+সিয়ারের মুহাক্কিক জানিয়েছেন। শাদ্দাদ ইবনে আউসের "জাহান্নামের আগুন আমার ঘুম
+কেড়ে নিয়েছে" বর্ণনার সব সূত্র ফারাজ ইবনে ফাদালার মাধ্যমে, যিনি সাধারণত দুর্বল
+বলে পরিচিত (<strong>দুর্বল</strong>) (<a href="https://shamela.ws/book/10906/2446" rel="noopener">সিয়ার ২/৪৬৬</a>)। আলী ইবনুল
+হুসাইন, মুস'আব ইবনে সাবিত ও কাহমাসের "দিনরাতে হাজার রাকআত" বর্ণনাগুলো
+"<span class="ar" dir="rtl" lang="ar">بلغني</span>" (আমার কাছে পৌঁছেছে) জাতীয় সনদহীন শব্দে এসেছে
+(<strong>অতিরঞ্জিত</strong>) (<a href="https://shamela.ws/book/3722/10521" rel="noopener">তাহযীবুল কামাল</a>);
+আল-মুসতাসলিম ইবনে সাঈদের "চল্লিশ বছর পিঠ না লাগানো" (<a href="https://shamela.ws/book/12031/836" rel="noopener">সিফাতুস সাফওয়া</a>) এবং ওয়াহব
+ইবনে মুনাব্বিহের "ত্রিশ বছর পিঠ না লাগানো, ঘরে বালিশ দেখার চেয়ে শয়তান দেখা
+প্রিয়" (<a href="https://shamela.ws/book/482/66" rel="noopener">কূতুল কুলূব</a>) একই শ্রেণির;
+শেষেরটি উৎস নিজেই <span class="ar" dir="rtl" lang="ar">«يقال»</span>, "বলা হয়" শব্দে এনেছে।</p>
+<h3 id="s36">আলেমরা নিজেরাই
+বাড়াবাড়ির সমালোচনা করেছেন</h3>
+<p>এই দুর্বলতা আধুনিক আবিষ্কার নয়; ক্লাসিক আলেমরা নিজেরাই তা বলেছেন। ইবনে
+তাইমিয়া লিখেছেন, কারও সম্পর্কে যদি বর্ণিত হয় <span class="ar" dir="rtl" lang="ar">«أنه كان يقوم جميع الليل
+دائما، أو أنه يصلي الصبح بوضوء العشاء الآخرة كذا كذا سنة، مع أن كثيرا من
+المنقول من ذلك ضعيف»</span>, "সে সবসময় সারারাত নামায পড়ত বা অমুক অমুক বছর এশার
+ওযুতে ফজর পড়েছে, যদিও এ ধরনের বর্ণনার অনেকগুলোই দুর্বল" (<a href="https://shamela.ws/book/7289/11340" rel="noopener">মাজমূউল ফাতাওয়া ২২/৩০৩</a>)।
+অন্যত্র তিনি বলেছেন, নবী <span class="ar" dir="rtl" lang="ar">ﷺ</span> আবদুল্লাহ ইবনে আমরকে নিয়মিত সারারাত জাগতে নিষেধ
+করেছেন, তাই <span class="ar" dir="rtl" lang="ar">«أن هذا أفضل مما فعله كثير من السلف والخلف بصلاة الصبح بوضوء
+العشاء الآخرة كذا كذا سنة»</span>, "পূর্ববর্তী ও পরবর্তী অনেকে বছরের পর বছর এশার
+ওযুতে ফজর পড়ার যে কাজ করেছেন, তার চেয়ে এই নববী পদ্ধতি উত্তম" (<a href="https://shamela.ws/book/22648/35" rel="noopener">আল-কারামানিয়্যা</a>)। হাজার
+রাকআতের দাবি খণ্ডন করে তিনি হিসাব দিয়েছেন: <span class="ar" dir="rtl" lang="ar">«فإنه لا بد له من أكل ونوم
+وقضاء حق أهل … والساعة الواحدة لا تتسع لثمانين ركعة وما يقارب ذلك، إلا
+أن يكون نقرا كنقر الغراب»</span>, "খাওয়া, ঘুম, পরিবারের হক তো আদায় করতেই হবে …
+এক ঘণ্টায় আশি রাকআত বা তার কাছাকাছি পড়া যায় না, যদি না কাকের ঠোকরের মতো
+ঠুকরে পড়া হয়" (<a href="https://shamela.ws/book/927/1735" rel="noopener">মিনহাজুস
+সুন্নাহ</a>)।</p>
+<p>ইমাম যাহাবী ওয়াকী' ইবনুল জাররাহের প্রতি রাতে খতম ও সারা বছর রোযা সম্পর্কে
+বলেছেন: <span class="ar" dir="rtl" lang="ar">«هذه عبادة يخضع لها، ولكنها من مثل إمام من الأئمة الأثرية مفضولة
+… والدين يسر، ومتابعة السنة أولى»</span>, "এটি এমন ইবাদত যার সামনে মাথা নত হয়,
+কিন্তু হাদীস-অনুসারী ইমামের পক্ষ থেকে তা অপেক্ষাকৃত কম উত্তম … দ্বীন সহজ, আর
+সুন্নাহর অনুসরণই উত্তম" (<a href="https://shamela.ws/book/10906/5809" rel="noopener">সিয়ার
+৯/১৪৩</a>)। সাঈদ ইবনে জুবাইরের মাগরিব-এশার মাঝে খতম সম্পর্কে: <span class="ar" dir="rtl" lang="ar">«هذا خلاف
+السنة»</span>, "এটি সুন্নাহর পরিপন্থী" (<a href="https://shamela.ws/book/10906/3478" rel="noopener">সিয়ার ৪/৩২৫</a>)। বিশর
+আল-হাফীকে লোকেরা "সারারাত ঘুমায় না" বললে তিনি কেঁদে বলেছিলেন: <span class="ar" dir="rtl" lang="ar">«إني لا أذكر
+أني سهرت ليلة كاملة»</span>, "আমার মনে পড়ে না যে আমি কখনো একটি পূর্ণ রাত জেগেছি"
+(<a href="https://shamela.ws/book/9953/34" rel="noopener">আর-রিসালাতুল কুশাইরিয়্যা</a>;
+<strong>সনদহীন</strong>, সুফি সূত্রে)। ইবনুল জাওযী রাত জাগার কথা দিনে প্রচার
+করাকেও ইবলীসের ধোঁকা বলেছেন (<a href="https://shamela.ws/book/30085/154" rel="noopener">তালবীসু ইবলীস</a>)।</p>
+<h3 id="s37">সময়
+বাঁচানোর প্রামাণিক দৃষ্টান্ত ঘুম কমানো নয়, খাওয়া ও আড্ডা কমানো</h3>
+<p>"সালাফ সময় বাঁচাতেন" কথাটির সবচেয়ে প্রামাণিক দৃষ্টান্তগুলো ঘুম কাটার চেয়ে
+খাওয়া, আড্ডা ও অপ্রয়োজনীয় সাক্ষাৎ কমানোর দিকে নির্দেশ করে। দাঊদ আত-তাঈ রুটি
+চিবানোর বদলে ভেজানো রুটির গুঁড়া পান করতেন, কারণ <span class="ar" dir="rtl" lang="ar">«بين مضغ الخبز وشرب الفتيت
+قراءة خمسين آية»</span>, "রুটি চিবানো আর গুঁড়া পান করার মাঝে পঞ্চাশ আয়াত পড়া যায়"
+(<a href="https://shamela.ws/book/9948/62" rel="noopener">আল-মুজালাসা</a>;
+<strong>নির্ভরযোগ্য আরোপ</strong>)। ইবনে আকীল আল-হাম্বলী নিজের হাতে
+লিখেছেন: <span class="ar" dir="rtl" lang="ar">«إني لا يحل لي أن أضيع ساعة من عمري»</span>, "জীবনের একটি ঘণ্টাও নষ্ট
+করা আমার জন্য বৈধ নয়" (<a href="https://shamela.ws/book/31366/452" rel="noopener">যাইলু
+তাবাকাতিল হানাবিলা</a>; <strong>নির্ভরযোগ্য</strong>)। ইবনুল জাওযী অনর্থক
+সাক্ষাৎপ্রার্থীদের সময়ের জন্য কাগজ কাটা ও কলম ছাঁটার কাজ জমিয়ে রাখতেন (<a href="https://shamela.ws/book/12028/381" rel="noopener">সাইদুল খাতির পৃ. ২৪১</a>); আর
+সময়ের মূল্যের উপদেশেও সীমা টেনেছেন: <span class="ar" dir="rtl" lang="ar">«بما لا يعجز عنه البدن من العمل»</span>,
+"শরীর যতটুকু বহন করতে পারে ততটুকু আমলের মধ্যে" (<a href="https://shamela.ws/book/12028/43" rel="noopener">সাইদুল খাতির পৃ. ৩৩</a>)। ইমাম
+শাফেঈর নামে প্রসিদ্ধ <span class="ar" dir="rtl" lang="ar">«الوقت سيف، فإن قطعته وإلا قطعك»</span>, "সময় তলোয়ার; তুমি
+তাকে না কাটলে সে তোমাকে কাটবে", তিনি সুফিদের কাছ থেকে শিখেছেন বলে বায়হাকী
+সনদসহ এনেছেন (<strong>সনদসহ, সুফি সূত্রে; পাঠভেদ আছে</strong>) (<a href="https://shamela.ws/book/22797/799" rel="noopener">মানাকিবুশ শাফেঈ</a>)। কিন্তু ইবনে
+মাসউদের নামে প্রচলিত <span class="ar" dir="rtl" lang="ar">«ما ندمت على شيء ندمي على يوم غربت شمسه، نقص فيه
+أجلي ولم يزد فيه عملي»</span> উক্তির কোনো ক্লাসিক উৎস পাওয়া যায়নি; এটি কেবল আধুনিক
+বইয়ে আছে (<strong>কেবল আধুনিক সংকলনে</strong>) (<a href="https://shamela.ws/book/9087/2933" rel="noopener">ফাতাওয়া ইয়াসআলূনাক</a>)।</p>
+<h3 id="s38">সারণি: প্রচলিত উক্তি ও ঘটনার
+মান</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr class="header">
+<th>উক্তি বা ঘটনা</th>
+<th>বক্তা</th>
+<th>মূল উৎস</th>
+<th>মান</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td class="ar-block" dir="rtl"><span class="ar" dir="rtl" lang="ar">«أحتسب نومتي كما أحتسب قومتي»</span></td>
+<td>মুআয (রা.)</td>
+<td>বুখারী (<a href="https://shamela.ws/book/1681/6368" rel="noopener">লিংক</a>)</td>
+<td>সহীহ</td>
+</tr>
+<tr class="even">
+<td class="ar-block" dir="rtl"><span class="ar" dir="rtl" lang="ar">«يعتقبون الليل أثلاثا»</span></td>
+<td>আবু হুরায়রার পরিবার</td>
+<td>বুখারী ৫৪৪১ (<a href="https://shamela.ws/book/1681/8133" rel="noopener">লিংক</a>)</td>
+<td>সহীহ</td>
+</tr>
+<tr class="odd">
+<td>শেষ রাতে পরিবারকে জাগানো</td>
+<td>উমর (রা.)</td>
+<td>মুয়াত্তা (<a href="https://shamela.ws/book/28107/806" rel="noopener">লিংক</a>)</td>
+<td>সহীহ</td>
+</tr>
+<tr class="even">
+<td>এক রাকআতে খতম</td>
+<td>উসমান (রা.)</td>
+<td>ইবনে কাসীর (<a href="https://shamela.ws/book/22800/245" rel="noopener">লিংক</a>)</td>
+<td>সহীহ/হাসান (এক বা কয়েক রাতের ঘটনা)</td>
+</tr>
+<tr class="odd">
+<td class="ar-block" dir="rtl"><span class="ar" dir="rtl" lang="ar">«لا يستطاع العلم براحة الجسم»</span></td>
+<td>ইয়াহইয়া ইবনে আবী কাসীর</td>
+<td>সহীহ মুসলিম (<a href="https://shamela.ws/book/711/1642" rel="noopener">লিংক</a>)</td>
+<td>সহীহ সনদ (তাবেয়ীর উক্তি)</td>
+</tr>
+<tr class="even">
+<td>রাতের তিন ভাগ: লেখা, নামায, ঘুম</td>
+<td>শাফেঈ</td>
+<td>সিয়ার ১০/৩৫ (<a href="https://shamela.ws/book/10906/6284" rel="noopener">লিংক</a>)</td>
+<td>নির্ভরযোগ্য আরোপ</td>
+</tr>
+<tr class="odd">
+<td>এশার পর হালকা ঘুম, তারপর সকাল পর্যন্ত নামায</td>
+<td>আহমাদ</td>
+<td>হিলইয়া ৯/১৮১ (<a href="https://shamela.ws/book/10495/3270" rel="noopener">লিংক</a>)</td>
+<td>নির্ভরযোগ্য আরোপ</td>
+</tr>
+<tr class="even">
+<td>রাতে ১৫-২০ বার ওঠা</td>
+<td>বুখারী</td>
+<td>হাদয়ুস সারী (<a href="https://shamela.ws/book/1224/476" rel="noopener">লিংক</a>)</td>
+<td>নির্ভরযোগ্য আরোপ</td>
+</tr>
+<tr class="odd">
+<td>দুই বছর পিঠ না লাগানো</td>
+<td>নববী</td>
+<td>তাবাকাতুশ শাফিইয়্যা (<a href="https://shamela.ws/book/6736/426" rel="noopener">লিংক</a>)</td>
+<td>নির্ভরযোগ্য আরোপ (নিজের ভাষ্য)</td>
+</tr>
+<tr class="even">
+<td class="ar-block" dir="rtl"><span class="ar" dir="rtl" lang="ar">«بين مضغ الخبز وشرب الفتيت قراءة خمسين آية»</span></td>
+<td>দাঊদ আত-তাঈ</td>
+<td>আল-মুজালাসা (<a href="https://shamela.ws/book/9948/62" rel="noopener">লিংক</a>)</td>
+<td>নির্ভরযোগ্য আরোপ</td>
+</tr>
+<tr class="odd">
+<td class="ar-block" dir="rtl"><span class="ar" dir="rtl" lang="ar">«أما يقيل هؤلاء؟ … ليل سوء»</span></td>
+<td>হাসান বসরী</td>
+<td>আহমাদ, আয-যুহদ (<a href="https://shamela.ws/book/8494/1605" rel="noopener">লিংক</a>)</td>
+<td>সনদসহ, পূর্ণ যাচাই হয়নি</td>
+</tr>
+<tr class="even">
+<td class="ar-block" dir="rtl"><span class="ar" dir="rtl" lang="ar">«خصلتان تقسيان القلب: كثرة النوم، وكثرة الأكل»</span></td>
+<td>ফুদাইল</td>
+<td>বায়হাকী, আয-যুহদ (<a href="https://shamela.ws/book/13025/425" rel="noopener">লিংক</a>)</td>
+<td>সনদসহ, পূর্ণ যাচাই হয়নি</td>
+</tr>
+<tr class="odd">
+<td><span class="ar" dir="rtl" lang="ar">«ذنوبك قيدتك»</span></td>
+<td>হাসান বসরী</td>
+<td>কূতুল কুলূব, ইহইয়া (<a href="https://shamela.ws/book/9472/356" rel="noopener">লিংক</a>)</td>
+<td>সনদহীন</td>
+</tr>
+<tr class="even">
+<td class="ar-block" dir="rtl"><span class="ar" dir="rtl" lang="ar">«إن ذكر جهنم طير نوم العابدين»</span></td>
+<td>তাউস</td>
+<td>ইহইয়া (<a href="https://shamela.ws/book/9472/357" rel="noopener">লিংক</a>)</td>
+<td>সনদহীন</td>
+</tr>
+<tr class="odd">
+<td class="ar-block" dir="rtl"><span class="ar" dir="rtl" lang="ar">«لا يكن الديك أكيس منك، ينادي بالأسحار وأنت نائم»</span></td>
+<td>লুকমান</td>
+<td>তাফসীরুন নাসাফী (<a href="https://shamela.ws/book/1394/502" rel="noopener">লিংক</a>)</td>
+<td>সনদহীন হিকমত-সাহিত্য</td>
+</tr>
+<tr class="even">
+<td class="ar-block" dir="rtl"><span class="ar" dir="rtl" lang="ar">«ينبغي لحامل القرآن أن يعرف بليله إذا الناس نائمون»</span></td>
+<td>ইবনে মাসউদ</td>
+<td>হিলইয়া ১/১৩০ (<a href="https://shamela.ws/book/10495/128" rel="noopener">লিংক</a>)</td>
+<td>মুনকাতি' (আল-মুসাইয়্যিব ইবনে রাফি' ইবনে মাসউদ থেকে শোনেননি) (<a href="https://shamela.ws/book/6046/206" rel="noopener">আল-মারাসীল</a>)</td>
+</tr>
+<tr class="odd">
+<td class="ar-block" dir="rtl"><span class="ar" dir="rtl" lang="ar">«تدارس العلم ساعة من الليل خير من إحيائها»</span></td>
+<td>ইবনে আব্বাস</td>
+<td>দারিমী ২৭১ (<a href="https://shamela.ws/book/21795/307" rel="noopener">লিংক</a>)</td>
+<td>যঈফ (সনদে অজ্ঞাত ব্যক্তি)</td>
+</tr>
+<tr class="even">
+<td>রাত তিন ভাগ: ঘুম, নামায, হাদীস</td>
+<td>আবু হুরায়রা</td>
+<td>দারিমী ২৭২ (<a href="https://shamela.ws/book/21795/308" rel="noopener">লিংক</a>)</td>
+<td>যঈফ (সনদে অজ্ঞাত ব্যক্তি)</td>
+</tr>
+<tr class="odd">
+<td>এক বছর না ঘুমানো</td>
+<td>তামীম আদ-দারী</td>
+<td>সিয়ার ২/৪৪৫ (<a href="https://shamela.ws/book/10906/2425" rel="noopener">লিংক</a>)</td>
+<td>দুর্বল</td>
+</tr>
+<tr class="even">
+<td>৪০ বছর এশার ওযুতে ফজর, ৭০০০ খতম</td>
+<td>আবু হানিফা</td>
+<td>তারীখু বাগদাদ (<a href="https://shamela.ws/book/736/8683" rel="noopener">লিংক</a>)</td>
+<td>দুর্বল ও অতিরঞ্জিত; নিজের অস্বীকার আছে</td>
+</tr>
+<tr class="odd">
+<td>৫০ বছর এশার ওযুতে ফজর</td>
+<td>সাঈদ ইবনুল মুসাইয়্যিব</td>
+<td>হিলইয়া ২/১৬৩ (<a href="https://shamela.ws/book/10495/545" rel="noopener">লিংক</a>)</td>
+<td>অত্যন্ত দুর্বল (মিথ্যুক রাবী)</td>
+</tr>
+<tr class="even">
+<td>দিনরাতে হাজার রাকআত</td>
+<td>আলী ইবনুল হুসাইন প্রমুখ</td>
+<td>তাহযীবুল কামাল (<a href="https://shamela.ws/book/3722/10521" rel="noopener">লিংক</a>)</td>
+<td>অতিরঞ্জিত; ইবনে তাইমিয়ার খণ্ডন আছে</td>
+</tr>
+<tr class="odd">
+<td>ত্রিশ বছর পিঠ না লাগানো, বালিশ বনাম শয়তান</td>
+<td>ওয়াহব ইবনে মুনাব্বিহ</td>
+<td>কূতুল কুলূব (<a href="https://shamela.ws/book/482/66" rel="noopener">লিংক</a>)</td>
+<td>সনদহীন ও অতিরঞ্জিত</td>
+</tr>
+<tr class="even">
+<td><span class="ar" dir="rtl" lang="ar">«بقدر الكد تكتسب المعالي»</span> কবিতা</td>
+<td>শাফেঈর নামে প্রচলিত</td>
+<td>ফাইদুল কাদীর (<a href="https://shamela.ws/book/21660/6140" rel="noopener">লিংক</a>)</td>
+<td>আরোপ অপ্রমাণিত</td>
+</tr>
+<tr class="odd">
+<td class="ar-block" dir="rtl"><span class="ar" dir="rtl" lang="ar">«ما ندمت على شيء ندمي على يوم غربت شمسه»</span></td>
+<td>ইবনে মাসউদের নামে</td>
+<td>শুধু আধুনিক (<a href="https://shamela.ws/book/9087/2933" rel="noopener">লিংক</a>)</td>
+<td>ক্লাসিক উৎস পাওয়া যায়নি</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="s39">বাংলায় ইসলামি
+ক্লাসিক অনেক, ঘুম-বিজ্ঞান প্রায় নেই</h2>
+<h3 id="s40">বাংলায় অনূদিত ইসলামি উৎস</h3>
+<p>তাহাজ্জুদ, আত্মশুদ্ধি ও সময়ের মূল্য নিয়ে ক্লাসিক আরবি গ্রন্থের বাংলা অনুবাদ বেশ
+সমৃদ্ধ। নিচের তালিকায় বইয়ের নাম বিক্রেতার পাতার বানানে রাখা হয়েছে; একই বই
+একাধিক বানানে ছাপা হয়, তাই খোঁজার সময় দুই বানানেই চেষ্টা করা ভালো। কোথাও মূল
+আরবি নাম বিক্রেতার পাতায় লেখা নেই, সেখানে মিল অনুমাননির্ভর, তা আলাদা করে
+বলা হয়েছে।</p>
+<div class="table-wrap"><table>
+<thead>
+<tr class="header">
+<th>মূল গ্রন্থ</th>
+<th>বাংলা শিরোনাম</th>
+<th>অনুবাদক</th>
+<th>প্রকাশনী, সাল</th>
+<th>নোট ও সূত্র</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span class="ar" dir="rtl" lang="ar">«التهجد وقيام الليل»</span>, ইবনু আবিদ দুনইয়া</td>
+<td>তাহাজ্জুদ ও কিয়ামুল লাইল</td>
+<td>পাওয়া যায়নি</td>
+<td>দারুল আরকাম, ১২০ পৃ.</td>
+<td>(<a href="https://www.naafiun.com/book/tahajjud-o-qiyamul-layl" rel="noopener">Naafiun</a>)</td>
+</tr>
+<tr class="even">
+<td>একই (সম্ভবত)</td>
+<td>তাহাজ্জুদ শেষ প্রহরের ডাক</td>
+<td>মাহদী আবদুল হালিম (রকমারি স্নিপেট)</td>
+<td>চেতনা প্রকাশন, ২২৪ পৃ., ২০২০ বা ২০২১</td>
+<td>সাল নিয়ে উৎসে অমিল (<a href="https://www.kitabghor.com/products/details/eb23e91fb7d811ec831b2a6c60b8696b/tahajjud-shesh-prohorer-dak.html" rel="noopener">Kitabghor</a>)</td>
+</tr>
+<tr class="odd">
+<td>একই (সম্ভবত)</td>
+<td>বড়দের তাহাজ্জুদ ও রাত জাগরণ</td>
+<td>মাওলানা আলমগীর হুসাইন যশোরী</td>
+<td>মাকতাবাতুল হেরা, ২০১৪, ১৯১ পৃ.</td>
+<td>(<a href="https://www.kitabghor.com/products/details/a3ea2024a22411ec84496ec427268214/baroder-tahazzud-o-rat-jagaron.html" rel="noopener">Kitabghor</a>)</td>
+</tr>
+<tr class="even">
+<td><span class="ar" dir="rtl" lang="ar">«فضل قيام الليل والتهجد»</span>, আজুররী</td>
+<td>কিয়ামুল লাইল ওয়াত তাহাজ্জুদ</td>
+<td>মাওলানা আহমাদ ইউসুফ শরীফ</td>
+<td>সীরাত পাবলিকেশন্স, ২০২০, ৫৮ পৃ.</td>
+<td>(<a href="https://www.kitabghor.com/products/details/a4a1fddea22411ec84496ec427268214/kiyamul-lail-oyat-tahajjud.html" rel="noopener">Kitabghor</a>)</td>
+</tr>
+<tr class="odd">
+<td><span class="ar" dir="rtl" lang="ar">«قيام الليل»</span>, সাঈদ আল-কাহতানী</td>
+<td>কুরআন ও সুন্নাহ'র আলোকে রাতের সালাত</td>
+<td>সানাউল্লাহ নজির আহমদ</td>
+<td>IslamHouse, বিনামূল্যে</td>
+<td>"কিয়ামুল লাইলে সহায়ক উপায়সমূহ" অধ্যায়সহ (<a href="https://islamcontent.com/storage/contents/9481/bn_quran_sunnah_er_aloke_rater_salat.doc" rel="noopener">islamcontent</a>)</td>
+</tr>
+<tr class="even">
+<td><span class="ar" dir="rtl" lang="ar">«إحياء علوم الدين»</span>, গাযালী</td>
+<td>এহইয়াউ উলুমিদ্দীন</td>
+<td>মাওলানা মুহিউদ্দীন খান</td>
+<td>মদীনা পাবলিকেশান্স, ৫ খণ্ড</td>
+<td>২য় খণ্ডের ১০ম অধ্যায় "ওযিফা ও রাত্রি জাগরণের ফযীলত"-এ রাত জাগা সহজ করার
+৪টি বাহ্যিক ও ৪টি অভ্যন্তরীণ শর্ত (<a href="https://archive.org/details/Ihyauulumiddeen" rel="noopener">archive.org</a>)</td>
+</tr>
+<tr class="odd">
+<td>একই</td>
+<td>এহইয়াউ উলুমিদ্দীন: আত্মশুদ্ধির সন্ধানে</td>
+<td>মাওলানা মোঃ মুজিবুর রহমান</td>
+<td>মীনা বুক হাউজ, ১০০৮ পৃ.</td>
+<td>(<a href="https://www.kitabghor.com/products/details/a46e7b6ca22411ec84496ec427268214/ehoeya-ulumiddin-atmoshudhir-sondhane-all-in-one.html" rel="noopener">Kitabghor</a>)</td>
+</tr>
+<tr class="even">
+<td><span class="ar" dir="rtl" lang="ar">«رياض الصالحين»</span>, নববী</td>
+<td>রিয়াদুস সালেহীন</td>
+<td>অনলাইন ও মুদ্রিত একাধিক</td>
+<td>হাদীসবিডি অনলাইন; আল-কাউসারের "সহজ রিয়াযুস সালিহীন" ৪ খণ্ড</td>
+<td>হাদীসবিডিতে "পরিচ্ছেদ ২১২: রাতে উঠে (তাহাজ্জুদ) নামায পড়ার ফযীলত" (<a href="https://www.hadithbd.com/hadith/pdf/?id=26069" rel="noopener">hadithbd</a>)</td>
+</tr>
+<tr class="odd">
+<td><span class="ar" dir="rtl" lang="ar">«مدارج السالكين»</span>, ইবনুল কাইয়্যিম</td>
+<td>মাদারিজুস সালিকীন</td>
+<td>মাওলানা আসাদ আফরোজ</td>
+<td>মাকতাবাতুল বায়ান, ৬৪০ পৃ.</td>
+<td>(<a href="https://www.kitabghor.com/products/details/a6b96a48d69a11ec8cdf2a6c60b8696b/madarijus-salikin.html" rel="noopener">Kitabghor</a>);
+সংক্ষিপ্ত সংস্করণ "আল্লাহর পানে যাত্রা", নাঈম আবু বকর, ওয়াফি পাবলিকেশন (<a href="https://www.goodreads.com/book/show/55869172" rel="noopener">Goodreads</a>)</td>
+</tr>
+<tr class="even">
+<td><span class="ar" dir="rtl" lang="ar">«زاد المعاد»</span>, ইবনুল কাইয়্যিম</td>
+<td>যাদুল মাআদ; যাদুল মাআদ বা পরকালের সম্বল; মুখতাসার যাদুল মা'আদ</td>
+<td>অধ্যাপক মাওলানা আখতার (বিশ্বকল্যাণ); আব্দুল্লাহ শাহেদ আল মাদানী
+(মুখতাসার)</td>
+<td>ইসলামিক ফাউন্ডেশন; বিশ্বকল্যাণ পাবলিকেশন্স; ওয়াহীদিয়া ইসলামিয়া
+লাইব্রেরী</td>
+<td>চতুর্থ খণ্ডের ঘুম-অধ্যায় কোন সংস্করণে আছে তা যাচাই হয়নি (<a href="https://www.kitabghor.com/products/details/a46e2b08a22411ec84496ec427268214/jadul-mayad-porokaler-sombol-part-two.html" rel="noopener">Kitabghor</a>;
+<a href="https://www.rokomari.com/book/223657/mukhtasar-jadul-ma-ad" rel="noopener">Rokomari</a>)</td>
+</tr>
+<tr class="odd">
+<td><span class="ar" dir="rtl" lang="ar">«صيد الخاطر»</span>, ইবনুল জাওযী</td>
+<td>হৃদয়ের দিনলিপি</td>
+<td>মাওলানা শামীম আহমাদ</td>
+<td>মাকতাবাতুল হাসান, ২০২০, ৬০৮ পৃ.</td>
+<td>সম্ভবত নির্বাচিত অংশের অনুবাদ (<a href="https://www.kitabghor.com/products/details/a4a0e6b0a22411ec84496ec427268214/hridoyar-dinlipi.html" rel="noopener">Kitabghor</a>;
+<a href="https://sahilridwan.substack.com/p/192" rel="noopener">Substack</a>)</td>
+</tr>
+<tr class="even">
+<td><span class="ar" dir="rtl" lang="ar">«تلبيس إبليس»</span>, ইবনুল জাওযী</td>
+<td>শয়তান যেভাবে ধোঁকা দেয়</td>
+<td>মুফতি আবু সাআদ</td>
+<td>দারুল আরকাম, ২০১৯, ৪২২ পৃ.</td>
+<td>(<a href="https://www.kitabghor.com/products/details/a491ac68a22411ec84496ec427268214/shoytan-zevabe-dhoka-dey-talbise-iblis.html" rel="noopener">Kitabghor</a>);
+"নেক সুরতে শয়তানের ধোঁকা" (মাওলানা মিজানুর রহমান, আল আরব, ২০১৪) সম্ভবত একই
+মূলের অনুবাদ (<a href="https://www.kitabghor.com/products/details/a4199eeea22411ec84496ec427268214/nek-sorote-shoytaner-dhoka-.html" rel="noopener">Kitabghor</a>);
+মোহাম্মদী লাইব্রেরীর একটি সংস্করণে লেখক ভুলভাবে গাযালী লেখা</td>
+</tr>
+<tr class="odd">
+<td><span class="ar" dir="rtl" lang="ar">«تعليم المتعلم»</span>, যারনূজী</td>
+<td>তা'লীমুল মুতাআল্লিম; সিলাহুল মুতাআল্লিম (ব্যাখ্যাগ্রন্থ)</td>
+<td>মাওলানা আইয়ুব আনসারী (ব্যাখ্যাগ্রন্থ)</td>
+<td>আল-কাউসার প্রকাশনীসহ একাধিক</td>
+<td>কওমি পাঠ্যবই (<a href="https://www.rokomari.com/product/256733" rel="noopener">Rokomari</a>; <a href="https://www.kitabghor.com/products/details/3ff4096fc61211ec831b2a6c60b8696b/talimul-mutaallim-computer-nuskha.html" rel="noopener">Kitabghor</a>)</td>
+</tr>
+<tr class="even">
+<td><span class="ar" dir="rtl" lang="ar">«قيمة الزمن عند العلماء»</span>, আবু গুদ্দাহ</td>
+<td>উলামায়ে কেরাম ও সময়</td>
+<td>আবু সাঈদ মুহাম্মদ নু'মান</td>
+<td>মাকতাবাতুদ দাওয়াহ, ২০১৬, ৩৮১ পৃ.</td>
+<td>(<a href="https://www.kitabghor.com/products/details/a4406196a22411ec84496ec427268214/ulamaye-keram-o-samay.html" rel="noopener">Kitabghor</a>)</td>
+</tr>
+<tr class="odd">
+<td>একই</td>
+<td>সময়ের মূল্য বুঝতেন যারা</td>
+<td>মাওলানা ইমরানুল হক (ওয়াফিলাইফে ইমরানুল নদভী)</td>
+<td>মাকতাবাতুত তাকওয়া, ৩২০ পৃ.</td>
+<td>নাম ও সাল নিয়ে উৎসে অমিল (<a href="https://www.kitabghor.com/products/details/a469f6faa22411ec84496ec427268214/somoyer-mullo-bujten-jara.html" rel="noopener">Kitabghor</a>)</td>
+</tr>
+<tr class="even">
+<td>একই</td>
+<td>মনীষীদের কাছে সময়ের মূল্য; বড়োদের চোখে সময়ের মূল্য; আলেম সমাজের সময়ের
+মূল্য</td>
+<td>মুহাম্মদ আবদুল্লাহ খান (বড়োদের চোখে)</td>
+<td>দারুল আরকাম (২০১৭); মাকতাবাতুল ইলম (২০১৮); মাকতাবাতুল হিজায</td>
+<td>(<a href="https://www.kitabghor.com/products/details/a49e030aa22411ec84496ec427268214/monishider-kache-somoyer-muly.html" rel="noopener">Kitabghor</a>;
+<a href="https://www.kitabghor.com/products/details/f86b9608c14211ec831b2a6c60b8696b/boroder-chokhe-somoyer-mullo.html" rel="noopener">Kitabghor</a>)</td>
+</tr>
+<tr class="odd">
+<td><span class="ar" dir="rtl" lang="ar">«صفحات من صبر العلماء»</span>, আবু গুদ্দাহ (সম্ভাব্য মিল)</td>
+<td>জ্ঞান-সাধনায় উলামায়ে কেরামের ত্যাগ ও কুরবানী</td>
+<td>মাওলানা মুহাম্মাদ আবদুল আলীম</td>
+<td>মাকতাবাতুল আযহার, ২০১৫, ৩০৪ পৃ.</td>
+<td>মূল নাম পাতায় নেই, বিষয় ও লেখক মেলে (<a href="https://www.kitabghor.com/products/details/a4452456a22411ec84496ec427268214/gean-sadhonay-ulamaye-keramer-tag-o-korbani" rel="noopener">Kitabghor</a>)</td>
+</tr>
+<tr class="even">
+<td><span class="ar" dir="rtl" lang="ar">«الوقت في حياة المسلم»</span>, কারযাভী (সম্ভাব্য মিল)</td>
+<td>মুমিন জীবনে সময়</td>
+<td>পাওয়া যায়নি</td>
+<td>পাওয়া যায়নি</td>
+<td>(<a href="https://www.rokomari.com/book/192297" rel="noopener">Rokomari</a>)</td>
+</tr>
+<tr class="odd">
+<td>ইবনুল জাওযীর সময়-বিষয়ক পুস্তিকা (সম্ভবত <span class="ar" dir="rtl" lang="ar">«حفظ العمر»</span>)</td>
+<td>সময়ের হেফাযত, জীবনের হেফাযত</td>
+<td>আহমদ রফিক</td>
+<td>মাকতাবাতুল আসলাফ, ২০২৩, ৮৮ পৃ.</td>
+<td>মূল নাম অনুমাননির্ভর (<a href="https://www.kitabghor.com/products/details/bc51ab1e6e6111eea35e2a6c60b8696b/somoyer-hefazot-jiboner-hefazot.html" rel="noopener">Kitabghor</a>)</td>
+</tr>
+<tr class="even">
+<td><span class="ar" dir="rtl" lang="ar">«نزهة الفضلاء»</span>, সিয়ারু আ'লামিন নুবালার সংক্ষেপ</td>
+<td>মহৎ প্রাণের সান্নিধ্যে (৫ খণ্ড)</td>
+<td>আব্দুল্লাহ মজুমদার</td>
+<td>সবুজপত্র পাবলিকেশন্স, ২০২২-২৩, ১৮৫৬ পৃ.</td>
+<td>(<a href="https://www.kitabghor.com/products/details/9d24cd3061f311eea35e2a6c60b8696b/mohotpraner-sanniddhe-5-volume-set.html" rel="noopener">Kitabghor</a>)</td>
+</tr>
+<tr class="odd">
+<td><span class="ar" dir="rtl" lang="ar">«تذكير البشر بفوائد النوم المبكر»</span>, আবদুল্লাহ আল-জারুল্লাহ</td>
+<td>রাতে দ্রুত ঘুমানোর উপকারিতা</td>
+<td>সানাউল্লাহ নজির আহমদ</td>
+<td>IslamHouse, বিনামূল্যে</td>
+<td>রাত জাগার অপকারিতা, দিনের ঘুম, ঘুম দমিয়ে রাখার ক্ষতি, নবী <span class="ar" dir="rtl" lang="ar">ﷺ</span>-এর ঘুমের
+আদর্শ (<a href="https://islamcontent.com/storage/contents/57933/bn_rate_druto_ghumanur_upokarita.pdf" rel="noopener">islamcontent</a>)</td>
+</tr>
+<tr class="even">
+<td>সায়্যিদ ইবনে হুসাইন আল-আফফানী</td>
+<td>যেমন ছিল বড়দের তাহাজ্জুদ</td>
+<td>আহমাদুল্লাহ আল জামি</td>
+<td>সুকুন পাবলিশিং, ২০২৪, ২০০ পৃ.</td>
+<td>সালাফের শেষ রাতের ইবাদতের গল্প (<a href="https://www.kitabghor.com/products/details/96b8649418bd11ef93692a6c60b8696b/jemon-chilo-boroder-tahajjud.html" rel="noopener">Kitabghor</a>)</td>
+</tr>
+<tr class="odd">
+<td>রাগিব সারজানি</td>
+<td>ফজর আর করব না কাজা</td>
+<td>আবু মুসআব ওসমান</td>
+<td>মাকতাবাতুল হাসান, ২০১৯, ১৯২ পৃ.</td>
+<td>(<a href="https://www.kitabghor.com/products/details/a493f8cea22411ec84496ec427268214/fazar-ar-korbo-na-kaza.html" rel="noopener">Kitabghor</a>)</td>
+</tr>
+<tr class="even">
+<td>শাইখ আহমাদ মুসা জিবরিলের লেকচার</td>
+<td>কিয়ামুল লাইল</td>
+<td>পাওয়া যায়নি</td>
+<td>৩২ পৃ., প্রকাশক অনিশ্চিত</td>
+<td>(<a href="https://www.goodreads.com/book/show/39724924" rel="noopener">Goodreads</a>)</td>
+</tr>
+<tr class="odd">
+<td>হাকীম মুহাম্মাদ আখতার (উর্দু)</td>
+<td>নবীজির (সা.) তাহাজ্জুদ ও মুনাজাতে মাকবুল</td>
+<td>মাওলানা মুহাম্মাদ আমীর হুসাইন</td>
+<td>মাকতাবায়ে ত্বহা, ২০২২, ৩০৪ পৃ.</td>
+<td>(<a href="https://www.kitabghor.com/products/details/deb98f695c8611efb60a2a6c60b8696b/nobijir-tahajjud-o-munajate-makbul.html" rel="noopener">Kitabghor</a>)</td>
+</tr>
+<tr class="even">
+<td>শাইখুল হাদীস যাকারিয়া কান্ধলভী (উর্দু)</td>
+<td>আপবীতি (১-২ খণ্ড); আকাবিরদের রমজান</td>
+<td>মাওলানা মুহাম্মদ অছিউর রহমান (আপবীতি); আকাবিরদের রমজানের অনুবাদক পাওয়া
+যায়নি</td>
+<td>থানভী লাইব্রেরী; মাকতাবাতুল হিজায</td>
+<td>(<a href="https://www.kitabghor.com/products/details/a4155924a22411ec84496ec427268214/apbiti-part-1-and-2.html" rel="noopener">Kitabghor</a>;
+<a href="https://www.rokomari.com/book/536256/akabirder-ramjan" rel="noopener">Rokomari</a>)</td>
+</tr>
+</tbody>
+</table></div>
+<p>ঘুমের আদব নিয়ে মৌলিক বাংলা বইও আছে: "মুমিনের ঘুম" (মাওলানা আবুল বাশার
+মুহাম্মাদ সাইফুল ইসলাম, মাকতাবাতুল আযহার, ২০১৭) (<a href="https://www.kitabghor.com/products/details/a470755ca22411ec84496ec427268214/muminerghum.html" rel="noopener">Kitabghor</a>),
+"আমার ঘুম আমার ইবাদত" (আহমাদ সাব্বির, নাশাত পাবলিকেশন, ২০২০) (<a href="https://www.kitabghor.com/products/details/a4a3059ea22411ec84496ec427268214/amar-ghum-amar-ebadot.html" rel="noopener">Kitabghor</a>)
+এবং শায়খ আহমাদুল্লাহর "ঘুমের আগের দুআ-যিকির ও আমল" (আস-সুন্নাহ ফাউন্ডেশন, ২০২৬)
+(<a href="https://www.kitabghor.com/products/details/e9aded57bc8711f187262a6c60b8696b/ghumer-ager-doa-zikir-o-amal.html" rel="noopener">Kitabghor</a>)।
+প্রথম দুটির বিষয়সূচি এই গবেষণায় দেখা হয়নি। "স্লিপ ম্যানেজমেন্ট" নামে ইসলামি
+জীবনযাপনের আলোকে লেখা একটি বই ২০২৫ সালে তালিকাভুক্ত, তবে লেখক ও প্রকাশনী
+পাওয়া যায়নি (<a href="https://www.rokomari.com/book/453935/sleep-management" rel="noopener">Rokomari</a>)।
+ফাযায়েলে আমালের বাংলা সংস্করণও পাওয়া যায়, তবে এর কিছু বর্ণনা দুর্বল; হানাফি
+ফতোয়া-সাইট AskImam ফাযায়েলের ক্ষেত্রে দুর্বল হাদীসকে গ্রহণযোগ্য বলে, আর কিছু
+সালাফি উৎস বইটির কঠোর সমালোচনা করে (<a href="https://islamqa.org/hanafi/askimam/17309/is-reading-fazail-e-aamal-a-sin/" rel="noopener">AskImam</a>)।</p>
+<h3 id="s41">বাংলায় যা পাওয়া যায়নি</h3>
+<p>এই অনুসন্ধানে নাজমুদ্দীন ইবনু কুদামার <span class="ar" dir="rtl" lang="ar">«مختصر منهاج القاصدين»</span>-এর পূর্ণ বাংলা
+অনুবাদ, ইবনু জামা'আর <span class="ar" dir="rtl" lang="ar">«تذكرة السامع والمتكلم»</span>, যাহাবীর পূর্ণ <span class="ar" dir="rtl" lang="ar">«سير أعلام
+النبلاء»</span>, আবু নু'আইমের <span class="ar" dir="rtl" lang="ar">«حلية الأولياء»</span> এবং ইবনুল জাওযীর <span class="ar" dir="rtl" lang="ar">«صفة الصفوة»</span>-এর
+বাংলা অনুবাদের প্রমাণ মেলেনি; শেষ তিনটির শুধু আরবি সংস্করণ বাংলাদেশে বিক্রি হয়
+(<a href="https://www.kitabghor.com/products/details/25e72bba09e211eeb1952a6c60b8696b/siyaru-alamin-nubala-18.html" rel="noopener">Kitabghor</a>)।
+ইবনু কুদামার নামে "চরিত্রশুদ্ধি" (সাবরিনা নওরিন, ইলমওয়েব, ২০২২) ও "মোহভঙ্গ
+দুনিয়াসক্তি কাটাবেন যেভাবে" (ইলহাম, ২০২০) নামে দুটি বই আছে, যেগুলো সম্ভবত
+মুখতাসারের কোনো অংশ থেকে নেওয়া, তবে তা অনুমান (<a href="https://www.kitabghor.com/products/details/88a3497121e511edb3ec2a6c60b8696b/choritrosuddho.html" rel="noopener">Kitabghor</a>)।
+বিজ্ঞানের দিকে ম্যাথিউ ওয়াকারের <em>Why We Sleep</em>, সব CBT-I বই,
+পলিফেজিক বই, <em>Feeling Good</em> ও <em>The Willpower Instinct</em>-এর
+বাংলা অনুবাদ পাওয়া যায়নি।</p>
+<h3 id="s42">বিনামূল্যে ও বৈধভাবে পড়া
+যায় এমন বাংলা উৎস</h3>
+<p>IslamHouse প্রকাশকের নিজস্ব বিনামূল্যের বিতরণ হিসেবে দুটি প্রাসঙ্গিক বই
+দিয়েছে: কাহতানীর "কুরআন ও সুন্নাহ'র আলোকে রাতের সালাত" (<a href="https://islamcontent.com/storage/contents/9481/bn_quran_sunnah_er_aloke_rater_salat.doc" rel="noopener">DOC</a>)
+এবং জারুল্লাহর "রাতে দ্রুত ঘুমানোর উপকারিতা" (<a href="https://islamcontent.com/storage/contents/57933/bn_rate_druto_ghumanur_upokarita.pdf" rel="noopener">PDF</a>)।
+এই রিপোর্টের মূল প্রশ্নের সবচেয়ে কাছের বাংলা ইসলামি উৎস দ্বিতীয়টি, কারণ এর
+বার্তা ঘুম কমানো নয়, ঘুম আগে সরিয়ে আনা। হাদীসবিডিতে রিয়াদুস সালেহীন অনলাইনে
+পড়া যায় (<a href="https://www.hadithbd.com/hadith/pdf/?id=26069" rel="noopener">hadithbd</a>)।
+archive.org-এ মুহিউদ্দীন খানের এহইয়ার পাঁচ খণ্ডের স্ক্যান আছে, আপলোডকারী নিজেই
+"ভাল লাগলে হার্ড কপি সংগ্রহ" করতে বলেছেন (<a href="https://archive.org/details/Ihyauulumiddeen" rel="noopener">archive.org</a>);
+বাণিজ্যিক বইয়ের এমন অনলাইন কপির কপিরাইট-অবস্থা নিয়ে সতর্ক থাকা উচিত।</p>
+<h2 id="s43">সুন্নাহ ও বিজ্ঞান
+মিলিয়ে অতিরিক্ত ঘুম কমানোর পরিকল্পনা</h2>
+<p>যিনি এখন প্রতিদিন ৯ থেকে ১০ ঘণ্টা বা তার বেশি ঘুমান এবং কমাতে চান, তাঁর
+জন্য বিজ্ঞান ও সুন্নাহ মিলিয়ে একটি বাস্তবসম্মত লক্ষ্য হলো <strong>২৪ ঘণ্টায় মোট
+প্রায় ৭ থেকে ৮ ঘণ্টা প্রকৃত ঘুম</strong>, রাতে দুই ভাগে আর দুপুরে অল্প। এই লক্ষ্য
+এএএসএম ও এনএসএফ-এর সুপারিশ (<a href="https://www.aasm.org/resources/pdf/adultsleepdurationconsensus.pdf" rel="noopener">AASM</a>;
+<a href="https://www.eurekalert.org/news-releases/554948" rel="noopener">NSF</a>), দাঊদ
+(আ.)-এর নামাযের ধরন (<a href="https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-bukhari/1131.json" rel="noopener">বুখারী
+১১৩১</a>) এবং গাযালী, ইবনু জামা'আ ও ইবনুল কাইয়্যিমের আট ঘণ্টার ঊর্ধ্বসীমার
+সঙ্গে মেলে। ৪ থেকে ৫ ঘণ্টায় নামিয়ে আনার লক্ষ্য বিজ্ঞানেও সমর্থিত নয়, সুন্নাহতেও
+নয়। কিশোরদের জন্য এই পরিকল্পনা প্রযোজ্য নয়, কারণ তাদের প্রয়োজন ৮ থেকে ১০ ঘণ্টা
+(<a href="https://www.eurekalert.org/news-releases/554948" rel="noopener">NSF</a>)।</p>
+<h3 id="s44">ধাপে ধাপে পরিকল্পনা</h3>
+<ol type="1">
+<li><p><strong>আগে কারণ খুঁজুন, পরে ঘুম কাটুন।</strong> জোরে নাক ডাকা বা ঘুমের
+মধ্যে শ্বাস থেমে যাওয়া, গাড়ি চালাতে বা কাজের মধ্যে ঝিমুনি, ৯ থেকে ১০ ঘণ্টা
+ঘুমিয়েও ক্লান্তি, মন খারাপ ও আগ্রহ হারানো, অথবা থাইরয়েড বা রক্তস্বল্পতার সন্দেহ
+থাকলে আগে ডাক্তার দেখান; এগুলো অতিরিক্ত ঘুমের প্রচলিত কারণের তালিকায় আছে (<a href="https://www.sleepfoundation.org/sleep-disorders/excessive-sleepiness" rel="noopener">Sleep
+Foundation</a>)। প্রয়োজনে স্লিপ ডায়েরি, স্লিপ স্টাডি এবং থাইরয়েড ও রক্তের
+পরীক্ষা হতে পারে (<a href="https://www.mymlc.com/health-information/definitions/h/hypersomnia/" rel="noopener">Mayo
+Clinic Care Network</a>; <a href="https://www.sleepfoundation.org/hypersomnia/tests-and-diagnosis" rel="noopener">Sleep
+Foundation</a>)। অসুখের কারণে বেশি ঘুম হলে শৃঙ্খলার বই বা জোর করে ঘুম কাটা
+সমাধান নয়, চিকিৎসাই সমাধান।</p></li>
+<li><p><strong>এক থেকে দুই সপ্তাহ স্লিপ ডায়েরি রাখুন।</strong> প্রতিদিন লিখুন
+কখন বিছানায় গেলেন, ঘুম আসতে কত সময় লাগল, রাতে কতবার কতক্ষণ জাগলেন, কখন
+উঠলেন, দিনে কতক্ষণ ঘুমালেন। তারপর ঘুমের দক্ষতা হিসাব করুন: মোট প্রকৃত ঘুম ÷
+বিছানায় থাকার সময় × ১০০। দশ ঘণ্টা বিছানায় থেকে সাড়ে আট ঘণ্টা ঘুমালে দক্ষতা
+৮৫ শতাংশ; বাকি দেড় ঘণ্টাই কাটার প্রথম লক্ষ্য।</p></li>
+<li><p><strong>ওঠার সময় স্থির করুন, প্রতিদিন একই, ছুটির দিনেও।</strong>
+CBT-I-তে নির্দিষ্ট জাগার সময়ই পুরো পদ্ধতির নোঙর (<a href="https://www.sleepfoundation.org/insomnia/sleep-restriction" rel="noopener">Sleep
+Foundation</a>)। সুন্নাহর ভাষায় এই নোঙর হতে পারে শেষ রাত বা অন্তত ফজরের
+আগে; নবী <span class="ar" dir="rtl" lang="ar">ﷺ</span> মোরগের ডাকে উঠতেন (<a href="https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-bukhari/1132.json" rel="noopener">বুখারী
+১১৩২</a>), আর ভোরের বরকতের জন্য দু'আ করেছেন (<a href="https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-abudawud/2606.json" rel="noopener">আবু
+দাউদ ২৬০৬</a>)। দেরিতে ঘুমানো "রাতজাগা পেঁচা" স্বভাবের মানুষের জন্য শুধু
+ইচ্ছাশক্তি দিয়ে আগে ওঠা কঠিন; সকালে দিনের আলো নেওয়া এবং শোয়ার সময় আগে আনা
+একসঙ্গে দরকার (<a href="https://www.themarginalian.org/2012/05/11/internal-time-till-roenneber/" rel="noopener">The
+Marginalian</a>)।</p></li>
+<li><p><strong>শোয়ার সময় এগিয়ে আনুন: এশার পর দ্রুত বিছানা।</strong> নবী <span class="ar" dir="rtl" lang="ar">ﷺ</span>
+এশার আগে ঘুম আর এশার পরে আলাপ দুটোই অপছন্দ করতেন (<a href="https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-bukhari/568.json" rel="noopener">বুখারী
+৫৬৮</a>)। রাতের খাবার ঘুমের অন্তত ৩ ঘণ্টা আগে এবং পরিমাণে হালকা রাখুন;
+রমযানের গবেষণায় ঘুমের ৩০ মিনিট আগে খেলে ঘুম আসতে দেরি হয়েছে (<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6292409" rel="noopener">BaHammam</a>),
+আর গাযালী কিয়াম সহজ করার "মূল ভিত্তি" বলেছেন পাকস্থলী হালকা রাখাকে (<a href="https://shamela.ws/book/9472/356" rel="noopener">ইহইয়া</a>)। বিকেলের পর চা-কফি
+বাদ দিন, কারণ ৬ ঘণ্টা আগের ক্যাফেইনও ঘুম কমায় (<a href="https://aasm.org/late-afternoon-and-early-evening-caffeine-can-disrupt-sleep-at-night/" rel="noopener">AASM</a>)।
+শোয়ার প্রায় ৯০ মিনিট আগে গরম পানিতে গোসল ঘুম আসা দ্রুত করে (<a href="https://cockrell.utexas.edu/?p=23504" rel="noopener">UT Austin</a>)। ঘর অন্ধকার ও
+ঠান্ডা রাখুন।</p></li>
+<li><p><strong>বিছানার সময় ধাপে ধাপে কমান।</strong> ডায়েরিতে দক্ষতা ৮৫
+শতাংশের নিচে হলে প্রতি সপ্তাহে বিছানার সময় ১৫ মিনিট কমান; ৮৫ থেকে ৯০
+শতাংশে স্থির রাখুন; ৯০ শতাংশের বেশি হলে ১৫ মিনিট বাড়ান (<a href="https://www.sleepfoundation.org/insomnia/sleep-restriction" rel="noopener">Sleep
+Foundation</a>)। অতিরিক্ত ঘুমানো মানুষের জন্য লক্ষ্য হলো বিছানার সময় এমনভাবে
+নামানো যাতে দক্ষতা ৮৫ থেকে ৯০ শতাংশে থাকে এবং মোট প্রকৃত ঘুম ৭ থেকে ৮ ঘণ্টার
+কাছাকাছি থাকে; ৭ ঘণ্টার নিচে নামার লক্ষ্য রাখবেন না। অনিদ্রার চিকিৎসায় ৫
+থেকে ৫.৫ ঘণ্টার যে নিম্নসীমা ব্যবহৃত হয়, তা চিকিৎসকের তত্ত্বাবধানে
+অনিদ্রা-রোগীর জন্য, ঘুম কমাতে চাওয়া সুস্থ মানুষের লক্ষ্য নয়। প্রথম ১ থেকে ৩ সপ্তাহ
+দিনে কিছুটা ঝিমুনি স্বাভাবিক (<a href="https://open-exam-prep.com/study-guides/brpt-ccsh/insomnia-circadian-disorders/cbt-i-principles" rel="noopener">CBT-I
+principles</a>)। মনে রাখুন, এভাবে শরীরের ঘুমের চাহিদা কমে না, শুধু বিছানায়
+অপচয় কমে।</p></li>
+<li><p><strong>রাতকে দুই ভাগে ভাগ করুন: সুন্নাহর দ্বিভাগী ঘুম।</strong> রাতের
+প্রথম ভাগে মূল ঘুম, শেষ তৃতীয়াংশে উঠে দুই থেকে চার রাকআত ও দু'আ, তারপর ফজরের
+আগে প্রয়োজনে আবার অল্প ঘুম। এটিই নবী <span class="ar" dir="rtl" lang="ar">ﷺ</span>-এর ধরন, যিনি কিয়ামের পর বিছানায় ফিরে
+যেতেন এবং আযান হলে উঠতেন (<a href="https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-bukhari/1146.json" rel="noopener">বুখারী
+১১৪৬</a>), আর দাঊদ (আ.)-এর "শেষ ষষ্ঠাংশ ঘুম"-এর ধরন (<a href="https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-bukhari/1131.json" rel="noopener">বুখারী
+১১৩১</a>)। মোট ঘুম হিসাব করুন দুই ভাগ যোগ করে। বিজ্ঞানের দিক থেকে রাতে জেগে
+আবার ঘুমিয়ে পড়া, সকালে সতেজ লাগলে, কোনো অসুখ নয় (<a href="https://gurven.anth.ucsb.edu/sites/secure.lsit.ucsb.edu.anth.d7_gurven/files/sitefiles/papers/yetishetal2015.pdf" rel="noopener">Yetish
+2015</a>; <a href="https://pubmed.ncbi.nlm.nih.gov/10607034/" rel="noopener">Wehr
+1992</a>)।</p></li>
+<li><p><strong>দুপুরে ১০ থেকে ২০ মিনিটের কায়লূলা নিন, ৩০ মিনিটের বেশি
+নয়।</strong> ১০ মিনিটের ন্যাপ সবচেয়ে কার্যকর, ৩০ মিনিটের পর ঘুমজড়তা আসে (<a href="https://pubmed.ncbi.nlm.nih.gov/16796222/" rel="noopener">Brooks &amp; Lack
+2006</a>); নিয়মিত ৬০ মিনিটের বেশি দিবানিদ্রা স্বাস্থ্যঝুঁকির সঙ্গে যুক্ত (<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4431364" rel="noopener">Yamada
+2015</a>)। কায়লূলা সাহাবীদের সহীহ আমল (<a href="https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-bukhari/939.json" rel="noopener">বুখারী
+৯৩৯</a>), আর গাযালী একে কিয়ামে সহায়তার সুন্নাত বলেছেন (<a href="https://shamela.ws/book/9472/356" rel="noopener">ইহইয়া</a>)। রাতের ঘুম যদি ৭ ঘণ্টার
+কম হয়, কায়লূলা দিয়েই ঘাটতি পূরণ করুন; এটিই সালাফের কৌশল, যা ইবনুল জাওযী
+বর্ণনা করেছেন (<a href="https://shamela.ws/book/11407/202" rel="noopener">তালবীসু
+ইবলীস</a>)।</p></li>
+<li><p><strong>ঘুমের আগে আদব মেনে চলুন।</strong> ওযু করে ডান কাতে শোয়া (<a href="https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-bukhari/247.json" rel="noopener">বুখারী
+২৪৭</a>), ৩৩ বার সুবহানাল্লাহ, ৩৩ বার আলহামদুলিল্লাহ ও ৩৪ বার আল্লাহু আকবার
+(<a href="https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-bukhari/3705.json" rel="noopener">বুখারী
+৩৭০৫</a>), আর শেষ রাতে ওঠার নিয়ত করে মাথার কাছে ওযুর পানি ও মিসওয়াক রাখা,
+যেমন গাযালী ও আবু তালিব আল-মাক্কী পরামর্শ দিয়েছেন (<a href="https://shamela.ws/book/12718/19" rel="noopener">বিদায়াতুল হিদায়া</a>; <a href="https://shamela.ws/book/482/59" rel="noopener">কূতুল কুলূব</a>)। এসব আদব একটি নির্দিষ্ট
+"ঘুমের আগের রুটিন" তৈরি করে, যা অভ্যাস-গঠনের দিক থেকেও কাজের।</p></li>
+<li><p><strong>জাগার পরিবেশ তৈরি করুন।</strong> অ্যালার্ম বিছানা থেকে দূরে
+রাখুন যাতে উঠে বন্ধ করতে হয়; বেজে উঠলে দেরি না করে ৫-৪-৩-২-১ গুনে উঠে পড়ুন
+(<a href="https://www.prothomalo.com/religion/islam/5n5pevv0px" rel="noopener">Prothom
+Alo</a>)। একজন জাগানোর সঙ্গী ঠিক করুন; স্বামী-স্ত্রী একে অপরকে জাগানোর জন্য
+দু'আ এসেছে (<a href="https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-abudawud/1308.json" rel="noopener">আবু
+দাউদ ১৩০৮</a>), আর আবু হুরায়রা (রা.)-র পরিবার পালা করে একে অপরকে জাগাতেন
+(<a href="https://shamela.ws/book/1681/8133" rel="noopener">বুখারী ৫৪৪১</a>)। উঠেই ঘরের
+আলো জ্বালান, আর ফজরের পর দিনের আলো ও হাঁটাচলা নিন; নিয়মিত ব্যায়াম ঘুমের মান
+বাড়ায় (<a href="https://pubmed.ncbi.nlm.nih.gov/25596964/" rel="noopener">Kredlow
+2015</a>)।</p></li>
+<li><p><strong>অল্প দিয়ে শুরু করুন, ধারাবাহিকতা আগে।</strong> প্রথম সপ্তাহে
+ফজরের ২০ মিনিট আগে উঠে দুই রাকআত পড়াই যথেষ্ট; পরে ধীরে ধীরে সময় বাড়ান।
+আল্লাহর কাছে প্রিয় আমল যা নিয়মিত, যদিও অল্প (<a href="https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-bukhari/6465.json" rel="noopener">বুখারী
+৬৪৬৫</a>); আর ইবনুল জাওযীর ভাষায় সালাফ <span class="ar" dir="rtl" lang="ar">«تدرّجوا»</span>, ধাপে ধাপে অভ্যস্ত হয়েছিলেন
+(<a href="https://shamela.ws/book/11407/202" rel="noopener">তালবীসু ইবলীস</a>)। আবদুল্লাহ
+ইবনে আমরের বার্ধক্যের আক্ষেপ মনে রাখুন: শুরুতেই অতিরিক্ত কঠোর হলে পরে টিকিয়ে
+রাখা কঠিন হয় (<a href="https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-bukhari/1975.json" rel="noopener">বুখারী
+১৯৭৫</a>)।</p></li>
+<li><p><strong>ছুটে গেলে অপরাধবোধ নয়, কাযা।</strong> ঘুমের কারণে রাতের
+ওযীফা ছুটে গেলে ফজর থেকে যোহরের মধ্যে পড়ে নিলে রাতে পড়ার মতোই লেখা হয় (<a href="https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-muslim/1745.json" rel="noopener">মুসলিম
+৭৪৭</a>); নবী <span class="ar" dir="rtl" lang="ar">ﷺ</span> নিজেও ঘুম বা ব্যথায় কিয়াম ছুটে গেলে দিনে বারো রাকআত পড়তেন
+(<a href="https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-muslim/1739.json" rel="noopener">মুসলিম
+৭৪৬</a>)। আর নামাযে তন্দ্রা এলে জোর করে না দাঁড়িয়ে ঘুমিয়ে নেওয়াই সুন্নাত (<a href="https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-bukhari/212.json" rel="noopener">বুখারী
+২১২</a>)।</p></li>
+<li><p><strong>আধ্যাত্মিক দিকটি আলাদা করে দেখুন।</strong> সালাফ কিয়াম থেকে
+বঞ্চিত হওয়াকে গুনাহের ফল হিসেবে দেখতেন, যেমন সুফিয়ান সাওরীর পাঁচ মাসের বঞ্চনা
+(<a href="https://shamela.ws/book/10495/2328" rel="noopener">হিলইয়া ৭/১৭</a>)। এটি
+আত্মসমালোচনার আধ্যাত্মিক কাঠামো; কিন্তু যার ঘুমের পেছনে চিকিৎসাযোগ্য অসুখ আছে,
+তাঁর ক্ষেত্রে একে চিকিৎসার বিকল্প বানানো উচিত নয়।</p></li>
+</ol>
+<h3 id="s45">একটি উদাহরণ-সূচি</h3>
+<p>নিচের সূচিটি কেবল উদাহরণ; ধরা হয়েছে ফজরের আযান ভোর ৫টায় এবং এশা সন্ধ্যা
+সাতটার কাছাকাছি (শীতকালের মতো লম্বা রাত)। নিজের এলাকার নামাযের সময় ও ঋতু
+অনুযায়ী সময় সরাতে হবে। গ্রীষ্মে রাত ছোট হলে রাতের প্রথম ঘুম কমে যায়; তখন
+ক্লাসিক আলেমদের পরামর্শমতো ঘাটতি দুপুরে সরিয়ে নিন, মোট ঘুম কেটে নয় (<a href="https://shamela.ws/book/98087/66" rel="noopener">মুখতাসারু মিনহাজিল
+কাসিদীন</a>)।</p>
+<div class="table-wrap"><table>
+<thead>
+<tr class="header">
+<th>সময়</th>
+<th>কাজ</th>
+<th>ব্যাখ্যা</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>সন্ধ্যা ৬:৩০-এর মধ্যে</td>
+<td>হালকা রাতের খাবার</td>
+<td>ঘুমের অন্তত ৩ ঘণ্টা আগে; পরিমাণে কম</td>
+</tr>
+<tr class="even">
+<td>রাত ৯:০০</td>
+<td>আলো কমানো, ফোন দূরে, ওযু, ঘুমের যিকির</td>
+<td>এশার পর আলাপ ও স্ক্রিন এড়ানো</td>
+</tr>
+<tr class="odd">
+<td>রাত ৯:৩০ থেকে ৩:৪৫</td>
+<td>প্রথম ঘুম (প্রায় সোয়া ছয় ঘণ্টা)</td>
+<td>রাতের প্রথম ভাগের ঘুম, যাকে ইবনুল কাইয়্যিম সবচেয়ে উপকারী বলেছেন</td>
+</tr>
+<tr class="even">
+<td>রাত ৩:৪৫ থেকে ৪:১৫</td>
+<td>কিয়াম, তিলাওয়াত, দু'আ, ইস্তিগফার</td>
+<td>শেষ তৃতীয়াংশ; শুরুতে ২ রাকআত, ধীরে বাড়ানো</td>
+</tr>
+<tr class="odd">
+<td>রাত ৪:১৫ থেকে ৪:৫০</td>
+<td>দ্বিতীয় ঘুম (প্রায় ৩৫ মিনিট)</td>
+<td>দাঊদী "শেষ ষষ্ঠাংশ"; দরকার না হলে বাদ</td>
+</tr>
+<tr class="even">
+<td>ভোর ৫:০০</td>
+<td>ফজর, তারপর দিনের আলো ও হাঁটা</td>
+<td>জাগার সময় প্রতিদিন একই</td>
+</tr>
+<tr class="odd">
+<td>দুপুর, যোহরের পর</td>
+<td>১০ থেকে ২০ মিনিট কায়লূলা</td>
+<td>৩০ মিনিটের বেশি নয়</td>
+</tr>
+<tr class="even">
+<td>মোট</td>
+<td>প্রায় ৭ ঘণ্টা</td>
+<td>রাতে দুই ভাগে প্রায় পৌনে সাত ঘণ্টা বিছানায় (ঘুম আসতে লাগা সময় বাদে প্রকৃত
+ঘুম কিছুটা কম), দুপুরে প্রায় ২০ মিনিট</td>
+</tr>
+</tbody>
+</table></div>
+<blockquote>
+<p><strong>স্বাস্থ্য-সতর্কতা:</strong> এই রিপোর্ট চিকিৎসা-পরামর্শ নয়। নিয়মিত ৯
+থেকে ১০ ঘণ্টার বেশি ঘুমিয়েও ক্লান্তি না কাটলে, কেউ ঘুমের মধ্যে জোরে নাক ডাকা
+বা শ্বাস থেমে যাওয়ার কথা বললে, গাড়ি চালাতে বা কাজের মধ্যে ঘুমিয়ে পড়লে, মন
+খারাপ ও আগ্রহহীনতা থাকলে, অথবা কয়েক সপ্তাহ চেষ্টার পরও বেশি ঘুম না কমলে,
+নিজে নিজে ঘুম কাটার আগে অবশ্যই ডাক্তার দেখান; দরকারে স্লিপ বিশেষজ্ঞ বা মনোরোগ
+বিশেষজ্ঞের কাছে যান। উপসর্গ তিন মাসের বেশি স্থায়ী হলে তা হাইপারসমনিয়ার মতো
+রোগের লক্ষণ হতে পারে। ঘুম-সংকোচনের প্রথম সপ্তাহগুলোতে ঝিমুনি অবস্থায় গাড়ি
+চালাবেন না। বাইপোলার ডিসঅর্ডার, খিঁচুনি বা স্লিপ অ্যাপনিয়া থাকলে ডাক্তারের
+পরামর্শ ছাড়া ঘুম কমানোর চেষ্টা করবেন না; এটি একটি সাধারণ ক্লিনিক্যাল সতর্কতা,
+যা এই গবেষণায় প্রাথমিক উৎস থেকে আলাদাভাবে যাচাই হয়নি।</p>
+</blockquote>
+<h2 id="s46">উপসংহার</h2>
+<p>এই গবেষণার সবচেয়ে চমকপ্রদ ফল হলো দুই ঐতিহ্যের মিল কতটা সূক্ষ্ম। ইবনু জামা'আ
+"ক্ষতি না হলে কম ঘুমাও" বলে যে শর্ত দিয়েছিলেন, আধুনিক ল্যাব-গবেষণা দেখায় সেই
+ক্ষতি মানুষ নিজে টের পায় না; ফলে "যতটুকু সহ্য হয়" নিজে মেপে নেওয়ার পরীক্ষাটি
+অনির্ভরযোগ্য, আর বাস্তবে অধিকাংশ মানুষের জন্য নিচের সীমা সাত ঘণ্টার কাছাকাছিই
+থেকে যায়। ইবনুল কাইয়্যিমের "অতিরিক্ত ঘুম ক্ষতিকর, ঘুম-বর্জনও ক্ষতিকর" বক্তব্য
+আধুনিক U-আকৃতির মৃত্যুঝুঁকির রেখার সঙ্গে মেলে, যদিও তাঁর যুক্তির ভিত্তি ছিল তৎকালীন
+চিকিৎসাবিদ্যা, আর আধুনিক তথ্য বলে দীর্ঘ ঘুম প্রায়ই অসুখের উপসর্গ। ইবনুল জাওযীর
+ব্যাখ্যা, যে সালাফ "ধাপে ধাপে অভ্যস্ত হয়েছিলেন, কায়লূলা ও কম খাওয়ার সাহায্য
+নিতেন", আসলে একটি আচরণগত কৌশলের বর্ণনা, যা আজকের ধাপে ধাপে ঘুম-সংকোচন ও
+দ্বিভাগী ঘুমের খুব কাছাকাছি।</p>
+<p>দ্বিতীয় শিক্ষাটি হলো প্রমাণের মান আর জনপ্রিয়তার উল্টো সম্পর্ক। যে বর্ণনাগুলো
+সবচেয়ে নাটকীয় ও সবচেয়ে বেশি উদ্ধৃত, যেমন চল্লিশ-পঞ্চাশ বছর এশার ওযুতে ফজর,
+হাজার রাকআত বা এক বছর না ঘুমানো, সেগুলোই সনদ-বিচারে সবচেয়ে দুর্বল; আর যেগুলো
+সবচেয়ে বিশুদ্ধ, অর্থাৎ বুখারী-মুসলিমের হাদীস ও সাহাবীদের সহীহ আমল, সেগুলোই
+সবচেয়ে ভারসাম্যপূর্ণ: "নামায পড়ি ও ঘুমাই", "ঘুমের মধ্যেও সওয়াব আশা করি", রাতকে
+ভাগ করে নেওয়া। বাংলা পাঠকের জন্য এর অর্থ দুটি: ইসলামি প্রেরণার জন্য এহইয়ার
+দ্বিতীয় খণ্ডের দশম অধ্যায়, তালবীসে ইবলীস, মাদারিজ এবং বিনামূল্যের "রাতে দ্রুত
+ঘুমানোর উপকারিতা" একসঙ্গে পড়লে ভারসাম্যপূর্ণ ছবি পাওয়া যায়; আর বাংলা প্রকাশনায়
+ঘুমের বিজ্ঞান ও CBT-I-র একটি নির্ভরযোগ্য বইয়ের যে শূন্যতা আছে, তা পূরণ হলে "ঘুম
+কমানো"-র আকাঙ্ক্ষাকে নিরাপদ পথে চালিত করা সহজ হবে।</p>
+
+</article><p class="colophon">রিপোর্ট তৈরি: নভেম্বর ২০২৬। হাদীসের মান ও উদ্ধৃতির সূত্র যতটা সম্ভব মূল কিতাবের সাথে মিলিয়ে দেখা হয়েছে; যেগুলো যাচাই করা যায়নি, রিপোর্টে আলাদা করে চিহ্নিত আছে। স্বাস্থ্যগত সমস্যায় চিকিৎসকের পরামর্শ নিন।</p></main>
+</div>
+</div>
+</body></html>
