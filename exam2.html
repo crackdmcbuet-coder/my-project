@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Chemistry 1st Paper – Brahmaputra Set-A</title>
+<style>
+:root{--bg:#f4f6fa;--card:#fff;--tx:#1c2430;--mut:#64707f;--pri:#2563eb;--ok:#16a34a;--bad:#dc2626;--warn:#f59e0b;--bd:#dfe4ec}
+@media(prefers-color-scheme:dark){:root{--bg:#10151c;--card:#19212b;--tx:#e6ebf2;--mut:#93a0b1;--bd:#2a3543}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.55 "Noto Sans Bengali","Hind Siliguri",system-ui,sans-serif}
+.wrap{max-width:870px;margin:0 auto;padding:16px}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:18px;margin-bottom:14px}
+h1{font-size:1.35rem;margin:.2rem 0}h2{font-size:1.1rem;margin:0 0 .6rem}
+.mut{color:var(--mut);font-size:.9rem}
+button{font:inherit;cursor:pointer;border-radius:10px;border:1px solid var(--bd);background:var(--card);color:var(--tx);padding:9px 16px}
+button.pri{background:var(--pri);border-color:var(--pri);color:#fff}
+button.danger{background:var(--bad);border-color:var(--bad);color:#fff}
+button:disabled{opacity:.45;cursor:default}
+input[type=number]{font:inherit;width:90px;padding:7px;border-radius:8px;border:1px solid var(--bd);background:var(--bg);color:var(--tx)}
+.top{position:sticky;top:0;z-index:5;background:var(--bg);padding:8px 0;display:flex;gap:10px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.timer{font-weight:700;font-variant-numeric:tabular-nums;font-size:1.15rem;padding:6px 14px;border-radius:10px;background:var(--card);border:1px solid var(--bd)}
+.timer.low{color:var(--bad);border-color:var(--bad)}
+.qtext{font-size:1.1rem;font-weight:600;margin-bottom:12px}
+.opt{display:flex;gap:12px;align-items:center;padding:11px 12px;border:1.5px solid var(--bd);border-radius:12px;margin:8px 0;cursor:pointer}
+.opt:hover{border-color:var(--pri)}
+.opt .l{flex:none;width:30px;height:30px;border-radius:50%;border:1.5px solid var(--mut);display:grid;place-items:center;font-size:.85rem;font-weight:600}
+.opt.sel{border-color:var(--pri);background:color-mix(in srgb,var(--pri) 10%,transparent)}
+.opt.sel .l{background:var(--pri);border-color:var(--pri);color:#fff}
+.opt.right{border-color:var(--ok);background:color-mix(in srgb,var(--ok) 12%,transparent)}
+.opt.wrong{border-color:var(--bad);background:color-mix(in srgb,var(--bad) 12%,transparent)}
+.nav{display:flex;justify-content:space-between;gap:8px;margin-top:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(40px,1fr));gap:6px}
+.grid button{padding:6px 0;font-size:.85rem}
+.grid .ans{background:var(--pri);color:#fff;border-color:var(--pri)}
+.grid .flag{outline:2px solid var(--warn)}
+.grid .cur{box-shadow:0 0 0 2px var(--tx)}
+.grid .r{background:var(--ok);border-color:var(--ok);color:#fff}
+.grid .w{background:var(--bad);border-color:var(--bad);color:#fff}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px}
+.stat{background:var(--bg);border-radius:12px;padding:12px;text-align:center}
+.stat b{display:block;font-size:1.5rem}
+sup,sub{line-height:0}
+.hide{display:none}
+.badge{display:inline-block;font-size:.8rem;padding:1px 8px;border-radius:99px;border:1px solid var(--bd);margin-left:6px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<div id="setup" class="card">
+  <h1>Chemistry 1st Paper – Brahmaputra Set-A</h1>
+  <div class="mut">Retina Paper Final · ১০০টি প্রশ্ন</div>
+  <p>প্রতিটি সঠিক উত্তরে <b>+১</b>, প্রতিটি ভুল উত্তরে <b>−০.২৫</b>। উত্তর না দিলে কোনো নম্বর কাটা যাবে না।</p>
+  <p>সময় (মিনিট): <input id="mins" type="number" min="1" max="300" value="60"></p>
+  <button class="pri" onclick="start()">পরীক্ষা শুরু করুন</button>
+</div>
+
+<div id="exam" class="hide">
+  <div class="top">
+    <div class="mut" id="prog"></div>
+    <div class="timer" id="timer">--:--</div>
+    <button class="danger" onclick="finish(true)">জমা দিন</button>
+  </div>
+  <div class="card" id="qcard"></div>
+  <div class="card"><h2>প্রশ্ন নেভিগেটর</h2><div class="grid" id="navgrid"></div>
+    <div class="mut" style="margin-top:8px">নীল = উত্তর দেওয়া · হলুদ বর্ডার = রিভিউ চিহ্নিত</div></div>
+</div>
+
+<div id="result" class="hide">
+  <div class="card"><h1>ফলাফল</h1>
+    <div class="stats" id="stats"></div>
+    <p style="margin-top:14px"><button class="pri" onclick="location.reload()">আবার দিন</button></p>
+  </div>
+  <div class="card"><h2>রিভিউ</h2><div class="grid" id="rgrid"></div></div>
+  <div id="review"></div>
+</div>
+</div>
+
+<script>
+// [question, [A,B,C,D], correctIndex]
+const Q=[
+["গ্লাস ক্লিনারের মূল উপাদান কোনটি?",["KOH","NaOH","NH<sub>4</sub>OH","NaCl"],2],
+["H-বন্ধনের শক্তির মাত্রা কত kJ/mol?",["10–50","1–10","3–15","10–40"],3],
+["শিখা পরীক্ষায় কোন আয়নটি হলুদাভ সবুজ বর্ণ দেখায়?",["Sr<sup>2+</sup>","Rb<sup>+</sup>","Li<sup>+</sup>","Ba<sup>2+</sup>"],3],
+["কোন জোড়া মৌলে কর্ণ সম্পর্ক অনুপস্থিত?",["C, S","Li, Mg","B, Si","Be, Al"],0],
+["২য় শক্তিস্তরে ইলেকট্রনের কৌণিক ভরবেগ কত?",["nh/2π","h/2π","h/π","2h/π"],2],
+["রাসায়নিক পদার্থকে শুকনো রাখতে কোনটি ব্যবহৃত হয়?",["ডেসিকেটর","বুনসেন বার্নার","ওয়াটার বাথ","ক্যালরিমিটার"],0],
+["LiAlH<sub>4</sub> কে নষ্ট করতে কোনটি ব্যবহৃত হয় না?",["Na<sub>2</sub>SO<sub>4</sub>","MgSO<sub>4</sub>","NaHSO<sub>4</sub>","CH<sub>3</sub>OH"],2],
+["ক্যালসিয়াম ফসফেটের ক্ষেত্রে দ্রাব্যতা s হলে দ্রাব্যতা গুণফল কত?",["27s<sup>4</sup>","s<sup>2</sup>","4s<sup>3</sup>","108s<sup>5</sup>"],3],
+["পেপার ক্রোমাটোগ্রাফিতে R<sub>f</sub> এর মান নিচের কোনটি?",["1.5","2.0","0.5","1.0"],2],
+["অটো মোবাইল ক্যাটালাইটিক কনভার্টারে বায়ু দূষণ প্রতিরোধ যোদ্ধারূপে কোনটি ব্যবহৃত হয়?",["NO","CO","CO<sub>2</sub>","Pt"],3],
+
+["কোনটি বিশুদ্ধ অবস্থায় প্রস্তুত করা যায় না?",["HCl","Na<sub>2</sub>CO<sub>3</sub>","K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub>","H<sub>2</sub>C<sub>2</sub>O<sub>4</sub>"],0],
+["কোন হ্যালোজেন হাইড্রাসিডের শক্তিমাত্রা সর্বাধিক?",["HCl","HF","HBr","HI"],3],
+["কোনটি সঠিক নয়?",["Cr<sup>3+</sup> − বেগুনি","Co<sup>2+</sup> − গোলাপি","Ni<sup>2+</sup> − নীল","Fe<sup>3+</sup> − হলুদ"],2],
+["কোন সম্পৃক্ত দ্রবণটি লিকার অ্যামোনিয়া নামে পরিচিত?",["35–40% NH<sub>3</sub>","15–20% NH<sub>3</sub>","20–30% NH<sub>3</sub>","50–60% NH<sub>3</sub>"],0],
+["কোন গ্যাসটি শ্বাসযন্ত্রে প্রদাহ সৃষ্টি করে?",["CH<sub>4</sub>","SO<sub>2</sub>","CO<sub>2</sub>","CO"],1],
+["250 mL সেমিমোলার H<sub>2</sub>SO<sub>4</sub> দ্রবণে কত গ্রাম H<sub>2</sub>SO<sub>4</sub> থাকবে?",["2.25g","12.25g","4.75g","9.50g"],1],
+["2N<sub>2</sub>O<sub>5</sub>(g) → 4NO<sub>2</sub>(g) + O<sub>2</sub>(g) বিক্রিয়ার হার ধ্রুবকের একক কোনটি?",["M<sup>−1</sup>s<sup>−1</sup>","s<sup>−1</sup>","M<sup>−2</sup>s<sup>−1</sup>","Ms<sup>−1</sup>"],1],
+["প্রোটনের চার্জ esu এককে কত?",["1.6×10<sup>−19</sup>","9.1×10<sup>−28</sup>","1.673×10<sup>−24</sup>","4.8×10<sup>−10</sup>"],3],
+["কোনটিতে টিন্ডাল প্রভাব বিদ্যমান?",["কলেরা ভ্যাকসিন","গ্লুকোজ","রক্ত","বাটার"],3],
+["অক্সিজেন শোষণকারী অ্যান্টিঅক্সিডেন্ট নয় কোনটি?",["এসকরবিক এসিড","টকোফেরল","সালফাইট লবণ","BHT"],3],
+
+["কোনটি স্থায়ী সর্বাধিক সক্রিয় ধাতু?",["Fr","Cs","F","Na"],1],
+["পেয়ারা কৌটাজাতকরণে কোনটি যোগ করা হয়?",["এসকরবিক এসিড","ইথানল","ফরমালিন","বেনজয়িক এসিড"],0],
+["ক্রোমাটোগ্রাফিতে কোন মূলকযুক্ত মিশ্রণের অধিশোষণ হার বেশি?",["−OH","−CHO","−COOH","−NH<sub>2</sub>"],2],
+["কোন যৌগটি পানিতে অদ্রবণীয়?",["Be(OH)<sub>2</sub>","Ca(OH)<sub>2</sub>","Mg(OH)<sub>2</sub>","Sr(OH)<sub>2</sub>"],0],
+["কোন ক্ষেত্রে উভমুখী বিক্রিয়া পশ্চাৎমুখী হবে?",["Q<sub>c</sub> < K<sub>c</sub>","Q<sub>c</sub> ≤ K<sub>c</sub>","Q<sub>c</sub> > K<sub>c</sub>","Q<sub>c</sub> = K<sub>c</sub>"],2],
+["একটি দ্রবণে হাইড্রোজেন আয়নের মোলার ঘনমাত্রা 1×10<sup>−9</sup> হলে, হাইড্রক্সিল আয়নের মোলার ঘনমাত্রা কত?",["1×10<sup>−6</sup>","1×10<sup>−4</sup>","1×10<sup>−5</sup>","1×10<sup>−3</sup>"],2],
+["K = p.Z.e<sup>−Ea/RT</sup> সমীকরণে অ্যারহেনিয়াস ফ্রিকুয়েন্সি ফ্যাক্টর কোনটি?",["Z","pZ","−Ea/RT","p"],1],
+["ফুড প্রিজারভেটিভে ব্যবহৃত সাইট্রিক এসিডের pH কত?",["3.14","4.74","3.01","4.50"],0],
+["কোন বিক্রিয়ায় নিম্নচাপে উৎপাদ বেশি হবে?",["H<sub>2</sub> + I<sub>2</sub> ⇌ 2HI","N<sub>2</sub> + 3H<sub>2</sub> ⇌ 2NH<sub>3</sub>","PCl<sub>5</sub> ⇌ PCl<sub>3</sub> + Cl<sub>2</sub>","N<sub>2</sub> + O<sub>2</sub> ⇌ 2NO"],2],
+["কোনটি সুপার অক্সাইডের উদাহরণ?",["K<sub>2</sub>O","Pb<sub>2</sub>O","KO<sub>2</sub>","Na<sub>2</sub>O<sub>2</sub>"],2],
+
+["তেল ও চর্বিযুক্ত খাদ্যকে সংরক্ষণে কোনটি ব্যবহৃত হয়?",["BHA","BAH","BTA","EDTA"],0],
+["অসওয়াল্ড পদ্ধতিতে কোনটি উৎপাদিত হয়?",["NH<sub>3</sub>","H<sub>2</sub>SO<sub>4</sub>","H<sub>2</sub>","HNO<sub>3</sub>"],3],
+["কোনটি গ্রিন দ্রাবকরূপে ব্যবহৃত হয়?",["CH<sub>3</sub>Cl","CCl<sub>4</sub>","সুপার ক্রিটিকাল CO<sub>2</sub>","CHCl<sub>3</sub>"],2],
+["পল–বুঙ্গি ব্যালেন্সে 5mg রাইডার ব্যবহৃত হলে রাইডার ধ্রুবক কত হয়?",["0.001g","0.0001g","0.0002g","0.002g"],1],
+["NaCl দ্বারা খাদ্য সংরক্ষণ প্রক্রিয়াকে কী বলে?",["Retorting","Curing","Oiling","Pickling"],1],
+["s-ব্লক ও d-ব্লক মৌলসমূহের সংখ্যার ক্রম কোনটি?",["14, 41","36, 14","14, 36","41, 36"],0],
+["কোন পদার্থ কাচের পাত্রকে ক্ষয় করে?",["H<sub>3</sub>PO<sub>4</sub>","HF","HCl","অ্যাকুয়া রেজিয়া"],1],
+["অ্যামোনিয়া উৎপাদনে অত্যানুকূল তাপমাত্রা কত?",["500–550℃","400–500℃","500–650℃","200–300℃"],1],
+["ইনভার্ট চিনিকে ইথানলে পরিণত করতে কোনটি ব্যবহৃত হয়?",["ইনভারটেজ","জাইমেজ","অ্যাসিটোব্যাকটর","মাইকোডার্মা"],1],
+["সবচেয়ে কার্যকর কোয়াগুলেন্ট কোনটি?",["NaCl","KOH","Al<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub>","Mg(NO<sub>3</sub>)<sub>2</sub>"],2],
+
+["ভ্যান্টহফের সমীকরণ দ্বারা অংকিত গ্রাফের প্রকৃতি কিরূপ?",["উপবৃত্ত","সরলরৈখিক","পরাবৃত্ত","অধিবৃত্ত"],1],
+["2SO<sub>2</sub> + O<sub>2</sub> ⇌ 2SO<sub>3</sub>; বিক্রিয়াটিতে কোনটি প্রভাবক বিষরূপে ক্রিয়া করে?",["Pt","Mo","As<sub>2</sub>O<sub>3</sub>","MnO<sub>2</sub>"],2],
+["নিচের কোনটি অধিক তীব্র এসিড?",["H<sub>3</sub>PO<sub>4</sub>","HNO<sub>3</sub>","HClO<sub>4</sub>","H<sub>2</sub>SO<sub>4</sub>"],2],
+["Rear earth elements এর প্রধান জারণ সংখ্যা কোনটি?",["+1","+3","0","−3"],1],
+["অবিশুদ্ধ বেনজয়িক এসিডকে বিশোধনের জন্য ব্যবহৃত পদ্ধতি কোনটি?",["নিম্নচাপ পাতন","ঊর্ধ্বপাতন","আংশিক পাতন","বাষ্প পাতন"],1],
+["নিচের কোনটি emulsion নয়?",["দুধ","দই","ক্রিম","শ্যাম্পু"],1],
+["এনজাইমের কার্যকারিতার অত্যানুকূল তাপমাত্রা কত?",["47°C","17°C","27°C","37°C"],3],
+["কোনটি গ্যাসীয় জারক পদার্থ?",["H<sub>2</sub>O<sub>2</sub>","K<sub>3</sub>[Fe(CN)<sub>6</sub>]","Br<sub>2</sub>","Cl<sub>2</sub>"],3],
+["0.005 M H<sub>2</sub>SO<sub>4</sub> দ্রবণের pH কত?",["1.5","1","3","2"],3],
+["লেড ক্রোমেট এর বিকল্প বিকারক কোনটি?",["K<sub>2</sub>CO<sub>3</sub>","C<sub>6</sub>H<sub>14</sub>","Ca","CCl<sub>4</sub>"],0],
+
+["পাইরেক্স গ্লাস কি দ্বারা তৈরি করা হয়?",["ZnO + Ba–বোরো সিলিকেটস","MgO + Ba–সিলিকেটস","Na ও Ca সিলিকেটস","Si ও Ca সিলিকেটস"],0],
+["কোনটির মান সর্বদা ঋণাত্মক হয়?",["গলন তাপ","দ্রবণ তাপ","দহন তাপ","বিক্রিয়া তাপ"],2],
+["কোন সেটটিতে সমআয়ন প্রভাব বিদ্যমান?",["CaCl, C<sub>6</sub>H<sub>5</sub>Cl","NaCl, CH<sub>3</sub>Cl","CH<sub>4</sub>, HCl","H<sub>2</sub>S, HCl"],3],
+["H<sub>3</sub>PO<sub>3</sub> এর ক্ষারকত্ব কত?",["1","2","3","6"],1],
+["Water Bath এর সর্বোচ্চ তাপমাত্রা কত?",["100°C","0°C","99°C","273°C"],2],
+["ল্যাবরেটরিতে প্রধানত কোন গ্লাভস ব্যবহৃত হয়?",["জিটেক্স","নাইট্রাইল","ল্যাটেক্স","ভিনাইল"],1],
+["কোন আলোক রশ্মির ফ্রিকুয়েন্সি সর্বাধিক?",["গামা রশ্মি","রঞ্জন রশ্মি","অবলোহিত রশ্মি","অতিবেগুনি রশ্মি"],0],
+["সোডিয়াম বেনজোয়েটে এর সর্বাধিক গ্রহণযোগ্য মাত্রা কত?",["0.1%","1.0%","0.001%","0.01%"],0],
+["কোন কোয়ান্টাম সেটটি অবাস্তব নয়?",["1,0,1,−½","2,1,0,−½","2,1,−2,+½","2,2,+1,+½"],1],
+["কত তাপমাত্রায় ব্লু–ভিট্রিওল সাদা পাউডারে পরিণত হয়?",["200°C","63°C","650°C","109°C"],0],
+
+["[Cu(NH<sub>3</sub>)<sub>4</sub>]<sup>2+</sup> আয়ন গঠনে Cu<sup>2+</sup> এ কোন সংকরায়ণ ঘটে?",["spd<sup>2</sup>","sp<sup>2</sup>d","sp<sup>3</sup>","sp"],1],
+["হেসের সূত্রের প্রয়োগ ঘটে কোন ক্ষেত্রে?",["পরমাণুকরণ তাপ নির্ণয়","দ্রবণ তাপ নির্ণয়","বিক্রিয়া তাপ নির্ণয়","গলন তাপ নির্ণয়"],2],
+["বুনসেন বার্নারে অনুজ্জ্বল শিখায় জারণ মণ্ডলে সর্বোচ্চ তাপমাত্রা কত হয়?",["801°C","1280°C","1570°C","1630°C"],2],
+["কোনটির জন্য হ্যাজার্ড প্রতীক (F+H) প্রযোজ্য নয়?",["C<sub>6</sub>H<sub>5</sub>CH<sub>3</sub>","CH<sub>3</sub>COOH","C<sub>6</sub>H<sub>6</sub>","C<sub>2</sub>H<sub>5</sub>OH"],1],
+["মিল্ক অব লাইম বলা হয় কোনটি?",["Ca(OH)<sub>2</sub> + H<sub>2</sub>O","NaOH + H<sub>2</sub>O","Mg(OH)<sub>2</sub> + H<sub>2</sub>O","NH<sub>4</sub>OH + H<sub>2</sub>O"],0],
+["নিচের কোনটির ক্ষেত্রে বোর তত্ত্ব প্রযোজ্য নয়?",["H","He<sup>+</sup>","Be<sup>2+</sup>","Li<sup>2+</sup>"],2],
+["মেহেদির রঙের কারণ কোনটি?",["2–অক্সো বেনজো কুইনোন","2–হাইড্রক্সি বেনজ্যালডিহাইড","2–হাইড্রক্সি বেনজো কুইনোন","2–হাইড্রক্সি 1,4–ন্যাপথা কুইনোন"],3],
+["শরীরের ত্বকে বা চোখে ক্ষার পড়লে কোনটি ব্যবহার করা হয়?",["5% CH<sub>3</sub>COOH","5% H<sub>3</sub>BO<sub>3</sub>","4% Na<sub>2</sub>CO<sub>3</sub>","5% NaHCO<sub>3</sub>"],1],
+["N<sub>2</sub> + 3H<sub>2</sub> ⇌ 2NH<sub>3</sub>; বিক্রিয়াটিতে K<sub>p</sub> ও K<sub>c</sub> এর সম্পর্ক কোনটি?",["K<sub>p</sub> = K<sub>c</sub>(RT)<sup>2</sup>","K<sub>c</sub> = K<sub>p</sub>(RT)<sup>2</sup>","K<sub>p</sub> = K<sub>c</sub>(RT)<sup>0</sup>","K<sub>c</sub> = K<sub>p</sub>(RT)<sup>4</sup>"],1],
+["কোন প্রক্রিয়ায় <sup>226</sup><sub>88</sub>Ra থেকে <sup>222</sup><sub>86</sub>Rn তৈরি হয়?",["β emission","γ emission","α emission","neutron emission"],2],
+
+["সিলভার নাইট্রেট দ্রবণ দ্বারা কোন আয়নকে শনাক্ত করা হয়?",["SO<sub>4</sub><sup>2−</sup>","Cl<sup>−</sup>","CO<sub>3</sub><sup>2−</sup>","HCO<sub>3</sub><sup>−</sup>"],1],
+["বন্ধনকোণের কোন ক্রমটি সঠিক?",["PH<sub>3</sub> > NF<sub>3</sub> > H<sub>2</sub>O > NH<sub>3</sub>","NF<sub>3</sub> > NH<sub>3</sub> > PH<sub>3</sub> > H<sub>2</sub>O","H<sub>2</sub>O > PH<sub>3</sub> > NH<sub>3</sub> > NF<sub>3</sub>","NH<sub>3</sub> > H<sub>2</sub>O > NF<sub>3</sub> > PH<sub>3</sub>"],3],
+["সংগৃহীত দুধের pH নিয়ন্ত্রণে কোনটি মেশানো হয়?",["Na<sub>2</sub>SO<sub>4</sub>","(NH<sub>4</sub>)<sub>2</sub>SO<sub>4</sub>","NaHCO<sub>3</sub>","KHCO<sub>3</sub>"],2],
+["বোর ব্যাসার্ধের মান কত?",["5.29×10<sup>−11</sup> nm","5.29×10<sup>−11</sup> m","1.09678×10<sup>−2</sup> nm<sup>−1</sup>","1.09678×10<sup>7</sup> m<sup>−1</sup>"],1],
+["বিজোড় ইলেকট্রন সংখ্যার কোন ক্রমটি সঠিক?",["Fe<sup>2+</sup> > Cr<sup>3+</sup> > Mn<sup>2+</sup>","Mn<sup>2+</sup> > Cr<sup>3+</sup> > Fe<sup>2+</sup>","Cr<sup>3+</sup> > Fe<sup>2+</sup> > Mn<sup>2+</sup>","Mn<sup>2+</sup> > Fe<sup>2+</sup> > Cr<sup>3+</sup>"],3],
+["কোনটি ডায়াম্যাগনেটিক নয়?",["Sc<sup>3+</sup>","Ti<sup>4+</sup>","Cu<sup>2+</sup>","Zn<sup>2+</sup>"],2],
+["কোনটি সাম্যাবস্থার শর্ত নয়?",["সাম্যের স্থায়িত্ব","বিক্রিয়ার সম্পূর্ণতা","প্রভাবকের ভূমিকাহীনতা","উভয়দিকে সুগম্যতা"],1],
+["কোন দুটি মৌল অষ্টক সম্প্রসারণ করে?",["Al, S","Al, Si","Si, P","Al, Sb"],2],
+["ইলেকট্রন আসক্তির কোন ক্রমটি সঠিক?",["S>Se>Te>Po>O","O>S>Se>Te>Po","O>Se>S>Po>Te","Se>S>Te>Po>O"],0],
+["কোন যৌগে তাপমাত্রা বাড়ালে দ্রাব্যতা বাড়ে?",["Li<sub>2</sub>SO<sub>4</sub>","Ca(NO<sub>3</sub>)<sub>2</sub>","Pb(NO<sub>3</sub>)<sub>2</sub>","NaOH"],2],
+
+["কোন সার উদ্ভিদের ফুল ধারণে সহায়তা করে?",["(NH<sub>4</sub>)<sub>2</sub>SO<sub>4</sub>","KNO<sub>3</sub>","Urea","NH<sub>4</sub>NO<sub>3</sub>"],1],
+["সেমিমাইক্রো পদ্ধতিতে ব্যবহৃত নমুনার ক্ষেত্রে গ্রহণযোগ্য নমুনার ভর কত?",["260 mg","40 mg","60 mg","250 mg"],2],
+["রক্তের pH নিয়ন্ত্রক নয় কোনটি?",["সালফেট বাফার","বাইকার্বনেট বাফার","প্রোটিন বাফার","ফসফেট বাফার"],0],
+["অপটিকেল সেন্সররূপে কত তরঙ্গদৈর্ঘ্যের UV রশ্মি ব্যবহৃত হয়?",["230–365 nm","200–400 nm","240–280 nm","230–380 nm"],3],
+["নিচের কোনটি সর্বোত্তম পরিষ্কারক?",["KMnO<sub>4</sub> + লঘু H<sub>2</sub>SO<sub>4</sub>","K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub> + গাঢ় HCl","KMnO<sub>4</sub> + লঘু HCl","K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub> + গাঢ় H<sub>2</sub>SO<sub>4</sub>"],3],
+["C এর তড়িৎ ঋণাত্মকতার মান কত?",["2.5","3.0","3.5","2.1"],0],
+["পর্যায় সারণির একই গ্রুপে ওপর থেকে নিচের দিকে হ্রাস পায় কোনটি?",["অম্লীয় ধর্ম","ক্ষারকীয় ধর্ম","ধাতব ধর্ম","বিজারণ ক্ষমতা"],0],
+["কোনটি কম্পোজিট কণিকা?",["<sup>4</sup><sub>2</sub>He<sup>+</sup>","<sup>4</sup><sub>2</sub>He","<sup>2</sup><sub>1</sub>D","<sup>2</sup><sub>1</sub>H<sup>+</sup>"],3],
+["কোনটি NMR সক্রিয় নয়?",["<sup>19</sup>F","<sup>1</sup>H","<sup>13</sup>C","<sup>16</sup>O"],3],
+["কোনটি ‘হাইপো’ এসিড?",["HBrO","HBrO<sub>4</sub>","HBrO<sub>2</sub>","HBrO<sub>3</sub>"],0],
+
+["কোল্ড ক্রিমে প্রিজারভেটিভ হিসেবে ব্যবহৃত হয় কোনটি?",["ওয়াক্স","প্যারাফিন","বোরাক্স","গ্লিসারিন"],2],
+["বৈদ্যুতিক বাল্বে নিষ্ক্রিয় পরিবেশ রূপে কোনটি ব্যবহৃত হয়?",["Ar","Ne","He","Kr–Xe"],0],
+["কোনটি শুষ্ককারক ও নিরুদক পদার্থ?",["SiO<sub>2</sub>","Al<sub>2</sub>O<sub>3</sub>","KHSO<sub>4</sub>","P<sub>2</sub>O<sub>5</sub>"],3],
+["ব্যুরেটের ক্ষুদ্রতম 1 ভাগের আয়তন কত?",["0.001 cm<sup>3</sup>","1.0 cm<sup>3</sup>","0.1 cm<sup>3</sup>","0.01 cm<sup>3</sup>"],2],
+["মারকারির কোন রেখা বর্ণালি সুস্পষ্ট হয় না?",["লাল","নীল","কমলা","সবুজ"],1],
+["খাদ্যদ্রব্য পচনে অন্যতম সহায়ক কোনটি?",["O<sub>2</sub>","SO<sub>2</sub>","NO<sub>2</sub>","N<sub>2</sub>O"],0],
+["কোন প্রাণীর দুধে ক্যালরি মান বেশি?",["মহিষ","গাভী","উট","ভেড়া"],0],
+["পানির গলন তাপের পরিমাণ কত?",["−6 kJ/mol","+6 kJ/mol","−44 kJ/mol","+44 kJ/mol"],1],
+["টেলকম পাউডার প্রস্তুতির মূল উপাদান কোনটি?",["C<sub>3</sub>H<sub>8</sub>O<sub>3</sub>","Na<sub>2</sub>B<sub>4</sub>O<sub>7</sub>·10H<sub>2</sub>O","CaCO<sub>3</sub>·MgCO<sub>3</sub>","3MgO·4SiO<sub>2</sub>·H<sub>2</sub>O"],3],
+["<sub>39</sub>Y মৌলটির পর্যায় সারণিতে অবস্থান কোনটি?",["পর্যায়–5, গ্রুপ–2","পর্যায়–5, গ্রুপ–1","পর্যায়–5, গ্রুপ–13","পর্যায়–5, গ্রুপ–3"],3]
+];
+
+const NEG=0.25, L=["A","B","C","D"];
+let cur=0, ans=new Array(Q.length).fill(-1), flag=new Array(Q.length).fill(false), left=0, tm=null, done=false;
+const $=id=>document.getElementById(id);
+
+function start(){
+  left=Math.max(1,parseInt($("mins").value)||60)*60;
+  $("setup").classList.add("hide"); $("exam").classList.remove("hide");
+  render(); tick(); tm=setInterval(tick,1000);
+}
+function tick(){
+  if(done)return;
+  if(left<=0){finish(false);return;}
+  const m=Math.floor(left/60),s=left%60;
+  const t=$("timer"); t.textContent=String(m).padStart(2,"0")+":"+String(s).padStart(2,"0");
+  t.classList.toggle("low",left<=300); left--;
+}
+function render(){
+  const q=Q[cur];
+  $("prog").textContent="প্রশ্ন "+(cur+1)+" / "+Q.length+" · উত্তর দিয়েছেন "+ans.filter(a=>a>=0).length;
+  $("qcard").innerHTML='<div class="qtext">'+(cur+1)+'. '+q[0]+(flag[cur]?'<span class="badge">রিভিউ</span>':'')+'</div>'+
+    q[1].map((o,i)=>'<div class="opt'+(ans[cur]===i?' sel':'')+'" onclick="pick('+i+')"><span class="l">'+L[i]+'</span><span>'+o+'</span></div>').join("")+
+    '<div class="nav"><button onclick="go(-1)" '+(cur?'':'disabled')+'>← আগের</button>'+
+    '<span><button onclick="clr()">মুছুন</button> <button onclick="fl()">'+(flag[cur]?'রিভিউ সরান':'রিভিউ')+'</button></span>'+
+    '<button class="pri" onclick="go(1)" '+(cur<Q.length-1?'':'disabled')+'>পরের →</button></div>';
+  $("navgrid").innerHTML=Q.map((_,i)=>'<button class="'+(ans[i]>=0?'ans ':'')+(flag[i]?'flag ':'')+(i===cur?'cur':'')+'" onclick="jump('+i+')">'+(i+1)+'</button>').join("");
+}
+function pick(i){ans[cur]=(ans[cur]===i?-1:i);render();}
+function clr(){ans[cur]=-1;render();}
+function fl(){flag[cur]=!flag[cur];render();}
+function go(d){cur=Math.min(Q.length-1,Math.max(0,cur+d));render();window.scrollTo(0,0);}
+function jump(i){cur=i;render();window.scrollTo(0,0);}
+document.addEventListener("keydown",e=>{
+  if(done||$("exam").classList.contains("hide"))return;
+  if(e.key==="ArrowRight")go(1); else if(e.key==="ArrowLeft")go(-1);
+  else if("1234".includes(e.key)&&e.key.length===1)pick(+e.key-1);
+});
+
+function finish(ask){
+  if(ask){const un=ans.filter(a=>a<0).length;
+    if(!confirm(un?un+"টি প্রশ্নের উত্তর দেননি। জমা দিতে চান?":"পরীক্ষা জমা দিতে চান?"))return;}
+  done=true; clearInterval(tm);
+  let c=0,w=0,u=0; ans.forEach((a,i)=>{if(a<0)u++;else if(a===Q[i][2])c++;else w++;});
+  const ded=w*NEG, score=c-ded;
+  $("exam").classList.add("hide"); $("result").classList.remove("hide");
+  $("stats").innerHTML=
+    '<div class="stat"><b>'+score.toFixed(2)+' / '+Q.length+'</b>চূড়ান্ত নম্বর</div>'+
+    '<div class="stat"><b style="color:var(--ok)">'+c+'</b>সঠিক</div>'+
+    '<div class="stat"><b style="color:var(--bad)">'+w+'</b>ভুল (−'+ded.toFixed(2)+')</div>'+
+    '<div class="stat"><b>'+u+'</b>উত্তর দেননি</div>';
+  $("rgrid").innerHTML=Q.map((q,i)=>'<button class="'+(ans[i]<0?'':ans[i]===q[2]?'r':'w')+'" onclick="document.getElementById(\'rv'+i+'\').scrollIntoView()">'+(i+1)+'</button>').join("");
+  $("review").innerHTML=Q.map((q,i)=>'<div class="card" id="rv'+i+'"><div class="qtext">'+(i+1)+'. '+q[0]+'</div>'+
+    q[1].map((o,j)=>'<div class="opt'+(j===q[2]?' right':(j===ans[i]?' wrong':''))+'"><span class="l">'+L[j]+'</span><span>'+o+'</span></div>').join("")+
+    (ans[i]<0?'<div class="mut">উত্তর দেওয়া হয়নি</div>':'')+'</div>').join("");
+  window.scrollTo(0,0);
+}
+</script>
+</body>
+</html>
