@@ -79,7 +79,7 @@ class Builder:
             lab = bn(self.fn)
             out.append('<text:note text:id="ftn%d" text:note-class="footnote">'
                        '<text:note-citation text:label="%s">%s</text:note-citation>'
-                       '<text:note-body><text:p text:style-name="Footnote">%s</text:p>'
+                       '<text:note-body><text:p text:style-name="Footnote"><text:s/>%s</text:p>'
                        '</text:note-body></text:note>' % (len(self.used) + 1, lab, lab,
                                                           escape(notes[key])))
             self.used.add((id(notes), key))
