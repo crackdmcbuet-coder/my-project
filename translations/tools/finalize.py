@@ -39,11 +39,13 @@ def main():
         if t.count('‘') > 3 * max(1, t.count('“') + t.count('"')):
             t = swap_quotes(t)
             counts[f'part{i} quotes swapped'] = 1
+        t = t.replace('আহাদীস', '\x03')  # keep the Arabic plural in book titles
         for a, b in SUBS:
             c = t.count(a)
             if c:
                 counts[a] = counts.get(a, 0) + c
                 t = t.replace(a, b)
+        t = t.replace('\x03', 'আহাদীস')
         dest = book / 'bn' / f'part{i}.txt'
         dest.write_text(t.rstrip('\n') + '\n', encoding='utf-8')
         files.append(str(dest))
