@@ -204,6 +204,8 @@ STYLES = '\n'.join([
     pstyle('Translator', 'fo:text-align="center" fo:margin-bottom="0.1cm" fo:line-height="140%"',
            tp(HEAD, size=14, bold=True)),
     pstyle('Publisher', 'fo:text-align="center" fo:margin-top="1.1cm" fo:line-height="140%"', tp(HEAD, size=13, bold=True)),
+    '<style:style style:name="ArInline" style:family="text">' + tp(ARAB, size=14, extra=ARLANG) + '</style:style>',
+    '<style:style style:name="ArInlineFn" style:family="text">' + tp(ARAB, size=10, extra=ARLANG) + '</style:style>',
     '<style:style style:name="FnAnchor" style:family="text"><style:text-properties style:text-position="super 62%"/></style:style>',
     '<text:notes-configuration text:note-class="footnote" style:num-format="1" text:start-numbering-at="document" '
     'text:footnotes-position="page" text:citation-style-name="FnAnchor" text:citation-body-style-name="FnAnchor" '
@@ -255,12 +257,24 @@ def smart(t):
     return t.replace("'", '\u2019')
 
 
-def inline(text, notes, counter, log):
+AR_RUN = re.compile('[\u0600-\u06ff\ufd3e\ufd3f]+(?:[ ]+[\u0600-\u06ff\ufd3e\ufd3f]+)*')
+
+
+def esc(text, style='ArInline'):
+    """XML-escape and set Arabic runs inside Bengali text in the Arabic font."""
+    t = escape(text)
+    if not style:
+        return t
+    return AR_RUN.sub(lambda m: '<text:span text:style-name="%s">%s</text:span>' % (style, m.group(0)), t)
+
+
+def inline(text, notes, counter, log, arabic=False):
     """Escape text and turn [^label] into real footnotes."""
     text = smart(text)
+    st = None if arabic else 'ArInline'
     out, pos = [], 0
     for m in re.finditer(r'\[\^([^\]]+)\]', text):
-        out.append(escape(text[pos:m.start()]))
+        out.append(esc(text[pos:m.start()], st))
         pos = m.end()
         lab = m.group(1)
         if lab not in notes:
@@ -271,8 +285,8 @@ def inline(text, notes, counter, log):
         num = str(counter[0]).translate(BN)
         out.append('<text:note text:note-class="footnote"><text:note-citation text:label="%s">%s</text:note-citation>'
                    '<text:note-body><text:p text:style-name="Footnote">%s</text:p></text:note-body></text:note>'
-                   % (num, num, escape(smart(notes[lab]))))
-    out.append(escape(text[pos:]))
+                   % (num, num, esc(smart(notes[lab]), 'ArInlineFn')))
+    out.append(esc(text[pos:], st))
     return ''.join(out)
 
 
@@ -307,7 +321,7 @@ def build(meta, blocks, notes, log):
             body.append('<text:p text:style-name="%s">%s</text:p>' % ('VerseEnd' if last else 'Verse', inline(text, notes, counter, log)))
         else:
             st = {'p': 'Standard', 'sub': 'SubHead', 'ar': 'Arabic', 'center': 'Centered'}[kind]
-            body.append('<text:p text:style-name="%s">%s</text:p>' % (st, inline(text, notes, counter, log)))
+            body.append('<text:p text:style-name="%s">%s</text:p>' % (st, inline(text, notes, counter, log, arabic=(kind == 'ar'))))
     for k in notes:
         if not k.endswith('\0used') and (k + '\0used') not in notes:
             log.append('FOOTNOTE never referenced: ' + k)
